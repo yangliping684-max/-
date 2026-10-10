@@ -1,0 +1,64 @@
+# Builds the web app together with the latest data/ and config/ and deploys it to GitHub Pages.
+# Runs on code/config pushes, and is called by monitor.yml after each monitoring run
+# (pushes made with GITHUB_TOKEN do not trigger other workflows, so monitor calls this directly).
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+    paths: ["web/**", "config/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      data-artifact:
+        description: "Name of an artifact containing a fresher data/ directory than the repository"
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # When called after a monitor run, build from the latest main (which may contain
+          # the data commit just pushed), not from the commit that triggered the run.
+          ref: ${{ github.event_name == 'push' && github.sha || github.event.repository.default_branch }}
+      - name: Use data from this monitor run (includes the fresh check time even if not committed)
+        if: inputs.data-artifact != ''
+        uses: actions/download-artifact@v4
+        with:
+          name: ${{ inputs.data-artifact }}
+          path: data
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci
+        working-directory: web
+      - run: npm run build
+        working-directory: web
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

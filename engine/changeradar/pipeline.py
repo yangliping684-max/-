@@ -1,0 +1,323 @@
+"""The monitoring run: config → fetch → parse → diff → filter/dedup → score → persist → notify."""
+
+from __future__ import annotations
+
+import logging
+import os
+import re
+from dataclasses import dataclass, field
+from datetime import UTC, datetime, timedelta
+from pathlib import Path
+from typing import Any
+
+from . import notify
+from .config import load_rules, load_sources
+from .diff import Change, detect_changes, suspicious_shrink
+from .fetcher import FetchError, Fetcher
+from .models import (
+    ChangeType, Event, Notification, RulesConfig, RunRecord, Source, SourceState,
+    SourceStatus, SourceType,
+)
+from .parsers import ParseError, parse
+from .scoring import ScoreInput, score
+from .store import Store
+from .textutil import canonical_url, extract_deadline, match_keywords, short_hash
+
+log = logging.getLogger(__name__)
+
+FAILURE_STATUSES = {SourceStatus.FETCH_ERROR, SourceStatus.PARSE_ERROR, SourceStatus.BLOCKED}
+# On quiet days at most one "heartbeat" commit; real changes are always persisted.
+HEARTBEAT_INTERVAL = timedelta(hours=20)
+GITHUB_REPO_RE = re.compile(r"^https://github\.com/([^/]+)/([^/#?]+)")
+
+
+@dataclass
+class RunSummary:
+    run: RunRecord
+    new_events: list[Event] = field(default_factory=list)
+    persist: bool = False
+    persist_reason: str = ""
+
+
+def github_api_url(source: Source) -> str:
+    if source.url.startswith("https://api.github.com/"):
+        return source.url
+    m = GITHUB_REPO_RE.match(source.url)
+    if not m:
+        raise ValueError("github_releases 的 url 必须是 https://github.com/<owner>/<repo>[/releases]")
+    return f"https://api.github.com/repos/{m.group(1)}/{m.group(2)}/releases?per_page=30"
+
+
+def _request_plan(source: Source) -> tuple[str, dict[str, str], bool]:
+    """Return (url, headers, check_robots).
+
+    robots.txt governs crawlers of web pages and feeds. Official APIs are governed by
+    their own terms of use instead (api.github.com's robots.txt disallows everything
+    because the API is not meant for crawlers), so robots is not applied to them.
+    """
+    if source.type == SourceType.GITHUB_RELEASES:
+        headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+        token = os.environ.get("GITHUB_TOKEN")
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+        return github_api_url(source), headers, False
+    if source.type == SourceType.API:
+        return source.url, {"Accept": "application/json"}, False
+    if source.type == SourceType.RSS:
+        return source.url, {"Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}, True
+    return source.url, {"Accept": "text/html,application/xhtml+xml"}, True
+
+
+def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetime) -> Event:
+    item, prev = change.item, change.previous
+    title = item.title if item else (prev.title if prev else "")
+    url = item.url if item else (prev.url if prev else source.url)
+    summary = item.summary if item else (prev.summary if prev else "")
+    if change.change_type == ChangeType.MODIFIED and change.diff:
+        added = [ln for ln in change.diff["added"] if ln.strip()]
+        if added:
+            summary = "新增/修改内容：" + " / ".join(added)[:400]
+    published = item.published_at if item else (prev.published_at if prev else None)
+    haystack = f"{title}\n{summary}\n{item.text if item else ''}"
+    matched = match_keywords(haystack, source.keywords)
+    alerts = match_keywords(haystack, rules.alert_keywords)
+    deadline = extract_deadline(haystack)
+
+    pts, level, factors = score(
+        ScoreInput(change_type=change.change_type, priority=source.priority, credibility=source.credibility,
+                   matched_keywords=tuple(matched), alert_keywords=tuple(alerts),
+                   published_at=published, deadline=deadline, minor=change.minor),
+        now, rules.levels,
+    )
+    extra = dict(item.extra) if item else {}
+    if change.minor:
+        extra["minor"] = "true"
+    return Event(
+        id=short_hash(source.id, change.key, change.change_type.value, change.hash),
+        source_id=source.id, source_name=source.name, category=source.category,
+        change_type=change.change_type, title=title or "（无标题）", url=url, summary=summary,
+        detected_at=now, published_at=published,
+        source_updated_at=item.updated_at if item else None,
+        matched_keywords=matched, alert_keywords=alerts,
+        deadline=deadline.isoformat() if deadline else None,
+        score=pts, level=level, score_factors=factors, diff=change.diff, extra=extra,
+    )
+
+
+def _passes_filters(source: Source, event: Event) -> bool:
+    text = f"{event.title}\n{event.summary}"
+    if source.exclude_keywords and match_keywords(text, source.exclude_keywords):
+        return False
+    if source.require_keywords and source.keywords and not event.matched_keywords:
+        return False
+    return True
+
+
+def run(
+    config_dir: Path,
+    data_dir: Path,
+    *,
+    fetcher: Fetcher | None = None,
+    now: datetime | None = None,
+    trigger: str = "manual",
+    only: set[str] | None = None,
+) -> RunSummary:
+    started = now or datetime.now(UTC)
+    sources_cfg = load_sources(config_dir)
+    rules = load_rules(config_dir)
+    store = Store(data_dir)
+
+    status = store.load_status()
+    states: dict[str, SourceState] = status.get("sources", {})
+    events = store.load_events()
+    known_ids = {e.id for e in events} | store.archived_event_ids()
+    # Cross-source / GUID-churn duplicates: same source+URL, or same URL from another source.
+    known_urls: dict[str, str] = {}
+    for e in events:
+        if e.change_type in (ChangeType.ADDED, ChangeType.INITIAL):
+            known_urls.setdefault(canonical_url(e.url), e.source_id)
+
+    own_fetcher = fetcher is None
+    fetcher = fetcher or Fetcher()
+    run_rec = RunRecord(id=started.strftime("%Y%m%dT%H%M%SZ"), started_at=started, finished_at=started, trigger=trigger)
+    new_events: list[Event] = []
+    system_notes: list[Notification] = []
+    content_changed = False
+
+    configured_ids = {s.id for s in sources_cfg.sources}
+    if set(states) - configured_ids:
+        content_changed = True  # sources removed from config
+    states = {k: v for k, v in states.items() if k in configured_ids}
+
+    try:
+        for source in sources_cfg.sources:
+            if only and source.id not in only:
+                continue
+            prev_state = states.get(source.id) or SourceState(id=source.id)
+            state = prev_state.model_copy()
+            run_rec.sources_total += 1
+
+            if not source.enabled:
+                state.status, state.message = SourceStatus.PAUSED, "已暂停监控"
+                run_rec.sources_paused += 1
+                states[source.id] = state
+                content_changed |= prev_state.status != state.status
+                continue
+
+            now_i = now or datetime.now(UTC)
+            state.last_checked_at = now_i
+            prev_snap = store.load_snapshot(source.id)
+            try:
+                url, headers, check_robots = _request_plan(source)
+                res = fetcher.fetch(url, headers=headers, check_robots=check_robots,
+                                    etag=prev_snap.etag if prev_snap else None,
+                                    last_modified=prev_snap.last_modified if prev_snap else None)
+                state.http_status = res.status
+                if res.not_modified and prev_snap is not None:
+                    state.status, state.message = SourceStatus.UNCHANGED, "服务器返回 304：内容未修改"
+                    state.item_count = len(prev_snap.items)
+                else:
+                    items = parse(source, res.text, res.url)
+                    if not items and prev_snap and prev_snap.items:
+                        raise ParseError("本次没有解析到任何条目，已保留上次快照（需人工确认）")
+                    if suspicious_shrink(prev_snap, items):
+                        raise ParseError(
+                            f"条目数从 {len(prev_snap.items)} 骤降到 {len(items)}，疑似页面结构变化，"
+                            "已保留上次快照（需人工确认）")
+                    result = detect_changes(source, prev_snap, items, now_i,
+                                            etag=res.etag, last_modified=res.last_modified)
+                    kept = filtered = dupes = 0
+                    for change in result.changes:
+                        ev = _make_event(source, change, rules, now_i)
+                        if ev.id in known_ids:
+                            dupes += 1
+                            continue
+                        if not _passes_filters(source, ev):
+                            filtered += 1
+                            continue
+                        if change.change_type in (ChangeType.ADDED, ChangeType.INITIAL):
+                            cu = canonical_url(ev.url)
+                            if cu != canonical_url(source.url) and cu in known_urls:
+                                dupes += 1
+                                continue
+                            known_urls[cu] = source.id
+                        known_ids.add(ev.id)
+                        new_events.append(ev)
+                        kept += 1
+                    run_rec.filtered += filtered
+                    run_rec.duplicates += dupes
+                    state.item_count = len(items)
+                    if prev_snap is None:
+                        state.status = SourceStatus.OK
+                        state.message = f"已建立基线：{len(items)} 个条目，首次收录 {kept} 条"
+                    elif result.changes:
+                        state.status = SourceStatus.CHANGED
+                        state.message = f"发现 {len(result.changes)} 处变化，生成 {kept} 条情报" + (
+                            f"，{filtered} 条被规则过滤" if filtered else "") + (f"，{dupes} 条重复已忽略" if dupes else "")
+                        state.last_change_at = now_i
+                    else:
+                        state.status, state.message = SourceStatus.UNCHANGED, f"{len(items)} 个条目，无变化"
+                    etag_changed = prev_snap is not None and (prev_snap.etag, prev_snap.last_modified) != (res.etag, res.last_modified)
+                    if result.content_changed or etag_changed:
+                        store.save_snapshot(result.snapshot)
+                        content_changed = True
+                state.last_success_at = now_i
+                state.consecutive_failures = 0
+                run_rec.sources_ok += 1
+            except FetchError as exc:
+                state.status = SourceStatus.BLOCKED if exc.blocked else SourceStatus.FETCH_ERROR
+                state.message, state.http_status = str(exc), exc.status
+            except ParseError as exc:
+                state.status, state.message = SourceStatus.PARSE_ERROR, f"解析失败：{exc}"
+            except ValueError as exc:  # e.g. malformed github url
+                state.status, state.message = SourceStatus.PARSE_ERROR, f"配置错误：{exc}"
+
+            if state.status in FAILURE_STATUSES:
+                state.consecutive_failures = prev_state.consecutive_failures + 1
+                run_rec.sources_failed += 1
+                run_rec.errors.append({"source_id": source.id, "status": state.status.value, "message": state.message})
+                if prev_state.status not in FAILURE_STATUSES:
+                    system_notes.append(Notification(
+                        id="system-" + short_hash(source.id, now_i.isoformat()), kind="system",
+                        created_at=now_i, title=f"信息源异常：{source.name}", body=state.message))
+                log.warning("[%s] %s: %s", source.id, state.status.value, state.message)
+            else:
+                log.info("[%s] %s: %s", source.id, state.status.value, state.message)
+            if (prev_state.status, prev_state.message) != (state.status, state.message):
+                content_changed = True
+            states[source.id] = state
+    finally:
+        if own_fetcher:
+            fetcher.close()
+
+    finished = now or datetime.now(UTC)
+    run_rec.finished_at = finished
+    run_rec.new_events = len(new_events)
+
+    # ---------------------------------------------------------------- notifications
+    notifications = store.load_notifications()
+    notified = store.load_notified()
+    already = set(notified["event_ids"])
+    alerts = notify.select_alerts(new_events, rules, already)
+    if alerts:
+        notifications.append(notify.build_alert(alerts, finished))
+        notified["event_ids"] += [e.id for e in alerts]
+    notifications += system_notes
+
+    all_events = events + new_events
+    today = notify.local_day(finished, rules.timezone)
+    events_today = [e for e in all_events if notify.local_day(e.detected_at, rules.timezone) == today]
+    digest_md = None
+    if new_events:
+        notifications, digest_md = notify.upsert_digest(notifications, today, events_today, rules, finished)
+        if digest_md:
+            store.write_digest(today, digest_md)
+
+    issue_url = _maybe_issue(rules, new_events, notified, today, digest_md)
+    if issue_url:
+        notifications.append(Notification(id="system-issue-" + short_hash(issue_url), kind="system",
+                                          created_at=finished, title="已创建 GitHub Issue 通知", body=issue_url))
+
+    # ---------------------------------------------------------------- persist
+    meaningful = content_changed or bool(new_events) or bool(alerts) or bool(system_notes)
+    last_persisted = status.get("last_persisted_at")
+    stale = (last_persisted is None or
+             finished - datetime.fromisoformat(last_persisted) >= HEARTBEAT_INTERVAL)
+    persist = meaningful or stale
+    reason = "data-changed" if meaningful else ("daily-heartbeat" if stale else "")
+
+    store.save_events(all_events, finished)
+    runs = store.load_runs()
+    runs.append(run_rec)
+    store.save_runs(runs)
+    store.save_notifications(notifications)
+    store.save_notified(notified)
+    last_ok = status.get("last_successful_run_at")
+    if run_rec.sources_ok > 0:
+        last_ok = finished.isoformat()
+    store.save_status({
+        "generated_at": finished.isoformat(),
+        "last_run": run_rec,
+        "last_successful_run_at": last_ok,
+        "last_persisted_at": finished.isoformat() if persist else last_persisted,
+        "sources": states,
+    })
+    return RunSummary(run=run_rec, new_events=new_events, persist=persist, persist_reason=reason)
+
+
+def _maybe_issue(rules: RulesConfig, new_events: list[Event], notified: dict[str, Any],
+                 today: str, digest_md: str | None) -> str | None:
+    cfg = rules.github_issue
+    if not cfg.enabled or not digest_md:
+        return None
+    worthy = [e for e in new_events
+              if e.change_type != ChangeType.INITIAL and notify.at_least(e.level, cfg.min_level)]
+    issued = notified["issues"].get(today, [])
+    if not worthy or len(issued) >= cfg.max_issues_per_day:
+        return None
+    url = notify.create_github_issue(f"知更日报 {today}（{len(worthy)} 条达到提醒级别）", digest_md, cfg.labels)
+    if url:
+        notified["issues"][today] = issued + [url]
+        # keep the issue log bounded
+        notified["issues"] = dict(sorted(notified["issues"].items())[-60:])
+    return url

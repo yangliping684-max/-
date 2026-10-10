@@ -1,0 +1,85 @@
+# Daily monitoring run: read config → fetch public sources → diff → update data/ → deploy.
+name: Monitor
+
+on:
+  schedule:
+    # GitHub cron is UTC and may start late under load; minute 17 avoids the top-of-hour rush.
+    # 23:17 UTC = 07:17 Asia/Shanghai.
+    - cron: "17 23 * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only check these source ids (comma separated, empty = all)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write   # commit updated data/
+  issues: write     # optional GitHub Issues notifications (off unless enabled in rules.json)
+  pages: write      # deploy (via pages.yml)
+  id-token: write
+
+# Never run two monitors at once: they would race on data/ and on git push.
+concurrency:
+  group: changeradar-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      persist: ${{ steps.run.outputs.persist }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: engine/pyproject.toml
+      - run: pip install -e ./engine
+
+      - name: Run monitor
+        id: run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub API rate limit + optional issues
+          CHANGERADAR_USER_AGENT: "ChangeRadar/0.1 (+https://github.com/${{ github.repository }})"
+        run: python -m changeradar run --only "${{ inputs.only }}"
+        continue-on-error: true   # persist status/errors even if every source failed
+
+      - name: Commit data (only when something meaningful changed)
+        if: steps.run.outputs.persist == 'true'
+        run: |
+          git config user.name "changeradar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Nothing to commit"; exit 0; fi
+          git commit -m "data: monitor run $(date -u +%Y-%m-%dT%H:%MZ) (${{ steps.run.outputs.persist_reason }}, ${{ steps.run.outputs.new_events }} new)"
+          # Someone may have pushed config changes meanwhile: rebase (data/ is only written here).
+          for i in 1 2 3 4; do
+            git pull --rebase origin "${{ github.event.repository.default_branch }}" && git push && exit 0
+            sleep $((i * 5))
+          done
+          echo "::error::Failed to push data after 4 attempts"; exit 1
+
+      - name: Keep fresh data for the deployment
+        uses: actions/upload-artifact@v4
+        with:
+          name: changeradar-data
+          path: data
+          retention-days: 3
+
+      - name: Fail the job if the monitor itself failed
+        if: steps.run.outcome == 'failure'
+        run: |
+          echo "::error::Monitor reported a failure (all sources failed or invalid config). See the 'Run monitor' step log."
+          exit 1
+
+  deploy:
+    needs: monitor
+    if: ${{ !cancelled() }}
+    uses: ./.github/workflows/pages.yml
+    with:
+      data-artifact: changeradar-data

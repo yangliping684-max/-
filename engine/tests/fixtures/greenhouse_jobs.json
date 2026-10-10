@@ -1,0 +1,9 @@
+{"jobs": [
+  {"id": 501, "title": "Research Engineer, Agents", "absolute_url": "https://boards.example.com/jobs/501",
+   "updated_at": "2026-10-08T10:00:00-04:00", "first_published": "2026-10-07T09:00:00-04:00",
+   "location": {"name": "San Francisco, CA"}},
+  {"id": 502, "title": "Software Engineer Intern", "absolute_url": "https://boards.example.com/jobs/502",
+   "updated_at": "2026-10-09T10:00:00-04:00", "location": {"name": "London, UK"}},
+  {"id": null, "title": "malformed row"},
+  "not-a-dict"
+], "meta": {"total": 2}}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE (offline sample, not real data) -->
+<rss version="2.0">
+  <channel>
+    <title>示例科技博客</title>
+    <link>https://example.com/blog</link>
+    <description>Offline test feed</description>
+    <item>
+      <title>Open-source model release: Example-LLM 7B</title>
+      <link>https://example.com/blog/example-llm-7b</link>
+      <guid>https://example.com/blog/example-llm-7b</guid>
+      <pubDate>Sat, 10 Oct 2026 06:00:00 GMT</pubDate>
+      <description>Weights and an evaluation report are available.</description>
+    </item>
+    <item>
+      <title>Security advisory for Example CLI</title>
+      <link>https://example.com/blog/advisory-1</link>
+      <guid>https://example.com/blog/advisory-1</guid>
+      <pubDate>Sat, 10 Oct 2026 07:00:00 GMT</pubDate>
+      <description>Upgrade to 2.0.1. Apply by Oct 31, 2026.</description>
+    </item>
+    <item>
+      <title>Example Agent SDK 2.0 发布</title>
+      <link>https://example.com/blog/agent-sdk-2</link>
+      <guid>https://example.com/blog/agent-sdk-2</guid>
+      <pubDate>Fri, 09 Oct 2026 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>新版本支持   <b>MCP</b> 与多 Agent 协作。</p>]]></description>
+    </item>
+    <item>
+      <title>2027 届暑期实习开放申请</title>
+      <link>https://example.com/blog/internship-2027</link>
+      <guid>https://example.com/blog/internship-2027</guid>
+      <pubDate>Thu, 08 Oct 2026 02:00:00 GMT</pubDate>
+      <description>面向在校生的研发实习岗位，申请截止日期：2026年10月20日。</description>
+    </item>
+  </channel>
+</rss>

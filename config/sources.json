@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "categories": [
+    { "id": "jobs", "name": "实习与招聘", "description": "公开的企业招聘、校园招聘与实习机会", "color": "#0ea5e9" },
+    { "id": "ai", "name": "AI 与科技", "description": "官方产品公告、开发工具版本、模型发布与开源项目更新", "color": "#8b5cf6" },
+    { "id": "macro", "name": "宏观与财经", "description": "官方数据发布、央行公告、经济指标与金融监管信息", "color": "#f59e0b" },
+    { "id": "academic", "name": "学术与教育", "description": "高校通知、招生政策、竞赛与科研资讯", "color": "#10b981" },
+    { "id": "custom", "name": "自定义", "description": "其他符合访问规则的公开信息源", "color": "#64748b" }
+  ],
+  "sources": [
+    {
+      "id": "claude-code-releases",
+      "name": "Claude Code Releases",
+      "type": "github_releases",
+      "url": "https://github.com/anthropics/claude-code",
+      "category": "ai",
+      "keywords": ["MCP", "agent", "subagent", "hooks"],
+      "priority": 4,
+      "credibility": "official",
+      "baseline_items": 5,
+      "notes": "GitHub REST API（官方接口）。Actions 中使用 GITHUB_TOKEN 以获得更高的速率限额。"
+    },
+    {
+      "id": "openai-python-releases",
+      "name": "OpenAI Python SDK Releases",
+      "type": "github_releases",
+      "url": "https://github.com/openai/openai-python",
+      "category": "ai",
+      "keywords": ["responses", "realtime", "agents"],
+      "priority": 3,
+      "credibility": "official",
+      "baseline_items": 5,
+      "notes": "官方 SDK 发布记录，可间接反映 API 新功能。"
+    },
+    {
+      "id": "fed-press-releases",
+      "name": "Federal Reserve Press Releases",
+      "type": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "category": "macro",
+      "keywords": ["FOMC", "federal funds rate", "monetary policy", "statement"],
+      "priority": 4,
+      "credibility": "official",
+      "baseline_items": 5,
+      "notes": "美联储官方新闻稿 RSS（官方政策与公告，不含媒体观点）。"
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI 新论文（关键词过滤）",
+      "type": "rss",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "category": "academic",
+      "keywords": ["agent", "agents", "LLM", "large language model", "benchmark"],
+      "require_keywords": true,
+      "priority": 2,
+      "credibility": "reliable",
+      "max_items": 300,
+      "baseline_items": 5,
+      "notes": "arXiv 官方 RSS，每日更新量较大，只保留命中关键词的论文。预印本未经同行评审。"
+    },
+    {
+      "id": "python-releases",
+      "name": "Python.org 版本发布",
+      "type": "html",
+      "url": "https://www.python.org/downloads/",
+      "category": "ai",
+      "priority": 2,
+      "credibility": "official",
+      "baseline_items": 3,
+      "track_removals": false,
+      "html": {
+        "selector": ".download-list-widget",
+        "item_selector": "ol.list-row-container > li",
+        "title_selector": ".release-number",
+        "link_selector": ".release-number a",
+        "date_selector": ".release-date"
+      },
+      "notes": "普通网页监控示例：通过 CSS 选择器定位版本列表。页面改版时会报“解析失败”而不是误报变化。"
+    },
+    {
+      "id": "anthropic-jobs",
+      "name": "Anthropic 公开职位（Greenhouse）",
+      "type": "api",
+      "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
+      "category": "jobs",
+      "keywords": ["intern", "internship", "new grad", "university", "early career"],
+      "priority": 4,
+      "credibility": "official",
+      "max_items": 500,
+      "baseline_items": 10,
+      "api": {
+        "items_path": "jobs",
+        "id_field": "id",
+        "title_field": "title",
+        "url_field": "absolute_url",
+        "published_field": "first_published",
+        "updated_field": "updated_at",
+        "extra_fields": { "location": "location.name" }
+      },
+      "notes": "Greenhouse 公开职位接口（为第三方嵌入职位列表提供的官方 API）。仅展示接口返回的字段，不推断学历要求或截止日期。"
+    }
+  ]
+}

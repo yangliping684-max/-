@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TEST FIXTURE (offline sample, not real data) -->
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example Releases</title>
+  <id>tag:example.com,2026:releases</id>
+  <updated>2026-10-09T10:00:00Z</updated>
+  <entry>
+    <title>v1.4.0</title>
+    <id>tag:example.com,2026:v1.4.0</id>
+    <link href="/releases/v1.4.0"/>
+    <updated>2026-10-09T10:00:00Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;Faster sync&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>v1.3.0</title>
+    <id>tag:example.com,2026:v1.3.0</id>
+    <link href="https://example.com/releases/v1.3.0"/>
+    <published>2026-09-01T09:00:00Z</published>
+    <updated>2026-09-02T09:00:00Z</updated>
+    <summary>Bug fixes</summary>
+  </entry>
+</feed>

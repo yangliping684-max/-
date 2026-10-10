@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE (offline sample, not real data) -->
+<rss version="2.0">
+  <channel>
+    <title>示例科技博客</title>
+    <link>https://example.com/blog</link>
+    <description>Offline test feed</description>
+    <item>
+      <title>Example Agent SDK 2.0 发布</title>
+      <link>https://example.com/blog/agent-sdk-2?utm_source=rss</link>
+      <guid>https://example.com/blog/agent-sdk-2</guid>
+      <pubDate>Fri, 09 Oct 2026 08:00:00 GMT</pubDate>
+      <description><![CDATA[<p>新版本支持 <b>MCP</b> 与多 Agent 协作。</p><script>track()</script>]]></description>
+    </item>
+    <item>
+      <title>2027 届暑期实习开放申请</title>
+      <link>https://example.com/blog/internship-2027</link>
+      <guid>https://example.com/blog/internship-2027</guid>
+      <pubDate>Thu, 08 Oct 2026 02:00:00 GMT</pubDate>
+      <description>面向在校生的研发实习岗位，申请截止日期：2026年10月20日。</description>
+    </item>
+    <item>
+      <title>Weekly digest #41</title>
+      <link>https://example.com/blog/weekly-41</link>
+      <guid>https://example.com/blog/weekly-41</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Sponsored: things we read this week.</description>
+    </item>
+  </channel>
+</rss>

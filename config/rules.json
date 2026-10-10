@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "timezone": "Asia/Shanghai",
+  "levels": { "high": 70, "medium": 45 },
+  "alert_keywords": ["实习", "intern", "截止", "deadline", "FOMC"],
+  "importance_threshold": 70,
+  "max_alerts_per_run": 20,
+  "digest": { "enabled": true, "max_items": 30, "min_level": "low" },
+  "github_issue": { "enabled": false, "min_level": "high", "labels": ["changeradar"], "max_issues_per_day": 1 }
+}

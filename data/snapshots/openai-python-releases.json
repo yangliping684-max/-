@@ -1,0 +1,280 @@
+{
+  "source_id": "openai-python-releases",
+  "taken_at": "2026-10-10T18:34:11.916004Z",
+  "etag": "W/\"701ddfe6ada96c2a3ea07a486d0fcbfa78400b14154837e3dcb0ebd77f805c11\"",
+  "last_modified": null,
+  "items": {
+    "408335115": {
+      "title": "v3.28.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.28.0",
+      "hash": "d4ba4ae7d1e2eb67",
+      "summary": "## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...v3.28.0) (2026-10-09)\n### Features\n* **api:** add agent environment suspension and expiration ([#4046](https://github.com/openai/openai-python/issues/4046)) ([6aa25a9](https://github.com/openai/openai-python/commit/6aa25a9959f451ef67de948b792779e3d130a9c2))\n### Chores\n* **deps:** bump astral-sh/setup-uv from 10.1.0 to 10.2.0 ([#4026](https://github.com/openai/openai-python/issues/4026)) ([8bfffd4](https://github.com/openai/openai-python/commit/8bfffd40158460d0f5e651590b95cfef5292d93e))\n* **deps:** bump CodeQL init and analy…",
+      "published_at": "2026-10-09T20:49:22Z",
+      "text": ""
+    },
+    "407958991": {
+      "title": "v3.27.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.27.0",
+      "hash": "9bb230cd25abbccc",
+      "summary": "## [3.27.0](https://github.com/openai/openai-python/compare/v3.26.1...v3.27.0) (2026-10-09)\n### Features\n* **api:** add prewarmed hosted environments ([#4043](https://github.com/openai/openai-python/issues/4043)) ([c511a77](https://github.com/openai/openai-python/commit/c511a77159bc870f31c34388311b7cc62ef15f08))",
+      "published_at": "2026-10-09T13:46:41Z",
+      "text": ""
+    },
+    "406621674": {
+      "title": "v3.26.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.26.1",
+      "hash": "62de6ca2c9b32e34",
+      "summary": "## [3.26.1](https://github.com/openai/openai-python/compare/v3.26.0...v3.26.1) (2026-10-08)\n### Bug Fixes\n* **api:** correct custom voice creation parameters ([#4038](https://github.com/openai/openai-python/issues/4038)) ([b9bc5c1](https://github.com/openai/openai-python/commit/b9bc5c141d395165939eccfcfe42d1ed8219ec6a))",
+      "published_at": "2026-10-08T08:53:32Z",
+      "text": ""
+    },
+    "405156906": {
+      "title": "v3.26.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.26.0",
+      "hash": "eeec31c0390aedfe",
+      "summary": "## [3.26.0](https://github.com/openai/openai-python/compare/v3.25.0...v3.26.0) (2026-10-06)\n### Features\n* **api:** add standalone Decisions support ([#4033](https://github.com/openai/openai-python/issues/4033)) ([b99e3e4](https://github.com/openai/openai-python/commit/b99e3e4eee03e99eebc2c762eee9d73fdd4b0eff))",
+      "published_at": "2026-10-06T21:29:50Z",
+      "text": ""
+    },
+    "405001092": {
+      "title": "v3.25.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.25.0",
+      "hash": "f0469b429e951195",
+      "summary": "## [3.25.0](https://github.com/openai/openai-python/compare/v3.24.0...v3.25.0) (2026-10-06)\n### Features\n* **agents:** observe local tool failures ([#4028](https://github.com/openai/openai-python/issues/4028)) ([95d9645](https://github.com/openai/openai-python/commit/95d9645128cb370b9b04413492b864179602c008))\n* **agents:** run local tools during streamed session creation ([#4027](https://github.com/openai/openai-python/issues/4027)) ([919b623](https://github.com/openai/openai-python/commit/919b6236382f3f9f76d8453efb9f9ad03cff1126))\n* **api:** add agent turn items and usage source grouping ([#…",
+      "published_at": "2026-10-06T17:56:54Z",
+      "text": ""
+    },
+    "401955127": {
+      "title": "v3.24.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.24.0",
+      "hash": "65633a7ad574e2c6",
+      "summary": "## [3.24.0](https://github.com/openai/openai-python/compare/v3.23.0...v3.24.0) (2026-10-02)\n### Features\n* **api:** add custom voice creation and agent session events ([#4013](https://github.com/openai/openai-python/issues/4013)) ([e5de2e5](https://github.com/openai/openai-python/commit/e5de2e5656fb3d4fa70f050195382e6a4d59f806))\n### Bug Fixes\n* **api:** prioritize Python request routing fields ([#4014](https://github.com/openai/openai-python/issues/4014)) ([ffcc4c4](https://github.com/openai/openai-python/commit/ffcc4c47279debd9daff6103da57dcde2efd38bd))\n* **api:** prioritize routing fields i…",
+      "published_at": "2026-10-02T15:54:21Z",
+      "text": ""
+    },
+    "401419028": {
+      "title": "v3.23.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.23.0",
+      "hash": "3f9458d2ea4c4b5b",
+      "summary": "## [3.23.0](https://github.com/openai/openai-python/compare/v3.22.1...v3.23.0) (2026-10-01)\n### Features\n* **agents:** [1/n] return typed answers from session streams ([#4007](https://github.com/openai/openai-python/issues/4007)) ([10f8816](https://github.com/openai/openai-python/commit/10f88169b0f3929b4e2528aad7a825df31163156))\n* **agents:** stage files and download turn artifacts ([#4009](https://github.com/openai/openai-python/issues/4009)) ([4fc2438](https://github.com/openai/openai-python/commit/4fc2438ea73f8c1a4802b0cd5ab7607fc3cc1d16))\n* **api:** Add session traces and Realtime transla…",
+      "published_at": "2026-10-01T23:02:59Z",
+      "text": ""
+    },
+    "399620973": {
+      "title": "v3.22.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
+      "hash": "cfcd22487bc6c408",
+      "summary": "## [3.22.1](https://github.com/openai/openai-python/compare/v3.22.0...v3.22.1) (2026-09-30)\n### Bug Fixes\n* **api:** correct the missing authentication error message ([#3993](https://github.com/openai/openai-python/issues/3993)) ([51692ed](https://github.com/openai/openai-python/commit/51692ed3f9d2b87084801295f824c2202dac3785)), closes [#3962](https://github.com/openai/openai-python/issues/3962)\n* transform NotRequired typed dictionary fields ([#3995](https://github.com/openai/openai-python/issues/3995)) ([5544c18](https://github.com/openai/openai-python/commit/5544c18c19f125718ed9c4f7c42866c…",
+      "published_at": "2026-09-30T00:25:09Z",
+      "text": ""
+    },
+    "399444387": {
+      "title": "v3.22.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.22.0",
+      "hash": "c5eb276dd1f6514e",
+      "summary": "## [3.22.0](https://github.com/openai/openai-python/compare/v3.21.0...v3.22.0) (2026-09-29)\n### Features\n* **api:** add computer use to beta agents ([#3989](https://github.com/openai/openai-python/issues/3989)) ([f5dddb5](https://github.com/openai/openai-python/commit/f5dddb5a199f899d9439ac3187c9c0f2d3e4082e))",
+      "published_at": "2026-09-29T19:06:45Z",
+      "text": ""
+    },
+    "399383340": {
+      "title": "v3.21.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.21.0",
+      "hash": "584c7d33063884b0",
+      "summary": "## [3.21.0](https://github.com/openai/openai-python/compare/v3.20.0...v3.21.0) (2026-09-29)\n### Features\n* **api:** add GPT-6.1 Sol model identifier ([#3986](https://github.com/openai/openai-python/issues/3986)) ([160b2c0](https://github.com/openai/openai-python/commit/160b2c0230b9afac15862dcdf8a764e5bae18eb3))",
+      "published_at": "2026-09-29T17:40:31Z",
+      "text": ""
+    },
+    "398410319": {
+      "title": "v3.20.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.20.0",
+      "hash": "5784914c479c56d7",
+      "summary": "## [3.20.0](https://github.com/openai/openai-python/compare/v3.19.2...v3.20.0) (2026-09-28)\n### Features\n* **api:** add Agents credential and session options ([#3967](https://github.com/openai/openai-python/issues/3967)) ([bb68198](https://github.com/openai/openai-python/commit/bb68198a4bb4a161cbb32a28c3888a51540eaf0f))\n* **api:** add Cyber access programs to Responses ([#3956](https://github.com/openai/openai-python/issues/3956)) ([09c5b6f](https://github.com/openai/openai-python/commit/09c5b6f13f716ad4e417fd7ba9209a8a057e0383))\n* **responses:** opt in to incremental WebSocket text and tool…",
+      "published_at": "2026-09-28T16:04:13Z",
+      "text": ""
+    },
+    "395162305": {
+      "title": "v3.19.2",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.19.2",
+      "hash": "bf8c1105d3d4f65e",
+      "summary": "## [3.19.2](https://github.com/openai/openai-python/compare/v3.19.1...v3.19.2) (2026-09-23)\n### Bug Fixes\n* preserve single files for fallback extraction paths ([#3875](https://github.com/openai/openai-python/issues/3875)) ([bfd3680](https://github.com/openai/openai-python/commit/bfd3680c8d3b715bb3175b82cd0fa1c1fb53162f))\n### Chores\n* **api:** clarify approximate web search location defaults ([#3953](https://github.com/openai/openai-python/issues/3953)) ([a95c95e](https://github.com/openai/openai-python/commit/a95c95ed372476168e9893723ff694ead5db8586))\n* **api:** clarify Realtime modality arr…",
+      "published_at": "2026-09-24T00:05:23Z",
+      "text": ""
+    },
+    "394980404": {
+      "title": "v3.19.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.19.1",
+      "hash": "c11e5542f6ab537a",
+      "summary": "## [3.19.1](https://github.com/openai/openai-python/compare/v3.19.0...v3.19.1) (2026-09-23)\n### Bug Fixes\n* **chat:** preserve single-pass tool iterables ([#3770](https://github.com/openai/openai-python/issues/3770)) ([33ffa1f](https://github.com/openai/openai-python/commit/33ffa1f9fa4f49553ab0287b9359283be818fe40))\n* **client:** merge HTTP headers case-insensitively ([#3486](https://github.com/openai/openai-python/issues/3486)) ([5e39766](https://github.com/openai/openai-python/commit/5e39766dd7ba2802c97f5305721a621098cf0e38))\n### Chores\n* **api:** clarify Chat Completions seed limits ([#394…",
+      "published_at": "2026-09-23T19:15:40Z",
+      "text": ""
+    },
+    "394202065": {
+      "title": "v3.19.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.19.0",
+      "hash": "dd9a05be903cbc4a",
+      "summary": "## [3.19.0](https://github.com/openai/openai-python/compare/v3.18.0...v3.19.0) (2026-09-22)\n### Features\n* **api:** add GCP external storage support ([#3943](https://github.com/openai/openai-python/issues/3943)) ([d12d60f](https://github.com/openai/openai-python/commit/d12d60fff9f5624f2dc50ade3d832028f4fecaa7))\n* **api:** add GPT-Rosalind research model ([#3940](https://github.com/openai/openai-python/issues/3940)) ([d041d73](https://github.com/openai/openai-python/commit/d041d736f75f03f6c87aa77f932823011691bac5))\n### Bug Fixes\n* **_utils/_transform:** propagate __api_exclude__ in _async_tran…",
+      "published_at": "2026-09-23T00:08:02Z",
+      "text": ""
+    },
+    "394011990": {
+      "title": "v3.18.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.18.0",
+      "hash": "077e0d3b809fc270",
+      "summary": "## [3.18.0](https://github.com/openai/openai-python/compare/v3.17.0...v3.18.0) (2026-09-22)\n### Features\n* **api:** add GPT-6 Sol and Luna model identifiers ([#3935](https://github.com/openai/openai-python/issues/3935)) ([455ce1b](https://github.com/openai/openai-python/commit/455ce1b5da067e5d7631c86a571ca3b0d03b65cd))",
+      "published_at": "2026-09-22T18:25:48Z",
+      "text": ""
+    },
+    "393417568": {
+      "title": "v3.17.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.17.0",
+      "hash": "b23152f0f0188fcf",
+      "summary": "## [3.17.0](https://github.com/openai/openai-python/compare/v3.16.2...v3.17.0) (2026-09-22)\n### Features\n* **api:** add external storage configuration management ([#3909](https://github.com/openai/openai-python/issues/3909)) ([6332577](https://github.com/openai/openai-python/commit/6332577d3fb5f83f7f381a431460262f7192402d))\n* **api:** add safety case retrieval ([#3911](https://github.com/openai/openai-python/issues/3911)) ([a87b938](https://github.com/openai/openai-python/commit/a87b938545b34c1880b9914b43a5039072f40b09))\n* **api:** add safety warning and deactivation webhook events ([#3908](h…",
+      "published_at": "2026-09-22T02:36:34Z",
+      "text": ""
+    },
+    "391794888": {
+      "title": "v3.16.2",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.16.2",
+      "hash": "77a9f51cd733012a",
+      "summary": "## [3.16.2](https://github.com/openai/openai-python/compare/v3.16.1...v3.16.2) (2026-09-18)\n### Bug Fixes\n* **parsing:** drop TextFormatT parameterization in parse_response to fix memory leak ([#3084](https://github.com/openai/openai-python/issues/3084)) ([#3088](https://github.com/openai/openai-python/issues/3088)) ([009b7f6](https://github.com/openai/openai-python/commit/009b7f6ae6493e1abfa7583449595f144c8beb5a))",
+      "published_at": "2026-09-18T21:26:27Z",
+      "text": ""
+    },
+    "391717640": {
+      "title": "v3.16.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.16.1",
+      "hash": "fd16a460c5cbfa61",
+      "summary": "## [3.16.1](https://github.com/openai/openai-python/compare/v3.16.0...v3.16.1) (2026-09-18)\n### Bug Fixes\n* **api:** avoid loading unrelated API resources on first use ([#3898](https://github.com/openai/openai-python/issues/3898)) ([68e4317](https://github.com/openai/openai-python/commit/68e4317aa3df4b6e7a5ea3f75833bdd7d76e447d))",
+      "published_at": "2026-09-18T19:00:33Z",
+      "text": ""
+    },
+    "391558145": {
+      "title": "v3.16.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.16.0",
+      "hash": "bfdee4bfe362286b",
+      "summary": "## [3.16.0](https://github.com/openai/openai-python/compare/v3.15.0...v3.16.0) (2026-09-18)\n### Features\n* **api:** add webhook endpoint management ([#3892](https://github.com/openai/openai-python/issues/3892)) ([9a11f6e](https://github.com/openai/openai-python/commit/9a11f6e874292230633073fb64ea6202ad22a1df))\n### Chores\n* **api:** deprecate MCP connector_id ([#3894](https://github.com/openai/openai-python/issues/3894)) ([1ccaf07](https://github.com/openai/openai-python/commit/1ccaf07fb9a4d1a2be9d97c77604ce75214a9940))",
+      "published_at": "2026-09-18T14:52:49Z",
+      "text": ""
+    },
+    "391145104": {
+      "title": "v3.15.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.15.0",
+      "hash": "26aa5f8864242ec8",
+      "summary": "## [3.15.0](https://github.com/openai/openai-python/compare/v3.14.1...v3.15.0) (2026-09-18)\n### Features\n* **api:** add agent session model settings ([#3882](https://github.com/openai/openai-python/issues/3882)) ([4b15817](https://github.com/openai/openai-python/commit/4b1581771ea97c870187f6ddfc3dbc87ff4fa443))\n* **api:** add audio-mini model choices ([#3886](https://github.com/openai/openai-python/issues/3886)) ([a6eeb3f](https://github.com/openai/openai-python/commit/a6eeb3f5a468ec576d2c911c19ce59c56ac46e43))\n* **api:** add compaction progress events ([#3866](https://github.com/openai/opena…",
+      "published_at": "2026-09-18T00:52:15Z",
+      "text": ""
+    },
+    "389534885": {
+      "title": "v3.14.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.14.1",
+      "hash": "7a789f383df30942",
+      "summary": "## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...v3.14.1) (2026-09-15)\n### Bug Fixes\n* **client:** validate retry limits and preserve application errors ([#3867](https://github.com/openai/openai-python/issues/3867)) ([f86c721](https://github.com/openai/openai-python/commit/f86c7214093038faa512bd4883558b093bdb8c9a))\n* correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message ([#3022](https://github.com/openai/openai-python/issues/3022)) ([7186203](https://github.com/openai/openai-python/commit/718620397c38a546d2cbbc964983c286db7abf97))\n* **examples:** correct Azure…",
+      "published_at": "2026-09-15T23:12:54Z",
+      "text": ""
+    },
+    "388771890": {
+      "title": "v3.14.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.14.0",
+      "hash": "1d4f2be086d185d8",
+      "summary": "## [3.14.0](https://github.com/openai/openai-python/compare/v3.13.0...v3.14.0) (2026-09-14)\n### Features\n* **streaming:** normalize errors raised while reading streams ([#3827](https://github.com/openai/openai-python/issues/3827)) ([d7c41ef](https://github.com/openai/openai-python/commit/d7c41efee1b0802b79f3f88a678ef2052b06e9ce))\n### Bug Fixes\n* bound vector store file polling ([#3401](https://github.com/openai/openai-python/issues/3401)) ([ae41bc4](https://github.com/openai/openai-python/commit/ae41bc46cdd53d17e948ac8a73e16bdbf34123a1))\n* **example:** refresh realtime push_to_talk_app sessio…",
+      "published_at": "2026-09-14T23:28:28Z",
+      "text": ""
+    },
+    "386569042": {
+      "title": "v3.13.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.13.0",
+      "hash": "8d8424ecb51f3296",
+      "summary": "## [3.13.0](https://github.com/openai/openai-python/compare/v3.12.0...v3.13.0) (2026-09-10)\n### Features\n* **api:** add Agents API ([1c4284a](https://github.com/openai/openai-python/commit/1c4284a08294f734d57047585ab82e2e09d3a5bc))",
+      "published_at": "2026-09-10T19:37:39Z",
+      "text": ""
+    },
+    "386487493": {
+      "title": "v3.12.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.12.0",
+      "hash": "3c8098a753d7aa28",
+      "summary": "## [3.12.0](https://github.com/openai/openai-python/compare/v3.11.0...v3.12.0) (2026-09-10)\n### Features\n* **api:** Add Live API ([0e4bfef](https://github.com/openai/openai-python/commit/0e4bfef9c79251fcf4926fd732129627bde050f1))\n### Bug Fixes\n* add aclose() to AsyncStream for standard async cleanup ([#2854](https://github.com/openai/openai-python/issues/2854)) ([802b334](https://github.com/openai/openai-python/commit/802b334928d8f0c3e24e5fce15a0eaa1b28c61cd))\n* handle bare `dict` and `list` annotations without type arguments ([#3760](https://github.com/openai/openai-python/issues/3760)) ([c7…",
+      "published_at": "2026-09-10T17:28:42Z",
+      "text": ""
+    },
+    "385641107": {
+      "title": "v3.11.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.11.0",
+      "hash": "5a95408ff03a1070",
+      "summary": "## [3.11.0](https://github.com/openai/openai-python/compare/v3.10.0...v3.11.0) (2026-09-09)\n### Features\n* **api:** Add expiration controls for service account keys ([#3825](https://github.com/openai/openai-python/issues/3825)) ([f348ec8](https://github.com/openai/openai-python/commit/f348ec87b934c98889102668913e0a3ae7fc303d))",
+      "published_at": "2026-09-09T15:31:33Z",
+      "text": ""
+    },
+    "385141311": {
+      "title": "v3.10.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.10.0",
+      "hash": "563bc3a38b496fb0",
+      "summary": "## [3.10.0](https://github.com/openai/openai-python/compare/v3.9.0...v3.10.0) (2026-09-08)\n### Features\n* **api:** add GPT Image 2.5 models and image options ([#3824](https://github.com/openai/openai-python/issues/3824)) ([5b39c45](https://github.com/openai/openai-python/commit/5b39c453ee5ee8f46fba0bd9cb4ae47fa5ee6d51))\n* **api:** add service-account API key expiration fields ([#3802](https://github.com/openai/openai-python/issues/3802)) ([f1cd7f0](https://github.com/openai/openai-python/commit/f1cd7f020210ec3fc71699fc46d90320ddbb411c))",
+      "published_at": "2026-09-09T00:17:39Z",
+      "text": ""
+    },
+    "384903679": {
+      "title": "v3.9.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.9.0",
+      "hash": "62b2651db3f61e08",
+      "summary": "## [3.9.0](https://github.com/openai/openai-python/compare/v3.8.0...v3.9.0) (2026-09-05)\n### Features\n* **api:** Add prompt cache diagnostics ([#3800](https://github.com/openai/openai-python/issues/3800)) ([8326784](https://github.com/openai/openai-python/commit/83267847a0219ea8b584c9d60f92c7a4dffd392a))\n* **api:** correct function argument completion event fields (openapi-545) ([#3801](https://github.com/openai/openai-python/issues/3801)) ([2a98f6a](https://github.com/openai/openai-python/commit/2a98f6a1dee448c6410531c89c2de0af4383c6a7))\n### Bug Fixes\n* **api:** accept incomplete web search…",
+      "published_at": "2026-09-08T16:42:27Z",
+      "text": ""
+    },
+    "382291811": {
+      "title": "v3.8.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.8.0",
+      "hash": "51ca338fc3aef24f",
+      "summary": "## [3.8.0](https://github.com/openai/openai-python/compare/v3.7.0...v3.8.0) (2026-09-03)\n### Features\n* **api:** add gpt-6-astra and related features ([#3791](https://github.com/openai/openai-python/issues/3791)) ([09f446f](https://github.com/openai/openai-python/commit/09f446f5f8623d79464568dc91b9dc258e74bcae))\n### Documentation\n* add canonical SDK security model ([#3778](https://github.com/openai/openai-python/issues/3778)) ([2a097b9](https://github.com/openai/openai-python/commit/2a097b991bb23a26bde9da8ea286f850ac1329f1))",
+      "published_at": "2026-09-03T19:50:24Z",
+      "text": ""
+    },
+    "380922829": {
+      "title": "v3.7.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.7.0",
+      "hash": "9ce020a6d1877bce",
+      "summary": "## [3.7.0](https://github.com/openai/openai-python/compare/v3.6.0...v3.7.0) (2026-09-02)\n### Features\n* **api:** update usage APIs and documentation ([#3779](https://github.com/openai/openai-python/issues/3779)) ([6f0da16](https://github.com/openai/openai-python/commit/6f0da16573086401a7b171f4bd14a78f22c9d0e9))\n### Bug Fixes\n* avoid repeated numpy checks for embeddings ([#3757](https://github.com/openai/openai-python/issues/3757)) ([b19c216](https://github.com/openai/openai-python/commit/b19c2161b1eac80fbf1f6f67a64a50af99c53356))",
+      "published_at": "2026-09-02T01:30:12Z",
+      "text": ""
+    },
+    "378795694": {
+      "title": "v3.6.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.6.0",
+      "hash": "be51ca3198bbc453",
+      "summary": "## [3.6.0](https://github.com/openai/openai-python/compare/v3.5.0...v3.6.0) (2026-08-27)\n### Features\n* **api:** add compute_units to Responses and Chat Completions usage ([#3749](https://github.com/openai/openai-python/issues/3749)) ([52421d1](https://github.com/openai/openai-python/commit/52421d197e96b4480fcc16e78345578996452c79))\n### Bug Fixes\n* **auth:** harden X.509 workload identity integration ([#3740](https://github.com/openai/openai-python/issues/3740)) ([fc3ad6c](https://github.com/openai/openai-python/commit/fc3ad6c55a1a250e16707396e86d7373f690a0fc))\n### Chores\n* **deps-dev:** bump…",
+      "published_at": "2026-08-28T22:28:31Z",
+      "text": ""
+    }
+  },
+  "seen_keys": [
+    "408335115",
+    "407958991",
+    "406621674",
+    "405156906",
+    "405001092",
+    "401955127",
+    "401419028",
+    "399620973",
+    "399444387",
+    "399383340",
+    "398410319",
+    "395162305",
+    "394980404",
+    "394202065",
+    "394011990",
+    "393417568",
+    "391794888",
+    "391717640",
+    "391558145",
+    "391145104",
+    "389534885",
+    "388771890",
+    "386569042",
+    "386487493",
+    "385641107",
+    "385141311",
+    "384903679",
+    "382291811",
+    "380922829",
+    "378795694"
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "source_id": "claude-code-releases",
+  "taken_at": "2026-10-10T18:34:11.409547Z",
+  "etag": "W/\"afae8dc7c465ba75e0dba5d428957c23cb8b261c76224e754035249b65542723\"",
+  "last_modified": null,
+  "items": {
+    "408141042": {
+      "title": "v2.1.296",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "hash": "7ed7665648227566",
+      "summary": "## What's changed\n- Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode\n- Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window\n- Added `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` to run every workflow agent on one model while other subagents keep theirs\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS` environment variable to set a longer maximum delay…",
+      "published_at": "2026-10-09T19:28:59Z",
+      "text": ""
+    },
+    "407134589": {
+      "title": "v2.1.295",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "hash": "21f7d0983bb2c614",
+      "summary": "## What's changed\n- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without its `>` markers\n- Added a warning to `claude plugin install`, `enable`, `disable` and `marketplace add` when the settings file they write to does not load\n- Added a line on stderr, wh…",
+      "published_at": "2026-10-08T19:48:38Z",
+      "text": ""
+    },
+    "406385982": {
+      "title": "v2.1.294",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "hash": "c9a6b50339a5d3f2",
+      "summary": "## What's changed\n- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "published_at": "2026-10-08T05:03:54Z",
+      "text": ""
+    },
+    "405988533": {
+      "title": "v2.1.293",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "hash": "4d7921c748857096",
+      "summary": "## What's changed\n- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of behind tool search\n- Fixed Claude sometimes treating its own last actions before a context compaction as done after it, and retracting or redoing finished work\n- Fixed a memory leak whe…",
+      "published_at": "2026-10-07T18:10:20Z",
+      "text": ""
+    },
+    "404958910": {
+      "title": "v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "hash": "adbf996ddd6912ad",
+      "summary": "## What's changed\n- Added `--marketplace ` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it\n- Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request\n- Added `prompt.autocomplete`, an event a mod hooks to add its own rows to the prompt box's autocomplete list\n- Added prompt cachin…",
+      "published_at": "2026-10-06T18:59:30Z",
+      "text": ""
+    },
+    "404281867": {
+      "title": "v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "hash": "bb9661b9f86cb662",
+      "summary": "## What's changed\n- Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\n- Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+      "published_at": "2026-10-06T03:55:19Z",
+      "text": ""
+    },
+    "403993621": {
+      "title": "v2.1.290",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "hash": "099d13eaa84171d7",
+      "summary": "## What's changed\n- Added `serverToolUses` to the result of a mod's `turn.step` hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end\n- Added `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the main session's\n- Added `ceiling` to the question and verdict a mod's `tool.check` hook reads, naming the approval an organization requires for a tool\n- Added `ThemeKey` and `Color` types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name\n- Added to `claude plug…",
+      "published_at": "2026-10-05T23:33:17Z",
+      "text": ""
+    },
+    "402671979": {
+      "title": "v2.1.289",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+      "hash": "f50ae84053ca4e04",
+      "summary": "## What's changed\n- Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines\n- Fixed the terminal freezing on short code blocks with many unclosed `",
+      "published_at": "2026-10-03T23:07:17Z",
+      "text": ""
+    },
+    "402056988": {
+      "title": "v2.1.288",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
+      "hash": "c07deba2a458a46d",
+      "summary": "## What's changed\n- Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row\n- Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal\n- Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images\n- Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call\n-…",
+      "published_at": "2026-10-02T20:19:57Z",
+      "text": ""
+    },
+    "401174143": {
+      "title": "v2.1.287",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287",
+      "hash": "1963609488c3b6f0",
+      "summary": "## What's changed\n- Added Claude Mods: plugins may now modify deeper behavior\n- Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with `/plugin enable cc-plugin-you-should-know@builtin` (for first-party sessions with telemetry on)\n- Added an `n: ` filter to the agents view that matches session names and tasks; a filter now shows matches in collapsed sections and Enter opens the first match\n- Added `prompt_text` to the OpenTelemetry `user_prompt` event, a copy of `prompt` for backends that nest dotted keys; drop or…",
+      "published_at": "2026-10-01T18:00:22Z",
+      "text": ""
+    },
+    "400266224": {
+      "title": "v2.1.286",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "hash": "ad29d2c90d19c898",
+      "summary": "## What's changed\n- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed `claude --resume` and `--continue` sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed\n- Fixed API 400 errors after a tool o…",
+      "published_at": "2026-09-30T19:10:13Z",
+      "text": ""
+    },
+    "399375132": {
+      "title": "v2.1.285",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
+      "hash": "5ef1ecc21d947f56",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume `\n- Added `claude plugin configure ` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added ` . = ` to `claude plugin install --config`, so a bundled `.mcpb` MCP server's own settings can be set at install time and it starts without visiting `/plugin` → Configure\n- Added `allowedProviders` managed set…",
+      "published_at": "2026-09-29T19:27:30Z",
+      "text": ""
+    },
+    "398457074": {
+      "title": "v2.1.284",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.284",
+      "hash": "80734451683209b7",
+      "summary": "## What's changed\n- Added Claude Sonnet 5.5 (`claude-sonnet-5-5`), now the default Sonnet model on the Anthropic API — 1M context, $2/$10 per Mtok with $0.20/Mtok cache reads\n- Added a \"Yes, but ask again next time\" answer to auto mode's prompt before a read outside the working directories, so you can allow that one read and still be asked about later ones\n- Added dollar amounts to the Claude apps gateway spend limit in `/usage` and the status line (for example \"$271.40 / $500.00 spent this month\") when the gateway runs this version or later; the status line's `rate_limits.spend_limit` also g…",
+      "published_at": "2026-09-28T18:02:03Z",
+      "text": ""
+    },
+    "396845205": {
+      "title": "v2.1.283",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "hash": "8a0d23f016b27463",
+      "summary": "## What's changed\n- Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block specific models, even when `availableModels` allows them\n- Added MCP tool, WebFetch and WebSearch outputs to the `tool.output` OpenTelemetry span event when `OTEL_LOG_TOOL_CONTENT=1`…",
+      "published_at": "2026-09-25T21:50:12Z",
+      "text": ""
+    },
+    "395840120": {
+      "title": "v2.1.282",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+      "hash": "dfd71cec8fb776bb",
+      "summary": "## What's changed\n- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude --chrome` run alongside an exclusive `managed-mcp.json`; the error shown when Chrome is blocked now names it\n- Added `store.readiness_grace_seconds` to the Claude apps gateway so `/readyz`…",
+      "published_at": "2026-09-24T18:38:05Z",
+      "text": ""
+    },
+    "394877414": {
+      "title": "v2.1.281",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
+      "hash": "e617d907642cd46c",
+      "summary": "## What's changed\n- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail: {id, version}` on Claude apps gateway Bedrock upstreams to apply an Amazon Bedrock guardrail to every request sent through them (set it on all Bedrock upstreams or none)\n- Added `telem…",
+      "published_at": "2026-09-23T19:19:15Z",
+      "text": ""
+    },
+    "393879189": {
+      "title": "v2.1.280",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+      "hash": "8519fd202a77ddcb",
+      "summary": "## What's changed\n- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session\n- Added hook output sizes and the number of oversized outputs saved to a file to the `hook_execution_complete` OpenTelemetry event\n-…",
+      "published_at": "2026-09-22T16:38:14Z",
+      "text": ""
+    },
+    "391877760": {
+      "title": "v2.1.278",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
+      "hash": "cbfb0ed728ec8bca",
+      "summary": "## What's changed\n- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server` row to `/status` showing whether this session's auto mode classifier runs on the server",
+      "published_at": "2026-09-19T03:10:40Z",
+      "text": ""
+    },
+    "391616593": {
+      "title": "v2.1.277",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
+      "hash": "ce896d103286ed16",
+      "summary": "## What's changed\n- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an optional `headers:` map on Claude apps gateway upstreams, to send static headers to a proxy you run in front of a provider\n- Added a line saying a background task's update is waiting…",
+      "published_at": "2026-09-18T18:06:32Z",
+      "text": ""
+    },
+    "391158184": {
+      "title": "v2.1.276",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
+      "hash": "07823b3b2d81e0c1",
+      "summary": "## What's changed\n- Fixed every request failing with `400 ... Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
+      "published_at": "2026-09-18T02:12:26Z",
+      "text": ""
+    },
+    "391032307": {
+      "title": "v2.1.275",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
+      "hash": "942aa66229cade47",
+      "summary": "## What's changed\n- Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and `/status` shows it\n- Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them\n- Added a startup warning when a configured `otelHeadersHelper` fails, so sessions that silently export no telemetry are noticed\n- Added syncing of the skills and plugins enabled on your claude.ai account to terminal sessions si…",
+      "published_at": "2026-09-17T22:33:17Z",
+      "text": ""
+    },
+    "390317660": {
+      "title": "v2.1.274",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
+      "hash": "73433651d5132b64",
+      "summary": "## What's changed\n- Added a visible warning when memory usage is critical, with steps to free memory or restart safely\n- Added `CLAUDE_CODE_MCP_STARTUP_WAIT_MS` to bound how long the first non-interactive turn waits for connecting MCP servers (`0` = don't wait)\n- Added `effort` attribute to the `claude_code.llm_request` OpenTelemetry trace span, matching the `api_request` event\n- Added `claude_code.managed_settings_resolved` OTel event: managed-settings sources and policy helper state; redacted settings and digests with `OTEL_LOG_MANAGED_SETTINGS=1`\n- Added `store.connect_timeout_seconds` to…",
+      "published_at": "2026-09-17T00:12:02Z",
+      "text": ""
+    },
+    "389362239": {
+      "title": "v2.1.273",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "hash": "d0e031dea5056b1d",
+      "summary": "## What's changed\n- Added `x-claude-code-request-class`, `x-claude-code-agent-type`, `x-claude-code-prev-tool-durations`, `x-claude-code-compaction` and `x-claude-code-context-compacted` request headers for LLM gateways; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at `/mcp`\n- Added forking a session started with `claude --remote-control` or `/remote-control` from the Claude app; the fork runs as a background session on your computer\n- Fixed Bash commands the permission checker…",
+      "published_at": "2026-09-15T20:23:03Z",
+      "text": ""
+    },
+    "388773284": {
+      "title": "v2.1.272",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
+      "hash": "853a1a3f6a005fed",
+      "summary": "## What's changed\n- Bug fixes and reliability improvements",
+      "published_at": "2026-09-15T00:42:25Z",
+      "text": ""
+    },
+    "388664071": {
+      "title": "v2.1.271",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "hash": "af7c8d1bef8b3d2c",
+      "summary": "## What's changed\n- Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or `/fast` typed in the session applies where your organization allows it\n- Added mouse support to the `/config` panel in fullscreen mode: the wheel scrolls the settings list, a click on a setting's value changes it, and the row under the pointer is highlighted\n- Added `claude self-hosted-runner --drain-marker-file `: when that file exists at a SIGTERM drain, the runner reports its exit to the server as a host drain (telemetry only)\n- Added per-command `allowed_doma…",
+      "published_at": "2026-09-14T22:12:54Z",
+      "text": ""
+    },
+    "387670363": {
+      "title": "v2.1.270",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
+      "hash": "f59361a8676f4c45",
+      "summary": "## What's changed\n- Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
+      "published_at": "2026-09-12T19:45:44Z",
+      "text": ""
+    },
+    "387243742": {
+      "title": "v2.1.269",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
+      "hash": "2fb9d3eac3f7062f",
+      "summary": "## What's changed\n- Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`\n- Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions\n- Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting `bashEditDiffEnabled`)\n- Added `OTEL_METRICS_INCLUDE_REPOSITORY` to tag OpenTelemetry metrics and events with `vcs.*` repository attributes; commit events g…",
+      "published_at": "2026-09-11T19:17:55Z",
+      "text": ""
+    },
+    "386532237": {
+      "title": "v2.1.268",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "hash": "c08cf046f50bd0f0",
+      "summary": "## What's changed\n- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks` managed setting, letting administrators allow `/login` to a Claude apps gateway on their organization's own public IPv4 block\n- Added `claude self-hosted-runner --remove-session-sta…",
+      "published_at": "2026-09-10T20:30:54Z",
+      "text": ""
+    },
+    "385748811": {
+      "title": "v2.1.267",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+      "hash": "68cdbc4dd6891c27",
+      "summary": "## What's changed\n- Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing\n- Fixed `/context` and other local command output rendering blank on mobile clients\n- F…",
+      "published_at": "2026-09-09T19:58:14Z",
+      "text": ""
+    },
+    "385124520": {
+      "title": "v2.1.266",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
+      "hash": "3ed7f9cd4112e9b7",
+      "summary": "## What's changed\n- Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed",
+      "published_at": "2026-09-08T23:55:14Z",
+      "text": ""
+    }
+  },
+  "seen_keys": [
+    "408141042",
+    "407134589",
+    "406385982",
+    "405988533",
+    "404958910",
+    "404281867",
+    "403993621",
+    "402671979",
+    "402056988",
+    "401174143",
+    "400266224",
+    "399375132",
+    "398457074",
+    "396845205",
+    "395840120",
+    "394877414",
+    "393879189",
+    "391877760",
+    "391616593",
+    "391158184",
+    "391032307",
+    "390317660",
+    "389362239",
+    "388773284",
+    "388664071",
+    "387670363",
+    "387243742",
+    "386532237",
+    "385748811",
+    "385124520"
+  ]
+}

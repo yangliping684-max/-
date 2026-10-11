@@ -1,10 +1,138 @@
 {
   "version": 1,
   "timezone": "Asia/Shanghai",
-  "levels": { "high": 70, "medium": 45 },
-  "alert_keywords": ["实习", "intern", "截止", "deadline", "FOMC"],
+  "levels": {
+    "high": 70,
+    "medium": 45
+  },
+  "alert_keywords": [
+    "实习",
+    "intern",
+    "截止",
+    "deadline",
+    "FOMC"
+  ],
   "importance_threshold": 70,
   "max_alerts_per_run": 20,
-  "digest": { "enabled": true, "max_items": 30, "min_level": "low" },
-  "github_issue": { "enabled": false, "min_level": "high", "labels": ["changeradar"], "max_issues_per_day": 1 }
+  "digest": {
+    "enabled": true,
+    "max_items": 30,
+    "min_level": "low"
+  },
+  "github_issue": {
+    "enabled": false,
+    "min_level": "high",
+    "labels": [
+      "changeradar"
+    ],
+    "max_issues_per_day": 1
+  },
+  "keyword_groups": {
+    "供应链": [
+      "供应链",
+      "supply chain",
+      "SCM",
+      "供应计划",
+      "supply planning",
+      "supply planner"
+    ],
+    "物流": [
+      "物流",
+      "logistics",
+      "运输管理",
+      "transportation",
+      "配送",
+      "distribution"
+    ],
+    "采购": [
+      "采购",
+      "procurement",
+      "purchasing",
+      "purchaser",
+      "buyer",
+      "sourcing",
+      "寻源",
+      "供应商管理",
+      "supplier management"
+    ],
+    "PMC": [
+      "PMC",
+      "生产物料控制",
+      "生产与物料控制",
+      "production and material control",
+      "production & material control"
+    ],
+    "物料控制": [
+      "MC",
+      "物料控制",
+      "物料计划",
+      "material control",
+      "material controller",
+      "material planning",
+      "material planner",
+      "MRP"
+    ],
+    "生产计划": [
+      "生产计划",
+      "production planning",
+      "production planner",
+      "production scheduler",
+      "排产",
+      "S&OP",
+      "产销协同"
+    ],
+    "库存管理": [
+      "库存",
+      "inventory"
+    ],
+    "仓储": [
+      "仓储",
+      "仓库",
+      "warehouse",
+      "warehousing",
+      "WMS"
+    ],
+    "需求计划": [
+      "需求计划",
+      "demand planning",
+      "demand planner",
+      "供应链分析",
+      "supply chain analyst",
+      "supply chain analytics"
+    ],
+    "管培生": [
+      "管培",
+      "管理培训生",
+      "management trainee",
+      "graduate program",
+      "junior managers program",
+      "junior manager program"
+    ],
+    "实习": [
+      "实习",
+      "实习生",
+      "intern",
+      "internship"
+    ],
+    "校招": [
+      "校园招聘",
+      "校招",
+      "应届",
+      "campus",
+      "new grad",
+      "graduate",
+      "early career"
+    ]
+  },
+  "job_functions": [
+    "供应链",
+    "物流",
+    "采购",
+    "PMC",
+    "物料控制",
+    "生产计划",
+    "库存管理",
+    "仓储",
+    "需求计划"
+  ]
 }

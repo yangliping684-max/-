@@ -39,6 +39,11 @@ jobs:
       - name: Probe research candidates
         if: github.event_name == 'push'
         run: python -m changeradar probe --file docs/research/candidates.json 2>&1 | tee probe-report.txt
+      - name: Dry-run the real monitor on a copy of data/ (nothing is committed)
+        if: github.event_name == 'push' && hashFiles('docs/research/verify') != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m changeradar.verify "$(cat docs/research/verify)" 2>&1 | tee -a probe-report.txt
       - uses: actions/upload-artifact@v4
         if: github.event_name == 'push'
         with:

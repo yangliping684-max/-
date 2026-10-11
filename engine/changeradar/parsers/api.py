@@ -9,17 +9,33 @@ from ..models import ApiOptions, Item
 from ..textutil import clean_html_to_text, truncate
 
 
+_FILTER_SEG = re.compile(r"^([\w-]*)\[([\w-]+)=([^\]]*)\]$")
+
+
 def get_path(data: Any, path: str) -> Any:
-    """Resolve a dotted path like ``"data.items"`` or ``"location.name"``."""
+    """Resolve a dotted path like ``"data.items"`` or ``"location.name"``.
+
+    A segment may select from a list by field value:
+    ``"customField[fieldLabel=Position type].valueLabel"``.
+    """
     if not path:
         return data
     cur = data
     for part in path.split("."):
-        if isinstance(cur, dict):
+        m = _FILTER_SEG.match(part)
+        if m:
+            key, field, value = m.groups()
+            seq = cur.get(key) if key and isinstance(cur, dict) else cur
+            if not isinstance(seq, list):
+                return None
+            cur = next((x for x in seq if isinstance(x, dict) and str(x.get(field)) == value), None)
+        elif isinstance(cur, dict):
             cur = cur.get(part)
         elif isinstance(cur, list) and part.isdigit() and int(part) < len(cur):
             cur = cur[int(part)]
         else:
+            return None
+        if cur is None:
             return None
     return cur
 

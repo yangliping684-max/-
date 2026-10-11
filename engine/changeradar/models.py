@@ -78,6 +78,15 @@ class HtmlOptions(BaseModel):
     ignore_selectors: list[str] = Field(default_factory=list)
 
 
+class ApiPagination(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    # Offset pagination: the engine sets ?<offset_param>=0, page_size, 2*page_size…
+    offset_param: str = "offset"
+    page_size: int = Field(default=100, ge=1, le=500)
+    max_pages: int = Field(default=20, ge=1, le=50)  # hard bound on requests per run
+
+
 class ApiOptions(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
@@ -96,6 +105,7 @@ class ApiOptions(BaseModel):
     url_template: str | None = None
     # Dotted path to the total count, so a truncated page is reported honestly.
     total_path: str | None = None
+    pagination: ApiPagination | None = None
 
 
 class Source(BaseModel):
@@ -286,6 +296,9 @@ class Snapshot(BaseModel):
     # Keys seen at any time (bounded), so an entry that drops out of a feed window and
     # reappears later is not reported as new again.
     seen_keys: list[str] = Field(default_factory=list)
+    # v0.2 — what was monitored (url, max_items, pagination). When the scope grows,
+    # newly visible items join the baseline instead of being reported as new.
+    scope: str | None = None
 
 
 # --------------------------------------------------------------------------- output

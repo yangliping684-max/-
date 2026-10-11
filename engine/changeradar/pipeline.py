@@ -9,12 +9,13 @@ from dataclasses import dataclass, field
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from . import notify
 from .classify import ai_facets, job_facets, price_changed
 from .config import load_rules, load_sources
 from .diff import Change, detect_changes, suspicious_shrink
-from .fetcher import FetchError, Fetcher
+from .fetcher import FetchError, Fetcher, FetchResult
 from .models import (
     ChangeType, Event, Notification, RulesConfig, RunRecord, Source, SourceState,
     SourceStatus, SourceType,
@@ -68,6 +69,50 @@ def _request_plan(source: Source) -> tuple[str, dict[str, str], bool]:
     if source.type == SourceType.RSS:
         return source.url, {"Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}, True
     return source.url, {"Accept": "text/html,application/xhtml+xml"}, True
+
+
+def _with_param(url: str, name: str, value: int) -> str:
+    parts = urlsplit(url)
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if k != name] + [(name, str(value))]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+
+def _fetch_items(source: Source, fetcher: Fetcher, url: str, headers: dict[str, str], check_robots: bool,
+                 prev_snap) -> tuple[FetchResult, list, int | None]:
+    """Fetch and parse a source. Returns (last response, items, total reported by the API).
+
+    Paginated APIs are walked page by page (bounded by ``max_pages``); conditional
+    requests are only used for single-document sources.
+    """
+    pag = source.api.pagination if source.type == SourceType.API and source.api else None
+    if pag is None:
+        res = fetcher.fetch(url, headers=headers, check_robots=check_robots,
+                            etag=prev_snap.etag if prev_snap else None,
+                            last_modified=prev_snap.last_modified if prev_snap else None)
+        if res.not_modified:
+            return res, [], None
+        items = parse(source, res.text, res.url)
+        total = api_total(res.text, source.api) if source.type == SourceType.API and source.api else None
+        return res, items, total
+
+    items: list = []
+    seen: set[str] = set()
+    total: int | None = None
+    res: FetchResult | None = None
+    for page in range(pag.max_pages):
+        res = fetcher.fetch(_with_param(url, pag.offset_param, page * pag.page_size), headers=headers,
+                            check_robots=check_robots)
+        page_items = parse(source.model_copy(update={"max_items": 2000}), res.text, res.url)
+        total = api_total(res.text, source.api) if total is None else total
+        for it in page_items:
+            if it.key not in seen:  # postings can shift between pages while we read
+                seen.add(it.key)
+                items.append(it)
+        if len(page_items) < pag.page_size or (total is not None and (page + 1) * pag.page_size >= total):
+            break
+    assert res is not None
+    res = FetchResult(url=res.url, status=res.status, text="", content_type=res.content_type)  # no ETag for paged data
+    return res, items[: source.max_items], total
 
 
 def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetime) -> Event:
@@ -219,23 +264,27 @@ def run(
             prev_snap = store.load_snapshot(source.id)
             try:
                 url, headers, check_robots = _request_plan(source)
-                res = fetcher.fetch(url, headers=headers, check_robots=check_robots,
-                                    etag=prev_snap.etag if prev_snap else None,
-                                    last_modified=prev_snap.last_modified if prev_snap else None)
+                res, items, total = _fetch_items(source, fetcher, url, headers, check_robots, prev_snap)
                 state.http_status = res.status
                 if res.not_modified and prev_snap is not None:
                     state.status, state.message = SourceStatus.UNCHANGED, "服务器返回 304：内容未修改"
                     state.item_count = len(prev_snap.items)
                 else:
-                    items = parse(source, res.text, res.url)
                     if not items and prev_snap and prev_snap.items:
                         raise ParseError("本次没有解析到任何条目，已保留上次快照（需人工确认）")
                     if suspicious_shrink(prev_snap, items):
                         raise ParseError(
                             f"条目数从 {len(prev_snap.items)} 骤降到 {len(items)}，疑似页面结构变化，"
                             "已保留上次快照（需人工确认）")
-                    result = detect_changes(source, prev_snap, items, now_i,
-                                            etag=res.etag, last_modified=res.last_modified)
+                    def eligible(it, _src=source) -> bool:
+                        text = f"{it.title}\n{it.summary}\n" + " ".join(it.extra.values())
+                        if _src.exclude_keywords and match_keywords(text, _src.exclude_keywords, rules.keyword_groups):
+                            return False
+                        return not (_src.require_keywords and _src.keywords
+                                    and not match_keywords(text, _src.keywords, rules.keyword_groups))
+
+                    result = detect_changes(source, prev_snap, items, now_i, etag=res.etag,
+                                            last_modified=res.last_modified, baseline_eligible=eligible)
                     kept = filtered = dupes = 0
                     noise = 0
                     for change in result.changes:
@@ -273,10 +322,10 @@ def run(
                     else:
                         state.status, state.message = SourceStatus.UNCHANGED, f"{len(items)} 个条目，无变化" + (
                             "（页面有改动，但价格信息未变化）" if noise else "")
-                    if source.type == SourceType.API and source.api is not None:
-                        total = api_total(res.text, source.api)
-                        if total is not None and total > len(items):
-                            state.message += f"；接口共 {total} 条，本次只获取了 {len(items)} 条"
+                    if result.rebaselined:
+                        state.message += f"；监控范围已调整，新纳入的 {result.rebaselined} 个条目作为基线，不视为新增"
+                    if total is not None and total > len(items):
+                        state.message += f"；接口共 {total} 条，本次只获取了 {len(items)} 条"
                     etag_changed = prev_snap is not None and (prev_snap.etag, prev_snap.last_modified) != (res.etag, res.last_modified)
                     if result.content_changed or etag_changed:
                         store.save_snapshot(result.snapshot)

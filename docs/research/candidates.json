@@ -1,6 +1,1 @@
-[
-  {"url": "https://docs.x.ai/developers/release-notes", "dump": "main :has(> h3)",
-   "selectors": ["a:-soup-contains('Markdown')", "main h3", "main h2"]},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100&offset=1300", "api": true, "json_path": "content"},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=intern&limit=100", "api": true, "json_path": "content"}
-]
+[]

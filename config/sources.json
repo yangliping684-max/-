@@ -1,11 +1,36 @@
 {
   "version": 1,
   "categories": [
-    { "id": "jobs", "name": "实习与招聘", "description": "公开的企业招聘、校园招聘与实习机会", "color": "#0ea5e9" },
-    { "id": "ai", "name": "AI 与科技", "description": "官方产品公告、开发工具版本、模型发布与开源项目更新", "color": "#8b5cf6" },
-    { "id": "macro", "name": "宏观与财经", "description": "官方数据发布、央行公告、经济指标与金融监管信息", "color": "#f59e0b" },
-    { "id": "academic", "name": "学术与教育", "description": "高校通知、招生政策、竞赛与科研资讯", "color": "#10b981" },
-    { "id": "custom", "name": "自定义", "description": "其他符合访问规则的公开信息源", "color": "#64748b" }
+    {
+      "id": "jobs",
+      "name": "实习与招聘",
+      "description": "公开的企业招聘、校园招聘与实习机会",
+      "color": "#0ea5e9"
+    },
+    {
+      "id": "ai",
+      "name": "AI 与科技",
+      "description": "官方产品公告、开发工具版本、模型发布与开源项目更新",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "macro",
+      "name": "宏观与财经",
+      "description": "官方数据发布、央行公告、经济指标与金融监管信息",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "academic",
+      "name": "学术与教育",
+      "description": "高校通知、招生政策、竞赛与科研资讯",
+      "color": "#10b981"
+    },
+    {
+      "id": "custom",
+      "name": "自定义",
+      "description": "其他符合访问规则的公开信息源",
+      "color": "#64748b"
+    }
   ],
   "sources": [
     {
@@ -14,11 +39,18 @@
       "type": "github_releases",
       "url": "https://github.com/anthropics/claude-code",
       "category": "ai",
-      "keywords": ["MCP", "agent", "subagent", "hooks"],
+      "keywords": [
+        "MCP",
+        "agent",
+        "subagent",
+        "hooks"
+      ],
       "priority": 4,
       "credibility": "official",
       "baseline_items": 5,
-      "notes": "GitHub REST API（官方接口）。Actions 中使用 GITHUB_TOKEN 以获得更高的速率限额。"
+      "notes": "GitHub REST API（官方接口）。Actions 中使用 GITHUB_TOKEN 以获得更高的速率限额。",
+      "profile": "ai",
+      "company": "Anthropic"
     },
     {
       "id": "openai-python-releases",
@@ -26,11 +58,17 @@
       "type": "github_releases",
       "url": "https://github.com/openai/openai-python",
       "category": "ai",
-      "keywords": ["responses", "realtime", "agents"],
+      "keywords": [
+        "responses",
+        "realtime",
+        "agents"
+      ],
       "priority": 3,
       "credibility": "official",
       "baseline_items": 5,
-      "notes": "官方 SDK 发布记录，可间接反映 API 新功能。"
+      "notes": "官方 SDK 发布记录，可间接反映 API 新功能。",
+      "profile": "ai",
+      "company": "OpenAI"
     },
     {
       "id": "fed-press-releases",
@@ -38,7 +76,12 @@
       "type": "rss",
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
       "category": "macro",
-      "keywords": ["FOMC", "federal funds rate", "monetary policy", "statement"],
+      "keywords": [
+        "FOMC",
+        "federal funds rate",
+        "monetary policy",
+        "statement"
+      ],
       "priority": 4,
       "credibility": "official",
       "baseline_items": 5,
@@ -50,7 +93,13 @@
       "type": "rss",
       "url": "https://rss.arxiv.org/rss/cs.AI",
       "category": "academic",
-      "keywords": ["agent", "agents", "LLM", "large language model", "benchmark"],
+      "keywords": [
+        "agent",
+        "agents",
+        "LLM",
+        "large language model",
+        "benchmark"
+      ],
       "require_keywords": true,
       "priority": 2,
       "credibility": "reliable",
@@ -83,10 +132,16 @@
       "type": "api",
       "url": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs",
       "category": "jobs",
-      "keywords": ["intern", "internship", "new grad", "university", "early career"],
+      "keywords": [
+        "intern",
+        "internship",
+        "new grad",
+        "university",
+        "early career"
+      ],
       "priority": 4,
       "credibility": "official",
-      "max_items": 500,
+      "max_items": 2000,
       "baseline_items": 10,
       "api": {
         "items_path": "jobs",
@@ -95,9 +150,254 @@
         "url_field": "absolute_url",
         "published_field": "first_published",
         "updated_field": "updated_at",
-        "extra_fields": { "location": "location.name" }
+        "extra_fields": {
+          "location": "location.name"
+        },
+        "total_path": "meta.total"
       },
-      "notes": "Greenhouse 公开职位接口（为第三方嵌入职位列表提供的官方 API）。仅展示接口返回的字段，不推断学历要求或截止日期。"
+      "notes": "Greenhouse 公开职位接口（为第三方嵌入职位列表提供的官方 API）。仅展示接口返回的字段，不推断学历要求或截止日期。",
+      "profile": "jobs",
+      "company": "Anthropic",
+      "industry": "人工智能"
+    },
+    {
+      "id": "bosch-china-jobs",
+      "name": "博世中国 公开职位（SmartRecruiters）",
+      "type": "api",
+      "url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "博世 Bosch",
+      "industry": "汽车零部件 / 制造业",
+      "keywords": [
+        "供应链",
+        "物流",
+        "采购",
+        "PMC",
+        "物料控制",
+        "生产计划",
+        "库存管理",
+        "仓储",
+        "需求计划",
+        "管培生"
+      ],
+      "require_keywords": true,
+      "priority": 4,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 20,
+      "api": {
+        "items_path": "content",
+        "id_field": "id",
+        "title_field": "name",
+        "url_template": "https://jobs.smartrecruiters.com/BoschGroup/{id}",
+        "published_field": "releasedDate",
+        "total_path": "totalFound",
+        "pagination": {
+          "offset_param": "offset",
+          "page_size": 100,
+          "max_pages": 20
+        },
+        "extra_fields": {
+          "company": "company.name",
+          "location": "location.fullLocation",
+          "employment_type": "typeOfEmployment.label",
+          "experience_level": "experienceLevel.label",
+          "function": "function.label",
+          "industry": "industry.label",
+          "position_type": "customField[fieldLabel=Position type].valueLabel",
+          "legal_entity": "customField[fieldLabel=Legal Entity].valueLabel"
+        }
+      },
+      "notes": "SmartRecruiters 官方公开 Posting API（无需认证）。逐页读取全部中国区职位，再用供应链类同义词组在本地筛选；接口的 q 参数是宽松全文检索，不适合直接筛选。releasedDate 为职位发布时间。"
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "type": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "category": "ai",
+      "profile": "ai",
+      "company": "OpenAI",
+      "priority": 4,
+      "credibility": "official",
+      "keywords": [
+        "GPT",
+        "API",
+        "Codex",
+        "pricing",
+        "model"
+      ],
+      "max_items": 100,
+      "baseline_items": 5,
+      "notes": "OpenAI 官方 RSS（openai.com/news 网页对自动访问返回 403，故使用 RSS）。"
+    },
+    {
+      "id": "anthropic-news",
+      "name": "Anthropic Newsroom",
+      "type": "html",
+      "url": "https://www.anthropic.com/news",
+      "category": "ai",
+      "profile": "ai",
+      "company": "Anthropic",
+      "priority": 4,
+      "credibility": "official",
+      "keywords": [
+        "Claude",
+        "API",
+        "model"
+      ],
+      "baseline_items": 5,
+      "track_removals": false,
+      "html": {
+        "selector": "main",
+        "item_selector": "a[href]:has(time)",
+        "title_selector": "[class*=title]",
+        "date_selector": "time",
+        "summary_selector": "p"
+      },
+      "notes": "官方新闻页没有 RSS。页面使用带哈希的 CSS Module 类名，因此只用结构选择器（含 time 的链接卡片）。"
+    },
+    {
+      "id": "cursor-changelog",
+      "name": "Cursor Changelog",
+      "type": "html",
+      "url": "https://cursor.com/changelog",
+      "category": "ai",
+      "profile": "ai",
+      "company": "Cursor",
+      "priority": 3,
+      "credibility": "official",
+      "baseline_items": 5,
+      "track_removals": false,
+      "html": {
+        "selector": "main",
+        "item_selector": "article",
+        "title_selector": "header h1",
+        "link_selector": "header h1 a",
+        "date_selector": "time",
+        "summary_selector": "[class*=prose] > p"
+      },
+      "notes": "官方更新日志页（服务端渲染，无 RSS）。"
+    },
+    {
+      "id": "xai-release-notes",
+      "name": "xAI API Release Notes",
+      "type": "html",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "category": "ai",
+      "profile": "ai",
+      "company": "xAI",
+      "priority": 3,
+      "credibility": "official",
+      "baseline_items": 5,
+      "track_removals": false,
+      "html": {
+        "selector": "main",
+        "item_selector": "h3"
+      },
+      "notes": "xAI 官方开发者文档的发布说明。每条以 h3 标题呈现，页面只按月份分组、没有逐条日期，因此发布日期显示为“未提供”。x.ai/news 与 status.x.ai 对自动访问返回 403，未接入。"
+    },
+    {
+      "id": "openai-codex-releases",
+      "name": "OpenAI Codex CLI Releases",
+      "type": "github_releases",
+      "url": "https://github.com/openai/codex",
+      "category": "ai",
+      "profile": "ai",
+      "company": "OpenAI",
+      "priority": 2,
+      "credibility": "official",
+      "baseline_items": 3
+    },
+    {
+      "id": "claude-status",
+      "name": "Claude 服务状态",
+      "type": "rss",
+      "url": "https://status.claude.com/history.rss",
+      "category": "ai",
+      "profile": "status",
+      "company": "Anthropic",
+      "priority": 2,
+      "credibility": "official",
+      "baseline_items": 3,
+      "notes": "官方状态页（status.anthropic.com 跳转至此）公布的事故与维护记录。"
+    },
+    {
+      "id": "openai-status",
+      "name": "OpenAI 服务状态",
+      "type": "rss",
+      "url": "https://status.openai.com/feed.rss",
+      "category": "ai",
+      "profile": "status",
+      "company": "OpenAI",
+      "priority": 2,
+      "credibility": "official",
+      "baseline_items": 3,
+      "max_items": 50,
+      "notes": "官方状态页 RSS。"
+    },
+    {
+      "id": "claude-api-pricing",
+      "name": "Claude API 定价",
+      "type": "html",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "category": "ai",
+      "profile": "pricing",
+      "company": "Anthropic",
+      "priority": 4,
+      "credibility": "official",
+      "baseline_items": 1,
+      "html": {
+        "selector": "main"
+      },
+      "notes": "只有价格行（含表格行）实际变化时才生成“定价变化”事件；横幅、排版或其他文字变化不会被当作涨价或降价。"
+    },
+    {
+      "id": "claude-plans-pricing",
+      "name": "Claude 订阅套餐定价",
+      "type": "html",
+      "url": "https://claude.com/pricing",
+      "category": "ai",
+      "profile": "pricing",
+      "company": "Anthropic",
+      "priority": 3,
+      "credibility": "official",
+      "baseline_items": 1,
+      "html": {
+        "selector": "main"
+      },
+      "notes": "Free / Pro / Max 等套餐页面；仅监控页面默认可见的价格。"
+    },
+    {
+      "id": "xai-api-pricing",
+      "name": "xAI API 定价",
+      "type": "html",
+      "url": "https://docs.x.ai/developers/pricing",
+      "category": "ai",
+      "profile": "pricing",
+      "company": "xAI",
+      "priority": 3,
+      "credibility": "official",
+      "baseline_items": 1,
+      "html": {
+        "selector": "main"
+      }
+    },
+    {
+      "id": "cursor-pricing",
+      "name": "Cursor 定价",
+      "type": "html",
+      "url": "https://cursor.com/pricing",
+      "category": "ai",
+      "profile": "pricing",
+      "company": "Cursor",
+      "priority": 3,
+      "credibility": "official",
+      "baseline_items": 1,
+      "html": {
+        "selector": "main"
+      }
     }
   ]
 }

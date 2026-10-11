@@ -16,7 +16,7 @@ from .textutil import match_keywords
 
 # Ordered: the first matching rule wins (more specific first).
 JOB_TYPE_RULES: list[tuple[str, str]] = [
-    ("管培生", r"管培|管理培训生|management trainee|graduate (?:management )?program"),
+    ("管培生", r"管培|管理培训生|management trainee|graduate (?:management )?program|junior managers? program"),
     ("暑期实习", r"暑期实习|summer intern"),
     ("日常实习", r"日常实习"),
     ("实习", r"实习|intern(?:ship)?\b|co-?op\b|working student|placement student"),
@@ -84,7 +84,7 @@ def job_facets(title: str, text: str, extra: dict[str, str], *, company: str = "
         facets["location"] = extra["location"]
         facets["city"] = city_of(extra["location"])
     # Source-declared employment type wins over title rules.
-    declared = " ".join(v for k, v in extra.items() if k in ("employment_type", "experience_level"))
+    declared = " ".join(v for k, v in extra.items() if k in ("employment_type", "experience_level", "position_type"))
     job_type = _first_rule(f"{title}\n{declared}", JOB_TYPE_RULES)
     if job_type:
         facets["job_type"] = job_type

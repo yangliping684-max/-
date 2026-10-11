@@ -27,7 +27,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     outputs:
       persist: ${{ steps.run.outputs.persist }}
     steps:
@@ -45,7 +45,10 @@ jobs:
         id: run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub API rate limit + optional issues
-          CHANGERADAR_USER_AGENT: "ChangeRadar/0.2 (+https://github.com/${{ github.repository }})"
+          CHANGERADAR_USER_AGENT: "ChangeRadar/0.3 (+https://github.com/${{ github.repository }})"
+          # Stop starting new sources after 20 min; the rest are deferred to the next run
+          # (least recently checked first). Keeps runs well inside the 30 min job timeout.
+          CHANGERADAR_BUDGET_SECONDS: "1200"
         run: python -m changeradar run --only "${{ inputs.only }}"
         continue-on-error: true   # persist status/errors even if every source failed
 

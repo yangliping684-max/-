@@ -55,3 +55,27 @@ def test_greenhouse_and_lever_catalogs(tmp_path, web, fetcher, now, provider, fi
         assert j["job_type"] == "实习" and j["grad_year"] == "2027" and j["function"] == "采购与物料管理"
         assert j["url"] == "https://jobs.lever.co/exampleco/c3d4" and j["published_at"].startswith("2025-10-1")
         assert by_title["Warehouse Operations Specialist"]["function"] == "仓储与运营"
+
+
+def test_industry_label_does_not_make_every_job_match(tmp_path, web, fetcher, now):
+    """Regression (real data): Expeditors' industry label 'Logistics' matched every posting."""
+    config, data = tmp_path / "config", tmp_path / "data"
+    write_config(config, [{"id": "co-jobs", "name": "Example", "category": "jobs", "company": "Example Co",
+                           "keywords": ["物流与供应链"], "require_keywords": True, "baseline_items": 10,
+                           "ats": {"provider": "smartrecruiters", "id": "ExampleCo", "country": "cn"}}],
+                 {"keyword_groups": {"物流与供应链": ["logistics"]}, "job_functions": ["物流与供应链"]})
+    url = "https://api.smartrecruiters.com/v1/companies/ExampleCo/postings?limit=100&country=cn&offset=0"
+    body = {"totalFound": 2, "content": [
+        {"id": "1", "name": "Software Engineer", "industry": {"label": "Logistics & Supply Chain"}, "function": {"label": "Engineering"}},
+        {"id": "2", "name": "Account Manager", "industry": {"label": "Logistics & Supply Chain"}, "function": {"label": "Logistics"}}]}
+    web.set(url, json.dumps(body), content_type="application/json")
+    s = run(config, data, fetcher=fetcher, now=now)
+    assert [e.title for e in s.new_events] == ["Account Manager"]  # matched via its *function*, not the industry
+
+
+def test_trainee_program_and_new_grads_year():
+    from changeradar.classify import grad_years, job_facets
+    assert job_facets("Global Trainee Program 2027 (Hong Kong based)", "", {})["job_type"] == "管培生"
+    f = job_facets("New Grads 2027 - Software Engineer", "", {})
+    assert f["job_type"] == "应届生招聘" and f["grad_year"] == "2027"
+    assert grad_years("Program 2027") == []  # a bare year is not a graduation year

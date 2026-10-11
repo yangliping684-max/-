@@ -137,7 +137,7 @@ def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetim
         if added:
             summary = "新增/修改内容：" + " / ".join(added)[:400]
     published = item.published_at if item else (prev.published_at if prev else None)
-    extra_text = " ".join(item.extra.values()) if item else ""
+    extra_text = _descriptive_extra(item.extra) if item else ""
     haystack = f"{title}\n{summary}\n{item.text if item else ''}\n{extra_text}"
     groups = rules.keyword_groups
     matched = match_keywords(haystack, source.keywords, groups)
@@ -213,8 +213,17 @@ def is_price_noise(source: Source, change: Change) -> bool:
     return not changed
 
 
+# Structured fields that describe the job itself. Company/industry/location labels are
+# excluded: an employer's industry ("Logistics") must not make every posting match.
+DESCRIPTIVE_EXTRA = ("function", "department", "team", "position_type", "employment_type", "experience_level")
+
+
+def _descriptive_extra(extra: dict[str, str]) -> str:
+    return " ".join(v for k, v in extra.items() if k in DESCRIPTIVE_EXTRA)
+
+
 def _passes_filters(source: Source, event: Event, groups: dict[str, list[str]]) -> bool:
-    text = f"{event.title}\n{event.summary}\n" + " ".join(event.extra.values())
+    text = f"{event.title}\n{event.summary}\n" + _descriptive_extra(event.extra)
     if source.exclude_keywords and match_keywords(text, source.exclude_keywords, groups):
         return False
     if source.require_keywords and source.keywords and not event.matched_keywords:
@@ -319,7 +328,7 @@ def run(
                             f"条目数从 {len(prev_snap.items)} 骤降到 {len(items)}，疑似页面结构变化，"
                             "已保留上次快照（需人工确认）")
                     def eligible(it, _src=source) -> bool:
-                        text = f"{it.title}\n{it.summary}\n" + " ".join(it.extra.values())
+                        text = f"{it.title}\n{it.summary}\n" + _descriptive_extra(it.extra)
                         if _src.exclude_keywords and match_keywords(text, _src.exclude_keywords, rules.keyword_groups):
                             return False
                         return not (_src.require_keywords and _src.keywords
@@ -420,7 +429,7 @@ def run(
             fetcher.close()
 
     finished = now or datetime.now(UTC)
-    job_sources = [s for s in sources_cfg.sources if s.profile == "jobs"]
+    job_sources = [s for s in sources_cfg.sources if s.profile == "jobs" and s.enabled]
     if job_sources:
         content_changed |= catalog.write_index(job_sources, finished)
     run_rec.finished_at = finished

@@ -1,6 +1,4 @@
 [
-  {"url": "https://www.chinalogisticsgroup.com.cn/", "dump": "a[href*='/articles/']:-soup-contains('招聘')",
-   "selectors": ["a[href*='/articles/']", "a[href*='/articles/']:-soup-contains('招聘')", "a[href*='zhaopin'], a:-soup-contains('人才招聘'), a:-soup-contains('招聘信息')"]},
-  {"url": "https://jobs.siemens.com/zh_CN/externaljobs/SearchJobs", "dump": "article",
-   "selectors": ["article", "article a[href*='JobDetail']", "a[href*='JobDetail']", "a:-soup-contains('下一页'), a[href*='jobOffset']", "link[rel=alternate]"]}
+  {"url": "https://www.chinalogisticsgroup.com.cn/zh-cn/join/hotjob.shtml", "dump": "body",
+   "selectors": ["a[href*='/articles/']", "a[href*='/join/']", "li", "table tr", "a:-soup-contains('招聘')"]}
 ]

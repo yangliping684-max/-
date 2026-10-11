@@ -135,14 +135,15 @@
       "运输管理",
       "transportation",
       "配送",
-      "distribution",
       "freight",
       "货代",
       "customs",
       "报关",
       "供应计划",
       "supply planning",
-      "supply planner"
+      "supply planner",
+      "distribution center",
+      "配送中心"
     ],
     "采购与物料管理": [
       "采购",
@@ -150,14 +151,16 @@
       "purchasing",
       "purchaser",
       "buyer",
-      "sourcing",
       "寻源",
       "供应商管理",
       "supplier management",
       "supplier quality",
       "物料管理",
       "material management",
-      "commodity"
+      "commodity",
+      "strategic sourcing",
+      "sourcing engineer",
+      "sourcing manager"
     ],
     "PMC / MC": [
       "PMC",

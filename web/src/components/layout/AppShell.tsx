@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import {
-  Bell, History, LayoutDashboard, Monitor, Moon, MoreHorizontal, Newspaper, RefreshCw, Radar, Search, Settings,
-  SlidersHorizontal, Sun,
+  Bell, Briefcase, Cpu, History, LayoutDashboard, Monitor, Moon, MoreHorizontal, Newspaper, RefreshCw, Radar, Search,
+  Settings, SlidersHorizontal, Sun,
 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
@@ -16,13 +16,15 @@ import { cn } from "@/lib/utils";
 
 export const NAV = [
   { to: "/", label: "总览", en: "Dashboard", icon: LayoutDashboard },
-  { to: "/feed", label: "情报中心", en: "Feed", icon: Newspaper },
+  { to: "/feed", label: "情报中心", en: "Feed", icon: Newspaper, short: "情报" },
+  { to: "/jobs", label: "招聘雷达", en: "Jobs", icon: Briefcase, short: "招聘" },
+  { to: "/ai", label: "AI 动态", en: "AI", icon: Cpu, short: "AI" },
   { to: "/sources", label: "我的监控", en: "Sources", icon: Radar },
   { to: "/rules", label: "情报规则", en: "Rules", icon: SlidersHorizontal },
   { to: "/history", label: "历史记录", en: "History", icon: History },
   { to: "/notifications", label: "通知中心", en: "Notifications", icon: Bell },
   { to: "/settings", label: "系统设置", en: "Settings", icon: Settings },
-] as const;
+] as { to: string; label: string; en: string; icon: typeof Bell; short?: string }[];
 
 function useUnreadNotifications(): number {
   const { data } = useData();
@@ -89,18 +91,18 @@ function Sidebar() {
 
 function MobileTabBar() {
   const navigate = useNavigate();
-  const primary = NAV.slice(0, 4);
+  const primary = NAV.slice(0, 4); // 总览 · 情报 · 招聘 · AI
   const rest = NAV.slice(4);
   const unread = useUnreadNotifications();
   return (
     <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-border bg-background/85 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl md:hidden" aria-label="主导航">
       <div className="grid grid-cols-5">
-        {primary.map(({ to, label, icon: Icon }) => (
+        {primary.map(({ to, label, short, icon: Icon }) => (
           <NavLink key={to} to={to} end={to === "/"}
             className={({ isActive }) => cn("flex flex-col items-center gap-0.5 py-2 text-[10.5px] text-muted-foreground", isActive && "text-accent")}
           >
             <Icon className="size-5" />
-            {label}
+            {short ?? label}
           </NavLink>
         ))}
         <DropdownMenu>

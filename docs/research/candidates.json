@@ -1,0 +1,21 @@
+[
+  {"url": "https://openai.com/news/rss.xml"},
+  {"url": "https://openai.com/news/"},
+  {"url": "https://openai.com/api/pricing/"},
+  {"url": "https://www.anthropic.com/news", "selectors": ["main a[href]:has(time)"]},
+  {"url": "https://cursor.com/changelog", "selectors": ["main article", "main article header h1"]},
+  {"url": "https://x.ai/news"},
+  {"url": "https://status.x.ai/"},
+  {"url": "https://docs.x.ai/developers/release-notes", "selectors": ["main h3"]},
+  {"url": "https://status.anthropic.com/"},
+  {"url": "https://status.openai.com/"},
+  {"url": "https://talent.catl.com/"},
+  {"url": "https://job.byd.com/"},
+  {"url": "https://campus.jd.com/"},
+  {"url": "https://zhaopin.jd.com/"},
+  {"url": "https://www.ncss.cn/"},
+  {"url": "https://gj.ncss.cn/"},
+  {"url": "https://www.iguopin.com/"},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=1", "api": true,
+   "json_path": "content", "follow_template": "https://jobs.smartrecruiters.com/BoschGroup/{content.0.id}"}
+]

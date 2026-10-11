@@ -130,7 +130,7 @@ export default function Settings() {
         </CardContent>
       </Card>
 
-      <p className="mt-8 text-center text-[12px] text-muted-foreground">知更 ChangeRadar v0.1 · Stay Informed. Stay Ahead. · 重要的变化，值得被看见。</p>
+      <p className="mt-8 text-center text-[12px] text-muted-foreground">知更 ChangeRadar v0.2 · Stay Informed. Stay Ahead. · 重要的变化，值得被看见。</p>
 
       <Dialog open={confirmClear} onOpenChange={setConfirmClear} title="清除本地数据？"
         description="将删除本浏览器中的已读/收藏/归档状态、主题和所有未同步的草稿。云端配置和情报数据不受影响。此操作不可撤销。"

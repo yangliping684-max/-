@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "changeradar"
-version = "0.1.0"
+version = "0.2.0"
 description = "知更 ChangeRadar monitoring engine: fetch, parse, diff, dedup, score and notify."
 requires-python = ">=3.12"
 license = { text = "MIT" }

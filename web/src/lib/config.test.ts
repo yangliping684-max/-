@@ -100,3 +100,17 @@ describe("validateRules", () => {
     expect(r.errors.length).toBe(2);
   });
 });
+
+describe("v0.2 config fields", () => {
+  const cats = new Set(["ai"]);
+  it("accepts profile/company/industry and rejects bad profiles", () => {
+    const ok = { id: "pp", name: "p", type: "html", url: "https://x", category: "ai", profile: "pricing", company: "X", html: { selector: "main" } };
+    expect(validateSource(ok, cats)).toEqual([]);
+    expect(validateSource({ ...ok, profile: "weird" }, cats).join()).toMatch(/模块类型/);
+    expect(validateSource({ ...ok, type: "rss", html: undefined }, cats).join()).toMatch(/定价页/);
+  });
+  it("validates keyword groups", () => {
+    expect(validateRules({ ...DEFAULT_RULES, keyword_groups: { 供应链: ["supply chain"] }, job_functions: ["供应链"] }).ok).toBe(true);
+    expect(validateRules({ ...DEFAULT_RULES, keyword_groups: { 供应链: "supply chain" } as never }).ok).toBe(false);
+  });
+});

@@ -42,3 +42,11 @@ describe("feed filtering", () => {
     expect(filterToParams(DEFAULT_FILTER).toString()).toBe("");
   });
 });
+
+import { plainText } from "./utils";
+describe("plainText", () => {
+  it("strips release-note markdown for display", () => {
+    expect(plainText("## [3.28.0](https://x/compare) (2026-10-09) ### Features * **api:** add `x` ([#4046](https://x/4046))"))
+      .toBe("3.28.0 (2026-10-09) Features · api: add x (#4046)");
+  });
+});

@@ -2,6 +2,7 @@
 // it is never sent anywhere and never committed to the repository.
 
 import { useSyncExternalStore } from "react";
+import { DEFAULT_JOB_FILTER, type JobFilter } from "./jobs";
 import type { Category, RulesConfig, Source } from "./types";
 
 export interface ItemState {
@@ -24,6 +25,7 @@ export interface Prefs {
   repo: string; // "owner/repo" for GitHub links; empty = auto-detect
   branch: string;
   notificationsSeenAt: number;
+  jobFilter: JobFilter; // the user's own criteria (graduation year, city…) — local only
 }
 
 const KEY = "cr.prefs.v1";
@@ -37,6 +39,7 @@ export const DEFAULT_PREFS: Prefs = {
   repo: "",
   branch: "main",
   notificationsSeenAt: 0,
+  jobFilter: DEFAULT_JOB_FILTER,
 };
 
 function load(): Prefs {
@@ -49,6 +52,7 @@ function load(): Prefs {
       ...parsed,
       drafts: { ...DEFAULT_PREFS.drafts, ...(parsed.drafts ?? {}) },
       items: parsed.items ?? {},
+      jobFilter: { ...DEFAULT_JOB_FILTER, ...(parsed.jobFilter ?? {}) },
     };
   } catch {
     return DEFAULT_PREFS;

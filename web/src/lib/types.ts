@@ -24,6 +24,14 @@ export interface HtmlOptions {
   ignore_selectors?: string[];
 }
 
+export interface ApiPagination {
+  offset_param?: string;
+  page_size?: number;
+  max_pages?: number;
+}
+
+export type SourceProfile = "general" | "jobs" | "ai" | "pricing" | "status";
+
 export interface ApiOptions {
   items_path?: string;
   id_field?: string;
@@ -33,6 +41,9 @@ export interface ApiOptions {
   published_field?: string | null;
   updated_field?: string | null;
   extra_fields?: Record<string, string>;
+  url_template?: string | null;
+  total_path?: string | null;
+  pagination?: ApiPagination | null;
 }
 
 export interface Source {
@@ -55,6 +66,9 @@ export interface Source {
   html?: HtmlOptions | null;
   api?: ApiOptions | null;
   notes?: string;
+  profile?: SourceProfile;
+  company?: string;
+  industry?: string;
 }
 
 export interface Category {
@@ -79,6 +93,8 @@ export interface RulesConfig {
   max_alerts_per_run: number;
   digest: { enabled: boolean; max_items: number; min_level: Level };
   github_issue: { enabled: boolean; min_level: Level; labels: string[]; max_issues_per_day: number };
+  keyword_groups?: Record<string, string[]>;
+  job_functions?: string[];
 }
 
 export interface ScoreFactor {
@@ -107,6 +123,8 @@ export interface IntelEvent {
   score_factors: ScoreFactor[];
   diff: { added: string[]; removed: string[] } | null;
   extra: Record<string, string>;
+  /** v0.2 structured facets; absent on v0.1 events. Only explicitly stated information. */
+  facets?: Record<string, string>;
 }
 
 export interface SourceState {

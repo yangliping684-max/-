@@ -9,14 +9,19 @@ import { Dialog } from "@/components/ui/dialog";
 import { Tooltip } from "@/components/ui/tooltip";
 import { useCategoryMap, useData } from "@/lib/data";
 import { daysUntil, formatDateTime, formatPublished, relativeTime } from "@/lib/format";
-import { CHANGE_LABEL, LEVEL_META } from "@/lib/labels";
+import { AI_TYPE_META, CHANGE_LABEL, LEVEL_META } from "@/lib/labels";
 import { markRead, markUnread, updateItem, usePrefs } from "@/lib/prefs";
 import type { IntelEvent } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import { cn, plainText } from "@/lib/utils";
 
 const FACTOR_LABEL: Record<string, string> = {
   base: "基础", priority: "优先级", credibility: "可信度", change: "变化类型", minor: "小幅修改",
   keywords: "关注关键词", alert: "提醒关键词", freshness: "新鲜度", deadline: "截止日期",
+};
+
+const FACET_LABEL: Record<string, string> = {
+  company: "企业", industry: "行业", city: "城市", job_type: "招聘性质", job_type_rule: "识别依据", education: "学历要求",
+  grad_year: "毕业届别", function: "岗位职能", vendor: "厂商", ai_type: "动态类型", ai_type_rule: "分类依据",
 };
 
 export function ScoreBadge({ e }: { e: IntelEvent }) {
@@ -65,6 +70,10 @@ export function EventDetail({ e, open, onOpenChange }: { e: IntelEvent; open: bo
         {e.deadline && (<><dt className="text-muted-foreground">截止日期</dt><dd><DeadlineChip deadline={e.deadline} /></dd></>)}
         {Object.entries(e.extra).filter(([k]) => !["date_only", "minor"].includes(k)).map(([k, v]) => (
           <div key={k} className="contents"><dt className="text-muted-foreground">{k === "location" ? "地点" : k === "tag" ? "版本标签" : k === "prerelease" ? "预发布" : k}</dt><dd>{v}</dd></div>
+        ))}
+        {Object.entries(e.facets ?? {}).filter(([k]) => FACET_LABEL[k]).map(([k, v]) => (
+          <div key={k} className="contents"><dt className="text-muted-foreground">{FACET_LABEL[k]}</dt>
+            <dd>{k === "ai_type" ? AI_TYPE_META[v]?.label ?? v : v}</dd></div>
         ))}
         <dt className="text-muted-foreground">原始链接</dt>
         <dd className="break-all"><a className="text-accent hover:underline" href={e.url} target="_blank" rel="noopener noreferrer">{e.url}</a></dd>
@@ -142,13 +151,17 @@ export function EventCard({ e, compact = false }: { e: IntelEvent; compact?: boo
               </span>
             )}
             {e.deadline && <DeadlineChip deadline={e.deadline} />}
+            {e.facets?.job_type && <Badge tone="accent">{e.facets.job_type}</Badge>}
+            {e.facets?.ai_type && AI_TYPE_META[e.facets.ai_type] && e.facets.ai_type !== "news" && (
+              <Badge tone={AI_TYPE_META[e.facets.ai_type].tone}>{AI_TYPE_META[e.facets.ai_type].label}</Badge>
+            )}
           </div>
           <h3 className={cn("text-[15px] font-semibold leading-snug tracking-tight", st.read && "font-medium text-foreground/75")}>
             <a href={e.url} target="_blank" rel="noopener noreferrer" className="hover:text-accent" onClick={() => markRead([e.id])}>
               {e.title}
             </a>
           </h3>
-          {!compact && e.summary && <p className="mt-1 line-clamp-2 text-[13px] leading-relaxed text-muted-foreground">{e.summary}</p>}
+          {!compact && e.summary && <p className="mt-1 line-clamp-2 text-[13px] leading-relaxed text-muted-foreground">{plainText(e.summary)}</p>}
           <div className="mt-2.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] text-muted-foreground">
             <span className="font-medium text-foreground/70">{e.source_name}</span>
             <Tooltip content={`首次发现：${formatDateTime(e.detected_at, tz)}`}>

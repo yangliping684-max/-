@@ -10,6 +10,8 @@ import { DataProvider } from "@/lib/data";
 import Dashboard from "@/pages/Dashboard";
 
 const Feed = lazy(() => import("@/pages/Feed"));
+const Jobs = lazy(() => import("@/pages/Jobs"));
+const AiUpdates = lazy(() => import("@/pages/AiUpdates"));
 const Sources = lazy(() => import("@/pages/Sources"));
 const Rules = lazy(() => import("@/pages/Rules"));
 const History = lazy(() => import("@/pages/History"));
@@ -52,6 +54,8 @@ export default function App() {
                 <Routes>
                   <Route path="/" element={<Dashboard />} />
                   <Route path="/feed" element={<Feed />} />
+                  <Route path="/jobs" element={<Jobs />} />
+                  <Route path="/ai" element={<AiUpdates />} />
                   <Route path="/sources" element={<Sources />} />
                   <Route path="/rules" element={<Rules />} />
                   <Route path="/history" element={<History />} />

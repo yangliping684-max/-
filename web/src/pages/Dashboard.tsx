@@ -1,5 +1,5 @@
 import {
-  Activity, AlertTriangle, ArrowRight, CalendarClock, CheckCircle2, Clock, Flame, Inbox, Radar, Sparkles,
+  Activity, AlertTriangle, ArrowRight, Briefcase, CalendarClock, CheckCircle2, Clock, Cpu, Flame, Inbox, Radar, Sparkles,
 } from "lucide-react";
 import { useMemo } from "react";
 import { Link } from "react-router-dom";
@@ -12,6 +12,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Callout, EmptyState, PageHeader, Skeleton } from "@/components/ui/misc";
 import { useCategoryMap, useData } from "@/lib/data";
 import { dayKey, formatDateTime, hoursSince, relativeTime } from "@/lib/format";
+import { AI_TYPE_META } from "@/lib/labels";
 import { usePrefs } from "@/lib/prefs";
 import { categoryDistribution, dailyCounts, failingSources, successRate, successRateOverDays, upcomingDeadlines } from "@/lib/stats";
 
@@ -113,6 +114,57 @@ function CategoryChart() {
   );
 }
 
+function ModuleCards() {
+  const { data } = useData();
+  const m = useMemo(() => {
+    const since = Date.now() - 7 * 86_400_000;
+    const profiles = new Map((data.sources?.sources ?? []).map((s) => [s.id, s.profile ?? "general"]));
+    const recent = data.events.filter((e) => e.change_type !== "initial" && Date.parse(e.detected_at) >= since);
+    const isJobs = (id: string, cat: string) => profiles.get(id) === "jobs" || cat === "jobs";
+    const isAi = (id: string) => ["ai", "pricing", "status"].includes(profiles.get(id) ?? "");
+    const jobs = data.events.filter((e) => isJobs(e.source_id, e.category));
+    const ai = data.events.filter((e) => isAi(e.source_id));
+    const aiTypes = new Map<string, number>();
+    for (const e of recent) if (isAi(e.source_id)) aiTypes.set(e.facets?.ai_type ?? "news", (aiTypes.get(e.facets?.ai_type ?? "news") ?? 0) + 1);
+    return {
+      jobsNew: recent.filter((e) => isJobs(e.source_id, e.category) && e.change_type === "added").length,
+      jobsTotal: jobs.length,
+      jobSources: [...profiles.values()].filter((p) => p === "jobs").length,
+      aiNew: recent.filter((e) => isAi(e.source_id)).length,
+      aiTotal: ai.length,
+      aiTypes: [...aiTypes.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3),
+    };
+  }, [data]);
+  return (
+    <div className="grid gap-3 sm:grid-cols-2">
+      <Link to="/jobs" className="group">
+        <Card className="flex h-full items-center gap-4 p-4 transition-colors group-hover:border-foreground/15">
+          <div className="grid size-10 shrink-0 place-items-center rounded-xl bg-accent-soft text-accent"><Briefcase className="size-5" /></div>
+          <div className="min-w-0 flex-1">
+            <div className="text-[13px] font-medium">招聘雷达</div>
+            <div className="text-[12.5px] text-muted-foreground">近 7 天新增 <span className="font-semibold text-foreground tabular">{m.jobsNew}</span> 个岗位 · 共 {m.jobsTotal} 条 · {m.jobSources} 个招聘来源</div>
+          </div>
+          <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+        </Card>
+      </Link>
+      <Link to="/ai" className="group">
+        <Card className="flex h-full items-center gap-4 p-4 transition-colors group-hover:border-foreground/15">
+          <div className="grid size-10 shrink-0 place-items-center rounded-xl bg-foreground text-background"><Cpu className="size-5" /></div>
+          <div className="min-w-0 flex-1">
+            <div className="text-[13px] font-medium">AI 动态</div>
+            <div className="truncate text-[12.5px] text-muted-foreground">
+              近 7 天 <span className="font-semibold text-foreground tabular">{m.aiNew}</span> 条
+              {m.aiTypes.length > 0 && <> · {m.aiTypes.map(([t, n]) => `${AI_TYPE_META[t]?.label ?? t} ${n}`).join(" · ")}</>}
+              {m.aiNew === 0 && ` · 共收录 ${m.aiTotal} 条`}
+            </div>
+          </div>
+          <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+        </Card>
+      </Link>
+    </div>
+  );
+}
+
 export default function Dashboard() {
   const { data, loading, tz } = useData();
   const { items } = usePrefs();
@@ -188,6 +240,8 @@ export default function Dashboard() {
               value={pct(rateLast)} delay={0.09}
               sub={<>最近一次 · 7 日平均 {pct(rate7)}<br />最后成功：{lastSuccess ? relativeTime(lastSuccess) : "从未"}</>} />
           </div>
+
+          <ModuleCards />
 
           {stats.failing.length > 0 && (
             <Card className="border-danger/25">

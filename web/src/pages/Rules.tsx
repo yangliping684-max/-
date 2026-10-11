@@ -4,7 +4,7 @@ import { SyncGuide } from "@/components/SyncGuide";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Field, Input, Select } from "@/components/ui/input";
+import { Field, Input, Select, Textarea } from "@/components/ui/input";
 import { Callout, PageHeader } from "@/components/ui/misc";
 import { Switch } from "@/components/ui/switch";
 import { toast } from "@/components/ui/toast";
@@ -28,6 +28,54 @@ const SCORING_TABLE: [string, string][] = [
   ["发布日期未知", "0（不使用检测时间代替）"],
   ["截止日期 14 天内 / 更晚 / 已过", "+15 / +8 / −10"],
 ];
+
+export function groupsToText(groups: Record<string, string[]> = {}): string {
+  return Object.entries(groups).map(([k, v]) => `${k}: ${v.join(", ")}`).join("\n");
+}
+
+export function textToGroups(text: string): Record<string, string[]> {
+  const out: Record<string, string[]> = {};
+  for (const line of text.split("\n")) {
+    const i = line.search(/[:：]/);
+    if (i <= 0) continue;
+    const name = line.slice(0, i).trim();
+    const words = line.slice(i + 1).split(/[,，]/).map((x) => x.trim()).filter(Boolean);
+    if (name) out[name] = [...new Set(words)];
+  }
+  return out;
+}
+
+function GroupsEditor({ form, set }: { form: RulesConfig; set: (p: Partial<RulesConfig>) => void }) {
+  const [text, setText] = useState(groupsToText(form.keyword_groups));
+  useEffect(() => setText(groupsToText(form.keyword_groups)), [form.keyword_groups]);
+  const names = Object.keys(form.keyword_groups ?? {});
+  const fns = new Set(form.job_functions ?? []);
+  return (
+    <Card className="mt-4">
+      <CardHeader><div><CardTitle>同义词组</CardTitle>
+        <CardDescription>在任何关键词列表里写组名，即可同时匹配组内的中英文同义词；写“实习 &amp; 采购”表示必须同时命中两组。</CardDescription></div></CardHeader>
+      <CardContent className="space-y-4">
+        <Textarea rows={Math.min(14, Math.max(5, names.length + 1))} className="font-mono text-[12.5px]" value={text}
+          onChange={(e) => setText(e.target.value)}
+          onBlur={() => { const g = textToGroups(text); set({ keyword_groups: g, job_functions: (form.job_functions ?? []).filter((x) => x in g) }); }}
+          placeholder={"供应链: supply chain, SCM\n采购: procurement, purchasing, buyer"} aria-label="同义词组" />
+        <div>
+          <div className="mb-1.5 text-[13px] font-medium">作为“岗位职能”标签的组</div>
+          <div className="flex flex-wrap gap-1.5">
+            {names.length === 0 && <span className="text-[13px] text-muted-foreground">先添加同义词组</span>}
+            {names.map((n) => (
+              <button key={n} onClick={() => set({ job_functions: fns.has(n) ? [...fns].filter((x) => x !== n) : [...fns, n] })}
+                className={`rounded-full border px-2.5 py-0.5 text-[12.5px] transition-colors ${fns.has(n) ? "border-accent bg-accent-soft text-accent" : "border-border text-muted-foreground hover:text-foreground"}`}>
+                {n}
+              </button>
+            ))}
+          </div>
+          <p className="mt-1.5 text-xs text-muted-foreground">选中的组会作为招聘雷达中的“岗位职能”筛选项，仅用于标注，不会单独过滤岗位。</p>
+        </div>
+      </CardContent>
+    </Card>
+  );
+}
 
 function KeywordInput({ value, onChange }: { value: string[]; onChange: (v: string[]) => void }) {
   const [text, setText] = useState("");
@@ -151,6 +199,8 @@ export default function Rules() {
           </CardContent>
         </Card>
       </div>
+
+      <GroupsEditor form={form} set={set} />
 
       <Card className="mt-4">
         <CardHeader><div><CardTitle>评分规则说明</CardTitle><CardDescription>每条情报的详情中都会列出实际得分明细。评分只用于辅助筛选和排序，不代表客观事实。</CardDescription></div></CardHeader>

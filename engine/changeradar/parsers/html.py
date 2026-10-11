@@ -21,6 +21,10 @@ def _text(node: Tag) -> str:
     # Block-level boundaries become line breaks so page-mode diffs are line based.
     for br in node.find_all("br"):
         br.replace_with("\n")
+    # A table row is one line ("Model | $5 / MTok | $25 / MTok") so values keep their labels.
+    for tr in node.find_all("tr"):
+        cells = [normalize_whitespace(c.get_text(" ", strip=True)) for c in tr.find_all(["th", "td"])]
+        tr.replace_with("\n" + " | ".join(c for c in cells if c) + "\n")
     return normalize_whitespace(node.get_text("\n", strip=True))
 
 
@@ -62,11 +66,17 @@ def parse_html(text: str, opts: HtmlOptions, base_url: str) -> list[Item]:
     items: list[Item] = []
     for node in region.select(opts.item_selector):
         title_node = node.select_one(opts.title_selector) if opts.title_selector else None
-        link_node = node.select_one(opts.link_selector) if opts.link_selector else node.find("a", href=True)
+        if opts.link_selector:
+            link_node = node.select_one(opts.link_selector)
+        elif node.name == "a" and node.get("href"):
+            link_node = node  # the item itself is the link (common in card layouts)
+        else:
+            link_node = node.find("a", href=True)
         if link_node is not None and link_node.name != "a":
             link_node = link_node.find("a", href=True) or link_node
         href = link_node.get("href") if isinstance(link_node, Tag) else None
-        url = urljoin(base_url, href) if href and not str(href).startswith(("javascript:", "#")) else base_url
+        # "#section" anchors are kept: they are the only deep link on release-notes pages.
+        url = urljoin(base_url, href) if href and href != "#" and not str(href).startswith("javascript:") else base_url
 
         title = _text(title_node) if title_node else (_text(link_node) if isinstance(link_node, Tag) else "")
         full = _text(node)

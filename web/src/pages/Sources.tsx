@@ -20,7 +20,7 @@ import {
 } from "@/lib/config";
 import { useData } from "@/lib/data";
 import { formatDateTime, relativeTime } from "@/lib/format";
-import { CREDIBILITY_LABEL, FAILURE_STATUSES, STATUS_META, TYPE_LABEL } from "@/lib/labels";
+import { CREDIBILITY_LABEL, FAILURE_STATUSES, PROFILE_LABEL, STATUS_META, TYPE_LABEL } from "@/lib/labels";
 import { setPrefs, usePrefs } from "@/lib/prefs";
 import type { Category, Source, SourceState, SourceStatus } from "@/lib/types";
 import { cn, downloadJson, readFileText } from "@/lib/utils";
@@ -64,9 +64,11 @@ function SourceRow({ m, state, categories, onEdit }: {
           <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[12px]">
             {cat && <Badge tone="neutral"><span className="size-1.5 rounded-full" style={{ background: cat.color }} />{cat.name}</Badge>}
             <Badge tone="muted">{TYPE_LABEL[s.type]}</Badge>
+            {s.profile && s.profile !== "general" && <Badge tone="info">{PROFILE_LABEL[s.profile]}</Badge>}
+            {s.company && <Badge tone="muted">{s.company}</Badge>}
             <Badge tone="muted">优先级 {s.priority ?? 3}</Badge>
             <Badge tone="muted">{CREDIBILITY_LABEL[s.credibility ?? "unverified"]}</Badge>
-            <Badge tone="muted">每天检查</Badge>
+            {s.enabled !== false && <Badge tone="muted">每天检查</Badge>}
             {(s.keywords ?? []).slice(0, 5).map((k) => <span key={k} className="rounded bg-accent-soft px-1.5 py-px text-[11px] text-accent">#{k}</span>)}
             {(s.exclude_keywords ?? []).slice(0, 3).map((k) => <span key={k} className="rounded bg-muted px-1.5 py-px text-[11px] text-muted-foreground line-through">{k}</span>)}
             {s.require_keywords && <Badge tone="info">仅保留命中关键词</Badge>}

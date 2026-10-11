@@ -25,21 +25,34 @@
 - [数据与隐私](#数据与隐私)
 - [测试](#测试)
 - [已完成 / 未完成功能](#已完成--未完成功能)
-- 更多文档：[部署与排错](docs/DEPLOYMENT.md) · [第二阶段 AI 路线图](docs/ROADMAP.md)
+- 更多文档：[信息源调研](docs/SOURCES.md) · [部署与排错](docs/DEPLOYMENT.md) · [路线图](docs/ROADMAP.md)
 
 ---
 
 ## 当前状态（请先读）
 
+**v0.2** 在 v0.1 的基础上增加了 **招聘雷达** 与 **AI 动态** 两个模块，共 18 个信息源（v0.1 的 6 个全部保留）。
+
 | 项目 | 状态 |
 | --- | --- |
-| Python 监控引擎（RSS/Atom、公开 API、GitHub Releases、网页） | ✅ 已实现，69 个离线单元/集成测试通过 |
-| 前端（总览 / 情报中心 / 我的监控 / 规则 / 历史 / 通知 / 设置） | ✅ 已实现，类型检查、26 个单元测试与生产构建通过 |
-| GitHub Actions：CI、每日监控、Pages 部署 | ✅ 已编写；**需要在你的仓库中首次运行后才算线上验证** |
-| 预置的 6 个真实信息源 | ⚠️ **尚未线上验证**。开发环境的网络策略屏蔽了这些站点，无法在开发时访问；首次 Actions 运行后，每个来源的真实状态会如实显示在“我的监控”中 |
+| Python 监控引擎 | ✅ 95 个离线测试通过（含对线上 v0.1 数据文件的兼容性测试） |
+| 前端（9 个页面） | ✅ 类型检查、37 个单元测试与生产构建通过 |
+| 新增 12 个来源 | ✅ 已在 GitHub Actions 运行器上用真实监控流水线试运行：18/18 检查成功（详见 [docs/SOURCES.md](docs/SOURCES.md)） |
+| 无法接入的候选来源 | 宁德时代、比亚迪、京东、国家大学生就业服务平台、OpenAI 定价页、x.ai 新闻等，原因逐一记录在 [docs/SOURCES.md](docs/SOURCES.md) |
 
-`data/` 目录在仓库中初始为空。网站在首次监控前只显示“尚未运行”的引导，**不会展示任何模拟数据**。
-开发时用于截图和测试的数据全部来自 `engine/tests/fixtures/` 中**明确标注为测试样例**的本地 HTML / RSS / JSON 文件。
+网站不展示任何模拟数据；开发截图使用的样例全部来自 `engine/tests/fixtures/` 中标注为测试样例的文件。
+
+## v0.2 新功能
+
+- **招聘雷达**（`/jobs`）：企业、岗位、地点、招聘性质（实习 / 暑期实习 / 日常实习 / 校园招聘 / 应届生 / 管培生 / 社招）、学历、毕业届别、发布时间、截止日期、申请入口。只展示来源明确提供的信息，其余显示“未提供”。
+  - 可选筛选：毕业年份、学历、城市、行业、公司、岗位职能、招聘类型、发布时间、关键词；不写死任何届别，条件只保存在浏览器。
+  - “包含未注明该条件的岗位”开关：很多职位不写届别或学历，关闭后只看明确符合的岗位。
+- **AI 动态**（`/ai`）：新模型 / 新功能 / 版本更新 / API 变更 / 定价变化 / 服务公告 / 一般新闻，按厂商筛选；分类规则可解释（悬停徽章可看依据）。
+- **定价页监控**：只在价格行真正变化时生成“定价变化”，展示变化前后的价格；横幅、排版、动态内容不会被误报为涨价或降价。
+- **同义词组与组合关键词**（`rules.json → keyword_groups`）：`供应链` 同时匹配 “supply chain / SCM”；`实习 & 采购` 表示同时命中。可在“情报规则”页编辑。
+- **引擎增强**：API 分页（`pagination`）、职位页地址模板（`url_template`）、按字段值取值（`customField[fieldLabel=Position type].valueLabel`）、截断如实提示（`total_path`）、监控范围扩大时自动并入基线（不误报为新增）、v0.1 数据自动补充结构化字段（不改变事件 ID）。
+- **来源调研工具**：`python -m changeradar probe <url>` 与 Actions 中的 **Probe source** 工作流，在真实运行器上检查 robots、状态码、内容类型、订阅地址和选择器。
+- **修复**：订阅源在周末合法地为空（arXiv）时不再报“解析失败”；卡片本身就是链接时能正确提取原文网址；GitHub 发布说明过大时按需请求。
 
 ## 架构
 
@@ -144,16 +157,14 @@ npm run build
 }
 ```
 
-**预置来源**（覆盖五大类中的四类 + 一个普通网页示例）：
+**预置来源**（18 个，完整调研记录见 [docs/SOURCES.md](docs/SOURCES.md)）：
 
-| ID | 类型 | 类别 | 说明 |
-| --- | --- | --- | --- |
-| `claude-code-releases` | GitHub Releases | AI 与科技 | anthropics/claude-code 发布 |
-| `openai-python-releases` | GitHub Releases | AI 与科技 | openai/openai-python 发布 |
-| `fed-press-releases` | RSS | 宏观与财经 | 美联储官方新闻稿 |
-| `arxiv-cs-ai` | RSS | 学术与教育 | arXiv cs.AI，只保留命中关键词的论文 |
-| `python-releases` | 网页 | AI 与科技 | python.org 下载页版本列表（CSS 选择器示例） |
-| `anthropic-jobs` | 公开 API | 实习与招聘 | Greenhouse 公开职位接口 |
+| 模块 | 来源 |
+| --- | --- |
+| 实习与招聘 | 博世中国（SmartRecruiters 官方 API，按供应链类职能筛选）、Anthropic（Greenhouse） |
+| AI 与科技 | OpenAI News RSS、Anthropic Newsroom、Cursor Changelog、xAI API Release Notes、Claude Code / OpenAI Python SDK / OpenAI Codex Releases、Claude 与 OpenAI 服务状态、Claude API / Claude 套餐 / xAI API / Cursor 定价页、python.org 版本页 |
+| 宏观与财经 | 美联储新闻稿 RSS |
+| 学术与教育 | arXiv cs.AI（关键词过滤） |
 
 中文高校/机构通知页面没有预置：它们的页面结构差异大，部分站点有反爬或登录机制，必须由你针对具体页面配置选择器并确认允许访问。
 
@@ -214,19 +225,23 @@ npm run build
 ## 测试
 
 ```bash
-python -m pytest engine     # 69 个测试：解析、噪声、diff、去重、评分、抓取重试/超时/robots、端到端流水线、原子写入
-cd web && npm test          # 26 个测试：配置校验、草稿/同步状态、导入导出、筛选排序、时区统计
+python -m pytest engine     # 95 个测试：解析、噪声、diff、去重、评分、抓取、分页、定价、职位字段、旧数据兼容
+cd web && npm test          # 37 个测试：配置校验、草稿/同步状态、导入导出、筛选排序、招聘筛选、时区统计
 ```
 
 全部测试离线运行（HTTP 通过 `httpx.MockTransport` 模拟），样例文件见 `engine/tests/fixtures/`。
 
 ## 已完成 / 未完成功能
 
-**已完成（第一版）**：五大核心功能的规则版实现——情报驾驶舱、信息源管理（含导入导出与真实同步状态）、变化检测引擎、情报中心（排序/搜索/筛选/已读/收藏/归档/历史）、站内通知 + 每日摘要 + 可选 GitHub Issues；深色模式；桌面/iPad/手机适配；CI、定时监控与 Pages 自动部署。
+**已完成（v0.2）**：招聘雷达（结构化岗位字段 + 可选个人筛选条件）、AI 动态（类型识别 + 厂商筛选）、定价页价格变化检测、同义词组与组合关键词、API 分页、来源调研工具。
 
-**未完成 / 明确不在第一版**：
+**已完成（v0.1）**：五大核心功能的规则版实现——情报驾驶舱、信息源管理（含导入导出与真实同步状态）、变化检测引擎、情报中心（排序/搜索/筛选/已读/收藏/归档/历史）、站内通知 + 每日摘要 + 可选 GitHub Issues；深色模式；桌面/iPad/手机适配；CI、定时监控与 Pages 自动部署。
 
-- 预置来源的线上验证（需你的仓库首次运行，见上文）。
+**未完成 / 明确不在当前版本**：
+
+- 宁德时代、比亚迪、京东、国家大学生就业服务平台等招聘渠道：页面由 JavaScript 渲染或缺少单个职位链接，且没有公开 API（见 [docs/SOURCES.md](docs/SOURCES.md)）。
+- OpenAI 定价、x.ai 新闻与状态页：对自动访问返回 403，不尝试绕过。
+- 招聘岗位的学历、届别、截止日期：列表接口通常不提供，只在标题或字段明确写出时显示，否则为“未提供”（不抓取每个职位的详情页，以控制请求量）。
 - 高于每天一次的检查频率（schema 已预留 `frequency` 字段）。
 - 网页中直接触发监控（需要令牌，出于安全不在前端实现；请使用 Actions 的 Run workflow）。
 - 浏览器内直接写入仓库配置（同上，需手动提交导出的文件）。

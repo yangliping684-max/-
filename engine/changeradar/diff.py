@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import difflib
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from datetime import datetime
 
@@ -30,6 +31,7 @@ class DiffResult:
     changes: list[Change] = field(default_factory=list)
     snapshot: Snapshot | None = None
     content_changed: bool = False  # snapshot items differ from the previous ones
+    rebaselined: int = 0  # items absorbed into the baseline because the scope changed
 
 
 def item_hash(item: Item, noise: list[str]) -> str:
@@ -70,8 +72,27 @@ def _sort_newest_first(items: list[Item]) -> list[Item]:
     return items  # keep source order (feeds and pages are usually newest first)
 
 
+# v0.1 allowed at most 500 items per source, so a legacy snapshot that holds 500 items
+# was certainly truncated by the cap.
+LEGACY_MAX_ITEMS = 500
+
+
+def scope_of(source: Source) -> str:
+    pag = source.api.pagination.model_dump() if source.api and source.api.pagination else None
+    return f"{source.url}|{source.max_items}|{pag}"
+
+
+def scope_changed(source: Source, prev: Snapshot | None) -> bool:
+    if prev is None:
+        return False
+    if prev.scope is None:  # legacy snapshot
+        return len(prev.items) >= LEGACY_MAX_ITEMS
+    return prev.scope != scope_of(source)
+
+
 def detect_changes(source: Source, prev: Snapshot | None, items: list[Item], now: datetime,
-                   *, etag: str | None = None, last_modified: str | None = None) -> DiffResult:
+                   *, etag: str | None = None, last_modified: str | None = None,
+                   baseline_eligible: Callable[[Item], bool] | None = None) -> DiffResult:
     noise = source.ignore_patterns
     current: dict[str, SnapshotItem] = {}
     hashes: dict[str, str] = {}
@@ -83,22 +104,28 @@ def detect_changes(source: Source, prev: Snapshot | None, items: list[Item], now
 
     seen = list(dict.fromkeys((prev.seen_keys if prev else []) + list(current)))[-MAX_SEEN_KEYS:]
     snapshot = Snapshot(source_id=source.id, taken_at=now, etag=etag, last_modified=last_modified,
-                        items=current, seen_keys=seen)
+                        items=current, seen_keys=seen, scope=scope_of(source))
     result = DiffResult(snapshot=snapshot)
 
     if prev is None:
         result.content_changed = True
-        for it in _sort_newest_first(items)[: source.baseline_items]:
+        pool = [it for it in items if baseline_eligible(it)] if baseline_eligible else items
+        for it in _sort_newest_first(pool)[: source.baseline_items]:
             result.changes.append(Change(ChangeType.INITIAL, it.key, it, None, hashes[it.key]))
         return result
 
     prev_seen = set(prev.seen_keys) | set(prev.items)
-    result.content_changed = {k: v.hash for k, v in prev.items.items()} != hashes
+    result.content_changed = {k: v.hash for k, v in prev.items.items()} != hashes or prev.scope != snapshot.scope
+    widened = scope_changed(source, prev)
 
     for it in items:
         old = prev.items.get(it.key)
         if old is None:
-            if it.key not in prev_seen:
+            if it.key in prev_seen:
+                continue
+            if widened:
+                result.rebaselined += 1  # visible only because the monitored scope grew
+            else:
                 result.changes.append(Change(ChangeType.ADDED, it.key, it, None, hashes[it.key]))
             continue
         if old.hash == hashes[it.key]:

@@ -6,7 +6,8 @@ import { Callout } from "@/components/ui/misc";
 import { Switch } from "@/components/ui/switch";
 import { SOURCE_ID_RE, validateSource } from "@/lib/config";
 import { CREDIBILITY_LABEL, TYPE_LABEL } from "@/lib/labels";
-import type { Category, Credibility, Source, SourceType } from "@/lib/types";
+import type { Category, Credibility, Source, SourceProfile, SourceType } from "@/lib/types";
+import { PROFILE_LABEL } from "@/lib/labels";
 import { Info } from "lucide-react";
 
 const list = (s: string) => s.split(/[,，\n]/).map((x) => x.trim()).filter(Boolean);
@@ -26,6 +27,7 @@ interface FormState {
   keywords: string; exclude: string; require: boolean; priority: number; credibility: Credibility; notes: string;
   selector: string; itemSelector: string; titleSelector: string; linkSelector: string; dateSelector: string; ignoreSelectors: string;
   itemsPath: string; idField: string; titleField: string; urlField: string; summaryField: string; publishedField: string;
+  profile: SourceProfile; company: string; industry: string;
 }
 
 function toForm(s: Source | null): FormState {
@@ -38,6 +40,7 @@ function toForm(s: Source | null): FormState {
     linkSelector: s?.html?.link_selector ?? "", dateSelector: s?.html?.date_selector ?? "", ignoreSelectors: join(s?.html?.ignore_selectors),
     itemsPath: s?.api?.items_path ?? "", idField: s?.api?.id_field ?? "id", titleField: s?.api?.title_field ?? "title",
     urlField: s?.api?.url_field ?? "url", summaryField: s?.api?.summary_field ?? "", publishedField: s?.api?.published_field ?? "",
+    profile: s?.profile ?? "general", company: s?.company ?? "", industry: s?.industry ?? "",
   };
 }
 
@@ -51,6 +54,9 @@ function fromForm(f: FormState, original: Source | null): Source {
   base.priority = f.priority;
   base.credibility = f.credibility;
   base.notes = f.notes.trim() || undefined;
+  base.profile = f.profile === "general" ? undefined : f.profile;
+  base.company = f.company.trim() || undefined;
+  base.industry = f.industry.trim() || undefined;
   base.html = undefined;
   base.api = undefined;
   if (f.type === "html") {
@@ -148,6 +154,17 @@ export function SourceForm({ open, onOpenChange, initial, categories, existingId
             {(Object.keys(CREDIBILITY_LABEL) as Credibility[]).map((c) => <option key={c} value={c}>{CREDIBILITY_LABEL[c]}</option>)}
           </Select>
         </Field>
+        <Field label="模块类型" hint="招聘：识别岗位字段；AI：识别动态类型；定价页：只在价格变化时提醒">
+          <Select value={f.profile} onChange={(e) => set("profile", e.target.value as SourceProfile)}>
+            {(Object.keys(PROFILE_LABEL) as SourceProfile[]).map((p) => <option key={p} value={p}>{PROFILE_LABEL[p]}</option>)}
+          </Select>
+        </Field>
+        <Field label={f.profile === "jobs" ? "企业名称" : "机构 / 厂商"} hint="可选，用于筛选">
+          <Input value={f.company} onChange={(e) => set("company", e.target.value)} placeholder={f.profile === "jobs" ? "例如：某汽车零部件公司" : "例如：OpenAI"} />
+        </Field>
+        {f.profile === "jobs" && (
+          <Field label="行业" hint="可选，用于招聘筛选"><Input value={f.industry} onChange={(e) => set("industry", e.target.value)} placeholder="例如：汽车零部件 / 制造业" /></Field>
+        )}
         <Field label="检查频率" hint="第一版固定为每天一次">
           <Input value="每天一次（daily）" disabled />
         </Field>

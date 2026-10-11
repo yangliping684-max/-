@@ -45,7 +45,7 @@ jobs:
         id: run
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # GitHub API rate limit + optional issues
-          CHANGERADAR_USER_AGENT: "ChangeRadar/0.1 (+https://github.com/${{ github.repository }})"
+          CHANGERADAR_USER_AGENT: "ChangeRadar/0.2 (+https://github.com/${{ github.repository }})"
         run: python -m changeradar run --only "${{ inputs.only }}"
         continue-on-error: true   # persist status/errors even if every source failed
 

@@ -53,3 +53,16 @@ export function stableStringify(v: unknown): string {
     "}"
   );
 }
+
+/** Display-only Markdown → text (release notes). Stored data is left untouched. */
+export function plainText(md: string): string {
+  return md
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+    .replace(/\(\s*\[?[0-9a-f]{7,40}\]?\s*\)/gi, "")
+    .replace(/(^|\s)#{1,6}\s+/g, "$1")
+    .replace(/\*\*|__|`/g, "")
+    .replace(/(^|\s)[*-]\s+/g, "$1· ")
+    .replace(/\s+/g, " ")
+    .trim();
+}

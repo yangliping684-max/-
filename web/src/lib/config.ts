@@ -14,8 +14,9 @@ const LEVELS = ["high", "medium", "low"];
 const SOURCE_KEYS = new Set([
   "id", "name", "type", "url", "category", "enabled", "keywords", "exclude_keywords", "require_keywords",
   "priority", "credibility", "frequency", "max_items", "baseline_items", "track_removals", "ignore_patterns",
-  "html", "api", "notes",
+  "html", "api", "notes", "profile", "company", "industry",
 ]);
+const PROFILES = ["general", "jobs", "ai", "pricing", "status"];
 
 export function validateSource(s: unknown, categoryIds: Set<string>): string[] {
   const errs: string[] = [];
@@ -34,6 +35,8 @@ export function validateSource(s: unknown, categoryIds: Set<string>): string[] {
     errs.push(`${label}: 优先级必须是 1-5 的整数`);
   if (o.credibility !== undefined && !CREDIBILITY.includes(o.credibility as string))
     errs.push(`${label}: 可信度取值无效`);
+  if (o.profile !== undefined && !PROFILES.includes(o.profile as string)) errs.push(`${label}: 模块类型取值无效`);
+  if (o.profile === "pricing" && o.type !== "html") errs.push(`${label}: 定价页监控只支持网页类型`);
   if (o.frequency !== undefined && o.frequency !== "daily") errs.push(`${label}: 第一版仅支持每天检查（daily）`);
   for (const k of ["keywords", "exclude_keywords", "ignore_patterns"]) {
     if (o[k] !== undefined && !(Array.isArray(o[k]) && (o[k] as unknown[]).every((x) => typeof x === "string")))
@@ -105,6 +108,15 @@ export function validateRules(data: unknown): ValidationResult<RulesConfig> {
   }
   if (!r.digest || !LEVELS.includes(r.digest.min_level)) errors.push("digest.min_level 无效");
   if (!r.github_issue || !LEVELS.includes(r.github_issue.min_level)) errors.push("github_issue.min_level 无效");
+  if (r.keyword_groups !== undefined) {
+    if (typeof r.keyword_groups !== "object" || Array.isArray(r.keyword_groups)) errors.push("keyword_groups 必须是对象");
+    else
+      for (const [k, v] of Object.entries(r.keyword_groups))
+        if (!k.trim() || !Array.isArray(v) || !v.every((x) => typeof x === "string"))
+          errors.push(`同义词组 "${k}" 必须是字符串数组`);
+  }
+  if (r.job_functions !== undefined && !(Array.isArray(r.job_functions) && r.job_functions.every((x) => typeof x === "string")))
+    errors.push("job_functions 必须是字符串数组");
   return errors.length ? { ok: false, errors } : { ok: true, errors: [], value: r };
 }
 

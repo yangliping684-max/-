@@ -1,0 +1,13 @@
+{"offset": 0, "limit": 2, "totalFound": 3, "content": [
+  {"id": "1001", "name": "采购工程师 Purchasing Engineer", "releasedDate": "2026-10-09T08:00:00.000Z",
+   "company": {"identifier": "ExampleCo", "name": "Example Co"},
+   "location": {"city": "Suzhou", "fullLocation": "Suzhou, Jiangsu, China"},
+   "typeOfEmployment": {"label": "Full-time"}, "experienceLevel": {"label": "Associate"},
+   "function": {"label": "Purchasing"},
+   "customField": [{"fieldLabel": "Position type", "valueLabel": "Professional"}]},
+  {"id": "1002", "name": "Sales Representative", "releasedDate": "2026-10-08T08:00:00.000Z",
+   "company": {"identifier": "ExampleCo", "name": "Example Co"},
+   "location": {"city": "Xian", "fullLocation": "Xian, Shaanxi, China"},
+   "typeOfEmployment": {"label": "Full-time"}, "experienceLevel": {"label": "Mid-Senior Level"},
+   "function": {"label": "Sales"}, "customField": []}
+]}

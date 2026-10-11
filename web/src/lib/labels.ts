@@ -40,4 +40,24 @@ export const CREDIBILITY_LABEL: Record<Credibility, string> = {
   low: "低可信度",
 };
 
+export const PROFILE_LABEL: Record<string, string> = {
+  general: "通用",
+  jobs: "招聘",
+  ai: "AI 动态",
+  pricing: "定价页",
+  status: "服务状态",
+};
+
+export const AI_TYPE_META: Record<string, { label: string; tone: Tone }> = {
+  new_model: { label: "新模型", tone: "accent" },
+  new_feature: { label: "新功能", tone: "success" },
+  version: { label: "版本更新", tone: "info" },
+  api_change: { label: "API 变更", tone: "warning" },
+  pricing: { label: "定价变化", tone: "danger" },
+  status: { label: "服务公告", tone: "neutral" },
+  news: { label: "一般新闻", tone: "muted" },
+};
+
+export const NOT_PROVIDED = "未提供";
+
 export type Tone = "neutral" | "muted" | "accent" | "success" | "warning" | "danger" | "info";

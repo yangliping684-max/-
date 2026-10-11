@@ -195,9 +195,12 @@ def test_github_releases_use_api_and_token(dirs, web, fetcher, now, monkeypatch)
 
 
 def test_github_api_url():
-    class S:  # minimal stand-in
-        url = "https://github.com/anthropics/claude-code/releases"
-    assert github_api_url(S) == "https://api.github.com/repos/anthropics/claude-code/releases?per_page=30"
+    from changeradar.models import Source
+    src = Source(id="gh-x", name="x", type="github_releases", url="https://github.com/anthropics/claude-code/releases",
+                 category="ai")
+    assert github_api_url(src) == "https://api.github.com/repos/anthropics/claude-code/releases?per_page=30"
+    # Huge release notes: only request as many releases as will be kept.
+    assert github_api_url(src.model_copy(update={"max_items": 5})).endswith("per_page=5")
 
 
 def test_cross_source_duplicates_are_skipped(dirs, web, fetcher, now):

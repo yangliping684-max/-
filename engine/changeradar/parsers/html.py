@@ -75,7 +75,8 @@ def parse_html(text: str, opts: HtmlOptions, base_url: str) -> list[Item]:
         if link_node is not None and link_node.name != "a":
             link_node = link_node.find("a", href=True) or link_node
         href = link_node.get("href") if isinstance(link_node, Tag) else None
-        url = urljoin(base_url, href) if href and not str(href).startswith(("javascript:", "#")) else base_url
+        # "#section" anchors are kept: they are the only deep link on release-notes pages.
+        url = urljoin(base_url, href) if href and href != "#" and not str(href).startswith("javascript:") else base_url
 
         title = _text(title_node) if title_node else (_text(link_node) if isinstance(link_node, Tag) else "")
         full = _text(node)

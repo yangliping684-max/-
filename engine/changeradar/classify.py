@@ -116,11 +116,13 @@ AI_TYPE_LABEL = {
 }
 
 AI_TYPE_RULES: list[tuple[str, str]] = [
-    ("pricing", r"pric(?:e|ing)|定价|价格|折扣|优惠|promo|discount|free (?:tier|trial)|\bplans?\b.*\$"),
-    ("api_change", r"\bAPI\b|SDK|endpoint|deprecat|rate limit|废弃|接口"),
-    ("new_model", r"(?:introducing|announcing|launch(?:ing|es)?|releas(?:e|ing))\b.*\b(?:model|GPT|Claude|Grok|Gemini|Llama|o\d)\b"
-                  r"|\b(?:GPT|Claude|Grok|Gemini|Llama)[- ]?\d|发布.*模型|新模型"),
-    ("new_feature", r"introducing|now available|new feature|launch|推出|上线|新功能|available in"),
+    ("pricing", r"pric(?:e|ing)|定价|价格|折扣|优惠|promo|discount|free (?:tier|trial)"),
+    ("api_change", r"\bAPI\b|SDK|endpoint|deprecat|end of life|\bEOL\b|retire|sunset|rate limit|废弃|下线|接口"),
+    # A launch verb + model family, or a title that *is* a model name ("Grok 4.7").
+    # A model merely mentioned in a customer story ("… with GPT-6.1") is not a launch.
+    ("new_model", r"^(?:introducing|announcing|meet|launching|releasing)\b.*\b(?:model|GPT|Claude|Grok|Gemini|Llama|o\d)\b"
+                  r"|^(?:GPT|Claude|Grok|Gemini|Llama)[\w .-]*\d[\w.]*$|发布.*模型|新模型"),
+    ("new_feature", r"^introducing\b|now available|new feature|^launch|推出|上线|新功能|available in"),
 ]
 
 

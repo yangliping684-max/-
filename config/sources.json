@@ -308,7 +308,9 @@
       "company": "OpenAI",
       "priority": 2,
       "credibility": "official",
-      "baseline_items": 3
+      "baseline_items": 3,
+      "max_items": 5,
+      "notes": "Codex 的发布说明非常长（每条可达数百 KB），因此每次只请求最近 5 个版本。"
     },
     {
       "id": "claude-status",

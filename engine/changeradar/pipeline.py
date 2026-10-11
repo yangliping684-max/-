@@ -48,7 +48,8 @@ def github_api_url(source: Source) -> str:
     m = GITHUB_REPO_RE.match(source.url)
     if not m:
         raise ValueError("github_releases 的 url 必须是 https://github.com/<owner>/<repo>[/releases]")
-    return f"https://api.github.com/repos/{m.group(1)}/{m.group(2)}/releases?per_page=30"
+    # Release notes can be huge (MBs per page), so only request what will be kept.
+    return f"https://api.github.com/repos/{m.group(1)}/{m.group(2)}/releases?per_page={min(30, source.max_items)}"
 
 
 def _request_plan(source: Source) -> tuple[str, dict[str, str], bool]:
@@ -69,6 +70,10 @@ def _request_plan(source: Source) -> tuple[str, dict[str, str], bool]:
     if source.type == SourceType.RSS:
         return source.url, {"Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8"}, True
     return source.url, {"Accept": "text/html,application/xhtml+xml"}, True
+
+
+class _EmptyFeed(Exception):
+    """The feed parsed fine but currently lists no entries."""
 
 
 def _with_param(url: str, name: str, value: int) -> str:
@@ -125,7 +130,8 @@ def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetim
         if added:
             summary = "新增/修改内容：" + " / ".join(added)[:400]
     published = item.published_at if item else (prev.published_at if prev else None)
-    haystack = f"{title}\n{summary}\n{item.text if item else ''}"
+    extra_text = " ".join(item.extra.values()) if item else ""
+    haystack = f"{title}\n{summary}\n{item.text if item else ''}\n{extra_text}"
     groups = rules.keyword_groups
     matched = match_keywords(haystack, source.keywords, groups)
     alerts = match_keywords(haystack, rules.alert_keywords, groups)
@@ -146,6 +152,8 @@ def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetim
     if change.minor:
         extra["minor"] = "true"
     facets = compute_facets(source, rules, title, f"{summary}\n{item.text if item else ''}", extra)
+    if source.profile == "pricing" and change.change_type == ChangeType.INITIAL:
+        facets["ai_type_rule"] = "开始监控官方定价页（基线，不代表价格变化）"
     return Event(
         id=short_hash(source.id, change.key, change.change_type.value, change.hash),
         source_id=source.id, source_name=source.name, category=source.category,
@@ -199,7 +207,7 @@ def is_price_noise(source: Source, change: Change) -> bool:
 
 
 def _passes_filters(source: Source, event: Event, groups: dict[str, list[str]]) -> bool:
-    text = f"{event.title}\n{event.summary}"
+    text = f"{event.title}\n{event.summary}\n" + " ".join(event.extra.values())
     if source.exclude_keywords and match_keywords(text, source.exclude_keywords, groups):
         return False
     if source.require_keywords and source.keywords and not event.matched_keywords:
@@ -271,6 +279,10 @@ def run(
                     state.item_count = len(prev_snap.items)
                 else:
                     if not items and prev_snap and prev_snap.items:
+                        if source.type == SourceType.RSS:
+                            # A valid but empty feed is normal (e.g. arXiv on weekends): keep the
+                            # snapshot, report nothing, and do not treat entries as removed.
+                            raise _EmptyFeed()
                         raise ParseError("本次没有解析到任何条目，已保留上次快照（需人工确认）")
                     if suspicious_shrink(prev_snap, items):
                         raise ParseError(
@@ -330,6 +342,13 @@ def run(
                     if result.content_changed or etag_changed:
                         store.save_snapshot(result.snapshot)
                         content_changed = True
+                state.last_success_at = now_i
+                state.consecutive_failures = 0
+                run_rec.sources_ok += 1
+            except _EmptyFeed:
+                state.status = SourceStatus.UNCHANGED
+                state.message = "订阅源当前没有条目（例如周末不更新），已保留上次快照"
+                state.item_count = len(prev_snap.items) if prev_snap else 0
                 state.last_success_at = now_i
                 state.consecutive_failures = 0
                 run_rec.sources_ok += 1

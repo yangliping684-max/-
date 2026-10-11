@@ -1,0 +1,8 @@
+{"offset": 2, "limit": 2, "totalFound": 3, "content": [
+  {"id": "1003", "name": "物料计划实习生（2027届，本科及以上）", "releasedDate": "2026-10-10T01:00:00.000Z",
+   "company": {"identifier": "ExampleCo", "name": "Example Co"},
+   "location": {"city": "Wuxi", "fullLocation": "Wuxi, Jiangsu, China"},
+   "typeOfEmployment": {"label": "Intern"}, "experienceLevel": {"label": "Internship"},
+   "function": {"label": "Logistics"},
+   "customField": [{"fieldLabel": "Position type", "valueLabel": "Student"}]}
+]}

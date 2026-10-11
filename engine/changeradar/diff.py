@@ -32,6 +32,7 @@ class DiffResult:
     snapshot: Snapshot | None = None
     content_changed: bool = False  # snapshot items differ from the previous ones
     rebaselined: int = 0  # items absorbed into the baseline because the scope changed
+    rebaselined_keys: set[str] = field(default_factory=set)
 
 
 def item_hash(item: Item, noise: list[str]) -> str:
@@ -92,7 +93,8 @@ def scope_changed(source: Source, prev: Snapshot | None) -> bool:
 
 def detect_changes(source: Source, prev: Snapshot | None, items: list[Item], now: datetime,
                    *, etag: str | None = None, last_modified: str | None = None,
-                   baseline_eligible: Callable[[Item], bool] | None = None) -> DiffResult:
+                   baseline_eligible: Callable[[Item], bool] | None = None,
+                   allow_removals: bool | None = None) -> DiffResult:
     noise = source.ignore_patterns
     current: dict[str, SnapshotItem] = {}
     hashes: dict[str, str] = {}
@@ -125,6 +127,7 @@ def detect_changes(source: Source, prev: Snapshot | None, items: list[Item], now
                 continue
             if widened:
                 result.rebaselined += 1  # visible only because the monitored scope grew
+                result.rebaselined_keys.add(it.key)
             else:
                 result.changes.append(Change(ChangeType.ADDED, it.key, it, None, hashes[it.key]))
             continue
@@ -138,7 +141,7 @@ def detect_changes(source: Source, prev: Snapshot | None, items: list[Item], now
         result.changes.append(Change(ChangeType.MODIFIED, it.key, it, old, hashes[it.key],
                                      minor=is_minor(diff, ratio), diff=diff))
 
-    if source.removals_tracked:
+    if source.removals_tracked if allow_removals is None else allow_removals:
         for key, old in prev.items.items():
             if key not in current:
                 result.changes.append(Change(ChangeType.REMOVED, key, None, old, old.hash))

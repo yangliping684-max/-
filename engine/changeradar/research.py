@@ -148,10 +148,14 @@ def run_research(entries: list[dict]) -> list[dict]:
                 row["careers"] = {"url": e["careers"], "status": rep.status, "final_url": rep.final_url,
                                   "kind": rep.kind, "error": rep.error, "text_chars": rep.text_chars,
                                   "js": rep.likely_js_rendered, "feeds": rep.advertised_feeds,
-                                  "robots": rep.robots_allowed, "ats_hints": rep.ats_hints}
+                                  "robots": rep.robots_allowed, "ats_hints": rep.ats_hints,
+                                  "links": [l for l in rep.links_sample if any(w in l.lower() for w in
+                                            ("job", "career", "招聘", "人才", "join", "search", "position", "加入"))][:15]}
             row["ats"] = [asdict(scan(fetcher, e["company"], a, i)) for a, i in e.get("ats", [])]
             out.append(row)
-            print(json.dumps(row, ensure_ascii=False), flush=True)
+            hit = any(a["status"] == 200 and a["total"] for a in row["ats"]) or "careers" in row
+            if hit:
+                print(json.dumps(row, ensure_ascii=False), flush=True)
     finally:
         fetcher.close()
     return out

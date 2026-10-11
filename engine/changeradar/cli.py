@@ -34,6 +34,8 @@ def main(argv: list[str] | None = None) -> int:
     p_run.add_argument("--data", default="data", type=Path)
     p_run.add_argument("--only", default="", help="只检查这些 id（逗号分隔）")
     p_run.add_argument("--trigger", default=os.environ.get("GITHUB_EVENT_NAME", "manual"))
+    p_run.add_argument("--budget-seconds", type=float, default=float(os.environ.get("CHANGERADAR_BUDGET_SECONDS", 0)) or None,
+                       help="单次运行的时间预算；超出后剩余来源顺延到下次（按最久未检查优先）")
     p_probe = sub.add_parser("probe", help="调研候选信息源（robots、状态、类型、选择器）")
     p_probe.add_argument("url", nargs="?", help="候选地址")
     p_probe.add_argument("--selector", action="append", default=[], help="要测试的 CSS 选择器（可多次）")
@@ -72,7 +74,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"配置有效：{len(sources.sources)} 个信息源（{enabled} 个启用），{len(sources.categories)} 个分类")
             return 0
         only = {x.strip() for x in args.only.split(",") if x.strip()} or None
-        summary = run(args.config, args.data, trigger=args.trigger, only=only)
+        summary = run(args.config, args.data, trigger=args.trigger, only=only, budget_seconds=args.budget_seconds)
     except (ConfigError, StoreError) as exc:
         print(f"错误：{exc}", file=sys.stderr)
         return 2

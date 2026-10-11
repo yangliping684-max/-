@@ -142,6 +142,8 @@ class Source(BaseModel):
     #   status: official status page feed (service announcements)
     profile: Literal["general", "jobs", "ai", "pricing", "status"] = "general"
     company: str = ""  # organisation behind the source (employer / AI vendor)
+    careers_url: str = ""  # official careers page shown as "招聘官网" (v0.3)
+    channel: str = ""  # human description of the data channel, e.g. "SmartRecruiters 官方公开 API"
     industry: str = ""  # for job filters, e.g. "汽车零部件 / 制造业"
 
     @field_validator("id")

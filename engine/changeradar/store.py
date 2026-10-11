@@ -30,9 +30,12 @@ class StoreError(Exception):
     pass
 
 
-def atomic_write_json(path: Path, data: Any) -> None:
+def atomic_write_json(path: Path, data: Any, *, compact: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    payload = json.dumps(data, ensure_ascii=False, indent=2, sort_keys=False) + "\n"
+    if compact:  # large machine-read files (job catalogs): no indentation
+        payload = json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n"
+    else:
+        payload = json.dumps(data, ensure_ascii=False, indent=2, sort_keys=False) + "\n"
     json.loads(payload)  # never write something we could not read back
     fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.", suffix=".tmp")
     try:

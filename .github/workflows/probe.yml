@@ -1,0 +1,46 @@
+# Source research: inspect candidate URLs from a real GitHub runner before adding them.
+# Reports robots.txt verdict, HTTP status, content type, advertised feeds, a JS-rendering
+# heuristic and CSS selector matches. Read-only: it never commits anything.
+name: Probe source
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL to inspect"
+        required: true
+      selector:
+        description: "Optional CSS selector to test"
+        required: false
+        default: ""
+  push:
+    branches: ["probe/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e ./engine
+      - name: Probe single URL
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          URL: ${{ inputs.url }}
+          SELECTOR: ${{ inputs.selector }}
+        run: |
+          if [ -n "$SELECTOR" ]; then python -m changeradar probe "$URL" --selector "$SELECTOR"; else python -m changeradar probe "$URL"; fi
+      - name: Probe research candidates
+        if: github.event_name == 'push'
+        run: python -m changeradar probe --file docs/research/candidates.json 2>&1 | tee probe-report.txt
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'push'
+        with:
+          name: probe-report
+          path: probe-report.txt

@@ -34,6 +34,12 @@ def main(argv: list[str] | None = None) -> int:
     p_run.add_argument("--data", default="data", type=Path)
     p_run.add_argument("--only", default="", help="只检查这些 id（逗号分隔）")
     p_run.add_argument("--trigger", default=os.environ.get("GITHUB_EVENT_NAME", "manual"))
+    p_probe = sub.add_parser("probe", help="调研候选信息源（robots、状态、类型、选择器）")
+    p_probe.add_argument("url", nargs="?", help="候选地址")
+    p_probe.add_argument("--selector", action="append", default=[], help="要测试的 CSS 选择器（可多次）")
+    p_probe.add_argument("--json-path", default="", help="JSON 条目列表路径")
+    p_probe.add_argument("--no-robots", action="store_true", help="官方 API：不检查 robots.txt")
+    p_probe.add_argument("--file", type=Path, help="批量：JSON 数组 [{url, selectors?, json_path?, api?}]")
     p_val = sub.add_parser("validate", help="校验配置文件")
     p_val.add_argument("--config", default="config", type=Path)
     parser.add_argument("-v", "--verbose", action="store_true")
@@ -42,6 +48,16 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(levelname)s %(name)s: %(message)s")
     try:
+        if args.cmd == "probe":
+            from .probe import probe, report_json
+            jobs = (json.loads(args.file.read_text(encoding="utf-8")) if args.file
+                    else [{"url": args.url, "selectors": args.selector, "json_path": args.json_path, "api": args.no_robots}])
+            for job in jobs:
+                rep = probe(job["url"], selectors=job.get("selectors"), json_path=job.get("json_path", ""),
+                            check_robots=not job.get("api", False))
+                print(f"===== PROBE {job['url']}")
+                print(report_json(rep))
+            return 0
         if args.cmd == "validate":
             sources = load_sources(args.config)
             load_rules(args.config)

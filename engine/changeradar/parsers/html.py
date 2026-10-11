@@ -62,7 +62,12 @@ def parse_html(text: str, opts: HtmlOptions, base_url: str) -> list[Item]:
     items: list[Item] = []
     for node in region.select(opts.item_selector):
         title_node = node.select_one(opts.title_selector) if opts.title_selector else None
-        link_node = node.select_one(opts.link_selector) if opts.link_selector else node.find("a", href=True)
+        if opts.link_selector:
+            link_node = node.select_one(opts.link_selector)
+        elif node.name == "a" and node.get("href"):
+            link_node = node  # the item itself is the link (common in card layouts)
+        else:
+            link_node = node.find("a", href=True)
         if link_node is not None and link_node.name != "a":
             link_node = link_node.find("a", href=True) or link_node
         href = link_node.get("href") if isinstance(link_node, Tag) else None

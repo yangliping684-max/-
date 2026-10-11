@@ -1,0 +1,23 @@
+[
+  {"url": "https://openai.com/news/rss.xml"},
+  {"url": "https://openai.com/news/"},
+  {"url": "https://cursor.com/changelog", "selectors": ["article", "main h2", "main a[href*='/changelog/']"]},
+  {"url": "https://x.ai/news", "selectors": ["main a[href*='/news/']"]},
+  {"url": "https://docs.x.ai/"},
+  {"url": "https://status.anthropic.com/"},
+  {"url": "https://status.openai.com/"},
+  {"url": "https://www.anthropic.com/news", "selectors": ["main a[href]:has(time)"]},
+  {"url": "https://www.anthropic.com/pricing", "selectors": ["main"]},
+  {"url": "https://openai.com/api/pricing/", "selectors": ["main"]},
+  {"url": "https://api.github.com/repos/openai/codex/releases?per_page=3", "api": true},
+  {"url": "https://api.github.com/repos/anthropics/anthropic-sdk-python/releases?per_page=3", "api": true},
+  {"url": "https://api.github.com/repos/xai-org/xai-sdk-python/releases?per_page=3", "api": true},
+  {"url": "https://talent.catl.com/"},
+  {"url": "https://job.byd.com/"},
+  {"url": "https://campus.jd.com/"},
+  {"url": "https://zhaopin.jd.com/"},
+  {"url": "https://www.ncss.cn/"},
+  {"url": "https://www.iguopin.com/"},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=5", "api": true},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=supply%20chain&limit=5", "api": true}
+]

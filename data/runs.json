@@ -1,6 +1,20 @@
 {
   "runs": [
     {
+      "id": "20261011T055954Z",
+      "started_at": "2026-10-11T05:59:54.896853Z",
+      "finished_at": "2026-10-11T06:00:50.337896Z",
+      "trigger": "workflow_dispatch",
+      "sources_total": 18,
+      "sources_ok": 18,
+      "sources_failed": 0,
+      "sources_paused": 0,
+      "new_events": 53,
+      "filtered": 0,
+      "duplicates": 0,
+      "errors": []
+    },
+    {
       "id": "20261010T232940Z",
       "started_at": "2026-10-10T23:29:40.749139Z",
       "finished_at": "2026-10-10T23:29:49.524661Z",

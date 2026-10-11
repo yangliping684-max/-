@@ -1,0 +1,20 @@
+{
+  "source_id": "cursor-pricing",
+  "taken_at": "2026-10-11T06:00:50.160187Z",
+  "etag": null,
+  "last_modified": null,
+  "items": {
+    "page": {
+      "title": "Cursor · Pricing",
+      "url": "https://cursor.com/pricing",
+      "hash": "e2dfc4ce05104850",
+      "summary": "Pricing Monthly Yearly Hobby For the tinkerer Free Includes: ✓ No credit card required ✓ Limited Agent requests ✓ Access to Composer Try Cursor Individual For the agent-curious $20 / mo. Pro Pro+ Ultra Everything in Hobby, plus: ✓ Extended limits on Agent ✓ Generous limits for Grok ✓ Access to frontier models ✓ Grok Bot access ✓ MCPs, skills, and hooks ✓ Cloud agents ✓ Bugbot on usage-based billi…",
+      "published_at": null,
+      "text": "Pricing\nMonthly\nYearly\nHobby\nFor the tinkerer\nFree\nIncludes:\n✓\nNo credit card required\n✓\nLimited Agent requests\n✓\nAccess to Composer\nTry Cursor\nIndividual\nFor the agent-curious\n$20\n/ mo.\nPro\nPro+\nUltra\nEverything in Hobby, plus:\n✓\nExtended limits on Agent\n✓\nGenerous limits for Grok\n✓\nAccess to frontier models\n✓\nGrok Bot access\n✓\nMCPs, skills, and hooks\n✓\nCloud agents\n✓\nBugbot on usage-based billing\nGet Pro\nTeams\nFor teams that ship together\n$40\n/ user / mo.\nStandard\nPremium\nEverything on Individual, plus:\n✓\nCentralized team billing and administration\n✓\nTeam marketplace for internal rules, skills, and plugins\n✓\nCloud agents and automations with shared team context\n✓\nGrok Bot access\n✓\nAgentic code reviews with Bugbot\n✓\nUsage analytics to understand team behavior\n✓\nTeam-wide privacy mode\n✓\nSAML/OIDC SSO\nGet Teams\nEnterprise\nFor scaled organizations\nCustom\nEverything on Teams, plus:\n✓\nPooled usage\n✓\nInvoice/PO billing\n✓\nSCIM seat management\n✓\nRepository, model, and MCP access controls\n✓\nAuto-run, browser, and network controls\n✓\nAudit logs and service accounts\n✓\nAI code tracking API\n✓\nAccess, network, and audit controls for Grok Bot\n✓\nPriority support and account management\nContact sales\nTrusted every day by teams that build world-class software.\nQuestions & Answers\nWhat is the right plan for me?\nWe recommend Pro+ for daily agent users, and Ultra for agent power users. The Teams plan is recommended for professionals collaborating with others, and larger organizations that need invoicing, pooled usage, or advanced security should choose Enterprise.\nWhat are my payment options?\nSelf-serve plans support all major credit and debit cards. For invoice-based billing and wire transfers, please\ncontact us\nto discuss the Enterprise plan.\nHow does usage-based pricing work?\nEvery plan includes a set amount of model usage. On-demand usage allows you to continue using models after your included amount is consumed, billed in arrears. See\nour docs\nfor more details.\nAre prices inclusive of taxes?\nAll prices are exclusive of any applicable taxes. See our\nTerms of Service\nfor more information.\nHow can I see and manage Cursor's usage in my organization?\nAdmins can access usage information and key metrics through the\nAdmin Dashboard\n.\nHow does Cursor use my data?\nPrivacy mode can be enabled in settings or by a team admin. When it is enabled, we guarantee that code data is not used for training by us or our model providers. You can learn more on our\nSecurity\npage.\nCan I buy Cursor from a reseller or third party?\nNo. Cursor subscriptions are only sold directly through\ncursor.com\n. We do not authorize any resellers or third-party sellers. Subscriptions purchased from any other source are unauthorized and may be fraudulent, insecure, or obtained through abuse of our systems. These accounts may be suspended or terminated at any time. To protect your access and security, purchase Cursor only through our official website.\nWhere can I ask more questions?\nYou're welcome to join\nour forum\nand share your thoughts! If you prefer a private conversation, feel free to email us directly at\nhi@cursor.com\n.\nGet started with Cursor.\nDownload\nContact Sales"
+    }
+  },
+  "seen_keys": [
+    "page"
+  ],
+  "scope": "https://cursor.com/pricing|50|None"
+}

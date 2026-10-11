@@ -1,0 +1,461 @@
+{
+  "source_id": "xai-release-notes",
+  "taken_at": "2026-10-11T06:00:37.512252Z",
+  "etag": null,
+  "last_modified": null,
+  "items": {
+    "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-10-end-of-life": {
+      "title": "grok-voice-transcribe-1.0 end of life",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-10-end-of-life",
+      "hash": "03d60a5484d65f60",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#safety_identifier-request-field": {
+      "title": "safety_identifier request field",
+      "url": "https://docs.x.ai/developers/release-notes#safety_identifier-request-field",
+      "hash": "e53b07af9fc54ca4",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-47": {
+      "title": "Grok 4.7",
+      "url": "https://docs.x.ai/developers/release-notes#grok-47",
+      "hash": "b80f8124ea063441",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-20": {
+      "title": "Grok Voice Transcribe 2.0",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-20",
+      "hash": "aa4419d454512548",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retirement-on-november-2": {
+      "title": "grok-imagine-image-quality retirement on November 2",
+      "url": "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retirement-on-november-2",
+      "hash": "91eed2da0c440206",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#imagine-image-api-updates": {
+      "title": "Imagine image API updates",
+      "url": "https://docs.x.ai/developers/release-notes#imagine-image-api-updates",
+      "hash": "15bd54146613b82a",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-46": {
+      "title": "Grok 4.6",
+      "url": "https://docs.x.ai/developers/release-notes#grok-46",
+      "hash": "e4d4500ffc4f9dd0",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-bot": {
+      "title": "Grok Bot",
+      "url": "https://docs.x.ai/developers/release-notes#grok-bot",
+      "hash": "bf5b1a77289a1fca",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-imagine-video-15-modalities": {
+      "title": "grok-imagine-video-1.5 modalities",
+      "url": "https://docs.x.ai/developers/release-notes#grok-imagine-video-15-modalities",
+      "hash": "444dbf13f510f272",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-20-is-available": {
+      "title": "Grok Voice Think Fast 2.0 is available",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-20-is-available",
+      "hash": "3a6244a571c1ac85",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#adjustable-vad-threshold-for-speech-to-text": {
+      "title": "Adjustable VAD threshold for Speech to Text",
+      "url": "https://docs.x.ai/developers/release-notes#adjustable-vad-threshold-for-speech-to-text",
+      "hash": "d4c8cc31626a4ce1",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-45-available-in-the-eu": {
+      "title": "Grok 4.5 available in the EU",
+      "url": "https://docs.x.ai/developers/release-notes#grok-45-available-in-the-eu",
+      "hash": "72ae40f8632e91af",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-45": {
+      "title": "Grok 4.5",
+      "url": "https://docs.x.ai/developers/release-notes#grok-45",
+      "hash": "e2493e33f5edb46b",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#priority-processing": {
+      "title": "Priority Processing",
+      "url": "https://docs.x.ai/developers/release-notes#priority-processing",
+      "hash": "54e4d568eb88cf2a",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--imagine-integration": {
+      "title": "Public URLs and Files API ↔ Imagine integration",
+      "url": "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--imagine-integration",
+      "hash": "c0f2019a46fdf985",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#smart-turn-for-streaming-stt": {
+      "title": "Smart Turn for Streaming STT",
+      "url": "https://docs.x.ai/developers/release-notes#smart-turn-for-streaming-stt",
+      "hash": "ab79402907b95749",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#context-compaction": {
+      "title": "Context Compaction",
+      "url": "https://docs.x.ai/developers/release-notes#context-compaction",
+      "hash": "07f551df9ec8f08f",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#websocket-responses-api-mode": {
+      "title": "WebSocket Responses API Mode",
+      "url": "https://docs.x.ai/developers/release-notes#websocket-responses-api-mode",
+      "hash": "dca410b95d846a68",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#image-search-in-web-search": {
+      "title": "Image Search in Web Search",
+      "url": "https://docs.x.ai/developers/release-notes#image-search-in-web-search",
+      "hash": "d7a9e34de0513472",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-build-01": {
+      "title": "Grok Build 0.1",
+      "url": "https://docs.x.ai/developers/release-notes#grok-build-01",
+      "hash": "f42a98455216f1c8",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-build": {
+      "title": "Grok Build",
+      "url": "https://docs.x.ai/developers/release-notes#grok-build",
+      "hash": "5055208678374599",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#custom-voices": {
+      "title": "Custom Voices",
+      "url": "https://docs.x.ai/developers/release-notes#custom-voices",
+      "hash": "07dd6e999e3e4072",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#cost-tracking": {
+      "title": "Cost Tracking",
+      "url": "https://docs.x.ai/developers/release-notes#cost-tracking",
+      "hash": "2a0fcc1d8041958d",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#files-api-ttl": {
+      "title": "Files API TTL",
+      "url": "https://docs.x.ai/developers/release-notes#files-api-ttl",
+      "hash": "1029803207024f50",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-10-is-available": {
+      "title": "Grok Voice Think Fast 1.0 is available",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-10-is-available",
+      "hash": "73971142d38396a9",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#speech-to-text-is-available": {
+      "title": "Speech to Text is available",
+      "url": "https://docs.x.ai/developers/release-notes#speech-to-text-is-available",
+      "hash": "50150926dd566584",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#text-to-speech-is-available": {
+      "title": "Text-to-Speech is available",
+      "url": "https://docs.x.ai/developers/release-notes#text-to-speech-is-available",
+      "hash": "7d28c0c50841451d",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#batch-api-supports-image-and-video-generation": {
+      "title": "Batch API supports Image and Video generation",
+      "url": "https://docs.x.ai/developers/release-notes#batch-api-supports-image-and-video-generation",
+      "hash": "62af3efec9bf0d69",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#batch-api-jsonl-file-upload": {
+      "title": "Batch API JSONL file upload",
+      "url": "https://docs.x.ai/developers/release-notes#batch-api-jsonl-file-upload",
+      "hash": "da33b1228aab9515",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-420-and-grok-420-multi-agent-are-live": {
+      "title": "Grok 4.20 and Grok 4.20 Multi-agent are live",
+      "url": "https://docs.x.ai/developers/release-notes#grok-420-and-grok-420-multi-agent-are-live",
+      "hash": "2ca536dab54c5d31",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#video-generation--next-gen-image-generation": {
+      "title": "Video Generation & Next-Gen Image Generation",
+      "url": "https://docs.x.ai/developers/release-notes#video-generation--next-gen-image-generation",
+      "hash": "cef07cc5a3a19f93",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#batch-api-is-released": {
+      "title": "Batch API is released",
+      "url": "https://docs.x.ai/developers/release-notes#batch-api-is-released",
+      "hash": "bcbcd068389fabc1",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-speech-to-speech-api-is-released": {
+      "title": "Grok Speech to Speech API is released",
+      "url": "https://docs.x.ai/developers/release-notes#grok-speech-to-speech-api-is-released",
+      "hash": "39618d98ff6bac0f",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-41-fast-is-available-in-enterprise-api": {
+      "title": "Grok 4.1 Fast is available in Enterprise API",
+      "url": "https://docs.x.ai/developers/release-notes#grok-41-fast-is-available-in-enterprise-api",
+      "hash": "25097e2d6a57070c",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#agent-tools-adapt-to-grok-41-fast-models-and-tool-prices-dropped": {
+      "title": "Agent tools adapt to Grok 4.1 Fast models and tool prices dropped",
+      "url": "https://docs.x.ai/developers/release-notes#agent-tools-adapt-to-grok-41-fast-models-and-tool-prices-dropped",
+      "hash": "af842bb8e7021566",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#files-api-is-generally-available": {
+      "title": "Files API is generally available",
+      "url": "https://docs.x.ai/developers/release-notes#files-api-is-generally-available",
+      "hash": "f11918b75b06d84c",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#new-tools-available": {
+      "title": "New Tools Available",
+      "url": "https://docs.x.ai/developers/release-notes#new-tools-available",
+      "hash": "8f26763b4949709f",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#tools-are-now-generally-available": {
+      "title": "Tools are now generally available",
+      "url": "https://docs.x.ai/developers/release-notes#tools-are-now-generally-available",
+      "hash": "4604eb92c8cdb233",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#responses-api-is-generally-available": {
+      "title": "Responses API is generally available",
+      "url": "https://docs.x.ai/developers/release-notes#responses-api-is-generally-available",
+      "hash": "cf3145bbaa4e5c68",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#collections-api-is-released": {
+      "title": "Collections API is released",
+      "url": "https://docs.x.ai/developers/release-notes#collections-api-is-released",
+      "hash": "6b87767b78e2e585",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-4-is-released": {
+      "title": "Grok 4 is released",
+      "url": "https://docs.x.ai/developers/release-notes#grok-4-is-released",
+      "hash": "e1258d3515458b95",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#management-api-is-released": {
+      "title": "Management API is released",
+      "url": "https://docs.x.ai/developers/release-notes#management-api-is-released",
+      "hash": "418effde91a23946",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#cached-prompt-is-now-available": {
+      "title": "Cached prompt is now available",
+      "url": "https://docs.x.ai/developers/release-notes#cached-prompt-is-now-available",
+      "hash": "6b5f76d0f54f0b72",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#live-search-is-available-on-api": {
+      "title": "Live Search is available on API",
+      "url": "https://docs.x.ai/developers/release-notes#live-search-is-available-on-api",
+      "hash": "42aa55106b0ec2da",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-3-models-launch-on-api": {
+      "title": "Grok 3 models launch on API",
+      "url": "https://docs.x.ai/developers/release-notes#grok-3-models-launch-on-api",
+      "hash": "69eaa66d3e839099",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#image-generation-model-available-on-api": {
+      "title": "Image Generation Model available on API",
+      "url": "https://docs.x.ai/developers/release-notes#image-generation-model-available-on-api",
+      "hash": "330da376badc0816",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#audit-logs": {
+      "title": "Audit Logs",
+      "url": "https://docs.x.ai/developers/release-notes#audit-logs",
+      "hash": "71b519a3cd0049c4",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#docs-dark-mode": {
+      "title": "Docs Dark Mode",
+      "url": "https://docs.x.ai/developers/release-notes#docs-dark-mode",
+      "hash": "1b2f0e10fa8f799f",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#status-page": {
+      "title": "Status Page",
+      "url": "https://docs.x.ai/developers/release-notes#status-page",
+      "hash": "6a374b1ae7376e00",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#replit--spacexai": {
+      "title": "Replit & SpaceXAI",
+      "url": "https://docs.x.ai/developers/release-notes#replit--spacexai",
+      "hash": "7b0a34d01eecef15",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    }
+  },
+  "seen_keys": [
+    "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-10-end-of-life",
+    "https://docs.x.ai/developers/release-notes#safety_identifier-request-field",
+    "https://docs.x.ai/developers/release-notes#grok-47",
+    "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-20",
+    "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retirement-on-november-2",
+    "https://docs.x.ai/developers/release-notes#imagine-image-api-updates",
+    "https://docs.x.ai/developers/release-notes#grok-46",
+    "https://docs.x.ai/developers/release-notes#grok-bot",
+    "https://docs.x.ai/developers/release-notes#grok-imagine-video-15-modalities",
+    "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-20-is-available",
+    "https://docs.x.ai/developers/release-notes#adjustable-vad-threshold-for-speech-to-text",
+    "https://docs.x.ai/developers/release-notes#grok-45-available-in-the-eu",
+    "https://docs.x.ai/developers/release-notes#grok-45",
+    "https://docs.x.ai/developers/release-notes#priority-processing",
+    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--imagine-integration",
+    "https://docs.x.ai/developers/release-notes#smart-turn-for-streaming-stt",
+    "https://docs.x.ai/developers/release-notes#context-compaction",
+    "https://docs.x.ai/developers/release-notes#websocket-responses-api-mode",
+    "https://docs.x.ai/developers/release-notes#image-search-in-web-search",
+    "https://docs.x.ai/developers/release-notes#grok-build-01",
+    "https://docs.x.ai/developers/release-notes#grok-build",
+    "https://docs.x.ai/developers/release-notes#custom-voices",
+    "https://docs.x.ai/developers/release-notes#cost-tracking",
+    "https://docs.x.ai/developers/release-notes#files-api-ttl",
+    "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-10-is-available",
+    "https://docs.x.ai/developers/release-notes#speech-to-text-is-available",
+    "https://docs.x.ai/developers/release-notes#text-to-speech-is-available",
+    "https://docs.x.ai/developers/release-notes#batch-api-supports-image-and-video-generation",
+    "https://docs.x.ai/developers/release-notes#batch-api-jsonl-file-upload",
+    "https://docs.x.ai/developers/release-notes#grok-420-and-grok-420-multi-agent-are-live",
+    "https://docs.x.ai/developers/release-notes#video-generation--next-gen-image-generation",
+    "https://docs.x.ai/developers/release-notes#batch-api-is-released",
+    "https://docs.x.ai/developers/release-notes#grok-speech-to-speech-api-is-released",
+    "https://docs.x.ai/developers/release-notes#grok-41-fast-is-available-in-enterprise-api",
+    "https://docs.x.ai/developers/release-notes#agent-tools-adapt-to-grok-41-fast-models-and-tool-prices-dropped",
+    "https://docs.x.ai/developers/release-notes#files-api-is-generally-available",
+    "https://docs.x.ai/developers/release-notes#new-tools-available",
+    "https://docs.x.ai/developers/release-notes#tools-are-now-generally-available",
+    "https://docs.x.ai/developers/release-notes#responses-api-is-generally-available",
+    "https://docs.x.ai/developers/release-notes#collections-api-is-released",
+    "https://docs.x.ai/developers/release-notes#grok-4-is-released",
+    "https://docs.x.ai/developers/release-notes#management-api-is-released",
+    "https://docs.x.ai/developers/release-notes#cached-prompt-is-now-available",
+    "https://docs.x.ai/developers/release-notes#live-search-is-available-on-api",
+    "https://docs.x.ai/developers/release-notes#grok-3-models-launch-on-api",
+    "https://docs.x.ai/developers/release-notes#image-generation-model-available-on-api",
+    "https://docs.x.ai/developers/release-notes#audit-logs",
+    "https://docs.x.ai/developers/release-notes#docs-dark-mode",
+    "https://docs.x.ai/developers/release-notes#status-page",
+    "https://docs.x.ai/developers/release-notes#replit--spacexai"
+  ],
+  "scope": "https://docs.x.ai/developers/release-notes|50|None"
+}

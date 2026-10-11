@@ -1,7 +1,7 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-10T23:29:40.790155Z",
-  "etag": "W/\"42c51236f073cea1c6008d686bdfa88c9c11879f0b8169e6c102ecb79178ab26\"",
+  "taken_at": "2026-10-11T05:59:54.942957Z",
+  "etag": "W/\"60157387c8c6889d03cfd35a9ee01ae133d351349aaf89af5b7376a2fd8bd82a\"",
   "last_modified": null,
   "items": {
     "408141042": {
@@ -276,5 +276,6 @@
     "386532237",
     "385748811",
     "385124520"
-  ]
+  ],
+  "scope": "https://github.com/anthropics/claude-code|50|None"
 }

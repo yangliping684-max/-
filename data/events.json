@@ -1,6 +1,3195 @@
 {
-  "updated_at": "2026-10-10T23:29:49.524661+00:00",
+  "updated_at": "2026-10-11T06:00:50.337896+00:00",
   "events": [
+    {
+      "id": "44290948d321843c",
+      "source_id": "cursor-pricing",
+      "source_name": "Cursor 定价",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Cursor · Pricing",
+      "url": "https://cursor.com/pricing",
+      "summary": "Pricing Monthly Yearly Hobby For the tinkerer Free Includes: ✓ No credit card required ✓ Limited Agent requests ✓ Access to Composer Try Cursor Individual For the agent-curious $20 / mo. Pro Pro+ Ultra Everything in Hobby, plus: ✓ Extended limits on Agent ✓ Generous limits for Grok ✓ Access to frontier models ✓ Grok Bot access ✓ MCPs, skills, and hooks ✓ Cloud agents ✓ Bugbot on usage-based billi…",
+      "detected_at": "2026-10-11T06:00:50.160187Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Cursor",
+        "ai_type": "pricing",
+        "ai_type_rule": "开始监控官方定价页（基线，不代表价格变化）"
+      }
+    },
+    {
+      "id": "cffa2d0c1602624f",
+      "source_id": "xai-api-pricing",
+      "source_name": "xAI API 定价",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "API Pricing | SpaceXSI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "summary": "Key Information Pricing Copy for LLM View as Markdown Create API key Meet grok-4.7 All prices are in USD. For per-model details, see the models page . Text API Prices per 1M tokens Model | Context | Short context | Long context Input | Cached | Output | Input | Cached | Output grok-4.7 Long context ≥ 200k tokens | 500k | $2.00 | $0.50 | $6.00 | $4.00 | $1.00 | $12.00 grok-build-0.1 Long context ≥…",
+      "detected_at": "2026-10-11T06:00:49.984260Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "pricing",
+        "ai_type_rule": "开始监控官方定价页（基线，不代表价格变化）"
+      }
+    },
+    {
+      "id": "5eb64a1bd6087a5b",
+      "source_id": "claude-plans-pricing",
+      "source_name": "Claude 订阅套餐定价",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Plans & pricing | Claude by Anthropic",
+      "url": "https://claude.com/pricing",
+      "summary": "Latest news Claude Cowork is now just Claude. Rolling out to Pro and Max, with more plans to follow. Read what changed (opens in new tab) Individual Developer Team & Enterprise API Individual Free Try Claude $0 Free for everyone Try Claude Chat on web, desktop, and mobile Search the web, create files, and run code Memory across conversations Connect your apps and tools Create Artifacts Claude Des…",
+      "detected_at": "2026-10-11T06:00:47.547863Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "pricing",
+        "ai_type_rule": "开始监控官方定价页（基线，不代表价格变化）"
+      }
+    },
+    {
+      "id": "a5db9753e56adce0",
+      "source_id": "claude-api-pricing",
+      "source_name": "Claude API 定价",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Pricing - Claude Platform Docs",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "summary": "Models & pricing Lifecycle and reference Pricing Copy page Learn about Anthropic's pricing structure for models and features Copy page This page provides detailed pricing information for Anthropic's models and features. All prices are in USD. For the most current pricing information, visit claude.com/pricing . Model pricing The following table shows pricing for all Claude models: Model | Base tok…",
+      "detected_at": "2026-10-11T06:00:44.969683Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "pricing",
+        "ai_type_rule": "开始监控官方定价页（基线，不代表价格变化）"
+      }
+    },
+    {
+      "id": "6f902978106f969c",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Some ChatGPT content may be unavailable on Android",
+      "url": "https://status.openai.com//incidents/01M4H7FKXDA425TDNP2CRGEYA3",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
+      "detected_at": "2026-10-11T06:00:42.785210Z",
+      "published_at": "2026-10-10T00:26:44Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "706b28a458c7c1e5",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Workspace admins may be unable to manage plugins",
+      "url": "https://status.openai.com//incidents/01M4HA7BCCXVHTR5DCYMSBQF2H",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Connectors/Apps (Operational)",
+      "detected_at": "2026-10-11T06:00:42.785210Z",
+      "published_at": "2026-10-09T23:26:59Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "46ae57a56879d28b",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Delayed Costs data in the Compliance API",
+      "url": "https://status.openai.com//incidents/01M4GV1M2A3K38T73JCVCD9G0R",
+      "summary": "Status: Monitoring We have implemented a mitigation, and delayed Costs data is now processing through the Compliance API. Some customers may continue to see incomplete Costs data while the backlog catches up. We expect this catch-up process to continue through Sunday, October 11. ChatGPT usage and API Platform requests remain unaffected. We are monitoring recovery. Affected components Compliance API (Degraded performance)",
+      "detected_at": "2026-10-11T06:00:42.785210Z",
+      "published_at": "2026-10-09T22:03:59Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "6ad0b913ba70f6ba",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Elevated errors on platform.claude.com",
+      "url": "https://status.claude.com/incidents/978mjkgw6mh7",
+      "summary": "Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here. Oct 7 , 17:28 UTC Identified - We've identified the cause of errors loading usage data. The Admin API usage report has recovered, and fixes for the platform.claude.com Usage and Rate limits pages are in progress. The most recent 30 minutes of usage may be delayed. Cor…",
+      "detected_at": "2026-10-11T06:00:40.699236Z",
+      "published_at": "2026-10-07T21:45:27Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "e6f8dff48e91411f",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Issue with spend limits",
+      "url": "https://status.claude.com/incidents/vmys9qn874h4",
+      "summary": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.",
+      "detected_at": "2026-10-11T06:00:40.699236Z",
+      "published_at": "2026-10-07T21:23:29Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "d069c197f4edd517",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Elevated errors loading usage data on platform.claude.com",
+      "url": "https://status.claude.com/incidents/wf2v8ms031sx",
+      "summary": "Oct 7 , 02:33 UTC Resolved - This incident has been resolved. From 17:00 PT on October 6 / 00:00 UTC on October 7 to 18:40 PT on October 6 / 01:40 UTC on October 7, many requests to load usage data on the platform.claude.com Usage page and the Admin API usage report returned errors. Oct 7 , 01:20 UTC Investigating - We are investigating elevated errors loading usage data on the platform.claude.com Usage page and the Admin API usage report endpoint since 5 PM PT. Messages API requests are not affected. We will provide an update as soon as possible.",
+      "detected_at": "2026-10-11T06:00:40.699236Z",
+      "published_at": "2026-10-07T02:33:38Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "c750cd29b3668ec8",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "0.163.0-alpha.5 (rust-v0.163.0-alpha.5)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.5",
+      "summary": "Release 0.163.0-alpha.5",
+      "detected_at": "2026-10-11T06:00:39.704462Z",
+      "published_at": "2026-10-10T00:26:59Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.163.0-alpha.5",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "8e91fdfe84fa9e36",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "0.162.1 (rust-v0.162.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.162.1",
+      "summary": "## Bug Fixes\n- Fixed a TUI crash when asynchronous questions contain multiple lines, preserving line breaks and complete hyperlink destinations. (#51866)\n- Fixed startup failures caused by differences between a running background server's feature settings and CLI defaults. Compatibility checks now apply only to explicit command-line feature overrides. (#52648)\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.162.0...rust-v0.162.1",
+      "detected_at": "2026-10-11T06:00:39.704462Z",
+      "published_at": "2026-10-09T19:44:51Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.162.1"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "ca59175e8abcffe4",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "0.163.0-alpha.4 (rust-v0.163.0-alpha.4)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.4",
+      "summary": "Release 0.163.0-alpha.4",
+      "detected_at": "2026-10-11T06:00:39.704462Z",
+      "published_at": "2026-10-09T13:21:04Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.163.0-alpha.4",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "b03d187178cd8ba7",
+      "source_id": "xai-release-notes",
+      "source_name": "xAI API Release Notes",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "grok-voice-transcribe-1.0 end of life",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-10-end-of-life",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:37.512252Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "api_change",
+        "ai_type_rule": "标题/摘要关键词"
+      }
+    },
+    {
+      "id": "ca2832717a8b27ba",
+      "source_id": "xai-release-notes",
+      "source_name": "xAI API Release Notes",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "safety_identifier request field",
+      "url": "https://docs.x.ai/developers/release-notes#safety_identifier-request-field",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:37.512252Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "8a02d94846b7d249",
+      "source_id": "xai-release-notes",
+      "source_name": "xAI API Release Notes",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Grok 4.7",
+      "url": "https://docs.x.ai/developers/release-notes#grok-47",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:37.512252Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "new_model",
+        "ai_type_rule": "标题/摘要关键词"
+      }
+    },
+    {
+      "id": "f5d32feb4a9cb117",
+      "source_id": "xai-release-notes",
+      "source_name": "xAI API Release Notes",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Grok Voice Transcribe 2.0",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-20",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:37.512252Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "new_model",
+        "ai_type_rule": "标题/摘要关键词"
+      }
+    },
+    {
+      "id": "768db91593de3258",
+      "source_id": "xai-release-notes",
+      "source_name": "xAI API Release Notes",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "grok-imagine-image-quality retirement on November 2",
+      "url": "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retirement-on-november-2",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:37.512252Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "api_change",
+        "ai_type_rule": "标题/摘要关键词"
+      }
+    },
+    {
+      "id": "fbeb379283037708",
+      "source_id": "cursor-changelog",
+      "source_name": "Cursor Changelog",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Remote control for local agents",
+      "url": "https://cursor.com/changelog/remote-control-local-agents",
+      "summary": "You can now see and reply to the local agents running on your computer from the Cursor iOS app.",
+      "detected_at": "2026-10-11T06:00:35.400377Z",
+      "published_at": "2026-10-06T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 20,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Cursor",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "2ce97cd39703f1e8",
+      "source_id": "cursor-changelog",
+      "source_name": "Cursor Changelog",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Rollouts and Security Review",
+      "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
+      "summary": "Today we're launching two Cursor bots for the last mile of shipping code. Rollouts watches every change as it deploys and reports its health per environment. Security Review reports exploitable bugs on every pull request.",
+      "detected_at": "2026-10-11T06:00:35.400377Z",
+      "published_at": "2026-09-23T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 15,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Cursor",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "1ac7501f2042633d",
+      "source_id": "cursor-changelog",
+      "source_name": "Cursor Changelog",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Cursor Projects",
+      "url": "https://cursor.com/changelog/projects",
+      "summary": "Today we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app. It maintains context over months of work, delegates tasks to thousands of subagents, and performs recurring work without being prompted.",
+      "detected_at": "2026-10-11T06:00:35.400377Z",
+      "published_at": "2026-09-10T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 5,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Cursor",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "bad8002b5e520960",
+      "source_id": "cursor-changelog",
+      "source_name": "Cursor Changelog",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Self-hosted machines",
+      "url": "https://cursor.com/changelog/self-hosted-machines",
+      "summary": "Cursor supports self-hosted machines , which let you keep tool execution entirely in your own network.",
+      "detected_at": "2026-10-11T06:00:35.400377Z",
+      "published_at": "2026-09-02T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 5,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Cursor",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "32adf0be96fc27af",
+      "source_id": "cursor-changelog",
+      "source_name": "Cursor Changelog",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Start from scratch, without a repo",
+      "url": "https://cursor.com/changelog/start-from-scratch",
+      "summary": "Cloud Agents no longer require a connected GitHub or other third-party SCM provider to get started. Prompt from the get-go, then save your work to a Cursor Origin repo.",
+      "detected_at": "2026-10-11T06:00:35.400377Z",
+      "published_at": "2026-08-27T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 5,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Cursor",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "c2aeabed0b6479a3",
+      "source_id": "anthropic-news",
+      "source_name": "Anthropic Newsroom",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "2026 Usage Policy update",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:33.171254Z",
+      "published_at": "2026-10-08T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "5d3addec404ff0ca",
+      "source_id": "anthropic-news",
+      "source_name": "Anthropic Newsroom",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Building on our commitment to American scientific discovery",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:33.171254Z",
+      "published_at": "2026-10-08T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "997bc8fc238ccecb",
+      "source_id": "anthropic-news",
+      "source_name": "Anthropic Newsroom",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Introducing the Anthropic Cyber Mission",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:33.171254Z",
+      "published_at": "2026-10-08T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "new_feature",
+        "ai_type_rule": "标题/摘要关键词"
+      }
+    },
+    {
+      "id": "dcc842719d9d5385",
+      "source_id": "anthropic-news",
+      "source_name": "Anthropic Newsroom",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Introducing Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "summary": "Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
+      "detected_at": "2026-10-11T06:00:33.171254Z",
+      "published_at": "2026-10-07T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "Claude",
+        "model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 44,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：Claude、model"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "new_model",
+        "ai_type_rule": "标题/摘要关键词"
+      }
+    },
+    {
+      "id": "0dcd4dcd2616c46f",
+      "source_id": "anthropic-news",
+      "source_name": "Anthropic Newsroom",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Expanding the Cyber Verification Program\nAnnouncements\nOct 6, 2026\nWe’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "summary": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.",
+      "detected_at": "2026-10-11T06:00:33.171254Z",
+      "published_at": "2026-10-06T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "754eac4d98c76ad6",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "detected_at": "2026-10-11T06:00:30.616279Z",
+      "published_at": "2026-10-09T07:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "727c96d7d71967b8",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "detected_at": "2026-10-11T06:00:30.616279Z",
+      "published_at": "2026-10-09T07:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "GPT",
+        "Codex",
+        "model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 49,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：GPT、Codex、model"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "0e0d60d7c91e2768",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "detected_at": "2026-10-11T06:00:30.616279Z",
+      "published_at": "2026-10-08T16:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "Codex"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 41,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：Codex"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "1009b86da3ee626d",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "url": "https://openai.com/index/pollo-ai",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‐Image‐2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "detected_at": "2026-10-11T06:00:30.616279Z",
+      "published_at": "2026-10-08T12:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 41,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：GPT"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "d69fb996c77ffe5b",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "initial",
+      "title": "LegalOn halves Codex costs while maintaining development speed",
+      "url": "https://openai.com/index/legalon-halves-codex-costs",
+      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "detected_at": "2026-10-11T06:00:30.616279Z",
+      "published_at": "2026-10-08T12:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "Codex"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 41,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：Codex"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "4f7bc523d0a40ff0",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "JMP-大客户销售(ETAS)",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154822739",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-10-10T08:24:11.222000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Engineering",
+        "industry": "Automotive",
+        "position_type": "Junior Managers Program",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "job_type": "管培生",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "0d45bfa32463b696",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "JMP-AI工程师(PS)",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154822629",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-10-10T08:20:41.485000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Wuxi, Jiangsu, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Engineering",
+        "industry": "Automotive",
+        "position_type": "Junior Managers Program",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Wuxi, Jiangsu, China",
+        "city": "Wuxi",
+        "job_type": "管培生",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "b52ed1bcfef437c0",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "JMP-数据AI工程师(BD)",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154822499",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-10-10T08:05:49.456000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Suzhou, Jiangsu, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Engineering",
+        "industry": "Automotive",
+        "position_type": "Junior Managers Program",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Suzhou, Jiangsu, China",
+        "city": "Suzhou",
+        "job_type": "管培生",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "6a13441fb21c7736",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "JMP-AI架构师(BD)",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154822389",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-10-10T08:00:51.344000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Engineering",
+        "industry": "Automotive",
+        "position_type": "Junior Managers Program",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "job_type": "管培生",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "59ce94e8cd3c87e3",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "JMP-成本管理业务伙伴(ME)",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154822209",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-10-10T07:47:10.422000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Suzhou, Jiangsu, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Engineering",
+        "industry": "Automotive",
+        "position_type": "Junior Managers Program",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Suzhou, Jiangsu, China",
+        "city": "Suzhou",
+        "job_type": "管培生",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "c3e5acf0eed1a841",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "高级物料计划员_DCCS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153655669",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-10-06T02:44:47.077000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "供应链",
+        "物料控制"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 44,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：供应链、物料控制"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Supply Chain",
+        "industry": "Mechanical Or Industrial Engineering",
+        "position_type": "Professional",
+        "legal_entity": "Shanghai Bosch Rexroth Hydraulics & Automation Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "供应链、物料控制"
+      }
+    },
+    {
+      "id": "6704a0c9e7d03be4",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "运输专员Transport Specialist_EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152632174",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-30T09:16:31.235000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Changsha, , China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Supply Chain",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Automotive Products (Changsha) Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Changsha, , China",
+        "city": "Changsha",
+        "function": "供应链"
+      }
+    },
+    {
+      "id": "a9b40206da32aab6",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Project Manager_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152552429",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-30T00:50:05.239000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch ThermoTechnology (Shanghai) Co., Ltd"
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "a7b2d519611eb8ac",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "项目采购工程师(电子料)_DCCX",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152329910",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-29T06:16:10.328000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Xian, Shaanxi, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Purchasing",
+        "industry": "Industrial Automation",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Rexroth (Xi'an) Electric Drives and Controls Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Xian, Shaanxi, China",
+        "city": "Xian",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "2c40cd2e528ee230",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "物料计划员_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151545200",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-24T07:32:46.701000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "供应链",
+        "物料控制"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 39,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：供应链、物料控制"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Beijing, Beijing, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Supply Chain",
+        "industry": "Mechanical Or Industrial Engineering",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Rexroth (Beijing) Hydraulic Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Beijing, Beijing, China",
+        "city": "Beijing",
+        "function": "供应链、物料控制"
+      }
+    },
+    {
+      "id": "b0301446d1773266",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Global Category Manager_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151347422",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-23T10:35:16.239000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch ThermoTechnology (Shanghai) Co., Ltd"
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "036c8fadfa7fae2c",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Commercial Buyer(Display)_ M",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150590739",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-21T03:31:10.516000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "b5c679ec66a8e271",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Purchasing Assistant and Analyst_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150052285",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-17T09:16:27.118000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch ThermoTechnology (Shanghai) Co., Ltd"
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "6c09f1fea0ae1bfb",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Category Manager (Silicon Carbide)_ ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150047377",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-17T08:56:04.198000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "856e61f557d7a9e1",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Packaging Expert_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149886274",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-16T14:34:45.389000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Supply Chain",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Automotive Aftermarket (China) Co., Ltd. Shanghai Branch"
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "供应链"
+      }
+    },
+    {
+      "id": "9f5504f8c9b5bd14",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Lead Mechanical Design Engineer_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149795349",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-16T07:55:55.258000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Suzhou, Jiangsu, China",
+        "employment_type": "Full-time",
+        "experience_level": "Executive",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Automotive Products (Suzhou) Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Suzhou, Jiangsu, China",
+        "city": "Suzhou",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "89ca4d7530d80ef9",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Commercial buyer for Resale Goods (HAWA)_ M",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149787394",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-16T07:20:29.192000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Shanghai, Shanghai, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Purchasing",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch (China) Investment Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Shanghai, Shanghai, China",
+        "city": "Shanghai",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "ba6a75e6c6c68963",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "项目采购工程师(铸件&机加工)_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000149774849",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-16T05:18:48.634000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 31,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Beijing, Beijing, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Purchasing",
+        "industry": "Mechanical Or Industrial Engineering",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Rexroth (Beijing) Hydraulic Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Beijing, Beijing, China",
+        "city": "Beijing",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "d0bb229a7a48f4d6",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Project purchasing Engineer_PPS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148044029",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-08T02:03:36.491000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 21,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Chongqing, Chongqing, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Engineering",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Hydrogen Powertrain Systems (Chongqing) Co. Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Chongqing, Chongqing, China",
+        "city": "Chongqing",
+        "function": "采购"
+      }
+    },
+    {
+      "id": "77100a06a818ee66",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Material Procurement planner (济南)_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000147842359",
+      "summary": "",
+      "detected_at": "2026-10-11T06:00:03.763369Z",
+      "published_at": "2026-09-07T06:21:43.692000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 21,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Jinan, , China",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Engineering",
+        "industry": "Mechanical Or Industrial Engineering",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Automotive Steering (Jinan) Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Jinan, , China",
+        "city": "Jinan",
+        "function": "采购"
+      }
+    },
     {
       "id": "5ab08335dbc600e8",
       "source_id": "anthropic-jobs",
@@ -48,6 +3237,12 @@
       "diff": null,
       "extra": {
         "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
       }
     },
     {
@@ -97,6 +3292,12 @@
       "diff": null,
       "extra": {
         "location": "Remote-Friendly, United States; San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly, United States; San Francisco, CA",
+        "city": "Remote-Friendly"
       }
     },
     {
@@ -146,6 +3347,12 @@
       "diff": null,
       "extra": {
         "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA; Washington, DC"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA; Washington, DC",
+        "city": "New York City"
       }
     },
     {
@@ -195,6 +3402,12 @@
       "diff": null,
       "extra": {
         "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
       }
     },
     {
@@ -244,6 +3457,12 @@
       "diff": null,
       "extra": {
         "location": "San Francisco, CA | New York City, NY | Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "city": "San Francisco"
       }
     },
     {
@@ -293,6 +3512,12 @@
       "diff": null,
       "extra": {
         "location": "Singapore"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Singapore",
+        "city": "Singapore"
       }
     },
     {
@@ -342,6 +3567,12 @@
       "diff": null,
       "extra": {
         "location": "Sydney, Australia"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Sydney, Australia",
+        "city": "Sydney"
       }
     },
     {
@@ -391,6 +3622,12 @@
       "diff": null,
       "extra": {
         "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
       }
     },
     {
@@ -440,6 +3677,12 @@
       "diff": null,
       "extra": {
         "location": "Zürich, CH"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Zürich, CH",
+        "city": "Zürich"
       }
     },
     {
@@ -489,6 +3732,12 @@
       "diff": null,
       "extra": {
         "location": "Dublin, IE"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Dublin, IE",
+        "city": "Dublin"
       }
     },
     {
@@ -538,7 +3787,8 @@
       "diff": null,
       "extra": {
         "date_only": "true"
-      }
+      },
+      "facets": {}
     },
     {
       "id": "42bdc46120b14c29",
@@ -587,7 +3837,8 @@
       "diff": null,
       "extra": {
         "date_only": "true"
-      }
+      },
+      "facets": {}
     },
     {
       "id": "5f2145136a2db254",
@@ -636,7 +3887,8 @@
       "diff": null,
       "extra": {
         "date_only": "true"
-      }
+      },
+      "facets": {}
     },
     {
       "id": "c60b7602be751cf6",
@@ -691,7 +3943,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "79829a23c9b3cd01",
@@ -746,7 +3999,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "6317b59d8f817f4f",
@@ -802,7 +4056,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "5126b02ef9517a0f",
@@ -849,7 +4104,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "a60fd4852b1b664e",
@@ -896,7 +4152,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "359d0a464a86c06e",
@@ -943,7 +4200,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "bbf1ae86e7ce6c73",
@@ -990,7 +4248,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "69fb622787cead58",
@@ -1037,7 +4296,8 @@
         }
       ],
       "diff": null,
-      "extra": {}
+      "extra": {},
+      "facets": {}
     },
     {
       "id": "27ad146a7a5e42cf",
@@ -1086,6 +4346,11 @@
       "diff": null,
       "extra": {
         "tag": "v3.28.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1135,6 +4400,11 @@
       "diff": null,
       "extra": {
         "tag": "v3.27.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1184,6 +4454,11 @@
       "diff": null,
       "extra": {
         "tag": "v3.26.1"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1233,6 +4508,11 @@
       "diff": null,
       "extra": {
         "tag": "v3.26.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1289,6 +4569,11 @@
       "diff": null,
       "extra": {
         "tag": "v3.25.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1346,6 +4631,11 @@
       "diff": null,
       "extra": {
         "tag": "v2.1.296"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1402,6 +4692,11 @@
       "diff": null,
       "extra": {
         "tag": "v2.1.295"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1459,6 +4754,11 @@
       "diff": null,
       "extra": {
         "tag": "v2.1.294"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1515,6 +4815,11 @@
       "diff": null,
       "extra": {
         "tag": "v2.1.293"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     },
     {
@@ -1572,6 +4877,11 @@
       "diff": null,
       "extra": {
         "tag": "v2.1.292"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
       }
     }
   ]

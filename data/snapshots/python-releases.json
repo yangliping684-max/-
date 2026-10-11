@@ -1,6 +1,6 @@
 {
   "source_id": "python-releases",
-  "taken_at": "2026-10-10T18:34:18.143434Z",
+  "taken_at": "2026-10-11T06:00:01.287648Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -456,5 +456,6 @@
     "https://www.python.org/downloads/release/python-31113/",
     "https://www.python.org/downloads/release/python-31112/",
     "https://www.python.org/downloads/release/python-31111/"
-  ]
+  ],
+  "scope": "https://www.python.org/downloads/|50|None"
 }

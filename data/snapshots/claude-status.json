@@ -1,0 +1,236 @@
+{
+  "source_id": "claude-status",
+  "taken_at": "2026-10-11T06:00:40.699236Z",
+  "etag": "W/\"06b1b6f1917d00118ca1d955d295b4e6\"",
+  "last_modified": null,
+  "items": {
+    "https://status.claude.com/incidents/vmys9qn874h4": {
+      "title": "Issue with spend limits",
+      "url": "https://status.claude.com/incidents/vmys9qn874h4",
+      "hash": "2870b079776ae0a1",
+      "summary": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.",
+      "published_at": "2026-10-07T21:23:29Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/978mjkgw6mh7": {
+      "title": "Elevated errors on platform.claude.com",
+      "url": "https://status.claude.com/incidents/978mjkgw6mh7",
+      "hash": "a31931d4810dc044",
+      "summary": "Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here. Oct 7 , 17:28 UTC Identified - We've identified the cause of errors loading usage data. The Admin API usage report has recovered, and fixes for the platform.claude.com Usage and Rate limits pages are in progress. The most recent 30 minutes of usage may be delayed. Cor…",
+      "published_at": "2026-10-07T21:45:27Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/wf2v8ms031sx": {
+      "title": "Elevated errors loading usage data on platform.claude.com",
+      "url": "https://status.claude.com/incidents/wf2v8ms031sx",
+      "hash": "68a0ebf0dd76aba0",
+      "summary": "Oct 7 , 02:33 UTC Resolved - This incident has been resolved. From 17:00 PT on October 6 / 00:00 UTC on October 7 to 18:40 PT on October 6 / 01:40 UTC on October 7, many requests to load usage data on the platform.claude.com Usage page and the Admin API usage report returned errors. Oct 7 , 01:20 UTC Investigating - We are investigating elevated errors loading usage data on the platform.claude.com Usage page and the Admin API usage report endpoint since 5 PM PT. Messages API requests are not affected. We will provide an update as soon as possible.",
+      "published_at": "2026-10-07T02:33:38Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/ch27pb90bn85": {
+      "title": "Elevated errors for Claude Opus 5.5",
+      "url": "https://status.claude.com/incidents/ch27pb90bn85",
+      "hash": "ed91fb8f0191c916",
+      "summary": "Oct 6 , 12:43 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Oct 6 , 12:37 UTC Identified - We have identified the cause of elevated errors on requests to Claude Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 6 , 12:24 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
+      "published_at": "2026-10-06T12:43:02Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/bhphxz3vr58g": {
+      "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/bhphxz3vr58g",
+      "hash": "848126967c136e2d",
+      "summary": "Oct 5 , 13:21 UTC Resolved - The issue affecting Claude Mythos 5.1 and Claude Fable 5.1 has been resolved. Impact occurred from 05:40 PT / 12:40 UTC to 06:10 PT / 13:10 UTC. Oct 5 , 13:05 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible.",
+      "published_at": "2026-10-05T13:21:37Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/k0h22tsvnydg": {
+      "title": "Delayed credits on the Claude Platform",
+      "url": "https://status.claude.com/incidents/k0h22tsvnydg",
+      "hash": "2357d2b8d6a06953",
+      "summary": "Oct 1 , 22:36 UTC Resolved - This issue has been resolved. Oct 1 , 18:23 UTC Monitoring - We have resolved the issue causing delays in credits being applied after purchase. We are monitoring closely to ensure no further issues. Oct 1 , 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in some requests failing for insufficient credit balance. We will provide an additional update as soon as possible.",
+      "published_at": "2026-10-01T22:36:22Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/4xvtc2gnq73l": {
+      "title": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
+      "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
+      "hash": "43d1662c8d2a55fe",
+      "summary": "Sep 29 , 16:27 UTC Resolved - The issue affecting Claude.ai, the Claude desktop and mobile apps, Claude Code, Claude Cowork, and the Claude API has been resolved, and services have been operating normally since recovery. Impact occurred from 07:00 PT / 14:00 UTC to 07:59 PT / 14:59 UTC. Sep 29 , 15:30 UTC Update - All services have been operating normally since 14:59 UTC. We are continuing to monitor. Sep 29 , 15:11 UTC Monitoring - Most services have recovered as of 14:59 UTC. Signing in, starting new chats, voice conversations, Claude Code and Cowork sessions, purchases and file uploads are…",
+      "published_at": "2026-09-29T16:27:21Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/7g1qpkyz5gxh": {
+      "title": "Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/7g1qpkyz5gxh",
+      "hash": "546de9fe4990c7d5",
+      "summary": "Sep 22 , 02:35 UTC Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22 , 02:11 UTC Monitoring - We have seen success rates return to normal across affected models, and are monitoring closely to ensure no further issues. Sep 22 , 01:35 UTC Update - We are continuing to work to resolve errors affecting some models. At this time, requests to Claude Fable 5 and 5.1 and Mythos 5 and 5.1 have returned to normal success rates. We are working to resolve remaining errors affecting Claude Opus 5, and will provide an additional update shor…",
+      "published_at": "2026-09-22T02:35:23Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/t8fpw9vcshl9": {
+      "title": "Issues with Google Play subscriptions",
+      "url": "https://status.claude.com/incidents/t8fpw9vcshl9",
+      "hash": "198521f7b7a56206",
+      "summary": "Sep 16 , 16:51 UTC Resolved - This issue has been resolved. Sep 16 , 16:18 UTC Identified - We are aware of an issue affecting users interacting with subscriptions via Google Play, such as when creating a new subscription on Android devices. Google has confirmed an issue with Google Play, and we are awaiting their further updates.",
+      "published_at": "2026-09-16T16:51:09Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/6304r9jjhj34": {
+      "title": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/6304r9jjhj34",
+      "hash": "83c1a6e7ee68bfc5",
+      "summary": "Sep 15 , 11:14 UTC Resolved - A fix has been deployed for Claude Mythos 5.1 and Claude Fable 5.1 and we are monitoring to ensure it has resolved the issue. Sep 15 , 10:50 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1 and Claude Fable 5.1 and we are monitoring to ensure it has resolved the issue. Sep 15 , 09:52 UTC Update - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible. Sep 15 , 09:48 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fa…",
+      "published_at": "2026-09-15T11:14:44Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/r1pqn1kb4hvk": {
+      "title": "Degraded functionality for Claude Cowork on Windows",
+      "url": "https://status.claude.com/incidents/r1pqn1kb4hvk",
+      "hash": "90acfea11ec8df4e",
+      "summary": "Sep 14 , 19:14 UTC Resolved - This issue has been resolved. Microsoft has released a September 14 Windows update that fixes it: https://support.microsoft.com/en-us/servicing/os/windows-11/2026/09/kb5129195-windows-11-24h2-25h2-security-update Sep 10 , 15:54 UTC Identified - A Windows update released September 8 has left Claude Cowork on Windows unable to run local commands, because its workspace can no longer reach your computer's drive. For most users, chat and file reading and editing still work. There's no in-app workaround yet, and restarting or reinstalling won't help. Microsoft has deve…",
+      "published_at": "2026-09-14T19:14:45Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/t33dncr5ydvl": {
+      "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/t33dncr5ydvl",
+      "hash": "fd1f13cf441683d8",
+      "summary": "Sep 11 , 14:37 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 13:57 to 14:20 UTC Sep 11 , 14:28 UTC Update - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Sep 11 , 14:28 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1 and Claude Fable 5.1 and we are monitoring for recovery. Sep 11 , 14:21 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1 and are working on a fix. We will provide an update as soon as possible. Sep…",
+      "published_at": "2026-09-11T14:37:11Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/2pt83vlkk7x7": {
+      "title": "Elevated latency on the Claude API for some users",
+      "url": "https://status.claude.com/incidents/2pt83vlkk7x7",
+      "hash": "84a630c903c36820",
+      "summary": "Sep 10 , 23:24 UTC Resolved - The issue affecting Claude services has been mitigated. Sep 10 , 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.",
+      "published_at": "2026-09-10T23:24:22Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/461yvfrzpwtt": {
+      "title": "Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+      "hash": "3d989bff903d13c7",
+      "summary": "Sep 3 , 16:23 UTC Resolved - The issue affecting Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 has been resolved. Impact has ended as of 9:16 PT / 16:16 UTC. Sep 3 , 16:06 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 and we are monitoring for recovery. Sep 3 , 15:25 UTC Update - The only affected models right now are Opus 4.8 and Opus 5. The rest of the models have recovered to baseline error rate. Sep 3 , 14:49 UTC Update - We are continuing to work on a fix for this issue. Sep 3 , 13:50 UTC Update - An exhaustive list of affect…",
+      "published_at": "2026-09-03T16:23:12Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/288w7p4hk1l1": {
+      "title": "Elevated errors for Claude Sonnet 5",
+      "url": "https://status.claude.com/incidents/288w7p4hk1l1",
+      "hash": "69a4a0103394c145",
+      "summary": "Sep 3 , 12:56 UTC Resolved - This incident has been resolved. Sep 3 , 12:47 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 3 , 12:37 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5. We will provide an update as soon as possible.",
+      "published_at": "2026-09-03T12:56:26Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/ls6bn1x81m0w": {
+      "title": "Elevated errors for Claude Sonnet 5",
+      "url": "https://status.claude.com/incidents/ls6bn1x81m0w",
+      "hash": "71c2a2dd74b4780c",
+      "summary": "Sep 2 , 21:44 UTC Resolved - The issue affecting Claude Sonnet 5 has been resolved. Impact occurred from 2:05pm PT / 21:05 UTC to 2:19pm PT / 21:19 UTC. Sep 2 , 21:17 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5. We will provide an update as soon as possible.",
+      "published_at": "2026-09-02T21:44:28Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/620swtqyn24k": {
+      "title": "Delays in credit purchases",
+      "url": "https://status.claude.com/incidents/620swtqyn24k",
+      "hash": "7ebed5422b98c6d6",
+      "summary": "Sep 2 , 01:24 UTC Resolved - This issue has been resolved. Sep 1 , 23:26 UTC Monitoring - We have identified and resolved an issue where users who reached a balance of zero usage credits saw delays in the availability of newly purchased credits, resulting in some requests to the Claude API receiving 'credit balance is too low' errors erroneously. This affected credits purchased from 05:10am PT / 12:10 UTC to 2:35pm PT / 21:35 UTC. At this time, newly purchased credits should be available as expected and we are working to resolve any remaining impact.",
+      "published_at": "2026-09-02T01:24:22Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/3g3d55q6vk3h": {
+      "title": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
+      "url": "https://status.claude.com/incidents/3g3d55q6vk3h",
+      "hash": "61b81274e609bab3",
+      "summary": "Sep 1 , 18:07 UTC Resolved - This issue has been resolved. Sep 1 , 17:52 UTC Monitoring - We are seeing success rates recover across affected services. Core inference and the API are not impacted. Sep 1 , 17:05 UTC Investigating - We are investigating reports of degraded performance affecting some Claude services, including docs.claude.com. We are working to resolve these issues and will provide an update as soon as possible.",
+      "published_at": "2026-09-01T18:07:03Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/nr3h7bw8b3k3": {
+      "title": "Degraded performance on Claude for Microsoft Office 365",
+      "url": "https://status.claude.com/incidents/nr3h7bw8b3k3",
+      "hash": "7fea8bccc030bae6",
+      "summary": "Sep 1 , 16:22 UTC Resolved - This issue has been resolved. Sep 1 , 16:02 UTC Investigating - We are investigating elevated errors affecting Claude for Microsoft Office 365. We will provide an update as soon as possible.",
+      "published_at": "2026-09-01T16:22:19Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/r82kdk0m7vqh": {
+      "title": "Degraded performance on claude.ai and Claude Code",
+      "url": "https://status.claude.com/incidents/r82kdk0m7vqh",
+      "hash": "487621e69ce7145d",
+      "summary": "Aug 31 , 20:36 UTC Resolved - The issue affecting Claude Code has been resolved. Impact occurred from 16∶55 to 19∶16 UTC. Aug 31 , 19:21 UTC Investigating - We are investigating reports of degraded performance affecting Claude in Slack, Claude Code on the web, and Code Review. We will provide an update as soon as possible.",
+      "published_at": "2026-08-31T20:36:00Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/9jrp5rtyzrf6": {
+      "title": "Degraded performance on claude.ai",
+      "url": "https://status.claude.com/incidents/9jrp5rtyzrf6",
+      "hash": "8f9a1be44afa16c0",
+      "summary": "Aug 31 , 17:52 UTC Resolved - This issue has been resolved. Aug 31 , 17:32 UTC Monitoring - We have seen success rates return to normal for requests on Claude.ai and are monitoring closely. Aug 31 , 17:23 UTC Investigating - We are investigating reports of elevated errors affecting chats on claude.ai. We will provide an update as soon as possible.",
+      "published_at": "2026-08-31T17:52:26Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/vr9tpk8w7zr8": {
+      "title": "Elevated errors on Claude Code and Claude Cowork",
+      "url": "https://status.claude.com/incidents/vr9tpk8w7zr8",
+      "hash": "58bec45c25db0763",
+      "summary": "Aug 28 , 20:21 UTC Resolved - The issue affecting Claude Cowork and Claude Code on the web has been resolved. Aug 28 , 18:21 UTC Monitoring - A mitigation has been applied for the issue affecting Claude Cowork and Claude Code on the web, and we are monitoring for recovery. Sessions that disconnected earlier can be retried Aug 28 , 17:22 UTC Identified - We have identified an issue with an upstream cloud provider affecting Claude Cowork and Claude Code on the web. Some sessions may fail to start or disconnect mid-task; affected sessions can be retried. We are in contact with the provider and w…",
+      "published_at": "2026-08-28T20:21:18Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/n0rlp126qf8g": {
+      "title": "Issues logging into Claude.ai",
+      "url": "https://status.claude.com/incidents/n0rlp126qf8g",
+      "hash": "6b5ffc5e47d09a9d",
+      "summary": "Aug 24 , 20:26 UTC Resolved - This issue has been resolved. Aug 24 , 20:11 UTC Monitoring - We have identified and resolved an issue which resulted in errors when attempting to access Claude.ai, including logging in via subscriptions for Claude Code. Errors occurred between 1:00pm (20:00 UTC) through 1:08pm PT (20:08 UTC). We are monitoring closely to ensure no further issues.",
+      "published_at": "2026-08-24T20:26:21Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/w43j3xmngxgj": {
+      "title": "Errors logging into Claude.ai",
+      "url": "https://status.claude.com/incidents/w43j3xmngxgj",
+      "hash": "e4c4340b068f74bc",
+      "summary": "Aug 24 , 17:16 UTC Resolved - This issue has been resolved. Aug 24 , 17:12 UTC Investigating - From 9:02–9:08am PT / 16:02–16:08 UTC) users experienced issues when logging into Claude.ai, including for connecting Claude Code with subscription. At this time, this issue has been resolved, but we are continuing to investigate a potential issue impacting users of the Claude.ai desktop application.",
+      "published_at": "2026-08-24T17:16:02Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/vgz5psbjmt1h": {
+      "title": "Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/vgz5psbjmt1h",
+      "hash": "201b89c0ae9d4e5b",
+      "summary": "Aug 24 , 08:30 UTC Resolved - This issue has been resolved. From 9:50pm PT / 04:50 UTC through 00:36am PT / 07:36 UTC, users saw elevated errors on requests to Claude models, including Claude Opus 5 and Fable 5. Aug 24 , 07:47 UTC Update - At this time, we have seen errors stabilize on Opus 5 and Fable 5, and are working to fully resolve success rates on all affected models. We will provide an update as soon as possible. Aug 24 , 06:42 UTC Update - We are continuing to work to resolve issues causing elevated requests on multiple models. We will provide an update as soon as possible. Aug 24 ,…",
+      "published_at": "2026-08-24T08:30:47Z",
+      "text": ""
+    }
+  },
+  "seen_keys": [
+    "https://status.claude.com/incidents/vmys9qn874h4",
+    "https://status.claude.com/incidents/978mjkgw6mh7",
+    "https://status.claude.com/incidents/wf2v8ms031sx",
+    "https://status.claude.com/incidents/ch27pb90bn85",
+    "https://status.claude.com/incidents/bhphxz3vr58g",
+    "https://status.claude.com/incidents/k0h22tsvnydg",
+    "https://status.claude.com/incidents/4xvtc2gnq73l",
+    "https://status.claude.com/incidents/7g1qpkyz5gxh",
+    "https://status.claude.com/incidents/t8fpw9vcshl9",
+    "https://status.claude.com/incidents/6304r9jjhj34",
+    "https://status.claude.com/incidents/r1pqn1kb4hvk",
+    "https://status.claude.com/incidents/t33dncr5ydvl",
+    "https://status.claude.com/incidents/2pt83vlkk7x7",
+    "https://status.claude.com/incidents/461yvfrzpwtt",
+    "https://status.claude.com/incidents/288w7p4hk1l1",
+    "https://status.claude.com/incidents/ls6bn1x81m0w",
+    "https://status.claude.com/incidents/620swtqyn24k",
+    "https://status.claude.com/incidents/3g3d55q6vk3h",
+    "https://status.claude.com/incidents/nr3h7bw8b3k3",
+    "https://status.claude.com/incidents/r82kdk0m7vqh",
+    "https://status.claude.com/incidents/9jrp5rtyzrf6",
+    "https://status.claude.com/incidents/vr9tpk8w7zr8",
+    "https://status.claude.com/incidents/n0rlp126qf8g",
+    "https://status.claude.com/incidents/w43j3xmngxgj",
+    "https://status.claude.com/incidents/vgz5psbjmt1h"
+  ],
+  "scope": "https://status.claude.com/history.rss|50|None"
+}

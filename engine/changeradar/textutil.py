@@ -76,24 +76,42 @@ def truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
-def match_keywords(text: str, keywords: list[str]) -> list[str]:
-    """Case-insensitive keyword matching.
+def _match_one(haystack: str, kw: str) -> bool:
+    k = unicodedata.normalize("NFKC", kw).strip().lower()
+    if not k:
+        return False
+    if k.isascii():
+        return re.search(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])", haystack) is not None
+    return k in haystack
 
-    ASCII keywords match on word boundaries ("AI" must not match "said"); CJK keywords
-    match as substrings because Chinese has no word delimiters.
+
+def match_keywords(text: str, keywords: list[str], groups: dict[str, list[str]] | None = None) -> list[str]:
+    """Case-insensitive keyword matching with synonym groups and AND-combinations.
+
+    * ASCII keywords match on word boundaries ("AI" must not match "said"); CJK keywords
+      match as substrings because Chinese has no word delimiters.
+    * A keyword that names a synonym group (``rules.json → keyword_groups``) matches if
+      the group name or any synonym appears, e.g. "供应链" also matches "Supply Chain".
+    * ``"实习 & 供应链"`` matches only when every part matches (each part may be a group).
+
+    Returns the matched keywords as written in ``keywords`` (group names, not synonyms),
+    so explanations stay short and stable.
     """
     if not keywords:
         return []
     haystack = unicodedata.normalize("NFKC", text).lower()
+    groups = groups or {}
+
+    def part_matches(part: str) -> bool:
+        part = part.strip()
+        if part in groups:
+            return any(_match_one(haystack, w) for w in [part, *groups[part]])
+        return _match_one(haystack, part)
+
     hits: list[str] = []
     for kw in keywords:
-        k = unicodedata.normalize("NFKC", kw).strip().lower()
-        if not k:
-            continue
-        if k.isascii():
-            if re.search(r"(?<![a-z0-9])" + re.escape(k) + r"(?![a-z0-9])", haystack):
-                hits.append(kw)
-        elif k in haystack:
+        parts = [p for p in kw.split("&") if p.strip()]
+        if parts and all(part_matches(p) for p in parts):
             hits.append(kw)
     return hits
 

@@ -2,6 +2,7 @@
 // (config/). Missing files are reported as "not available", never replaced with samples.
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
+import type { CatalogIndex } from "./catalog";
 import type { IntelEvent, NotificationItem, RulesConfig, RunRecord, SourcesConfig, StatusFile } from "./types";
 
 export interface AppData {
@@ -12,6 +13,7 @@ export interface AppData {
   eventsUpdatedAt: string | null;
   runs: RunRecord[];
   notifications: NotificationItem[];
+  jobsIndex: CatalogIndex | null; // v0.3 current-openings summary (small; job files load lazily)
   loadedAt: Date | null;
   errors: string[];
 }
@@ -35,6 +37,7 @@ const EMPTY: AppData = {
   eventsUpdatedAt: null,
   runs: [],
   notifications: [],
+  jobsIndex: null,
   loadedAt: null,
   errors: [],
 };
@@ -75,13 +78,14 @@ export function DataProvider({ children }: { children: ReactNode }) {
         return null;
       }
     };
-    const [sources, rules, status, events, runs, notifications] = await Promise.all([
+    const [sources, rules, status, events, runs, notifications, jobsIndex] = await Promise.all([
       get<SourcesConfig>("config/sources.json"),
       get<RulesConfig>("config/rules.json"),
       get<StatusFile>("data/status.json"),
       get<{ updated_at: string; events: IntelEvent[] }>("data/events.json"),
       get<{ runs: RunRecord[] }>("data/runs.json"),
       get<{ notifications: NotificationItem[] }>("data/notifications.json"),
+      get<CatalogIndex>("data/jobs/index.json"),
     ]);
     setData({
       sources,
@@ -91,6 +95,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       eventsUpdatedAt: events?.updated_at ?? null,
       runs: runs?.runs ?? [],
       notifications: notifications?.notifications ?? [],
+      jobsIndex,
       loadedAt: new Date(),
       errors,
     });

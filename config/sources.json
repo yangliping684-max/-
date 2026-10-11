@@ -158,7 +158,9 @@
       "notes": "Greenhouse 公开职位接口（为第三方嵌入职位列表提供的官方 API）。仅展示接口返回的字段，不推断学历要求或截止日期。",
       "profile": "jobs",
       "company": "Anthropic",
-      "industry": "人工智能"
+      "industry": "人工智能",
+      "careers_url": "https://www.anthropic.com/careers",
+      "channel": "Greenhouse 官方公开 Job Board API"
     },
     {
       "id": "bosch-china-jobs",
@@ -170,15 +172,11 @@
       "company": "博世 Bosch",
       "industry": "汽车零部件 / 制造业",
       "keywords": [
-        "供应链",
-        "物流",
-        "采购",
-        "PMC",
-        "物料控制",
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
         "生产计划",
-        "库存管理",
-        "仓储",
-        "需求计划",
+        "仓储与运营",
         "管培生"
       ],
       "require_keywords": true,
@@ -209,7 +207,9 @@
           "legal_entity": "customField[fieldLabel=Legal Entity].valueLabel"
         }
       },
-      "notes": "SmartRecruiters 官方公开 Posting API（无需认证）。逐页读取全部中国区职位，再用供应链类同义词组在本地筛选；接口的 q 参数是宽松全文检索，不适合直接筛选。releasedDate 为职位发布时间。"
+      "notes": "SmartRecruiters 官方公开 Posting API（无需认证）。逐页读取全部中国区职位，再用供应链类同义词组在本地筛选；接口的 q 参数是宽松全文检索，不适合直接筛选。releasedDate 为职位发布时间。",
+      "careers_url": "https://www.bosch.com.cn/careers/",
+      "channel": "SmartRecruiters 官方公开 Posting API"
     },
     {
       "id": "openai-news",
@@ -400,6 +400,242 @@
       "html": {
         "selector": "main"
       }
+    },
+    {
+      "id": "continental-china-jobs",
+      "name": "大陆集团 中国区职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "大陆集团 Continental",
+      "industry": "汽车零部件 / 轮胎",
+      "careers_url": "https://www.continental.com/en/career/",
+      "ats": {
+        "provider": "smartrecruiters",
+        "id": "Continental",
+        "country": "cn"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：SmartRecruiters 返回组织名 Continental，全球 597 个、中国区 24 个职位。"
+    },
+    {
+      "id": "expeditors-china-jobs",
+      "name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "康捷空 Expeditors",
+      "industry": "国际物流 / 货代",
+      "careers_url": "https://www.expeditors.com/careers",
+      "ats": {
+        "provider": "smartrecruiters",
+        "id": "Expeditors",
+        "country": "cn"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：组织名 Expeditors，全球 476 个、中国区 12 个职位。"
+    },
+    {
+      "id": "ubisoft-china-jobs",
+      "name": "育碧 中国区职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "育碧 Ubisoft",
+      "industry": "游戏 / 科技",
+      "careers_url": "https://www.ubisoft.com/en-us/company/careers",
+      "ats": {
+        "provider": "smartrecruiters",
+        "id": "Ubisoft2",
+        "country": "cn"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：标识 Ubisoft2 返回组织名 Ubisoft，全球 339 个、中国区 13 个职位（标识 Ubisoft 无职位）。"
+    },
+    {
+      "id": "canva-china-jobs",
+      "name": "Canva 中国区职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "Canva",
+      "industry": "互联网 / 设计软件",
+      "careers_url": "https://www.lifeatcanva.com/",
+      "ats": {
+        "provider": "smartrecruiters",
+        "id": "Canva",
+        "country": "cn"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：组织名 Canva，全球 125 个、中国区 6 个职位。"
+    },
+    {
+      "id": "flexport-jobs",
+      "name": "Flexport 全球职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "Flexport",
+      "industry": "国际物流 / 供应链科技",
+      "careers_url": "https://www.flexport.com/careers/",
+      "ats": {
+        "provider": "greenhouse",
+        "id": "flexport"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：Greenhouse 看板名 Flexport，共 202 个职位，其中 26 个在中国（深圳、上海等）。Greenhouse 接口不支持按国家筛选，因此收录全部职位，可在招聘雷达中按城市筛选。"
+    },
+    {
+      "id": "lalamove-jobs",
+      "name": "Lalamove 全球职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "货拉拉 Lalamove",
+      "industry": "同城物流",
+      "careers_url": "https://www.lalamove.com/careers",
+      "ats": {
+        "provider": "lever",
+        "id": "lalamove"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：Lever 看板共 180 个职位（香港、台湾、东南亚等）。"
+    },
+    {
+      "id": "weride-jobs",
+      "name": "文远知行 WeRide 职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "文远知行 WeRide",
+      "industry": "自动驾驶",
+      "careers_url": "https://www.weride.ai/careers",
+      "ats": {
+        "provider": "lever",
+        "id": "weride"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：Lever 看板共 16 个职位。"
+    },
+    {
+      "id": "agoda-jobs",
+      "name": "Agoda 全球职位",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "Agoda",
+      "industry": "在线旅游 / 互联网",
+      "careers_url": "https://careersatagoda.com/",
+      "ats": {
+        "provider": "greenhouse",
+        "id": "agoda"
+      },
+      "keywords": [
+        "物流与供应链",
+        "采购与物料管理",
+        "PMC / MC",
+        "生产计划",
+        "仓储与运营",
+        "管培生",
+        "实习",
+        "校招"
+      ],
+      "require_keywords": true,
+      "priority": 3,
+      "credibility": "official",
+      "max_items": 2000,
+      "baseline_items": 5,
+      "notes": "2026-10-11 验证：Greenhouse 看板名 Agoda，共 318 个职位（亚太为主）。"
     }
   ]
 }

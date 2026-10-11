@@ -14,7 +14,7 @@ const LEVELS = ["high", "medium", "low"];
 const SOURCE_KEYS = new Set([
   "id", "name", "type", "url", "category", "enabled", "keywords", "exclude_keywords", "require_keywords",
   "priority", "credibility", "frequency", "max_items", "baseline_items", "track_removals", "ignore_patterns",
-  "html", "api", "notes", "profile", "company", "industry",
+  "html", "api", "notes", "profile", "company", "industry", "careers_url", "channel", "ats",
 ]);
 const PROFILES = ["general", "jobs", "ai", "pricing", "status"];
 
@@ -27,8 +27,17 @@ export function validateSource(s: unknown, categoryIds: Set<string>): string[] {
   if (typeof o.id !== "string" || !SOURCE_ID_RE.test(o.id))
     errs.push(`${label}: id 只能包含小写字母、数字和连字符，长度 2-64`);
   if (typeof o.name !== "string" || !o.name.trim()) errs.push(`${label}: 缺少名称`);
-  if (!TYPES.includes(o.type as SourceType)) errs.push(`${label}: 类型必须是 ${TYPES.join(" / ")}`);
-  if (typeof o.url !== "string" || !/^https?:\/\//.test(o.url)) errs.push(`${label}: url 必须以 http(s):// 开头`);
+  const ats = o.ats as Record<string, unknown> | undefined | null;
+  if (ats) {
+    if (!["smartrecruiters", "greenhouse", "lever"].includes(ats.provider as string)) errs.push(`${label}: 招聘系统只支持 SmartRecruiters / Greenhouse / Lever`);
+    if (typeof ats.id !== "string" || !/^[A-Za-z0-9._-]+$/.test(ats.id)) errs.push(`${label}: 招聘系统中的企业标识只能包含字母、数字、点、下划线和连字符`);
+    if (ats.country != null && (typeof ats.country !== "string" || !/^[a-z]{2}$/i.test(ats.country))) errs.push(`${label}: 国家代码应为两位字母，如 cn`);
+  } else {
+    if (!TYPES.includes(o.type as SourceType)) errs.push(`${label}: 类型必须是 ${TYPES.join(" / ")}`);
+    if (typeof o.url !== "string" || !/^https?:\/\//.test(o.url)) errs.push(`${label}: url 必须以 http(s):// 开头`);
+  }
+  if (o.careers_url !== undefined && (typeof o.careers_url !== "string" || !/^https?:\/\//.test(o.careers_url)))
+    errs.push(`${label}: 招聘官网地址必须以 http(s):// 开头`);
   if (typeof o.category !== "string" || !categoryIds.has(o.category))
     errs.push(`${label}: 分类 "${String(o.category)}" 不存在`);
   if (o.priority !== undefined && !(Number.isInteger(o.priority) && (o.priority as number) >= 1 && (o.priority as number) <= 5))

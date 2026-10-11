@@ -58,12 +58,12 @@ function SourceRow({ m, state, categories, onEdit }: {
             {sync && <Badge tone={sync.tone}><CloudOff className="size-3" />{sync.label}</Badge>}
             {m.sync === "draft-modified" && s.enabled === false && <Badge tone="muted">草稿：暂停</Badge>}
           </div>
-          <a href={s.url} target="_blank" rel="noopener noreferrer" className="mt-0.5 inline-flex max-w-full items-center gap-1 truncate text-[12.5px] text-muted-foreground hover:text-accent">
-            <span className="truncate">{s.url}</span><ExternalLink className="size-3 shrink-0" />
+          <a href={s.careers_url || s.url} target="_blank" rel="noopener noreferrer" className="mt-0.5 inline-flex max-w-full items-center gap-1 truncate text-[12.5px] text-muted-foreground hover:text-accent">
+            <span className="truncate">{s.ats ? `${s.ats.provider} · ${s.ats.id}${s.ats.country ? ` · ${s.ats.country}` : ""}` : s.careers_url || s.url}</span><ExternalLink className="size-3 shrink-0" />
           </a>
           <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[12px]">
             {cat && <Badge tone="neutral"><span className="size-1.5 rounded-full" style={{ background: cat.color }} />{cat.name}</Badge>}
-            <Badge tone="muted">{TYPE_LABEL[s.type]}</Badge>
+            <Badge tone="muted">{s.ats ? "公开招聘接口" : TYPE_LABEL[s.type ?? "api"]}</Badge>
             {s.profile && s.profile !== "general" && <Badge tone="info">{PROFILE_LABEL[s.profile]}</Badge>}
             {s.company && <Badge tone="muted">{s.company}</Badge>}
             <Badge tone="muted">优先级 {s.priority ?? 3}</Badge>

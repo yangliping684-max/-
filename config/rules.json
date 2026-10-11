@@ -79,7 +79,10 @@
       "production scheduler",
       "排产",
       "S&OP",
-      "产销协同"
+      "产销协同",
+      "需求计划",
+      "demand planning",
+      "demand planner"
     ],
     "库存管理": [
       "库存",
@@ -122,17 +125,89 @@
       "new grad",
       "graduate",
       "early career"
+    ],
+    "物流与供应链": [
+      "供应链",
+      "supply chain",
+      "SCM",
+      "物流",
+      "logistics",
+      "运输管理",
+      "transportation",
+      "配送",
+      "distribution",
+      "freight",
+      "货代",
+      "customs",
+      "报关",
+      "供应计划",
+      "supply planning",
+      "supply planner"
+    ],
+    "采购与物料管理": [
+      "采购",
+      "procurement",
+      "purchasing",
+      "purchaser",
+      "buyer",
+      "sourcing",
+      "寻源",
+      "供应商管理",
+      "supplier management",
+      "supplier quality",
+      "物料管理",
+      "material management",
+      "commodity"
+    ],
+    "PMC / MC": [
+      "PMC",
+      "MC",
+      "生产物料控制",
+      "生产与物料控制",
+      "production and material control",
+      "物料控制",
+      "物料计划",
+      "material control",
+      "material controller",
+      "material planning",
+      "material planner",
+      "MRP"
+    ],
+    "仓储与运营": [
+      "仓储",
+      "仓库",
+      "warehouse",
+      "warehousing",
+      "WMS",
+      "库存",
+      "inventory",
+      "fulfillment",
+      "fulfilment",
+      "物流运营",
+      "仓储运营",
+      "logistics operations"
+    ],
+    "数据分析": [
+      "数据分析",
+      "data analyst",
+      "data analysis",
+      "analytics",
+      "BI",
+      "商业分析",
+      "business analyst",
+      "供应链分析",
+      "supply chain analyst",
+      "数据工程",
+      "data engineer",
+      "data scientist"
     ]
   },
   "job_functions": [
-    "供应链",
-    "物流",
-    "采购",
-    "PMC",
-    "物料控制",
+    "物流与供应链",
+    "采购与物料管理",
+    "PMC / MC",
     "生产计划",
-    "库存管理",
-    "仓储",
-    "需求计划"
+    "仓储与运营",
+    "数据分析"
   ]
 }

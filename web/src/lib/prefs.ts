@@ -2,6 +2,7 @@
 // it is never sent anywhere and never committed to the repository.
 
 import { useSyncExternalStore } from "react";
+import { DEFAULT_CATALOG_FILTER, type CatalogFilter } from "./catalog";
 import { DEFAULT_JOB_FILTER, type JobFilter } from "./jobs";
 import type { Category, RulesConfig, Source } from "./types";
 
@@ -25,7 +26,18 @@ export interface Prefs {
   repo: string; // "owner/repo" for GitHub links; empty = auto-detect
   branch: string;
   notificationsSeenAt: number;
-  jobFilter: JobFilter; // the user's own criteria (graduation year, city…) — local only
+  jobFilter: JobFilter; // v0.2 event-based filter (kept for compatibility)
+  catalogFilter: CatalogFilter; // v0.3 job radar criteria — local only, never uploaded
+  jobsViewed: Record<string, number>; // job uid → first viewed (epoch ms)
+  jobsSaved: Record<string, SavedJob>; // snapshot so a saved job survives its removal
+}
+
+export interface SavedJob {
+  title: string;
+  url: string;
+  company: string;
+  location?: string;
+  saved_at: number;
 }
 
 const KEY = "cr.prefs.v1";
@@ -40,6 +52,9 @@ export const DEFAULT_PREFS: Prefs = {
   branch: "main",
   notificationsSeenAt: 0,
   jobFilter: DEFAULT_JOB_FILTER,
+  catalogFilter: DEFAULT_CATALOG_FILTER,
+  jobsViewed: {},
+  jobsSaved: {},
 };
 
 function load(): Prefs {
@@ -53,6 +68,9 @@ function load(): Prefs {
       drafts: { ...DEFAULT_PREFS.drafts, ...(parsed.drafts ?? {}) },
       items: parsed.items ?? {},
       jobFilter: { ...DEFAULT_JOB_FILTER, ...(parsed.jobFilter ?? {}) },
+      catalogFilter: { ...DEFAULT_CATALOG_FILTER, ...(parsed.catalogFilter ?? {}) },
+      jobsViewed: parsed.jobsViewed ?? {},
+      jobsSaved: parsed.jobsSaved ?? {},
     };
   } catch {
     return DEFAULT_PREFS;
@@ -146,4 +164,19 @@ export function useRepo(): { repo: string; branch: string; detected: boolean } {
   const p = usePrefs();
   if (p.repo) return { repo: p.repo, branch: p.branch || "main", detected: false };
   return { repo: typeof window === "undefined" ? "" : detectRepo(), branch: p.branch || "main", detected: true };
+}
+
+// ------------------------------------------------------------------ job radar local state
+
+export function markJobViewed(uid: string) {
+  setPrefs((p) => (p.jobsViewed[uid] ? {} : { jobsViewed: { ...p.jobsViewed, [uid]: Date.now() } }));
+}
+
+export function toggleJobSaved(uid: string, job: Omit<SavedJob, "saved_at">) {
+  setPrefs((p) => {
+    const next = { ...p.jobsSaved };
+    if (next[uid]) delete next[uid];
+    else next[uid] = { ...job, saved_at: Date.now() };
+    return { jobsSaved: next };
+  });
 }

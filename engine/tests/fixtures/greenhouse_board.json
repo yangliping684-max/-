@@ -1,0 +1,8 @@
+{"jobs": [
+  {"id": 7001, "title": "Logistics Coordinator", "absolute_url": "https://job-boards.greenhouse.io/exampleco/jobs/7001",
+   "first_published": "2026-10-08T02:00:00-04:00", "updated_at": "2026-10-09T02:00:00-04:00",
+   "location": {"name": "Shenzhen, China"}, "departments": [{"name": "Operations"}]},
+  {"id": 7002, "title": "Data Analyst Intern", "absolute_url": "https://job-boards.greenhouse.io/exampleco/jobs/7002",
+   "first_published": "2026-10-09T02:00:00-04:00", "updated_at": "2026-10-09T02:00:00-04:00",
+   "location": {"name": "Shanghai"}, "departments": []}
+], "meta": {"total": 2}}

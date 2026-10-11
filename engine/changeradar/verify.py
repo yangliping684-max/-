@@ -41,6 +41,17 @@ def main(config: Path, data: Path, only: set[str] | None = None) -> int:
         print(f"\nbackfilled anthropic-jobs events with facets: {len(backfilled)}")
         for e in backfilled[:3]:
             print("  ", e["title"][:60], json.dumps(e["facets"], ensure_ascii=False))
+        idx = work / "jobs" / "index.json"
+        if idx.exists():
+            print("\nJOB CATALOG:")
+            for c in json.loads(idx.read_text())["companies"]:
+                f = work / "jobs" / f"{c['source_id']}.json"
+                size = f.stat().st_size if f.exists() else 0
+                print(f"   {c['source_id']:24} {c['company'][:20]:22} open={c['count']:5} complete={c['complete']} "
+                      f"reported={c['total_reported']} file={size // 1024}KB")
+            jobs = json.loads((work / "jobs" / "flexport-jobs.json").read_text())["jobs"] if (work / "jobs" / "flexport-jobs.json").exists() else []
+            for j in jobs[:3]:
+                print("     sample:", json.dumps(j, ensure_ascii=False)[:300])
         print("\nRUN:", summary.run.model_dump_json())
     return 0
 

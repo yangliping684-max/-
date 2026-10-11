@@ -44,13 +44,25 @@ class ProbeReport:
     likely_js_rendered: bool = False
     selectors: dict[str, dict] = field(default_factory=dict)
     links_sample: list[str] = field(default_factory=list)
+    json_sample: str = ""  # first part of the (sub)document, for field mapping
+    dump: str = ""  # outer HTML of the first match of `dump_selector`
+    followed: list[dict] = field(default_factory=list)  # probes of URLs built from this payload
 
 
-def probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
-          fetcher: Fetcher | None = None, check_robots: bool = True) -> ProbeReport:
+def probe(url: str, *, fetcher: Fetcher | None = None, **kw) -> ProbeReport:
+    if fetcher is not None:
+        return _probe(url, fetcher=fetcher, **kw)
+    own = Fetcher(retries=2)
+    try:
+        return _probe(url, fetcher=own, **kw)
+    finally:
+        own.close()
+
+
+def _probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
+          fetcher: Fetcher, check_robots: bool = True, dump_selector: str = "",
+          follow_template: str = "") -> ProbeReport:
     rep = ProbeReport(url=url)
-    own = fetcher is None
-    fetcher = fetcher or Fetcher(retries=2)
     try:
         if check_robots:
             rep.robots_allowed = fetcher.allowed_by_robots(url)
@@ -58,9 +70,6 @@ def probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
     except FetchError as exc:
         rep.kind, rep.error, rep.blocked, rep.status = "error", str(exc), exc.blocked, exc.status
         return rep
-    finally:
-        if own:
-            fetcher.close()
 
     rep.status, rep.final_url, rep.content_type, rep.bytes = res.status, res.url, res.content_type, len(res.text)
     text = res.text
@@ -71,6 +80,18 @@ def probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
             data = json.loads(text)
             rep.kind = "json"
             node = get_path(data, json_path) if json_path else data
+            rep.json_sample = json.dumps(data if not isinstance(data, dict) else
+                                         {k: v for k, v in data.items() if not isinstance(v, list)} | {"…": "lists omitted"},
+                                         ensure_ascii=False)[:600] + "\n" + json.dumps(
+                node[0] if isinstance(node, list) and node else node, ensure_ascii=False)[:2500]
+            if follow_template:
+                from .parsers.api import fill_template
+                target = fill_template(follow_template, data)
+                if target:
+                    sub = _probe(target, fetcher=fetcher, check_robots=True)
+                    rep.followed.append({"url": target, "status": sub.status, "final_url": sub.final_url,
+                                         "kind": sub.kind, "title": sub.title, "error": sub.error,
+                                         "robots_allowed": sub.robots_allowed})
             if isinstance(node, dict):
                 rep.json_top_keys = list(node)[:30]
             if isinstance(node, list):
@@ -106,6 +127,9 @@ def probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
     anchors = [a for a in soup.find_all("a", href=True) if len(normalize_whitespace(a.get_text())) >= 6]
     rep.links_sample = [truncate(normalize_whitespace(a.get_text(" ")), 60) + " → " + urljoin(res.url, a["href"])
                         for a in anchors[:25]]
+    if dump_selector:
+        node = soup.select_one(dump_selector)
+        rep.dump = str(node)[:6000] if node else "(no match)"
     for sel in selectors or []:
         try:
             nodes = soup.select(sel)

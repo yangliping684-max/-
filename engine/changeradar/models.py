@@ -91,6 +91,11 @@ class ApiOptions(BaseModel):
     updated_field: str | None = None
     # Extra fields shown on cards, e.g. {"location": "location.name"}.
     extra_fields: dict[str, str] = Field(default_factory=dict)
+    # Public page of an item when the payload only has an API link, e.g.
+    # "https://jobs.smartrecruiters.com/BoschGroup/{id}". Placeholders are item fields.
+    url_template: str | None = None
+    # Dotted path to the total count, so a truncated page is reported honestly.
+    total_path: str | None = None
 
 
 class Source(BaseModel):
@@ -109,7 +114,7 @@ class Source(BaseModel):
     priority: int = Field(default=3, ge=1, le=5)
     credibility: Credibility = Credibility.UNVERIFIED
     frequency: Literal["daily"] = "daily"  # v1 only supports daily; schema leaves room to grow
-    max_items: int = Field(default=50, ge=1, le=500)
+    max_items: int = Field(default=50, ge=1, le=2000)
     # How many pre-existing items to keep as "首次收录" when the baseline is created.
     baseline_items: int = Field(default=10, ge=0, le=100)
     # Whether disappearing items count as "removed" events. Feeds/APIs usually only show
@@ -120,6 +125,14 @@ class Source(BaseModel):
     html: HtmlOptions | None = None
     api: ApiOptions | None = None
     notes: str = ""
+    # v0.2 — optional domain profile that enables structured facets:
+    #   jobs: company / city / job type / education / graduation year (only when stated)
+    #   ai: update type (new model, feature, version, API change…)
+    #   pricing: page-mode pricing page; events only when price lines actually change
+    #   status: official status page feed (service announcements)
+    profile: Literal["general", "jobs", "ai", "pricing", "status"] = "general"
+    company: str = ""  # organisation behind the source (employer / AI vendor)
+    industry: str = ""  # for job filters, e.g. "汽车零部件 / 制造业"
 
     @field_validator("id")
     @classmethod
@@ -230,6 +243,12 @@ class RulesConfig(BaseModel):
     github_issue: GithubIssueRule = Field(default_factory=GithubIssueRule)
     # Hard cap of alerts per run, so a misconfigured source can never spam.
     max_alerts_per_run: int = Field(default=20, ge=1, le=200)
+    # v0.2 — synonym groups usable in any keyword list: {"供应链": ["supply chain", "SCM"]}.
+    # Referencing the group name matches the name or any synonym.
+    keyword_groups: dict[str, list[str]] = Field(default_factory=dict)
+    # Job-function groups used to label job postings (subset of names in keyword_groups
+    # or standalone groups). Purely descriptive; never filters anything by itself.
+    job_functions: list[str] = Field(default_factory=list)
 
 
 # --------------------------------------------------------------------------- parsing
@@ -298,6 +317,8 @@ class Event(BaseModel):
     score_factors: list[ScoreFactor] = Field(default_factory=list)
     diff: dict[str, list[str]] | None = None  # {"added": [...], "removed": [...]}
     extra: dict[str, str] = Field(default_factory=dict)
+    # v0.2 — structured facets (job fields, AI update type…). Absent in v0.1 events.
+    facets: dict[str, str] = Field(default_factory=dict)
 
 
 class SourceState(BaseModel):

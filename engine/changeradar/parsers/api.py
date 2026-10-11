@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 import json
+import re
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import quote, urljoin
 
 from ..models import ApiOptions, Item
 from ..textutil import clean_html_to_text, truncate
@@ -32,6 +33,35 @@ def _load(text: str) -> Any:
         raise ParseError(f"响应不是有效的 JSON：{exc}") from exc
 
 
+_PLACEHOLDER = re.compile(r"\{([\w.]+)\}")
+
+
+def fill_template(template: str, row: dict) -> str | None:
+    """Fill "{id}" / "{company.identifier}" from the item; None if any value is missing."""
+    missing = False
+
+    def sub(m: re.Match[str]) -> str:
+        nonlocal missing
+        value = get_path(row, m.group(1))
+        if value in (None, ""):
+            missing = True
+            return ""
+        return quote(str(value), safe="")
+
+    out = _PLACEHOLDER.sub(sub, template)
+    return None if missing else out
+
+
+def api_total(text: str, opts: ApiOptions) -> int | None:
+    if not opts.total_path:
+        return None
+    try:
+        value = get_path(json.loads(text), opts.total_path)
+        return int(value) if value is not None else None
+    except (json.JSONDecodeError, TypeError, ValueError):
+        return None
+
+
 def parse_api(text: str, opts: ApiOptions, base_url: str) -> list[Item]:
     from . import ParseError, parse_iso_datetime
 
@@ -48,7 +78,10 @@ def parse_api(text: str, opts: ApiOptions, base_url: str) -> list[Item]:
         ident = get_path(row, opts.id_field)
         if not title or ident is None:
             continue
-        url = get_path(row, opts.url_field) or base_url
+        url = get_path(row, opts.url_field)
+        if opts.url_template:
+            url = fill_template(opts.url_template, row)
+        url = url or base_url
         summary = get_path(row, opts.summary_field) if opts.summary_field else ""
         extra = {}
         for name, path in opts.extra_fields.items():

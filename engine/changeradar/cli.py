@@ -54,7 +54,8 @@ def main(argv: list[str] | None = None) -> int:
                     else [{"url": args.url, "selectors": args.selector, "json_path": args.json_path, "api": args.no_robots}])
             for job in jobs:
                 rep = probe(job["url"], selectors=job.get("selectors"), json_path=job.get("json_path", ""),
-                            check_robots=not job.get("api", False))
+                            check_robots=not job.get("api", False), dump_selector=job.get("dump", ""),
+                            follow_template=job.get("follow_template", ""))
                 print(f"===== PROBE {job['url']}")
                 print(report_json(rep))
             return 0

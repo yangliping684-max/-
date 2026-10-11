@@ -153,17 +153,24 @@ PRICE_RE = re.compile(
 
 
 def price_signature(text: str) -> Counter[str]:
-    """Multiset of price expressions together with their line, whitespace-normalised.
+    """Multiset of price lines, each prefixed with the nearest preceding label line.
 
+    "Pro" followed by "$17" becomes "pro → $17", so a price keeps its plan/model name.
     Comparing signatures (instead of raw text) means re-ordering, layout changes,
-    banners or rotating promos without a price never count as a price change.
+    banners or promos without a price never count as a price change.
     """
     sig: Counter[str] = Counter()
-    for line in (text or "").splitlines():
-        prices = PRICE_RE.findall(line)
-        if prices:
-            norm = re.sub(r"\s+", " ", line).strip().lower()
-            sig[norm[:200]] += 1
+    context = ""
+    for raw in (text or "").splitlines():
+        line = re.sub(r"\s+", " ", raw).strip()
+        if not line:
+            continue
+        if PRICE_RE.search(line):
+            # Short price-only lines get their label; long lines carry their own context.
+            key = f"{context} → {line}" if context and len(line) < 40 else line
+            sig[key.lower()[:240]] += 1
+        elif len(line) <= 80:
+            context = line
     return sig
 
 

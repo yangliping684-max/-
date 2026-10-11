@@ -1,13 +1,9 @@
 [
-  {"url": "https://status.claude.com/history.rss"},
-  {"url": "https://status.openai.com/feed.rss"},
-  {"url": "https://status.x.ai/"},
-  {"url": "https://docs.x.ai/developers/release-notes", "selectors": ["main h2", "main h3", "main article", "main section", "main [id]"]},
-  {"url": "https://docs.x.ai/developers/pricing", "selectors": ["main", "main table", "main tr"]},
-  {"url": "https://docs.claude.com/en/docs/about-claude/pricing", "selectors": ["main", "main table", "main tr"]},
-  {"url": "https://cursor.com/changelog", "selectors": ["main article", "main article time", "main article h2", "main article a[href*='/changelog/']", "main article p"]},
-  {"url": "https://cursor.com/pricing", "selectors": ["main"]},
-  {"url": "https://gj.ncss.cn/"},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100", "api": true, "json_path": "content"},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=1", "api": true}
+  {"url": "https://cursor.com/changelog", "dump": "main article"},
+  {"url": "https://docs.x.ai/developers/release-notes", "dump": "main", "selectors": ["main h3 + *", "main h3 ~ p"]},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=1", "api": true, "json_path": "content",
+   "follow_template": "https://jobs.smartrecruiters.com/BoschGroup/{content.0.id}"},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=intern&limit=1", "api": true, "json_path": "content"},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=supply%20chain&limit=1", "api": true, "json_path": "content"},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=%E9%87%87%E8%B4%AD&limit=1", "api": true, "json_path": "content"}
 ]

@@ -21,6 +21,10 @@ def _text(node: Tag) -> str:
     # Block-level boundaries become line breaks so page-mode diffs are line based.
     for br in node.find_all("br"):
         br.replace_with("\n")
+    # A table row is one line ("Model | $5 / MTok | $25 / MTok") so values keep their labels.
+    for tr in node.find_all("tr"):
+        cells = [normalize_whitespace(c.get_text(" ", strip=True)) for c in tr.find_all(["th", "td"])]
+        tr.replace_with("\n" + " | ".join(c for c in cells if c) + "\n")
     return normalize_whitespace(node.get_text("\n", strip=True))
 
 

@@ -338,7 +338,7 @@ def run(
                     result = detect_changes(source, prev_snap, items, now_i, etag=res.etag,
                                             last_modified=res.last_modified, baseline_eligible=eligible,
                                             # job postings: "removed" only when the list is provably complete
-                                            allow_removals=complete if is_jobs else None)
+                                            allow_removals=(complete and source.track_removals is not False) if is_jobs else None)
                     kept = filtered = dupes = 0
                     noise = 0
                     for change in result.changes:

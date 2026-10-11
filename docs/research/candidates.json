@@ -1,4 +1,1 @@
-[
-  {"url": "https://www.chinalogisticsgroup.com.cn/zh-cn/join/hotjob.shtml", "dump": "body",
-   "selectors": ["a[href*='/articles/']", "a[href*='/join/']", "li", "table tr", "a:-soup-contains('招聘')"]}
-]
+[]

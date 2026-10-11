@@ -1,4 +1,4 @@
-# 信息源调研记录（v0.2）
+# 信息源调研记录
 
 所有结论都来自 **2026-10-11 在 GitHub Actions 运行器上的真实请求**（`Probe source` 工作流），而不是推测。
 调研只做公开访问：遵守 robots.txt，不登录、不绕过验证码或访问限制，不使用未公开的内部接口。
@@ -53,3 +53,60 @@ v0.1 原有的 6 个来源全部保留，仅为 `claude-code-releases`、`openai
 2. 只比较这些价格行的集合；顺序变化、横幅、促销文案、排版变化都不会触发事件。
 3. 只有价格行确实增减时才生成“定价变化”，并在卡片上展示变化前后的价格行。
 4. 首次收录的定价页只是监控基线，明确标注“不代表价格变化”。
+
+
+---
+
+# v0.3 招聘来源调研（2026-10-11，GitHub Actions 运行器实测）
+
+方法：
+
+- 对每家候选企业访问其**官方招聘官网**，检查状态码、robots.txt、是否由 JavaScript 渲染，并识别页面引用的招聘系统指纹（`python -m changeradar research`）。
+- 对提供**官方公开、文档化职位接口**的招聘系统（SmartRecruiters、Greenhouse、Lever）查询企业的公开看板。只有接口返回的**组织名称与企业一致**时才算验证通过。
+- 通过后用真实监控流水线在数据副本上试运行，确认岗位数量、链接与字段，再写入配置。
+
+## 已接入的招聘来源（10 家企业）
+
+| 企业 | 渠道 | 验证结果（2026-10-11） | 收录范围 |
+| --- | --- | --- | --- |
+| 博世 Bosch | SmartRecruiters `BoschGroup` | 全球 4,932 个，中国 1,321 个；组织名 Bosch Group | 中国区全部职位 |
+| Anthropic | Greenhouse `anthropic` | 645 个 | 全部职位 |
+| 大陆集团 Continental | SmartRecruiters `Continental` | 全球 597 个，中国 24 个；组织名 Continental | 中国区 |
+| 康捷空 Expeditors | SmartRecruiters `Expeditors` | 全球 476 个，中国 12 个 | 中国区 |
+| 育碧 Ubisoft | SmartRecruiters `Ubisoft2` | 全球 339 个，中国 13 个（`Ubisoft` 标识无职位） | 中国区 |
+| Canva | SmartRecruiters `Canva` | 全球 125 个，中国 6 个 | 中国区 |
+| Flexport | Greenhouse `flexport` | 202 个，其中中国 26 个 | 全部（接口不支持按国家筛选） |
+| 货拉拉 Lalamove | Lever `lalamove` | 180 个（香港、台湾、东南亚） | 全部 |
+| 文远知行 WeRide | Lever `weride` | 16 个 | 全部 |
+| Agoda | Greenhouse `agoda` | 318 个（亚太为主，含上海） | 全部 |
+
+试运行共 **2,737 个在招岗位**，10 个来源全部“数据完整”（获取数 = 接口报告的总数）。
+
+## 用户指定的候选企业：暂不支持
+
+| 企业 | 官方渠道检查结果 | 原因 |
+| --- | --- | --- |
+| 宁德时代 | talent.catl.com → Moka 招聘系统 | JavaScript 单页应用，无公开文档化 API |
+| 比亚迪 | job.byd.com（页面 905 字节） | 单页应用外壳 |
+| 特斯拉 | tesla.com/careers 返回 **403** | 访问受限，不绕过 |
+| 西门子 | jobs.siemens.com（服务端渲染搜索页） | 可访问且 robots 允许，但为全球职位、每页 6 条，没有已验证的国家筛选参数；没有公开 API。列入待支持，需要进一步确认分页与筛选的稳定性 |
+| 施耐德电气 | careers.se.com（引用 iCIMS / Taleo） | 无免认证的公开职位 API |
+| ABB | careers.abb（Phenom 平台） | 无公开 API |
+| 联想 | jobs.lenovo.com（Avature 风格站点） | 首页无职位列表，未发现公开订阅或 API |
+| 小米 / 美的 | hr.xiaomi.com / careers.midea.com | JavaScript 渲染 |
+| 海尔 | haier.com 首页 | 未找到招聘入口链接 |
+| 京东物流 | zhaopin.jd.com | 岗位链接均为 `javascript:;`，无单个职位网址 |
+| 顺丰 / 菜鸟 / 德邦 / 中外运 / 极兔 | 官网 | JavaScript 渲染或首页无职位数据 |
+| DHL | careers.dhl.com（Phenom 平台） | 无公开 API |
+| 华为 / 腾讯 / 字节跳动 / 阿里巴巴 / 美团 | 招聘官网 | 全部为 JavaScript 单页应用 |
+| 苹果 / 亚马逊 / 微软 | 招聘官网 | 职位搜索由脚本调用内部接口加载；内部接口未公开文档化，不使用 |
+
+## 其他已验证但未接入的公开看板
+
+SGS（SmartRecruiters，4,642 个，中国 0）、Stripe、Pinterest、Databricks、Samsara、Lucid Motors、Coinbase、OKX 等也有公开看板，但没有或几乎没有中国区职位。为避免用无关岗位“凑数量”，暂不接入。随时可以用“我的监控 → 新增信息源 → 企业公开招聘接口（ATS）”添加。
+
+## 如何继续扩充
+
+1. 在“我的监控”中选择“企业公开招聘接口（ATS）”，填写招聘系统和企业的公开标识（招聘页网址中的名称）。
+2. 先在 Actions → Probe source 中验证，或把企业加入 `docs/research/ats_candidates.json` 后推送到 `probe/**` 分支，运行 `changeradar research`。
+3. 只有组织名称匹配、能返回职位时才写入配置。

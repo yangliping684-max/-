@@ -147,6 +147,10 @@ class Catalog:
 def is_complete(source: Source, fetched: int, total: int | None, capped: bool) -> bool:
     """A fetch is complete when nothing was cut off: either the API's total matches what
     we read, or (without a total) the list did not hit our own item cap."""
+    if source.type.value == "html":
+        # A web page shows a window (latest announcements, first N jobs): it can never
+        # prove that something missing from it has closed.
+        return False
     if total is not None:
         return fetched >= total
     return not capped

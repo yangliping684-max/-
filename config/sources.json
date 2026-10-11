@@ -636,6 +636,29 @@
       "max_items": 2000,
       "baseline_items": 5,
       "notes": "2026-10-11 验证：Greenhouse 看板名 Agoda，共 318 个职位（亚太为主）。"
+    },
+    {
+      "id": "china-logistics-group-recruit",
+      "name": "中国物流集团 招聘公告",
+      "type": "html",
+      "url": "https://www.chinalogisticsgroup.com.cn/",
+      "category": "jobs",
+      "profile": "jobs",
+      "company": "中国物流集团",
+      "industry": "物流 / 央企",
+      "careers_url": "https://www.chinalogisticsgroup.com.cn/zh-cn/join/hotjob.shtml",
+      "channel": "官网首页招聘公告（网页）",
+      "priority": 4,
+      "credibility": "official",
+      "baseline_items": 3,
+      "track_removals": false,
+      "html": {
+        "selector": "body",
+        "item_selector": "a[href*='/articles/']:-soup-contains('招聘')",
+        "title_selector": ".text",
+        "date_selector": ".time"
+      },
+      "notes": "官网首页新闻列表中标题含“招聘”的公告（如“华贸物流社会招聘公告”）。每条是一份招聘公告而非单个职位；首页只显示最近的新闻，因此无法确认旧公告是否已结束，只标注为“未确认在招”，不会判定下架。"
     }
   ]
 }

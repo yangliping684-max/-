@@ -169,3 +169,25 @@ def test_time_budget_defers_sources_without_losing_data(tmp_path, web, fetcher, 
     deferred = [k for k, v in st.items() if "顺延" in v["message"]]
     assert len(deferred) == 2 and s.run.sources_failed == 0
     assert all(st[k]["status"] == "ok" for k in deferred)  # previous state kept
+
+
+def test_html_announcement_lists_are_never_complete(tmp_path, web, fetcher, now):
+    config, data = tmp_path / "config", tmp_path / "data"
+    src = {"id": "clg", "name": "公告", "type": "html", "url": "https://www.example.cn/", "category": "jobs",
+           "profile": "jobs", "track_removals": False,
+           "html": {"selector": "body", "item_selector": "a[href*='/articles/']:-soup-contains('招聘')",
+                    "title_selector": ".text", "date_selector": ".time"}}
+    write_config(config, [src])
+    page = lambda items: "<html><body>" + "".join(
+        f"<a href='/articles/{i}.shtml'><span class='time'>2026-08-2{i}</span><div class='text'>{t}</div></a>" for i, t in items) + \
+        "<a href='/articles/9.shtml'><div class='text'>集团召开会议</div></a></body></html>"
+    web.set(src["url"], page([(1, "华贸物流社会招聘公告"), (2, "2026届校园招聘启动")]))
+    run(config, data, fetcher=fetcher, now=now)
+    c = json.loads((data / "jobs" / "clg.json").read_text())
+    assert c["complete"] is False and {j["title"] for j in c["jobs"]} == {"华贸物流社会招聘公告", "2026届校园招聘启动"}
+    assert next(j for j in c["jobs"] if j["id"].endswith("1.shtml"))["published_at"].startswith("2026-08-21")
+    web.set(src["url"], page([(3, "新的社会招聘公告")]))  # older notices scrolled off the homepage
+    s = run(config, data, fetcher=fetcher, now=now + timedelta(days=1))
+    c = json.loads((data / "jobs" / "clg.json").read_text())
+    assert len(c["jobs"]) == 3 and sum(1 for j in c["jobs"] if j.get("unconfirmed")) == 2
+    assert [e.change_type.value for e in s.new_events] == ["added"]  # no false "removed"

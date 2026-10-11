@@ -1,9 +1,6 @@
 [
-  {"url": "https://cursor.com/changelog", "dump": "main article"},
-  {"url": "https://docs.x.ai/developers/release-notes", "dump": "main", "selectors": ["main h3 + *", "main h3 ~ p"]},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=1", "api": true, "json_path": "content",
-   "follow_template": "https://jobs.smartrecruiters.com/BoschGroup/{content.0.id}"},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=intern&limit=1", "api": true, "json_path": "content"},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=supply%20chain&limit=1", "api": true, "json_path": "content"},
-  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=%E9%87%87%E8%B4%AD&limit=1", "api": true, "json_path": "content"}
+  {"url": "https://docs.x.ai/developers/release-notes", "dump": "main :has(> h3)",
+   "selectors": ["a:-soup-contains('Markdown')", "main h3", "main h2"]},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100&offset=1300", "api": true, "json_path": "content"},
+  {"url": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&q=intern&limit=100", "api": true, "json_path": "content"}
 ]

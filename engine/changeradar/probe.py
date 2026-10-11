@@ -129,7 +129,7 @@ def _probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
                         for a in anchors[:25]]
     if dump_selector:
         node = soup.select_one(dump_selector)
-        rep.dump = str(node)[:6000] if node else "(no match)"
+        rep.dump = str(node)[:20000] if node else "(no match)"
     for sel in selectors or []:
         try:
             nodes = soup.select(sel)

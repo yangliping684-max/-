@@ -11,6 +11,7 @@ from pathlib import Path
 from typing import Any
 
 from . import notify
+from .classify import ai_facets, job_facets, price_changed
 from .config import load_rules, load_sources
 from .diff import Change, detect_changes, suspicious_shrink
 from .fetcher import FetchError, Fetcher
@@ -19,6 +20,7 @@ from .models import (
     SourceStatus, SourceType,
 )
 from .parsers import ParseError, parse
+from .parsers.api import api_total
 from .scoring import ScoreInput, score
 from .store import Store
 from .textutil import canonical_url, extract_deadline, match_keywords, short_hash
@@ -79,9 +81,15 @@ def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetim
             summary = "新增/修改内容：" + " / ".join(added)[:400]
     published = item.published_at if item else (prev.published_at if prev else None)
     haystack = f"{title}\n{summary}\n{item.text if item else ''}"
-    matched = match_keywords(haystack, source.keywords)
-    alerts = match_keywords(haystack, rules.alert_keywords)
+    groups = rules.keyword_groups
+    matched = match_keywords(haystack, source.keywords, groups)
+    alerts = match_keywords(haystack, rules.alert_keywords, groups)
     deadline = extract_deadline(haystack)
+    diff = change.diff
+    if source.profile == "pricing" and change.change_type == ChangeType.MODIFIED and prev and item:
+        _, added_prices, removed_prices = price_changed(prev.text, item.text)
+        diff = {"added": added_prices, "removed": removed_prices}
+        summary = "价格信息变化：" + " / ".join(added_prices)[:400] if added_prices else "部分价格信息被移除"
 
     pts, level, factors = score(
         ScoreInput(change_type=change.change_type, priority=source.priority, credibility=source.credibility,
@@ -92,6 +100,7 @@ def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetim
     extra = dict(item.extra) if item else {}
     if change.minor:
         extra["minor"] = "true"
+    facets = compute_facets(source, rules, title, f"{summary}\n{item.text if item else ''}", extra)
     return Event(
         id=short_hash(source.id, change.key, change.change_type.value, change.hash),
         source_id=source.id, source_name=source.name, category=source.category,
@@ -100,13 +109,53 @@ def _make_event(source: Source, change: Change, rules: RulesConfig, now: datetim
         source_updated_at=item.updated_at if item else None,
         matched_keywords=matched, alert_keywords=alerts,
         deadline=deadline.isoformat() if deadline else None,
-        score=pts, level=level, score_factors=factors, diff=change.diff, extra=extra,
+        score=pts, level=level, score_factors=factors, diff=diff, extra=extra, facets=facets,
     )
 
 
-def _passes_filters(source: Source, event: Event) -> bool:
+def compute_facets(source: Source, rules: RulesConfig, title: str, text: str, extra: dict[str, str]) -> dict[str, str]:
+    """Structured facets for profiled sources; only explicit information (see classify.py)."""
+    if source.profile == "jobs":
+        functions = {name: rules.keyword_groups.get(name, []) for name in rules.job_functions}
+        return job_facets(title, text, extra, company=source.company, industry=source.industry,
+                          function_groups=functions)
+    if source.profile in ("ai", "pricing", "status"):
+        return ai_facets(title, text, profile=source.profile, vendor=source.company,
+                         is_release=source.type == SourceType.GITHUB_RELEASES)
+    return {}
+
+
+def backfill_facets(events: list[Event], sources: dict[str, Source], rules: RulesConfig) -> int:
+    """Give v0.1 events (no facets) the facets of their now-profiled source.
+
+    Derived only from fields already stored on the event, so it never invents data and
+    never changes event ids. Returns the number of events updated.
+    """
+    n = 0
+    for e in events:
+        src = sources.get(e.source_id)
+        if e.facets or src is None or src.profile == "general":
+            continue
+        facets = compute_facets(src, rules, e.title, e.summary, e.extra)
+        if facets:
+            e.facets = facets
+            n += 1
+    return n
+
+
+def is_price_noise(source: Source, change: Change) -> bool:
+    """On pricing pages only a change of price lines is an event; banners/layout are not."""
+    if source.profile != "pricing" or change.change_type != ChangeType.MODIFIED:
+        return False
+    if change.previous is None or change.item is None:
+        return False
+    changed, _, _ = price_changed(change.previous.text, change.item.text)
+    return not changed
+
+
+def _passes_filters(source: Source, event: Event, groups: dict[str, list[str]]) -> bool:
     text = f"{event.title}\n{event.summary}"
-    if source.exclude_keywords and match_keywords(text, source.exclude_keywords):
+    if source.exclude_keywords and match_keywords(text, source.exclude_keywords, groups):
         return False
     if source.require_keywords and source.keywords and not event.matched_keywords:
         return False
@@ -130,6 +179,7 @@ def run(
     status = store.load_status()
     states: dict[str, SourceState] = status.get("sources", {})
     events = store.load_events()
+    backfilled = backfill_facets(events, {s.id: s for s in sources_cfg.sources}, rules)
     known_ids = {e.id for e in events} | store.archived_event_ids()
     # Cross-source / GUID-churn duplicates: same source+URL, or same URL from another source.
     known_urls: dict[str, str] = {}
@@ -142,7 +192,7 @@ def run(
     run_rec = RunRecord(id=started.strftime("%Y%m%dT%H%M%SZ"), started_at=started, finished_at=started, trigger=trigger)
     new_events: list[Event] = []
     system_notes: list[Notification] = []
-    content_changed = False
+    content_changed = backfilled > 0
 
     configured_ids = {s.id for s in sources_cfg.sources}
     if set(states) - configured_ids:
@@ -187,12 +237,16 @@ def run(
                     result = detect_changes(source, prev_snap, items, now_i,
                                             etag=res.etag, last_modified=res.last_modified)
                     kept = filtered = dupes = 0
+                    noise = 0
                     for change in result.changes:
+                        if is_price_noise(source, change):
+                            noise += 1
+                            continue
                         ev = _make_event(source, change, rules, now_i)
                         if ev.id in known_ids:
                             dupes += 1
                             continue
-                        if not _passes_filters(source, ev):
+                        if not _passes_filters(source, ev, rules.keyword_groups):
                             filtered += 1
                             continue
                         if change.change_type in (ChangeType.ADDED, ChangeType.INITIAL):
@@ -207,16 +261,22 @@ def run(
                     run_rec.filtered += filtered
                     run_rec.duplicates += dupes
                     state.item_count = len(items)
+                    real_changes = len(result.changes) - noise
                     if prev_snap is None:
                         state.status = SourceStatus.OK
                         state.message = f"已建立基线：{len(items)} 个条目，首次收录 {kept} 条"
-                    elif result.changes:
+                    elif real_changes:
                         state.status = SourceStatus.CHANGED
-                        state.message = f"发现 {len(result.changes)} 处变化，生成 {kept} 条情报" + (
+                        state.message = f"发现 {real_changes} 处变化，生成 {kept} 条情报" + (
                             f"，{filtered} 条被规则过滤" if filtered else "") + (f"，{dupes} 条重复已忽略" if dupes else "")
                         state.last_change_at = now_i
                     else:
-                        state.status, state.message = SourceStatus.UNCHANGED, f"{len(items)} 个条目，无变化"
+                        state.status, state.message = SourceStatus.UNCHANGED, f"{len(items)} 个条目，无变化" + (
+                            "（页面有改动，但价格信息未变化）" if noise else "")
+                    if source.type == SourceType.API and source.api is not None:
+                        total = api_total(res.text, source.api)
+                        if total is not None and total > len(items):
+                            state.message += f"；接口共 {total} 条，本次只获取了 {len(items)} 条"
                     etag_changed = prev_snap is not None and (prev_snap.etag, prev_snap.last_modified) != (res.etag, res.last_modified)
                     if result.content_changed or etag_changed:
                         store.save_snapshot(result.snapshot)

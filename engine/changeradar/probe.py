@@ -47,6 +47,7 @@ class ProbeReport:
     json_sample: str = ""  # first part of the (sub)document, for field mapping
     dump: str = ""  # outer HTML of the first match of `dump_selector`
     followed: list[dict] = field(default_factory=list)  # probes of URLs built from this payload
+    ats_hints: dict[str, list[str]] = field(default_factory=dict)  # recruiting systems referenced by the page
 
 
 def probe(url: str, *, fetcher: Fetcher | None = None, **kw) -> ProbeReport:
@@ -111,6 +112,8 @@ def _probe(url: str, *, selectors: list[str] | None = None, json_path: str = "",
         return rep
 
     rep.kind = "html"
+    from .research import ats_hints
+    rep.ats_hints = ats_hints(text)
     soup = BeautifulSoup(text, "lxml")
     rep.title = normalize_whitespace(soup.title.get_text()) if soup.title else ""
     for link in soup.find_all("link", rel=lambda v: v and "alternate" in v):

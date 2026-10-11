@@ -40,6 +40,8 @@ def main(argv: list[str] | None = None) -> int:
     p_probe.add_argument("--json-path", default="", help="JSON 条目列表路径")
     p_probe.add_argument("--no-robots", action="store_true", help="官方 API：不检查 robots.txt")
     p_probe.add_argument("--file", type=Path, help="批量：JSON 数组 [{url, selectors?, json_path?, api?}]")
+    p_res = sub.add_parser("research", help="调研企业招聘渠道（官方公开 ATS 接口）")
+    p_res.add_argument("--file", type=Path, required=True)
     p_val = sub.add_parser("validate", help="校验配置文件")
     p_val.add_argument("--config", default="config", type=Path)
     parser.add_argument("-v", "--verbose", action="store_true")
@@ -58,6 +60,10 @@ def main(argv: list[str] | None = None) -> int:
                             follow_template=job.get("follow_template", ""))
                 print(f"===== PROBE {job['url']}")
                 print(report_json(rep))
+            return 0
+        if args.cmd == "research":
+            from .research import run_research
+            run_research(json.loads(args.file.read_text(encoding="utf-8")))
             return 0
         if args.cmd == "validate":
             sources = load_sources(args.config)

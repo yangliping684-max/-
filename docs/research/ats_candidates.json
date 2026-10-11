@@ -1,0 +1,489 @@
+[
+ {
+  "company": "宁德时代",
+  "careers": "https://talent.catl.com/",
+  "ats": []
+ },
+ {
+  "company": "比亚迪",
+  "careers": "https://job.byd.com/",
+  "ats": []
+ },
+ {
+  "company": "特斯拉 Tesla",
+  "careers": "https://www.tesla.com/careers",
+  "ats": [
+   [
+    "greenhouse",
+    "tesla"
+   ],
+   [
+    "smartrecruiters",
+    "Tesla"
+   ]
+  ]
+ },
+ {
+  "company": "西门子 Siemens",
+  "careers": "https://jobs.siemens.com/",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Siemens"
+   ],
+   [
+    "smartrecruiters",
+    "SiemensHealthineers"
+   ]
+  ]
+ },
+ {
+  "company": "施耐德电气 Schneider Electric",
+  "careers": "https://careers.se.com/",
+  "ats": [
+   [
+    "smartrecruiters",
+    "SchneiderElectric"
+   ]
+  ]
+ },
+ {
+  "company": "ABB",
+  "careers": "https://careers.abb/",
+  "ats": [
+   [
+    "smartrecruiters",
+    "ABB"
+   ]
+  ]
+ },
+ {
+  "company": "博世 Bosch",
+  "ats": [
+   [
+    "smartrecruiters",
+    "BoschGroup"
+   ]
+  ]
+ },
+ {
+  "company": "联想 Lenovo",
+  "careers": "https://jobs.lenovo.com/",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Lenovo"
+   ]
+  ]
+ },
+ {
+  "company": "小米 Xiaomi",
+  "careers": "https://hr.xiaomi.com/",
+  "ats": [
+   [
+    "lever",
+    "xiaomi"
+   ],
+   [
+    "greenhouse",
+    "xiaomi"
+   ]
+  ]
+ },
+ {
+  "company": "美的 Midea",
+  "careers": "https://careers.midea.com/",
+  "ats": []
+ },
+ {
+  "company": "海尔 Haier",
+  "careers": "https://www.haier.com/",
+  "ats": []
+ },
+ {
+  "company": "京东物流",
+  "careers": "https://zhaopin.jd.com/",
+  "ats": []
+ },
+ {
+  "company": "顺丰 SF Express",
+  "careers": "https://www.sf-express.com/",
+  "ats": []
+ },
+ {
+  "company": "菜鸟 Cainiao",
+  "careers": "https://talent.cainiao.com/",
+  "ats": []
+ },
+ {
+  "company": "DHL",
+  "careers": "https://careers.dhl.com/",
+  "ats": [
+   [
+    "smartrecruiters",
+    "DHL"
+   ],
+   [
+    "smartrecruiters",
+    "DeutschePostDHL"
+   ]
+  ]
+ },
+ {
+  "company": "德邦 Deppon",
+  "careers": "https://www.deppon.com/",
+  "ats": []
+ },
+ {
+  "company": "中外运 Sinotrans",
+  "careers": "https://www.sinotrans.com/",
+  "ats": []
+ },
+ {
+  "company": "中国物流集团",
+  "careers": "https://www.chinalogisticsgroup.com.cn/",
+  "ats": []
+ },
+ {
+  "company": "极兔速递 J&T",
+  "careers": "https://www.jtexpress.com/",
+  "ats": []
+ },
+ {
+  "company": "华为 Huawei",
+  "careers": "https://career.huawei.com/",
+  "ats": []
+ },
+ {
+  "company": "腾讯 Tencent",
+  "careers": "https://careers.tencent.com/",
+  "ats": []
+ },
+ {
+  "company": "字节跳动 ByteDance",
+  "careers": "https://jobs.bytedance.com/",
+  "ats": []
+ },
+ {
+  "company": "阿里巴巴 Alibaba",
+  "careers": "https://talent.alibaba.com/",
+  "ats": []
+ },
+ {
+  "company": "美团 Meituan",
+  "careers": "https://zhaopin.meituan.com/",
+  "ats": []
+ },
+ {
+  "company": "苹果 Apple",
+  "careers": "https://jobs.apple.com/",
+  "ats": []
+ },
+ {
+  "company": "亚马逊 Amazon",
+  "careers": "https://www.amazon.jobs/",
+  "ats": []
+ },
+ {
+  "company": "微软 Microsoft",
+  "careers": "https://careers.microsoft.com/",
+  "ats": []
+ },
+ {
+  "company": "Flexport",
+  "ats": [
+   [
+    "greenhouse",
+    "flexport"
+   ],
+   [
+    "lever",
+    "flexport"
+   ]
+  ]
+ },
+ {
+  "company": "Ubisoft",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Ubisoft2"
+   ],
+   [
+    "smartrecruiters",
+    "Ubisoft"
+   ]
+  ]
+ },
+ {
+  "company": "Visa",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Visa"
+   ]
+  ]
+ },
+ {
+  "company": "IKEA",
+  "ats": [
+   [
+    "smartrecruiters",
+    "IKEA"
+   ]
+  ]
+ },
+ {
+  "company": "Continental",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Continental"
+   ]
+  ]
+ },
+ {
+  "company": "Henkel",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Henkel"
+   ]
+  ]
+ },
+ {
+  "company": "Electrolux",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Electrolux"
+   ]
+  ]
+ },
+ {
+  "company": "Philips",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Philips"
+   ]
+  ]
+ },
+ {
+  "company": "Kuehne+Nagel",
+  "ats": [
+   [
+    "smartrecruiters",
+    "KuehneNagel"
+   ]
+  ]
+ },
+ {
+  "company": "Maersk",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Maersk"
+   ]
+  ]
+ },
+ {
+  "company": "Schaeffler",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Schaeffler"
+   ]
+  ]
+ },
+ {
+  "company": "Sanofi",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Sanofi"
+   ]
+  ]
+ },
+ {
+  "company": "Equinix",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Equinix"
+   ]
+  ]
+ },
+ {
+  "company": "Skechers",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Skechers"
+   ]
+  ]
+ },
+ {
+  "company": "Anker",
+  "ats": [
+   [
+    "greenhouse",
+    "anker"
+   ],
+   [
+    "lever",
+    "anker"
+   ]
+  ]
+ },
+ {
+  "company": "SHEIN",
+  "ats": [
+   [
+    "lever",
+    "shein"
+   ],
+   [
+    "greenhouse",
+    "shein"
+   ]
+  ]
+ },
+ {
+  "company": "Temu",
+  "ats": [
+   [
+    "greenhouse",
+    "temu"
+   ],
+   [
+    "lever",
+    "temu"
+   ]
+  ]
+ },
+ {
+  "company": "Airwallex",
+  "ats": [
+   [
+    "greenhouse",
+    "airwallex"
+   ],
+   [
+    "lever",
+    "airwallex"
+   ],
+   [
+    "ashby",
+    "airwallex"
+   ]
+  ]
+ },
+ {
+  "company": "Zoom",
+  "ats": [
+   [
+    "greenhouse",
+    "zoom"
+   ]
+  ]
+ },
+ {
+  "company": "NIO",
+  "ats": [
+   [
+    "lever",
+    "nio"
+   ]
+  ]
+ },
+ {
+  "company": "XPeng",
+  "ats": [
+   [
+    "lever",
+    "xpeng"
+   ]
+  ]
+ },
+ {
+  "company": "DJI",
+  "ats": [
+   [
+    "lever",
+    "dji"
+   ]
+  ]
+ },
+ {
+  "company": "Lalamove",
+  "ats": [
+   [
+    "lever",
+    "lalamove"
+   ],
+   [
+    "greenhouse",
+    "lalamove"
+   ]
+  ]
+ },
+ {
+  "company": "Shopee",
+  "ats": [
+   [
+    "greenhouse",
+    "shopee"
+   ]
+  ]
+ },
+ {
+  "company": "Grab",
+  "ats": [
+   [
+    "greenhouse",
+    "grab"
+   ]
+  ]
+ },
+ {
+  "company": "Canva",
+  "ats": [
+   [
+    "smartrecruiters",
+    "Canva"
+   ],
+   [
+    "lever",
+    "canva"
+   ]
+  ]
+ },
+ {
+  "company": "Pinterest",
+  "ats": [
+   [
+    "greenhouse",
+    "pinterest"
+   ]
+  ]
+ },
+ {
+  "company": "Stripe",
+  "ats": [
+   [
+    "greenhouse",
+    "stripe"
+   ]
+  ]
+ },
+ {
+  "company": "Databricks",
+  "ats": [
+   [
+    "greenhouse",
+    "databricks"
+   ]
+  ]
+ }
+]

@@ -22,17 +22,20 @@ export function slugify(name: string, prefix = "source"): string {
   return `${prefix}-${h.toString(36)}`;
 }
 
+type FormType = SourceType | "ats";
+
 interface FormState {
-  id: string; name: string; type: SourceType; url: string; category: string; enabled: boolean;
+  id: string; name: string; type: FormType; url: string; category: string; enabled: boolean;
   keywords: string; exclude: string; require: boolean; priority: number; credibility: Credibility; notes: string;
   selector: string; itemSelector: string; titleSelector: string; linkSelector: string; dateSelector: string; ignoreSelectors: string;
   itemsPath: string; idField: string; titleField: string; urlField: string; summaryField: string; publishedField: string;
   profile: SourceProfile; company: string; industry: string;
+  atsProvider: "smartrecruiters" | "greenhouse" | "lever"; atsId: string; atsCountry: string; careersUrl: string;
 }
 
 function toForm(s: Source | null): FormState {
   return {
-    id: s?.id ?? "", name: s?.name ?? "", type: s?.type ?? "rss", url: s?.url ?? "", category: s?.category ?? "custom",
+    id: s?.id ?? "", name: s?.name ?? "", type: s?.ats ? "ats" : s?.type ?? "rss", url: s?.ats ? "" : s?.url ?? "", category: s?.category ?? "custom",
     enabled: s?.enabled ?? true, keywords: join(s?.keywords), exclude: join(s?.exclude_keywords),
     require: s?.require_keywords ?? false, priority: s?.priority ?? 3, credibility: s?.credibility ?? "unverified",
     notes: s?.notes ?? "",
@@ -41,12 +44,25 @@ function toForm(s: Source | null): FormState {
     itemsPath: s?.api?.items_path ?? "", idField: s?.api?.id_field ?? "id", titleField: s?.api?.title_field ?? "title",
     urlField: s?.api?.url_field ?? "url", summaryField: s?.api?.summary_field ?? "", publishedField: s?.api?.published_field ?? "",
     profile: s?.profile ?? "general", company: s?.company ?? "", industry: s?.industry ?? "",
+    atsProvider: s?.ats?.provider ?? "smartrecruiters", atsId: s?.ats?.id ?? "", atsCountry: s?.ats?.country ?? "",
+    careersUrl: s?.careers_url ?? "",
   };
 }
 
 function fromForm(f: FormState, original: Source | null): Source {
   // Keep advanced fields the form does not expose (max_items, ignore_patterns…).
-  const base: Source = { ...(original ?? {}), id: f.id.trim(), name: f.name.trim(), type: f.type, url: f.url.trim(), category: f.category } as Source;
+  const base: Source = { ...(original ?? {}), id: f.id.trim(), name: f.name.trim(), category: f.category } as Source;
+  if (f.type === "ats") {
+    delete base.type;
+    delete base.url;
+    delete base.api;
+    base.ats = { provider: f.atsProvider, id: f.atsId.trim(), ...(f.atsCountry.trim() ? { country: f.atsCountry.trim().toLowerCase() } : {}) };
+  } else {
+    base.type = f.type;
+    base.url = f.url.trim();
+    delete base.ats;
+  }
+  base.careers_url = f.careersUrl.trim() || undefined;
   base.enabled = f.enabled;
   base.keywords = list(f.keywords);
   base.exclude_keywords = list(f.exclude);
@@ -54,7 +70,7 @@ function fromForm(f: FormState, original: Source | null): Source {
   base.priority = f.priority;
   base.credibility = f.credibility;
   base.notes = f.notes.trim() || undefined;
-  base.profile = f.profile === "general" ? undefined : f.profile;
+  base.profile = f.type === "ats" ? "jobs" : f.profile === "general" ? undefined : f.profile;
   base.company = f.company.trim() || undefined;
   base.industry = f.industry.trim() || undefined;
   base.html = undefined;
@@ -122,8 +138,9 @@ export function SourceForm({ open, onOpenChange, initial, categories, existingId
           <Input value={isNew ? f.id : initial!.id} disabled={!isNew} onChange={(e) => set("id", e.target.value)} placeholder={slugify(f.name || "my-source")} />
         </Field>
         <Field label="类型">
-          <Select value={f.type} onChange={(e) => set("type", e.target.value as SourceType)}>
+          <Select value={f.type} onChange={(e) => set("type", e.target.value as FormType)}>
             {(Object.keys(TYPE_LABEL) as SourceType[]).map((t) => <option key={t} value={t}>{TYPE_LABEL[t]}</option>)}
+            <option value="ats">企业公开招聘接口（ATS）</option>
           </Select>
         </Field>
         <Field label="类别">
@@ -131,9 +148,31 @@ export function SourceForm({ open, onOpenChange, initial, categories, existingId
             {categoryOptions.map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}
           </Select>
         </Field>
+        {f.type === "ats" ? (
+          <div className="grid gap-3 rounded-xl border border-border bg-surface p-4 sm:col-span-2 sm:grid-cols-3">
+            <Field label="招聘系统">
+              <Select value={f.atsProvider} onChange={(e) => set("atsProvider", e.target.value as FormState["atsProvider"])}>
+                <option value="smartrecruiters">SmartRecruiters</option>
+                <option value="greenhouse">Greenhouse</option>
+                <option value="lever">Lever</option>
+              </Select>
+            </Field>
+            <Field label="企业公开标识" hint="招聘页地址中的名称，如 jobs.smartrecruiters.com/BoschGroup">
+              <Input value={f.atsId} onChange={(e) => set("atsId", e.target.value)} placeholder="BoschGroup" />
+            </Field>
+            <Field label="国家（可选）" hint="仅 SmartRecruiters，如 cn">
+              <Input value={f.atsCountry} onChange={(e) => set("atsCountry", e.target.value)} placeholder="cn" disabled={f.atsProvider !== "smartrecruiters"} />
+            </Field>
+            <p className="text-xs text-muted-foreground sm:col-span-3">保存前建议用 Actions 中的 Probe source 或 `python -m changeradar research` 验证该标识确实属于这家企业。</p>
+          </div>
+        ) : (
         <Field label="网址" className="sm:col-span-2"
           hint={f.type === "github_releases" ? "仓库地址，例如 https://github.com/owner/repo" : f.type === "api" ? "返回 JSON 的官方公开接口地址" : f.type === "rss" ? "RSS / Atom 订阅地址" : "公开网页地址（不支持需要登录的页面）"}>
           <Input value={f.url} onChange={(e) => set("url", e.target.value)} placeholder="https://" inputMode="url" />
+        </Field>
+        )}
+        <Field label="招聘官网（可选）" className="sm:col-span-2" hint="在招聘雷达的企业卡片中显示为“招聘官网”">
+          <Input value={f.careersUrl} onChange={(e) => set("careersUrl", e.target.value)} placeholder="https://" inputMode="url" />
         </Field>
         <Field label="新增分类（可选）" hint="输入名称后在“类别”中选择它">
           <Input value={newCat} onChange={(e) => setNewCat(e.target.value)} placeholder="例如：政策法规" />

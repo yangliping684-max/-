@@ -49,8 +49,8 @@ export interface ApiOptions {
 export interface Source {
   id: string;
   name: string;
-  type: SourceType;
-  url: string;
+  type?: SourceType;
+  url?: string;
   category: string;
   enabled?: boolean;
   keywords?: string[];
@@ -69,6 +69,10 @@ export interface Source {
   profile?: SourceProfile;
   company?: string;
   industry?: string;
+  careers_url?: string;
+  channel?: string;
+  /** v0.3: official public job-board API shortcut; engine fills type/url/api. */
+  ats?: { provider: "smartrecruiters" | "greenhouse" | "lever"; id: string; country?: string | null } | null;
 }
 
 export interface Category {

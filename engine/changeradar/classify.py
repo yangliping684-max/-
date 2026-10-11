@@ -16,7 +16,7 @@ from .textutil import match_keywords
 
 # Ordered: the first matching rule wins (more specific first).
 JOB_TYPE_RULES: list[tuple[str, str]] = [
-    ("管培生", r"管培|管理培训生|management trainee|graduate (?:management )?program|junior managers? program"),
+    ("管培生", r"管培|管理培训生|management trainee|trainee program|graduate (?:management )?program|junior managers? program"),
     ("暑期实习", r"暑期实习|summer intern"),
     ("日常实习", r"日常实习"),
     ("实习", r"实习|intern(?:ship)?\b|co-?op\b|working student|placement student"),
@@ -38,6 +38,7 @@ GRAD_YEAR_RE = re.compile(
     r"(20\d{2})\s*(?:[/／、-]\s*(20\d{2}))?\s*届"
     r"|class of\s*(20\d{2})"
     r"|(20\d{2})\s*(?:graduates?|grads?)\b"
+    r"|new grads?\s*(?:class of\s*)?(20\d{2})"
     r"|graduat(?:e|ing)\s+(?:in\s+)?(?:\w+\s+)?(20\d{2})",
     re.IGNORECASE,
 )

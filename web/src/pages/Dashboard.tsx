@@ -122,13 +122,11 @@ function ModuleCards() {
     const recent = data.events.filter((e) => e.change_type !== "initial" && Date.parse(e.detected_at) >= since);
     const isJobs = (id: string, cat: string) => profiles.get(id) === "jobs" || cat === "jobs";
     const isAi = (id: string) => ["ai", "pricing", "status"].includes(profiles.get(id) ?? "");
-    const jobs = data.events.filter((e) => isJobs(e.source_id, e.category));
     const ai = data.events.filter((e) => isAi(e.source_id));
     const aiTypes = new Map<string, number>();
     for (const e of recent) if (isAi(e.source_id)) aiTypes.set(e.facets?.ai_type ?? "news", (aiTypes.get(e.facets?.ai_type ?? "news") ?? 0) + 1);
     return {
       jobsNew: recent.filter((e) => isJobs(e.source_id, e.category) && e.change_type === "added").length,
-      jobsTotal: jobs.length,
       jobSources: [...profiles.values()].filter((p) => p === "jobs").length,
       aiNew: recent.filter((e) => isAi(e.source_id)).length,
       aiTotal: ai.length,
@@ -142,7 +140,10 @@ function ModuleCards() {
           <div className="grid size-10 shrink-0 place-items-center rounded-xl bg-accent-soft text-accent"><Briefcase className="size-5" /></div>
           <div className="min-w-0 flex-1">
             <div className="text-[13px] font-medium">招聘雷达</div>
-            <div className="text-[12.5px] text-muted-foreground">近 7 天新增 <span className="font-semibold text-foreground tabular">{m.jobsNew}</span> 个岗位 · 共 {m.jobsTotal} 条 · {m.jobSources} 个招聘来源</div>
+            <div className="text-[12.5px] text-muted-foreground">
+              {data.jobsIndex ? <>当前在招 <span className="font-semibold text-foreground tabular">{data.jobsIndex.total.toLocaleString()}</span> 个岗位 · {data.jobsIndex.companies.length} 家企业 · 近 7 天新增 {m.jobsNew}</>
+                : <>近 7 天新增 <span className="font-semibold text-foreground tabular">{m.jobsNew}</span> 个岗位 · {m.jobSources} 个招聘来源</>}
+            </div>
           </div>
           <ArrowRight className="size-4 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
         </Card>

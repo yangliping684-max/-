@@ -39,6 +39,9 @@ jobs:
       - name: Probe research candidates
         if: github.event_name == 'push'
         run: python -m changeradar probe --file docs/research/candidates.json 2>&1 | tee probe-report.txt
+      - name: Recruiting-channel research (official ATS APIs + careers-page fingerprints)
+        if: github.event_name == 'push' && hashFiles('docs/research/ats_candidates.json') != ''
+        run: python -m changeradar research --file docs/research/ats_candidates.json 2>&1 | grep -v "httpx" | tee -a probe-report.txt
       - name: Dry-run the real monitor on a copy of data/ (nothing is committed)
         if: github.event_name == 'push' && hashFiles('docs/research/verify') != ''
         env:

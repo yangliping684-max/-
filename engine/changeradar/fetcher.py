@@ -18,7 +18,7 @@ import httpx
 
 log = logging.getLogger(__name__)
 
-DEFAULT_UA = "ChangeRadar/0.2 (+https://github.com/; personal change monitor; respects robots.txt)"
+DEFAULT_UA = "ChangeRadar/0.3 (+https://github.com/; personal change monitor; respects robots.txt)"
 MAX_BYTES = 5 * 1024 * 1024
 RETRY_STATUSES = {429, 500, 502, 503, 504}
 

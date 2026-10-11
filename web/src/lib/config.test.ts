@@ -114,3 +114,16 @@ describe("v0.2 config fields", () => {
     expect(validateRules({ ...DEFAULT_RULES, keyword_groups: { 供应链: "supply chain" } as never }).ok).toBe(false);
   });
 });
+
+describe("v0.3 ATS sources", () => {
+  const cats = new Set(["jobs"]);
+  it("accepts an ATS shortcut without type/url", () => {
+    expect(validateSource({ id: "co-jobs", name: "Co", category: "jobs", ats: { provider: "greenhouse", id: "flexport" },
+      careers_url: "https://www.flexport.com/careers" }, cats)).toEqual([]);
+  });
+  it("rejects unsupported providers and bad ids", () => {
+    const e = validateSource({ id: "co-jobs", name: "Co", category: "jobs", ats: { provider: "workday", id: "a/b" } }, cats).join();
+    expect(e).toMatch(/只支持/);
+    expect(e).toMatch(/企业标识/);
+  });
+});

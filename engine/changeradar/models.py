@@ -108,13 +108,23 @@ class ApiOptions(BaseModel):
     pagination: ApiPagination | None = None
 
 
+class AtsOptions(BaseModel):
+    """Shortcut for official public job-board APIs (see ats.py)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    provider: Literal["smartrecruiters", "greenhouse", "lever"]
+    id: str  # the company's public board identifier
+    country: str | None = None  # SmartRecruiters only: ISO country filter, e.g. "cn"
+
+
 class Source(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
     id: str
     name: str
-    type: SourceType
-    url: str
+    type: SourceType = SourceType.API
+    url: str = ""
     category: str
     enabled: bool = True
     keywords: list[str] = Field(default_factory=list)
@@ -142,6 +152,9 @@ class Source(BaseModel):
     #   status: official status page feed (service announcements)
     profile: Literal["general", "jobs", "ai", "pricing", "status"] = "general"
     company: str = ""  # organisation behind the source (employer / AI vendor)
+    careers_url: str = ""  # official careers page shown as "招聘官网" (v0.3)
+    channel: str = ""  # human description of the data channel, e.g. "SmartRecruiters 官方公开 API"
+    ats: AtsOptions | None = None  # v0.3: fills type/url/api from a verified preset
     industry: str = ""  # for job filters, e.g. "汽车零部件 / 制造业"
 
     @field_validator("id")
@@ -164,6 +177,19 @@ class Source(BaseModel):
         for p in v:
             re.compile(p)
         return v
+
+    @model_validator(mode="before")
+    @classmethod
+    def _expand_ats(cls, data: Any) -> Any:
+        if isinstance(data, dict) and data.get("ats"):
+            from .ats import preset
+
+            a = data["ats"]
+            p = preset(a["provider"], a["id"], a.get("country"))
+            data = {**data, "type": "api", "url": data.get("url") or p["url"], "api": data.get("api") or p["api"],
+                    "channel": data.get("channel") or p["channel"]}
+            data.setdefault("profile", "jobs")
+        return data
 
     @model_validator(mode="after")
     def _check_type_options(self) -> Source:

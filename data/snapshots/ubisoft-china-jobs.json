@@ -1,0 +1,128 @@
+{
+  "source_id": "ubisoft-china-jobs",
+  "taken_at": "2026-10-11T06:26:27.461042Z",
+  "etag": null,
+  "last_modified": null,
+  "items": {
+    "744000154293905": {
+      "title": "Junior Game Tester",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000154293905",
+      "hash": "231ddea9b7070320",
+      "summary": "",
+      "published_at": "2026-10-08T03:06:19.048000Z",
+      "text": ""
+    },
+    "744000150323249": {
+      "title": "Incident Response Security Analyst",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000150323249",
+      "hash": "b0cc2173e6ecdd78",
+      "summary": "",
+      "published_at": "2026-09-18T09:30:50.823000Z",
+      "text": ""
+    },
+    "744000147409729": {
+      "title": "Senior Network Programmer",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000147409729",
+      "hash": "b81e9c159a529316",
+      "summary": "",
+      "published_at": "2026-09-04T03:57:29.534000Z",
+      "text": ""
+    },
+    "744000145073038": {
+      "title": "Senior Weapon Concept Artist",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000145073038",
+      "hash": "36b0092de3097014",
+      "summary": "",
+      "published_at": "2026-08-24T01:33:25.466000Z",
+      "text": ""
+    },
+    "744000143266509": {
+      "title": "Associate Quality Control Lead",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000143266509",
+      "hash": "8d69d62110cd47ee",
+      "summary": "",
+      "published_at": "2026-08-13T09:16:23.104000Z",
+      "text": ""
+    },
+    "744000138242109": {
+      "title": "Lead Animator",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000138242109",
+      "hash": "f4b9746089e59c82",
+      "summary": "",
+      "published_at": "2026-07-17T02:55:20.156000Z",
+      "text": ""
+    },
+    "744000137899709": {
+      "title": "Marketing Manager[RAINBOW SIX CHINA]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000137899709",
+      "hash": "94cbba7e34f4fb85",
+      "summary": "",
+      "published_at": "2026-07-15T13:34:42.906000Z",
+      "text": ""
+    },
+    "744000115369687": {
+      "title": "Senior Animator (Rainbow Six)",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000115369687",
+      "hash": "cc555dbc7b0c931f",
+      "summary": "",
+      "published_at": "2026-03-18T06:32:13.648000Z",
+      "text": ""
+    },
+    "744000112075915": {
+      "title": "Senior Graphic Programmer [New Project on Switch2]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000112075915",
+      "hash": "f96476daa31a186f",
+      "summary": "",
+      "published_at": "2026-03-02T02:44:47.625000Z",
+      "text": ""
+    },
+    "744000112075664": {
+      "title": "Senior Engine Programmer[New Project on Switch2]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000112075664",
+      "hash": "8dbf3e0e7877170b",
+      "summary": "",
+      "published_at": "2026-03-02T02:41:47.451000Z",
+      "text": ""
+    },
+    "744000111535185": {
+      "title": "Senior Technical Animator (Assassin's Creed)",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000111535185",
+      "hash": "0f183b355e5255e9",
+      "summary": "",
+      "published_at": "2026-02-26T05:28:58.957000Z",
+      "text": ""
+    },
+    "744000109660915": {
+      "title": "Animation Director [Rainbow Six]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000109660915",
+      "hash": "1c3316046197e8e1",
+      "summary": "",
+      "published_at": "2026-02-17T08:47:04.724000Z",
+      "text": ""
+    },
+    "744000109660515": {
+      "title": "Art Director [Art Team]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000109660515",
+      "hash": "4cb3cf48cdbfcb56",
+      "summary": "",
+      "published_at": "2026-02-17T08:45:04.287000Z",
+      "text": ""
+    }
+  },
+  "seen_keys": [
+    "744000154293905",
+    "744000150323249",
+    "744000147409729",
+    "744000145073038",
+    "744000143266509",
+    "744000138242109",
+    "744000137899709",
+    "744000115369687",
+    "744000112075915",
+    "744000112075664",
+    "744000111535185",
+    "744000109660915",
+    "744000109660515"
+  ],
+  "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
+}

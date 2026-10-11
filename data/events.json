@@ -1,6 +1,2138 @@
 {
-  "updated_at": "2026-10-11T06:00:50.337896+00:00",
+  "updated_at": "2026-10-11T06:27:32.425269+00:00",
   "events": [
+    {
+      "id": "06563fb11b474f7b",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Audio (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Image Generation (Operational) Agent (Operational) Codex API (Operational) GPTs (Operational) Login (Operational) Codex Web (Operational) Sites (Operational) Realtime (Operational) CLI (Operational) Images (Operational) ",
+      "detected_at": "2026-10-11T06:27:25.117243Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Audio (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Image Generation (Operational) Agent (Operational) Codex API (Operational) GPTs (Operational) Login (Operational) Codex Web (Operational) Sites (Operational) Realtime (Operational) CLI (Operational) Images (Operational) Chat Completions (Operational) Compliance API (Operational) File uploads (Operational) Search (Operational) Deep Research (Operational) Files (Operational) VS Code extension (Operational) Voice mode…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Image Generation (Operational) Codex API (Operational) Images (Operational) Login (Operational) Chat Completions (Operational) Audio (Operational) Moderations (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Sites (Operational) Batch (Operational) Codex in ChatGPT Desktop (Operational) Agents (Operational) Files (Operational) Responses (Operational) GPTs (Operational) Agent (Operational) File uploads (Operational) CLI (Operational) Embeddings (Operational) Compliance API (Operational) Lo…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "191ed437bd92a5dd",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Issues with Codex",
+      "url": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
+      "detected_at": "2026-10-11T06:27:25.117243Z",
+      "published_at": "2026-09-25T23:54:41Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "4be93bb3426a9cef",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) ChatGPT Work (Operational) File uploads (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Conversations (Operational) Image Generation (Operational) GPTs (Operational) Agent (Operational) Sites (Operational) Voice mode (Operational) Deep Research (Opera",
+      "detected_at": "2026-10-11T06:27:25.117243Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) ChatGPT Work (Operational) File uploads (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Conversations (Operational) Image Generation (Operational) GPTs (Operational) Agent (Operational) Sites (Operational) Voice mode (Operational) Deep Research (Operational) Login (Operational) Search (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) Login (Operational) File uploads (Operational) Search (Operational) Deep Research (Operational) Sites (Operational) ChatGPT Work (Operational) Conversations (Operational) Compliance API (Operational) Image Generation (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "7824fa24a0c4bc21",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "We are seeing elevated error rates across API models",
+      "url": "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Moderations (Operational) Responses (Operational) Images (Operational) Chat Completions (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Login (Operational) Batch (Operational) Audio (Operational) Files (Operational)",
+      "detected_at": "2026-10-11T06:27:25.117243Z",
+      "published_at": "2026-09-17T21:50:36Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Moderations (Operational) Responses (Operational) Images (Operational) Chat Completions (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Login (Operational) Batch (Operational) Audio (Operational) Files (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Moderations (Operational) Responses (Operational) Login (Operational) Images (Operational) Fine-tuning (Operational) Realtime (Operational) Files (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational) Embeddings (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "d374d93a0d905085",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors for GPT-5.6 Sol on the API",
+      "url": "https://status.openai.com//incidents/01M27VK1VN54RQJGJEHB5JTQJJ",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational) Chat Completions (Operational)",
+      "detected_at": "2026-10-11T06:27:25.117243Z",
+      "published_at": "2026-09-11T11:21:43Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational) Chat Completions (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "61639d07990e8a77",
+      "source_id": "china-logistics-group-recruit",
+      "source_name": "中国物流集团 招聘公告",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "职等你来！中国物流所属华贸物流社会招聘公告",
+      "url": "https://www.chinalogisticsgroup.com.cn/zh-cn/articles/2026/08/63987.shtml",
+      "summary": "2026-08-26 职等你来！中国物流所属华贸物流社会招聘公告 职等你来！中国物流所属华贸物流社会招聘公告",
+      "detected_at": "2026-10-11T06:26:34.269419Z",
+      "published_at": "2026-08-26T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "company": "中国物流集团",
+        "industry": "物流 / 央企",
+        "job_type": "社会招聘",
+        "job_type_rule": "标题文字",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "26724730b6e44ae1",
+      "source_id": "agoda-jobs",
+      "source_name": "Agoda 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Associate Data Analyst (New Graduate, Thai Speaking) (Marketing Analytics, Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8194692",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:34.056105Z",
+      "published_at": "2026-09-11T06:24:56Z",
+      "source_updated_at": "2026-10-09T11:07:49Z",
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Bangkok"
+      },
+      "facets": {
+        "company": "Agoda",
+        "industry": "在线旅游 / 互联网",
+        "location": "Bangkok",
+        "city": "Bangkok",
+        "job_type": "应届生招聘",
+        "job_type_rule": "标题文字",
+        "function": "数据分析"
+      }
+    },
+    {
+      "id": "f373a434a69f9a1d",
+      "source_id": "agoda-jobs",
+      "source_name": "Agoda 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Campus Recruiter (10 months Contract) (Bangkok based) (No Visa Support)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8163599",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:34.056105Z",
+      "published_at": "2026-08-28T08:49:27Z",
+      "source_updated_at": "2026-10-09T11:08:32Z",
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Bangkok, Thailand"
+      },
+      "facets": {
+        "company": "Agoda",
+        "industry": "在线旅游 / 互联网",
+        "location": "Bangkok, Thailand",
+        "city": "Bangkok",
+        "job_type": "校园招聘",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "de2f9ba12075e5e6",
+      "source_id": "weride-jobs",
+      "source_name": "文远知行 WeRide 职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "New Grads 2027 - Software Engineer, Algorithm",
+      "url": "https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:33.097888Z",
+      "published_at": "2026-08-10T20:44:19.257000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Jose, CA",
+        "employment_type": "Full-time",
+        "team": "Campus Recruiting"
+      },
+      "facets": {
+        "company": "文远知行 WeRide",
+        "industry": "自动驾驶",
+        "location": "San Jose, CA",
+        "city": "San Jose",
+        "job_type": "应届生招聘",
+        "job_type_rule": "标题文字",
+        "grad_year": "2027"
+      }
+    },
+    {
+      "id": "ca0449a69e93ee11",
+      "source_id": "weride-jobs",
+      "source_name": "文远知行 WeRide 职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "New Grads 2027 - Software Engineer - Perception/Computer Vision",
+      "url": "https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:33.097888Z",
+      "published_at": "2026-08-10T20:42:21.282000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Jose, CA",
+        "employment_type": "Full-time",
+        "team": "Campus Recruiting"
+      },
+      "facets": {
+        "company": "文远知行 WeRide",
+        "industry": "自动驾驶",
+        "location": "San Jose, CA",
+        "city": "San Jose",
+        "job_type": "应届生招聘",
+        "job_type_rule": "标题文字",
+        "grad_year": "2027"
+      }
+    },
+    {
+      "id": "660e2903b1d23e41",
+      "source_id": "weride-jobs",
+      "source_name": "文远知行 WeRide 职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "New Grads 2026 - General Software Engineer (Beijing/Guangzhou/Shanghai, China)",
+      "url": "https://jobs.lever.co/weride/012d6448-fa8c-4a68-8767-d99f4d1b9bea",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:33.097888Z",
+      "published_at": "2026-06-12T23:01:28.368000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "China",
+        "employment_type": "Full-time",
+        "team": "Campus Recruiting"
+      },
+      "facets": {
+        "company": "文远知行 WeRide",
+        "industry": "自动驾驶",
+        "location": "China",
+        "city": "China",
+        "job_type": "应届生招聘",
+        "job_type_rule": "标题文字",
+        "grad_year": "2026"
+      }
+    },
+    {
+      "id": "aeebcd4aad3ddd0d",
+      "source_id": "weride-jobs",
+      "source_name": "文远知行 WeRide 职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "New Grads 2026 - Algorithm Software Engineer (Beijing/Guangzhou/Shanghai, China)",
+      "url": "https://jobs.lever.co/weride/d31d6d11-be09-4469-a361-2f31de92eafa",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:33.097888Z",
+      "published_at": "2026-06-12T17:56:53.624000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "China",
+        "employment_type": "Full-time",
+        "team": "Campus Recruiting"
+      },
+      "facets": {
+        "company": "文远知行 WeRide",
+        "industry": "自动驾驶",
+        "location": "China",
+        "city": "China",
+        "job_type": "应届生招聘",
+        "job_type_rule": "标题文字",
+        "grad_year": "2026"
+      }
+    },
+    {
+      "id": "e847961f326e088a",
+      "source_id": "lalamove-jobs",
+      "source_name": "Lalamove 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Global Trainee Program 2027 (Hong Kong based)",
+      "url": "https://jobs.lever.co/lalamove/275b05b9-ffc1-4e5f-8618-0f59c06b2dfc",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.896260Z",
+      "published_at": "2026-09-23T07:18:31.516000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Bangkok",
+        "department": "Graduate Opportunities",
+        "employment_type": "Full-time",
+        "team": "Graduate Opportunities"
+      },
+      "facets": {
+        "company": "货拉拉 Lalamove",
+        "industry": "同城物流",
+        "location": "Bangkok",
+        "city": "Bangkok",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "987b48128f2a17ec",
+      "source_id": "lalamove-jobs",
+      "source_name": "Lalamove 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Global Trainee Program 2027 (Hong Kong based)",
+      "url": "https://jobs.lever.co/lalamove/7b46861f-cabc-44d9-ab8b-335cab9a5eff",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.896260Z",
+      "published_at": "2026-09-23T02:32:50.671000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Jakarta",
+        "department": "Graduate Opportunities",
+        "employment_type": "Full-time",
+        "team": "Graduate Opportunities"
+      },
+      "facets": {
+        "company": "货拉拉 Lalamove",
+        "industry": "同城物流",
+        "location": "Jakarta",
+        "city": "Jakarta",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "8a757be2a678ed92",
+      "source_id": "lalamove-jobs",
+      "source_name": "Lalamove 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Global Trainee Program 2027 (Hong Kong based)",
+      "url": "https://jobs.lever.co/lalamove/abe4f195-9a25-4ffb-85dd-ceb6ea8d6a06",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.896260Z",
+      "published_at": "2026-09-23T02:02:53.613000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Singapore",
+        "department": "Graduate Opportunities",
+        "employment_type": "Full-time",
+        "team": "Graduate Opportunities"
+      },
+      "facets": {
+        "company": "货拉拉 Lalamove",
+        "industry": "同城物流",
+        "location": "Singapore",
+        "city": "Singapore",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "3919d2c88ada7dec",
+      "source_id": "lalamove-jobs",
+      "source_name": "Lalamove 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Global Trainee Program 2027 (Hong Kong based)",
+      "url": "https://jobs.lever.co/lalamove/a70d88d9-5120-4c7b-abbb-fa1a30276271",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.896260Z",
+      "published_at": "2026-09-23T01:26:54.411000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "校招"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：校招"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Kuala Lumpur",
+        "department": "Graduate Opportunities",
+        "employment_type": "Full-time",
+        "team": "Graduate Opportunities"
+      },
+      "facets": {
+        "company": "货拉拉 Lalamove",
+        "industry": "同城物流",
+        "location": "Kuala Lumpur",
+        "city": "Kuala Lumpur",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "1ac1e5e2b0f1cd5b",
+      "source_id": "lalamove-jobs",
+      "source_name": "Lalamove 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Estagiário de Finanças",
+      "url": "https://jobs.lever.co/lalamove/ebb59a3a-10c9-4bf0-ac6f-19ba3c834220",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.896260Z",
+      "published_at": "2026-09-22T13:51:48.766000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "实习"
+      ],
+      "alert_keywords": [
+        "实习"
+      ],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：实习"
+        },
+        {
+          "factor": "alert",
+          "points": 20,
+          "reason": "命中提醒关键词：实习"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Sao Paulo",
+        "department": "City Teams",
+        "employment_type": "Internship",
+        "team": "Brazil"
+      },
+      "facets": {
+        "company": "货拉拉 Lalamove",
+        "industry": "同城物流",
+        "location": "Sao Paulo",
+        "city": "Sao Paulo",
+        "job_type": "实习",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "b7366352ff82866a",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Senior Manager, Procurement & Procure-to-Pay",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8266024",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.729340Z",
+      "published_at": "2026-10-09T22:38:01Z",
+      "source_updated_at": "2026-10-09T22:38:01Z",
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Atlanta, Georgia, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Atlanta, Georgia, United States",
+        "city": "Atlanta",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "2ce516d4fa407bdb",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Manager, Freight Audit Services",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8265974",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.729340Z",
+      "published_at": "2026-10-09T22:37:00Z",
+      "source_updated_at": "2026-10-09T22:37:00Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Atlanta, Georgia, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Atlanta, Georgia, United States",
+        "city": "Atlanta",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "3b82dd6c54c13b24",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Manager, Ocean Procurement",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8265884",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.729340Z",
+      "published_at": "2026-10-08T22:39:19Z",
+      "source_updated_at": "2026-10-08T22:39:19Z",
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "New York City, New York, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "New York City, New York, United States",
+        "city": "New York City",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "b007411014415a52",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Manager, Ocean Procurement",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8247659",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.729340Z",
+      "published_at": "2026-10-08T22:39:17Z",
+      "source_updated_at": "2026-10-08T22:39:17Z",
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Los Angeles, California, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Los Angeles, California, United States",
+        "city": "Los Angeles",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "0e10bbc95b5ada28",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Customs Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8263427",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:31.729340Z",
+      "published_at": "2026-10-08T17:22:14Z",
+      "source_updated_at": "2026-10-08T17:22:14Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Atlanta, Georgia, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Atlanta, Georgia, United States",
+        "city": "Atlanta",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "ed57fb092719a700",
+      "source_id": "expeditors-china-jobs",
+      "source_name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Account Manager",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000152581269",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.517402Z",
+      "published_at": "2026-09-30T02:03:20.197000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Expeditors",
+        "location": "Hangzhou, Zhejiang, China",
+        "region": "Zhejiang",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Supply Chain",
+        "industry": "Logistics And Supply Chain",
+        "department": "Account Management"
+      },
+      "facets": {
+        "company": "Expeditors",
+        "industry": "国际物流 / 货代",
+        "location": "Hangzhou, Zhejiang, China",
+        "city": "Hangzhou",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "7e8789fae2b60796",
+      "source_id": "expeditors-china-jobs",
+      "source_name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Management Trainee - Qingdao",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000152068268",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.517402Z",
+      "published_at": "2026-09-28T03:27:23.157000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Expeditors",
+        "location": "Qingdao, CHINA, Shandong, China",
+        "region": "Shandong",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Not Applicable",
+        "function": "Production",
+        "industry": "Logistics And Supply Chain",
+        "department": "Management Training Program"
+      },
+      "facets": {
+        "company": "Expeditors",
+        "industry": "国际物流 / 货代",
+        "location": "Qingdao, CHINA, Shandong, China",
+        "city": "Qingdao",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "e7e10bfc2aa22c1b",
+      "source_id": "expeditors-china-jobs",
+      "source_name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Management Trainee - Qingdao",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000151987368",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.517402Z",
+      "published_at": "2026-09-26T12:13:07.458000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Expeditors",
+        "location": "Qingdao, CHINA, Shandong, China",
+        "region": "Shandong",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Not Applicable",
+        "function": "Production",
+        "industry": "Logistics And Supply Chain",
+        "department": "Management Training Program"
+      },
+      "facets": {
+        "company": "Expeditors",
+        "industry": "国际物流 / 货代",
+        "location": "Qingdao, CHINA, Shandong, China",
+        "city": "Qingdao",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
+    {
+      "id": "36ca27ee41514af8",
+      "source_id": "expeditors-china-jobs",
+      "source_name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Management Trainee",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000144660279",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.517402Z",
+      "published_at": "2026-08-21T00:56:58.491000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链",
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 21,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：物流与供应链、管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Expeditors",
+        "location": "Ningbo, Zhejiang, China",
+        "region": "Zhejiang",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Entry Level",
+        "function": "Supply Chain",
+        "industry": "Logistics And Supply Chain",
+        "department": "Management Training Program"
+      },
+      "facets": {
+        "company": "Expeditors",
+        "industry": "国际物流 / 货代",
+        "location": "Ningbo, Zhejiang, China",
+        "city": "Ningbo",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "0df16b43c2616472",
+      "source_id": "expeditors-china-jobs",
+      "source_name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "District Sales Executive",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000141165961",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.517402Z",
+      "published_at": "2026-08-03T01:53:17.302000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Expeditors",
+        "location": "Hangzhou, Zhejiang, China",
+        "region": "Zhejiang",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Supply Chain",
+        "industry": "Logistics And Supply Chain",
+        "department": "Sales"
+      },
+      "facets": {
+        "company": "Expeditors",
+        "industry": "国际物流 / 货代",
+        "location": "Hangzhou, Zhejiang, China",
+        "city": "Hangzhou",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "d3c0d7e6a35d7ca1",
+      "source_id": "continental-china-jobs",
+      "source_name": "大陆集团 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Tactical Category Manager (6 months contract)",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000146644839",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.085111Z",
+      "published_at": "2026-09-01T08:00:54.248000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Continental",
+        "location": "shanghai, , China",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Purchasing",
+        "industry": "Automotive"
+      },
+      "facets": {
+        "company": "Continental",
+        "industry": "汽车零部件 / 轮胎",
+        "location": "shanghai, , China",
+        "city": "shanghai",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "c816c8824e3d2fe2",
+      "source_id": "continental-china-jobs",
+      "source_name": "大陆集团 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "CN - Tires - (Senior) Transportation Specialist",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000144450420",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.085111Z",
+      "published_at": "2026-08-20T03:12:33.153000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Continental",
+        "location": "Shanghai, , China",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Supply Chain",
+        "industry": "Automotive"
+      },
+      "facets": {
+        "company": "Continental",
+        "industry": "汽车零部件 / 轮胎",
+        "location": "Shanghai, , China",
+        "city": "Shanghai",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "08bfb154da020442",
+      "source_id": "continental-china-jobs",
+      "source_name": "大陆集团 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Intern - GTT TVC China",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000132360769",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.085111Z",
+      "published_at": "2026-06-16T08:31:25.929000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "实习"
+      ],
+      "alert_keywords": [
+        "实习",
+        "intern"
+      ],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：实习"
+        },
+        {
+          "factor": "alert",
+          "points": 20,
+          "reason": "命中提醒关键词：实习、intern"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Continental",
+        "location": "He Fei Shi, An Hui Sheng, China",
+        "region": "An Hui Sheng",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Internship",
+        "function": "Research",
+        "industry": "Automotive"
+      },
+      "facets": {
+        "company": "Continental",
+        "industry": "汽车零部件 / 轮胎",
+        "location": "He Fei Shi, An Hui Sheng, China",
+        "city": "He Fei Shi",
+        "job_type": "实习",
+        "job_type_rule": "来源字段"
+      }
+    },
+    {
+      "id": "2008b3ef71f3273d",
+      "source_id": "continental-china-jobs",
+      "source_name": "大陆集团 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Intern for NPM Team",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000123840299",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.085111Z",
+      "published_at": "2026-04-30T03:30:20.091000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购与物料管理",
+        "实习"
+      ],
+      "alert_keywords": [
+        "实习",
+        "intern"
+      ],
+      "deadline": null,
+      "score": 41,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：采购与物料管理、实习"
+        },
+        {
+          "factor": "alert",
+          "points": 20,
+          "reason": "命中提醒关键词：实习、intern"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Continental",
+        "location": "Yang Pu Qu, Shang Hai Shi, China",
+        "region": "Shang Hai Shi",
+        "country": "cn",
+        "employment_type": "Part-time",
+        "experience_level": "Internship",
+        "function": "Purchasing",
+        "industry": "Automotive"
+      },
+      "facets": {
+        "company": "Continental",
+        "industry": "汽车零部件 / 轮胎",
+        "location": "Yang Pu Qu, Shang Hai Shi, China",
+        "city": "Yang Pu Qu",
+        "job_type": "实习",
+        "job_type_rule": "来源字段",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "fadadf57238ea068",
+      "source_id": "continental-china-jobs",
+      "source_name": "大陆集团 中国区职位",
+      "category": "jobs",
+      "change_type": "initial",
+      "title": "Strategic Category Manager_Purchasing",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000110322416",
+      "summary": "",
+      "detected_at": "2026-10-11T06:26:25.085111Z",
+      "published_at": "2026-02-20T08:10:00.702000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 13,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": -15,
+          "reason": "首次收录（建立基线）"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Continental",
+        "location": "Shanghai, , China",
+        "country": "cn",
+        "employment_type": "Full-time",
+        "experience_level": "Mid-Senior Level",
+        "function": "Purchasing",
+        "industry": "Automotive"
+      },
+      "facets": {
+        "company": "Continental",
+        "industry": "汽车零部件 / 轮胎",
+        "location": "Shanghai, , China",
+        "city": "Shanghai",
+        "function": "采购与物料管理"
+      }
+    },
     {
       "id": "44290948d321843c",
       "source_id": "cursor-pricing",

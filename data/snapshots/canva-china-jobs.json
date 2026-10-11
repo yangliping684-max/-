@@ -1,0 +1,65 @@
+{
+  "source_id": "canva-china-jobs",
+  "taken_at": "2026-10-11T06:26:29.468540Z",
+  "etag": null,
+  "last_modified": null,
+  "items": {
+    "6000000001365762": {
+      "title": "CJKI Product Program Manager",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001365762",
+      "hash": "3dc4570e4b19155f",
+      "summary": "",
+      "published_at": "2026-09-01T04:16:07.897000Z",
+      "text": ""
+    },
+    "6000000001347469": {
+      "title": "Product Manager, CJKI",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001347469",
+      "hash": "9bfb36052c725c4f",
+      "summary": "",
+      "published_at": "2026-08-25T04:05:04.982000Z",
+      "text": ""
+    },
+    "6000000001228519": {
+      "title": "Research MLE (Training Optimization)大模型训练优化工程师",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001228519",
+      "hash": "8a346b00722024d5",
+      "summary": "",
+      "published_at": "2026-07-13T06:00:46.313000Z",
+      "text": ""
+    },
+    "6000000001224672": {
+      "title": "Research Scientist - Efficient AI (高性能大模型)",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001224672",
+      "hash": "8050af6dd8fa7389",
+      "summary": "",
+      "published_at": "2026-07-10T04:47:40.928000Z",
+      "text": ""
+    },
+    "6000000001224627": {
+      "title": "LLM Agent Research Scientist 大模型智能体研究科学家",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001224627",
+      "hash": "25398c0bfef39722",
+      "summary": "",
+      "published_at": "2026-07-10T04:43:51.714000Z",
+      "text": ""
+    },
+    "6000000001121034": {
+      "title": "AI Research Scientist 大模型研究科学家",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001121034",
+      "hash": "421f5da6b7738f66",
+      "summary": "",
+      "published_at": "2026-06-01T06:53:56.120000Z",
+      "text": ""
+    }
+  },
+  "seen_keys": [
+    "6000000001365762",
+    "6000000001347469",
+    "6000000001228519",
+    "6000000001224672",
+    "6000000001224627",
+    "6000000001121034"
+  ],
+  "scope": "https://api.smartrecruiters.com/v1/companies/Canva/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
+}

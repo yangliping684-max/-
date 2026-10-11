@@ -46,11 +46,11 @@
       "industry": "国际物流 / 货代",
       "careers_url": "https://www.expeditors.com/careers",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 12,
+      "count": 11,
       "complete": true,
-      "total_reported": 12,
+      "total_reported": 11,
       "has_catalog": true,
-      "updated_at": "2026-10-11T06:26:25.517402+00:00"
+      "updated_at": "2026-10-11T23:31:16.022310+00:00"
     },
     {
       "source_id": "ubisoft-china-jobs",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2738,
-  "generated_at": "2026-10-11T06:27:32.425269+00:00"
+  "total": 2737,
+  "generated_at": "2026-10-11T23:32:22.541558+00:00"
 }

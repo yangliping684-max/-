@@ -1,6 +1,23 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-10-12",
+      "kind": "digest",
+      "created_at": "2026-10-11T23:32:22.541558Z",
+      "title": "每日摘要 2026-10-12：7 条变化",
+      "body": "# 知更日报 2026-10-12\n\n共发现 **7** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 60]** [v3.29.0](https://github.com/openai/openai-python/releases/tag/v3.29.0) — OpenAI Python SDK Releases · 新增\n- **[一般 38]** [Management Trainee - Qingdao](https://jobs.smartrecruiters.com/Expeditors/744000151987368) — Expeditors 中国区职位 · 移除 · 关键词：管培生\n- **[一般 38]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Issues with Codex](https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Mobile users unable to see Work Mode and the Model Picker](https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S) — OpenAI 服务状态 · 修改\n- **[一般 33]** [We are seeing elevated error rates across API models](https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA) — OpenAI 服务状态 · 修改\n- **[一般 23]** [Elevated errors for GPT-5.6 Sol on the API](https://status.openai.com//incidents/01M27VK1VN54RQJGJEHB5JTQJJ) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "117ac965a05e86c5",
+        "3a3ed8d5428158b3",
+        "336679b0888c491d",
+        "ae9323cb9d44f1a2",
+        "3ef6d757d8879a76",
+        "4818c176c5a4e78d",
+        "711931cff5253889"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "digest-2026-10-11",
       "kind": "digest",
       "created_at": "2026-10-11T06:27:32.425269Z",

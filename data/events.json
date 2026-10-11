@@ -1,6 +1,415 @@
 {
-  "updated_at": "2026-10-11T06:27:32.425269+00:00",
+  "updated_at": "2026-10-11T23:32:22.541558+00:00",
   "events": [
+    {
+      "id": "336679b0888c491d",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) Image Generation (Operational) Agent (Operational) CLI (Operational) VS Code extension (Operational) Sites (Operational) ChatGPT Work (Operational) Login (Operational) Search (Operational) Conversations (Operational) Images (Operational) Audio (Operational) Realtime (Operational) Files",
+      "detected_at": "2026-10-11T23:32:14.985519Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) Image Generation (Operational) Agent (Operational) CLI (Operational) VS Code extension (Operational) Sites (Operational) ChatGPT Work (Operational) Login (Operational) Search (Operational) Conversations (Operational) Images (Operational) Audio (Operational) Realtime (Operational) Files (Operational) Login (Operational) Deep Research (Operational) Codex Web (Operational) Codex in ChatGPT Desktop (Operational) Responses (Operational) Codex API (Operational) Agents (Operational) Embe…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Audio (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Image Generation (Operational) Agent (Operational) Codex API (Operational) GPTs (Operational) Login (Operational) Codex Web (Operational) Sites (Operational) Realtime (Operational) CLI (Operational) Images (Operational) Chat Completions (Operational) Compliance API (Operational) File uploads (Operational) Search (Operational) Deep Research (Operational) Files (Operational) VS Code extension (Operational) Voice mode…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "ae9323cb9d44f1a2",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Issues with Codex",
+      "url": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational)",
+      "detected_at": "2026-10-11T23:32:14.985519Z",
+      "published_at": "2026-09-25T23:54:41Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "3ef6d757d8879a76",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Image Generation (Operational) Codex in ChatGPT Desktop (Operational) Search (Operational) Compliance API (Operational) GPTs (Operational) Deep Research (Operational) Connectors/Apps (Operational) File uploads (Operational) Conversations (Operational) Agent (Operational",
+      "detected_at": "2026-10-11T23:32:14.985519Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Image Generation (Operational) Codex in ChatGPT Desktop (Operational) Search (Operational) Compliance API (Operational) GPTs (Operational) Deep Research (Operational) Connectors/Apps (Operational) File uploads (Operational) Conversations (Operational) Agent (Operational) ChatGPT Work (Operational) Sites (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) ChatGPT Work (Operational) File uploads (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Conversations (Operational) Image Generation (Operational) GPTs (Operational) Agent (Operational) Sites (Operational) Voice mode (Operational) Deep Research (Operational) Login (Operational) Search (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "4818c176c5a4e78d",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "We are seeing elevated error rates across API models",
+      "url": "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Chat Completions (Operational) Audio (Operational) Fine-tuning (Operational) Files (Operational) Embeddings (Operational) Responses (Operational) Images (Operational) Realtime (Operational) Moderations (Operational) Login (Operational)",
+      "detected_at": "2026-10-11T23:32:14.985519Z",
+      "published_at": "2026-09-17T21:50:36Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Chat Completions (Operational) Audio (Operational) Fine-tuning (Operational) Files (Operational) Embeddings (Operational) Responses (Operational) Images (Operational) Realtime (Operational) Moderations (Operational) Login (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Moderations (Operational) Responses (Operational) Images (Operational) Chat Completions (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Login (Operational) Batch (Operational) Audio (Operational) Files (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "711931cff5253889",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors for GPT-5.6 Sol on the API",
+      "url": "https://status.openai.com//incidents/01M27VK1VN54RQJGJEHB5JTQJJ",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)",
+      "detected_at": "2026-10-11T23:32:14.985519Z",
+      "published_at": "2026-09-11T11:21:43Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational) Chat Completions (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "3a3ed8d5428158b3",
+      "source_id": "openai-python-releases",
+      "source_name": "OpenAI Python SDK Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v3.29.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
+      "summary": "## [3.29.0](https://github.com/openai/openai-python/compare/v3.28.0...v3.29.0) (2026-10-11)\n### Features\n* **api:** add billing_not_active session error code ([#4052](https://github.com/openai/openai-python/issues/4052)) ([c88b320](https://github.com/openai/openai-python/commit/c88b32012ef0c3ebac39c79512994985a553a24c))\n* **api:** add shida to named Live voices ([#4053](https://github.com/openai/openai-python/issues/4053)) ([7352cf5](https://github.com/openai/openai-python/commit/7352cf5c80cf46b0b7c23634fb7df47c28b0604b))\n* **api:** add vault updates and metadata filters ([#4047](https://gith…",
+      "detected_at": "2026-10-11T23:31:28.335163Z",
+      "published_at": "2026-10-11T17:38:54Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 60,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v3.29.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "117ac965a05e86c5",
+      "source_id": "expeditors-china-jobs",
+      "source_name": "Expeditors 中国区职位",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Management Trainee - Qingdao",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000151987368",
+      "summary": "",
+      "detected_at": "2026-10-11T23:31:16.022310Z",
+      "published_at": "2026-09-26T12:13:07.458000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "管培生"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：管培生"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "康捷空 Expeditors",
+        "industry": "国际物流 / 货代",
+        "job_type": "管培生",
+        "job_type_rule": "标题文字"
+      }
+    },
     {
       "id": "06563fb11b474f7b",
       "source_id": "openai-status",

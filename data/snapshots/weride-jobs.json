@@ -1,7 +1,7 @@
 {
   "source_id": "weride-jobs",
-  "taken_at": "2026-10-11T06:26:33.097888Z",
-  "etag": "W/\"1b0c3-ZtyWJUw6Jp6RkfJyme/I/fjEd/s\"",
+  "taken_at": "2026-10-12T23:33:06.388241Z",
+  "etag": "W/\"1c55d-5cvpNb3xo+xwl8b732CqFiaI9cc\"",
   "last_modified": null,
   "items": {
     "82955de9-485d-4db0-8fd9-1c018489fc8d": {
@@ -100,6 +100,14 @@
       "published_at": "2026-08-10T20:44:19.257000Z",
       "text": ""
     },
+    "2973bf16-d0cb-47d9-9572-df3be8430368": {
+      "title": "Office Administrator (Singapore)",
+      "url": "https://jobs.lever.co/weride/2973bf16-d0cb-47d9-9572-df3be8430368",
+      "hash": "f194afebf2988c59",
+      "summary": "",
+      "published_at": "2026-09-02T23:09:13.335000Z",
+      "text": ""
+    },
     "628b7118-d946-47a2-a03b-ac034622d908": {
       "title": "Perception Engineer – ML/CV and Algorithms",
       "url": "https://jobs.lever.co/weride/628b7118-d946-47a2-a03b-ac034622d908",
@@ -149,7 +157,8 @@
     "628b7118-d946-47a2-a03b-ac034622d908",
     "752dee2b-50d8-4276-97cc-ec1e1f0e1fb7",
     "92454854-2938-4a18-a920-2c1295986ddb",
-    "af4a2599-d08e-434f-aedc-f409d2071769"
+    "af4a2599-d08e-434f-aedc-f409d2071769",
+    "2973bf16-d0cb-47d9-9572-df3be8430368"
   ],
   "scope": "https://api.lever.co/v0/postings/weride?mode=json|2000|None"
 }

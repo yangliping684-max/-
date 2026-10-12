@@ -1,6 +1,6 @@
 {
   "source_id": "xai-release-notes",
-  "taken_at": "2026-10-11T06:00:37.512252Z",
+  "taken_at": "2026-10-12T23:33:53.719791Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -396,10 +396,10 @@
       "published_at": null,
       "text": ""
     },
-    "https://docs.x.ai/developers/release-notes#replit--spacexai": {
-      "title": "Replit & SpaceXAI",
-      "url": "https://docs.x.ai/developers/release-notes#replit--spacexai",
-      "hash": "7b0a34d01eecef15",
+    "https://docs.x.ai/developers/release-notes#replit--spacexsi": {
+      "title": "Replit & SpaceXSI",
+      "url": "https://docs.x.ai/developers/release-notes#replit--spacexsi",
+      "hash": "25b2ae8afd5a02e2",
       "summary": "",
       "published_at": null,
       "text": ""
@@ -455,7 +455,8 @@
     "https://docs.x.ai/developers/release-notes#audit-logs",
     "https://docs.x.ai/developers/release-notes#docs-dark-mode",
     "https://docs.x.ai/developers/release-notes#status-page",
-    "https://docs.x.ai/developers/release-notes#replit--spacexai"
+    "https://docs.x.ai/developers/release-notes#replit--spacexai",
+    "https://docs.x.ai/developers/release-notes#replit--spacexsi"
   ],
   "scope": "https://docs.x.ai/developers/release-notes|50|None"
 }

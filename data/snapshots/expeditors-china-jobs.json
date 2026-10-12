@@ -1,9 +1,17 @@
 {
   "source_id": "expeditors-china-jobs",
-  "taken_at": "2026-10-11T23:31:16.022310Z",
+  "taken_at": "2026-10-12T23:32:58.633154Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000154922319": {
+      "title": "Accounting Manager",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000154922319",
+      "hash": "5d50f2c1433a8fe9",
+      "summary": "",
+      "published_at": "2026-10-12T05:31:27.224000Z",
+      "text": ""
+    },
     "744000152611749": {
       "title": "Engineer I - Global Technology - Technology Services",
       "url": "https://jobs.smartrecruiters.com/Expeditors/744000152611749",
@@ -105,7 +113,8 @@
     "744000143431699",
     "744000141165961",
     "744000138570569",
-    "744000138445769"
+    "744000138445769",
+    "744000154922319"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Expeditors/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

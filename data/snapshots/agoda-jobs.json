@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-11T23:31:24.418946Z",
-  "etag": "W/\"d1aa632eb815bc0bd09657882b336e01\"",
+  "taken_at": "2026-10-12T23:33:07.488116Z",
+  "etag": "W/\"a71348a5a92341a1da2ee6f861b270ab\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -18,6 +18,14 @@
       "hash": "4ff1a53464186e8b",
       "summary": "",
       "published_at": "2026-08-14T04:12:08Z",
+      "text": ""
+    },
+    "8152729": {
+      "title": "Account Executive/Manager, Key Accounts- Japanese Speaking",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8152729",
+      "hash": "9054f1652b003e3b",
+      "summary": "",
+      "published_at": "2026-09-03T10:20:57Z",
       "text": ""
     },
     "8104970": {
@@ -42,6 +50,14 @@
       "hash": "21dc480fe9880eac",
       "summary": "",
       "published_at": "2026-01-07T08:29:55Z",
+      "text": ""
+    },
+    "8236498": {
+      "title": "Account Manager",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8236498",
+      "hash": "a759e609e35a7bc9",
+      "summary": "",
+      "published_at": "2026-10-12T04:13:42Z",
       "text": ""
     },
     "8242164": {
@@ -84,12 +100,12 @@
       "published_at": "2026-10-02T06:01:27Z",
       "text": ""
     },
-    "8152729": {
-      "title": "Account Manager, Key Accounts- Japanese Speaking",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8152729",
-      "hash": "417a200940f45119",
+    "8248741": {
+      "title": "Account Manager, Homes (Taipei)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8248741",
+      "hash": "a4c3201bb88afb51",
       "summary": "",
-      "published_at": "2026-09-03T10:20:57Z",
+      "published_at": "2026-10-12T06:13:16Z",
       "text": ""
     },
     "8194528": {
@@ -154,6 +170,22 @@
       "hash": "5c6e29cb1b58dc02",
       "summary": "",
       "published_at": "2026-08-07T07:33:59Z",
+      "text": ""
+    },
+    "8266785": {
+      "title": "Account Specialist – Gurgaon Based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8266785",
+      "hash": "782c50aa39d4a115",
+      "summary": "",
+      "published_at": "2026-10-12T06:04:08Z",
+      "text": ""
+    },
+    "8255668": {
+      "title": "Account Specialist, Homes",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255668",
+      "hash": "9f7cb0135a41947d",
+      "summary": "",
+      "published_at": "2026-10-12T04:33:22Z",
       "text": ""
     },
     "8242288": {
@@ -252,6 +284,14 @@
       "published_at": "2026-09-10T07:15:42Z",
       "text": ""
     },
+    "8273432": {
+      "title": "Analyst, Performance Marketing (Bangkok Based, relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8273432",
+      "hash": "545cde8857f4ce65",
+      "summary": "",
+      "published_at": "2026-10-12T07:02:28Z",
+      "text": ""
+    },
     "8190515": {
       "title": "Analyst, Pricing (Bangkok Based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8190515",
@@ -324,6 +364,22 @@
       "published_at": "2025-11-05T07:15:24Z",
       "text": ""
     },
+    "8255747": {
+      "title": "Area Manager, Homes",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255747",
+      "hash": "70b57869db3a2db2",
+      "summary": "",
+      "published_at": "2026-10-12T04:43:40Z",
+      "text": ""
+    },
+    "8248605": {
+      "title": "Area Manager, Homes Supply – Thailand & Vietnam",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8248605",
+      "hash": "221c2be4d54089cb",
+      "summary": "",
+      "published_at": "2026-10-12T04:12:12Z",
+      "text": ""
+    },
     "8063981": {
       "title": "Area Manager / Senior Area Manager, Strategic Accounts – Japan (based in Tokyo)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8063981",
@@ -354,14 +410,6 @@
       "hash": "a7b27be9393324ce",
       "summary": "",
       "published_at": "2026-09-11T06:24:56Z",
-      "text": ""
-    },
-    "8158888": {
-      "title": "Associate Director, Accounting (Bangkok based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8158888",
-      "hash": "e54368444e45a103",
-      "summary": "",
-      "published_at": "2026-08-28T10:35:55Z",
       "text": ""
     },
     "8037954": {
@@ -618,14 +666,6 @@
       "hash": "1ff1a3cca929187c",
       "summary": "",
       "published_at": "2026-07-17T04:00:22Z",
-      "text": ""
-    },
-    "8179158": {
-      "title": "Campaign Operations Specialist, China DMO, Agoda Media Solutions (10-month contract) (Bangkok-Based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8179158",
-      "hash": "ee72a6ba7e6dfb61",
-      "summary": "",
-      "published_at": "2026-09-07T09:48:45Z",
       "text": ""
     },
     "8163599": {
@@ -996,14 +1036,6 @@
       "published_at": "2026-07-20T06:01:36Z",
       "text": ""
     },
-    "7408055": {
-      "title": "Lead, Account Management (Jakarta based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7408055",
-      "hash": "cbe59e63f206da04",
-      "summary": "",
-      "published_at": "2025-11-19T09:44:16Z",
-      "text": ""
-    },
     "7379568": {
       "title": "Lead Analyst (Supply Analytics, Bangkok-based, Relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7379568",
@@ -1268,14 +1300,6 @@
       "published_at": "2026-08-05T08:08:35Z",
       "text": ""
     },
-    "8080873": {
-      "title": "Manager, Tech Partnerships (Bangkok, Relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8080873",
-      "hash": "88800c83b329b45d",
-      "summary": "",
-      "published_at": "2026-07-30T09:37:32Z",
-      "text": ""
-    },
     "5393603": {
       "title": "Marketing Analyst (Bangkok Based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/5393603",
@@ -1306,6 +1330,14 @@
       "hash": "79ad218e5d8b02ad",
       "summary": "",
       "published_at": "2026-05-25T04:55:13Z",
+      "text": ""
+    },
+    "8179158": {
+      "title": "Marketing Operations (Chinese Speaking)-Agoda Media Solutions (10-month contract) (Bangkok-Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8179158",
+      "hash": "63c740c94e994b9a",
+      "summary": "",
+      "published_at": "2026-09-07T09:48:45Z",
       "text": ""
     },
     "8239223": {
@@ -1442,14 +1474,6 @@
       "hash": "ae51a88195a6f561",
       "summary": "",
       "published_at": "2026-09-17T08:55:34Z",
-      "text": ""
-    },
-    "4208934": {
-      "title": "Principal Product Manager (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/4208934",
-      "hash": "6087f9b875471384",
-      "summary": "",
-      "published_at": "2024-06-27T09:01:44Z",
       "text": ""
     },
     "8110858": {
@@ -1716,14 +1740,6 @@
       "published_at": "2026-05-11T03:40:40Z",
       "text": ""
     },
-    "7393394": {
-      "title": "Senior Area Manager (Jakarta based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7393394",
-      "hash": "0f38dd7b43c5c177",
-      "summary": "",
-      "published_at": "2025-11-19T09:44:15Z",
-      "text": ""
-    },
     "8138698": {
       "title": "Senior Area Manager (Manila based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8138698",
@@ -1754,14 +1770,6 @@
       "hash": "f457671147a5dc23",
       "summary": "",
       "published_at": "2026-05-28T03:14:30Z",
-      "text": ""
-    },
-    "8173199": {
-      "title": "Senior Counsel, Competition and Disputes (Bangkok-based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8173199",
-      "hash": "c29272145a7e7997",
-      "summary": "",
-      "published_at": "2026-09-03T03:59:46Z",
       "text": ""
     },
     "8248700": {
@@ -1946,6 +1954,14 @@
       "hash": "f7d494b905d4d098",
       "summary": "",
       "published_at": "2026-10-06T02:19:00Z",
+      "text": ""
+    },
+    "8266638": {
+      "title": "Senior Manager, Tax Controversy (Singapore/ Bangkok Based, Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8266638",
+      "hash": "cfb899c35c19e142",
+      "summary": "",
+      "published_at": "2026-10-12T03:19:50Z",
       "text": ""
     },
     "8248585": {
@@ -2220,20 +2236,20 @@
       "published_at": "2025-09-30T07:00:10Z",
       "text": ""
     },
-    "5393397": {
-      "title": "Staff/Lead LLM Data Scientist (Singapore based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/5393397",
-      "hash": "0345bc5bb93d8d96",
-      "summary": "",
-      "published_at": "2023-09-26T04:13:36Z",
-      "text": ""
-    },
     "7916603": {
       "title": "Staff/Lead LLM Data Scientist (Singapore based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7916603",
       "hash": "0345bc5bb93d8d96",
       "summary": "",
       "published_at": "2026-05-14T02:51:37Z",
+      "text": ""
+    },
+    "5393397": {
+      "title": "Staff/Lead LLM Data Scientist (Singapore based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/5393397",
+      "hash": "0345bc5bb93d8d96",
+      "summary": "",
+      "published_at": "2023-09-26T04:13:36Z",
       "text": ""
     },
     "7916604": {
@@ -2340,6 +2356,14 @@
       "published_at": "2026-06-05T05:33:48Z",
       "text": ""
     },
+    "8255794": {
+      "title": "Strategic Account Manager",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255794",
+      "hash": "2de252f0a4d83ca3",
+      "summary": "",
+      "published_at": "2026-10-12T04:44:22Z",
+      "text": ""
+    },
     "8210432": {
       "title": "Strategic Account Manager B2B - Tokyo, Japan",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8210432",
@@ -2348,12 +2372,28 @@
       "published_at": "2026-09-28T23:52:11Z",
       "text": ""
     },
+    "8255781": {
+      "title": "Strategic Account Manager, Homes",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255781",
+      "hash": "7cfe060e1be9848c",
+      "summary": "",
+      "published_at": "2026-10-12T04:32:28Z",
+      "text": ""
+    },
     "8190448": {
       "title": "Strategic Account Manager (Hong Kong based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8190448",
       "hash": "10f98220fc9b41b3",
       "summary": "",
       "published_at": "2026-09-15T09:37:54Z",
+      "text": ""
+    },
+    "8255816": {
+      "title": "Strategic Account Manager (Singapore)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255816",
+      "hash": "afbfe9ad7412ca84",
+      "summary": "",
+      "published_at": "2026-10-12T04:14:23Z",
       "text": ""
     },
     "8163672": {
@@ -2436,14 +2476,6 @@
       "published_at": "2026-10-02T10:35:54Z",
       "text": ""
     },
-    "7995116": {
-      "title": "Support Associate (Gurgaon)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
-      "hash": "0e687f4852d59c6c",
-      "summary": "",
-      "published_at": "2026-08-27T10:48:23Z",
-      "text": ""
-    },
     "8090218": {
       "title": "Support Associate- Japanese Speaker 24/7 (Yokohama, requires relocation to Yokohama)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8090218",
@@ -2458,14 +2490,6 @@
       "hash": "752ff7931fa24fe0",
       "summary": "",
       "published_at": "2026-10-06T08:05:13Z",
-      "text": ""
-    },
-    "7995117": {
-      "title": "Support Associate (Pune)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995117",
-      "hash": "74c56032c06b5556",
-      "summary": "",
-      "published_at": "2026-08-06T06:28:43Z",
       "text": ""
     },
     "8168798": {
@@ -2867,7 +2891,18 @@
     "8172727",
     "8088028",
     "8027691",
-    "8131828"
+    "8131828",
+    "8236498",
+    "8248741",
+    "8266785",
+    "8255668",
+    "8273432",
+    "8255747",
+    "8248605",
+    "8266638",
+    "8255794",
+    "8255781",
+    "8255816"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

@@ -1,7 +1,7 @@
 {
   "source_id": "weride-jobs",
-  "taken_at": "2026-10-12T23:33:06.388241Z",
-  "etag": "W/\"1c55d-5cvpNb3xo+xwl8b732CqFiaI9cc\"",
+  "taken_at": "2026-10-13T23:42:25.099144Z",
+  "etag": "W/\"19cce-BpOPPluoUnlJoBj7BTp8dZYLvBE\"",
   "last_modified": null,
   "items": {
     "82955de9-485d-4db0-8fd9-1c018489fc8d": {
@@ -10,30 +10,6 @@
       "hash": "3595bfc622d787d7",
       "summary": "",
       "published_at": "2019-01-17T03:46:57.397000Z",
-      "text": ""
-    },
-    "fecb0fd0-7f66-4010-af00-b6500e0ef680": {
-      "title": "Data Annotation QA",
-      "url": "https://jobs.lever.co/weride/fecb0fd0-7f66-4010-af00-b6500e0ef680",
-      "hash": "2ec8802dc5e0af99",
-      "summary": "",
-      "published_at": "2026-06-16T19:56:20.700000Z",
-      "text": ""
-    },
-    "9d4fea10-e056-4ebe-8459-45cf00a9fcd0": {
-      "title": "Data Annotation Team Leader",
-      "url": "https://jobs.lever.co/weride/9d4fea10-e056-4ebe-8459-45cf00a9fcd0",
-      "hash": "f47feed83683f541",
-      "summary": "",
-      "published_at": "2026-06-11T18:17:15.538000Z",
-      "text": ""
-    },
-    "2046f079-88a3-47fd-8bb1-660e7c45652b": {
-      "title": "Data Annotator",
-      "url": "https://jobs.lever.co/weride/2046f079-88a3-47fd-8bb1-660e7c45652b",
-      "hash": "4fd1c176fd2f8763",
-      "summary": "",
-      "published_at": "2026-06-11T18:21:42.539000Z",
       "text": ""
     },
     "012c818d-4ad8-4096-80b0-386cdf79f8d5": {

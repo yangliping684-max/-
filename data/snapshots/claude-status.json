@@ -1,23 +1,23 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-10-12T23:33:56.916568Z",
-  "etag": "W/\"9bb94c39a8db36820081e40d808e679f\"",
+  "taken_at": "2026-10-13T23:43:15.867889Z",
+  "etag": "W/\"dec870422e48328362892db00e3e7af9\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/978mjkgw6mh7": {
+      "title": "Elevated errors on platform.claude.com",
+      "url": "https://status.claude.com/incidents/978mjkgw6mh7",
+      "hash": "415df6cda03737bf",
+      "summary": "Oct 13 , 18:00 UTC Resolved - This issue has been resolved. Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here. Oct 7 , 17:28 UTC Identified - We've identified the cause of errors loading usage data. The Admin API usage report has recovered, and fixes for the platform.claude.com Usage and Rate limits pages are in progr…",
+      "published_at": "2026-10-13T18:00:04Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/vmys9qn874h4": {
       "title": "Issue with spend limits",
       "url": "https://status.claude.com/incidents/vmys9qn874h4",
       "hash": "2870b079776ae0a1",
       "summary": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.",
       "published_at": "2026-10-07T21:23:29Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/978mjkgw6mh7": {
-      "title": "Elevated errors on platform.claude.com",
-      "url": "https://status.claude.com/incidents/978mjkgw6mh7",
-      "hash": "a31931d4810dc044",
-      "summary": "Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here. Oct 7 , 17:28 UTC Identified - We've identified the cause of errors loading usage data. The Admin API usage report has recovered, and fixes for the platform.claude.com Usage and Rate limits pages are in progress. The most recent 30 minutes of usage may be delayed. Cor…",
-      "published_at": "2026-10-07T21:45:27Z",
       "text": ""
     },
     "https://status.claude.com/incidents/wf2v8ms031sx": {

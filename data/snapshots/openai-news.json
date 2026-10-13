@@ -1,9 +1,17 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-11T06:00:30.616279Z",
+  "taken_at": "2026-10-13T23:43:05.636899Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/higgsfield-longer-videos-voice": {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "hash": "77fc8365be804d3f",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "published_at": "2026-10-13T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/sophos": {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
@@ -284,11 +292,11 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "hash": "90e353bc716287ab",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -300,11 +308,11 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "hash": "90e353bc716287ab",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+    "https://openai.com/index/ringg": {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "hash": "6410611bf04e572d",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -380,19 +388,19 @@
       "published_at": "2026-09-22T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "hash": "a60604a9ef8cc7e9",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published_at": "2026-09-21T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "hash": "a1dc241b1a01c5db",
       "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published_at": "2026-09-21T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "hash": "a60604a9ef8cc7e9",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "published_at": "2026-09-21T12:00:00Z",
       "text": ""
     },
@@ -795,14 +803,6 @@
       "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
       "published_at": "2026-08-28T02:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training": {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "hash": "6fdc2d806500f61f",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "published_at": "2026-08-27T09:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -905,7 +905,8 @@
     "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
     "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
     "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-    "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
+    "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+    "https://openai.com/index/higgsfield-longer-videos-voice"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

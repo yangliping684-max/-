@@ -1,9 +1,17 @@
 {
   "source_id": "cursor-changelog",
-  "taken_at": "2026-10-11T06:00:35.400377Z",
+  "taken_at": "2026-10-13T23:43:10.253350Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://cursor.com/changelog/origin-app-marketplace": {
+      "title": "Origin App Marketplace",
+      "url": "https://cursor.com/changelog/origin-app-marketplace",
+      "hash": "cb2ac321a8703ca5",
+      "summary": "Origin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare, Linear, Sentry, and Socket Security.",
+      "published_at": "2026-10-13T00:00:00Z",
+      "text": ""
+    },
     "https://cursor.com/changelog/remote-control-local-agents": {
       "title": "Remote control for local agents",
       "url": "https://cursor.com/changelog/remote-control-local-agents",
@@ -35,14 +43,6 @@
       "summary": "Cursor supports self-hosted machines , which let you keep tool execution entirely in your own network.",
       "published_at": "2026-09-02T00:00:00Z",
       "text": ""
-    },
-    "https://cursor.com/changelog/start-from-scratch": {
-      "title": "Start from scratch, without a repo",
-      "url": "https://cursor.com/changelog/start-from-scratch",
-      "hash": "79cdcd99848e4bf9",
-      "summary": "Cloud Agents no longer require a connected GitHub or other third-party SCM provider to get started. Prompt from the get-go, then save your work to a Cursor Origin repo.",
-      "published_at": "2026-08-27T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -50,7 +50,8 @@
     "https://cursor.com/changelog/rollouts-and-security-reviewer",
     "https://cursor.com/changelog/projects",
     "https://cursor.com/changelog/self-hosted-machines",
-    "https://cursor.com/changelog/start-from-scratch"
+    "https://cursor.com/changelog/start-from-scratch",
+    "https://cursor.com/changelog/origin-app-marketplace"
   ],
   "scope": "https://cursor.com/changelog|50|None"
 }

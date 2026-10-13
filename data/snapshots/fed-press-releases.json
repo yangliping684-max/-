@@ -1,9 +1,17 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-10-10T18:34:13.735004Z",
-  "etag": "W/\"65ea5b0f657dd1:0\"",
-  "last_modified": "Fri, 09 Oct 2026 14:01:31 GMT",
+  "taken_at": "2026-10-13T23:42:32.249750Z",
+  "etag": "W/\"fc49b23c5bdd1:0\"",
+  "last_modified": "Tue, 13 Oct 2026 18:00:13 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm": {
+      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
+      "hash": "3cfa7535068ab01a",
+      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "published_at": "2026-10-13T18:00:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm": {
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
@@ -108,19 +116,19 @@
       "published_at": "2026-09-22T20:30:00Z",
       "text": ""
     },
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm": {
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
-      "hash": "aa7b1a1d87c7f138",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "published_at": "2026-09-18T15:00:00Z",
-      "text": ""
-    },
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm": {
       "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
       "hash": "183badc787d83cb5",
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "published_at": "2026-09-18T15:00:00Z",
+      "text": ""
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm": {
+      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
+      "hash": "aa7b1a1d87c7f138",
+      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
       "published_at": "2026-09-18T15:00:00Z",
       "text": ""
     },
@@ -155,14 +163,6 @@
       "summary": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
       "published_at": "2026-09-10T20:00:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm": {
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
-      "hash": "9460a44e151cfcaa",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "published_at": "2026-09-04T15:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -185,6 +185,8 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm"
-  ]
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm"
+  ],
+  "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

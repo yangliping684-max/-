@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-12T23:33:07.488116Z",
-  "etag": "W/\"a71348a5a92341a1da2ee6f861b270ab\"",
+  "taken_at": "2026-10-13T23:42:26.613282Z",
+  "etag": "W/\"16786a8676377bacb1115246c423d51e\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -108,14 +108,6 @@
       "published_at": "2026-10-12T06:13:16Z",
       "text": ""
     },
-    "8194528": {
-      "title": "Account Manager, MEA - Turkish Speaker (Cairo-Based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8194528",
-      "hash": "0ddcc593cbe559e8",
-      "summary": "",
-      "published_at": "2026-09-14T15:06:46Z",
-      "text": ""
-    },
     "8111612": {
       "title": "Account Manager, Spanish Speaking - Europe, (Cairo-based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8111612",
@@ -170,14 +162,6 @@
       "hash": "5c6e29cb1b58dc02",
       "summary": "",
       "published_at": "2026-08-07T07:33:59Z",
-      "text": ""
-    },
-    "8266785": {
-      "title": "Account Specialist – Gurgaon Based",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8266785",
-      "hash": "782c50aa39d4a115",
-      "summary": "",
-      "published_at": "2026-10-12T06:04:08Z",
       "text": ""
     },
     "8255668": {
@@ -756,6 +740,14 @@
       "published_at": "2026-09-15T09:37:27Z",
       "text": ""
     },
+    "8220038": {
+      "title": "Customer Experience Specialist – Bilingual (Fluent in Arabic & English) | Cairo, Egypt",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8220038",
+      "hash": "89a9744ac3ea0d65",
+      "summary": "",
+      "published_at": "2026-09-29T12:08:43Z",
+      "text": ""
+    },
     "7972200": {
       "title": "Customer Experience Specialist – Bilingual (Fluent in Portuguese & English) | Cairo, Egypt",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7972200",
@@ -866,6 +858,14 @@
       "hash": "bc9389091a096f0d",
       "summary": "",
       "published_at": "2026-07-23T05:43:44Z",
+      "text": ""
+    },
+    "8273752": {
+      "title": "Employee Relations Senior Consultant - Governance & Policy (Bangkok-based, Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8273752",
+      "hash": "3a61798859a6f767",
+      "summary": "",
+      "published_at": "2026-10-13T03:10:17Z",
       "text": ""
     },
     "7417982": {
@@ -1098,14 +1098,6 @@
       "hash": "5da10096883d9983",
       "summary": "",
       "published_at": "2025-04-02T08:56:44Z",
-      "text": ""
-    },
-    "8036127": {
-      "title": "Lead Software Engineer (Level 5) | BackEnd (Gurugram based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8036127",
-      "hash": "a40a4a0dee4e0b9b",
-      "summary": "",
-      "published_at": "2026-06-29T17:35:34Z",
       "text": ""
     },
     "8210422": {
@@ -1570,6 +1562,14 @@
       "hash": "e8404a5e22ce8dcc",
       "summary": "",
       "published_at": "2026-09-21T02:28:35Z",
+      "text": ""
+    },
+    "7965133": {
+      "title": "Regional Customer Service Manager - Customer Satisfaction & Incidents (CSI)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7965133",
+      "hash": "f011be2d79aa8c3b",
+      "summary": "",
+      "published_at": "2026-06-01T17:10:44Z",
       "text": ""
     },
     "8219726": {
@@ -2148,14 +2148,6 @@
       "published_at": "2026-10-07T06:25:38Z",
       "text": ""
     },
-    "8035213": {
-      "title": "Software Development Engineer - BackEnd (Staff - Level 4) | Gurugram, IND",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8035213",
-      "hash": "bd7d000db05ea749",
-      "summary": "",
-      "published_at": "2026-06-29T13:46:32Z",
-      "text": ""
-    },
     "8229976": {
       "title": "Sourcing Specialist (Bangkok-based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8229976",
@@ -2258,14 +2250,6 @@
       "hash": "0345bc5bb93d8d96",
       "summary": "",
       "published_at": "2026-06-09T08:42:11Z",
-      "text": ""
-    },
-    "7880990": {
-      "title": "Staff/Lead Software Engineer, Back End (Bangkok based - Relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7880990",
-      "hash": "b432b575c9140bf4",
-      "summary": "",
-      "published_at": "2026-05-03T10:43:37Z",
       "text": ""
     },
     "6775382": {
@@ -2476,6 +2460,14 @@
       "published_at": "2026-10-02T10:35:54Z",
       "text": ""
     },
+    "7995116": {
+      "title": "Support Associate (Gurgaon)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
+      "hash": "0e687f4852d59c6c",
+      "summary": "",
+      "published_at": "2026-08-27T10:48:23Z",
+      "text": ""
+    },
     "8090218": {
       "title": "Support Associate- Japanese Speaker 24/7 (Yokohama, requires relocation to Yokohama)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8090218",
@@ -2490,6 +2482,14 @@
       "hash": "752ff7931fa24fe0",
       "summary": "",
       "published_at": "2026-10-06T08:05:13Z",
+      "text": ""
+    },
+    "7995117": {
+      "title": "Support Associate (Pune)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995117",
+      "hash": "74c56032c06b5556",
+      "summary": "",
+      "published_at": "2026-08-06T06:28:43Z",
       "text": ""
     },
     "8168798": {
@@ -2902,7 +2902,10 @@
     "8266638",
     "8255794",
     "8255781",
-    "8255816"
+    "8255816",
+    "8220038",
+    "8273752",
+    "7965133"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

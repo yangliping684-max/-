@@ -1,9 +1,73 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-12T23:33:20.162653Z",
+  "taken_at": "2026-10-13T23:42:38.811470Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000155232169": {
+      "title": "天线工程师_XC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155232169",
+      "hash": "e2cf0baeaa6a9248",
+      "summary": "",
+      "published_at": "2026-10-13T11:19:03.819000Z",
+      "text": ""
+    },
+    "744000155229500": {
+      "title": "Robotics Dynamics & Optimization Scientist_CR",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155229500",
+      "hash": "78c3086e513b3a43",
+      "summary": "",
+      "published_at": "2026-10-13T11:07:49.730000Z",
+      "text": ""
+    },
+    "744000155192609": {
+      "title": "Campus Hiring_ETAS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155192609",
+      "hash": "bd6d3031c4010991",
+      "summary": "",
+      "published_at": "2026-10-13T08:15:59.406000Z",
+      "text": ""
+    },
+    "744000155182448": {
+      "title": "轨迹规划算法工程师_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155182448",
+      "hash": "bd1f05937385877e",
+      "summary": "",
+      "published_at": "2026-10-13T07:37:15.165000Z",
+      "text": ""
+    },
+    "744000155180858": {
+      "title": "感知算法工程师_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155180858",
+      "hash": "9a2cd9827151f059",
+      "summary": "",
+      "published_at": "2026-10-13T07:29:07.592000Z",
+      "text": ""
+    },
+    "744000155159304": {
+      "title": "软件中心27届校招_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155159304",
+      "hash": "bdc9104d09ee4568",
+      "summary": "",
+      "published_at": "2026-10-13T03:27:14.764000Z",
+      "text": ""
+    },
+    "744000155156829": {
+      "title": "Quality Engineer(济南)_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155156829",
+      "hash": "edab5e9519f4da83",
+      "summary": "",
+      "published_at": "2026-10-13T02:25:25.183000Z",
+      "text": ""
+    },
+    "744000155156449": {
+      "title": "SE Team Leader(济南)_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155156449",
+      "hash": "7cc6f430e0d767ae",
+      "summary": "",
+      "published_at": "2026-10-13T02:20:18.456000Z",
+      "text": ""
+    },
     "744000154999474": {
       "title": "NVH工程师_EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154999474",
@@ -154,14 +218,6 @@
       "hash": "77008122f3bdc8d4",
       "summary": "",
       "published_at": "2026-10-08T07:44:46.258000Z",
-      "text": ""
-    },
-    "744000154344229": {
-      "title": "Product Manager_PT",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154344229",
-      "hash": "dd5981aa412d5427",
-      "summary": "",
-      "published_at": "2026-10-08T04:52:57.167000Z",
       "text": ""
     },
     "744000153655669": {
@@ -2444,14 +2500,6 @@
       "published_at": "2026-08-10T05:05:45.776000Z",
       "text": ""
     },
-    "744000142551949": {
-      "title": "大模型算法工程师(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142551949",
-      "hash": "777f5ba011f520db",
-      "summary": "",
-      "published_at": "2026-08-10T02:33:50.127000Z",
-      "text": ""
-    },
     "744000142368209": {
       "title": "线上销售代表_PT",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142368209",
@@ -2482,14 +2530,6 @@
       "hash": "400a3d5513839e51",
       "summary": "",
       "published_at": "2026-08-07T09:26:54.404000Z",
-      "text": ""
-    },
-    "744000142085690": {
-      "title": "辅助驾驶预测算法开发工程师(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142085690",
-      "hash": "3abc95449ecaf494",
-      "summary": "",
-      "published_at": "2026-08-07T09:24:35.041000Z",
       "text": ""
     },
     "744000142086918": {
@@ -2612,36 +2652,12 @@
       "published_at": "2026-08-06T11:14:09.755000Z",
       "text": ""
     },
-    "744000141889369": {
-      "title": "辅助驾驶数据运营工程师(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141889369",
-      "hash": "b3c1b3edd02ff565",
-      "summary": "",
-      "published_at": "2026-08-06T10:34:36.023000Z",
-      "text": ""
-    },
-    "744000141883332": {
-      "title": "辅助驾驶感知算法工程师(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141883332",
-      "hash": "4d7ce4c46360c5b2",
-      "summary": "",
-      "published_at": "2026-08-06T10:06:00.056000Z",
-      "text": ""
-    },
     "744000141882375": {
       "title": "辅助驾驶功能开发工程师(27届校招)_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141882375",
       "hash": "1bede3bab2d2a5ed",
       "summary": "",
       "published_at": "2026-08-06T09:53:46.815000Z",
-      "text": ""
-    },
-    "744000141880769": {
-      "title": "智能家居测试开发工程师(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141880769",
-      "hash": "cb5ae6f845dc56b5",
-      "summary": "",
-      "published_at": "2026-08-06T09:37:24.736000Z",
       "text": ""
     },
     "744000141878689": {
@@ -2652,28 +2668,12 @@
       "published_at": "2026-08-06T09:25:06.275000Z",
       "text": ""
     },
-    "744000141878039": {
-      "title": "BSP嵌入式软件工程(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141878039",
-      "hash": "06acc639b390c01e",
-      "summary": "",
-      "published_at": "2026-08-06T09:22:19.703000Z",
-      "text": ""
-    },
     "744000141876024": {
       "title": "网络安全软件工程师(27届校招)_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141876024",
       "hash": "76e8f174167a8bfc",
       "summary": "",
       "published_at": "2026-08-06T09:19:52.251000Z",
-      "text": ""
-    },
-    "744000141876709": {
-      "title": "Autosar基础软件开发(27届校招)_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000141876709",
-      "hash": "51dc8a38182424a0",
-      "summary": "",
-      "published_at": "2026-08-06T09:15:33.124000Z",
       "text": ""
     },
     "744000141854639": {
@@ -11846,7 +11846,15 @@
     "744000154957290",
     "744000154957227",
     "744000154928924",
-    "744000154914789"
+    "744000154914789",
+    "744000155232169",
+    "744000155229500",
+    "744000155192609",
+    "744000155182448",
+    "744000155180858",
+    "744000155159304",
+    "744000155156829",
+    "744000155156449"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

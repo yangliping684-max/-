@@ -1,9 +1,25 @@
 {
   "source_id": "continental-china-jobs",
-  "taken_at": "2026-10-11T06:26:25.085111Z",
+  "taken_at": "2026-10-13T23:42:17.631959Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000155159729": {
+      "title": "Computer Vision Engineer",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000155159729",
+      "hash": "abaa21b0f6c1b81d",
+      "summary": "",
+      "published_at": "2026-10-13T03:36:20.020000Z",
+      "text": ""
+    },
+    "744000155145559": {
+      "title": "Quality Engineer - Hot Prep.",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000155145559",
+      "hash": "66dbf77c94491a4d",
+      "summary": "",
+      "published_at": "2026-10-13T01:15:26.079000Z",
+      "text": ""
+    },
     "744000154399169": {
       "title": "Non-Tire Service Specialist",
       "url": "https://jobs.smartrecruiters.com/Continental/744000154399169",
@@ -221,7 +237,9 @@
     "744000051221217",
     "744000037993879",
     "744000013595286",
-    "743999913946083"
+    "743999913946083",
+    "744000155159729",
+    "744000155145559"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Continental/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

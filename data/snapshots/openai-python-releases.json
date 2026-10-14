@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-13T23:42:30.834599Z",
-  "etag": "W/\"dc2e95c8e44562ed713fc6e826fa39835fca219c16428b669bfc61ed011e2e91\"",
+  "taken_at": "2026-10-14T23:41:03.434515Z",
+  "etag": "W/\"4da20711d3830fd4c483dba505785478e7e32cede4dd13d04d539ef472b51d21\"",
   "last_modified": null,
   "items": {
+    "412371896": {
+      "title": "v3.31.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
+      "hash": "43d6d8ab5b470573",
+      "summary": "## [3.31.0](https://github.com/openai/openai-python/compare/v3.30.0...v3.31.0) (2026-10-14)\n### Features\n* add browser and computer toolsets (1/4) ([#4073](https://github.com/openai/openai-python/issues/4073)) ([47b9e4e](https://github.com/openai/openai-python/commit/47b9e4e95e44b1e825dc4e0753967c65d0733445))",
+      "published_at": "2026-10-14T05:38:46Z",
+      "text": ""
+    },
+    "412325009": {
+      "title": "v3.30.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
+      "hash": "5d388a1257cf639e",
+      "summary": "## [3.30.0](https://github.com/openai/openai-python/compare/v3.29.0...v3.30.0) (2026-10-14)\n### Features\n* **api:** add beta session spending limits ([#4058](https://github.com/openai/openai-python/issues/4058)) ([b570279](https://github.com/openai/openai-python/commit/b5702792a0adb1e86a8b51709e935c1e0acde727))\n* **api:** add OCI external-storage provider support ([#4060](https://github.com/openai/openai-python/issues/4060)) ([9eb83fe](https://github.com/openai/openai-python/commit/9eb83fe4649af0104d22da460007773a6c07119e))\n* **api:** add organization Decisions usage reporting ([#4062](https:…",
+      "published_at": "2026-10-14T04:00:19Z",
+      "text": ""
+    },
     "409819677": {
       "title": "v3.29.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
@@ -227,22 +243,6 @@
       "summary": "## [3.9.0](https://github.com/openai/openai-python/compare/v3.8.0...v3.9.0) (2026-09-05)\n### Features\n* **api:** Add prompt cache diagnostics ([#3800](https://github.com/openai/openai-python/issues/3800)) ([8326784](https://github.com/openai/openai-python/commit/83267847a0219ea8b584c9d60f92c7a4dffd392a))\n* **api:** correct function argument completion event fields (openapi-545) ([#3801](https://github.com/openai/openai-python/issues/3801)) ([2a98f6a](https://github.com/openai/openai-python/commit/2a98f6a1dee448c6410531c89c2de0af4383c6a7))\n### Bug Fixes\n* **api:** accept incomplete web search…",
       "published_at": "2026-09-08T16:42:27Z",
       "text": ""
-    },
-    "382291811": {
-      "title": "v3.8.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.8.0",
-      "hash": "51ca338fc3aef24f",
-      "summary": "## [3.8.0](https://github.com/openai/openai-python/compare/v3.7.0...v3.8.0) (2026-09-03)\n### Features\n* **api:** add gpt-6-astra and related features ([#3791](https://github.com/openai/openai-python/issues/3791)) ([09f446f](https://github.com/openai/openai-python/commit/09f446f5f8623d79464568dc91b9dc258e74bcae))\n### Documentation\n* add canonical SDK security model ([#3778](https://github.com/openai/openai-python/issues/3778)) ([2a097b9](https://github.com/openai/openai-python/commit/2a097b991bb23a26bde9da8ea286f850ac1329f1))",
-      "published_at": "2026-09-03T19:50:24Z",
-      "text": ""
-    },
-    "380922829": {
-      "title": "v3.7.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.7.0",
-      "hash": "9ce020a6d1877bce",
-      "summary": "## [3.7.0](https://github.com/openai/openai-python/compare/v3.6.0...v3.7.0) (2026-09-02)\n### Features\n* **api:** update usage APIs and documentation ([#3779](https://github.com/openai/openai-python/issues/3779)) ([6f0da16](https://github.com/openai/openai-python/commit/6f0da16573086401a7b171f4bd14a78f22c9d0e9))\n### Bug Fixes\n* avoid repeated numpy checks for embeddings ([#3757](https://github.com/openai/openai-python/issues/3757)) ([b19c216](https://github.com/openai/openai-python/commit/b19c2161b1eac80fbf1f6f67a64a50af99c53356))",
-      "published_at": "2026-09-02T01:30:12Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -276,7 +276,9 @@
     "382291811",
     "380922829",
     "378795694",
-    "409819677"
+    "409819677",
+    "412371896",
+    "412325009"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

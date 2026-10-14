@@ -1,6 +1,6 @@
 {
   "source_id": "anthropic-news",
-  "taken_at": "2026-10-11T06:00:33.171254Z",
+  "taken_at": "2026-10-14T23:41:41.886855Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -42,6 +42,22 @@
       "hash": "618c5f07a3180932",
       "summary": "A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.",
       "published_at": "2026-09-22T00:00:00Z",
+      "text": ""
+    },
+    "https://www.anthropic.com/news/2026-us-midterms": {
+      "title": "Preparing for the 2026 US midterms",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "hash": "f841ea6412f6fdb8",
+      "summary": "",
+      "published_at": "2026-10-14T00:00:00Z",
+      "text": ""
+    },
+    "https://www.anthropic.com/news/singapore-office-opening": {
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "hash": "e0c07eb3a74e6139",
+      "summary": "",
+      "published_at": "2026-10-14T00:00:00Z",
       "text": ""
     },
     "https://www.anthropic.com/news/2026-usage-policy-update": {
@@ -99,22 +115,6 @@
       "summary": "",
       "published_at": "2026-09-18T00:00:00Z",
       "text": ""
-    },
-    "https://www.anthropic.com/news/life-sciences-verification-program": {
-      "title": "Introducing the Life Sciences Verification Program",
-      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "hash": "f8db865db4ac974f",
-      "summary": "",
-      "published_at": "2026-09-17T00:00:00Z",
-      "text": ""
-    },
-    "https://www.anthropic.com/news/enterprise-frontier-safeguards": {
-      "title": "Developing Enterprise Frontier Safeguards with our customers",
-      "url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "hash": "4fc3b728f001aebf",
-      "summary": "",
-      "published_at": "2026-09-01T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -131,7 +131,9 @@
     "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
     "https://www.anthropic.com/news/accenture-embedded-evaluation",
     "https://www.anthropic.com/news/life-sciences-verification-program",
-    "https://www.anthropic.com/news/enterprise-frontier-safeguards"
+    "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+    "https://www.anthropic.com/news/2026-us-midterms",
+    "https://www.anthropic.com/news/singapore-office-opening"
   ],
   "scope": "https://www.anthropic.com/news|50|None"
 }

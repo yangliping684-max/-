@@ -1,9 +1,25 @@
 {
   "source_id": "xai-release-notes",
-  "taken_at": "2026-10-12T23:33:53.719791Z",
+  "taken_at": "2026-10-14T23:41:46.145050Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://docs.x.ai/developers/release-notes#grok-voice-30-is-available": {
+      "title": "Grok Voice 3.0 is available",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-30-is-available",
+      "hash": "e40d522f1ae36b74",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
+    "https://docs.x.ai/developers/release-notes#grok-voice-20-deprecation": {
+      "title": "Grok Voice 2.0 deprecation",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-20-deprecation",
+      "hash": "b35f9f217998a621",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
     "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-10-end-of-life": {
       "title": "grok-voice-transcribe-1.0 end of life",
       "url": "https://docs.x.ai/developers/release-notes#grok-voice-transcribe-10-end-of-life",
@@ -76,10 +92,10 @@
       "published_at": null,
       "text": ""
     },
-    "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-20-is-available": {
-      "title": "Grok Voice Think Fast 2.0 is available",
-      "url": "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-20-is-available",
-      "hash": "3a6244a571c1ac85",
+    "https://docs.x.ai/developers/release-notes#grok-voice-20-is-available": {
+      "title": "Grok Voice 2.0 is available",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-20-is-available",
+      "hash": "5323d3468054f293",
       "summary": "",
       "published_at": null,
       "text": ""
@@ -196,10 +212,10 @@
       "published_at": null,
       "text": ""
     },
-    "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-10-is-available": {
-      "title": "Grok Voice Think Fast 1.0 is available",
-      "url": "https://docs.x.ai/developers/release-notes#grok-voice-think-fast-10-is-available",
-      "hash": "73971142d38396a9",
+    "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available": {
+      "title": "Grok Voice 1.0 is available",
+      "url": "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available",
+      "hash": "55616c37eaf4a5fb",
       "summary": "",
       "published_at": null,
       "text": ""
@@ -387,22 +403,6 @@
       "summary": "",
       "published_at": null,
       "text": ""
-    },
-    "https://docs.x.ai/developers/release-notes#status-page": {
-      "title": "Status Page",
-      "url": "https://docs.x.ai/developers/release-notes#status-page",
-      "hash": "6a374b1ae7376e00",
-      "summary": "",
-      "published_at": null,
-      "text": ""
-    },
-    "https://docs.x.ai/developers/release-notes#replit--spacexsi": {
-      "title": "Replit & SpaceXSI",
-      "url": "https://docs.x.ai/developers/release-notes#replit--spacexsi",
-      "hash": "25b2ae8afd5a02e2",
-      "summary": "",
-      "published_at": null,
-      "text": ""
     }
   },
   "seen_keys": [
@@ -456,7 +456,11 @@
     "https://docs.x.ai/developers/release-notes#docs-dark-mode",
     "https://docs.x.ai/developers/release-notes#status-page",
     "https://docs.x.ai/developers/release-notes#replit--spacexai",
-    "https://docs.x.ai/developers/release-notes#replit--spacexsi"
+    "https://docs.x.ai/developers/release-notes#replit--spacexsi",
+    "https://docs.x.ai/developers/release-notes#grok-voice-30-is-available",
+    "https://docs.x.ai/developers/release-notes#grok-voice-20-deprecation",
+    "https://docs.x.ai/developers/release-notes#grok-voice-20-is-available",
+    "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available"
   ],
   "scope": "https://docs.x.ai/developers/release-notes|50|None"
 }

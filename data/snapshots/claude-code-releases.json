@@ -1,9 +1,25 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-13T23:42:29.887962Z",
-  "etag": "W/\"f05077b74995d1ced9cf4064e5ff275e1fd8f321b77320bd1b45f651ffaaf284\"",
+  "taken_at": "2026-10-14T23:41:02.696839Z",
+  "etag": "W/\"e1d06c7e1ded73a54cf92ce53679a29d8ac6bbfe7e3796cc3018d30386eaa47d\"",
   "last_modified": null,
   "items": {
+    "412815061": {
+      "title": "v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "hash": "99164017ec560b2e",
+      "summary": "## What's changed\n- Added `virtualText` to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt\n- Added `cache_creation_5m_tokens` and `cache_creation_1h_tokens` to the OpenTelemetry `api_request` event, splitting cache writes by lifetime\n- Added `$.ui.view({ agentId })` for mods: shows an agent's transcript in the main view when you ask, and `$.ui.view({})` goes back\n- Added a `dir` prop on a mod's `Text` for right-to-left text: on Windows and in VS Code's terminal its rows read in that direction and sit flush right\n- Added `/advisor` o…",
+      "published_at": "2026-10-14T18:24:25Z",
+      "text": ""
+    },
+    "412217284": {
+      "title": "v2.1.299",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "hash": "e0100cf871e74550",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents\n- Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all\n- Added `CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS` to change idle compaction's 200K-token minimum; `\"idleCompaction\": false` in settings.json turns it off. Both need v2.1.290 or later\n- Added `$.prompt.media` so a `prompt.su…",
+      "published_at": "2026-10-14T02:49:42Z",
+      "text": ""
+    },
     "408141042": {
       "title": "v2.1.296",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
@@ -227,22 +243,6 @@
       "summary": "## What's changed\n- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks` managed setting, letting administrators allow `/login` to a Claude apps gateway on their organization's own public IPv4 block\n- Added `claude self-hosted-runner --remove-session-sta…",
       "published_at": "2026-09-10T20:30:54Z",
       "text": ""
-    },
-    "385748811": {
-      "title": "v2.1.267",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
-      "hash": "68cdbc4dd6891c27",
-      "summary": "## What's changed\n- Added `maxEffortLevel` setting (top-level or per model under `modelSettings`): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower level\n- Added `--system-prompt-snapshot off` to render the system prompt fresh on every request instead of reusing the conversation's recorded prompt (for iterating on prompt text)\n- Fixed Cowork scheduled tasks in the cloud failing at startup for organizations whose managed settings require sandboxing\n- Fixed `/context` and other local command output rendering blank on mobile clients\n- F…",
-      "published_at": "2026-09-09T19:58:14Z",
-      "text": ""
-    },
-    "385124520": {
-      "title": "v2.1.266",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
-      "hash": "3ed7f9cd4112e9b7",
-      "summary": "## What's changed\n- Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented `CLAUDE_CODE_USE_GATEWAY` environment variable, previously ignored unless `ANTHROPIC_BASE_URL` and `ANTHROPIC_AUTH_TOKEN` were both set, began forcing Cloud-gateway sign-in on its own in 2.1.265, so configurations that set it alongside an API key, `apiKeyHelper`, or custom auth headers failed every request with \"Not signed in to the Cloud gateway\". The variable on its own is ignored again; no configuration change is needed",
-      "published_at": "2026-09-08T23:55:14Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -275,7 +275,9 @@
     "387243742",
     "386532237",
     "385748811",
-    "385124520"
+    "385124520",
+    "412815061",
+    "412217284"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

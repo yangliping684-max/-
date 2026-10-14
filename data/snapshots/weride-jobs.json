@@ -1,7 +1,7 @@
 {
   "source_id": "weride-jobs",
-  "taken_at": "2026-10-13T23:42:25.099144Z",
-  "etag": "W/\"19cce-BpOPPluoUnlJoBj7BTp8dZYLvBE\"",
+  "taken_at": "2026-10-14T23:40:56.731035Z",
+  "etag": "W/\"1c5a7-SfBV+Haq+EqEJ2AvPoEy29/9US0\"",
   "last_modified": null,
   "items": {
     "82955de9-485d-4db0-8fd9-1c018489fc8d": {
@@ -92,6 +92,14 @@
       "published_at": "2020-05-02T02:22:28.865000Z",
       "text": ""
     },
+    "200a27d8-05b0-4fb1-b8cd-563d62d204cf": {
+      "title": "Senior Business Development Manager – Physical AI Solutions (North America)",
+      "url": "https://jobs.lever.co/weride/200a27d8-05b0-4fb1-b8cd-563d62d204cf",
+      "hash": "7c13029c2ade25c2",
+      "summary": "",
+      "published_at": "2026-10-14T21:07:34.277000Z",
+      "text": ""
+    },
     "752dee2b-50d8-4276-97cc-ec1e1f0e1fb7": {
       "title": "Senior Software Engineer - Cloud Infrastructure",
       "url": "https://jobs.lever.co/weride/752dee2b-50d8-4276-97cc-ec1e1f0e1fb7",
@@ -134,7 +142,8 @@
     "752dee2b-50d8-4276-97cc-ec1e1f0e1fb7",
     "92454854-2938-4a18-a920-2c1295986ddb",
     "af4a2599-d08e-434f-aedc-f409d2071769",
-    "2973bf16-d0cb-47d9-9572-df3be8430368"
+    "2973bf16-d0cb-47d9-9572-df3be8430368",
+    "200a27d8-05b0-4fb1-b8cd-563d62d204cf"
   ],
   "scope": "https://api.lever.co/v0/postings/weride?mode=json|2000|None"
 }

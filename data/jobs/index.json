@@ -7,11 +7,11 @@
       "industry": "人工智能",
       "careers_url": "https://www.anthropic.com/careers",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 644,
+      "count": 649,
       "complete": true,
-      "total_reported": 644,
+      "total_reported": 649,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:38.534122+00:00"
+      "updated_at": "2026-10-14T23:41:12.339122+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -20,11 +20,11 @@
       "industry": "汽车零部件 / 制造业",
       "careers_url": "https://www.bosch.com.cn/careers/",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 1314,
+      "count": 1320,
       "complete": true,
-      "total_reported": 1314,
+      "total_reported": 1320,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:38.811470+00:00"
+      "updated_at": "2026-10-14T23:41:12.792512+00:00"
     },
     {
       "source_id": "continental-china-jobs",
@@ -33,11 +33,11 @@
       "industry": "汽车零部件 / 轮胎",
       "careers_url": "https://www.continental.com/en/career/",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 26,
+      "count": 25,
       "complete": true,
-      "total_reported": 26,
+      "total_reported": 25,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:17.631959+00:00"
+      "updated_at": "2026-10-14T23:40:48.835974+00:00"
     },
     {
       "source_id": "expeditors-china-jobs",
@@ -85,11 +85,11 @@
       "industry": "国际物流 / 供应链科技",
       "careers_url": "https://www.flexport.com/careers/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 205,
+      "count": 206,
       "complete": true,
-      "total_reported": 205,
+      "total_reported": 206,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:24.343572+00:00"
+      "updated_at": "2026-10-14T23:40:55.457701+00:00"
     },
     {
       "source_id": "lalamove-jobs",
@@ -98,11 +98,11 @@
       "industry": "同城物流",
       "careers_url": "https://www.lalamove.com/careers",
       "channel": "Lever 官方公开 Postings API",
-      "count": 171,
+      "count": 169,
       "complete": true,
       "total_reported": null,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:24.539517+00:00"
+      "updated_at": "2026-10-14T23:40:55.636894+00:00"
     },
     {
       "source_id": "weride-jobs",
@@ -111,11 +111,11 @@
       "industry": "自动驾驶",
       "careers_url": "https://www.weride.ai/careers",
       "channel": "Lever 官方公开 Postings API",
-      "count": 14,
+      "count": 15,
       "complete": true,
       "total_reported": null,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:25.099144+00:00"
+      "updated_at": "2026-10-14T23:40:56.731035+00:00"
     },
     {
       "source_id": "agoda-jobs",
@@ -124,11 +124,11 @@
       "industry": "在线旅游 / 互联网",
       "careers_url": "https://careersatagoda.com/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 321,
+      "count": 324,
       "complete": true,
-      "total_reported": 321,
+      "total_reported": 324,
       "has_catalog": true,
-      "updated_at": "2026-10-13T23:42:26.613282+00:00"
+      "updated_at": "2026-10-14T23:40:57.773903+00:00"
     },
     {
       "source_id": "china-logistics-group-recruit",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2726,
-  "generated_at": "2026-10-13T23:43:25.778982+00:00"
+  "total": 2739,
+  "generated_at": "2026-10-14T23:41:58.658355+00:00"
 }

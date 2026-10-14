@@ -1,6 +1,20 @@
 {
   "runs": [
     {
+      "id": "20261014T234048Z",
+      "started_at": "2026-10-14T23:40:48.795951Z",
+      "finished_at": "2026-10-14T23:41:58.658355Z",
+      "trigger": "schedule",
+      "sources_total": 27,
+      "sources_ok": 27,
+      "sources_failed": 0,
+      "sources_paused": 0,
+      "new_events": 220,
+      "filtered": 177,
+      "duplicates": 0,
+      "errors": []
+    },
+    {
       "id": "20261013T234217Z",
       "started_at": "2026-10-13T23:42:17.592848Z",
       "finished_at": "2026-10-13T23:43:25.778982Z",

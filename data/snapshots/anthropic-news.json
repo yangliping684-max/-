@@ -1,6 +1,6 @@
 {
   "source_id": "anthropic-news",
-  "taken_at": "2026-10-14T23:41:41.886855Z",
+  "taken_at": "2026-10-15T23:42:18.030118Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -42,6 +42,14 @@
       "hash": "618c5f07a3180932",
       "summary": "A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.",
       "published_at": "2026-09-22T00:00:00Z",
+      "text": ""
+    },
+    "https://www.anthropic.com/news/an-update-on-independent-evaluators": {
+      "title": "An update on independent evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "hash": "188f9401733d410f",
+      "summary": "",
+      "published_at": "2026-10-15T00:00:00Z",
       "text": ""
     },
     "https://www.anthropic.com/news/2026-us-midterms": {
@@ -107,14 +115,6 @@
       "summary": "",
       "published_at": "2026-09-23T00:00:00Z",
       "text": ""
-    },
-    "https://www.anthropic.com/news/accenture-embedded-evaluation": {
-      "title": "Partnering with Accenture on embedded evaluation",
-      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "hash": "cb040888440fa880",
-      "summary": "",
-      "published_at": "2026-09-18T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -133,7 +133,8 @@
     "https://www.anthropic.com/news/life-sciences-verification-program",
     "https://www.anthropic.com/news/enterprise-frontier-safeguards",
     "https://www.anthropic.com/news/2026-us-midterms",
-    "https://www.anthropic.com/news/singapore-office-opening"
+    "https://www.anthropic.com/news/singapore-office-opening",
+    "https://www.anthropic.com/news/an-update-on-independent-evaluators"
   ],
   "scope": "https://www.anthropic.com/news|50|None"
 }

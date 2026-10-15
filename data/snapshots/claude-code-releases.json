@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-14T23:41:02.696839Z",
-  "etag": "W/\"e1d06c7e1ded73a54cf92ce53679a29d8ac6bbfe7e3796cc3018d30386eaa47d\"",
+  "taken_at": "2026-10-15T23:41:38.754723Z",
+  "etag": "W/\"15da2701148f3dbc7e0cca73e4dff89ef6eb589a9cf57a9fbb6c2a4c0e7881cb\"",
   "last_modified": null,
   "items": {
+    "413913133": {
+      "title": "v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "hash": "d82e8c676da3f929",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) ends a request at a usage limit that resets too far away instead of waiting\n- Added OpenTelemetry tracing guidance to the `claude-api` skill, including setting up trace destinations with the `ant` CLI\n- Added the `%` motion to vim mode: jump to the matching bracket, alone or with d/c/y\n- Added `rows` to a mod's `Input`: a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line\n- Added `clas…",
+      "published_at": "2026-10-15T19:22:06Z",
+      "text": ""
+    },
     "412815061": {
       "title": "v2.1.300",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`\n- Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions\n- Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting `bashEditDiffEnabled`)\n- Added `OTEL_METRICS_INCLUDE_REPOSITORY` to tag OpenTelemetry metrics and events with `vcs.*` repository attributes; commit events g…",
       "published_at": "2026-09-11T19:17:55Z",
       "text": ""
-    },
-    "386532237": {
-      "title": "v2.1.268",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
-      "hash": "c08cf046f50bd0f0",
-      "summary": "## What's changed\n- Added to the Claude apps gateway: with `pricing:` set in `gateway.yaml`, signed-in Claude Code clients receive the same rates through managed settings, so `/cost` and telemetry match the spend meter\n- Added a startup warning for gateways when `access_control.allow_cidrs` is empty, and a one-time warning the first time a request arrives from a public address\n- Added the `gatewayInternalNetworks` managed setting, letting administrators allow `/login` to a Claude apps gateway on their organization's own public IPv4 block\n- Added `claude self-hosted-runner --remove-session-sta…",
-      "published_at": "2026-09-10T20:30:54Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -277,7 +277,8 @@
     "385748811",
     "385124520",
     "412815061",
-    "412217284"
+    "412217284",
+    "413913133"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

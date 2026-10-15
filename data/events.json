@@ -1,6 +1,2402 @@
 {
-  "updated_at": "2026-10-14T23:41:58.658355+00:00",
+  "updated_at": "2026-10-15T23:42:35.217111+00:00",
   "events": [
+    {
+      "id": "55b9953cfb031e20",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Delayed Costs data in the Compliance API",
+      "url": "https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
+      "summary": "新增/修改内容：Status: Monitoring We have deployed a fix and are monitoring recovery. Costs data in the Compliance API remains delayed while we process the backlog. We will provide further updates as processing catches up. Affected components Compliance API (Degraded performance)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-15T22:36:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Monitoring We have deployed a fix and are monitoring recovery. Costs data in the Compliance API remains delayed while we process the backlog. We will provide further updates as processing catches up. Affected components Compliance API (Degraded performance)"
+        ],
+        "removed": [
+          "Status: Identified We have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore normal data freshness. Affected components Compliance API (Degraded performance)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "d732fbf127f71ee5",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Widespread feature degradation",
+      "url": "https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-15T18:56:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "93ea45d0fb5c5964",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "url": "https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
+      "summary": "新增/修改内容：Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-13T16:36:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "8d45f65a14c22a81",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
+      "url": "https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-08T04:51:39Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational) Conversations (Operational) GPTs (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "315cac3e725e2a2b",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Batch (Operational) Image Generation (Operational) Deep Research (Operational) Connectors/Apps (Operational) Sites (Operational) Fine-tuning (Operational) GPTs (Operational) Responses (Operational) File uploads (Operational) Files (Operational) Moderations (Operational) Codex API (Opera",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Batch (Operational) Image Generation (Operational) Deep Research (Operational) Connectors/Apps (Operational) Sites (Operational) Fine-tuning (Operational) GPTs (Operational) Responses (Operational) File uploads (Operational) Files (Operational) Moderations (Operational) Codex API (Operational) Audio (Operational) Compliance API (Operational) Agent (Operational) Login (Operational) Voice mode (Operational) Search (Operational) VS Code extension (Operational) Chat Completions (Operat…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Fine-tuning (Operational) Files (Operational) GPTs (Operational) Deep Research (Operational) Audio (Operational) Embeddings (Operational) Codex in ChatGPT Desktop (Operational) Login (Operational) Responses (Operational) Agent (Operational) File uploads (Operational) Images (Operational) CLI (Operational) Voice mode (Operational) Compliance API (Operational) Connectors/Apps (Operational) Realtime (Operational) Image Generation (Operational) Codex API (Operational) ChatGPT Work (Ope…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "e4aff3fbdd1848de",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Search (Operational) GPTs (Operational) Agent (Operational) File uploads (Operational) Conversations (Operational) Deep Research (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Image Generation (Operational) Sites (Operational) Compliance API (Ope",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Search (Operational) GPTs (Operational) Agent (Operational) File uploads (Operational) Conversations (Operational) Deep Research (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Image Generation (Operational) Sites (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Search (Operational) Image Generation (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Voice mode (Operational) Agent (Operational) Connectors/Apps (Operational) Conversations (Operational) Deep Research (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "dad9569a482b6e06",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "We are seeing elevated error rates across API models",
+      "url": "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Fine-tuning (Operational) Files (Operational) Embeddings (Operational) Realtime (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-09-17T21:50:36Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Fine-tuning (Operational) Files (Operational) Embeddings (Operational) Realtime (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Audio (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Images (Operational) Fine-tuning (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Batch (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "a821cc9f33327c91",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.163.0 (rust-v0.163.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "summary": "## New Features\n- Open `/config` to search preferences across categories, change supported settings immediately, and see which changes require a restart. (#52990, #53429)\n- Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. (#51812, #51835)\n- Configure a leader key in `/keymap`. The default is `Ctrl+X`, shortcut hints stay open until you choose or cancel, and voice mute moves to `F9`. (#52273)\n- Restart a managed background server from `/daemon`. Codex warns about work the restart could interru…",
+      "detected_at": "2026-10-15T23:42:24.508786Z",
+      "published_at": "2026-10-15T21:30:38Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.163.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "850381a691cd882e",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.163.0-alpha.10.2 (rust-v0.163.0-alpha.10.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "summary": "Release 0.163.0-alpha.10.2",
+      "detected_at": "2026-10-15T23:42:24.508786Z",
+      "published_at": "2026-10-15T18:26:31Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.163.0-alpha.10.2",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "0c8d5d782819e3ff",
+      "source_id": "anthropic-news",
+      "source_name": "Anthropic Newsroom",
+      "category": "ai",
+      "change_type": "added",
+      "title": "An update on independent evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "summary": "",
+      "detected_at": "2026-10-15T23:42:18.030118Z",
+      "published_at": "2026-10-15T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "c3a4fc4b7d6bfb64",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "detected_at": "2026-10-15T23:42:15.485775Z",
+      "published_at": "2026-10-15T19:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 76,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：GPT"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "eb6552f79db6aaa8",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "detected_at": "2026-10-15T23:42:15.485775Z",
+      "published_at": "2026-10-15T13:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "d96792800fa1f64b",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Applied AI Engineer, Beneficial Deployments (Clinical Development, Rare and Neglected Diseases)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-06T20:06:00Z",
+      "source_updated_at": "2026-10-15T22:47:02Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 53,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "London, UK"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "London, UK",
+        "city": "London"
+      }
+    },
+    {
+      "id": "cfc0382a8e1ab882",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Applied AI Engineer, Startups (Life Sciences)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454650008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T22:47:12Z",
+      "source_updated_at": "2026-10-15T22:47:12Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "eb20da6565194672",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Applied AI Engineer, Startups (Physical AI)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454673008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T22:50:02Z",
+      "source_updated_at": "2026-10-15T22:50:02Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "526e7ae248f65091",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Brand Insights, Measurement Lead",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424408008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T15:10:27Z",
+      "source_updated_at": "2026-10-15T15:10:27Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "c4636e4df256bdaf",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Cloud Hyperscaler Readiness Lead",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5369181008",
+      "summary": "新增/修改内容：Cloud Hyperscaler Readiness Lead",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-07-24T17:26:21Z",
+      "source_updated_at": "2026-10-15T17:04:26Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 36,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Cloud Hyperscaler Readiness Lead"
+        ],
+        "removed": [
+          "Cloud Hyperscaler Enablement Programs Lead"
+        ]
+      },
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "b8e00dad79723af8",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Community Engagement Manager, Data Centers (Louisiana)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452691008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T16:13:45Z",
+      "source_updated_at": "2026-10-15T16:13:45Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Remote-Friendly, United States"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly, United States",
+        "city": "Remote-Friendly"
+      }
+    },
+    {
+      "id": "b2fa39cf69a2d5f8",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Community Engagement Manager, Data Centers (New York)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452922008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T16:10:07Z",
+      "source_updated_at": "2026-10-15T16:10:07Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Remote-Friendly, United States"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly, United States",
+        "city": "Remote-Friendly"
+      }
+    },
+    {
+      "id": "2f9bde77a6760a44",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Community Engagement Manager, Data Centers (Virginia & West Virginia)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452699008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T16:12:38Z",
+      "source_updated_at": "2026-10-15T16:12:38Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Remote-Friendly, United States"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly, United States",
+        "city": "Remote-Friendly"
+      }
+    },
+    {
+      "id": "2d518c488ce42d24",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Director, Infrastructure Lease Accounting",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5441867008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T00:06:17Z",
+      "source_updated_at": "2026-10-15T00:06:17Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "fd3d6edb5858c529",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Engineering Manager, Agent Runtime Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5316593008",
+      "summary": "新增/修改内容：Engineering Manager, Agent Runtime Platform",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-07-09T17:28:21Z",
+      "source_updated_at": "2026-10-15T22:14:49Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 36,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Engineering Manager, Agent Runtime Platform"
+        ],
+        "removed": [
+          "Tech Lead Manager, Agent Runtime Platform"
+        ]
+      },
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "3608547faa8d4029",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Risk & Insurance Specialist",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432425008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T21:32:39Z",
+      "source_updated_at": "2026-10-15T22:02:22Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "c491655410e3ad35",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Software Engineer, Research Productivity",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5283063008",
+      "summary": "新增/修改内容：Software Engineer, Research Productivity",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-07-06T14:30:35Z",
+      "source_updated_at": "2026-10-15T21:32:54Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 36,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Software Engineer, Research Productivity"
+        ],
+        "removed": [
+          "Software Engineer, Research Infrastructure"
+        ]
+      },
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "ed33de6aee296951",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Technical Program Manager, Corporate Engineering",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453548008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T21:29:20Z",
+      "source_updated_at": "2026-10-15T21:29:20Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "34c60170eed87dd6",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Technical Program Manager, Inference",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453262008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T01:07:21Z",
+      "source_updated_at": "2026-10-15T06:53:22Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "cfbe9345e8e1336a",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Technical Program Manager, SOX Compliance",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453550008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-10-15T21:30:30Z",
+      "source_updated_at": "2026-10-15T21:30:30Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "d1bdbf4acbd078a5",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Applied AI Architect, Cyber",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5387733008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-09-02T18:51:08Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "10563e8fff9b7093",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Customer Success Manager, DACH",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382792008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-08-12T08:48:21Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "e4179a9434a14cbc",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enterprise Account Executive, Financial Services & Insurance",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5104753008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-02-01T01:49:54Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "785baf7c98c74c7b",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enterprise Account Executive, Telecommunications",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5096041008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-02-01T01:32:12Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "7b09acafd8a7a82e",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Head of Compute Supply Chain",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416016008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-09-03T21:43:54Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "b5a2bfb3faeb0cae",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Staff Software Engineer, Claude Design",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5229345008",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:48.354727Z",
+      "published_at": "2026-05-28T00:20:38Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "338a89a22db3f50e",
+      "source_id": "claude-code-releases",
+      "source_name": "Claude Code Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) ends a request at a usage limit that resets too far away instead of waiting\n- Added OpenTelemetry tracing guidance to the `claude-api` skill, including setting up trace destinations with the `ant` CLI\n- Added the `%` motion to vim mode: jump to the matching bracket, alone or with d/c/y\n- Added `rows` to a mod's `Input`: a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter starts a new line\n- Added `clas…",
+      "detected_at": "2026-10-15T23:41:38.754723Z",
+      "published_at": "2026-10-15T19:22:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v2.1.301"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "bf8afabbb1f1ab85",
+      "source_id": "lalamove-jobs",
+      "source_name": "Lalamove 全球职位",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Sales Operations & Analytics Intern",
+      "url": "https://jobs.lever.co/lalamove/2aef288a-5dd8-4fe1-afcc-571dfdd1e735",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:33.003673Z",
+      "published_at": "2026-09-16T13:17:41.550000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "实习"
+      ],
+      "alert_keywords": [
+        "实习",
+        "intern"
+      ],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：实习"
+        },
+        {
+          "factor": "alert",
+          "points": 20,
+          "reason": "命中提醒关键词：实习、intern"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "货拉拉 Lalamove",
+        "industry": "同城物流",
+        "job_type": "实习",
+        "job_type_rule": "标题文字",
+        "function": "数据分析"
+      }
+    },
+    {
+      "id": "57fe49b34e7bfb1c",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Account Executive - Logistics",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8175845",
+      "summary": "新增/修改内容：Account Executive - Logistics",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2026-09-03T07:33:39Z",
+      "source_updated_at": "2026-10-15T09:02:31Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 36,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Account Executive - Logistics"
+        ],
+        "removed": [
+          "Account Executive"
+        ]
+      },
+      "extra": {
+        "location": "Seoul, South Korea"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Seoul, South Korea",
+        "city": "Seoul",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "f9454d10c5b1ec3c",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Customs Specialist",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8286860",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2026-10-15T18:11:29Z",
+      "source_updated_at": "2026-10-15T18:11:29Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Los Angeles, California, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Los Angeles, California, United States",
+        "city": "Los Angeles",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "b95d389a0c01b6cf",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Customs Specialist",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7713237",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2026-03-12T19:31:32Z",
+      "source_updated_at": "2026-10-15T18:07:50Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "New York City, New York, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "New York City, New York, United States",
+        "city": "New York City",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "772952ad1e066984",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Customs Specialist",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7384202",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2025-11-07T23:22:19Z",
+      "source_updated_at": "2026-10-15T18:08:39Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Atlanta, Georgia, United States; Dallas, Texas, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Atlanta, Georgia, United States; Dallas, Texas, United States",
+        "city": "Atlanta",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "d7dbe7b20b6a9306",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Trucking Procurement Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8160591",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2026-10-15T18:26:27Z",
+      "source_updated_at": "2026-10-15T18:26:27Z",
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Atlanta, Georgia, United States; Chicago, Illinois, United States; Dallas, Texas, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Atlanta, Georgia, United States; Chicago, Illinois, United States; Dallas, Texas, United States",
+        "city": "Atlanta",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "730fe0ba3d203b75",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Customs Analyst",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8245575",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2026-10-01T13:10:18Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "fe8a80da25303ff1",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Senior Air Freight Manager, Taiwan",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7410259",
+      "summary": "",
+      "detected_at": "2026-10-15T23:41:32.839030Z",
+      "published_at": "2025-11-21T07:28:57Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "function": "物流与供应链"
+      }
+    },
     {
       "id": "18dabae5b91082eb",
       "source_id": "xai-api-pricing",

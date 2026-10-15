@@ -1,9 +1,25 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-10-14T23:41:48.271077Z",
-  "etag": "W/\"9ac6442595e04e82f3c05321b27fdeef718a4c47d429992c130cddefbb293b61\"",
+  "taken_at": "2026-10-15T23:42:24.508786Z",
+  "etag": "W/\"fe19d16be5784e7cdd37b9cf80f9ff7a887d80118c83e29c6f4053a4bf80f14d\"",
   "last_modified": null,
   "items": {
+    "414286110": {
+      "title": "0.163.0 (rust-v0.163.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "hash": "1b96842726457184",
+      "summary": "## New Features\n- Open `/config` to search preferences across categories, change supported settings immediately, and see which changes require a restart. (#52990, #53429)\n- Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. (#51812, #51835)\n- Configure a leader key in `/keymap`. The default is `Ctrl+X`, shortcut hints stay open until you choose or cancel, and voice mute moves to `F9`. (#52273)\n- Restart a managed background server from `/daemon`. Codex warns about work the restart could interru…",
+      "published_at": "2026-10-15T21:30:38Z",
+      "text": ""
+    },
+    "414135617": {
+      "title": "0.163.0-alpha.10.2 (rust-v0.163.0-alpha.10.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "hash": "330d7f0b86c88d04",
+      "summary": "Release 0.163.0-alpha.10.2",
+      "published_at": "2026-10-15T18:26:31Z",
+      "text": ""
+    },
     "412309807": {
       "title": "0.163.0-alpha.11 (rust-v0.163.0-alpha.11)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
@@ -27,22 +43,6 @@
       "summary": "Release 0.163.0-alpha.9",
       "published_at": "2026-10-13T15:47:20Z",
       "text": ""
-    },
-    "411692531": {
-      "title": "0.163.0-alpha.8 (rust-v0.163.0-alpha.8)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.8",
-      "hash": "f16cc7c7ca24bf78",
-      "summary": "Release 0.163.0-alpha.8",
-      "published_at": "2026-10-13T13:14:41Z",
-      "text": ""
-    },
-    "412013178": {
-      "title": "0.163.0-alpha.10 (rust-v0.163.0-alpha.10)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
-      "hash": "c06d87b8f282581e",
-      "summary": "Release 0.163.0-alpha.10",
-      "published_at": "2026-10-13T19:04:12Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -55,7 +55,9 @@
     "411692531",
     "412013178",
     "412309807",
-    "413167889"
+    "413167889",
+    "414286110",
+    "414135617"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

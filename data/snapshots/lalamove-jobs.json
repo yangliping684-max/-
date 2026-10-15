@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-14T23:40:55.636894Z",
-  "etag": "W/\"160c05-v1yqMa34lFq8oG7kybXmPNw8Rz8\"",
+  "taken_at": "2026-10-15T23:41:33.003673Z",
+  "etag": "W/\"15fba7-duYufwEfdn1YdX5On8GBFec0FRI\"",
   "last_modified": null,
   "items": {
     "ec780a38-ccd8-4419-ae06-a7843f6350ce": {
@@ -173,11 +173,19 @@
       "text": ""
     },
     "ac6243b5-5da9-4697-9b5c-c8085b93f645": {
-      "title": "Assistente de Aquisição de Frota",
+      "title": "Assistente de Aquisição de Frota - Rio de Janeiro",
       "url": "https://jobs.lever.co/lalamove/ac6243b5-5da9-4697-9b5c-c8085b93f645",
-      "hash": "1ae283d398ad4e5c",
+      "hash": "f2630f91679aa846",
       "summary": "",
       "published_at": "2026-09-18T19:07:24.972000Z",
+      "text": ""
+    },
+    "f892f388-05c9-4c65-aa51-cde9bcf7ff55": {
+      "title": "Assistente de Gestão de Fornecedores e Presença Offline - Rio de Janeiro",
+      "url": "https://jobs.lever.co/lalamove/f892f388-05c9-4c65-aa51-cde9bcf7ff55",
+      "hash": "6244c1a55ba011d2",
+      "summary": "",
+      "published_at": "2026-09-18T19:04:57.151000Z",
       "text": ""
     },
     "ecee15fe-6638-4388-9aa8-09d9560e8e73": {
@@ -194,14 +202,6 @@
       "hash": "6c7d376d6bfc9e19",
       "summary": "",
       "published_at": "2026-08-22T17:52:04.425000Z",
-      "text": ""
-    },
-    "f892f388-05c9-4c65-aa51-cde9bcf7ff55": {
-      "title": "Assistente de Vendor Management & Offline Presence",
-      "url": "https://jobs.lever.co/lalamove/f892f388-05c9-4c65-aa51-cde9bcf7ff55",
-      "hash": "4cd59f09b270d63e",
-      "summary": "",
-      "published_at": "2026-09-18T19:04:57.151000Z",
       "text": ""
     },
     "3aedc336-82a1-4988-8637-c7d0a0c248ba": {
@@ -500,12 +500,12 @@
       "published_at": "2026-09-01T08:46:07.145000Z",
       "text": ""
     },
-    "b4781e16-acec-4a0f-82c8-39ec87ff6810": {
-      "title": "Driver Operations Associate - UAE",
-      "url": "https://jobs.lever.co/lalamove/b4781e16-acec-4a0f-82c8-39ec87ff6810",
-      "hash": "a6c2bceb9fae8cbb",
+    "196310a7-b004-42a2-a1b8-c6b3c752ff0e": {
+      "title": "Driver Operations Associate - UAE (2W/4W)",
+      "url": "https://jobs.lever.co/lalamove/196310a7-b004-42a2-a1b8-c6b3c752ff0e",
+      "hash": "c3b5c16dc1814f97",
       "summary": "",
-      "published_at": "2026-10-07T10:06:35.887000Z",
+      "published_at": "2026-10-15T10:03:13.761000Z",
       "text": ""
     },
     "385581c0-5ec6-4b3a-abb4-197e57e7312c": {
@@ -674,14 +674,6 @@
       "hash": "5ad8bff4d49f9996",
       "summary": "",
       "published_at": "2026-07-07T17:46:12.819000Z",
-      "text": ""
-    },
-    "afd5d80d-e2aa-4502-ad97-8116757e4fad": {
-      "title": "Executivo de vendas Outbound - Rio de Janeiro",
-      "url": "https://jobs.lever.co/lalamove/afd5d80d-e2aa-4502-ad97-8116757e4fad",
-      "hash": "b531fab8d2ff3923",
-      "summary": "",
-      "published_at": "2026-09-17T18:21:52.002000Z",
       "text": ""
     },
     "4b9e8bbd-6cec-47e3-af6c-e87f3a875444": {
@@ -884,6 +876,14 @@
       "published_at": "2026-02-13T06:08:34.759000Z",
       "text": ""
     },
+    "f09cc716-62dc-473b-b27d-52ff7d7ab50d": {
+      "title": "Marketing coordinator (Temporary position)",
+      "url": "https://jobs.lever.co/lalamove/f09cc716-62dc-473b-b27d-52ff7d7ab50d",
+      "hash": "dc759e20531bd7d0",
+      "summary": "",
+      "published_at": "2026-10-14T23:46:29.430000Z",
+      "text": ""
+    },
     "149db584-c6e7-4da5-a96d-669152a04eee": {
       "title": "Marketing Manager",
       "url": "https://jobs.lever.co/lalamove/149db584-c6e7-4da5-a96d-669152a04eee",
@@ -954,6 +954,14 @@
       "hash": "9468871c3254877c",
       "summary": "",
       "published_at": "2026-09-10T03:28:01.497000Z",
+      "text": ""
+    },
+    "ee86a692-595d-4817-a46d-9dfa59d15bed": {
+      "title": "Public Affairs Associate",
+      "url": "https://jobs.lever.co/lalamove/ee86a692-595d-4817-a46d-9dfa59d15bed",
+      "hash": "fddec6597672ad40",
+      "summary": "",
+      "published_at": "2026-10-15T06:24:52.052000Z",
       "text": ""
     },
     "cc12d298-d397-4ae0-90c0-89ad09cc9ae7": {
@@ -1066,14 +1074,6 @@
       "hash": "3686e2696b166d3b",
       "summary": "",
       "published_at": "2026-07-27T07:32:03.222000Z",
-      "text": ""
-    },
-    "2aef288a-5dd8-4fe1-afcc-571dfdd1e735": {
-      "title": "Sales Operations & Analytics Intern",
-      "url": "https://jobs.lever.co/lalamove/2aef288a-5dd8-4fe1-afcc-571dfdd1e735",
-      "hash": "29a260347c83ee5f",
-      "summary": "",
-      "published_at": "2026-09-16T13:17:41.550000Z",
       "text": ""
     },
     "75b2967f-b6e9-4038-8e36-7cd96882080d": {
@@ -1308,18 +1308,10 @@
       "published_at": "2026-08-05T07:35:21.116000Z",
       "text": ""
     },
-    "27aabd91-8083-4dc4-8977-e2fa69fd7868": {
-      "title": "Sticker Operations Associate (6-month contract)",
-      "url": "https://jobs.lever.co/lalamove/27aabd91-8083-4dc4-8977-e2fa69fd7868",
-      "hash": "e1f162278ae59538",
-      "summary": "",
-      "published_at": "2026-09-17T01:49:34.973000Z",
-      "text": ""
-    },
     "716c40b7-18f6-44f5-aaab-e628cced628e": {
-      "title": "Sürücü Operasyonları Çağrı Elemanı",
+      "title": "Sürücü Operasyonları Saha Elemanı",
       "url": "https://jobs.lever.co/lalamove/716c40b7-18f6-44f5-aaab-e628cced628e",
-      "hash": "391090c2a1f31aa5",
+      "hash": "e2db88f98adbcaf9",
       "summary": "",
       "published_at": "2025-09-15T11:25:12.422000Z",
       "text": ""
@@ -1543,7 +1535,10 @@
     "604f6401-75d8-4d40-823e-5dffcadbe7fc",
     "919963ac-3e72-4b5d-91e8-5c509e097aa7",
     "8d4f94d5-3e4d-4950-a23d-3711207fe153",
-    "700d4ee7-d385-40a0-8b0c-f128424d8612"
+    "700d4ee7-d385-40a0-8b0c-f128424d8612",
+    "196310a7-b004-42a2-a1b8-c6b3c752ff0e",
+    "f09cc716-62dc-473b-b27d-52ff7d7ab50d",
+    "ee86a692-595d-4817-a46d-9dfa59d15bed"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

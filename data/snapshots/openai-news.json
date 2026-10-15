@@ -1,9 +1,25 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-14T23:41:39.488855Z",
+  "taken_at": "2026-10-15T23:42:15.485775Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/introducing-the-rosalind-academic-plan": {
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "hash": "c41b3865da250466",
+      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "published_at": "2026-10-15T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions": {
+      "title": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "hash": "16497836ac40c921",
+      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "published_at": "2026-10-15T13:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/amp-beyond-coding": {
       "title": "Amp puts AI agents to work beyond code with OpenAI models",
       "url": "https://openai.com/index/amp-beyond-coding",
@@ -52,19 +68,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/asana-browser-agent": {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "hash": "e7453d7fdd82c956",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sophos": {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "hash": "28a28748cb9e3f1a",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/asana-browser-agent": {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "hash": "e7453d7fdd82c956",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -228,19 +244,19 @@
       "published_at": "2026-09-30T10:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/devday-2026-recap": {
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "hash": "e36275a2fc9302be",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "published_at": "2026-09-29T10:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-gpt-6-1-sol": {
       "title": "Introducing GPT-6.1 Sol",
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "hash": "9543cb3701d28d29",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "published_at": "2026-09-29T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/devday-2026-recap": {
+      "title": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "hash": "e36275a2fc9302be",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
       "published_at": "2026-09-29T10:00:00Z",
       "text": ""
     },
@@ -276,19 +292,19 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/basis-tax-workbook-with-astra": {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "hash": "a7c7b55ccea50710",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/form/codex-originals": {
       "title": "Are you a Codex Original?",
       "url": "https://openai.com/form/codex-originals",
       "hash": "ed740364360408d9",
       "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/basis-tax-workbook-with-astra": {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "hash": "a7c7b55ccea50710",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
@@ -428,19 +444,19 @@
       "published_at": "2026-09-22T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "hash": "a1dc241b1a01c5db",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "published_at": "2026-09-21T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "hash": "a60604a9ef8cc7e9",
       "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "published_at": "2026-09-21T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "hash": "a1dc241b1a01c5db",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "published_at": "2026-09-21T12:00:00Z",
       "text": ""
     },
@@ -787,22 +803,6 @@
       "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
       "published_at": "2026-09-01T13:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources": {
-      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-      "hash": "ce76775081737656",
-      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "published_at": "2026-09-01T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/gilbert-tobin": {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "url": "https://openai.com/index/gilbert-tobin",
-      "hash": "bcb077b272991110",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "published_at": "2026-09-01T01:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -911,7 +911,9 @@
     "https://openai.com/index/sentinelone",
     "https://openai.com/index/third-moment-research",
     "https://openai.com/index/block-ai-powered-security",
-    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
+    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+    "https://openai.com/index/introducing-the-rosalind-academic-plan",
+    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

@@ -1,15 +1,23 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-10-13T23:42:20.074512Z",
+  "taken_at": "2026-10-15T23:41:28.557968Z",
   "etag": null,
   "last_modified": null,
   "items": {
-    "744000150323249": {
+    "744000155790070": {
+      "title": "Animation Director [Rainbow Six]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155790070",
+      "hash": "1c3316046197e8e1",
+      "summary": "",
+      "published_at": "2026-10-15T15:29:26.489000Z",
+      "text": ""
+    },
+    "744000155789239": {
       "title": "Incident Response Security Analyst",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000150323249",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155789239",
       "hash": "b0cc2173e6ecdd78",
       "summary": "",
-      "published_at": "2026-09-18T09:30:50.823000Z",
+      "published_at": "2026-10-15T15:22:07.892000Z",
       "text": ""
     },
     "744000147409729": {
@@ -84,14 +92,6 @@
       "published_at": "2026-02-26T05:28:58.957000Z",
       "text": ""
     },
-    "744000109660915": {
-      "title": "Animation Director [Rainbow Six]",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000109660915",
-      "hash": "1c3316046197e8e1",
-      "summary": "",
-      "published_at": "2026-02-17T08:47:04.724000Z",
-      "text": ""
-    },
     "744000109660515": {
       "title": "Art Director [Art Team]",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000109660515",
@@ -114,7 +114,9 @@
     "744000112075664",
     "744000111535185",
     "744000109660915",
-    "744000109660515"
+    "744000109660515",
+    "744000155790070",
+    "744000155789239"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

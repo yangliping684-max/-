@@ -1,9 +1,49 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-14T23:41:12.792512Z",
+  "taken_at": "2026-10-15T23:41:48.648321Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000155750680": {
+      "title": "Application Engineer for ADAS Sensing ICs_RBCN/ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155750680",
+      "hash": "8db87481591d7a3e",
+      "summary": "",
+      "published_at": "2026-10-15T12:47:32.082000Z",
+      "text": ""
+    },
+    "744000155681289": {
+      "title": "Sales Supervisor for AF_PS_RBCW",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155681289",
+      "hash": "04798522631df150",
+      "summary": "",
+      "published_at": "2026-10-15T07:21:26.221000Z",
+      "text": ""
+    },
+    "744000155672379": {
+      "title": "AI Expert_PS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155672379",
+      "hash": "03bb179b202e9d5a",
+      "summary": "",
+      "published_at": "2026-10-15T06:37:01.401000Z",
+      "text": ""
+    },
+    "744000155658549": {
+      "title": "Strategic component management_ EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155658549",
+      "hash": "2a85f4327d58268b",
+      "summary": "",
+      "published_at": "2026-10-15T03:04:39.909000Z",
+      "text": ""
+    },
+    "744000155657399": {
+      "title": "验货工程师(家电/量具/电动工具行业优先)_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155657399",
+      "hash": "83a9c412347a6a21",
+      "summary": "",
+      "published_at": "2026-10-15T02:31:58.369000Z",
+      "text": ""
+    },
     "744000155483490": {
       "title": "Commercial Buyer(Film Capacitor)_ M",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155483490",
@@ -3492,14 +3532,6 @@
       "published_at": "2026-07-14T12:04:42.610000Z",
       "text": ""
     },
-    "744000137644069": {
-      "title": "Staff System Engineer_ EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000137644069",
-      "hash": "0eda5fda4bc05da7",
-      "summary": "",
-      "published_at": "2026-07-14T11:20:10.943000Z",
-      "text": ""
-    },
     "744000137622049": {
       "title": "液压阀研发工程师_DCCB",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000137622049",
@@ -4388,14 +4420,6 @@
       "published_at": "2026-06-24T11:08:38.099000Z",
       "text": ""
     },
-    "744000133906159": {
-      "title": "Project Supervisor_PS_RBCW",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000133906159",
-      "hash": "1001fc1f556d4fe2",
-      "summary": "",
-      "published_at": "2026-06-24T09:51:17.564000Z",
-      "text": ""
-    },
     "744000133875046": {
       "title": "PCB Layout Engineer",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000133875046",
@@ -4906,14 +4930,6 @@
       "hash": "89ccfeaa552c12bb",
       "summary": "",
       "published_at": "2026-06-08T03:04:23.283000Z",
-      "text": ""
-    },
-    "744000130627629": {
-      "title": "Application Engineer for Radar SoC_RBCN/ME",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000130627629",
-      "hash": "8158bbc32ec00a5d",
-      "summary": "",
-      "published_at": "2026-06-06T06:17:37.509000Z",
       "text": ""
     },
     "744000130420369": {
@@ -11912,7 +11928,12 @@
     "744000155426759",
     "744000155417319",
     "744000155413109",
-    "744000155403755"
+    "744000155403755",
+    "744000155750680",
+    "744000155681289",
+    "744000155672379",
+    "744000155658549",
+    "744000155657399"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

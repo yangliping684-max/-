@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-15T23:41:33.003673Z",
-  "etag": "W/\"15fba7-duYufwEfdn1YdX5On8GBFec0FRI\"",
+  "taken_at": "2026-10-16T23:40:24.378796Z",
+  "etag": "W/\"16229b-gG2von0uEfp3QfHSyDsUR2qGKz4\"",
   "last_modified": null,
   "items": {
     "ec780a38-ccd8-4419-ae06-a7843f6350ce": {
@@ -1076,6 +1076,14 @@
       "published_at": "2026-07-27T07:32:03.222000Z",
       "text": ""
     },
+    "af48874b-f651-411a-a565-44c44a2c82f0": {
+      "title": "Satış Temsilcisi",
+      "url": "https://jobs.lever.co/lalamove/af48874b-f651-411a-a565-44c44a2c82f0",
+      "hash": "492627587dc85010",
+      "summary": "",
+      "published_at": "2026-10-16T10:08:30.752000Z",
+      "text": ""
+    },
     "75b2967f-b6e9-4038-8e36-7cd96882080d": {
       "title": "Senior Account Executive",
       "url": "https://jobs.lever.co/lalamove/75b2967f-b6e9-4038-8e36-7cd96882080d",
@@ -1538,7 +1546,8 @@
     "700d4ee7-d385-40a0-8b0c-f128424d8612",
     "196310a7-b004-42a2-a1b8-c6b3c752ff0e",
     "f09cc716-62dc-473b-b27d-52ff7d7ab50d",
-    "ee86a692-595d-4817-a46d-9dfa59d15bed"
+    "ee86a692-595d-4817-a46d-9dfa59d15bed",
+    "af48874b-f651-411a-a565-44c44a2c82f0"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

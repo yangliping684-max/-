@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-15T23:41:39.385196Z",
-  "etag": "W/\"5e29703c10317895d7159d3c44887062bb86ca05cf93a4cf5ba000879ee1462a\"",
+  "taken_at": "2026-10-16T23:40:33.832458Z",
+  "etag": "W/\"5f0a18a409f8c08d9d6b13b1f98e79d43609dae6e399ecd80d1b2d1d516d4f0d\"",
   "last_modified": null,
   "items": {
+    "415345570": {
+      "title": "v3.32.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
+      "hash": "ae9d5f6c0b4f4172",
+      "summary": "## [3.32.0](https://github.com/openai/openai-python/compare/v3.31.0...v3.32.0) (2026-10-16)\n### Features\n* **api:** add cache settings and key options [2/2] ([#4087](https://github.com/openai/openai-python/issues/4087)) ([325da45](https://github.com/openai/openai-python/commit/325da45934ddb1c1b6a0bed1681a8cf46c9a8712))\n* **api:** add prompt-based voice creation ([#4091](https://github.com/openai/openai-python/issues/4091)) ([2e39db7](https://github.com/openai/openai-python/commit/2e39db79e2f0ec41ce5d87b379be1e88c8298ea4))\n* **api:** add regional processing residency options ([#4081](https://g…",
+      "published_at": "2026-10-16T20:17:26Z",
+      "text": ""
+    },
     "412371896": {
       "title": "v3.31.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.10.0](https://github.com/openai/openai-python/compare/v3.9.0...v3.10.0) (2026-09-08)\n### Features\n* **api:** add GPT Image 2.5 models and image options ([#3824](https://github.com/openai/openai-python/issues/3824)) ([5b39c45](https://github.com/openai/openai-python/commit/5b39c453ee5ee8f46fba0bd9cb4ae47fa5ee6d51))\n* **api:** add service-account API key expiration fields ([#3802](https://github.com/openai/openai-python/issues/3802)) ([f1cd7f0](https://github.com/openai/openai-python/commit/f1cd7f020210ec3fc71699fc46d90320ddbb411c))",
       "published_at": "2026-09-09T00:17:39Z",
       "text": ""
-    },
-    "384903679": {
-      "title": "v3.9.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.9.0",
-      "hash": "62b2651db3f61e08",
-      "summary": "## [3.9.0](https://github.com/openai/openai-python/compare/v3.8.0...v3.9.0) (2026-09-05)\n### Features\n* **api:** Add prompt cache diagnostics ([#3800](https://github.com/openai/openai-python/issues/3800)) ([8326784](https://github.com/openai/openai-python/commit/83267847a0219ea8b584c9d60f92c7a4dffd392a))\n* **api:** correct function argument completion event fields (openapi-545) ([#3801](https://github.com/openai/openai-python/issues/3801)) ([2a98f6a](https://github.com/openai/openai-python/commit/2a98f6a1dee448c6410531c89c2de0af4383c6a7))\n### Bug Fixes\n* **api:** accept incomplete web search…",
-      "published_at": "2026-09-08T16:42:27Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -278,7 +278,8 @@
     "378795694",
     "409819677",
     "412371896",
-    "412325009"
+    "412325009",
+    "415345570"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

@@ -1,9 +1,33 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-15T23:41:48.648321Z",
+  "taken_at": "2026-10-16T23:40:42.693072Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000155935549": {
+      "title": "Technical Project Manager – Target Costing (VA)_ EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155935549",
+      "hash": "22aa5bdc9d1ea9aa",
+      "summary": "",
+      "published_at": "2026-10-16T08:16:59.551000Z",
+      "text": ""
+    },
+    "744000155924939": {
+      "title": "价值流生产主管(储备)/Value Stream Operation Supervisor_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155924939",
+      "hash": "a955ccf80932161f",
+      "summary": "",
+      "published_at": "2026-10-16T07:16:45.458000Z",
+      "text": ""
+    },
+    "744000155919435": {
+      "title": "ADAS软件集成工程师_XC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155919435",
+      "hash": "08a83c8e7610f0ba",
+      "summary": "",
+      "published_at": "2026-10-16T06:44:21.092000Z",
+      "text": ""
+    },
     "744000155750680": {
       "title": "Application Engineer for ADAS Sensing ICs_RBCN/ME",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155750680",
@@ -11933,7 +11957,10 @@
     "744000155681289",
     "744000155672379",
     "744000155658549",
-    "744000155657399"
+    "744000155657399",
+    "744000155935549",
+    "744000155924939",
+    "744000155919435"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

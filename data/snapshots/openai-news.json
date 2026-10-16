@@ -1,9 +1,25 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-15T23:42:15.485775Z",
+  "taken_at": "2026-10-16T23:41:09.514765Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/itau-generative-ai": {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "hash": "1ec731569f7039e5",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "published_at": "2026-10-16T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "e1cf64513aeccdf6",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/introducing-the-rosalind-academic-plan": {
       "title": "Bringing GPT-Rosalind to academic research labs",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -18,6 +34,14 @@
       "hash": "16497836ac40c921",
       "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
       "published_at": "2026-10-15T13:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/sullivan-cromwell": {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "hash": "8fec902a4ac55721",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "published_at": "2026-10-15T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/amp-beyond-coding": {
@@ -268,19 +292,19 @@
       "published_at": "2026-09-29T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/how-we-will-do-better-for-australia": {
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "hash": "002e55e7dbe6424f",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "published_at": "2026-09-28T19:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
       "title": "Towards safety cases for frontier AI training",
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "hash": "cc30f6c098a94d82",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "published_at": "2026-09-28T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/how-we-will-do-better-for-australia": {
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "hash": "002e55e7dbe6424f",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "published_at": "2026-09-28T19:00:00Z",
       "text": ""
     },
@@ -356,6 +380,14 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/ringg": {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "hash": "6410611bf04e572d",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
@@ -369,14 +401,6 @@
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "hash": "83081a9de90b1a9e",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -748,19 +772,19 @@
       "published_at": "2026-09-03T13:15:00Z",
       "text": ""
     },
-    "https://openai.com/index/playco-game-prototyping-with-astra": {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "hash": "2d8027b10a3085c3",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published_at": "2026-09-03T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/legora-financial-statement-review-with-astra": {
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
       "hash": "a5d6574ddf8bf505",
       "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "published_at": "2026-09-03T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/playco-game-prototyping-with-astra": {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "hash": "2d8027b10a3085c3",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
       "published_at": "2026-09-03T12:00:00Z",
       "text": ""
     },
@@ -778,30 +802,6 @@
       "hash": "a1aedb50a21f7e2b",
       "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
       "published_at": "2026-09-03T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/atv-big-air-tour": {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "url": "https://openai.com/index/atv-big-air-tour",
-      "hash": "c12a75bbc1ca70a4",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "published_at": "2026-09-02T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ai-native-company-workflows": {
-      "title": "How AI-native companies turn workflows into operating capability",
-      "url": "https://openai.com/index/ai-native-company-workflows",
-      "hash": "ca52b54b1214fe84",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "published_at": "2026-09-01T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/path-to-astra": {
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "url": "https://openai.com/index/path-to-astra",
-      "hash": "114991e57fd71023",
-      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "published_at": "2026-09-01T13:00:00Z",
       "text": ""
     }
   },
@@ -913,7 +913,10 @@
     "https://openai.com/index/block-ai-powered-security",
     "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
     "https://openai.com/index/introducing-the-rosalind-academic-plan",
-    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+    "https://openai.com/index/itau-generative-ai",
+    "https://openai.com/index/stack-overflow-chatgpt-plugin",
+    "https://openai.com/index/sullivan-cromwell"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

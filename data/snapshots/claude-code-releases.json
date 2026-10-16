@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-15T23:41:38.754723Z",
-  "etag": "W/\"15da2701148f3dbc7e0cca73e4dff89ef6eb589a9cf57a9fbb6c2a4c0e7881cb\"",
+  "taken_at": "2026-10-16T23:40:33.313445Z",
+  "etag": "W/\"1650abaf198e603309d6223603a5c44d1e991c4f6a755404c539d54df5f5a046\"",
   "last_modified": null,
   "items": {
+    "415177347": {
+      "title": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "hash": "ac7ac2f5bc56fa0f",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_AUTO_MODE_MODEL` to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode\n- Added an `Idle compaction` row to `/config` for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off\n- Added a notice to `/design-sync` and `/design-login` that standalone Claude Design (claude.ai/design) closes by December 14, 2026\n- Fixed a \"Prompt is too long\" error when stopping a turn while the conversation was being compacted\n- Fixed requests failing with \"d…",
+      "published_at": "2026-10-16T20:53:06Z",
+      "text": ""
+    },
     "413913133": {
       "title": "v2.1.301",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
       "published_at": "2026-09-12T19:45:44Z",
       "text": ""
-    },
-    "387243742": {
-      "title": "v2.1.269",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
-      "hash": "2fb9d3eac3f7062f",
-      "summary": "## What's changed\n- Added `claude plugin eval`: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see `claude plugin eval --help`\n- Added `/output-style [name]` to list and switch output styles, including over Remote Control and in cloud and other headless sessions\n- Added a diff of the files a Bash command changed to the Bash tool result when the Bash tool handles file edits (setting `bashEditDiffEnabled`)\n- Added `OTEL_METRICS_INCLUDE_REPOSITORY` to tag OpenTelemetry metrics and events with `vcs.*` repository attributes; commit events g…",
-      "published_at": "2026-09-11T19:17:55Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -278,7 +278,8 @@
     "385124520",
     "412815061",
     "412217284",
-    "413913133"
+    "413913133",
+    "415177347"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

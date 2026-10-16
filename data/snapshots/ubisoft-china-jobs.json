@@ -1,9 +1,25 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-10-15T23:41:28.557968Z",
+  "taken_at": "2026-10-16T23:40:19.888803Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000155900379": {
+      "title": "UX Designer",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155900379",
+      "hash": "6392bcdb90054e69",
+      "summary": "",
+      "published_at": "2026-10-16T02:14:50.387000Z",
+      "text": ""
+    },
+    "744000155900219": {
+      "title": "Technical Animator",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155900219",
+      "hash": "1952aa28799d7b11",
+      "summary": "",
+      "published_at": "2026-10-16T02:13:38.322000Z",
+      "text": ""
+    },
     "744000155790070": {
       "title": "Animation Director [Rainbow Six]",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155790070",
@@ -116,7 +132,9 @@
     "744000109660915",
     "744000109660515",
     "744000155790070",
-    "744000155789239"
+    "744000155789239",
+    "744000155900379",
+    "744000155900219"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

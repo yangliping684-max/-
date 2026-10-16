@@ -1,9 +1,17 @@
 {
   "source_id": "cursor-changelog",
-  "taken_at": "2026-10-13T23:43:10.253350Z",
+  "taken_at": "2026-10-16T23:41:14.242108Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://cursor.com/changelog/cloud-agent-canvases-and-environments": {
+      "title": "Cloud Agent Canvases and Environment Improvements",
+      "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
+      "hash": "26d9de5cf8dfb7d0",
+      "summary": "Cloud agents can now build interactive canvases as part of their work. Share a finished canvas with your team by sending its link.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
     "https://cursor.com/changelog/origin-app-marketplace": {
       "title": "Origin App Marketplace",
       "url": "https://cursor.com/changelog/origin-app-marketplace",
@@ -35,14 +43,6 @@
       "summary": "Today we're launching Projects in Cursor. Projects lets you take on larger bodies of work, such as a feature, a migration, or a full app. It maintains context over months of work, delegates tasks to thousands of subagents, and performs recurring work without being prompted.",
       "published_at": "2026-09-10T00:00:00Z",
       "text": ""
-    },
-    "https://cursor.com/changelog/self-hosted-machines": {
-      "title": "Self-hosted machines",
-      "url": "https://cursor.com/changelog/self-hosted-machines",
-      "hash": "bf7595accc9b9e4f",
-      "summary": "Cursor supports self-hosted machines , which let you keep tool execution entirely in your own network.",
-      "published_at": "2026-09-02T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -51,7 +51,8 @@
     "https://cursor.com/changelog/projects",
     "https://cursor.com/changelog/self-hosted-machines",
     "https://cursor.com/changelog/start-from-scratch",
-    "https://cursor.com/changelog/origin-app-marketplace"
+    "https://cursor.com/changelog/origin-app-marketplace",
+    "https://cursor.com/changelog/cloud-agent-canvases-and-environments"
   ],
   "scope": "https://cursor.com/changelog|50|None"
 }

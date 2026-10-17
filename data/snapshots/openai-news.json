@@ -1,6 +1,6 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-16T23:41:09.514765Z",
+  "taken_at": "2026-10-17T23:37:06.920443Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -10,6 +10,14 @@
       "hash": "1ec731569f7039e5",
       "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
       "published_at": "2026-10-16T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/benefit-street-partners": {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "hash": "6bacae7e0cb9e78d",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/stack-overflow-chatgpt-plugin": {
@@ -92,19 +100,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/sophos": {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "hash": "28a28748cb9e3f1a",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/asana-browser-agent": {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "url": "https://openai.com/index/asana-browser-agent",
       "hash": "e7453d7fdd82c956",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/sophos": {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "hash": "28a28748cb9e3f1a",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -268,19 +276,19 @@
       "published_at": "2026-09-30T10:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/introducing-gpt-6-1-sol": {
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "hash": "9543cb3701d28d29",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "published_at": "2026-09-29T10:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/devday-2026-recap": {
       "title": "DevDay 2026 Recap",
       "url": "https://openai.com/index/devday-2026-recap",
       "hash": "e36275a2fc9302be",
       "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "published_at": "2026-09-29T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-gpt-6-1-sol": {
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "hash": "9543cb3701d28d29",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
       "published_at": "2026-09-29T10:00:00Z",
       "text": ""
     },
@@ -316,19 +324,19 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/form/codex-originals": {
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "hash": "ed740364360408d9",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/basis-tax-workbook-with-astra": {
       "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
       "hash": "a7c7b55ccea50710",
       "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/form/codex-originals": {
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "hash": "ed740364360408d9",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
@@ -372,11 +380,11 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
-      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "hash": "090b4193dae2b85f",
-      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+    "https://openai.com/index/sam-altman-un-security-council-remarks": {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "hash": "83081a9de90b1a9e",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -396,11 +404,11 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/sam-altman-un-security-council-remarks": {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "hash": "83081a9de90b1a9e",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
+      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "hash": "090b4193dae2b85f",
+      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -644,19 +652,19 @@
       "published_at": "2026-09-10T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "hash": "b4677d9fd6e8ac55",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "published_at": "2026-09-10T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
       "title": "Build more natural voice experiences with GPT‐Live‐1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "hash": "44d33d26a9fc4f01",
       "summary": "GPT‐Live‐1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "published_at": "2026-09-10T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-the-agents-api": {
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "hash": "b4677d9fd6e8ac55",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "published_at": "2026-09-10T00:00:00Z",
       "text": ""
     },
@@ -772,19 +780,19 @@
       "published_at": "2026-09-03T13:15:00Z",
       "text": ""
     },
-    "https://openai.com/index/legora-financial-statement-review-with-astra": {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "hash": "a5d6574ddf8bf505",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "published_at": "2026-09-03T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/playco-game-prototyping-with-astra": {
       "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
       "url": "https://openai.com/index/playco-game-prototyping-with-astra",
       "hash": "2d8027b10a3085c3",
       "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published_at": "2026-09-03T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/legora-financial-statement-review-with-astra": {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "hash": "a5d6574ddf8bf505",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
       "published_at": "2026-09-03T12:00:00Z",
       "text": ""
     },
@@ -794,14 +802,6 @@
       "hash": "85079ab95244c144",
       "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
       "published_at": "2026-09-03T11:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/safety-overview-gpt-6-astra": {
-      "title": "Safety overview: GPT-6 Astra",
-      "url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "hash": "a1aedb50a21f7e2b",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "published_at": "2026-09-03T00:00:00Z",
       "text": ""
     }
   },
@@ -916,7 +916,8 @@
     "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
     "https://openai.com/index/itau-generative-ai",
     "https://openai.com/index/stack-overflow-chatgpt-plugin",
-    "https://openai.com/index/sullivan-cromwell"
+    "https://openai.com/index/sullivan-cromwell",
+    "https://openai.com/index/benefit-street-partners"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

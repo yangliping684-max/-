@@ -1,9 +1,33 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-16T23:40:33.832458Z",
-  "etag": "W/\"5f0a18a409f8c08d9d6b13b1f98e79d43609dae6e399ecd80d1b2d1d516d4f0d\"",
+  "taken_at": "2026-10-17T23:36:31.808560Z",
+  "etag": "W/\"704e50eb78737d85b89b0470feb632c4df9105ecce13a152dc6fe1625959d814\"",
   "last_modified": null,
   "items": {
+    "416123843": {
+      "title": "v3.35.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.35.0",
+      "hash": "73a5846755710f5a",
+      "summary": "## [3.35.0](https://github.com/openai/openai-python/compare/v3.34.0...v3.35.0) (2026-10-17)\n### Features\n* **api:** add typed Live sideband events ([#4099](https://github.com/openai/openai-python/issues/4099)) ([8d5cbf0](https://github.com/openai/openai-python/commit/8d5cbf07916b8f2409d940156135ce3c11ac1552))\n* **api:** add ultrafast service tier for Agents ([#4101](https://github.com/openai/openai-python/issues/4101)) ([100bf8f](https://github.com/openai/openai-python/commit/100bf8f7ab8409594258572fbf64bbde140c1c5f))\n### Bug Fixes\n* **realtime:** preserve byte receives with websockets 13 ([#…",
+      "published_at": "2026-10-17T23:13:52Z",
+      "text": ""
+    },
+    "416043997": {
+      "title": "v3.34.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.34.0",
+      "hash": "a672c32e9930cbad",
+      "summary": "## [3.34.0](https://github.com/openai/openai-python/compare/v3.33.0...v3.34.0) (2026-10-17)\n### Features\n* **api:** add degraded external storage status ([#4097](https://github.com/openai/openai-python/issues/4097)) ([b216cb2](https://github.com/openai/openai-python/commit/b216cb2fbdefebba6f3997a180510f9e2b6b41af))\n* **api:** add Realtime Translation WebSocket sessions ([#4095](https://github.com/openai/openai-python/issues/4095)) ([bfada50](https://github.com/openai/openai-python/commit/bfada5040b0171cd0ae61aefae8c78fcf83c804a))",
+      "published_at": "2026-10-17T20:34:04Z",
+      "text": ""
+    },
+    "415488315": {
+      "title": "v3.33.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.33.0",
+      "hash": "69cbbf75d68e0094",
+      "summary": "## [3.33.0](https://github.com/openai/openai-python/compare/v3.32.0...v3.33.0) (2026-10-16)\n### Features\n* **api:** add safety identifiers to image requests and responses ([#4093](https://github.com/openai/openai-python/issues/4093)) ([c969e32](https://github.com/openai/openai-python/commit/c969e32ebb325b5910aff4543187fedc5527e172))\n* **api:** share Decisions cache breakpoint parameter type ([#4092](https://github.com/openai/openai-python/issues/4092)) ([f7cefda](https://github.com/openai/openai-python/commit/f7cefdaf059a3e6856d49b4bc2e2e5fbdef8193b))",
+      "published_at": "2026-10-17T00:29:04Z",
+      "text": ""
+    },
     "415345570": {
       "title": "v3.32.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
@@ -219,30 +243,6 @@
       "summary": "## [3.13.0](https://github.com/openai/openai-python/compare/v3.12.0...v3.13.0) (2026-09-10)\n### Features\n* **api:** add Agents API ([1c4284a](https://github.com/openai/openai-python/commit/1c4284a08294f734d57047585ab82e2e09d3a5bc))",
       "published_at": "2026-09-10T19:37:39Z",
       "text": ""
-    },
-    "386487493": {
-      "title": "v3.12.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.12.0",
-      "hash": "3c8098a753d7aa28",
-      "summary": "## [3.12.0](https://github.com/openai/openai-python/compare/v3.11.0...v3.12.0) (2026-09-10)\n### Features\n* **api:** Add Live API ([0e4bfef](https://github.com/openai/openai-python/commit/0e4bfef9c79251fcf4926fd732129627bde050f1))\n### Bug Fixes\n* add aclose() to AsyncStream for standard async cleanup ([#2854](https://github.com/openai/openai-python/issues/2854)) ([802b334](https://github.com/openai/openai-python/commit/802b334928d8f0c3e24e5fce15a0eaa1b28c61cd))\n* handle bare `dict` and `list` annotations without type arguments ([#3760](https://github.com/openai/openai-python/issues/3760)) ([c7…",
-      "published_at": "2026-09-10T17:28:42Z",
-      "text": ""
-    },
-    "385641107": {
-      "title": "v3.11.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.11.0",
-      "hash": "5a95408ff03a1070",
-      "summary": "## [3.11.0](https://github.com/openai/openai-python/compare/v3.10.0...v3.11.0) (2026-09-09)\n### Features\n* **api:** Add expiration controls for service account keys ([#3825](https://github.com/openai/openai-python/issues/3825)) ([f348ec8](https://github.com/openai/openai-python/commit/f348ec87b934c98889102668913e0a3ae7fc303d))",
-      "published_at": "2026-09-09T15:31:33Z",
-      "text": ""
-    },
-    "385141311": {
-      "title": "v3.10.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.10.0",
-      "hash": "563bc3a38b496fb0",
-      "summary": "## [3.10.0](https://github.com/openai/openai-python/compare/v3.9.0...v3.10.0) (2026-09-08)\n### Features\n* **api:** add GPT Image 2.5 models and image options ([#3824](https://github.com/openai/openai-python/issues/3824)) ([5b39c45](https://github.com/openai/openai-python/commit/5b39c453ee5ee8f46fba0bd9cb4ae47fa5ee6d51))\n* **api:** add service-account API key expiration fields ([#3802](https://github.com/openai/openai-python/issues/3802)) ([f1cd7f0](https://github.com/openai/openai-python/commit/f1cd7f020210ec3fc71699fc46d90320ddbb411c))",
-      "published_at": "2026-09-09T00:17:39Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -279,7 +279,10 @@
     "409819677",
     "412371896",
     "412325009",
-    "415345570"
+    "415345570",
+    "416123843",
+    "416043997",
+    "415488315"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

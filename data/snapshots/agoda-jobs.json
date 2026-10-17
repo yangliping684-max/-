@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-16T23:40:26.470061Z",
-  "etag": "W/\"f86519d93c6018fd261823a5fff12b88\"",
+  "taken_at": "2026-10-17T23:36:27.740026Z",
+  "etag": "W/\"a98cb5cd1d7eda84f8013de2eb76e06a\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -588,6 +588,14 @@
       "published_at": "2025-02-07T04:02:18Z",
       "text": ""
     },
+    "8063904": {
+      "title": "Backend Lead Software Engineer (Level 5) | Gurugram based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8063904",
+      "hash": "10b60348f1795c87",
+      "summary": "",
+      "published_at": "2026-07-14T05:23:02Z",
+      "text": ""
+    },
     "7923655": {
       "title": "BackEnd Staff Software Development Engineer (Level 4) | Bangkok based, Relocation provided",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7923655",
@@ -972,20 +980,20 @@
       "published_at": "2026-08-21T14:16:38Z",
       "text": ""
     },
-    "8108326": {
-      "title": "Global Visa Coordinator (6 months contract)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8108326",
-      "hash": "02f946ad60c9ab62",
-      "summary": "",
-      "published_at": "2026-08-06T03:55:50Z",
-      "text": ""
-    },
     "8280619": {
       "title": "Global Visa Coordinator (6 months contract)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8280619",
       "hash": "02f946ad60c9ab62",
       "summary": "",
       "published_at": "2026-10-14T10:08:39Z",
+      "text": ""
+    },
+    "8108326": {
+      "title": "Global Visa Coordinator (6 months contract)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8108326",
+      "hash": "02f946ad60c9ab62",
+      "summary": "",
+      "published_at": "2026-08-06T03:55:50Z",
       "text": ""
     },
     "8064006": {
@@ -2244,14 +2252,6 @@
       "published_at": "2025-09-30T07:00:10Z",
       "text": ""
     },
-    "7916603": {
-      "title": "Staff/Lead LLM Data Scientist (Singapore based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7916603",
-      "hash": "0345bc5bb93d8d96",
-      "summary": "",
-      "published_at": "2026-05-14T02:51:37Z",
-      "text": ""
-    },
     "5393397": {
       "title": "Staff/Lead LLM Data Scientist (Singapore based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/5393397",
@@ -2266,6 +2266,14 @@
       "hash": "0345bc5bb93d8d96",
       "summary": "",
       "published_at": "2026-06-09T08:42:11Z",
+      "text": ""
+    },
+    "7916603": {
+      "title": "Staff/Lead LLM Data Scientist (Singapore based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7916603",
+      "hash": "0345bc5bb93d8d96",
+      "summary": "",
+      "published_at": "2026-05-14T02:51:37Z",
       "text": ""
     },
     "7880990": {
@@ -2530,14 +2538,6 @@
       "hash": "0fb5fbc2be9db3a9",
       "summary": "",
       "published_at": "2026-07-17T03:44:55Z",
-      "text": ""
-    },
-    "8152509": {
-      "title": "Team Manager (Gurugram)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8152509",
-      "hash": "65fabcb366cf2e99",
-      "summary": "",
-      "published_at": "2026-08-24T08:12:01Z",
       "text": ""
     },
     "8121248": {

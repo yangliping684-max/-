@@ -1,6 +1,43 @@
 {
   "notifications": [
     {
+      "id": "alert-4f8711bc66a1fb97",
+      "kind": "alert",
+      "created_at": "2026-10-17T23:37:26.536629Z",
+      "title": "2 条情报达到提醒条件",
+      "body": "- [重要·76] v3.35.0（OpenAI Python SDK Releases）\n- [重要·71] Benefit Street Partners answers questions faster with Codex（OpenAI News）",
+      "event_ids": [
+        "923bcb576561eae8",
+        "6931634a50a073e4"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-10-18",
+      "kind": "digest",
+      "created_at": "2026-10-17T23:37:26.536629Z",
+      "title": "每日摘要 2026-10-18：15 条变化",
+      "body": "# 知更日报 2026-10-18\n\n共发现 **15** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 76]** [v3.35.0](https://github.com/openai/openai-python/releases/tag/v3.35.0) — OpenAI Python SDK Releases · 新增 · 关键词：realtime、agents\n- **[重要 71]** [Benefit Street Partners answers questions faster with Codex](https://openai.com/index/benefit-street-partners) — OpenAI News · 新增 · 关键词：Codex\n- **[关注 68]** [v3.34.0](https://github.com/openai/openai-python/releases/tag/v3.34.0) — OpenAI Python SDK Releases · 新增 · 关键词：realtime\n- **[关注 68]** [v3.33.0](https://github.com/openai/openai-python/releases/tag/v3.33.0) — OpenAI Python SDK Releases · 新增 · 关键词：responses\n- **[关注 68]** [Customer Success Manager, Enterprise Tech](https://job-boards.greenhouse.io/anthropic/jobs/5454800008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Policy Design Manager, Integrity and Authenticity](https://job-boards.greenhouse.io/anthropic/jobs/5453573008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Tabletop Exercise Lead, The Anthropic Institute](https://job-boards.greenhouse.io/anthropic/jobs/5456016008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 55]** [0.164.0-alpha.3 (rust-v0.164.0-alpha.3)](https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3) — OpenAI Codex CLI Releases · 新增\n- **[一般 38]** [Applied AI Engineer, DNB](https://job-boards.greenhouse.io/anthropic/jobs/5435282008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 33]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Issues with login, signup, and ads](https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Issues with Codex](https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Mobile users unable to see Work Mode and the Model Picker](https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S) — OpenAI 服务状态 · 修改\n- **[一般 28]** [Customer Success Manager, Enterprise Tech](https://job-boards.greenhouse.io/anthropic/jobs/5424388008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 23]** [We are seeing elevated error rates across API models](https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "923bcb576561eae8",
+        "5028e4da06148aff",
+        "f317cd57fd82120f",
+        "cd80e564a4370139",
+        "d0ac7e4858f9d3cf",
+        "2414a7688009ff40",
+        "62cfa7dfd1c71932",
+        "35cb358130ef60a9",
+        "6931634a50a073e4",
+        "c731a1a92542a211",
+        "fd7213b06f7ffb4c",
+        "2d5940ad7a6c0069",
+        "fe1e561276847c7f",
+        "1d5f8a0d36e91301",
+        "72795c8e7e6a5769"
+      ],
+      "level": "high"
+    },
+    {
       "id": "alert-0c7950c19444825e",
       "kind": "alert",
       "created_at": "2026-10-16T23:41:29.120271Z",

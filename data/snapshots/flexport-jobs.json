@@ -1,7 +1,7 @@
 {
   "source_id": "flexport-jobs",
-  "taken_at": "2026-10-16T23:40:24.151199Z",
-  "etag": "W/\"6a1ec3504b29f501fc917ddc82363726\"",
+  "taken_at": "2026-10-18T23:38:26.882360Z",
+  "etag": "W/\"38861fcee50f86f737fce0af369cc0e8\"",
   "last_modified": null,
   "items": {
     "8222491": {
@@ -1148,20 +1148,20 @@
       "published_at": "2026-09-18T08:18:48Z",
       "text": ""
     },
-    "8166040": {
-      "title": "Security Engineer, Corporate Security",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8166040",
-      "hash": "ff1b6408a1f0c2d5",
-      "summary": "",
-      "published_at": "2026-08-31T19:38:43Z",
-      "text": ""
-    },
     "8166038": {
       "title": "Security Engineer, Corporate Security",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8166038",
       "hash": "ff1b6408a1f0c2d5",
       "summary": "",
       "published_at": "2026-08-31T19:38:40Z",
+      "text": ""
+    },
+    "8166040": {
+      "title": "Security Engineer, Corporate Security",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8166040",
+      "hash": "ff1b6408a1f0c2d5",
+      "summary": "",
+      "published_at": "2026-08-31T19:38:43Z",
       "text": ""
     },
     "7641508": {
@@ -1274,14 +1274,6 @@
       "hash": "caa0fe839b8bb2fa",
       "summary": "",
       "published_at": "2026-08-07T14:58:18Z",
-      "text": ""
-    },
-    "8213955": {
-      "title": "Senior IT Systems Engineer",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8213955",
-      "hash": "1cb024590bf7e20e",
-      "summary": "",
-      "published_at": "2026-09-18T20:08:41Z",
       "text": ""
     },
     "8213953": {
@@ -1404,20 +1396,20 @@
       "published_at": "2026-10-09T17:15:01Z",
       "text": ""
     },
-    "8164847": {
-      "title": "Senior Security Engineer, Detection & Response",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8164847",
-      "hash": "e256354681d82f1e",
-      "summary": "",
-      "published_at": "2026-08-28T18:19:17Z",
-      "text": ""
-    },
     "8160833": {
       "title": "Senior Security Engineer, Detection & Response",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8160833",
       "hash": "e256354681d82f1e",
       "summary": "",
       "published_at": "2026-08-27T17:20:30Z",
+      "text": ""
+    },
+    "8164847": {
+      "title": "Senior Security Engineer, Detection & Response",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8164847",
+      "hash": "e256354681d82f1e",
+      "summary": "",
+      "published_at": "2026-08-28T18:19:17Z",
       "text": ""
     },
     "8131941": {
@@ -1484,12 +1476,12 @@
       "published_at": "2026-02-24T07:43:21Z",
       "text": ""
     },
-    "8044163": {
+    "8054644": {
       "title": "Social Media & Content Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
       "hash": "bcee457d4b4dd801",
       "summary": "",
-      "published_at": "2026-07-09T23:07:13Z",
+      "published_at": "2026-07-09T23:07:14Z",
       "text": ""
     },
     "8054645": {
@@ -1500,12 +1492,12 @@
       "published_at": "2026-07-09T23:07:15Z",
       "text": ""
     },
-    "8054644": {
+    "8044163": {
       "title": "Social Media & Content Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
       "hash": "bcee457d4b4dd801",
       "summary": "",
-      "published_at": "2026-07-09T23:07:14Z",
+      "published_at": "2026-07-09T23:07:13Z",
       "text": ""
     },
     "7978696": {

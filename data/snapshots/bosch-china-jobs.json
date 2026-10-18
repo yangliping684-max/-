@@ -1,9 +1,41 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-17T23:36:40.224672Z",
+  "taken_at": "2026-10-18T23:38:41.456468Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000156179239": {
+      "title": "Application Engineer_DCCS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156179239",
+      "hash": "9b1272bbae7131b0",
+      "summary": "",
+      "published_at": "2026-10-18T07:28:14.846000Z",
+      "text": ""
+    },
+    "744000156173229": {
+      "title": "制冷系统研发科学家Research Scientist on HVAC Refrigeration System_CR",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156173229",
+      "hash": "c71a0f5451c66460",
+      "summary": "",
+      "published_at": "2026-10-18T02:01:53.606000Z",
+      "text": ""
+    },
+    "744000156169547": {
+      "title": "电机开发研发科学家Research Scientist on Electrical Machine_CR",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156169547",
+      "hash": "c673d6312facc8e3",
+      "summary": "",
+      "published_at": "2026-10-18T01:47:24.557000Z",
+      "text": ""
+    },
+    "744000156160719": {
+      "title": "机电系统动力学研发科学家_CR",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156160719",
+      "hash": "dc07f11f2ad907ca",
+      "summary": "",
+      "published_at": "2026-10-18T01:34:26.675000Z",
+      "text": ""
+    },
     "744000155935549": {
       "title": "Technical Project Manager – Target Costing (VA)_ EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000155935549",
@@ -11952,7 +11984,11 @@
     "744000155657399",
     "744000155935549",
     "744000155924939",
-    "744000155919435"
+    "744000155919435",
+    "744000156179239",
+    "744000156173229",
+    "744000156169547",
+    "744000156160719"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

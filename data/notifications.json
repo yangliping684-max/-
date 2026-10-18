@@ -1,6 +1,28 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-10-19",
+      "kind": "digest",
+      "created_at": "2026-10-18T23:39:28.932791Z",
+      "title": "每日摘要 2026-10-19：12 条变化",
+      "body": "# 知更日报 2026-10-19\n\n共发现 **12** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [v2.1.303](https://github.com/anthropics/claude-code/releases/tag/v2.1.303) — Claude Code Releases · 新增\n- **[关注 68]** [v3.35.1](https://github.com/openai/openai-python/releases/tag/v3.35.1) — OpenAI Python SDK Releases · 新增 · 关键词：realtime\n- **[关注 68]** [Community Engagement Manager, Data Centers (Indiana & Kentucky)](https://job-boards.greenhouse.io/anthropic/jobs/5454535008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Manager, Account Executive](https://job-boards.greenhouse.io/anthropic/jobs/5391356008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Principal Engineer Capacity/Compute](https://job-boards.greenhouse.io/anthropic/jobs/5456039008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Investing in the public benefit](https://www.anthropic.com/news/public-benefit-fund) — Anthropic Newsroom · 新增\n- **[一般 38]** [Management Trainee - Qingdao](https://jobs.smartrecruiters.com/Expeditors/744000152068268) — Expeditors 中国区职位 · 移除 · 关键词：管培生\n- **[一般 33]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Mobile users unable to see Work Mode and the Model Picker](https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S) — OpenAI 服务状态 · 修改\n- **[一般 28]** [Life Sciences Counsel](https://job-boards.greenhouse.io/anthropic/jobs/5286008008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Revenue Strategy & Operations](https://job-boards.greenhouse.io/anthropic/jobs/5199633008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 23]** [We are seeing elevated error rates across API models](https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "12326c4f21fcecf6",
+        "a8c9849b74b466fa",
+        "afddb5113dbca405",
+        "fc451c7e3ee32983",
+        "fd2ffe4eef34b03d",
+        "87a4e2d383bdd391",
+        "b6083d0df530c2ef",
+        "3807fabc205cc859",
+        "3c3c8680c4ffefcc",
+        "91fe9bd29c591d72",
+        "4055960e44013281",
+        "837be1f20da83289"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "alert-4f8711bc66a1fb97",
       "kind": "alert",
       "created_at": "2026-10-17T23:37:26.536629Z",

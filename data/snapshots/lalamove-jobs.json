@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-16T23:40:24.378796Z",
-  "etag": "W/\"16229b-gG2von0uEfp3QfHSyDsUR2qGKz4\"",
+  "taken_at": "2026-10-18T23:38:27.046570Z",
+  "etag": "W/\"16555c-JZNf2bhISmjSk94KuysM7PNrq+c\"",
   "last_modified": null,
   "items": {
     "ec780a38-ccd8-4419-ae06-a7843f6350ce": {
@@ -1332,6 +1332,14 @@
       "published_at": "2026-10-07T05:00:37.783000Z",
       "text": ""
     },
+    "7ea5c6a8-dac8-4eaa-a3ba-594094fd1aa9": {
+      "title": "Training Associate, Driver Operations",
+      "url": "https://jobs.lever.co/lalamove/7ea5c6a8-dac8-4eaa-a3ba-594094fd1aa9",
+      "hash": "e54f3dfc2219176c",
+      "summary": "",
+      "published_at": "2026-04-30T10:23:44.095000Z",
+      "text": ""
+    },
     "e50207ca-046c-4b5a-b3f1-978a01bc3fd8": {
       "title": "Warehouse/Operations Associate (6 Months Contract)",
       "url": "https://jobs.lever.co/lalamove/e50207ca-046c-4b5a-b3f1-978a01bc3fd8",
@@ -1547,7 +1555,8 @@
     "196310a7-b004-42a2-a1b8-c6b3c752ff0e",
     "f09cc716-62dc-473b-b27d-52ff7d7ab50d",
     "ee86a692-595d-4817-a46d-9dfa59d15bed",
-    "af48874b-f651-411a-a565-44c44a2c82f0"
+    "af48874b-f651-411a-a565-44c44a2c82f0",
+    "7ea5c6a8-dac8-4eaa-a3ba-594094fd1aa9"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

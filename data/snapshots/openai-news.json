@@ -1,9 +1,17 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-17T23:37:06.920443Z",
+  "taken_at": "2026-10-19T23:46:19.054607Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/low-resource-programming-languages": {
+      "title": "Advancing coding in low‐resource programming languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "hash": "004fb6f04afd9f8e",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "published_at": "2026-10-19T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/itau-generative-ai": {
       "title": "How Itaú is building generative AI for its entire customer base",
       "url": "https://openai.com/index/itau-generative-ai",
@@ -12,19 +20,19 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/benefit-street-partners": {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "hash": "6bacae7e0cb9e78d",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/stack-overflow-chatgpt-plugin": {
       "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "hash": "e1cf64513aeccdf6",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/benefit-street-partners": {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "hash": "6bacae7e0cb9e78d",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -300,19 +308,19 @@
       "published_at": "2026-09-29T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "hash": "cc30f6c098a94d82",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "published_at": "2026-09-28T19:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/how-we-will-do-better-for-australia": {
       "title": "How we will do better for Australia",
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "hash": "002e55e7dbe6424f",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "published_at": "2026-09-28T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "hash": "cc30f6c098a94d82",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "published_at": "2026-09-28T19:00:00Z",
       "text": ""
     },
@@ -324,19 +332,19 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/basis-tax-workbook-with-astra": {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "hash": "a7c7b55ccea50710",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/form/codex-originals": {
       "title": "Are you a Codex Original?",
       "url": "https://openai.com/form/codex-originals",
       "hash": "ed740364360408d9",
       "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/basis-tax-workbook-with-astra": {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "hash": "a7c7b55ccea50710",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
@@ -380,19 +388,19 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
+      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "hash": "090b4193dae2b85f",
+      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/sam-altman-un-security-council-remarks": {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "hash": "83081a9de90b1a9e",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -404,11 +412,11 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
-      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "hash": "090b4193dae2b85f",
-      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+    "https://openai.com/index/ringg": {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "hash": "6410611bf04e572d",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -476,19 +484,19 @@
       "published_at": "2026-09-22T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "hash": "a60604a9ef8cc7e9",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published_at": "2026-09-21T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "hash": "a1dc241b1a01c5db",
       "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published_at": "2026-09-21T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "hash": "a60604a9ef8cc7e9",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "published_at": "2026-09-21T12:00:00Z",
       "text": ""
     },
@@ -652,19 +660,19 @@
       "published_at": "2026-09-10T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
-      "title": "Build more natural voice experiences with GPT‐Live‐1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "hash": "44d33d26a9fc4f01",
-      "summary": "GPT‐Live‐1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "published_at": "2026-09-10T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-the-agents-api": {
       "title": "Introducing the Agents API",
       "url": "https://openai.com/index/introducing-the-agents-api",
       "hash": "b4677d9fd6e8ac55",
       "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "published_at": "2026-09-10T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
+      "title": "Build more natural voice experiences with GPT‐Live‐1 in the API",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "hash": "44d33d26a9fc4f01",
+      "summary": "GPT‐Live‐1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
       "published_at": "2026-09-10T00:00:00Z",
       "text": ""
     },
@@ -780,14 +788,6 @@
       "published_at": "2026-09-03T13:15:00Z",
       "text": ""
     },
-    "https://openai.com/index/playco-game-prototyping-with-astra": {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "hash": "2d8027b10a3085c3",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published_at": "2026-09-03T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/legora-financial-statement-review-with-astra": {
       "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
       "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
@@ -796,12 +796,12 @@
       "published_at": "2026-09-03T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/gpt-6-astra": {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "url": "https://openai.com/index/gpt-6-astra",
-      "hash": "85079ab95244c144",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "published_at": "2026-09-03T11:00:00Z",
+    "https://openai.com/index/playco-game-prototyping-with-astra": {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "hash": "2d8027b10a3085c3",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "published_at": "2026-09-03T12:00:00Z",
       "text": ""
     }
   },
@@ -917,7 +917,8 @@
     "https://openai.com/index/itau-generative-ai",
     "https://openai.com/index/stack-overflow-chatgpt-plugin",
     "https://openai.com/index/sullivan-cromwell",
-    "https://openai.com/index/benefit-street-partners"
+    "https://openai.com/index/benefit-street-partners",
+    "https://openai.com/index/low-resource-programming-languages"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

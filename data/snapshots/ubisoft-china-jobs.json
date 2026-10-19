@@ -1,9 +1,17 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-10-16T23:40:19.888803Z",
+  "taken_at": "2026-10-19T23:45:33.392910Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000156278649": {
+      "title": "R&D Developer",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000156278649",
+      "hash": "7f6f87343739fcf5",
+      "summary": "",
+      "published_at": "2026-10-19T10:05:13.723000Z",
+      "text": ""
+    },
     "744000155900379": {
       "title": "UX Designer",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155900379",
@@ -134,7 +142,8 @@
     "744000155790070",
     "744000155789239",
     "744000155900379",
-    "744000155900219"
+    "744000155900219",
+    "744000156278649"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

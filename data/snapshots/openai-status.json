@@ -1,9 +1,17 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-10-18T23:39:21.504129Z",
+  "taken_at": "2026-10-19T23:46:30.936151Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81": {
+      "title": "File Download errors",
+      "url": "https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
+      "hash": "4e1cb1df6c3fb35f",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational) Image Generation (Operational)",
+      "published_at": "2026-10-19T14:14:03Z",
+      "text": ""
+    },
     "https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG": {
       "title": "Delayed Costs data in the Compliance API",
       "url": "https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
@@ -71,8 +79,8 @@
     "https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT": {
       "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
       "url": "https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
-      "hash": "2382f297f938ee93",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components GPTs (Operational) ChatGPT Work (Operational) Conversations (Operational)",
+      "hash": "0db3ec804d2ec83e",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)",
       "published_at": "2026-10-08T04:51:39Z",
       "text": ""
     },
@@ -143,8 +151,8 @@
     "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N": {
       "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
       "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
-      "hash": "6ad17707b9043876",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) File uploads (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational) Files (Operational) Moderations (Operational) GPTs (Operational) Connectors/Apps (Operational) Sites (Operational) Voice mode (Operational) Chat Completions (Operational) Realtime (Operational) Codex Web (Operational) Agents (Operational) Search (Operational) Audio (Operational) Responses (Operational) Agent (Operational) Deep Research (Operational) VS Code extension (Operational) Codex API (Oper…",
+      "hash": "e6317554c7d9edd4",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Search (Operational) Deep Research (Operational) Connectors/Apps (Operational) Login (Operational) Realtime (Operational) Files (Operational) Codex Web (Operational) CLI (Operational) Moderations (Operational) Responses (Operational) ChatGPT Work (Operational) Images (Operational) Batch (Operational) Codex in ChatGPT Desktop (Operational) Voice mode (Operational) Audio (Operational) Embeddings (Operational) Image Generation (Operational) Login (Operational) Agents (Operational) Comp…",
       "published_at": "2026-10-06T08:26:10Z",
       "text": ""
     },
@@ -255,8 +263,8 @@
     "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39": {
       "title": "Issues with Codex",
       "url": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "hash": "c5bde87612fdc6a5",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
+      "hash": "00ba75665e1b3449",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex API (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
       "published_at": "2026-09-25T23:54:41Z",
       "text": ""
     },
@@ -271,8 +279,8 @@
     "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S": {
       "title": "Mobile users unable to see Work Mode and the Model Picker",
       "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
-      "hash": "d853ec141dc2335b",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) GPTs (Operational) Agent (Operational) Deep Research (Operational) Connectors/Apps (Operational) File uploads (Operational) Voice mode (Operational) Compliance API (Operational) Image Generation (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Sites (Operational) Search (Operational) Conversations (Operational)",
+      "hash": "9ca6ee255d39db30",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) GPTs (Operational) Agent (Operational) Sites (Operational) Compliance API (Operational) Deep Research (Operational) File uploads (Operational) Voice mode (Operational) Conversations (Operational) Image Generation (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Search (Operational) ChatGPT Work (Operational)",
       "published_at": "2026-09-23T23:49:06Z",
       "text": ""
     },
@@ -327,8 +335,8 @@
     "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA": {
       "title": "We are seeing elevated error rates across API models",
       "url": "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
-      "hash": "7a489b21de748725",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Audio (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Login (Operational) Chat Completions (Operational) Files (Operational) Responses (Operational) Images (Operational) Batch (Operational)",
+      "hash": "30d5db11baf12a51",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Responses (Operational) Images (Operational) Files (Operational)",
       "published_at": "2026-09-17T21:50:36Z",
       "text": ""
     },
@@ -395,14 +403,6 @@
       "summary": "Status: Resolved All impacted services have now fully recovered.",
       "published_at": "2026-09-14T03:57:19Z",
       "text": ""
-    },
-    "https://status.openai.com//incidents/01M2DV6788RRSDZ5K98S5HN0A8": {
-      "title": "Elevated errors for ChatGPT users in Europe",
-      "url": "https://status.openai.com//incidents/01M2DV6788RRSDZ5K98S5HN0A8",
-      "hash": "4068b04ac52c6602",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "published_at": "2026-09-13T17:47:55Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -460,7 +460,8 @@
     "https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
     "https://status.openai.com//incidents/01M4WYPP5QA0CJ3JV76KH285K8",
     "https://status.openai.com//incidents/01M4WKPE1EY48ZB4RZJ80YH7ES",
-    "https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z"
+    "https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z",
+    "https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81"
   ],
   "scope": "https://status.openai.com/feed.rss|50|None"
 }

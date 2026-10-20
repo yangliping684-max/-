@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-19T23:45:37.959325Z",
-  "etag": "W/\"15b40a-kIODmxNO8ZssyzPno7dYrH9oSUc\"",
+  "taken_at": "2026-10-20T23:42:55.519457Z",
+  "etag": "W/\"151767-42rsNajGu/y1H93BWrJMBthMUaQ\"",
   "last_modified": null,
   "items": {
     "7bda3069-d97c-4a69-bd06-091e1ec081a7": {
@@ -12,12 +12,12 @@
       "published_at": "2026-06-01T10:42:08.981000Z",
       "text": ""
     },
-    "831d4208-7efc-4299-a0e4-f8f651ec04b5": {
+    "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
       "title": "Account Executive",
-      "url": "https://jobs.lever.co/lalamove/831d4208-7efc-4299-a0e4-f8f651ec04b5",
+      "url": "https://jobs.lever.co/lalamove/8b1e674f-4b04-4bbc-9564-dcf235b37f60",
       "hash": "67447e449ddf9074",
       "summary": "",
-      "published_at": "2026-06-10T00:16:54.529000Z",
+      "published_at": "2026-10-20T06:36:08.530000Z",
       "text": ""
     },
     "919963ac-3e72-4b5d-91e8-5c509e097aa7": {
@@ -100,14 +100,6 @@
       "published_at": "2026-10-05T03:52:20.207000Z",
       "text": ""
     },
-    "84c655ee-8994-4e36-b51d-ed194dc1778f": {
-      "title": "Assistant Acquisition Manager",
-      "url": "https://jobs.lever.co/lalamove/84c655ee-8994-4e36-b51d-ed194dc1778f",
-      "hash": "16dab2f1491d14cc",
-      "summary": "",
-      "published_at": "2026-06-24T01:48:47.837000Z",
-      "text": ""
-    },
     "49454be8-1cf6-4b09-b732-4b902df6388e": {
       "title": "Assistant Customer Service Manager 客戶服務副理",
       "url": "https://jobs.lever.co/lalamove/49454be8-1cf6-4b09-b732-4b902df6388e",
@@ -140,12 +132,20 @@
       "published_at": "2026-07-07T09:13:37.536000Z",
       "text": ""
     },
-    "74a6f349-07ac-4e91-9dd5-bb4b75d9d36a": {
+    "3ad4e3f0-63aa-4238-81ef-efae9c752d1f": {
       "title": "Assistant Sales Manager",
-      "url": "https://jobs.lever.co/lalamove/74a6f349-07ac-4e91-9dd5-bb4b75d9d36a",
+      "url": "https://jobs.lever.co/lalamove/3ad4e3f0-63aa-4238-81ef-efae9c752d1f",
       "hash": "285aa462dbaf70e6",
       "summary": "",
-      "published_at": "2026-08-05T01:28:44.804000Z",
+      "published_at": "2026-10-20T06:52:19.190000Z",
+      "text": ""
+    },
+    "7a7bdd9c-53b5-4095-a485-27a0ff60c64b": {
+      "title": "Assistant Sales Manager",
+      "url": "https://jobs.lever.co/lalamove/7a7bdd9c-53b5-4095-a485-27a0ff60c64b",
+      "hash": "285aa462dbaf70e6",
+      "summary": "",
+      "published_at": "2026-10-20T07:13:29.691000Z",
       "text": ""
     },
     "b825c507-20b8-4892-8577-d8fcffe17bd2": {
@@ -156,12 +156,12 @@
       "published_at": "2026-06-24T01:42:21.192000Z",
       "text": ""
     },
-    "83871fa1-ae31-4bce-9aa0-caf1900bc943": {
-      "title": "Assistant Sales Manager (Acquisition)",
-      "url": "https://jobs.lever.co/lalamove/83871fa1-ae31-4bce-9aa0-caf1900bc943",
-      "hash": "0cac80d9464eafac",
+    "f6411100-9306-480e-85ae-92d2b5e9b15c": {
+      "title": "Assistant Sales Manager",
+      "url": "https://jobs.lever.co/lalamove/f6411100-9306-480e-85ae-92d2b5e9b15c",
+      "hash": "285aa462dbaf70e6",
       "summary": "",
-      "published_at": "2026-05-06T07:51:38.888000Z",
+      "published_at": "2026-10-20T07:03:13.223000Z",
       "text": ""
     },
     "ac6243b5-5da9-4697-9b5c-c8085b93f645": {
@@ -194,6 +194,14 @@
       "hash": "6c7d376d6bfc9e19",
       "summary": "",
       "published_at": "2026-08-22T17:52:04.425000Z",
+      "text": ""
+    },
+    "019f15f2-be64-4b53-899e-227b55fc960a": {
+      "title": "Assistente de Retenção",
+      "url": "https://jobs.lever.co/lalamove/019f15f2-be64-4b53-899e-227b55fc960a",
+      "hash": "ee59bc8f51ef0fe1",
+      "summary": "",
+      "published_at": "2026-10-20T13:30:06.758000Z",
       "text": ""
     },
     "3aedc336-82a1-4988-8637-c7d0a0c248ba": {
@@ -324,6 +332,14 @@
       "published_at": "2026-01-20T05:59:34.142000Z",
       "text": ""
     },
+    "eb704692-6154-4bcc-8ccb-a01af32832b7": {
+      "title": "Corporate Operations Associate",
+      "url": "https://jobs.lever.co/lalamove/eb704692-6154-4bcc-8ccb-a01af32832b7",
+      "hash": "6139ede33dd1d80d",
+      "summary": "",
+      "published_at": "2021-05-28T10:16:19.572000Z",
+      "text": ""
+    },
     "007c4e8a-d5f3-4ac7-8afa-4899a02ec757": {
       "title": "Corporate Operations Lead",
       "url": "https://jobs.lever.co/lalamove/007c4e8a-d5f3-4ac7-8afa-4899a02ec757",
@@ -445,9 +461,9 @@
       "text": ""
     },
     "a5fa6414-24f1-433a-9f0f-b531efc7433c": {
-      "title": "Driver Management Associate (Nhân Viên Quản Lý Chất Lượng Đối Tác) - Làm việc tại điểm Thanh Trì",
+      "title": "Driver Management Associate (Nhân Viên Quản Lý Chất Lượng Đối Tác Tài Xế) - Làm việc tại điểm Thanh Trì",
       "url": "https://jobs.lever.co/lalamove/a5fa6414-24f1-433a-9f0f-b531efc7433c",
-      "hash": "1242793833322610",
+      "hash": "5af8dd87a3cc1bd7",
       "summary": "",
       "published_at": "2026-10-01T04:56:26.618000Z",
       "text": ""
@@ -644,36 +660,12 @@
       "published_at": "2026-09-30T14:30:42.560000Z",
       "text": ""
     },
-    "2279a759-58e4-4890-a36d-171b445c3eb9": {
-      "title": "Executivo de Vendas Outbound",
-      "url": "https://jobs.lever.co/lalamove/2279a759-58e4-4890-a36d-171b445c3eb9",
-      "hash": "5ad8bff4d49f9996",
-      "summary": "",
-      "published_at": "2026-09-02T17:56:45.712000Z",
-      "text": ""
-    },
-    "b316a546-951d-4cd0-9838-639b9261047e": {
-      "title": "Executivo de Vendas Outbound",
-      "url": "https://jobs.lever.co/lalamove/b316a546-951d-4cd0-9838-639b9261047e",
-      "hash": "5ad8bff4d49f9996",
-      "summary": "",
-      "published_at": "2026-07-07T17:46:12.819000Z",
-      "text": ""
-    },
     "9e73cabc-a03c-4038-9fe8-3a1ce838f3e1": {
       "title": "Finance Assistant Manager",
       "url": "https://jobs.lever.co/lalamove/9e73cabc-a03c-4038-9fe8-3a1ce838f3e1",
       "hash": "7dda804e9e9fbf48",
       "summary": "",
       "published_at": "2026-09-22T08:32:24.360000Z",
-      "text": ""
-    },
-    "a906b5fe-b52d-4923-be35-7926ad35f737": {
-      "title": "Fleet Associate",
-      "url": "https://jobs.lever.co/lalamove/a906b5fe-b52d-4923-be35-7926ad35f737",
-      "hash": "032f7a4983527cf5",
-      "summary": "",
-      "published_at": "2026-09-11T05:19:07.976000Z",
       "text": ""
     },
     "e3f2abf9-b744-4b7d-b40e-fce91e7c6db5": {
@@ -869,9 +861,9 @@
       "text": ""
     },
     "149db584-c6e7-4da5-a96d-669152a04eee": {
-      "title": "Marketing Manager",
+      "title": "Marketing Lead - Onsite (£60,000 - £80,000)",
       "url": "https://jobs.lever.co/lalamove/149db584-c6e7-4da5-a96d-669152a04eee",
-      "hash": "b04cd795e7d51c2f",
+      "hash": "93bc55fb0388857c",
       "summary": "",
       "published_at": "2026-04-01T14:42:35.450000Z",
       "text": ""
@@ -882,14 +874,6 @@
       "hash": "93ebf6af1a954c28",
       "summary": "",
       "published_at": "2026-07-02T03:37:10.576000Z",
-      "text": ""
-    },
-    "18fde91d-d0f0-4f42-9942-b01245dca281": {
-      "title": "People Operations Associate (C&B Admin)",
-      "url": "https://jobs.lever.co/lalamove/18fde91d-d0f0-4f42-9942-b01245dca281",
-      "hash": "3fda0ba574fb2faf",
-      "summary": "",
-      "published_at": "2026-09-11T10:56:08.416000Z",
       "text": ""
     },
     "5f4a269d-2552-48f4-9537-08e3cc87b173": {
@@ -948,14 +932,6 @@
       "published_at": "2026-05-04T19:26:52.262000Z",
       "text": ""
     },
-    "e825a735-19c8-440e-a066-f30d8ece608c": {
-      "title": "Public Relations Associate",
-      "url": "https://jobs.lever.co/lalamove/e825a735-19c8-440e-a066-f30d8ece608c",
-      "hash": "a0ef83dee6d8e8b5",
-      "summary": "",
-      "published_at": "2026-07-20T02:14:56.159000Z",
-      "text": ""
-    },
     "331a6bb3-b1e5-4aae-b540-f71296145033": {
       "title": "Risk Analyst",
       "url": "https://jobs.lever.co/lalamove/331a6bb3-b1e5-4aae-b540-f71296145033",
@@ -996,6 +972,14 @@
       "published_at": "2025-07-04T07:02:02.841000Z",
       "text": ""
     },
+    "84b51706-a458-4dd6-b0c8-42a459292805": {
+      "title": "Sales Associate (Automotive)",
+      "url": "https://jobs.lever.co/lalamove/84b51706-a458-4dd6-b0c8-42a459292805",
+      "hash": "4291edc45581df81",
+      "summary": "",
+      "published_at": "2026-10-20T06:21:19.743000Z",
+      "text": ""
+    },
     "4e1cfa86-f539-4723-be88-8d30be10ec97": {
       "title": "Sales Associate 業務開發專員 (高雄)",
       "url": "https://jobs.lever.co/lalamove/4e1cfa86-f539-4723-be88-8d30be10ec97",
@@ -1010,14 +994,6 @@
       "hash": "3d9fcca48fe63c20",
       "summary": "",
       "published_at": "2026-08-03T07:05:26.576000Z",
-      "text": ""
-    },
-    "f8bcd25f-2a30-4341-945a-8204fb2bfb61": {
-      "title": "Sales Executive",
-      "url": "https://jobs.lever.co/lalamove/f8bcd25f-2a30-4341-945a-8204fb2bfb61",
-      "hash": "bad719e71aac712d",
-      "summary": "",
-      "published_at": "2026-09-10T03:55:59.004000Z",
       "text": ""
     },
     "1dccf341-f1a9-409c-b19e-5110cdc1620e": {
@@ -1212,22 +1188,6 @@
       "published_at": "2026-09-04T04:06:24.253000Z",
       "text": ""
     },
-    "79fe9d65-7ead-4ba2-b78b-6c8845165d93": {
-      "title": "Senior Sales Executive",
-      "url": "https://jobs.lever.co/lalamove/79fe9d65-7ead-4ba2-b78b-6c8845165d93",
-      "hash": "d4fcf54cf2021cbb",
-      "summary": "",
-      "published_at": "2026-09-01T05:52:53.566000Z",
-      "text": ""
-    },
-    "ce033ee7-5bb1-4bfd-ae74-7ed31e9da576": {
-      "title": "Senior Sales Executive",
-      "url": "https://jobs.lever.co/lalamove/ce033ee7-5bb1-4bfd-ae74-7ed31e9da576",
-      "hash": "d4fcf54cf2021cbb",
-      "summary": "",
-      "published_at": "2026-07-16T00:52:49.011000Z",
-      "text": ""
-    },
     "82788447-9c35-4458-9691-2f5def51537c": {
       "title": "Senior Tax & Accounting Associate",
       "url": "https://jobs.lever.co/lalamove/82788447-9c35-4458-9691-2f5def51537c",
@@ -1266,6 +1226,14 @@
       "hash": "9ec2c96b7f2c3118",
       "summary": "",
       "published_at": "2026-08-24T19:31:44.780000Z",
+      "text": ""
+    },
+    "c21460a4-9dfb-4317-8f4d-b320789a5a95": {
+      "title": "Sr. Sales Executive",
+      "url": "https://jobs.lever.co/lalamove/c21460a4-9dfb-4317-8f4d-b320789a5a95",
+      "hash": "ece17fb65afb457d",
+      "summary": "",
+      "published_at": "2026-10-20T06:26:22.839000Z",
       "text": ""
     },
     "716c40b7-18f6-44f5-aaab-e628cced628e": {
@@ -1509,7 +1477,15 @@
     "ee86a692-595d-4817-a46d-9dfa59d15bed",
     "af48874b-f651-411a-a565-44c44a2c82f0",
     "7ea5c6a8-dac8-4eaa-a3ba-594094fd1aa9",
-    "c0e3018b-7695-4f1d-833b-868f7b26d109"
+    "c0e3018b-7695-4f1d-833b-868f7b26d109",
+    "8b1e674f-4b04-4bbc-9564-dcf235b37f60",
+    "3ad4e3f0-63aa-4238-81ef-efae9c752d1f",
+    "7a7bdd9c-53b5-4095-a485-27a0ff60c64b",
+    "f6411100-9306-480e-85ae-92d2b5e9b15c",
+    "019f15f2-be64-4b53-899e-227b55fc960a",
+    "eb704692-6154-4bcc-8ccb-a01af32832b7",
+    "84b51706-a458-4dd6-b0c8-42a459292805",
+    "c21460a4-9dfb-4317-8f4d-b320789a5a95"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

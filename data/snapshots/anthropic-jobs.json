@@ -1,7 +1,7 @@
 {
   "source_id": "anthropic-jobs",
-  "taken_at": "2026-10-19T23:45:52.130658Z",
-  "etag": "W/\"13144b1a554347010c4fa0bb840d1c1a\"",
+  "taken_at": "2026-10-20T23:43:10.113865Z",
+  "etag": "W/\"c943e02e0fbf87df1f7f7a2e4cc8273c\"",
   "last_modified": null,
   "items": {
     "5456619008": {
@@ -140,12 +140,12 @@
       "published_at": "2026-08-11T15:02:55Z",
       "text": ""
     },
-    "5443882008": {
+    "5076109008": {
       "title": "Applied AI Architect",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443882008",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076109008",
       "hash": "da7a515247eb1926",
       "summary": "",
-      "published_at": "2026-10-08T05:01:57Z",
+      "published_at": "2026-01-23T00:50:45Z",
       "text": ""
     },
     "5390735008": {
@@ -156,20 +156,20 @@
       "published_at": "2026-08-20T05:40:56Z",
       "text": ""
     },
+    "5443882008": {
+      "title": "Applied AI Architect",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443882008",
+      "hash": "da7a515247eb1926",
+      "summary": "",
+      "published_at": "2026-10-08T05:01:57Z",
+      "text": ""
+    },
     "5424310008": {
       "title": "Applied AI Architect",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424310008",
       "hash": "da7a515247eb1926",
       "summary": "",
       "published_at": "2026-09-21T07:22:45Z",
-      "text": ""
-    },
-    "5076109008": {
-      "title": "Applied AI Architect",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5076109008",
-      "hash": "da7a515247eb1926",
-      "summary": "",
-      "published_at": "2026-01-23T00:50:45Z",
       "text": ""
     },
     "5446657008": {
@@ -212,14 +212,6 @@
       "published_at": "2026-08-07T22:47:18Z",
       "text": ""
     },
-    "4461444008": {
-      "title": "Applied AI Architect, Industries",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
-      "hash": "6615300c4b11879c",
-      "summary": "",
-      "published_at": "2024-12-20T18:52:24Z",
-      "text": ""
-    },
     "5390765008": {
       "title": "Applied AI Architect, Industries",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390765008",
@@ -228,12 +220,12 @@
       "published_at": "2026-08-19T14:26:21Z",
       "text": ""
     },
-    "5390778008": {
+    "4461444008": {
       "title": "Applied AI Architect, Industries",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390778008",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4461444008",
       "hash": "6615300c4b11879c",
       "summary": "",
-      "published_at": "2026-08-17T07:32:40Z",
+      "published_at": "2024-12-20T18:52:24Z",
       "text": ""
     },
     "5390770008": {
@@ -242,6 +234,14 @@
       "hash": "6615300c4b11879c",
       "summary": "",
       "published_at": "2026-08-26T10:00:04Z",
+      "text": ""
+    },
+    "5390778008": {
+      "title": "Applied AI Architect, Industries",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390778008",
+      "hash": "6615300c4b11879c",
+      "summary": "",
+      "published_at": "2026-08-17T07:32:40Z",
       "text": ""
     },
     "5439830008": {
@@ -268,20 +268,20 @@
       "published_at": "2026-10-08T18:10:17Z",
       "text": ""
     },
-    "5390902008": {
-      "title": "Applied AI Architect, Partnerships",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390902008",
-      "hash": "d1868928a8c114a8",
-      "summary": "",
-      "published_at": "2026-09-15T11:08:43Z",
-      "text": ""
-    },
     "5390787008": {
       "title": "Applied AI Architect, Partnerships",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390787008",
       "hash": "d1868928a8c114a8",
       "summary": "",
       "published_at": "2026-08-17T17:48:52Z",
+      "text": ""
+    },
+    "5390902008": {
+      "title": "Applied AI Architect, Partnerships",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390902008",
+      "hash": "d1868928a8c114a8",
+      "summary": "",
+      "published_at": "2026-09-15T11:08:43Z",
       "text": ""
     },
     "5300430008": {
@@ -316,20 +316,20 @@
       "published_at": "2026-09-30T09:37:09Z",
       "text": ""
     },
-    "5406982008": {
-      "title": "Applied AI Architect, Startups",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5406982008",
-      "hash": "da17e42778073b13",
-      "summary": "",
-      "published_at": "2026-08-28T16:29:24Z",
-      "text": ""
-    },
     "5432573008": {
       "title": "Applied AI Architect, Startups",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432573008",
       "hash": "da17e42778073b13",
       "summary": "",
       "published_at": "2026-09-23T08:57:05Z",
+      "text": ""
+    },
+    "5406982008": {
+      "title": "Applied AI Architect, Startups",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5406982008",
+      "hash": "da17e42778073b13",
+      "summary": "",
+      "published_at": "2026-08-28T16:29:24Z",
       "text": ""
     },
     "5409008008": {
@@ -380,20 +380,20 @@
       "published_at": "2026-09-29T02:57:03Z",
       "text": ""
     },
-    "5354765008": {
-      "title": "Applied AI Engineer, Enterprise",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5354765008",
-      "hash": "3e38c0c24056aecb",
-      "summary": "",
-      "published_at": "2026-09-28T10:53:58Z",
-      "text": ""
-    },
     "5390754008": {
       "title": "Applied AI Engineer, Enterprise",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5390754008",
       "hash": "3e38c0c24056aecb",
       "summary": "",
       "published_at": "2026-08-20T13:01:59Z",
+      "text": ""
+    },
+    "5354765008": {
+      "title": "Applied AI Engineer, Enterprise",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5354765008",
+      "hash": "3e38c0c24056aecb",
+      "summary": "",
+      "published_at": "2026-09-28T10:53:58Z",
       "text": ""
     },
     "5390795008": {
@@ -405,9 +405,9 @@
       "text": ""
     },
     "5057647008": {
-      "title": "Applied AI Engineer, Enterprise Tech",
+      "title": "Applied AI Engineer, Enterprise",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5057647008",
-      "hash": "622bf678354352d8",
+      "hash": "3e38c0c24056aecb",
       "summary": "",
       "published_at": "2026-01-08T20:47:40Z",
       "text": ""
@@ -756,12 +756,12 @@
       "published_at": "2026-08-27T03:13:30Z",
       "text": ""
     },
-    "5358146008": {
-      "title": "Corporate Development Integration Lead",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358146008",
-      "hash": "b33a522033ab6b74",
+    "5459016008": {
+      "title": "Corporate Development, Deal Lead",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459016008",
+      "hash": "5ec08e63e5d554a9",
       "summary": "",
-      "published_at": "2026-08-26T19:26:12Z",
+      "published_at": "2026-10-20T20:30:12Z",
       "text": ""
     },
     "5358110008": {
@@ -804,6 +804,14 @@
       "published_at": "2026-09-24T11:08:14Z",
       "text": ""
     },
+    "5456491008": {
+      "title": "Customer Success Manager",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456491008",
+      "hash": "ae3b8277f4ab5a11",
+      "summary": "",
+      "published_at": "2026-10-19T09:37:49Z",
+      "text": ""
+    },
     "5391102008": {
       "title": "Customer Success Manager",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391102008",
@@ -818,14 +826,6 @@
       "hash": "ae3b8277f4ab5a11",
       "summary": "",
       "published_at": "2026-08-18T04:32:10Z",
-      "text": ""
-    },
-    "5456491008": {
-      "title": "Customer Success Manager",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456491008",
-      "hash": "ae3b8277f4ab5a11",
-      "summary": "",
-      "published_at": "2026-10-19T09:37:49Z",
       "text": ""
     },
     "5416026008": {
@@ -882,6 +882,14 @@
       "hash": "6e52984e41f3ac26",
       "summary": "",
       "published_at": "2026-09-18T22:50:40Z",
+      "text": ""
+    },
+    "5063099008": {
+      "title": "Customer Success Manager, Southern Europe",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5063099008",
+      "hash": "46cb5f6df1e3d252",
+      "summary": "",
+      "published_at": "2026-01-12T16:02:12Z",
       "text": ""
     },
     "5392957008": {
@@ -1018,6 +1026,14 @@
       "hash": "e539c7b26c439821",
       "summary": "",
       "published_at": "2026-04-10T23:35:56Z",
+      "text": ""
+    },
+    "5161402008": {
+      "title": "Data Scientist, Growth",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5161402008",
+      "hash": "a36f1b23cbbd2b36",
+      "summary": "",
+      "published_at": "2026-03-23T20:37:20Z",
       "text": ""
     },
     "5196852008": {
@@ -1388,6 +1404,14 @@
       "published_at": "2026-09-04T02:53:07Z",
       "text": ""
     },
+    "5440855008": {
+      "title": "Enterprise Account Executive, DNB",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440855008",
+      "hash": "79fe9f49088a56fd",
+      "summary": "",
+      "published_at": "2026-10-20T11:00:15Z",
+      "text": ""
+    },
     "5118189008": {
       "title": "Enterprise Account Executive, DoW/IC",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5118189008",
@@ -1508,14 +1532,6 @@
       "published_at": "2026-10-05T00:45:40Z",
       "text": ""
     },
-    "5237973008": {
-      "title": "Enterprise Account Executive, Manufacturing",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5237973008",
-      "hash": "efb9f12f8b65c580",
-      "summary": "",
-      "published_at": "2026-06-07T16:47:23Z",
-      "text": ""
-    },
     "5391301008": {
       "title": "Enterprise Account Executive, Materials & Industrial",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391301008",
@@ -1570,14 +1586,6 @@
       "hash": "5245ef239bd1fe03",
       "summary": "",
       "published_at": "2026-02-01T01:49:56Z",
-      "text": ""
-    },
-    "5452316008": {
-      "title": "Enterprise Sales Manager",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452316008",
-      "hash": "4edc8db83caf3414",
-      "summary": "",
-      "published_at": "2026-10-16T11:05:09Z",
       "text": ""
     },
     "5415287008": {
@@ -1660,6 +1668,14 @@
       "published_at": "2026-08-13T15:12:44Z",
       "text": ""
     },
+    "5443875008": {
+      "title": "Finance & Strategy, Compute Network",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443875008",
+      "hash": "39404076fa0aeb6c",
+      "summary": "",
+      "published_at": "2026-10-20T20:13:44Z",
+      "text": ""
+    },
     "5358090008": {
       "title": "Finance & Strategy, Deal Strategy",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358090008",
@@ -1692,6 +1708,14 @@
       "published_at": "2026-01-22T02:48:37Z",
       "text": ""
     },
+    "5163060008": {
+      "title": "Finance & Strategy, GTM - Post Sales",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5163060008",
+      "hash": "e36470e60984fa6b",
+      "summary": "",
+      "published_at": "2026-07-18T02:33:36Z",
+      "text": ""
+    },
     "5358088008": {
       "title": "Finance & Strategy, Machines",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358088008",
@@ -1716,20 +1740,20 @@
       "published_at": "2026-08-14T19:29:18Z",
       "text": ""
     },
-    "5423029008": {
-      "title": "Forward Deployed Engineer",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008",
-      "hash": "eab60bd51f9d2dc9",
-      "summary": "",
-      "published_at": "2026-09-14T09:07:58Z",
-      "text": ""
-    },
     "5391016008": {
       "title": "Forward Deployed Engineer",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391016008",
       "hash": "eab60bd51f9d2dc9",
       "summary": "",
       "published_at": "2026-08-17T12:05:11Z",
+      "text": ""
+    },
+    "5423029008": {
+      "title": "Forward Deployed Engineer",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008",
+      "hash": "eab60bd51f9d2dc9",
+      "summary": "",
+      "published_at": "2026-09-14T09:07:58Z",
       "text": ""
     },
     "5391021008": {
@@ -1772,14 +1796,6 @@
       "published_at": "2026-06-18T21:03:35Z",
       "text": ""
     },
-    "5162711008": {
-      "title": "Global Senior Equity Program Manager",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5162711008",
-      "hash": "b128208326bce187",
-      "summary": "",
-      "published_at": "2026-05-04T17:21:55Z",
-      "text": ""
-    },
     "4423394008": {
       "title": "Growth Account Executive, AI Native",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/4423394008",
@@ -1818,6 +1834,14 @@
       "hash": "ad0673aaaef85d1a",
       "summary": "",
       "published_at": "2026-08-08T00:49:01Z",
+      "text": ""
+    },
+    "5454518008": {
+      "title": "GTM Programs Manager, GTM Initiatives",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454518008",
+      "hash": "7c9b05185117043e",
+      "summary": "",
+      "published_at": "2026-10-20T23:09:57Z",
       "text": ""
     },
     "5390956008": {
@@ -2036,6 +2060,22 @@
       "published_at": "2026-10-01T14:41:01Z",
       "text": ""
     },
+    "5452859008": {
+      "title": "International Compensation Partner",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452859008",
+      "hash": "ac520db1dc3a255b",
+      "summary": "",
+      "published_at": "2026-10-20T14:40:11Z",
+      "text": ""
+    },
+    "5458322008": {
+      "title": "International Compensation Partner",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458322008",
+      "hash": "ac520db1dc3a255b",
+      "summary": "",
+      "published_at": "2026-10-20T14:40:47Z",
+      "text": ""
+    },
     "5358118008": {
       "title": "International Indirect Tax, VAT/GST",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358118008",
@@ -2076,20 +2116,20 @@
       "published_at": "2026-10-07T16:42:07Z",
       "text": ""
     },
-    "5396397008": {
-      "title": "IT Support Engineer",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5396397008",
-      "hash": "fe8195a9993eb5ed",
-      "summary": "",
-      "published_at": "2026-08-20T01:25:09Z",
-      "text": ""
-    },
     "5439526008": {
       "title": "IT Support Engineer",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439526008",
       "hash": "fe8195a9993eb5ed",
       "summary": "",
       "published_at": "2026-10-14T10:46:47Z",
+      "text": ""
+    },
+    "5396397008": {
+      "title": "IT Support Engineer",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5396397008",
+      "hash": "fe8195a9993eb5ed",
+      "summary": "",
+      "published_at": "2026-08-20T01:25:09Z",
       "text": ""
     },
     "5386949008": {
@@ -2228,12 +2268,12 @@
       "published_at": "2026-10-18T01:02:10Z",
       "text": ""
     },
-    "5282833008": {
-      "title": "Manager, Account Executive - Hedge Funds",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5282833008",
-      "hash": "cb4d6068d437c9fd",
+    "5443331008": {
+      "title": "Manager, Applied AI Architect",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443331008",
+      "hash": "f66919daafd82faa",
       "summary": "",
-      "published_at": "2026-09-08T19:29:09Z",
+      "published_at": "2026-10-13T03:07:58Z",
       "text": ""
     },
     "5430869008": {
@@ -2242,14 +2282,6 @@
       "hash": "f66919daafd82faa",
       "summary": "",
       "published_at": "2026-09-22T06:54:32Z",
-      "text": ""
-    },
-    "5443331008": {
-      "title": "Manager, Applied AI Architect",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5443331008",
-      "hash": "f66919daafd82faa",
-      "summary": "",
-      "published_at": "2026-10-13T03:07:58Z",
       "text": ""
     },
     "5424305008": {
@@ -2282,6 +2314,14 @@
       "hash": "3fd18150e7707dc4",
       "summary": "",
       "published_at": "2026-08-21T01:53:08Z",
+      "text": ""
+    },
+    "5454442008": {
+      "title": "Manager, Applied AI Cyber Specialists",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454442008",
+      "hash": "c4d5b3ca84d7ca52",
+      "summary": "",
+      "published_at": "2026-10-20T20:18:43Z",
       "text": ""
     },
     "5442934008": {
@@ -2332,10 +2372,26 @@
       "published_at": "2026-09-15T01:51:34Z",
       "text": ""
     },
+    "5456812008": {
+      "title": "Manager, Cybersecurity Sales Specialist",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008",
+      "hash": "a9efe5e7b11be2e7",
+      "summary": "",
+      "published_at": "2026-10-20T13:07:35Z",
+      "text": ""
+    },
+    "5282833008": {
+      "title": "Manager, Enterprise Sales - Hedge Funds",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5282833008",
+      "hash": "0d1a0c93ca962b45",
+      "summary": "",
+      "published_at": "2026-09-08T19:29:09Z",
+      "text": ""
+    },
     "5138289008": {
-      "title": "Manager, Enterprise Sales - HCLS",
+      "title": "Manager, Enterprise Sales - Life Sciences",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5138289008",
-      "hash": "fa2467c76cc5d123",
+      "hash": "9556622caa7666fc",
       "summary": "",
       "published_at": "2026-03-03T05:09:16Z",
       "text": ""
@@ -2404,6 +2460,14 @@
       "published_at": "2026-10-06T22:17:16Z",
       "text": ""
     },
+    "5454142008": {
+      "title": "Manager, Sales Development, Enterprise",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454142008",
+      "hash": "c066e4ef34f0158f",
+      "summary": "",
+      "published_at": "2026-10-20T23:11:04Z",
+      "text": ""
+    },
     "5426631008": {
       "title": "Manager, Technical Deployment",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5426631008",
@@ -2458,14 +2522,6 @@
       "hash": "731e2e5b5ea8f986",
       "summary": "",
       "published_at": "2026-08-12T17:20:58Z",
-      "text": ""
-    },
-    "5446581008": {
-      "title": "Member of Editorial Staff, Economics & Policy",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5446581008",
-      "hash": "a27ee9538a33422d",
-      "summary": "",
-      "published_at": "2026-10-14T15:54:28Z",
       "text": ""
     },
     "4931772008": {
@@ -2868,14 +2924,6 @@
       "published_at": "2026-02-18T01:03:35Z",
       "text": ""
     },
-    "5434361008": {
-      "title": "Product Manager, Billing",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5434361008",
-      "hash": "4f2c34e7b8b99b7e",
-      "summary": "",
-      "published_at": "2026-10-07T14:32:26Z",
-      "text": ""
-    },
     "5448167008": {
       "title": "Product Manager, Claude",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448167008",
@@ -3004,14 +3052,6 @@
       "published_at": "2026-08-12T22:23:26Z",
       "text": ""
     },
-    "5385651008": {
-      "title": "Product Marketing Manager, Knowledge Work - Core Products",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385651008",
-      "hash": "801bfd44047ff00b",
-      "summary": "",
-      "published_at": "2026-08-12T22:31:17Z",
-      "text": ""
-    },
     "5424078008": {
       "title": "Product Marketing Manager, Platform",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424078008",
@@ -3044,20 +3084,20 @@
       "published_at": "2026-08-24T19:23:19Z",
       "text": ""
     },
-    "4979585008": {
-      "title": "Product Support Specialist",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4979585008",
-      "hash": "bbcd5b9fa61a7bf9",
-      "summary": "",
-      "published_at": "2025-11-07T00:05:34Z",
-      "text": ""
-    },
     "5138042008": {
       "title": "Product Support Specialist",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5138042008",
       "hash": "bbcd5b9fa61a7bf9",
       "summary": "",
       "published_at": "2026-03-03T02:19:11Z",
+      "text": ""
+    },
+    "4979585008": {
+      "title": "Product Support Specialist",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4979585008",
+      "hash": "bbcd5b9fa61a7bf9",
+      "summary": "",
+      "published_at": "2025-11-07T00:05:34Z",
       "text": ""
     },
     "5448194008": {
@@ -3132,6 +3172,14 @@
       "published_at": "2026-09-01T23:50:58Z",
       "text": ""
     },
+    "5449885008": {
+      "title": "Recruiter, G&A (Policy)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5449885008",
+      "hash": "8540a4e5ce7e075b",
+      "summary": "",
+      "published_at": "2026-10-14T08:46:52Z",
+      "text": ""
+    },
     "5433950008": {
       "title": "Recruiter, Go-To-Market (GTM)",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5433950008",
@@ -3164,6 +3212,14 @@
       "published_at": "2026-07-10T22:50:56Z",
       "text": ""
     },
+    "5231205008": {
+      "title": "Regional Research Economist, Economic Research",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008",
+      "hash": "c15760f1e36723c7",
+      "summary": "",
+      "published_at": "2026-06-01T16:29:46Z",
+      "text": ""
+    },
     "5231200008": {
       "title": "Regional Research Economist, Economic Research",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231200008",
@@ -3172,12 +3228,12 @@
       "published_at": "2026-06-01T16:28:02Z",
       "text": ""
     },
-    "5231205008": {
-      "title": "Regional Research Economist, Economic Research",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231205008",
-      "hash": "c15760f1e36723c7",
+    "5409299008": {
+      "title": "Regulatory Counsel, AI Regulation, US",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5409299008",
+      "hash": "7fe98c8b4ea6a0a7",
       "summary": "",
-      "published_at": "2026-06-01T16:29:46Z",
+      "published_at": "2026-08-28T22:04:30Z",
       "text": ""
     },
     "5399379008": {
@@ -3236,20 +3292,20 @@
       "published_at": "2026-06-30T17:39:33Z",
       "text": ""
     },
-    "5412334008": {
-      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412334008",
-      "hash": "f9e6c463b7401998",
-      "summary": "",
-      "published_at": "2026-09-07T08:25:53Z",
-      "text": ""
-    },
     "5025624008": {
       "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
       "hash": "f9e6c463b7401998",
       "summary": "",
       "published_at": "2025-12-09T22:20:34Z",
+      "text": ""
+    },
+    "5412334008": {
+      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5412334008",
+      "hash": "f9e6c463b7401998",
+      "summary": "",
+      "published_at": "2026-09-07T08:25:53Z",
       "text": ""
     },
     "4669581008": {
@@ -3300,20 +3356,20 @@
       "published_at": "2025-04-01T20:39:21Z",
       "text": ""
     },
-    "5198108008": {
-      "title": "Research Engineer, Machine Learning (RL Velocity)",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
-      "hash": "82b6a206d9b07d46",
-      "summary": "",
-      "published_at": "2026-04-23T14:35:36Z",
-      "text": ""
-    },
     "5198074008": {
       "title": "Research Engineer, Machine Learning (RL Velocity)",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008",
       "hash": "82b6a206d9b07d46",
       "summary": "",
       "published_at": "2026-04-23T14:43:13Z",
+      "text": ""
+    },
+    "5198108008": {
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198108008",
+      "hash": "82b6a206d9b07d46",
+      "summary": "",
+      "published_at": "2026-04-23T14:35:36Z",
       "text": ""
     },
     "5438030008": {
@@ -3660,14 +3716,6 @@
       "published_at": "2026-06-02T09:45:01Z",
       "text": ""
     },
-    "5414793008": {
-      "title": "Sales Strategy, Operational Excellence",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5414793008",
-      "hash": "9c5f8f0f8007d8a4",
-      "summary": "",
-      "published_at": "2026-09-03T23:18:08Z",
-      "text": ""
-    },
     "5414608008": {
       "title": "Sanctions Compliance Lead",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5414608008",
@@ -3714,6 +3762,14 @@
       "hash": "d1b1a974f8f2e41c",
       "summary": "",
       "published_at": "2026-09-09T03:51:37Z",
+      "text": ""
+    },
+    "5458420008": {
+      "title": "Security Engineer / Research Engineer, RL Security",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458420008",
+      "hash": "7388059a85703922",
+      "summary": "",
+      "published_at": "2026-10-20T23:17:54Z",
       "text": ""
     },
     "5195705008": {
@@ -3916,20 +3972,20 @@
       "published_at": "2025-10-03T20:56:03Z",
       "text": ""
     },
-    "5400160008": {
-      "title": "Software Engineer, Business Technology",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400160008",
-      "hash": "2f62519ec29690eb",
-      "summary": "",
-      "published_at": "2026-08-24T20:50:24Z",
-      "text": ""
-    },
     "5400153008": {
       "title": "Software Engineer, Business Technology",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400153008",
       "hash": "2f62519ec29690eb",
       "summary": "",
       "published_at": "2026-08-24T20:45:36Z",
+      "text": ""
+    },
+    "5400160008": {
+      "title": "Software Engineer, Business Technology",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5400160008",
+      "hash": "2f62519ec29690eb",
+      "summary": "",
+      "published_at": "2026-08-24T20:50:24Z",
       "text": ""
     },
     "5389305008": {
@@ -4036,20 +4092,20 @@
       "published_at": "2026-07-10T19:05:32Z",
       "text": ""
     },
-    "5139038008": {
-      "title": "Staff Engineer, Datacenter Server Lifecycle",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139038008",
-      "hash": "276f0760868f03f1",
-      "summary": "",
-      "published_at": "2026-03-11T16:27:15Z",
-      "text": ""
-    },
     "5309917008": {
       "title": "Staff Engineer, Datacenter Server Lifecycle",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5309917008",
       "hash": "276f0760868f03f1",
       "summary": "",
       "published_at": "2026-07-09T15:55:50Z",
+      "text": ""
+    },
+    "5139038008": {
+      "title": "Staff Engineer, Datacenter Server Lifecycle",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5139038008",
+      "hash": "276f0760868f03f1",
+      "summary": "",
+      "published_at": "2026-03-11T16:27:15Z",
       "text": ""
     },
     "5449229008": {
@@ -4476,20 +4532,20 @@
       "published_at": "2026-07-23T17:41:31Z",
       "text": ""
     },
-    "5150472008": {
-      "title": "Staff Software Engineer, Inference",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
-      "hash": "240639a280a64eca",
-      "summary": "",
-      "published_at": "2026-03-11T15:14:30Z",
-      "text": ""
-    },
     "5097742008": {
       "title": "Staff Software Engineer, Inference",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
       "hash": "240639a280a64eca",
       "summary": "",
       "published_at": "2026-02-02T14:58:04Z",
+      "text": ""
+    },
+    "5150472008": {
+      "title": "Staff Software Engineer, Inference",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5150472008",
+      "hash": "240639a280a64eca",
+      "summary": "",
+      "published_at": "2026-03-11T15:14:30Z",
       "text": ""
     },
     "5257650008": {
@@ -4636,20 +4692,20 @@
       "published_at": "2026-08-20T15:55:18Z",
       "text": ""
     },
-    "5392335008": {
-      "title": "Staff+ Software Engineer, Platform Ecosystem",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5392335008",
-      "hash": "7448d94237db8a3a",
-      "summary": "",
-      "published_at": "2026-08-15T20:10:51Z",
-      "text": ""
-    },
     "5397131008": {
       "title": "Staff+ Software Engineer, Platform Portability",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5397131008",
       "hash": "1df5fe42eb0ebf2b",
       "summary": "",
       "published_at": "2026-08-20T17:13:40Z",
+      "text": ""
+    },
+    "5458794008": {
+      "title": "Staff+ Software Engineer, Platform Safety",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458794008",
+      "hash": "22f120475fba97ba",
+      "summary": "",
+      "published_at": "2026-10-20T18:30:27Z",
       "text": ""
     },
     "5383114008": {
@@ -4730,6 +4786,14 @@
       "hash": "99f9787e4b37c5f6",
       "summary": "",
       "published_at": "2026-09-18T19:41:44Z",
+      "text": ""
+    },
+    "5458044008": {
+      "title": "Staff+ Software Engineer, VectorDB",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458044008",
+      "hash": "d5b5797e3cb02c52",
+      "summary": "",
+      "published_at": "2026-10-20T06:30:45Z",
       "text": ""
     },
     "5022845008": {
@@ -4996,20 +5060,20 @@
       "published_at": "2026-01-14T04:58:23Z",
       "text": ""
     },
-    "5017903008": {
-      "title": "Technical Deployment Lead",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017903008",
-      "hash": "02b7aa5ae88f041b",
-      "summary": "",
-      "published_at": "2025-12-04T15:12:44Z",
-      "text": ""
-    },
     "5391108008": {
       "title": "Technical Deployment Lead",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391108008",
       "hash": "02b7aa5ae88f041b",
       "summary": "",
       "published_at": "2026-08-19T12:26:57Z",
+      "text": ""
+    },
+    "5017903008": {
+      "title": "Technical Deployment Lead",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5017903008",
+      "hash": "02b7aa5ae88f041b",
+      "summary": "",
+      "published_at": "2025-12-04T15:12:44Z",
       "text": ""
     },
     "5256303008": {
@@ -6053,7 +6117,23 @@
     "5457043008",
     "5448194008",
     "5456481008",
-    "5456453008"
+    "5456453008",
+    "5459016008",
+    "5063099008",
+    "5161402008",
+    "5440855008",
+    "5443875008",
+    "5163060008",
+    "5454518008",
+    "5452859008",
+    "5458322008",
+    "5454442008",
+    "5456812008",
+    "5454142008",
+    "5409299008",
+    "5458420008",
+    "5458794008",
+    "5458044008"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/anthropic/jobs|2000|None"
 }

@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-19T23:45:43.474839Z",
-  "etag": "W/\"3a839cb5424dce994367912615f086906bc1b43fdb181191a721ebae54f106b4\"",
+  "taken_at": "2026-10-20T23:43:00.723091Z",
+  "etag": "W/\"163f3c8d5bcd8e7e5d29b26cd8a7ce0996d8565fd00f73db1c0a09f19845afdc\"",
   "last_modified": null,
   "items": {
+    "418781864": {
+      "title": "v2.1.305",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "hash": "18ac51c4f4ec515d",
+      "summary": "## What's changed\n- Added `sandbox.allowNestedUserNamespaces` so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections\n- Added `CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS` so unattended retry mode (`CLAUDE_CODE_RETRY_WATCHDOG`) notices a usage limit that was lifted before its reset\n- Fixed every request failing on Vertex, Bedrock and other providers when the endpoint or a gateway rejects tool search, and behind gateways with ToolSearch disallowed or left out of `--tools` (a 2.1.304 regression): Claud…",
+      "published_at": "2026-10-20T20:46:50Z",
+      "text": ""
+    },
     "417677344": {
       "title": "v2.1.304",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added `x-claude-code-request-class`, `x-claude-code-agent-type`, `x-claude-code-prev-tool-durations`, `x-claude-code-compaction` and `x-claude-code-context-compacted` request headers for LLM gateways; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added a notification when an MCP server disconnects mid-session and automatic reconnection gives up, pointing at `/mcp`\n- Added forking a session started with `claude --remote-control` or `/remote-control` from the Claude app; the fork runs as a background session on your computer\n- Fixed Bash commands the permission checker…",
       "published_at": "2026-09-15T20:23:03Z",
       "text": ""
-    },
-    "388773284": {
-      "title": "v2.1.272",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
-      "hash": "853a1a3f6a005fed",
-      "summary": "## What's changed\n- Bug fixes and reliability improvements",
-      "published_at": "2026-09-15T00:42:25Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -281,7 +281,8 @@
     "413913133",
     "415177347",
     "416715237",
-    "417677344"
+    "417677344",
+    "418781864"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

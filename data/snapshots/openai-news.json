@@ -1,9 +1,25 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-19T23:46:19.054607Z",
+  "taken_at": "2026-10-20T23:43:37.287872Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/ted-taylor-restaurant": {
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "hash": "3a35e832a2aeecbd",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "published_at": "2026-10-20T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/openai-to-acquire-orchestra-bio": {
+      "title": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "hash": "f3da8ec167e76abe",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "published_at": "2026-10-20T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/low-resource-programming-languages": {
       "title": "Advancing coding in low‐resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
@@ -20,19 +36,19 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "hash": "e1cf64513aeccdf6",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/benefit-street-partners": {
       "title": "Benefit Street Partners answers questions faster with Codex",
       "url": "https://openai.com/index/benefit-street-partners",
       "hash": "6bacae7e0cb9e78d",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "e1cf64513aeccdf6",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -332,19 +348,19 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/form/codex-originals": {
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "hash": "ed740364360408d9",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/basis-tax-workbook-with-astra": {
       "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
       "hash": "a7c7b55ccea50710",
       "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/form/codex-originals": {
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "hash": "ed740364360408d9",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
@@ -396,14 +412,6 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/sam-altman-un-security-council-remarks": {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "hash": "83081a9de90b1a9e",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
@@ -417,6 +425,14 @@
       "url": "https://openai.com/index/ringg",
       "hash": "6410611bf04e572d",
       "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/sam-altman-un-security-council-remarks": {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "hash": "83081a9de90b1a9e",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -660,19 +676,19 @@
       "published_at": "2026-09-10T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "hash": "b4677d9fd6e8ac55",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "published_at": "2026-09-10T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
       "title": "Build more natural voice experiences with GPT‐Live‐1 in the API",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
       "hash": "44d33d26a9fc4f01",
       "summary": "GPT‐Live‐1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "published_at": "2026-09-10T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-the-agents-api": {
+      "title": "Introducing the Agents API",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "hash": "b4677d9fd6e8ac55",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
       "published_at": "2026-09-10T00:00:00Z",
       "text": ""
     },
@@ -786,22 +802,6 @@
       "hash": "e9dc10f7c7653aa5",
       "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
       "published_at": "2026-09-03T13:15:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/legora-financial-statement-review-with-astra": {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "hash": "a5d6574ddf8bf505",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "published_at": "2026-09-03T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/playco-game-prototyping-with-astra": {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "hash": "2d8027b10a3085c3",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "published_at": "2026-09-03T12:00:00Z",
       "text": ""
     }
   },
@@ -918,7 +918,9 @@
     "https://openai.com/index/stack-overflow-chatgpt-plugin",
     "https://openai.com/index/sullivan-cromwell",
     "https://openai.com/index/benefit-street-partners",
-    "https://openai.com/index/low-resource-programming-languages"
+    "https://openai.com/index/low-resource-programming-languages",
+    "https://openai.com/index/ted-taylor-restaurant",
+    "https://openai.com/index/openai-to-acquire-orchestra-bio"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

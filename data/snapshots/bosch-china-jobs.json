@@ -1,9 +1,145 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-20T23:43:10.415433Z",
+  "taken_at": "2026-10-21T23:45:48.086171Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000156822100": {
+      "title": "高级计划工程师Senior Planning Engineer",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156822100",
+      "hash": "f699673a993a067f",
+      "summary": "",
+      "published_at": "2026-10-21T14:27:22.679000Z",
+      "text": ""
+    },
+    "744000156817819": {
+      "title": "电子系统工程师Electronics System Engineer_PS-TS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156817819",
+      "hash": "ab7c4a9ff41ae7e9",
+      "summary": "",
+      "published_at": "2026-10-21T14:14:05.350000Z",
+      "text": ""
+    },
+    "744000156809699": {
+      "title": "电机机械设计工程师CA Designer_EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156809699",
+      "hash": "6f6b84c442334ace",
+      "summary": "",
+      "published_at": "2026-10-21T13:44:51.716000Z",
+      "text": ""
+    },
+    "744000156801639": {
+      "title": "高级基础软件开发工程师 (技术骨干)_SO",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156801639",
+      "hash": "ee4b975a16342915",
+      "summary": "",
+      "published_at": "2026-10-21T13:18:26.137000Z",
+      "text": ""
+    },
+    "744000156799181": {
+      "title": "创新项目与工程战略运营_SO",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156799181",
+      "hash": "d7a6810168dd3372",
+      "summary": "",
+      "published_at": "2026-10-21T13:15:36.322000Z",
+      "text": ""
+    },
+    "744000156756309": {
+      "title": "新项目投产工程师_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156756309",
+      "hash": "24ccaaec09d63221",
+      "summary": "",
+      "published_at": "2026-10-21T09:39:06.860000Z",
+      "text": ""
+    },
+    "744000156750938": {
+      "title": "数控磨削设备调机员_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156750938",
+      "hash": "efb08195ff93945c",
+      "summary": "",
+      "published_at": "2026-10-21T09:14:10.360000Z",
+      "text": ""
+    },
+    "744000156741049": {
+      "title": "资深过程质量工程师 PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156741049",
+      "hash": "9cb0ce9ce3e34418",
+      "summary": "",
+      "published_at": "2026-10-21T08:31:06.314000Z",
+      "text": ""
+    },
+    "744000156711649": {
+      "title": "项目管理 (非标设备)_BMG",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156711649",
+      "hash": "0d360e6e42390159",
+      "summary": "",
+      "published_at": "2026-10-21T05:26:57.940000Z",
+      "text": ""
+    },
+    "744000156711579": {
+      "title": "SMT Equipment Engineer_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156711579",
+      "hash": "6fdfa4622ec742e9",
+      "summary": "",
+      "published_at": "2026-10-21T05:26:38.693000Z",
+      "text": ""
+    },
+    "744000156711419": {
+      "title": "ADAS HIL仿真测试工程师_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156711419",
+      "hash": "96efa387afcdd6f2",
+      "summary": "",
+      "published_at": "2026-10-21T05:23:45.257000Z",
+      "text": ""
+    },
+    "744000156706969": {
+      "title": "软件项目管理/SW PCM_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156706969",
+      "hash": "15b54d50dacb8853",
+      "summary": "",
+      "published_at": "2026-10-21T03:55:05.463000Z",
+      "text": ""
+    },
+    "744000156703829": {
+      "title": "Startup Venture Expert CN_CR",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156703829",
+      "hash": "6d3447f32438b23a",
+      "summary": "",
+      "published_at": "2026-10-21T02:42:29.933000Z",
+      "text": ""
+    },
+    "744000156529379": {
+      "title": "Supplier Quality Manager_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156529379",
+      "hash": "b72109057f1f7e1b",
+      "summary": "",
+      "published_at": "2026-10-20T11:15:49.141000Z",
+      "text": ""
+    },
+    "744000156525323": {
+      "title": "Warranty Claim Manager_DCCS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156525323",
+      "hash": "733b796cd3d43c36",
+      "summary": "",
+      "published_at": "2026-10-20T10:58:29.993000Z",
+      "text": ""
+    },
+    "744000156526019": {
+      "title": "工艺开发项目管理_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156526019",
+      "hash": "a31d8cc8beebe6b8",
+      "summary": "",
+      "published_at": "2026-10-20T10:55:08.007000Z",
+      "text": ""
+    },
+    "744000156511295": {
+      "title": "2026 XC-CP秋招",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156511295",
+      "hash": "5540d2b835861ef3",
+      "summary": "",
+      "published_at": "2026-10-20T09:44:22.874000Z",
+      "text": ""
+    },
     "744000156488759": {
       "title": "计算机视觉工程师_SO",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156488759",
@@ -52,12 +188,28 @@
       "published_at": "2026-10-20T05:40:35.321000Z",
       "text": ""
     },
+    "744000156465219": {
+      "title": "Production Manager_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156465219",
+      "hash": "04784440bff0f9c1",
+      "summary": "",
+      "published_at": "2026-10-20T05:34:37.601000Z",
+      "text": ""
+    },
     "744000156463929": {
       "title": "CNC 数控铣床技工",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156463929",
       "hash": "5d4758538ffb7b35",
       "summary": "",
       "published_at": "2026-10-20T05:03:53.035000Z",
+      "text": ""
+    },
+    "744000156460669": {
+      "title": "Application Engineer for 48V area",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156460669",
+      "hash": "d6f36d855626ac35",
+      "summary": "",
+      "published_at": "2026-10-20T03:55:00.306000Z",
       "text": ""
     },
     "744000156459439": {
@@ -82,6 +234,14 @@
       "hash": "ff2ae8866e827ef7",
       "summary": "",
       "published_at": "2026-10-20T03:09:02.924000Z",
+      "text": ""
+    },
+    "744000156457960": {
+      "title": "Commercial Buyer(Stamping Parts)_ M",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156457960",
+      "hash": "ec589e774a2f2de1",
+      "summary": "",
+      "published_at": "2026-10-20T02:58:30.079000Z",
       "text": ""
     },
     "744000156457429": {
@@ -746,14 +906,6 @@
       "hash": "fedad75909100e92",
       "summary": "",
       "published_at": "2026-09-28T05:19:38.640000Z",
-      "text": ""
-    },
-    "744000152059723": {
-      "title": "Process Improvement Engineer",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152059723",
-      "hash": "a9af1cfd86997f62",
-      "summary": "",
-      "published_at": "2026-09-28T01:25:55.980000Z",
       "text": ""
     },
     "744000152043549": {
@@ -1916,14 +2068,6 @@
       "published_at": "2026-08-28T09:22:50.795000Z",
       "text": ""
     },
-    "744000146134279": {
-      "title": "电子系统工程师TS Electronics System Engineer_PS-TS",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146134279",
-      "hash": "b5426557c6fc0edd",
-      "summary": "",
-      "published_at": "2026-08-28T08:10:33.222000Z",
-      "text": ""
-    },
     "744000146115606": {
       "title": "E-Drive System Calibration Engineer_EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146115606",
@@ -2178,14 +2322,6 @@
       "hash": "7ae043d22f5f6c2c",
       "summary": "",
       "published_at": "2026-08-21T09:14:20.016000Z",
-      "text": ""
-    },
-    "744000144704589": {
-      "title": "电机机械设计师_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000144704589",
-      "hash": "b8b9916f2cbc3f6c",
-      "summary": "",
-      "published_at": "2026-08-21T07:47:35.782000Z",
       "text": ""
     },
     "744000144689399": {
@@ -2612,14 +2748,6 @@
       "published_at": "2026-08-13T09:21:03.204000Z",
       "text": ""
     },
-    "744000143254289": {
-      "title": "Startup Venture Expert CN_CR",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000143254289",
-      "hash": "6d3447f32438b23a",
-      "summary": "",
-      "published_at": "2026-08-13T08:17:17.727000Z",
-      "text": ""
-    },
     "744000143250424": {
       "title": "GL Accountant_GS",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000143250424",
@@ -2714,14 +2842,6 @@
       "hash": "862cf9f690e1cbe4",
       "summary": "",
       "published_at": "2026-08-11T07:24:42.511000Z",
-      "text": ""
-    },
-    "744000142795965": {
-      "title": "电机机械设计工程师CA Designer_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142795965",
-      "hash": "6f6b84c442334ace",
-      "summary": "",
-      "published_at": "2026-08-11T06:42:49.364000Z",
       "text": ""
     },
     "744000142793490": {
@@ -3244,22 +3364,6 @@
       "published_at": "2026-07-29T16:15:07.216000Z",
       "text": ""
     },
-    "744000140437779": {
-      "title": "Product Manager position for Car Care _ MA",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140437779",
-      "hash": "b02a58cde36cf873",
-      "summary": "",
-      "published_at": "2026-07-29T11:04:41.719000Z",
-      "text": ""
-    },
-    "744000140428579": {
-      "title": "应用设计工程师Application Engineer_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140428579",
-      "hash": "9c0e6844b65cfa82",
-      "summary": "",
-      "published_at": "2026-07-29T09:57:57.174000Z",
-      "text": ""
-    },
     "744000140422995": {
       "title": "Mechanical Design Engineer_ME",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140422995",
@@ -3370,14 +3474,6 @@
       "hash": "541fc8eaa3958314",
       "summary": "",
       "published_at": "2026-07-28T03:45:25.730000Z",
-      "text": ""
-    },
-    "744000140144869": {
-      "title": "电机可靠性工程师V&V Engineer_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140144869",
-      "hash": "1274b688570c6641",
-      "summary": "",
-      "published_at": "2026-07-28T03:42:29.896000Z",
       "text": ""
     },
     "744000139988330": {
@@ -4212,14 +4308,6 @@
       "published_at": "2026-07-01T12:55:11.031000Z",
       "text": ""
     },
-    "744000135242329": {
-      "title": "高级计划工程师Senior Planning Engineer",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135242329",
-      "hash": "f699673a993a067f",
-      "summary": "",
-      "published_at": "2026-07-01T11:39:12.795000Z",
-      "text": ""
-    },
     "744000135234709": {
       "title": "ADAS软件架构师_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135234709",
@@ -4290,14 +4378,6 @@
       "hash": "9bebcccb17b68dbe",
       "summary": "",
       "published_at": "2026-07-01T05:50:49.172000Z",
-      "text": ""
-    },
-    "744000135166705": {
-      "title": "Planning Engineer",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135166705",
-      "hash": "9e240844ef3d5e85",
-      "summary": "",
-      "published_at": "2026-07-01T04:58:16.644000Z",
       "text": ""
     },
     "744000135157215": {
@@ -4378,14 +4458,6 @@
       "hash": "bf88288c29f55a59",
       "summary": "",
       "published_at": "2026-06-29T08:17:38.289000Z",
-      "text": ""
-    },
-    "744000134723409": {
-      "title": "高级基础软件开发工程师 (技术骨干)_VM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000134723409",
-      "hash": "e0295ec8a5906d2c",
-      "summary": "",
-      "published_at": "2026-06-29T08:16:58.562000Z",
       "text": ""
     },
     "744000134689229": {
@@ -5482,14 +5554,6 @@
       "hash": "8deb4f512a29c662",
       "summary": "",
       "published_at": "2026-05-21T12:34:49.957000Z",
-      "text": ""
-    },
-    "744000127635521": {
-      "title": "电机机械设计工程师_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000127635521",
-      "hash": "0a4e5c7aad8b2ad7",
-      "summary": "",
-      "published_at": "2026-05-21T10:29:43.542000Z",
       "text": ""
     },
     "744000127615894": {
@@ -8180,14 +8244,6 @@
       "published_at": "2026-01-22T04:53:51.362000Z",
       "text": ""
     },
-    "744000104652535": {
-      "title": "技术项目经理TPM_泊车",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000104652535",
-      "hash": "a4076de82d3d5a90",
-      "summary": "",
-      "published_at": "2026-01-21T10:25:06.047000Z",
-      "text": ""
-    },
     "744000104613407": {
       "title": "软件项目经理PCM_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000104613407",
@@ -8468,14 +8524,6 @@
       "published_at": "2025-12-26T03:15:13.738000Z",
       "text": ""
     },
-    "744000100610912": {
-      "title": "Hardware Engineer",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000100610912",
-      "hash": "2c38c8f19f594c63",
-      "summary": "",
-      "published_at": "2025-12-26T03:14:06.141000Z",
-      "text": ""
-    },
     "744000100608703": {
       "title": "智能驾驶解决方案经理_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000100608703",
@@ -8490,14 +8538,6 @@
       "hash": "45f5f5ac91a0cc28",
       "summary": "",
       "published_at": "2025-12-26T03:08:58.970000Z",
-      "text": ""
-    },
-    "744000100600166": {
-      "title": "行车系统工程师_XC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000100600166",
-      "hash": "1acda343a5a3e182",
-      "summary": "",
-      "published_at": "2025-12-26T02:56:48.397000Z",
       "text": ""
     },
     "744000100482718": {
@@ -8682,14 +8722,6 @@
       "hash": "aa563bc01225ab28",
       "summary": "",
       "published_at": "2025-12-15T03:11:17.595000Z",
-      "text": ""
-    },
-    "744000098588795": {
-      "title": "Sr.System Engineer_XC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000098588795",
-      "hash": "fb2c0cbaa13840f4",
-      "summary": "",
-      "published_at": "2025-12-12T08:18:11.022000Z",
       "text": ""
     },
     "744000098289910": {
@@ -12009,7 +12041,27 @@
     "744000156457429",
     "744000156457389",
     "744000156456799",
-    "744000156455839"
+    "744000156455839",
+    "744000156822100",
+    "744000156817819",
+    "744000156809699",
+    "744000156801639",
+    "744000156799181",
+    "744000156756309",
+    "744000156750938",
+    "744000156741049",
+    "744000156711649",
+    "744000156711579",
+    "744000156711419",
+    "744000156706969",
+    "744000156703829",
+    "744000156529379",
+    "744000156525323",
+    "744000156526019",
+    "744000156511295",
+    "744000156465219",
+    "744000156460669",
+    "744000156457960"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

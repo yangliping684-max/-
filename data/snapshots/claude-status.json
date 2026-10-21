@@ -1,9 +1,17 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-10-20T23:43:47.672749Z",
-  "etag": "W/\"81a2fe7021b2ab0eabd39384d89d224a\"",
+  "taken_at": "2026-10-21T23:46:25.699372Z",
+  "etag": "W/\"26676fe1eecc2b7a191501822a6ae86e\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/njk29r81v3wg": {
+      "title": "Degraded performance for Claude Fable 5",
+      "url": "https://status.claude.com/incidents/njk29r81v3wg",
+      "hash": "26194d40abb04837",
+      "summary": "Oct 21 , 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will provide an update as soon as possible.",
+      "published_at": "2026-10-21T20:29:17Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/978mjkgw6mh7": {
       "title": "Elevated errors on platform.claude.com",
       "url": "https://status.claude.com/incidents/978mjkgw6mh7",
@@ -195,14 +203,6 @@
       "summary": "Aug 24 , 17:16 UTC Resolved - This issue has been resolved. Aug 24 , 17:12 UTC Investigating - From 9:02–9:08am PT / 16:02–16:08 UTC) users experienced issues when logging into Claude.ai, including for connecting Claude Code with subscription. At this time, this issue has been resolved, but we are continuing to investigate a potential issue impacting users of the Claude.ai desktop application.",
       "published_at": "2026-08-24T17:16:02Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/vgz5psbjmt1h": {
-      "title": "Elevated errors for multiple models",
-      "url": "https://status.claude.com/incidents/vgz5psbjmt1h",
-      "hash": "201b89c0ae9d4e5b",
-      "summary": "Aug 24 , 08:30 UTC Resolved - This issue has been resolved. From 9:50pm PT / 04:50 UTC through 00:36am PT / 07:36 UTC, users saw elevated errors on requests to Claude models, including Claude Opus 5 and Fable 5. Aug 24 , 07:47 UTC Update - At this time, we have seen errors stabilize on Opus 5 and Fable 5, and are working to fully resolve success rates on all affected models. We will provide an update as soon as possible. Aug 24 , 06:42 UTC Update - We are continuing to work to resolve issues causing elevated requests on multiple models. We will provide an update as soon as possible. Aug 24 ,…",
-      "published_at": "2026-08-24T08:30:47Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -230,7 +230,8 @@
     "https://status.claude.com/incidents/vr9tpk8w7zr8",
     "https://status.claude.com/incidents/n0rlp126qf8g",
     "https://status.claude.com/incidents/w43j3xmngxgj",
-    "https://status.claude.com/incidents/vgz5psbjmt1h"
+    "https://status.claude.com/incidents/vgz5psbjmt1h",
+    "https://status.claude.com/incidents/njk29r81v3wg"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

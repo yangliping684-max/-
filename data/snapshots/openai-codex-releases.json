@@ -1,9 +1,25 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-10-20T23:43:46.594158Z",
-  "etag": "W/\"c479a9ec50d50c777520866bda89b016ef4036d0e173172d431573201080702e\"",
+  "taken_at": "2026-10-21T23:46:23.643956Z",
+  "etag": "W/\"9766df67f266e16d91a0564c9c336eaf74ef17bec0d531be8ca1f0a73182f5fb\"",
   "last_modified": null,
   "items": {
+    "419641797": {
+      "title": "0.164.0-alpha.9 (rust-v0.164.0-alpha.9)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.9",
+      "hash": "dcb4cb55330d5f6f",
+      "summary": "Release 0.164.0-alpha.9",
+      "published_at": "2026-10-21T14:12:01Z",
+      "text": ""
+    },
+    "420110436": {
+      "title": "0.163.0-alpha.11.1 (rust-v0.163.0-alpha.11.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11.1",
+      "hash": "cc7a8bb2afe027ee",
+      "summary": "Release 0.163.0-alpha.11.1",
+      "published_at": "2026-10-21T22:18:14Z",
+      "text": ""
+    },
     "418935772": {
       "title": "0.164.0-alpha.8 (rust-v0.164.0-alpha.8)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8",
@@ -27,22 +43,6 @@
       "summary": "Release 0.164.0-alpha.6",
       "published_at": "2026-10-19T22:48:51Z",
       "text": ""
-    },
-    "417385173": {
-      "title": "0.164.0-alpha.5 (rust-v0.164.0-alpha.5)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
-      "hash": "f451aadf08f0c45a",
-      "summary": "Release 0.164.0-alpha.5",
-      "published_at": "2026-10-19T14:23:35Z",
-      "text": ""
-    },
-    "417175014": {
-      "title": "0.164.0-alpha.4 (rust-v0.164.0-alpha.4)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
-      "hash": "7e96c0a0861a8acb",
-      "summary": "Release 0.164.0-alpha.4",
-      "published_at": "2026-10-19T10:42:34Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -65,7 +65,9 @@
     "417385173",
     "417175014",
     "418935772",
-    "418453117"
+    "418453117",
+    "419641797",
+    "420110436"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

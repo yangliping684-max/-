@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-20T23:42:55.519457Z",
-  "etag": "W/\"151767-42rsNajGu/y1H93BWrJMBthMUaQ\"",
+  "taken_at": "2026-10-21T23:45:24.137519Z",
+  "etag": "W/\"15225d-B3j2EEc9JxYGiad+d8Qki/FVEkQ\"",
   "last_modified": null,
   "items": {
     "7bda3069-d97c-4a69-bd06-091e1ec081a7": {
@@ -298,14 +298,6 @@
       "hash": "b52b83166c250291",
       "summary": "",
       "published_at": "2026-09-17T01:37:09.761000Z",
-      "text": ""
-    },
-    "28f56d3f-4364-446b-91fa-80d2790f41c5": {
-      "title": "Business Development Associate (Outbound Sales)",
-      "url": "https://jobs.lever.co/lalamove/28f56d3f-4364-446b-91fa-80d2790f41c5",
-      "hash": "b52b83166c250291",
-      "summary": "",
-      "published_at": "2026-09-17T01:38:23.345000Z",
       "text": ""
     },
     "d41bc669-cd91-493a-a100-bf0ca02ffb3c": {
@@ -1252,6 +1244,14 @@
       "published_at": "2026-10-07T05:00:37.783000Z",
       "text": ""
     },
+    "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf": {
+      "title": "Training & Quality Analyst",
+      "url": "https://jobs.lever.co/lalamove/0a768f98-031b-4fd3-bb2d-54fdcf41dbcf",
+      "hash": "0c898e2c31b68e7f",
+      "summary": "",
+      "published_at": "2026-10-21T21:37:24.711000Z",
+      "text": ""
+    },
     "7ea5c6a8-dac8-4eaa-a3ba-594094fd1aa9": {
       "title": "Training Associate, Driver Operations",
       "url": "https://jobs.lever.co/lalamove/7ea5c6a8-dac8-4eaa-a3ba-594094fd1aa9",
@@ -1485,7 +1485,8 @@
     "019f15f2-be64-4b53-899e-227b55fc960a",
     "eb704692-6154-4bcc-8ccb-a01af32832b7",
     "84b51706-a458-4dd6-b0c8-42a459292805",
-    "c21460a4-9dfb-4317-8f4d-b320789a5a95"
+    "c21460a4-9dfb-4317-8f4d-b320789a5a95",
+    "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

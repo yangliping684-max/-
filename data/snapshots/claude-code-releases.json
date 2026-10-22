@@ -1,9 +1,25 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-21T23:45:38.976407Z",
-  "etag": "W/\"6d29041598ec2c7a2c82c23e599317e88c91288f46213e2fb053b7ba3cad71ff\"",
+  "taken_at": "2026-10-22T23:43:34.915107Z",
+  "etag": "W/\"883c24986d5db17c11ef3529ea68265e6c05d40ea4c9eae317ef54f6cb8ae8d9\"",
   "last_modified": null,
   "items": {
+    "421170674": {
+      "title": "v2.1.309",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+      "hash": "6c86e6e23c383f9c",
+      "summary": "## What's changed\n- Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command\n- Fixed macOS sandbox `denyWrite` glob patterns not applying at a path's real location when the pattern's folder is reached through a symlink\n- Fixed sandboxed commands and auto-accepted edits being able to modify the MCP config file passed with `--mcp-config`\n- Fixed a disabled MCP server being reconnected by a later permission prompt in print and SDK sessions\n- Fixed the Bash permission check trusting a variable set by a command whose redirect can fa…",
+      "published_at": "2026-10-22T22:18:57Z",
+      "text": ""
+    },
+    "420299398": {
+      "title": "v2.1.308",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+      "hash": "4be7b707a2d57f83",
+      "summary": "## What's changed\n- Bug fixes and reliability improvements",
+      "published_at": "2026-10-22T04:34:55Z",
+      "text": ""
+    },
     "420041378": {
       "title": "v2.1.307",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
@@ -227,22 +243,6 @@
       "summary": "## What's changed\n- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an optional `headers:` map on Claude apps gateway upstreams, to send static headers to a proxy you run in front of a provider\n- Added a line saying a background task's update is waiting…",
       "published_at": "2026-09-18T18:06:32Z",
       "text": ""
-    },
-    "391158184": {
-      "title": "v2.1.276",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-      "hash": "07823b3b2d81e0c1",
-      "summary": "## What's changed\n- Fixed every request failing with `400 ... Input tag 'advisor_20260301'` when `ANTHROPIC_BASE_URL` points at a proxy or gateway (2.1.275 regression)",
-      "published_at": "2026-09-18T02:12:26Z",
-      "text": ""
-    },
-    "391032307": {
-      "title": "v2.1.275",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
-      "hash": "942aa66229cade47",
-      "summary": "## What's changed\n- Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and `/status` shows it\n- Added a send-now key (ctrl+enter, or ctrl+x ctrl+s) that interrupts the current turn and sends all queued messages at once; sent and queued messages show in gray until the model receives them\n- Added a startup warning when a configured `otelHeadersHelper` fails, so sessions that silently export no telemetry are noticed\n- Added syncing of the skills and plugins enabled on your claude.ai account to terminal sessions si…",
-      "published_at": "2026-09-17T22:33:17Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -284,7 +284,9 @@
     "417677344",
     "418781864",
     "420041378",
-    "419073006"
+    "419073006",
+    "421170674",
+    "420299398"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

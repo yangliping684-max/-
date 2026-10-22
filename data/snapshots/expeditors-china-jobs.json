@@ -1,9 +1,17 @@
 {
   "source_id": "expeditors-china-jobs",
-  "taken_at": "2026-10-19T23:45:31.508138Z",
+  "taken_at": "2026-10-22T23:43:22.101640Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000157038082": {
+      "title": "District Sales Executive/ Senior Sales Executive",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000157038082",
+      "hash": "d42b3ba5aeeed51e",
+      "summary": "",
+      "published_at": "2026-10-22T05:36:24.378000Z",
+      "text": ""
+    },
     "744000154922319": {
       "title": "Accounting Manager",
       "url": "https://jobs.smartrecruiters.com/Expeditors/744000154922319",
@@ -82,7 +90,8 @@
     "744000141165961",
     "744000138570569",
     "744000138445769",
-    "744000154922319"
+    "744000154922319",
+    "744000157038082"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Expeditors/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

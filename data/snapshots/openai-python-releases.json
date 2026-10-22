@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-21T23:45:39.727847Z",
-  "etag": "W/\"4ce5047d50a4b5b37ee2bdb9b35ae9dbe2322117521abc97ebf1267669f416c9\"",
+  "taken_at": "2026-10-22T23:43:35.505542Z",
+  "etag": "W/\"f475fd9576d351b9e5052d905a71fe89e1dd062deb545b771deb70093e2c4a30\"",
   "last_modified": null,
   "items": {
+    "421147654": {
+      "title": "v3.37.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.37.0",
+      "hash": "167c7f47afdf175c",
+      "summary": "## [3.37.0](https://github.com/openai/openai-python/compare/v3.36.1...v3.37.0) (2026-10-22)\n### ⚠ BREAKING CHANGES\n* **api:** This minor release includes a breaking change to Decisions types. In Live response models, question `instructions` can now be a string or a list of structured text, image, or JSON parts; check `isinstance(question.instructions, str)` before using string operations and handle the structured form. Decisions request input types also include additional message roles and tool-history items, so update exhaustive type checks accordingly. Existing string instructions and `Deci…",
+      "published_at": "2026-10-22T20:03:54Z",
+      "text": ""
+    },
+    "420278928": {
+      "title": "v3.36.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.36.1",
+      "hash": "576b1555b5cdfdc2",
+      "summary": "## [3.36.1](https://github.com/openai/openai-python/compare/v3.36.0...v3.36.1) (2026-10-22)\n### Bug Fixes\n* **api:** honor per-call WebSocket query settings ([#4138](https://github.com/openai/openai-python/issues/4138)) ([d40a5e1](https://github.com/openai/openai-python/commit/d40a5e1283e6d91ed4bebac6e569b27d5fe02c52))\n* **examples:** stop microphone capture between recordings ([#4143](https://github.com/openai/openai-python/issues/4143)) ([26e5d92](https://github.com/openai/openai-python/commit/26e5d926966fc5c7e688790b21d66dc08d35eceb))\n* validate browser calls before reading driver state ([…",
+      "published_at": "2026-10-22T03:32:31Z",
+      "text": ""
+    },
     "419755937": {
       "title": "v3.36.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.36.0",
@@ -227,22 +243,6 @@
       "summary": "## [3.16.0](https://github.com/openai/openai-python/compare/v3.15.0...v3.16.0) (2026-09-18)\n### Features\n* **api:** add webhook endpoint management ([#3892](https://github.com/openai/openai-python/issues/3892)) ([9a11f6e](https://github.com/openai/openai-python/commit/9a11f6e874292230633073fb64ea6202ad22a1df))\n### Chores\n* **api:** deprecate MCP connector_id ([#3894](https://github.com/openai/openai-python/issues/3894)) ([1ccaf07](https://github.com/openai/openai-python/commit/1ccaf07fb9a4d1a2be9d97c77604ce75214a9940))",
       "published_at": "2026-09-18T14:52:49Z",
       "text": ""
-    },
-    "391145104": {
-      "title": "v3.15.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.15.0",
-      "hash": "26aa5f8864242ec8",
-      "summary": "## [3.15.0](https://github.com/openai/openai-python/compare/v3.14.1...v3.15.0) (2026-09-18)\n### Features\n* **api:** add agent session model settings ([#3882](https://github.com/openai/openai-python/issues/3882)) ([4b15817](https://github.com/openai/openai-python/commit/4b1581771ea97c870187f6ddfc3dbc87ff4fa443))\n* **api:** add audio-mini model choices ([#3886](https://github.com/openai/openai-python/issues/3886)) ([a6eeb3f](https://github.com/openai/openai-python/commit/a6eeb3f5a468ec576d2c911c19ce59c56ac46e43))\n* **api:** add compaction progress events ([#3866](https://github.com/openai/opena…",
-      "published_at": "2026-09-18T00:52:15Z",
-      "text": ""
-    },
-    "389534885": {
-      "title": "v3.14.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.14.1",
-      "hash": "7a789f383df30942",
-      "summary": "## [3.14.1](https://github.com/openai/openai-python/compare/v3.14.0...v3.14.1) (2026-09-15)\n### Bug Fixes\n* **client:** validate retry limits and preserve application errors ([#3867](https://github.com/openai/openai-python/issues/3867)) ([f86c721](https://github.com/openai/openai-python/commit/f86c7214093038faa512bd4883558b093bdb8c9a))\n* correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message ([#3022](https://github.com/openai/openai-python/issues/3022)) ([7186203](https://github.com/openai/openai-python/commit/718620397c38a546d2cbbc964983c286db7abf97))\n* **examples:** correct Azure…",
-      "published_at": "2026-09-15T23:12:54Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -284,7 +284,9 @@
     "416043997",
     "415488315",
     "416162808",
-    "419755937"
+    "419755937",
+    "421147654",
+    "420278928"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

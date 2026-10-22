@@ -1,9 +1,25 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-21T23:46:14.747522Z",
+  "taken_at": "2026-10-22T23:44:11.163728Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/decisions-api": {
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "hash": "9441d647a5dd3c52",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "published_at": "2026-10-22T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/uber-chatgpt-work-rollout": {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "hash": "25a49db483064094",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "published_at": "2026-10-22T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/att-legal": {
       "title": "How AT&T is rethinking in-house legal work with OpenAI",
       "url": "https://openai.com/index/att-legal",
@@ -50,6 +66,14 @@
       "hash": "8b3470c18d895327",
       "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
       "published_at": "2026-10-21T04:50:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/cloudflare-cyber": {
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "url": "https://openai.com/index/cloudflare-cyber",
+      "hash": "cc3fe916c30e48a7",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "published_at": "2026-10-21T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/building-chatgpt-ad-stack": {
@@ -377,7 +401,7 @@
       "url": "https://openai.com/index/introducing-gpt-6-1-sol",
       "hash": "9543cb3701d28d29",
       "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "published_at": "2026-09-29T10:00:00Z",
+      "published_at": "2026-09-29T17:00:00Z",
       "text": ""
     },
     "https://openai.com/index/devday-2026-recap": {
@@ -476,22 +500,6 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "hash": "90e353bc716287ab",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sam-altman-un-security-council-remarks": {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
@@ -500,11 +508,27 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "hash": "90e353bc716287ab",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
       "title": "How invideo improves color grading 3x with GPT‐6 Astra",
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "hash": "090b4193dae2b85f",
       "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/ringg": {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "hash": "6410611bf04e572d",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -572,19 +596,19 @@
       "published_at": "2026-09-22T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "hash": "a60604a9ef8cc7e9",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published_at": "2026-09-21T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "hash": "a1dc241b1a01c5db",
       "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published_at": "2026-09-21T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "hash": "a60604a9ef8cc7e9",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "published_at": "2026-09-21T12:00:00Z",
       "text": ""
     },
@@ -779,30 +803,6 @@
       "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
       "published_at": "2026-09-09T11:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/paul-christiano-joins-openai-foundation-board": {
-      "title": "Paul Christiano joins OpenAI Foundation Board",
-      "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "hash": "83e5e685abc80f32",
-      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "published_at": "2026-09-09T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/codex-quantum-computing-experiments": {
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "url": "https://openai.com/index/codex-quantum-computing-experiments",
-      "hash": "316a334d5ffce092",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "published_at": "2026-09-08T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/the-work-now-within-reach": {
-      "title": "The Work Now Within Reach",
-      "url": "https://openai.com/index/the-work-now-within-reach",
-      "hash": "b8a8d7fb9e4aad08",
-      "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
-      "published_at": "2026-09-08T13:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -929,7 +929,10 @@
     "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
     "https://openai.com/index/building-chatgpt-ad-stack",
     "https://openai.com/index/empowering-cyber-defenders",
-    "https://openai.com/index/terminal-x"
+    "https://openai.com/index/terminal-x",
+    "https://openai.com/index/decisions-api",
+    "https://openai.com/index/uber-chatgpt-work-rollout",
+    "https://openai.com/index/cloudflare-cyber"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

@@ -1,9 +1,17 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-10-19T23:45:33.392910Z",
+  "taken_at": "2026-10-22T23:43:24.034290Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000157063947": {
+      "title": "Art Director [Art Team]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000157063947",
+      "hash": "4cb3cf48cdbfcb56",
+      "summary": "",
+      "published_at": "2026-10-22T08:17:08.654000Z",
+      "text": ""
+    },
     "744000156278649": {
       "title": "R&D Developer",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000156278649",
@@ -115,14 +123,6 @@
       "summary": "",
       "published_at": "2026-02-26T05:28:58.957000Z",
       "text": ""
-    },
-    "744000109660515": {
-      "title": "Art Director [Art Team]",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000109660515",
-      "hash": "4cb3cf48cdbfcb56",
-      "summary": "",
-      "published_at": "2026-02-17T08:45:04.287000Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -143,7 +143,8 @@
     "744000155789239",
     "744000155900379",
     "744000155900219",
-    "744000156278649"
+    "744000156278649",
+    "744000157063947"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

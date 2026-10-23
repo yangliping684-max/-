@@ -1,15 +1,47 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-22T23:44:11.163728Z",
+  "taken_at": "2026-10-23T23:44:09.883973Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "hash": "9b12cef715586326",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "published_at": "2026-10-23T17:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/securing-our-frontier-model-training-environment": {
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "hash": "889c2e4906ae0c4f",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "published_at": "2026-10-23T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "hash": "a6f23986ceee0b38",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "published_at": "2026-10-23T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/decisions-api": {
       "title": "Build more responsive apps with the Decisions API",
       "url": "https://openai.com/index/decisions-api",
       "hash": "9441d647a5dd3c52",
       "summary": "Fast, focused, low-cost decisions for any application.",
       "published_at": "2026-10-22T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/forward-deployed-engineering-means": {
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "hash": "27ed6e82f300e467",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "published_at": "2026-10-22T06:00:00Z",
       "text": ""
     },
     "https://openai.com/index/uber-chatgpt-work-rollout": {
@@ -500,6 +532,14 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/ringg": {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "hash": "6410611bf04e572d",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/sam-altman-un-security-council-remarks": {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
@@ -521,14 +561,6 @@
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "hash": "090b4193dae2b85f",
       "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -596,19 +628,19 @@
       "published_at": "2026-09-22T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "hash": "a1dc241b1a01c5db",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "published_at": "2026-09-21T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
       "title": "Advisory Group on Mathematics and Artificial Intelligence",
       "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
       "hash": "a60604a9ef8cc7e9",
       "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+      "published_at": "2026-09-21T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
+      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "hash": "a1dc241b1a01c5db",
+      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
       "published_at": "2026-09-21T12:00:00Z",
       "text": ""
     },
@@ -771,38 +803,6 @@
       "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
       "published_at": "2026-09-10T07:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/introducing-the-agents-api": {
-      "title": "Introducing the Agents API",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "hash": "b4677d9fd6e8ac55",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "published_at": "2026-09-10T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-gpt-live-1-in-the-api": {
-      "title": "Build more natural voice experiences with GPT‐Live‐1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "hash": "44d33d26a9fc4f01",
-      "summary": "GPT‐Live‐1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "published_at": "2026-09-10T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ai-policy-window": {
-      "title": "The AI policy window is open. We need to act.",
-      "url": "https://openai.com/index/ai-policy-window",
-      "hash": "725277bb0bace45c",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "published_at": "2026-09-09T13:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/gpt-6-astra-next-generation-work": {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "hash": "410c5609da63f1b9",
-      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "published_at": "2026-09-09T11:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -932,7 +932,11 @@
     "https://openai.com/index/terminal-x",
     "https://openai.com/index/decisions-api",
     "https://openai.com/index/uber-chatgpt-work-rollout",
-    "https://openai.com/index/cloudflare-cyber"
+    "https://openai.com/index/cloudflare-cyber",
+    "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+    "https://openai.com/index/securing-our-frontier-model-training-environment",
+    "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+    "https://openai.com/index/forward-deployed-engineering-means"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

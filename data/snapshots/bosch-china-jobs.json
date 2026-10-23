@@ -1,9 +1,25 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-22T23:43:44.249697Z",
+  "taken_at": "2026-10-23T23:43:43.028936Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000157399869": {
+      "title": "生产计划_PS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157399869",
+      "hash": "54c4fce4f61a8435",
+      "summary": "",
+      "published_at": "2026-10-23T07:22:44.588000Z",
+      "text": ""
+    },
+    "744000157260637": {
+      "title": "工程信息系统(EIS)协调员_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157260637",
+      "hash": "3187aca437b6840b",
+      "summary": "",
+      "published_at": "2026-10-23T01:20:27.617000Z",
+      "text": ""
+    },
     "744000157132429": {
       "title": "Hardware Engineer",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157132429",
@@ -1604,14 +1620,6 @@
       "published_at": "2026-09-10T03:08:21.581000Z",
       "text": ""
     },
-    "744000148460069": {
-      "title": "Power semiconductor product manager_RBCN/ME",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148460069",
-      "hash": "e6d72771e646bce3",
-      "summary": "",
-      "published_at": "2026-09-09T09:59:46.664000Z",
-      "text": ""
-    },
     "744000148452197": {
       "title": "Project Manager_DCCB",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000148452197",
@@ -2988,14 +2996,6 @@
       "published_at": "2026-08-11T05:17:36.456000Z",
       "text": ""
     },
-    "744000142589790": {
-      "title": "标定算法工程师_XC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142589790",
-      "hash": "0608b6fc9f81cafa",
-      "summary": "",
-      "published_at": "2026-08-10T09:10:56.690000Z",
-      "text": ""
-    },
     "744000142557799": {
       "title": "功能安全开发工程师(FUSA)_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142557799",
@@ -3426,14 +3426,6 @@
       "hash": "3151ef41cd17c733",
       "summary": "",
       "published_at": "2026-07-30T02:39:58.634000Z",
-      "text": ""
-    },
-    "744000140509190": {
-      "title": "Talent Acquisition Consultant_RBCN",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000140509190",
-      "hash": "43a71374860699f4",
-      "summary": "",
-      "published_at": "2026-07-29T16:15:07.216000Z",
       "text": ""
     },
     "744000140422995": {
@@ -4018,14 +4010,6 @@
       "hash": "96b79002c78c6688",
       "summary": "",
       "published_at": "2026-07-09T02:11:32.597000Z",
-      "text": ""
-    },
-    "744000136589961": {
-      "title": "ADAS功能交互HMI系统工程师_XC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000136589961",
-      "hash": "f2b0509342b25464",
-      "summary": "",
-      "published_at": "2026-07-09T01:19:48.138000Z",
       "text": ""
     },
     "744000136407441": {
@@ -4762,14 +4746,6 @@
       "hash": "88824c3cfac61733",
       "summary": "",
       "published_at": "2026-06-23T03:22:53.829000Z",
-      "text": ""
-    },
-    "744000133497254": {
-      "title": "三维重建算法工程师_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000133497254",
-      "hash": "f80f903dd058f22b",
-      "summary": "",
-      "published_at": "2026-06-23T02:39:43.575000Z",
       "text": ""
     },
     "744000133366374": {
@@ -5740,14 +5716,6 @@
       "published_at": "2026-05-18T08:27:38.063000Z",
       "text": ""
     },
-    "744000126913169": {
-      "title": "Power semiconductor application engineer_RBCN/ME",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126913169",
-      "hash": "2a2543e2f3b93814",
-      "summary": "",
-      "published_at": "2026-05-18T06:28:31.230000Z",
-      "text": ""
-    },
     "744000126904648": {
       "title": "底盘制动系统工程师_VM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126904648",
@@ -6050,14 +6018,6 @@
       "hash": "b0ca9b0649a85167",
       "summary": "",
       "published_at": "2026-05-13T09:02:25.828000Z",
-      "text": ""
-    },
-    "744000126258329": {
-      "title": "AIGC大模型算法工程师(自动驾驶方向)_XC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126258329",
-      "hash": "90b8a2df7865f1df",
-      "summary": "",
-      "published_at": "2026-05-13T08:54:14.009000Z",
       "text": ""
     },
     "744000126221270": {
@@ -6564,14 +6524,6 @@
       "published_at": "2026-05-06T12:04:23.459000Z",
       "text": ""
     },
-    "744000124836189": {
-      "title": "SAP实施顾问-仓储管理/Global Process Expert-SAP Warehouse Management_PT",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000124836189",
-      "hash": "fa904d3cc88cabb3",
-      "summary": "",
-      "published_at": "2026-05-06T08:36:18.764000Z",
-      "text": ""
-    },
     "744000124830699": {
       "title": "端到端算法开发_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000124830699",
@@ -7076,30 +7028,6 @@
       "published_at": "2026-04-09T07:41:38.849000Z",
       "text": ""
     },
-    "744000119529670": {
-      "title": "数据闭环算法开发_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000119529670",
-      "hash": "cbc89711e49fdcc9",
-      "summary": "",
-      "published_at": "2026-04-09T07:06:48.447000Z",
-      "text": ""
-    },
-    "744000119530317": {
-      "title": "端到端算法开发_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000119530317",
-      "hash": "d5f22a1270a8e25a",
-      "summary": "",
-      "published_at": "2026-04-09T06:55:40.478000Z",
-      "text": ""
-    },
-    "744000119529212": {
-      "title": "静态感知算法开发_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000119529212",
-      "hash": "ec9d06d8a5439f9a",
-      "summary": "",
-      "published_at": "2026-04-09T06:49:08.999000Z",
-      "text": ""
-    },
     "744000119513407": {
       "title": "ECU测试开发工程师_VM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000119513407",
@@ -7154,14 +7082,6 @@
       "hash": "d6a5fc47378b8397",
       "summary": "",
       "published_at": "2026-04-07T07:31:46.712000Z",
-      "text": ""
-    },
-    "744000119017277": {
-      "title": "AI大模型算法工程师/专家",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000119017277",
-      "hash": "32585c5b6f85fcfc",
-      "summary": "",
-      "published_at": "2026-04-07T02:53:10.441000Z",
       "text": ""
     },
     "744000118545447": {
@@ -12124,7 +12044,9 @@
     "744000156942478",
     "744000156941030",
     "744000156929362",
-    "744000156926710"
+    "744000156926710",
+    "744000157399869",
+    "744000157260637"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

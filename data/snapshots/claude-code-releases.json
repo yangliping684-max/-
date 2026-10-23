@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-22T23:43:34.915107Z",
-  "etag": "W/\"883c24986d5db17c11ef3529ea68265e6c05d40ea4c9eae317ef54f6cb8ae8d9\"",
+  "taken_at": "2026-10-23T23:43:33.685632Z",
+  "etag": "W/\"91c3ce9d60d352c6a3a4971b2e92562d03b54152ab7563097e1728484276ca7c\"",
   "last_modified": null,
   "items": {
+    "422315867": {
+      "title": "v2.1.310",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "hash": "b821409ebd817d81",
+      "summary": "## What's changed\n- Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too\n- Fixed requests failing behind some gateways and compatible servers that reject the `effort-2025-11-24` beta value or mid-conversation system messages; Claude Code now retries without them\n- Fixed background cleanup deleting some recent files, such as pasted images, when `cleanupPeriodDays` is set to a very large value\n- Fixed compaction after a \"Prompt is too long\" error keeping too much of a…",
+      "published_at": "2026-10-23T23:39:00Z",
+      "text": ""
+    },
     "421170674": {
       "title": "v2.1.309",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server` row to `/status` showing whether this session's auto mode classifier runs on the server",
       "published_at": "2026-09-19T03:10:40Z",
       "text": ""
-    },
-    "391616593": {
-      "title": "v2.1.277",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "hash": "ce896d103286ed16",
-      "summary": "## What's changed\n- Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in `/config` (not yet on Bedrock, Vertex or Foundry)\n- Added `CLAUDE_GATEWAY_PROXY_IS_EGRESS_BOUNDARY=1` for Claude apps gateways whose only egress is a forward proxy: every outbound request hands the proxy the hostname instead of resolving it locally\n- Added an optional `headers:` map on Claude apps gateway upstreams, to send static headers to a proxy you run in front of a provider\n- Added a line saying a background task's update is waiting…",
-      "published_at": "2026-09-18T18:06:32Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -286,7 +286,8 @@
     "420041378",
     "419073006",
     "421170674",
-    "420299398"
+    "420299398",
+    "422315867"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

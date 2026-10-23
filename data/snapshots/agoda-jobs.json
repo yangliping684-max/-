@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-22T23:43:31.486044Z",
-  "etag": "W/\"9e6ae15e3cf6d570bf5b23f56b9175cd\"",
+  "taken_at": "2026-10-23T23:43:28.522822Z",
+  "etag": "W/\"df668c6b7481499ea4f6759e9d6b1138\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -356,14 +356,6 @@
       "published_at": "2026-09-11T06:24:56Z",
       "text": ""
     },
-    "8158888": {
-      "title": "Associate Director, Accounting (Bangkok based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8158888",
-      "hash": "e54368444e45a103",
-      "summary": "",
-      "published_at": "2026-08-28T10:35:55Z",
-      "text": ""
-    },
     "8037954": {
       "title": "Associate Director, Account Management (Tokyo Based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8037954",
@@ -556,14 +548,6 @@
       "published_at": "2026-10-22T07:04:34Z",
       "text": ""
     },
-    "6603735": {
-      "title": "Backend Lead Software Engineer (L5) — Bangkok Relocation Provided",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/6603735",
-      "hash": "3aa04fd786928909",
-      "summary": "",
-      "published_at": "2025-02-07T04:02:18Z",
-      "text": ""
-    },
     "8063904": {
       "title": "Backend Lead Software Engineer (Level 5) | Gurugram based",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8063904",
@@ -692,6 +676,14 @@
       "published_at": "2026-06-02T09:12:49Z",
       "text": ""
     },
+    "7981902": {
+      "title": "Customer Experience Specialist – Bilingual (Fluent in Russian & English) | Cairo, Egypt",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7981902",
+      "hash": "4a483054a23dadaa",
+      "summary": "",
+      "published_at": "2026-06-04T10:32:18Z",
+      "text": ""
+    },
     "8129589": {
       "title": "Customer Experience Specialist - English & Mandarin (Foshan, China)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8129589",
@@ -746,6 +738,14 @@
       "hash": "a2a57be699d37b29",
       "summary": "",
       "published_at": "2026-10-22T02:55:45Z",
+      "text": ""
+    },
+    "8311792": {
+      "title": "Data Analyst (Bangkok Based, Relocation Support Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8311792",
+      "hash": "b5ee389117d5037b",
+      "summary": "",
+      "published_at": "2026-10-23T07:20:10Z",
       "text": ""
     },
     "8284004": {
@@ -1076,6 +1076,14 @@
       "published_at": "2026-09-29T06:46:47Z",
       "text": ""
     },
+    "7044713": {
+      "title": "Lead Software Engineer - Back End (FinTech) (Bangkok based - Relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7044713",
+      "hash": "8c87726b5380e272",
+      "summary": "",
+      "published_at": "2025-07-04T10:09:54Z",
+      "text": ""
+    },
     "6161339": {
       "title": "Lead Software Engineer - Front End (Bangkok based, Relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/6161339",
@@ -1324,6 +1332,14 @@
       "published_at": "2026-05-25T04:55:13Z",
       "text": ""
     },
+    "8239223": {
+      "title": "Motion Designer (Bangkok-based, relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8239223",
+      "hash": "697ea3611e53f8a7",
+      "summary": "",
+      "published_at": "2026-09-29T11:31:55Z",
+      "text": ""
+    },
     "8305599": {
       "title": "Operational Excellence Coordinator/Senior Coordinator (10-month contract) (Bangkok-Based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8305599",
@@ -1506,14 +1522,6 @@
       "hash": "ff5af73dc873b5e0",
       "summary": "",
       "published_at": "2026-09-07T05:29:10Z",
-      "text": ""
-    },
-    "8263646": {
-      "title": "Project Associate/Associate Project Manager- Strategic Projects - Flights Team, Customer Experience Group (Bangkok Based - relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8263646",
-      "hash": "25f90cd03fa0561e",
-      "summary": "",
-      "published_at": "2026-10-08T05:24:35Z",
       "text": ""
     },
     "8255564": {
@@ -2204,14 +2212,6 @@
       "published_at": "2025-09-30T07:00:10Z",
       "text": ""
     },
-    "5393397": {
-      "title": "Staff/Lead LLM Data Scientist (Singapore based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/5393397",
-      "hash": "0345bc5bb93d8d96",
-      "summary": "",
-      "published_at": "2023-09-26T04:13:36Z",
-      "text": ""
-    },
     "7916603": {
       "title": "Staff/Lead LLM Data Scientist (Singapore based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7916603",
@@ -2226,6 +2226,22 @@
       "hash": "0345bc5bb93d8d96",
       "summary": "",
       "published_at": "2026-06-09T08:42:11Z",
+      "text": ""
+    },
+    "5393397": {
+      "title": "Staff/Lead LLM Data Scientist (Singapore based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/5393397",
+      "hash": "0345bc5bb93d8d96",
+      "summary": "",
+      "published_at": "2023-09-26T04:13:36Z",
+      "text": ""
+    },
+    "7880990": {
+      "title": "Staff/Lead Software Engineer, Back End (Bangkok based - Relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7880990",
+      "hash": "b432b575c9140bf4",
+      "summary": "",
+      "published_at": "2026-05-03T10:43:37Z",
       "text": ""
     },
     "6775382": {
@@ -2402,6 +2418,14 @@
       "hash": "0d35d90bd9db9620",
       "summary": "",
       "published_at": "2026-10-02T10:35:54Z",
+      "text": ""
+    },
+    "7995116": {
+      "title": "Support Associate (Gurgaon)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
+      "hash": "0e687f4852d59c6c",
+      "summary": "",
+      "published_at": "2026-08-27T10:48:23Z",
       "text": ""
     },
     "8090218": {
@@ -2886,7 +2910,9 @@
     "8059327",
     "8311578",
     "8059386",
-    "8206831"
+    "8206831",
+    "7981902",
+    "8311792"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

@@ -1,6 +1,28 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-10-25",
+      "kind": "digest",
+      "created_at": "2026-10-24T23:40:46.327454Z",
+      "title": "每日摘要 2026-10-25：12 条变化",
+      "body": "# 知更日报 2026-10-25\n\n共发现 **12** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [Communications Manager, Claude Platform](https://job-boards.greenhouse.io/anthropic/jobs/5462557008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Enterprise Account Executive - Manufacturing Industries, Taiwan](https://job-boards.greenhouse.io/anthropic/jobs/5448366008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Incident Manager, Safeguards](https://job-boards.greenhouse.io/anthropic/jobs/5462881008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Product Counsel](https://job-boards.greenhouse.io/anthropic/jobs/5462761008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 55]** [Elevated errors for Claude Fable 5 and Claude Fable 5.1](https://status.claude.com/incidents/0ns5clsk8p2x) — Claude 服务状态 · 新增\n- **[关注 55]** [Elevated errors for Claude Opus 5.5](https://status.claude.com/incidents/3cqf3pmlnr96) — Claude 服务状态 · 新增\n- **[关注 48]** [Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5](https://status.claude.com/incidents/h101vcmhnfky) — Claude 服务状态 · 修改\n- **[一般 38]** [Degraded performance in ChatGPT, Codex, and APIs](https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H) — OpenAI 服务状态 · 修改\n- **[一般 38]** [File Download errors](https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Degraded performance in GPT-6.1 Sol Codex and Work mode](https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 23]** [Mobile users unable to see Work Mode and the Model Picker](https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "0811d45dc9186c38",
+        "4f19231f11c6b7c3",
+        "afe88b60845454cd",
+        "1392a8824414360a",
+        "418e5c6629015f60",
+        "7ef14c55577a1838",
+        "656a5562128054dd",
+        "f38567c894658701",
+        "360d45a0d392d990",
+        "b71a22776cb0d046",
+        "5bf74d9556cf017e",
+        "fab8ec94b35bc4b5"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "alert-96ec1350ce72a8ad",
       "kind": "alert",
       "created_at": "2026-10-23T23:44:30.767584Z",

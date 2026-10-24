@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-23T23:43:28.522822Z",
-  "etag": "W/\"df668c6b7481499ea4f6759e9d6b1138\"",
+  "taken_at": "2026-10-24T23:39:47.468112Z",
+  "etag": "W/\"228073d6d3e7acfa45808d690f328f9b\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -2316,20 +2316,20 @@
       "published_at": "2026-10-08T10:26:07Z",
       "text": ""
     },
-    "8255794": {
-      "title": "Strategic Account Manager",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255794",
-      "hash": "2de252f0a4d83ca3",
-      "summary": "",
-      "published_at": "2026-10-12T04:44:22Z",
-      "text": ""
-    },
     "7981356": {
       "title": "Strategic Account Manager",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7981356",
       "hash": "2de252f0a4d83ca3",
       "summary": "",
       "published_at": "2026-06-05T05:33:48Z",
+      "text": ""
+    },
+    "8255794": {
+      "title": "Strategic Account Manager",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255794",
+      "hash": "2de252f0a4d83ca3",
+      "summary": "",
+      "published_at": "2026-10-12T04:44:22Z",
       "text": ""
     },
     "8210432": {
@@ -2418,14 +2418,6 @@
       "hash": "0d35d90bd9db9620",
       "summary": "",
       "published_at": "2026-10-02T10:35:54Z",
-      "text": ""
-    },
-    "7995116": {
-      "title": "Support Associate (Gurgaon)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
-      "hash": "0e687f4852d59c6c",
-      "summary": "",
-      "published_at": "2026-08-27T10:48:23Z",
       "text": ""
     },
     "8090218": {

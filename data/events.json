@@ -1,6 +1,684 @@
 {
-  "updated_at": "2026-10-23T23:44:30.767584+00:00",
+  "updated_at": "2026-10-24T23:40:46.327454+00:00",
   "events": [
+    {
+      "id": "f38567c894658701",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "url": "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Decisions (Operational) Agents (Operational) Search (Operational) Conversations (Operational) Images (Operational) GPTs (Operational) Codex API (Operational) Space (Operational) File uploads (Operational) Fine-tuning (Operational) Deep Research (Operational) CLI (Operational) Embeddings (Operational) Image Generat",
+      "detected_at": "2026-10-24T23:40:38.743053Z",
+      "published_at": "2026-10-21T03:28:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Decisions (Operational) Agents (Operational) Search (Operational) Conversations (Operational) Images (Operational) GPTs (Operational) Codex API (Operational) Space (Operational) File uploads (Operational) Fine-tuning (Operational) Deep Research (Operational) CLI (Operational) Embeddings (Operational) Image Generation (Operational) Codex Web (Operational) Audio (Operational) Responses (Operational) Login (Operational) Connectors/Apps (Operational) Login (Operational) Chat Completions (Operational) Files (Opera…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Responses (Operational) Image Generation (Operational) Search (Operational) Audio (Operational) dots (Operational) Voice mode (Operational) Conversations (Operational) Images (Operational) Agent (Operational) CLI (Operational) Space (Operational) Live (Operational) Login (Operational) Files (Operational) Fine-tuning (Operational) Compliance API (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) Codex API (Operational) Agents (Operational) Batch (Operational)…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "360d45a0d392d990",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "File Download errors",
+      "url": "https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational) Image Generation (Operational)",
+      "detected_at": "2026-10-24T23:40:38.743053Z",
+      "published_at": "2026-10-19T14:14:03Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational) Image Generation (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational) Image Generation (Operational) File uploads (Operational) Images (Operational) Files (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "b71a22776cb0d046",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "url": "https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
+      "summary": "新增/修改内容：Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational)",
+      "detected_at": "2026-10-24T23:40:38.743053Z",
+      "published_at": "2026-10-13T16:36:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "5bf74d9556cf017e",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Conversations (Operational) Embeddings (Operational) Login (Operational) Audio (Operational) Compliance API (Operational) CLI (Operational) Sites (Operational) Agent (Operational) VS Code extension (Operational) GPTs (Operational) Files (Operational) Search (Operational) Batch (Operation",
+      "detected_at": "2026-10-24T23:40:38.743053Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Conversations (Operational) Embeddings (Operational) Login (Operational) Audio (Operational) Compliance API (Operational) CLI (Operational) Sites (Operational) Agent (Operational) VS Code extension (Operational) GPTs (Operational) Files (Operational) Search (Operational) Batch (Operational) Moderations (Operational) Codex in ChatGPT Desktop (Operational) Codex API (Operational) Agents (Operational) Login (Operational) Voice mode (Operational) Realtime (Operational) Responses (Operat…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Fine-tuning (Operational) Embeddings (Operational) Agent (Operational) VS Code extension (Operational) Realtime (Operational) Files (Operational) Codex API (Operational) Agents (Operational) Images (Operational) Sites (Operational) Search (Operational) Conversations (Operational) Moderations (Operational) ChatGPT Work (Operational) Audio (Operational) Compliance API (Operational) Responses (Operational) File uploads (Operational) Deep Research (Operational) Codex Web (Operational) Voice mo…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "fab8ec94b35bc4b5",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Deep Research (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) File uploads (Operational) GPTs (Operational) Connectors/Apps (Operational) Sites (Operational) Search (Operational) Image Generation (Operational) Agent (Operational) Conversa",
+      "detected_at": "2026-10-24T23:40:38.743053Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Deep Research (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) File uploads (Operational) GPTs (Operational) Connectors/Apps (Operational) Sites (Operational) Search (Operational) Image Generation (Operational) Agent (Operational) Conversations (Operational) Compliance API (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) Sites (Operational) File uploads (Operational) Voice mode (Operational) Search (Operational) Conversations (Operational) Agent (Operational) Login (Operational) ChatGPT Work (Operational) Compliance API (Operational) Image Generation (Operational) GPTs (Operational) Deep Research (Operational) Connectors/Apps (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "418e5c6629015f60",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/0ns5clsk8p2x",
+      "summary": "Oct 24 , 05:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 22:00 PT on October 23 / 05:00 UTC on October 24 to 22:35 PT on October 23 / 05:35 UTC on October 24. Oct 24 , 05:41 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Oct 24 , 05:40 UTC Update - We have identified the cause of elevated errors on requests to other Claude models and are working on a fix. We will provide an update as soon as possible. Oct 24 , 05:24 UTC Identified - We have identified the cause of elevated er…",
+      "detected_at": "2026-10-24T23:40:36.613188Z",
+      "published_at": "2026-10-24T05:53:30Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "7ef14c55577a1838",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Elevated errors for Claude Opus 5.5",
+      "url": "https://status.claude.com/incidents/3cqf3pmlnr96",
+      "summary": "Oct 24 , 00:37 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Impact occurred from 17:23 PT on October 23 / 00:23 UTC on October 24 to 17:34 PT on October 23 / 00:34 UTC on October 24. Oct 24 , 00:31 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
+      "detected_at": "2026-10-24T23:40:36.613188Z",
+      "published_at": "2026-10-24T00:37:17Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "656a5562128054dd",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
+      "url": "https://status.claude.com/incidents/h101vcmhnfky",
+      "summary": "新增/修改内容：Oct 24 , UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from PT / UTC on October 23 to PT / UTC on October 23. Oct 23 , UTC Monitoring - We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues. Oct 23 , UTC Identified - We have identified the cause of elevated errors on requests to Claude F",
+      "detected_at": "2026-10-24T23:40:36.613188Z",
+      "published_at": "2026-10-24T00:11:20Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Oct 24 , UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from PT / UTC on October 23 to PT / UTC on October 23. Oct 23 , UTC Monitoring - We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues. Oct 23 , UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 2…"
+        ],
+        "removed": [
+          "Oct 23 , UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 23 , UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update as soon as possible."
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "0811d45dc9186c38",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Communications Manager, Claude Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462557008",
+      "summary": "",
+      "detected_at": "2026-10-24T23:39:59.428305Z",
+      "published_at": "2026-10-23T23:43:42Z",
+      "source_updated_at": "2026-10-23T23:43:42Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "4f19231f11c6b7c3",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Enterprise Account Executive - Manufacturing Industries, Taiwan",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448366008",
+      "summary": "",
+      "detected_at": "2026-10-24T23:39:59.428305Z",
+      "published_at": "2026-10-24T05:45:33Z",
+      "source_updated_at": "2026-10-24T05:45:33Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Singapore"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Singapore",
+        "city": "Singapore"
+      }
+    },
+    {
+      "id": "afe88b60845454cd",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Incident Manager, Safeguards",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462881008",
+      "summary": "",
+      "detected_at": "2026-10-24T23:39:59.428305Z",
+      "published_at": "2026-10-24T04:26:19Z",
+      "source_updated_at": "2026-10-24T04:26:19Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY | Washington, DC"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY | Washington, DC",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "1392a8824414360a",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Product Counsel",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462761008",
+      "summary": "",
+      "detected_at": "2026-10-24T23:39:59.428305Z",
+      "published_at": "2026-10-24T05:00:42Z",
+      "source_updated_at": "2026-10-24T05:00:42Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
     {
       "id": "f460f06196678539",
       "source_id": "openai-status",
@@ -55225,681 +55903,6 @@
         "vendor": "OpenAI",
         "ai_type": "status",
         "ai_type_rule": "来源为官方状态页"
-      }
-    },
-    {
-      "id": "8d45f65a14c22a81",
-      "source_id": "openai-status",
-      "source_name": "OpenAI 服务状态",
-      "category": "ai",
-      "change_type": "modified",
-      "title": "Some APAC users are seeing errors in ChatGPT Work, conversations, and GPTs.",
-      "url": "https://status.openai.com//incidents/01M4CR8GCAFC1RYQXZDXAZP2VT",
-      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)",
-      "detected_at": "2026-10-15T23:42:27.596516Z",
-      "published_at": "2026-10-08T04:51:39Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 33,
-      "level": "low",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 8,
-          "reason": "内容修改"
-        },
-        {
-          "factor": "freshness",
-          "points": 0,
-          "reason": "30 天内发布"
-        }
-      ],
-      "diff": {
-        "added": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational)"
-        ],
-        "removed": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational) Conversations (Operational) GPTs (Operational)"
-        ]
-      },
-      "extra": {},
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "status",
-        "ai_type_rule": "来源为官方状态页"
-      }
-    },
-    {
-      "id": "315cac3e725e2a2b",
-      "source_id": "openai-status",
-      "source_name": "OpenAI 服务状态",
-      "category": "ai",
-      "change_type": "modified",
-      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
-      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
-      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Batch (Operational) Image Generation (Operational) Deep Research (Operational) Connectors/Apps (Operational) Sites (Operational) Fine-tuning (Operational) GPTs (Operational) Responses (Operational) File uploads (Operational) Files (Operational) Moderations (Operational) Codex API (Opera",
-      "detected_at": "2026-10-15T23:42:27.596516Z",
-      "published_at": "2026-10-06T08:26:10Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 33,
-      "level": "low",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 8,
-          "reason": "内容修改"
-        },
-        {
-          "factor": "freshness",
-          "points": 0,
-          "reason": "30 天内发布"
-        }
-      ],
-      "diff": {
-        "added": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Batch (Operational) Image Generation (Operational) Deep Research (Operational) Connectors/Apps (Operational) Sites (Operational) Fine-tuning (Operational) GPTs (Operational) Responses (Operational) File uploads (Operational) Files (Operational) Moderations (Operational) Codex API (Operational) Audio (Operational) Compliance API (Operational) Agent (Operational) Login (Operational) Voice mode (Operational) Search (Operational) VS Code extension (Operational) Chat Completions (Operat…"
-        ],
-        "removed": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Fine-tuning (Operational) Files (Operational) GPTs (Operational) Deep Research (Operational) Audio (Operational) Embeddings (Operational) Codex in ChatGPT Desktop (Operational) Login (Operational) Responses (Operational) Agent (Operational) File uploads (Operational) Images (Operational) CLI (Operational) Voice mode (Operational) Compliance API (Operational) Connectors/Apps (Operational) Realtime (Operational) Image Generation (Operational) Codex API (Operational) ChatGPT Work (Ope…"
-        ]
-      },
-      "extra": {},
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "status",
-        "ai_type_rule": "来源为官方状态页"
-      }
-    },
-    {
-      "id": "e4aff3fbdd1848de",
-      "source_id": "openai-status",
-      "source_name": "OpenAI 服务状态",
-      "category": "ai",
-      "change_type": "modified",
-      "title": "Mobile users unable to see Work Mode and the Model Picker",
-      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
-      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Search (Operational) GPTs (Operational) Agent (Operational) File uploads (Operational) Conversations (Operational) Deep Research (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Image Generation (Operational) Sites (Operational) Compliance API (Ope",
-      "detected_at": "2026-10-15T23:42:27.596516Z",
-      "published_at": "2026-09-23T23:49:06Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 33,
-      "level": "low",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 8,
-          "reason": "内容修改"
-        },
-        {
-          "factor": "freshness",
-          "points": 0,
-          "reason": "30 天内发布"
-        }
-      ],
-      "diff": {
-        "added": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Search (Operational) GPTs (Operational) Agent (Operational) File uploads (Operational) Conversations (Operational) Deep Research (Operational) Connectors/Apps (Operational) ChatGPT Work (Operational) Image Generation (Operational) Sites (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational)"
-        ],
-        "removed": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Compliance API (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Search (Operational) Image Generation (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Voice mode (Operational) Agent (Operational) Connectors/Apps (Operational) Conversations (Operational) Deep Research (Operational)"
-        ]
-      },
-      "extra": {},
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "status",
-        "ai_type_rule": "来源为官方状态页"
-      }
-    },
-    {
-      "id": "dad9569a482b6e06",
-      "source_id": "openai-status",
-      "source_name": "OpenAI 服务状态",
-      "category": "ai",
-      "change_type": "modified",
-      "title": "We are seeing elevated error rates across API models",
-      "url": "https://status.openai.com//incidents/01M2RMCS2HVBXGBFKEZ9RZR4FA",
-      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Fine-tuning (Operational) Files (Operational) Embeddings (Operational) Realtime (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational)",
-      "detected_at": "2026-10-15T23:42:27.596516Z",
-      "published_at": "2026-09-17T21:50:36Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 33,
-      "level": "low",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 8,
-          "reason": "内容修改"
-        },
-        {
-          "factor": "freshness",
-          "points": 0,
-          "reason": "30 天内发布"
-        }
-      ],
-      "diff": {
-        "added": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Fine-tuning (Operational) Files (Operational) Embeddings (Operational) Realtime (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational)"
-        ],
-        "removed": [
-          "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Audio (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Images (Operational) Fine-tuning (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Batch (Operational)"
-        ]
-      },
-      "extra": {},
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "status",
-        "ai_type_rule": "来源为官方状态页"
-      }
-    },
-    {
-      "id": "a821cc9f33327c91",
-      "source_id": "openai-codex-releases",
-      "source_name": "OpenAI Codex CLI Releases",
-      "category": "ai",
-      "change_type": "added",
-      "title": "0.163.0 (rust-v0.163.0)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
-      "summary": "## New Features\n- Open `/config` to search preferences across categories, change supported settings immediately, and see which changes require a restart. (#52990, #53429)\n- Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. (#51812, #51835)\n- Configure a leader key in `/keymap`. The default is `Ctrl+X`, shortcut hints stay open until you choose or cancel, and voice mute moves to `F9`. (#52273)\n- Restart a managed background server from `/daemon`. Codex warns about work the restart could interru…",
-      "detected_at": "2026-10-15T23:42:24.508786Z",
-      "published_at": "2026-10-15T21:30:38Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 55,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "tag": "rust-v0.163.0"
-      },
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "version",
-        "ai_type_rule": "来源为版本发布记录"
-      }
-    },
-    {
-      "id": "850381a691cd882e",
-      "source_id": "openai-codex-releases",
-      "source_name": "OpenAI Codex CLI Releases",
-      "category": "ai",
-      "change_type": "added",
-      "title": "0.163.0-alpha.10.2 (rust-v0.163.0-alpha.10.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
-      "summary": "Release 0.163.0-alpha.10.2",
-      "detected_at": "2026-10-15T23:42:24.508786Z",
-      "published_at": "2026-10-15T18:26:31Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 55,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "tag": "rust-v0.163.0-alpha.10.2",
-        "prerelease": "true"
-      },
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "version",
-        "ai_type_rule": "来源为版本发布记录"
-      }
-    },
-    {
-      "id": "0c8d5d782819e3ff",
-      "source_id": "anthropic-news",
-      "source_name": "Anthropic Newsroom",
-      "category": "ai",
-      "change_type": "added",
-      "title": "An update on independent evaluators",
-      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "summary": "",
-      "detected_at": "2026-10-15T23:42:18.030118Z",
-      "published_at": "2026-10-15T00:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 68,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": 8,
-          "reason": "信息源优先级 4/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "date_only": "true"
-      },
-      "facets": {
-        "vendor": "Anthropic",
-        "ai_type": "news",
-        "ai_type_rule": "未命中特定类型"
-      }
-    },
-    {
-      "id": "c3a4fc4b7d6bfb64",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "ai",
-      "change_type": "added",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "detected_at": "2026-10-15T23:42:15.485775Z",
-      "published_at": "2026-10-15T19:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "GPT"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 76,
-      "level": "high",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": 8,
-          "reason": "信息源优先级 4/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：GPT"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "news",
-        "ai_type_rule": "未命中特定类型"
-      }
-    },
-    {
-      "id": "eb6552f79db6aaa8",
-      "source_id": "openai-news",
-      "source_name": "OpenAI News",
-      "category": "ai",
-      "change_type": "added",
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "detected_at": "2026-10-15T23:42:15.485775Z",
-      "published_at": "2026-10-15T13:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 68,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": 8,
-          "reason": "信息源优先级 4/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {
-        "vendor": "OpenAI",
-        "ai_type": "news",
-        "ai_type_rule": "未命中特定类型"
-      }
-    },
-    {
-      "id": "d96792800fa1f64b",
-      "source_id": "anthropic-jobs",
-      "source_name": "Anthropic 公开职位（Greenhouse）",
-      "category": "jobs",
-      "change_type": "added",
-      "title": "Applied AI Engineer, Beneficial Deployments (Clinical Development, Rare and Neglected Diseases)",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008",
-      "summary": "",
-      "detected_at": "2026-10-15T23:41:48.354727Z",
-      "published_at": "2026-10-06T20:06:00Z",
-      "source_updated_at": "2026-10-15T22:47:02Z",
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 53,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": 8,
-          "reason": "信息源优先级 4/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 0,
-          "reason": "30 天内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "location": "London, UK"
-      },
-      "facets": {
-        "company": "Anthropic",
-        "industry": "人工智能",
-        "location": "London, UK",
-        "city": "London"
-      }
-    },
-    {
-      "id": "cfc0382a8e1ab882",
-      "source_id": "anthropic-jobs",
-      "source_name": "Anthropic 公开职位（Greenhouse）",
-      "category": "jobs",
-      "change_type": "added",
-      "title": "Applied AI Engineer, Startups (Life Sciences)",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454650008",
-      "summary": "",
-      "detected_at": "2026-10-15T23:41:48.354727Z",
-      "published_at": "2026-10-15T22:47:12Z",
-      "source_updated_at": "2026-10-15T22:47:12Z",
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 68,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": 8,
-          "reason": "信息源优先级 4/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "location": "San Francisco, CA | New York City, NY"
-      },
-      "facets": {
-        "company": "Anthropic",
-        "industry": "人工智能",
-        "location": "San Francisco, CA | New York City, NY",
-        "city": "San Francisco"
-      }
-    },
-    {
-      "id": "eb20da6565194672",
-      "source_id": "anthropic-jobs",
-      "source_name": "Anthropic 公开职位（Greenhouse）",
-      "category": "jobs",
-      "change_type": "added",
-      "title": "Applied AI Engineer, Startups (Physical AI)",
-      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454673008",
-      "summary": "",
-      "detected_at": "2026-10-15T23:41:48.354727Z",
-      "published_at": "2026-10-15T22:50:02Z",
-      "source_updated_at": "2026-10-15T22:50:02Z",
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 68,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": 8,
-          "reason": "信息源优先级 4/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "location": "San Francisco, CA"
-      },
-      "facets": {
-        "company": "Anthropic",
-        "industry": "人工智能",
-        "location": "San Francisco, CA",
-        "city": "San Francisco"
       }
     }
   ]

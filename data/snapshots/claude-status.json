@@ -1,15 +1,31 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-10-23T23:44:20.519373Z",
-  "etag": "W/\"9bdb5b3e3a1e4eb904f0a35795090a7b\"",
+  "taken_at": "2026-10-24T23:40:36.613188Z",
+  "etag": "W/\"834903cda3808b07e341fcc6337a5cbe\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/0ns5clsk8p2x": {
+      "title": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/0ns5clsk8p2x",
+      "hash": "d484f36ec5a7296e",
+      "summary": "Oct 24 , 05:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 22:00 PT on October 23 / 05:00 UTC on October 24 to 22:35 PT on October 23 / 05:35 UTC on October 24. Oct 24 , 05:41 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Oct 24 , 05:40 UTC Update - We have identified the cause of elevated errors on requests to other Claude models and are working on a fix. We will provide an update as soon as possible. Oct 24 , 05:24 UTC Identified - We have identified the cause of elevated er…",
+      "published_at": "2026-10-24T05:53:30Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/3cqf3pmlnr96": {
+      "title": "Elevated errors for Claude Opus 5.5",
+      "url": "https://status.claude.com/incidents/3cqf3pmlnr96",
+      "hash": "887e579188e5bd82",
+      "summary": "Oct 24 , 00:37 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Impact occurred from 17:23 PT on October 23 / 00:23 UTC on October 24 to 17:34 PT on October 23 / 00:34 UTC on October 24. Oct 24 , 00:31 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
+      "published_at": "2026-10-24T00:37:17Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/h101vcmhnfky": {
       "title": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
       "url": "https://status.claude.com/incidents/h101vcmhnfky",
-      "hash": "3fbb6dfdde7db23e",
-      "summary": "Oct 23 , 23:39 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 23 , 23:37 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update as soon as possible.",
-      "published_at": "2026-10-23T23:39:22Z",
+      "hash": "df418d9b8736b68e",
+      "summary": "Oct 24 , 00:11 UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from 16:28 PT / 23:28 UTC on October 23 to 16:59 PT / 23:59 UTC on October 23. Oct 23 , 23:54 UTC Monitoring - We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues. Oct 23 , 23:39 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 2…",
+      "published_at": "2026-10-24T00:11:20Z",
       "text": ""
     },
     "https://status.claude.com/incidents/wj6r4t6mxq1r": {
@@ -187,22 +203,6 @@
       "summary": "Aug 31 , 20:36 UTC Resolved - The issue affecting Claude Code has been resolved. Impact occurred from 16∶55 to 19∶16 UTC. Aug 31 , 19:21 UTC Investigating - We are investigating reports of degraded performance affecting Claude in Slack, Claude Code on the web, and Code Review. We will provide an update as soon as possible.",
       "published_at": "2026-08-31T20:36:00Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/9jrp5rtyzrf6": {
-      "title": "Degraded performance on claude.ai",
-      "url": "https://status.claude.com/incidents/9jrp5rtyzrf6",
-      "hash": "8f9a1be44afa16c0",
-      "summary": "Aug 31 , 17:52 UTC Resolved - This issue has been resolved. Aug 31 , 17:32 UTC Monitoring - We have seen success rates return to normal for requests on Claude.ai and are monitoring closely. Aug 31 , 17:23 UTC Investigating - We are investigating reports of elevated errors affecting chats on claude.ai. We will provide an update as soon as possible.",
-      "published_at": "2026-08-31T17:52:26Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/vr9tpk8w7zr8": {
-      "title": "Elevated errors on Claude Code and Claude Cowork",
-      "url": "https://status.claude.com/incidents/vr9tpk8w7zr8",
-      "hash": "58bec45c25db0763",
-      "summary": "Aug 28 , 20:21 UTC Resolved - The issue affecting Claude Cowork and Claude Code on the web has been resolved. Aug 28 , 18:21 UTC Monitoring - A mitigation has been applied for the issue affecting Claude Cowork and Claude Code on the web, and we are monitoring for recovery. Sessions that disconnected earlier can be retried Aug 28 , 17:22 UTC Identified - We have identified an issue with an upstream cloud provider affecting Claude Cowork and Claude Code on the web. Some sessions may fail to start or disconnect mid-task; affected sessions can be retried. We are in contact with the provider and w…",
-      "published_at": "2026-08-28T20:21:18Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -233,7 +233,9 @@
     "https://status.claude.com/incidents/vgz5psbjmt1h",
     "https://status.claude.com/incidents/njk29r81v3wg",
     "https://status.claude.com/incidents/wj6r4t6mxq1r",
-    "https://status.claude.com/incidents/h101vcmhnfky"
+    "https://status.claude.com/incidents/h101vcmhnfky",
+    "https://status.claude.com/incidents/0ns5clsk8p2x",
+    "https://status.claude.com/incidents/3cqf3pmlnr96"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

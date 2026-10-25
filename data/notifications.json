@@ -1,6 +1,44 @@
 {
   "notifications": [
     {
+      "id": "alert-99db5bb7e36e71d2",
+      "kind": "alert",
+      "created_at": "2026-10-25T23:41:36.967887Z",
+      "title": "2 条情报达到提醒条件",
+      "body": "- [重要·84] Senior Purchasing Commercial Buyer/Project Buyer_HC（博世中国 公开职位（SmartRecruiters））\n- [重要·84] Senior Commercial Buyer/Project Buyer (EMS)_HC（博世中国 公开职位（SmartRecruiters））",
+      "event_ids": [
+        "9a3bfd2ea15c6270",
+        "dd4c2befd78f8a30"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-10-26",
+      "kind": "digest",
+      "created_at": "2026-10-25T23:41:36.967887Z",
+      "title": "每日摘要 2026-10-26：16 条变化",
+      "body": "# 知更日报 2026-10-26\n\n共发现 **16** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 84]** [Senior Purchasing Commercial Buyer/Project Buyer_HC](https://jobs.smartrecruiters.com/BoschGroup/744000157667884) — 博世中国 公开职位（SmartRecruiters） · 新增 · 关键词：物流与供应链、采购与物料管理\n- **[重要 84]** [Senior Commercial Buyer/Project Buyer (EMS)_HC](https://jobs.smartrecruiters.com/BoschGroup/744000157667969) — 博世中国 公开职位（SmartRecruiters） · 新增 · 关键词：物流与供应链、采购与物料管理\n- **[关注 68]** [Enforcement Analyst, Agentic Alignment](https://job-boards.greenhouse.io/anthropic/jobs/5462893008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 55]** [Python 3.13.18](https://www.python.org/downloads/release/python-31318/) — Python.org 版本发布 · 新增\n- **[关注 55]** [Python 3.12.16](https://www.python.org/downloads/release/python-31216/) — Python.org 版本发布 · 新增\n- **[关注 55]** [Python 3.11.18](https://www.python.org/downloads/release/python-31118/) — Python.org 版本发布 · 新增\n- **[关注 55]** [Elevated errors for Claude Fable 5.1](https://status.claude.com/incidents/vx06kp8wfpq2) — Claude 服务状态 · 新增\n- **[关注 55]** [Elevated errors for Claude Sonnet 5.5 and other models](https://status.claude.com/incidents/334jvgbrc4ff) — Claude 服务状态 · 新增\n- **[关注 51]** [Senior Commercial Buyer/Project Buyer (EMS)_HC](https://jobs.smartrecruiters.com/BoschGroup/744000157066386) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：采购与物料管理\n- **[一般 38]** [Degraded performance in ChatGPT, Codex, and APIs](https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H) — OpenAI 服务状态 · 修改\n- **[一般 36]** [物流工程师Logistics Engineer](https://jobs.smartrecruiters.com/BoschGroup/744000137577949) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：物流与供应链\n- **[一般 36]** [Senior Purchasing Commercial Buyer_HC](https://jobs.smartrecruiters.com/BoschGroup/744000119924819) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：采购与物料管理\n- **[一般 33]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Issues with login, signup, and ads](https://status.openai.com//incidents/01M3WCKTAN41RZ01SBRRTY4AYM) — OpenAI 服务状态 · 修改\n- **[一般 28]** [Solutions Marketing Lead, Public Sector](https://job-boards.greenhouse.io/anthropic/jobs/5385586008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 23]** [Mobile users unable to see Work Mode and the Model Picker](https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "f7220b790e45469b",
+        "ed4ba9c43db5505f",
+        "b2029a04b8ef7f8d",
+        "8e8507fe5f517a60",
+        "899e44802d6970c1",
+        "9a3bfd2ea15c6270",
+        "dd4c2befd78f8a30",
+        "5908b92d0c57a348",
+        "ab68f2684e5936e3",
+        "37ac39975d48b3a2",
+        "51d90a09965d553a",
+        "eb687d7bec6d2fae",
+        "1a29f8895533459d",
+        "6f24cb980a01fa6b",
+        "42daf456113fff07",
+        "e7717de00a5b0565"
+      ],
+      "level": "high"
+    },
+    {
       "id": "digest-2026-10-25",
       "kind": "digest",
       "created_at": "2026-10-24T23:40:46.327454Z",

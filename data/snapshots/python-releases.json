@@ -1,6 +1,6 @@
 {
   "source_id": "python-releases",
-  "taken_at": "2026-10-21T23:45:45.693127Z",
+  "taken_at": "2026-10-25T23:40:48.533455Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -98,6 +98,14 @@
       "hash": "126d72a09c21943c",
       "summary": "Oct. 7, 2025 Download Release notes",
       "published_at": "2025-10-07T00:00:00Z",
+      "text": ""
+    },
+    "https://www.python.org/downloads/release/python-31318/": {
+      "title": "Python 3.13.18",
+      "url": "https://www.python.org/downloads/release/python-31318/",
+      "hash": "e0b00b24eb9af229",
+      "summary": "Oct. 25, 2026 Download Release notes",
+      "published_at": "2026-10-25T00:00:00Z",
       "text": ""
     },
     "https://www.python.org/downloads/release/python-31317/": {
@@ -244,6 +252,14 @@
       "published_at": "2024-10-07T00:00:00Z",
       "text": ""
     },
+    "https://www.python.org/downloads/release/python-31216/": {
+      "title": "Python 3.12.16",
+      "url": "https://www.python.org/downloads/release/python-31216/",
+      "hash": "d73d061953ae2d8f",
+      "summary": "Oct. 25, 2026 Download Release notes",
+      "published_at": "2026-10-25T00:00:00Z",
+      "text": ""
+    },
     "https://www.python.org/downloads/release/python-31215/": {
       "title": "Python 3.12.15",
       "url": "https://www.python.org/downloads/release/python-31215/",
@@ -372,36 +388,20 @@
       "published_at": "2023-10-02T00:00:00Z",
       "text": ""
     },
+    "https://www.python.org/downloads/release/python-31118/": {
+      "title": "Python 3.11.18",
+      "url": "https://www.python.org/downloads/release/python-31118/",
+      "hash": "676f0d2e33bd83ee",
+      "summary": "Oct. 25, 2026 Download Release notes",
+      "published_at": "2026-10-25T00:00:00Z",
+      "text": ""
+    },
     "https://www.python.org/downloads/release/python-31117/": {
       "title": "Python 3.11.17",
       "url": "https://www.python.org/downloads/release/python-31117/",
       "hash": "5abc316a47905fc1",
       "summary": "Oct. 1, 2026 Download Release notes",
       "published_at": "2026-10-01T00:00:00Z",
-      "text": ""
-    },
-    "https://www.python.org/downloads/release/python-31116/": {
-      "title": "Python 3.11.16",
-      "url": "https://www.python.org/downloads/release/python-31116/",
-      "hash": "cf38a8ac07b0e77f",
-      "summary": "Aug. 12, 2026 Download Release notes",
-      "published_at": "2026-08-12T00:00:00Z",
-      "text": ""
-    },
-    "https://www.python.org/downloads/release/python-31115/": {
-      "title": "Python 3.11.15",
-      "url": "https://www.python.org/downloads/release/python-31115/",
-      "hash": "919139b382b62b28",
-      "summary": "March 3, 2026 Download Release notes",
-      "published_at": "2026-03-03T00:00:00Z",
-      "text": ""
-    },
-    "https://www.python.org/downloads/release/python-31114/": {
-      "title": "Python 3.11.14",
-      "url": "https://www.python.org/downloads/release/python-31114/",
-      "hash": "f4a274f0021b9ea9",
-      "summary": "Oct. 9, 2025 Download Release notes",
-      "published_at": "2025-10-09T00:00:00Z",
       "text": ""
     }
   },
@@ -458,7 +458,10 @@
     "https://www.python.org/downloads/release/python-31111/",
     "https://www.python.org/downloads/release/python-3151/",
     "https://www.python.org/downloads/release/python-3149/",
-    "https://www.python.org/downloads/release/python-31317/"
+    "https://www.python.org/downloads/release/python-31317/",
+    "https://www.python.org/downloads/release/python-31318/",
+    "https://www.python.org/downloads/release/python-31216/",
+    "https://www.python.org/downloads/release/python-31118/"
   ],
   "scope": "https://www.python.org/downloads/|50|None"
 }

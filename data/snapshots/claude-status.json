@@ -1,9 +1,25 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-10-24T23:40:36.613188Z",
-  "etag": "W/\"834903cda3808b07e341fcc6337a5cbe\"",
+  "taken_at": "2026-10-25T23:41:27.462552Z",
+  "etag": "W/\"277d648cf5680c27873239adc4af0f6e\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/vx06kp8wfpq2": {
+      "title": "Elevated errors for Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/vx06kp8wfpq2",
+      "hash": "bc77d4c6714c2b57",
+      "summary": "Oct 25 , 08:49 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 01:08 PT / 08:08 UTC to 01:29 PT / 08:29 UTC. Oct 25 , 08:30 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Oct 25 , 08:17 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1 and are working on a fix. We will provide an update as soon as possible. Oct 25 , 08:17 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update…",
+      "published_at": "2026-10-25T08:49:29Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/334jvgbrc4ff": {
+      "title": "Elevated errors for Claude Sonnet 5.5 and other models",
+      "url": "https://status.claude.com/incidents/334jvgbrc4ff",
+      "hash": "435bb15598509c32",
+      "summary": "Oct 25 , 07:53 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 23:05 PT on October 24 / 06:05 UTC on October 25 to 23:35 PT on October 24 / 06:35 UTC on October 25. Oct 25 , 06:35 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Oct 25 , 06:27 UTC Identified - We have identified the cause of elevated errors on requests to Claude Sonnet 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 25 , 06:14 UTC Investigating - We are investigating elevated errors o…",
+      "published_at": "2026-10-25T07:53:39Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/0ns5clsk8p2x": {
       "title": "Elevated errors for Claude Fable 5 and Claude Fable 5.1",
       "url": "https://status.claude.com/incidents/0ns5clsk8p2x",
@@ -187,22 +203,6 @@
       "summary": "Sep 1 , 18:07 UTC Resolved - This issue has been resolved. Sep 1 , 17:52 UTC Monitoring - We are seeing success rates recover across affected services. Core inference and the API are not impacted. Sep 1 , 17:05 UTC Investigating - We are investigating reports of degraded performance affecting some Claude services, including docs.claude.com. We are working to resolve these issues and will provide an update as soon as possible.",
       "published_at": "2026-09-01T18:07:03Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/nr3h7bw8b3k3": {
-      "title": "Degraded performance on Claude for Microsoft Office 365",
-      "url": "https://status.claude.com/incidents/nr3h7bw8b3k3",
-      "hash": "7fea8bccc030bae6",
-      "summary": "Sep 1 , 16:22 UTC Resolved - This issue has been resolved. Sep 1 , 16:02 UTC Investigating - We are investigating elevated errors affecting Claude for Microsoft Office 365. We will provide an update as soon as possible.",
-      "published_at": "2026-09-01T16:22:19Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/r82kdk0m7vqh": {
-      "title": "Degraded performance on claude.ai and Claude Code",
-      "url": "https://status.claude.com/incidents/r82kdk0m7vqh",
-      "hash": "487621e69ce7145d",
-      "summary": "Aug 31 , 20:36 UTC Resolved - The issue affecting Claude Code has been resolved. Impact occurred from 16∶55 to 19∶16 UTC. Aug 31 , 19:21 UTC Investigating - We are investigating reports of degraded performance affecting Claude in Slack, Claude Code on the web, and Code Review. We will provide an update as soon as possible.",
-      "published_at": "2026-08-31T20:36:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -235,7 +235,9 @@
     "https://status.claude.com/incidents/wj6r4t6mxq1r",
     "https://status.claude.com/incidents/h101vcmhnfky",
     "https://status.claude.com/incidents/0ns5clsk8p2x",
-    "https://status.claude.com/incidents/3cqf3pmlnr96"
+    "https://status.claude.com/incidents/3cqf3pmlnr96",
+    "https://status.claude.com/incidents/vx06kp8wfpq2",
+    "https://status.claude.com/incidents/334jvgbrc4ff"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

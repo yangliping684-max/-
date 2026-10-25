@@ -1,6 +1,26 @@
 {
   "runs": [
     {
+      "id": "20261025T234029Z",
+      "started_at": "2026-10-25T23:40:29.632222Z",
+      "finished_at": "2026-10-25T23:41:36.967887Z",
+      "trigger": "schedule",
+      "sources_total": 27,
+      "sources_ok": 26,
+      "sources_failed": 1,
+      "sources_paused": 0,
+      "new_events": 16,
+      "filtered": 16,
+      "duplicates": 4,
+      "errors": [
+        {
+          "source_id": "anthropic-news",
+          "status": "parse_error",
+          "message": "解析失败：条目选择器 'a[href]:has(time)' 没有匹配到任何条目（页面结构可能已改变）"
+        }
+      ]
+    },
+    {
       "id": "20261024T233938Z",
       "started_at": "2026-10-24T23:39:38.465733Z",
       "finished_at": "2026-10-24T23:40:46.327454Z",

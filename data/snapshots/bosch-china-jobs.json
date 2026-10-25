@@ -1,9 +1,81 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-23T23:43:43.028936Z",
+  "taken_at": "2026-10-25T23:40:50.928560Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000157670949": {
+      "title": "Product Manager_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157670949",
+      "hash": "30fb33bb5c72e669",
+      "summary": "",
+      "published_at": "2026-10-25T12:35:01.890000Z",
+      "text": ""
+    },
+    "744000157670819": {
+      "title": "Information Security Expert_C",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157670819",
+      "hash": "ba8a776115c0a244",
+      "summary": "",
+      "published_at": "2026-10-25T12:30:57.079000Z",
+      "text": ""
+    },
+    "744000157670689": {
+      "title": "Information Security & Data Protection Auditor_C",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157670689",
+      "hash": "f58e5ad06daa87da",
+      "summary": "",
+      "published_at": "2026-10-25T12:21:33.629000Z",
+      "text": ""
+    },
+    "744000157669409": {
+      "title": "(Senior) Hardware Engineer_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157669409",
+      "hash": "00c1edd98e54bd9b",
+      "summary": "",
+      "published_at": "2026-10-25T10:39:33.555000Z",
+      "text": ""
+    },
+    "744000157667884": {
+      "title": "Senior Purchasing Commercial Buyer/Project Buyer_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157667884",
+      "hash": "bdad815fc342d8f6",
+      "summary": "",
+      "published_at": "2026-10-25T09:07:09.463000Z",
+      "text": ""
+    },
+    "744000157667969": {
+      "title": "Senior Commercial Buyer/Project Buyer (EMS)_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157667969",
+      "hash": "3d81abcf88c07f15",
+      "summary": "",
+      "published_at": "2026-10-25T09:01:05.519000Z",
+      "text": ""
+    },
+    "744000157665219": {
+      "title": "资深电机机械设计工程师(标准设计平台)_EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157665219",
+      "hash": "1b7054fcdf5d245a",
+      "summary": "",
+      "published_at": "2026-10-25T05:50:09.978000Z",
+      "text": ""
+    },
+    "744000157665139": {
+      "title": "电机机械设计工程师Mechanical Design Engineer_EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157665139",
+      "hash": "340b4df03e3919e8",
+      "summary": "",
+      "published_at": "2026-10-25T05:43:36.668000Z",
+      "text": ""
+    },
+    "744000157665099": {
+      "title": "Thermal Management Design Engineer(Process & Manufacturing )",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157665099",
+      "hash": "d44d174a00ccf985",
+      "summary": "",
+      "published_at": "2026-10-25T05:37:56.314000Z",
+      "text": ""
+    },
     "744000157399869": {
       "title": "生产计划_PS",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157399869",
@@ -44,14 +116,6 @@
       "published_at": "2026-10-22T11:37:49.539000Z",
       "text": ""
     },
-    "744000157066386": {
-      "title": "Senior Commercial Buyer/Project Buyer (EMS)_HC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157066386",
-      "hash": "3d81abcf88c07f15",
-      "summary": "",
-      "published_at": "2026-10-22T08:28:06.117000Z",
-      "text": ""
-    },
     "744000157048479": {
       "title": "Lead Engineer – Engineering Process, Methods & Toolchain配置管理工程师_EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157048479",
@@ -74,14 +138,6 @@
       "hash": "d764cc41e97e7b0f",
       "summary": "",
       "published_at": "2026-10-22T06:18:48.101000Z",
-      "text": ""
-    },
-    "744000157039819": {
-      "title": "电机机械设计工程师Mechanical Design Engineer_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157039819",
-      "hash": "340b4df03e3919e8",
-      "summary": "",
-      "published_at": "2026-10-22T05:51:00.543000Z",
       "text": ""
     },
     "744000157039139": {
@@ -1060,14 +1116,6 @@
       "published_at": "2026-09-28T05:19:38.640000Z",
       "text": ""
     },
-    "744000152043549": {
-      "title": "Data Engineer",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152043549",
-      "hash": "a02f30feaae1e7c3",
-      "summary": "",
-      "published_at": "2026-09-28T00:59:27.812000Z",
-      "text": ""
-    },
     "744000151576246": {
       "title": "Requirement Engineer_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151576246",
@@ -1858,14 +1906,6 @@
       "hash": "de4318b75dc8e858",
       "summary": "",
       "published_at": "2026-09-07T06:21:43.692000Z",
-      "text": ""
-    },
-    "744000147837181": {
-      "title": "热管理电机系统工程师ystem Engineer_PS-TS",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000147837181",
-      "hash": "6546d4853f543e41",
-      "summary": "",
-      "published_at": "2026-09-07T05:39:55.711000Z",
       "text": ""
     },
     "744000147835159": {
@@ -3892,14 +3932,6 @@
       "published_at": "2026-07-14T03:00:25.788000Z",
       "text": ""
     },
-    "744000137577949": {
-      "title": "物流工程师Logistics Engineer",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000137577949",
-      "hash": "f3fedb83a8589e7b",
-      "summary": "",
-      "published_at": "2026-07-14T01:54:22.880000Z",
-      "text": ""
-    },
     "744000137385969": {
       "title": "生产运营管培生(制造工艺化方向)_PT",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000137385969",
@@ -4356,14 +4388,6 @@
       "published_at": "2026-07-02T01:57:13.369000Z",
       "text": ""
     },
-    "744000135258799": {
-      "title": "Thermal Management Design Engineer(Process & Manufacturing )",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135258799",
-      "hash": "d44d174a00ccf985",
-      "summary": "",
-      "published_at": "2026-07-01T12:55:11.031000Z",
-      "text": ""
-    },
     "744000135234709": {
       "title": "ADAS软件架构师_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135234709",
@@ -4498,14 +4522,6 @@
       "hash": "f74505df65424489",
       "summary": "",
       "published_at": "2026-06-30T03:06:10.502000Z",
-      "text": ""
-    },
-    "744000134728081": {
-      "title": "资深电机机械设计工程师(标准设计平台)_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000134728081",
-      "hash": "1b7054fcdf5d245a",
-      "summary": "",
-      "published_at": "2026-06-29T08:41:33.392000Z",
       "text": ""
     },
     "744000134721315": {
@@ -7002,14 +7018,6 @@
       "hash": "c91a409df54575eb",
       "summary": "",
       "published_at": "2026-04-10T16:05:19.604000Z",
-      "text": ""
-    },
-    "744000119924819": {
-      "title": "Senior Purchasing Commercial Buyer_HC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000119924819",
-      "hash": "c63e5fb71dfb6de7",
-      "summary": "",
-      "published_at": "2026-04-10T10:22:43.465000Z",
       "text": ""
     },
     "744000119809977": {
@@ -12046,7 +12054,16 @@
     "744000156929362",
     "744000156926710",
     "744000157399869",
-    "744000157260637"
+    "744000157260637",
+    "744000157670949",
+    "744000157670819",
+    "744000157670689",
+    "744000157669409",
+    "744000157667884",
+    "744000157667969",
+    "744000157665219",
+    "744000157665139",
+    "744000157665099"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

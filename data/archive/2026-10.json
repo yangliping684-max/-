@@ -2,6 +2,717 @@
   "month": "2026-10",
   "events": [
     {
+      "id": "3fd4239025744b73",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2610.22372",
+      "summary": "arXiv:2610.22372v1 Announce Type: cross\nAbstract: Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demons…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "3a785ca633615c25",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Generalising from Self-Produced Data: Model Training Beyond Human Constraints",
+      "url": "https://arxiv.org/abs/2504.04711",
+      "summary": "arXiv:2504.04711v3 Announce Type: replace\nAbstract: Current large language models (LLMs) are constrained by human-derived training data and limited by a single level of abstraction that impedes definitive truth judgments. This paper introduces a novel framework in which AI models autonomously generate and validate new knowledge through direct interaction with their environment. Central to this approach is an unbounded, ungamable numeric reward - such as annexed disk space or follower count - that guides learning without requiring human benchmarks. AI agents iteratively generate strategies and…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "27d393f60ed9b621",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "ChaosBench-Logic: A Benchmark for Logical and Symbolic Reasoning on Chaotic Dynamical Systems",
+      "url": "https://arxiv.org/abs/2601.01982",
+      "summary": "arXiv:2601.01982v2 Announce Type: replace\nAbstract: Large language models (LLMs) excel at natural language tasks but remain brittle in domains requiring precise logical and symbolic reasoning. Chaotic dynamical systems provide an especially demanding test because chaos is deterministic yet often misinterpreted as randomness or complexity. We introduce ChaosBench-Logic, a benchmark that evaluates LLM reasoning across 30 diverse dynamical systems using a unified first-order logic (FOL) ontology. Each system is annotated with truth assignments for 11 semantic predicates, and 621 questions are ge…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "9eeeb59528fc37b9",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Agent Skill Framework: Perspectives on the Potential of Small to Medium Language Models in Industrial Environments",
+      "url": "https://arxiv.org/abs/2602.16653",
+      "summary": "arXiv:2602.16653v4 Announce Type: replace\nAbstract: Skills are getting increasingly used in recent agentic frameworks, performing robustly with proprietary LLMs. Yet, their effectiveness for small and medium-sized open-source models (270M--80B) remains underexplored, especially under industrial, resource-constrained conditions. As such, we present a large-scale empirical study evaluating the skill paradigm's feasibility across two open-source classification tasks: one insurance-claim task based on proprietary data, and a set of Python programming problems. We find that very small models frequ…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "712987cbc664a936",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "WorkflowPerturb: Calibrated Stress Tests for Evaluating Multi-Agent Workflow Metrics",
+      "url": "https://arxiv.org/abs/2602.17990",
+      "summary": "arXiv:2602.17990v4 Announce Type: replace\nAbstract: Multi-agent LLM systems that generate structured workflows from natural-language requests are now deployed in production across cloud automation, DevOps, and enterprise orchestration. Operating them exposes a recurring change-management problem. Routine updates, such as re-running an input, swapping the LLM, or refactoring an agent's prompt or orchestration code, often produce workflows that differ substantially from validated references. Engineers then lack a principled way to decide whether a change is safe to ship. Automatic workflow eval…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "0191a65d53c30e75",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs",
+      "url": "https://arxiv.org/abs/2603.16557",
+      "summary": "arXiv:2603.16557v3 Announce Type: replace\nAbstract: Large language models (LLMs) increasingly store user preferences in persistent memory to support personalization across interactions. However, in third-party communication settings governed by social and institutional norms, some user preferences may be inappropriate to apply. We introduce BenchPreS, which evaluates whether memory-based user preferences are appropriately applied or suppressed across communication contexts. Using two complementary metrics, Misapplication Rate (MR) and Appropriate Application Rate (AAR), we find even frontier…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "d11ffaa138f51324",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Towards Better Aligned LLM Judges for Radiology Report Evaluation across Modalities and Anatomies",
+      "url": "https://arxiv.org/abs/2604.03376",
+      "summary": "arXiv:2604.03376v2 Announce Type: replace\nAbstract: Current work on radiology report evaluation has focused primarily on LLM-based metrics for chest X-rays (CXR), leaving open whether such approaches remain robust across other modalities and anatomies, and which model and prompt configurations are best suited to serve as LLM judges. We present a comprehensive evaluation of LLM judges for radiology report evaluation across diverse model families, prompting strategies, and adaptation methods, leveraging two expert-annotated datasets that span multiple imaging modalities and anatomical regions.…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "e3cae9a798095cbc",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Self-Programmed Execution for Language-Model Agents",
+      "url": "https://arxiv.org/abs/2605.06898",
+      "summary": "arXiv:2605.06898v2 Announce Type: replace\nAbstract: At the heart of a language model agent is an orchestrator program which is responsible for the state transition between consecutive turns. In existing systems, this program is implemented in the harness. This paper introduces self-programmed execution (SPE), in which the model completion is itself the orchestrator program, and the harness evaluates this program but does not impose any fixed orchestration policy. Formally, an SPE state of an agentic machine is one from which a model completion can load any successor state up to an embedding,…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "5b4b935aef0bd543",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "PREPING: Zero-Task Agent Memory Construction via Self-Practice",
+      "url": "https://arxiv.org/abs/2605.13880",
+      "summary": "arXiv:2605.13880v2 Announce Type: replace\nAbstract: Agent memory is typically constructed either offline from curated demonstrations or online from post-deployment interactions. However, regardless of how it is built, an agent faces a cold-start gap when first introduced to a new environment without any task-specific experience available. In this paper, we study pre-task memory construction: whether an agent can build procedural memory before observing any target-environment tasks, using only self-generated synthetic practice. Yet, synthetic interaction alone is insufficient, as without contr…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "55e9be9ead7e8c20",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Prospective multi-pathogen disease forecasting using autonomous LLM-guided tree search",
+      "url": "https://arxiv.org/abs/2605.16238",
+      "summary": "arXiv:2605.16238v2 Announce Type: replace\nAbstract: Probabilistic forecasting of infectious diseases is crucial for public health monitoring and preparedness but has historically relied on labor-intensive manual model curation by expert modeling teams. Bespoke development is an obstacle to scaling models to granular geographic resolutions or emerging pathogens. Here, we prospectively evaluate Empirical Research Assistance (ERA), an autonomous system that uses Large Language Model-guided tree search to iteratively generate, evaluate, and optimize executable forecasting software. ERA was primar…",
+      "detected_at": "2026-10-16T23:40:37.719700Z",
+      "published_at": "2026-10-16T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "b41f6d203390d424",
+      "source_id": "fed-press-releases",
+      "source_name": "Federal Reserve Press Releases",
+      "category": "macro",
+      "change_type": "added",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "detected_at": "2026-10-16T23:40:35.663678Z",
+      "published_at": "2026-10-16T15:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "2e7035ee998569de",
+      "source_id": "openai-python-releases",
+      "source_name": "OpenAI Python SDK Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v3.32.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
+      "summary": "## [3.32.0](https://github.com/openai/openai-python/compare/v3.31.0...v3.32.0) (2026-10-16)\n### Features\n* **api:** add cache settings and key options [2/2] ([#4087](https://github.com/openai/openai-python/issues/4087)) ([325da45](https://github.com/openai/openai-python/commit/325da45934ddb1c1b6a0bed1681a8cf46c9a8712))\n* **api:** add prompt-based voice creation ([#4091](https://github.com/openai/openai-python/issues/4091)) ([2e39db7](https://github.com/openai/openai-python/commit/2e39db79e2f0ec41ce5d87b379be1e88c8298ea4))\n* **api:** add regional processing residency options ([#4081](https://g…",
+      "detected_at": "2026-10-16T23:40:33.832458Z",
+      "published_at": "2026-10-16T20:17:26Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 60,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v3.32.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "942cde69948a51c0",
+      "source_id": "claude-code-releases",
+      "source_name": "Claude Code Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_AUTO_MODE_MODEL` to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode\n- Added an `Idle compaction` row to `/config` for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off\n- Added a notice to `/design-sync` and `/design-login` that standalone Claude Design (claude.ai/design) closes by December 14, 2026\n- Fixed a \"Prompt is too long\" error when stopping a turn while the conversation was being compacted\n- Fixed requests failing with \"d…",
+      "detected_at": "2026-10-16T23:40:33.313445Z",
+      "published_at": "2026-10-16T20:53:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v2.1.302"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
       "id": "8d45f65a14c22a81",
       "source_id": "openai-status",
       "source_name": "OpenAI 服务状态",
@@ -228,6 +939,176 @@
         ],
         "removed": [
           "Status: Resolved All impacted services have now fully recovered. Affected components Chat Completions (Operational) Audio (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Images (Operational) Fine-tuning (Operational) Moderations (Operational) Responses (Operational) Login (Operational) Batch (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "55b9953cfb031e20",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Delayed Costs data in the Compliance API",
+      "url": "https://status.openai.com//incidents/01M4XNQX7C6RCBNGX9H711WFSG",
+      "summary": "新增/修改内容：Status: Monitoring We have deployed a fix and are monitoring recovery. Costs data in the Compliance API remains delayed while we process the backlog. We will provide further updates as processing catches up. Affected components Compliance API (Degraded performance)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-15T22:36:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Monitoring We have deployed a fix and are monitoring recovery. Costs data in the Compliance API remains delayed while we process the backlog. We will provide further updates as processing catches up. Affected components Compliance API (Degraded performance)"
+        ],
+        "removed": [
+          "Status: Identified We have identified an issue causing delays in publishing organization cost data through the Costs API. A fix is in progress and currently undergoing testing. API and ChatGPT usage are not affected, and other reporting channels remain available. We are continuing work to restore normal data freshness. Affected components Compliance API (Degraded performance)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "d732fbf127f71ee5",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Widespread feature degradation",
+      "url": "https://status.openai.com//incidents/01M506BA4XRSWH7THR53HQGN3Z",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-15T18:56:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "93ea45d0fb5c5964",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "url": "https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
+      "summary": "新增/修改内容：Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
+      "detected_at": "2026-10-15T23:42:27.596516Z",
+      "published_at": "2026-10-13T16:36:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational)"
         ]
       },
       "extra": {},

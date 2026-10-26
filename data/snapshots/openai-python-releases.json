@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-25T23:40:42.794153Z",
-  "etag": "W/\"752a6cd8b14b6a4e43738c56e4ad718b5f1dcb0bf54fa52a47848985a045419b\"",
+  "taken_at": "2026-10-26T23:45:18.300214Z",
+  "etag": "W/\"d6ec1b9b1e0b6e73d0a25bf75edde66eb926f7afb8bb827631a2322c782e9286\"",
   "last_modified": null,
   "items": {
+    "424657500": {
+      "title": "v3.39.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.39.0",
+      "hash": "ba97210d0105a7ae",
+      "summary": "## [3.39.0](https://github.com/openai/openai-python/compare/v3.38.0...v3.39.0) (2026-10-26)\n### Features\n* **api:** add gpt-6.1-terra model identifier ([#4180](https://github.com/openai/openai-python/issues/4180)) ([e8beb1a](https://github.com/openai/openai-python/commit/e8beb1abdf6de71ea10195c942f6566ca2696c28))",
+      "published_at": "2026-10-26T19:14:00Z",
+      "text": ""
+    },
+    "424501236": {
+      "title": "v3.38.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.38.0",
+      "hash": "3c25025a3a96f367",
+      "summary": "## [3.38.0](https://github.com/openai/openai-python/compare/v3.37.0...v3.38.0) (2026-10-25)\n### Features\n* **api:** add delegation controls and prompt cache lifetimes ([#4169](https://github.com/openai/openai-python/issues/4169)) ([43045fc](https://github.com/openai/openai-python/commit/43045fcaf91aec08571e54c57706597cefd32d45))\n* **api:** expand Live Decision item and question types ([#4175](https://github.com/openai/openai-python/issues/4175)) ([5d72315](https://github.com/openai/openai-python/commit/5d72315876ffd8b72b958623ef4db26da3fb1e61))\n### Bug Fixes\n* **agents:** clarify result schem…",
+      "published_at": "2026-10-26T16:35:03Z",
+      "text": ""
+    },
     "421147654": {
       "title": "v3.37.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.37.0",
@@ -227,22 +243,6 @@
       "summary": "## [3.16.2](https://github.com/openai/openai-python/compare/v3.16.1...v3.16.2) (2026-09-18)\n### Bug Fixes\n* **parsing:** drop TextFormatT parameterization in parse_response to fix memory leak ([#3084](https://github.com/openai/openai-python/issues/3084)) ([#3088](https://github.com/openai/openai-python/issues/3088)) ([009b7f6](https://github.com/openai/openai-python/commit/009b7f6ae6493e1abfa7583449595f144c8beb5a))",
       "published_at": "2026-09-18T21:26:27Z",
       "text": ""
-    },
-    "391717640": {
-      "title": "v3.16.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.16.1",
-      "hash": "fd16a460c5cbfa61",
-      "summary": "## [3.16.1](https://github.com/openai/openai-python/compare/v3.16.0...v3.16.1) (2026-09-18)\n### Bug Fixes\n* **api:** avoid loading unrelated API resources on first use ([#3898](https://github.com/openai/openai-python/issues/3898)) ([68e4317](https://github.com/openai/openai-python/commit/68e4317aa3df4b6e7a5ea3f75833bdd7d76e447d))",
-      "published_at": "2026-09-18T19:00:33Z",
-      "text": ""
-    },
-    "391558145": {
-      "title": "v3.16.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.16.0",
-      "hash": "bfdee4bfe362286b",
-      "summary": "## [3.16.0](https://github.com/openai/openai-python/compare/v3.15.0...v3.16.0) (2026-09-18)\n### Features\n* **api:** add webhook endpoint management ([#3892](https://github.com/openai/openai-python/issues/3892)) ([9a11f6e](https://github.com/openai/openai-python/commit/9a11f6e874292230633073fb64ea6202ad22a1df))\n### Chores\n* **api:** deprecate MCP connector_id ([#3894](https://github.com/openai/openai-python/issues/3894)) ([1ccaf07](https://github.com/openai/openai-python/commit/1ccaf07fb9a4d1a2be9d97c77604ce75214a9940))",
-      "published_at": "2026-09-18T14:52:49Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -286,7 +286,9 @@
     "416162808",
     "419755937",
     "421147654",
-    "420278928"
+    "420278928",
+    "424657500",
+    "424501236"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

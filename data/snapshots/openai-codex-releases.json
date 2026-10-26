@@ -1,9 +1,17 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-10-25T23:41:26.297155Z",
-  "etag": "W/\"e37cd43a2beedffe557ec26180d9f77db039a0c79d34b1fd6a921301ff0fe69c\"",
+  "taken_at": "2026-10-26T23:46:02.297519Z",
+  "etag": "W/\"7ea209251152df5a57f3c1a94b5b5a7cc65c4d12804ec529bd2fbd9434210d83\"",
   "last_modified": null,
   "items": {
+    "424811924": {
+      "title": "0.165.0-alpha.3 (rust-v0.165.0-alpha.3)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
+      "hash": "6469f279365da4d7",
+      "summary": "Release 0.165.0-alpha.3",
+      "published_at": "2026-10-26T21:54:06Z",
+      "text": ""
+    },
     "421457270": {
       "title": "0.164.0 (rust-v0.164.0)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
@@ -34,14 +42,6 @@
       "hash": "74c44a288b53822a",
       "summary": "Release 0.164.0-alpha.11.1",
       "published_at": "2026-10-23T01:58:13Z",
-      "text": ""
-    },
-    "420304883": {
-      "title": "0.164.0-alpha.11 (rust-v0.164.0-alpha.11)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11",
-      "hash": "de7e1b3d9934ed0d",
-      "summary": "Release 0.164.0-alpha.11",
-      "published_at": "2026-10-22T04:22:12Z",
       "text": ""
     }
   },
@@ -74,7 +74,8 @@
     "420170961",
     "421457270",
     "421920601",
-    "421375638"
+    "421375638",
+    "424811924"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

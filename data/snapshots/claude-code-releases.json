@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-25T23:40:42.058429Z",
-  "etag": "W/\"393fc1c5ea3c37886f6e1d012d73a44749bc93d48e8ac510fb9eae00f882de9d\"",
+  "taken_at": "2026-10-26T23:45:17.571974Z",
+  "etag": "W/\"dcd0a126f7063d08a9861910b50d4f336edcda1ce87affed1db7f6cf09990720\"",
   "last_modified": null,
   "items": {
+    "424682562": {
+      "title": "v2.1.311",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "hash": "e3d339e9ae897fab",
+      "summary": "## What's changed\n- Added `--hold-idle-file` and `--max-hold-min` to `self-hosted-runner`, to keep an idle session while your host reports processes it left running\n- Added a tip for the Explanatory output style, shown when you ask Claude for explanations\n- Fixed long freezes at startup and after reading or editing files when a CLAUDE.md file holds a very long list item\n- Fixed interrupting Claude not taking effect until a timeout while an MCP server had not answered a resource read or a skill was still downloading\n- Fixed standard-context sessions stopping with \"Usage credits required for 1M…",
+      "published_at": "2026-10-26T21:51:23Z",
+      "text": ""
+    },
     "422315867": {
       "title": "v2.1.310",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session\n- Added hook output sizes and the number of oversized outputs saved to a file to the `hook_execution_complete` OpenTelemetry event\n-…",
       "published_at": "2026-09-22T16:38:14Z",
       "text": ""
-    },
-    "391877760": {
-      "title": "v2.1.278",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
-      "hash": "cbfb0ed728ec8bca",
-      "summary": "## What's changed\n- Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overhead (`CLAUDE_CODE_AUTO_MODE_SERVER=0` opts out on Bedrock, Vertex, Foundry and gateways); warns on billed fallback. See https://code.claude.com/docs/en/auto-mode-classifier-billing\n- Added an `Auto mode server` row to `/status` showing whether this session's auto mode classifier runs on the server",
-      "published_at": "2026-09-19T03:10:40Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -287,7 +287,8 @@
     "419073006",
     "421170674",
     "420299398",
-    "422315867"
+    "422315867",
+    "424682562"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

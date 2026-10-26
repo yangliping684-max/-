@@ -1,9 +1,17 @@
 {
   "source_id": "continental-china-jobs",
-  "taken_at": "2026-10-16T23:40:17.509459Z",
+  "taken_at": "2026-10-26T23:45:04.943147Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000157718959": {
+      "title": "CN - Tires - Conti Care Specialist (Leasing HC)",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000157718959",
+      "hash": "29cad4783a19ff86",
+      "summary": "",
+      "published_at": "2026-10-26T03:44:46.718000Z",
+      "text": ""
+    },
     "744000155159729": {
       "title": "Computer Vision Engineer",
       "url": "https://jobs.smartrecruiters.com/Continental/744000155159729",
@@ -223,7 +231,8 @@
     "744000013595286",
     "743999913946083",
     "744000155159729",
-    "744000155145559"
+    "744000155145559",
+    "744000157718959"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Continental/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

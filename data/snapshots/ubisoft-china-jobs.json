@@ -1,9 +1,17 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-10-23T23:43:22.001997Z",
+  "taken_at": "2026-10-26T23:45:07.352072Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000157719929": {
+      "title": "Community Advocacy Manager [Assasin's Creed]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000157719929",
+      "hash": "41133a7c581faf61",
+      "summary": "",
+      "published_at": "2026-10-26T04:12:38.596000Z",
+      "text": ""
+    },
     "744000157063947": {
       "title": "Art Director [Art Team]",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000157063947",
@@ -136,7 +144,8 @@
     "744000155900379",
     "744000155900219",
     "744000156278649",
-    "744000157063947"
+    "744000157063947",
+    "744000157719929"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

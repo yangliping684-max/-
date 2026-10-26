@@ -1,9 +1,65 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-23T23:44:09.883973Z",
+  "taken_at": "2026-10-26T23:45:53.319568Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/greptile-code-review-codex-astra": {
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "hash": "a533bc85b86a218a",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "published_at": "2026-10-26T22:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "hash": "1d9f672a179b6917",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "published_at": "2026-10-26T14:30:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security": {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "hash": "c39c96f2aa74c443",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "published_at": "2026-10-26T13:45:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/chatgpt-expanding-world-of-work": {
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "hash": "37382f62066ce418",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "published_at": "2026-10-26T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/fanatics-streamline-fan-experience": {
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "hash": "d1e57ab8f748338a",
+      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "published_at": "2026-10-26T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/openai-cut-incident-investigation": {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "hash": "3900a4f5adb083fe",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "published_at": "2026-10-26T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-gpt-6-1-terra": {
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "hash": "df64bff9f31a1fb7",
+      "summary": "Bringing fast and capable computer use to everyone",
+      "published_at": "2026-10-26T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
@@ -164,19 +220,19 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "hash": "e1cf64513aeccdf6",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/benefit-street-partners": {
       "title": "Benefit Street Partners answers questions faster with Codex",
       "url": "https://openai.com/index/benefit-street-partners",
       "hash": "6bacae7e0cb9e78d",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "e1cf64513aeccdf6",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -252,19 +308,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/sophos": {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "hash": "28a28748cb9e3f1a",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/asana-browser-agent": {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "url": "https://openai.com/index/asana-browser-agent",
       "hash": "e7453d7fdd82c956",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/sophos": {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "hash": "28a28748cb9e3f1a",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -476,19 +532,19 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/basis-tax-workbook-with-astra": {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "hash": "a7c7b55ccea50710",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/form/codex-originals": {
       "title": "Are you a Codex Original?",
       "url": "https://openai.com/form/codex-originals",
       "hash": "ed740364360408d9",
       "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/basis-tax-workbook-with-astra": {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "hash": "a7c7b55ccea50710",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
@@ -532,22 +588,6 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/sam-altman-un-security-council-remarks": {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "hash": "83081a9de90b1a9e",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
       "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
       "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
@@ -561,6 +601,22 @@
       "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
       "hash": "090b4193dae2b85f",
       "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/sam-altman-un-security-council-remarks": {
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "hash": "83081a9de90b1a9e",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/ringg": {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "hash": "6410611bf04e572d",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -628,19 +684,19 @@
       "published_at": "2026-09-22T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "hash": "a60604a9ef8cc7e9",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "published_at": "2026-09-21T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra": {
       "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
       "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
       "hash": "a1dc241b1a01c5db",
       "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
+      "published_at": "2026-09-21T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advisory-group-on-mathematics-and-ai": {
+      "title": "Advisory Group on Mathematics and Artificial Intelligence",
+      "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "hash": "a60604a9ef8cc7e9",
+      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
       "published_at": "2026-09-21T12:00:00Z",
       "text": ""
     },
@@ -746,62 +802,6 @@
       "hash": "dfb0aabfc8100217",
       "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
       "published_at": "2026-09-14T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/perplexity-improving-accuracy-with-astra": {
-      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
-      "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
-      "hash": "457524522ffd0fd6",
-      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
-      "published_at": "2026-09-14T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/scaling-storage-one-billion-users-part-one": {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "hash": "8c61b43df7d19580",
-      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
-      "published_at": "2026-09-11T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/cognition-devin-testing-with-astra": {
-      "title": "Cognition helps Devin test its own work with GPT‐6 Astra",
-      "url": "https://openai.com/index/cognition-devin-testing-with-astra",
-      "hash": "be5e8e58d71dcea8",
-      "summary": "GPT‐6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
-      "published_at": "2026-09-11T16:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials": {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "hash": "5a331475c5efc755",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "published_at": "2026-09-10T16:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/put-data-to-work": {
-      "title": "Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "hash": "eb78795396e605ea",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "published_at": "2026-09-10T15:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-chatgpt-financial-services": {
-      "title": "Introducing ChatGPT for Financial Services",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "hash": "e8e0139c5753b343",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "published_at": "2026-09-10T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/expanding-ai-access-us-government": {
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "url": "https://openai.com/index/expanding-ai-access-us-government",
-      "hash": "e8f9324fff49f827",
-      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "published_at": "2026-09-10T07:00:00Z",
       "text": ""
     }
   },
@@ -936,7 +936,14 @@
     "https://openai.com/index/scaling-storage-one-billion-users-part-two",
     "https://openai.com/index/securing-our-frontier-model-training-environment",
     "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-    "https://openai.com/index/forward-deployed-engineering-means"
+    "https://openai.com/index/forward-deployed-engineering-means",
+    "https://openai.com/index/greptile-code-review-codex-astra",
+    "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+    "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+    "https://openai.com/index/chatgpt-expanding-world-of-work",
+    "https://openai.com/index/fanatics-streamline-fan-experience",
+    "https://openai.com/index/openai-cut-incident-investigation",
+    "https://openai.com/index/introducing-gpt-6-1-terra"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

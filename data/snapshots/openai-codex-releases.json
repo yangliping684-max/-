@@ -1,47 +1,47 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-10-26T23:46:02.297519Z",
-  "etag": "W/\"7ea209251152df5a57f3c1a94b5b5a7cc65c4d12804ec529bd2fbd9434210d83\"",
+  "taken_at": "2026-10-27T23:45:53.042526Z",
+  "etag": "W/\"aa291283bde1d471a954fe1b825f77511793f77d44d2c29297a9ac00428ddd21\"",
   "last_modified": null,
   "items": {
-    "424811924": {
-      "title": "0.165.0-alpha.3 (rust-v0.165.0-alpha.3)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.3",
-      "hash": "6469f279365da4d7",
-      "summary": "Release 0.165.0-alpha.3",
-      "published_at": "2026-10-26T21:54:06Z",
+    "425927431": {
+      "title": "0.165.0 (rust-v0.165.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+      "hash": "43091da46499ae0d",
+      "summary": "## New Features\n- Added a built-in Google Cloud Vertex AI provider, configured with `model_provider = \"gcp\"`. (#56265)\n- Added GPT-6.1 Terra to the model catalogs. (#57337)\n- Added a repository filter to the session picker and directory grouping to the agent command center, making it easier to navigate sessions across linked worktrees. (#56308)\n- Added experimental attached thread forks to the app-server API. (#56351)\n- Enabled reasoning effort changes during a conversation by default for supported models. (#56163)\n- Enabled memory v2 by default for fresh profiles and added support for import…",
+      "published_at": "2026-10-27T20:09:38Z",
       "text": ""
     },
-    "421457270": {
-      "title": "0.164.0 (rust-v0.164.0)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0",
-      "hash": "581f2db7bc9d83db",
-      "summary": "## New Features\n- Save reusable prompts and slash commands in ten numbered `/presets` slots, with a keyboard menu for quick access. (#54380, #54381)\n- Set model, reasoning effort, speed, and permission profiles directly with inline `/model` and `/permissions` arguments. (#54378, #54383)\n- Preview viewed and generated images in the fullscreen transcript on terminals supporting Kitty or Sixel graphics. (#54216)\n- Authenticate enterprise MCP connections using eligible Codex account grants or dedicated sign-in, including OAuth clients requiring secrets. (#55334, #55859, #56001)\n- Mask credentials…",
-      "published_at": "2026-10-23T04:48:10Z",
+    "425888103": {
+      "title": "0.166.0-alpha.3 (rust-v0.166.0-alpha.3)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.3",
+      "hash": "45ea511a60046e9e",
+      "summary": "Release 0.166.0-alpha.3",
+      "published_at": "2026-10-27T19:23:16Z",
       "text": ""
     },
-    "421920601": {
-      "title": "0.165.0-alpha.1 (rust-v0.165.0-alpha.1)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1",
-      "hash": "e685d16388b98a8d",
-      "summary": "Release 0.165.0-alpha.1",
-      "published_at": "2026-10-23T14:09:53Z",
+    "425394868": {
+      "title": "0.166.0-alpha.2 (rust-v0.166.0-alpha.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.2",
+      "hash": "d659358fc3e04b8d",
+      "summary": "Release 0.166.0-alpha.2",
+      "published_at": "2026-10-27T11:54:48Z",
       "text": ""
     },
-    "420622768": {
-      "title": "0.164.0-alpha.12 (rust-v0.164.0-alpha.12)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.12",
-      "hash": "4f73a12e6fb4e59a",
-      "summary": "Release 0.164.0-alpha.12",
-      "published_at": "2026-10-22T11:11:51Z",
+    "424944221": {
+      "title": "0.166.0-alpha.1 (rust-v0.166.0-alpha.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.1",
+      "hash": "56397554403109c6",
+      "summary": "Release 0.166.0-alpha.1",
+      "published_at": "2026-10-27T01:33:18Z",
       "text": ""
     },
-    "421375638": {
-      "title": "0.164.0-alpha.11.1 (rust-v0.164.0-alpha.11.1)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.11.1",
-      "hash": "74c44a288b53822a",
-      "summary": "Release 0.164.0-alpha.11.1",
-      "published_at": "2026-10-23T01:58:13Z",
+    "425049708": {
+      "title": "0.165.0-alpha.1.2 (rust-v0.165.0-alpha.1.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0-alpha.1.2",
+      "hash": "b970c1cbdf59423d",
+      "summary": "Release 0.165.0-alpha.1.2",
+      "published_at": "2026-10-27T04:57:39Z",
       "text": ""
     }
   },
@@ -75,7 +75,12 @@
     "421457270",
     "421920601",
     "421375638",
-    "424811924"
+    "424811924",
+    "425927431",
+    "425888103",
+    "425394868",
+    "424944221",
+    "425049708"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

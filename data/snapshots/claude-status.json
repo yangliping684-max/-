@@ -1,9 +1,25 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-10-26T23:46:03.531310Z",
-  "etag": "W/\"7e352c0be771df46bec5df31422c322b\"",
+  "taken_at": "2026-10-27T23:45:53.981182Z",
+  "etag": "W/\"5559817cbcbb0d1cb3821bde04be0eb2\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/lqhknfdjrcst": {
+      "title": "Elevated errors for Claude Sonnet 5.5",
+      "url": "https://status.claude.com/incidents/lqhknfdjrcst",
+      "hash": "b2bdc4b1bf599ecb",
+      "summary": "Oct 27 , 15:50 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 07:42 PT / 14:42 UTC to 08:17 PT / 15:17 UTC. Oct 27 , 15:09 UTC Identified - We are investigating elevated errors on requests to Claude Sonnet 5.5. We will provide an update as soon as possible.",
+      "published_at": "2026-10-27T15:50:17Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/0q89dylg9vjk": {
+      "title": "Elevated errors for Claude Sonnet 5.5",
+      "url": "https://status.claude.com/incidents/0q89dylg9vjk",
+      "hash": "0b328d7fb2ba1b0a",
+      "summary": "Oct 27 , 09:56 UTC Resolved - The issue affecting Claude services has been resolved. Oct 27 , 09:38 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Oct 27 , 09:14 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5.5. We will provide an update as soon as possible.",
+      "published_at": "2026-10-27T09:56:46Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/vx06kp8wfpq2": {
       "title": "Elevated errors for Claude Fable 5.1",
       "url": "https://status.claude.com/incidents/vx06kp8wfpq2",
@@ -187,22 +203,6 @@
       "summary": "Sep 2 , 21:44 UTC Resolved - The issue affecting Claude Sonnet 5 has been resolved. Impact occurred from 2:05pm PT / 21:05 UTC to 2:19pm PT / 21:19 UTC. Sep 2 , 21:17 UTC Investigating - We are investigating elevated errors on requests to Claude Sonnet 5. We will provide an update as soon as possible.",
       "published_at": "2026-09-02T21:44:28Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/620swtqyn24k": {
-      "title": "Delays in credit purchases",
-      "url": "https://status.claude.com/incidents/620swtqyn24k",
-      "hash": "7ebed5422b98c6d6",
-      "summary": "Sep 2 , 01:24 UTC Resolved - This issue has been resolved. Sep 1 , 23:26 UTC Monitoring - We have identified and resolved an issue where users who reached a balance of zero usage credits saw delays in the availability of newly purchased credits, resulting in some requests to the Claude API receiving 'credit balance is too low' errors erroneously. This affected credits purchased from 05:10am PT / 12:10 UTC to 2:35pm PT / 21:35 UTC. At this time, newly purchased credits should be available as expected and we are working to resolve any remaining impact.",
-      "published_at": "2026-09-02T01:24:22Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/3g3d55q6vk3h": {
-      "title": "Degraded performance on platform.claude.com and Claude for Microsoft Office 365",
-      "url": "https://status.claude.com/incidents/3g3d55q6vk3h",
-      "hash": "61b81274e609bab3",
-      "summary": "Sep 1 , 18:07 UTC Resolved - This issue has been resolved. Sep 1 , 17:52 UTC Monitoring - We are seeing success rates recover across affected services. Core inference and the API are not impacted. Sep 1 , 17:05 UTC Investigating - We are investigating reports of degraded performance affecting some Claude services, including docs.claude.com. We are working to resolve these issues and will provide an update as soon as possible.",
-      "published_at": "2026-09-01T18:07:03Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -237,7 +237,9 @@
     "https://status.claude.com/incidents/0ns5clsk8p2x",
     "https://status.claude.com/incidents/3cqf3pmlnr96",
     "https://status.claude.com/incidents/vx06kp8wfpq2",
-    "https://status.claude.com/incidents/334jvgbrc4ff"
+    "https://status.claude.com/incidents/334jvgbrc4ff",
+    "https://status.claude.com/incidents/lqhknfdjrcst",
+    "https://status.claude.com/incidents/0q89dylg9vjk"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-26T23:45:11.983024Z",
-  "etag": "W/\"13c036-I5PGGNaSM+8sJbf3+0IikRjON8U\"",
+  "taken_at": "2026-10-27T23:45:02.117513Z",
+  "etag": "W/\"138a20-pA4mflBr2wFc/FgQSvOaBV7UfkQ\"",
   "last_modified": null,
   "items": {
     "7bda3069-d97c-4a69-bd06-091e1ec081a7": {
@@ -156,14 +156,6 @@
       "published_at": "2026-10-20T07:03:13.223000Z",
       "text": ""
     },
-    "ac6243b5-5da9-4697-9b5c-c8085b93f645": {
-      "title": "Assistente de Aquisição de Frota - Rio de Janeiro",
-      "url": "https://jobs.lever.co/lalamove/ac6243b5-5da9-4697-9b5c-c8085b93f645",
-      "hash": "f2630f91679aa846",
-      "summary": "",
-      "published_at": "2026-09-18T19:07:24.972000Z",
-      "text": ""
-    },
     "f892f388-05c9-4c65-aa51-cde9bcf7ff55": {
       "title": "Assistente de Gestão de Fornecedores e Presença Offline - Rio de Janeiro",
       "url": "https://jobs.lever.co/lalamove/f892f388-05c9-4c65-aa51-cde9bcf7ff55",
@@ -212,14 +204,6 @@
       "published_at": "2026-04-01T15:08:29.223000Z",
       "text": ""
     },
-    "6a944248-1655-48a9-95b4-a94123b889f4": {
-      "title": "Associate, Sustainability",
-      "url": "https://jobs.lever.co/lalamove/6a944248-1655-48a9-95b4-a94123b889f4",
-      "hash": "002de60e347fa746",
-      "summary": "",
-      "published_at": "2025-01-08T04:04:03.251000Z",
-      "text": ""
-    },
     "700d4ee7-d385-40a0-8b0c-f128424d8612": {
       "title": "Brand Ambassador (Part Time)",
       "url": "https://jobs.lever.co/lalamove/700d4ee7-d385-40a0-8b0c-f128424d8612",
@@ -250,14 +234,6 @@
       "hash": "7a46f37ff9eff4ef",
       "summary": "",
       "published_at": "2025-09-11T08:07:35.348000Z",
-      "text": ""
-    },
-    "80436b69-05ed-4eb5-a602-1fda7d668309": {
-      "title": "Business Development Associate",
-      "url": "https://jobs.lever.co/lalamove/80436b69-05ed-4eb5-a602-1fda7d668309",
-      "hash": "8180560138a0b324",
-      "summary": "",
-      "published_at": "2026-03-16T07:49:17.389000Z",
       "text": ""
     },
     "4686bc34-5ae9-4019-80fc-0486eb0cc51e": {
@@ -412,14 +388,6 @@
       "published_at": "2026-09-11T03:51:52.109000Z",
       "text": ""
     },
-    "74f321ae-0ae9-481f-943b-f1cc87af8f25": {
-      "title": "Director, Investor Relations",
-      "url": "https://jobs.lever.co/lalamove/74f321ae-0ae9-481f-943b-f1cc87af8f25",
-      "hash": "eec1fd76a3214165",
-      "summary": "",
-      "published_at": "2026-05-07T05:56:20.173000Z",
-      "text": ""
-    },
     "955167f8-e682-4a1d-a93c-2159f1706fdf": {
       "title": "Director, Marketing",
       "url": "https://jobs.lever.co/lalamove/955167f8-e682-4a1d-a93c-2159f1706fdf",
@@ -436,12 +404,28 @@
       "published_at": "2026-10-01T04:56:26.618000Z",
       "text": ""
     },
+    "a6140e33-2ed9-4156-96dc-5bc1226e369c": {
+      "title": "Driver Operations Associate",
+      "url": "https://jobs.lever.co/lalamove/a6140e33-2ed9-4156-96dc-5bc1226e369c",
+      "hash": "78f73153d43a6689",
+      "summary": "",
+      "published_at": "2026-10-27T08:40:34.823000Z",
+      "text": ""
+    },
     "b95b0ab1-4278-4b51-9e9f-a63bf2fac470": {
       "title": "Driver Operations Associate",
       "url": "https://jobs.lever.co/lalamove/b95b0ab1-4278-4b51-9e9f-a63bf2fac470",
       "hash": "78f73153d43a6689",
       "summary": "",
       "published_at": "2026-07-28T03:53:04.520000Z",
+      "text": ""
+    },
+    "04aca009-ffe1-4a66-939d-d7d07deaa760": {
+      "title": "Driver Operations Associate - Driver Assistance",
+      "url": "https://jobs.lever.co/lalamove/04aca009-ffe1-4a66-939d-d7d07deaa760",
+      "hash": "f860d302ab046bed",
+      "summary": "",
+      "published_at": "2026-10-27T07:55:11.048000Z",
       "text": ""
     },
     "53d799ef-8cf9-4b3f-9ab5-d76908457c30": {
@@ -588,20 +572,20 @@
       "published_at": "2026-09-24T09:18:19.418000Z",
       "text": ""
     },
+    "86a35174-ca12-46ac-8b2c-d8866f4df308": {
+      "title": "Driver Operations Manager",
+      "url": "https://jobs.lever.co/lalamove/86a35174-ca12-46ac-8b2c-d8866f4df308",
+      "hash": "46a90678ee23391c",
+      "summary": "",
+      "published_at": "2026-10-27T15:11:23.751000Z",
+      "text": ""
+    },
     "371f5e45-78d4-4fb2-982f-bbefad71b8b7": {
       "title": "Driver Operations Manager 營運主管/營運經理",
       "url": "https://jobs.lever.co/lalamove/371f5e45-78d4-4fb2-982f-bbefad71b8b7",
       "hash": "4a575084b8800b92",
       "summary": "",
       "published_at": "2026-08-25T10:09:43.143000Z",
-      "text": ""
-    },
-    "ebb59a3a-10c9-4bf0-ac6f-19ba3c834220": {
-      "title": "Estagiário de Finanças",
-      "url": "https://jobs.lever.co/lalamove/ebb59a3a-10c9-4bf0-ac6f-19ba3c834220",
-      "hash": "7747a370193b87ff",
-      "summary": "",
-      "published_at": "2026-09-22T13:51:48.766000Z",
       "text": ""
     },
     "b5d63e49-9f7c-4477-83bf-deaecd3093c8": {
@@ -805,9 +789,9 @@
       "text": ""
     },
     "f8d617ce-dce0-4b94-8f6e-c4e1cdc0ff4f": {
-      "title": "Operation Associate (Hourly Rated)",
+      "title": "Operations Associate (Hourly Rated)",
       "url": "https://jobs.lever.co/lalamove/f8d617ce-dce0-4b94-8f6e-c4e1cdc0ff4f",
-      "hash": "93ebf6af1a954c28",
+      "hash": "466f9dacca9f133e",
       "summary": "",
       "published_at": "2026-07-02T03:37:10.576000Z",
       "text": ""
@@ -948,6 +932,14 @@
       "published_at": "2026-09-23T16:04:05.344000Z",
       "text": ""
     },
+    "a1754318-6b3f-4266-b458-a21ff634bdf2": {
+      "title": "Sales Manager",
+      "url": "https://jobs.lever.co/lalamove/a1754318-6b3f-4266-b458-a21ff634bdf2",
+      "hash": "4bcb9163b4e690d0",
+      "summary": "",
+      "published_at": "2026-04-01T14:55:01.139000Z",
+      "text": ""
+    },
     "0653cc29-b21a-40c4-928d-b30a8e6ca3a9": {
       "title": "Sales Manager 業務經理",
       "url": "https://jobs.lever.co/lalamove/0653cc29-b21a-40c4-928d-b30a8e6ca3a9",
@@ -962,14 +954,6 @@
       "hash": "492627587dc85010",
       "summary": "",
       "published_at": "2026-10-16T10:08:30.752000Z",
-      "text": ""
-    },
-    "75b2967f-b6e9-4038-8e36-7cd96882080d": {
-      "title": "Senior Account Executive",
-      "url": "https://jobs.lever.co/lalamove/75b2967f-b6e9-4038-8e36-7cd96882080d",
-      "hash": "cb12c897c34b6b7c",
-      "summary": "",
-      "published_at": "2026-09-17T09:49:34.707000Z",
       "text": ""
     },
     "580adc8c-949e-4f5c-b59d-ea41b187d78d": {
@@ -1422,7 +1406,11 @@
     "eb704692-6154-4bcc-8ccb-a01af32832b7",
     "84b51706-a458-4dd6-b0c8-42a459292805",
     "c21460a4-9dfb-4317-8f4d-b320789a5a95",
-    "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf"
+    "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf",
+    "a6140e33-2ed9-4156-96dc-5bc1226e369c",
+    "04aca009-ffe1-4a66-939d-d7d07deaa760",
+    "86a35174-ca12-46ac-8b2c-d8866f4df308",
+    "a1754318-6b3f-4266-b458-a21ff634bdf2"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

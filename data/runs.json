@@ -1,6 +1,31 @@
 {
   "runs": [
     {
+      "id": "20261027T234454Z",
+      "started_at": "2026-10-27T23:44:54.172861Z",
+      "finished_at": "2026-10-27T23:46:03.875157Z",
+      "trigger": "schedule",
+      "sources_total": 27,
+      "sources_ok": 25,
+      "sources_failed": 2,
+      "sources_paused": 0,
+      "new_events": 38,
+      "filtered": 58,
+      "duplicates": 9,
+      "errors": [
+        {
+          "source_id": "china-logistics-group-recruit",
+          "status": "parse_error",
+          "message": "解析失败：条目选择器 'a[href*='/articles/']:-soup-contains('招聘')' 没有匹配到任何条目（页面结构可能已改变）"
+        },
+        {
+          "source_id": "anthropic-news",
+          "status": "parse_error",
+          "message": "解析失败：条目选择器 'a[href]:has(time)' 没有匹配到任何条目（页面结构可能已改变）"
+        }
+      ]
+    },
+    {
       "id": "20261026T234504Z",
       "started_at": "2026-10-26T23:45:04.887294Z",
       "finished_at": "2026-10-26T23:46:13.312107Z",

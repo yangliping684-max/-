@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-26T23:45:17.571974Z",
-  "etag": "W/\"dcd0a126f7063d08a9861910b50d4f336edcda1ce87affed1db7f6cf09990720\"",
+  "taken_at": "2026-10-27T23:45:07.912665Z",
+  "etag": "W/\"0df5fd6a09b68f6da5000796de55b04149bbb8045fcf78603f1387c1d9ab97f8\"",
   "last_modified": null,
   "items": {
+    "425846009": {
+      "title": "v2.1.312",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "hash": "e54d1f81664f0bb2",
+      "summary": "## What's changed\n- Added `oidc.user_id_claim` to the Claude apps gateway, to identify people by an id_token claim other than `sub`, such as Microsoft Entra ID's `oid`\n- Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does\n- Fixed managed settings and organization policy not being fetched for the rest of the session after signing in from the VS Code extension\n- Fixed Claude overwriting a very large CLAUDE.md, rules file or @-included file in a subdirectory after seeing only its start; Write now asks Claude to read it a…",
+      "published_at": "2026-10-27T20:24:20Z",
+      "text": ""
+    },
     "424682562": {
       "title": "v2.1.311",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail: {id, version}` on Claude apps gateway Bedrock upstreams to apply an Amazon Bedrock guardrail to every request sent through them (set it on all Bedrock upstreams or none)\n- Added `telem…",
       "published_at": "2026-09-23T19:19:15Z",
       "text": ""
-    },
-    "393879189": {
-      "title": "v2.1.280",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
-      "hash": "8519fd202a77ddcb",
-      "summary": "## What's changed\n- Added Claude Opus 5.5 (`claude-opus-5-5`), now the default Opus model — 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads\n- Added mouse support to more lists in fullscreen mode: the wheel scrolls the `/skills` list, and a skill's state options in `/plugin` can be clicked\n- Added `CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH` to change the 2,048-character cap on MCP tool descriptions and server instructions for every MCP server in the session\n- Added hook output sizes and the number of oversized outputs saved to a file to the `hook_execution_complete` OpenTelemetry event\n-…",
-      "published_at": "2026-09-22T16:38:14Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -288,7 +288,8 @@
     "421170674",
     "420299398",
     "422315867",
-    "424682562"
+    "424682562",
+    "425846009"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

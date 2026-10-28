@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-27T23:45:08.509337Z",
-  "etag": "W/\"00c1f28f2e2fdb6c2173e32074222e06953bd088eefe5a1214db999f3ebb29da\"",
+  "taken_at": "2026-10-28T23:49:28.697556Z",
+  "etag": "W/\"a4ee9464011c99395be386b6d3c86a3d378b664f279d24186e3f1b9f0325c629\"",
   "last_modified": null,
   "items": {
+    "427257427": {
+      "title": "v3.41.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.41.0",
+      "hash": "04aad8eb1774c54a",
+      "summary": "## [3.41.0](https://github.com/openai/openai-python/compare/v3.40.0...v3.41.0) (2026-10-28)\n### Features\n* **api:** accept typed references in Realtime response inputs ([#4189](https://github.com/openai/openai-python/issues/4189)) ([8ecb487](https://github.com/openai/openai-python/commit/8ecb487ceb746f3af492c2d94083eb4e5d82a14f))\n* **api:** add response tool usage models ([#4201](https://github.com/openai/openai-python/issues/4201)) ([55fc500](https://github.com/openai/openai-python/commit/55fc5008533deef3ad99ab6ffe48021e95aa22c2))\n* **api:** filter agent sessions by metadata ([#4200](https:/…",
+      "published_at": "2026-10-28T22:26:54Z",
+      "text": ""
+    },
     "425651473": {
       "title": "v3.40.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.40.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.18.0](https://github.com/openai/openai-python/compare/v3.17.0...v3.18.0) (2026-09-22)\n### Features\n* **api:** add GPT-6 Sol and Luna model identifiers ([#3935](https://github.com/openai/openai-python/issues/3935)) ([455ce1b](https://github.com/openai/openai-python/commit/455ce1b5da067e5d7631c86a571ca3b0d03b65cd))",
       "published_at": "2026-09-22T18:25:48Z",
       "text": ""
-    },
-    "393417568": {
-      "title": "v3.17.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.17.0",
-      "hash": "b23152f0f0188fcf",
-      "summary": "## [3.17.0](https://github.com/openai/openai-python/compare/v3.16.2...v3.17.0) (2026-09-22)\n### Features\n* **api:** add external storage configuration management ([#3909](https://github.com/openai/openai-python/issues/3909)) ([6332577](https://github.com/openai/openai-python/commit/6332577d3fb5f83f7f381a431460262f7192402d))\n* **api:** add safety case retrieval ([#3911](https://github.com/openai/openai-python/issues/3911)) ([a87b938](https://github.com/openai/openai-python/commit/a87b938545b34c1880b9914b43a5039072f40b09))\n* **api:** add safety warning and deactivation webhook events ([#3908](h…",
-      "published_at": "2026-09-22T02:36:34Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -289,7 +289,8 @@
     "420278928",
     "424657500",
     "424501236",
-    "425651473"
+    "425651473",
+    "427257427"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-27T23:45:02.117513Z",
-  "etag": "W/\"138a20-pA4mflBr2wFc/FgQSvOaBV7UfkQ\"",
+  "taken_at": "2026-10-28T23:49:22.182642Z",
+  "etag": "W/\"130d91-VeDd4lbEm4yuvafBUXDwvyMSxdc\"",
   "last_modified": null,
   "items": {
     "7bda3069-d97c-4a69-bd06-091e1ec081a7": {
@@ -164,14 +164,6 @@
       "published_at": "2026-09-18T19:04:57.151000Z",
       "text": ""
     },
-    "ecee15fe-6638-4388-9aa8-09d9560e8e73": {
-      "title": "ASSISTENTE DE OPERAÇÕES - Corp Ops - Rio de Janeiro",
-      "url": "https://jobs.lever.co/lalamove/ecee15fe-6638-4388-9aa8-09d9560e8e73",
-      "hash": "c08539f5fb8b5c58",
-      "summary": "",
-      "published_at": "2026-09-23T13:36:59.444000Z",
-      "text": ""
-    },
     "7117cc61-c494-4ad0-9f81-d9251c5503b1": {
       "title": "Assistente de Relacionamento",
       "url": "https://jobs.lever.co/lalamove/7117cc61-c494-4ad0-9f81-d9251c5503b1",
@@ -276,14 +268,6 @@
       "published_at": "2024-10-07T08:30:15.396000Z",
       "text": ""
     },
-    "052dde65-6794-4771-bd44-5177da0be669": {
-      "title": "Business Development Support",
-      "url": "https://jobs.lever.co/lalamove/052dde65-6794-4771-bd44-5177da0be669",
-      "hash": "b6df6823a41481b5",
-      "summary": "",
-      "published_at": "2026-09-15T06:29:05.773000Z",
-      "text": ""
-    },
     "89d5e345-fefb-47a3-bfbe-7bc442c0e392": {
       "title": "Business Intelligence (BI) Engineer",
       "url": "https://jobs.lever.co/lalamove/89d5e345-fefb-47a3-bfbe-7bc442c0e392",
@@ -314,14 +298,6 @@
       "hash": "fcac69fc700a50f3",
       "summary": "",
       "published_at": "2025-09-18T03:44:44.010000Z",
-      "text": ""
-    },
-    "b34f7b6f-c0de-4b00-af87-2daca6f34b97": {
-      "title": "Customer Service Associate",
-      "url": "https://jobs.lever.co/lalamove/b34f7b6f-c0de-4b00-af87-2daca6f34b97",
-      "hash": "fcac69fc700a50f3",
-      "summary": "",
-      "published_at": "2026-09-11T10:58:07.888000Z",
       "text": ""
     },
     "b8e7d125-e687-4c8b-86d6-aaf32abd15c5": {
@@ -562,14 +538,6 @@
       "hash": "a3de0eafed14192a",
       "summary": "",
       "published_at": "2026-08-08T10:12:11.249000Z",
-      "text": ""
-    },
-    "67c2c896-df8a-48c7-bc29-f522be7ff6d1": {
-      "title": "Driver Operations Lead (VisMin Expansion)",
-      "url": "https://jobs.lever.co/lalamove/67c2c896-df8a-48c7-bc29-f522be7ff6d1",
-      "hash": "154e124c51588269",
-      "summary": "",
-      "published_at": "2026-09-24T09:18:19.418000Z",
       "text": ""
     },
     "86a35174-ca12-46ac-8b2c-d8866f4df308": {
@@ -884,6 +852,14 @@
       "published_at": "2026-04-01T15:10:29.116000Z",
       "text": ""
     },
+    "130faadf-6e10-4568-ad05-fdce1cdf1f61": {
+      "title": "Sales Associate - Automotive",
+      "url": "https://jobs.lever.co/lalamove/130faadf-6e10-4568-ad05-fdce1cdf1f61",
+      "hash": "ade3f2e57da49ac6",
+      "summary": "",
+      "published_at": "2026-10-28T02:18:47.277000Z",
+      "text": ""
+    },
     "1c860b16-d2b5-49ec-bcdb-bc977a1497cc": {
       "title": "Sales Associate - Riyadh based",
       "url": "https://jobs.lever.co/lalamove/1c860b16-d2b5-49ec-bcdb-bc977a1497cc",
@@ -1156,14 +1132,6 @@
       "published_at": "2025-09-15T11:25:12.422000Z",
       "text": ""
     },
-    "6b5f8f20-1609-49a3-b5e5-46313b8bab5a": {
-      "title": "Talent Acquisition Associate (Fixed Term)",
-      "url": "https://jobs.lever.co/lalamove/6b5f8f20-1609-49a3-b5e5-46313b8bab5a",
-      "hash": "b2efd6781167da31",
-      "summary": "",
-      "published_at": "2026-10-07T05:00:37.783000Z",
-      "text": ""
-    },
     "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf": {
       "title": "Training & Quality Analyst",
       "url": "https://jobs.lever.co/lalamove/0a768f98-031b-4fd3-bb2d-54fdcf41dbcf",
@@ -1410,7 +1378,8 @@
     "a6140e33-2ed9-4156-96dc-5bc1226e369c",
     "04aca009-ffe1-4a66-939d-d7d07deaa760",
     "86a35174-ca12-46ac-8b2c-d8866f4df308",
-    "a1754318-6b3f-4266-b458-a21ff634bdf2"
+    "a1754318-6b3f-4266-b458-a21ff634bdf2",
+    "130faadf-6e10-4568-ad05-fdce1cdf1f61"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

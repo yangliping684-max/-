@@ -1,9 +1,25 @@
 {
   "source_id": "canva-china-jobs",
-  "taken_at": "2026-10-27T23:44:58.669079Z",
+  "taken_at": "2026-10-28T23:49:19.721034Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "6000000001530195": {
+      "title": "AI大模型算法|LLM/VLM Pre-training",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001530195",
+      "hash": "81bd10641d995ba8",
+      "summary": "",
+      "published_at": "2026-10-28T06:42:15.996000Z",
+      "text": ""
+    },
+    "6000000001530149": {
+      "title": "AI Research Scientist 大模型研究科学家",
+      "url": "https://jobs.smartrecruiters.com/Canva/6000000001530149",
+      "hash": "421f5da6b7738f66",
+      "summary": "",
+      "published_at": "2026-10-28T06:41:27.533000Z",
+      "text": ""
+    },
     "6000000001365762": {
       "title": "CJKI Product Program Manager",
       "url": "https://jobs.smartrecruiters.com/Canva/6000000001365762",
@@ -19,7 +35,9 @@
     "6000000001228519",
     "6000000001224672",
     "6000000001224627",
-    "6000000001121034"
+    "6000000001121034",
+    "6000000001530195",
+    "6000000001530149"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Canva/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

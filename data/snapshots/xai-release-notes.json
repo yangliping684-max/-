@@ -1,9 +1,17 @@
 {
   "source_id": "xai-release-notes",
-  "taken_at": "2026-10-14T23:41:46.145050Z",
+  "taken_at": "2026-10-28T23:50:10.163095Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://docs.x.ai/developers/release-notes#custom-moderation-controls": {
+      "title": "Custom moderation controls",
+      "url": "https://docs.x.ai/developers/release-notes#custom-moderation-controls",
+      "hash": "a56a119478929bfe",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
     "https://docs.x.ai/developers/release-notes#grok-voice-30-is-available": {
       "title": "Grok Voice 3.0 is available",
       "url": "https://docs.x.ai/developers/release-notes#grok-voice-30-is-available",
@@ -395,14 +403,6 @@
       "summary": "",
       "published_at": null,
       "text": ""
-    },
-    "https://docs.x.ai/developers/release-notes#docs-dark-mode": {
-      "title": "Docs Dark Mode",
-      "url": "https://docs.x.ai/developers/release-notes#docs-dark-mode",
-      "hash": "1b2f0e10fa8f799f",
-      "summary": "",
-      "published_at": null,
-      "text": ""
     }
   },
   "seen_keys": [
@@ -460,7 +460,8 @@
     "https://docs.x.ai/developers/release-notes#grok-voice-30-is-available",
     "https://docs.x.ai/developers/release-notes#grok-voice-20-deprecation",
     "https://docs.x.ai/developers/release-notes#grok-voice-20-is-available",
-    "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available"
+    "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available",
+    "https://docs.x.ai/developers/release-notes#custom-moderation-controls"
   ],
   "scope": "https://docs.x.ai/developers/release-notes|50|None"
 }

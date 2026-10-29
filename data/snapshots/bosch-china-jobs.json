@@ -1,15 +1,39 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-28T23:49:36.885501Z",
+  "taken_at": "2026-10-29T23:51:37.490161Z",
   "etag": null,
   "last_modified": null,
   "items": {
-    "744000158300859": {
-      "title": "Strategic Talent Attraction Expert_C",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158300859",
-      "hash": "5c84393838ea55a1",
+    "744000158444859": {
+      "title": "Sr. AI Enabled Power Electronic Hardware Engineer_DC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158444859",
+      "hash": "0f5dbe9b57d232b5",
       "summary": "",
-      "published_at": "2026-10-28T13:54:13.432000Z",
+      "published_at": "2026-10-29T06:42:32.814000Z",
+      "text": ""
+    },
+    "744000158438889": {
+      "title": "高级设施工程师Senior Facility Engineer",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158438889",
+      "hash": "c45c42812492b08e",
+      "summary": "",
+      "published_at": "2026-10-29T05:11:29.720000Z",
+      "text": ""
+    },
+    "744000158434904": {
+      "title": "Design Engineer_PS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158434904",
+      "hash": "05b6e8712e12ea24",
+      "summary": "",
+      "published_at": "2026-10-29T03:34:29.559000Z",
+      "text": ""
+    },
+    "744000158432819": {
+      "title": "Strategic Talent Attraction Expert_M",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158432819",
+      "hash": "50e8a7b3b0d9acea",
+      "summary": "",
+      "published_at": "2026-10-29T02:50:04.011000Z",
       "text": ""
     },
     "744000158298552": {
@@ -26,14 +50,6 @@
       "hash": "1ef9c8dae61f8a4d",
       "summary": "",
       "published_at": "2026-10-28T12:20:15.255000Z",
-      "text": ""
-    },
-    "744000158240289": {
-      "title": "高级硬件专家_DCCX",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158240289",
-      "hash": "31d5337e98736c6f",
-      "summary": "",
-      "published_at": "2026-10-28T09:22:31.057000Z",
       "text": ""
     },
     "744000158211644": {
@@ -12048,7 +12064,11 @@
     "744000158002660",
     "744000158002319",
     "744000157995099",
-    "744000157950629"
+    "744000157950629",
+    "744000158444859",
+    "744000158438889",
+    "744000158434904",
+    "744000158432819"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

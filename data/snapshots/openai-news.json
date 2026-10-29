@@ -1,9 +1,33 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-28T23:50:03.573246Z",
+  "taken_at": "2026-10-29T23:52:04.124994Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/updated-model-spec": {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "hash": "df9a74a02cd847e9",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "published_at": "2026-10-29T17:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment": {
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "hash": "8a12e9a39e9c588b",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "published_at": "2026-10-29T09:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/ropes-gray-ai-diligence": {
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "hash": "e7f56c92ec014ebc",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "published_at": "2026-10-29T07:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/openai-servicenow-partnership-expansion": {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
@@ -292,19 +316,19 @@
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "hash": "e1cf64513aeccdf6",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/benefit-street-partners": {
       "title": "Benefit Street Partners answers questions faster with Codex",
       "url": "https://openai.com/index/benefit-street-partners",
       "hash": "6bacae7e0cb9e78d",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "e1cf64513aeccdf6",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -380,19 +404,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/asana-browser-agent": {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "hash": "e7453d7fdd82c956",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sophos": {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "hash": "28a28748cb9e3f1a",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/asana-browser-agent": {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "hash": "e7453d7fdd82c956",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -580,19 +604,19 @@
       "published_at": "2026-09-29T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/how-we-will-do-better-for-australia": {
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "hash": "002e55e7dbe6424f",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "published_at": "2026-09-28T19:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
       "title": "Towards safety cases for frontier AI training",
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "hash": "cc30f6c098a94d82",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "published_at": "2026-09-28T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/how-we-will-do-better-for-australia": {
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "hash": "002e55e7dbe6424f",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "published_at": "2026-09-28T19:00:00Z",
       "text": ""
     },
@@ -660,19 +684,19 @@
       "published_at": "2026-09-23T13:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "hash": "90e353bc716287ab",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/sam-altman-un-security-council-remarks": {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "hash": "83081a9de90b1a9e",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
-      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "hash": "090b4193dae2b85f",
-      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -684,11 +708,11 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "hash": "90e353bc716287ab",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
+      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "hash": "090b4193dae2b85f",
+      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -778,30 +802,6 @@
       "hash": "0fee5877d8a71fd9",
       "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
       "published_at": "2026-09-21T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/expanding-openai-academy-with-new-learning-paths": {
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "hash": "42f8e6ef54b024dc",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "published_at": "2026-09-21T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/v7": {
-      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
-      "url": "https://openai.com/index/v7",
-      "hash": "85edc7fc8b2f09ec",
-      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
-      "published_at": "2026-09-21T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/australian-youth-safety-blueprint": {
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
-      "hash": "4b8d416b662f7304",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "published_at": "2026-09-18T12:00:00Z",
       "text": ""
     }
   },
@@ -952,7 +952,10 @@
     "https://openai.com/index/localiza-generative-ai",
     "https://openai.com/index/openai-servicenow-partnership-expansion",
     "https://openai.com/index/the-future-of-the-firm",
-    "https://openai.com/index/legora"
+    "https://openai.com/index/legora",
+    "https://openai.com/index/updated-model-spec",
+    "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "https://openai.com/index/ropes-gray-ai-diligence"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

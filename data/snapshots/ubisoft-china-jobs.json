@@ -1,9 +1,33 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-10-27T23:44:56.648983Z",
+  "taken_at": "2026-10-29T23:50:49.959885Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000158570869": {
+      "title": "Senior Weapon Concept Artist",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158570869",
+      "hash": "36b0092de3097014",
+      "summary": "",
+      "published_at": "2026-10-29T16:44:12.818000Z",
+      "text": ""
+    },
+    "744000158551049": {
+      "title": "Lead Animator",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158551049",
+      "hash": "f4b9746089e59c82",
+      "summary": "",
+      "published_at": "2026-10-29T15:26:03.026000Z",
+      "text": ""
+    },
+    "744000158434969": {
+      "title": "Community Advocacy Manager [Assasin's Creed]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158434969",
+      "hash": "41133a7c581faf61",
+      "summary": "",
+      "published_at": "2026-10-29T03:29:45.285000Z",
+      "text": ""
+    },
     "744000158052749": {
       "title": "Senior Animator (Rainbow Six)",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158052749",
@@ -20,28 +44,12 @@
       "published_at": "2026-10-27T09:23:18.694000Z",
       "text": ""
     },
-    "744000157719929": {
-      "title": "Community Advocacy Manager [Assasin's Creed]",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000157719929",
-      "hash": "41133a7c581faf61",
-      "summary": "",
-      "published_at": "2026-10-26T04:12:38.596000Z",
-      "text": ""
-    },
     "744000157063947": {
       "title": "Art Director [Art Team]",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000157063947",
       "hash": "4cb3cf48cdbfcb56",
       "summary": "",
       "published_at": "2026-10-22T08:17:08.654000Z",
-      "text": ""
-    },
-    "744000155900379": {
-      "title": "UX Designer",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000155900379",
-      "hash": "6392bcdb90054e69",
-      "summary": "",
-      "published_at": "2026-10-16T02:14:50.387000Z",
       "text": ""
     },
     "744000155900219": {
@@ -76,28 +84,12 @@
       "published_at": "2026-09-04T03:57:29.534000Z",
       "text": ""
     },
-    "744000145073038": {
-      "title": "Senior Weapon Concept Artist",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000145073038",
-      "hash": "36b0092de3097014",
-      "summary": "",
-      "published_at": "2026-08-24T01:33:25.466000Z",
-      "text": ""
-    },
     "744000143266509": {
       "title": "Associate Quality Control Lead",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000143266509",
       "hash": "8d69d62110cd47ee",
       "summary": "",
       "published_at": "2026-08-13T09:16:23.104000Z",
-      "text": ""
-    },
-    "744000138242109": {
-      "title": "Lead Animator",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000138242109",
-      "hash": "f4b9746089e59c82",
-      "summary": "",
-      "published_at": "2026-07-17T02:55:20.156000Z",
       "text": ""
     },
     "744000112075915": {
@@ -147,7 +139,10 @@
     "744000157063947",
     "744000157719929",
     "744000158052749",
-    "744000157995699"
+    "744000157995699",
+    "744000158570869",
+    "744000158551049",
+    "744000158434969"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

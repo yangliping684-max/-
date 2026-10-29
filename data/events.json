@@ -1,6 +1,2229 @@
 {
-  "updated_at": "2026-10-28T23:50:23.412798+00:00",
+  "updated_at": "2026-10-29T23:52:23.598667+00:00",
   "events": [
+    {
+      "id": "3ca60d3f9c4f04e7",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "6.1 Sol Degraded Model Performance",
+      "url": "https://status.openai.com//incidents/01M5YY4A3TQETEQ53DVSK8SW10",
+      "summary": "新增/修改内容：Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Chat Completions (Operational) Responses (Operational) Batch (Operational)",
+      "detected_at": "2026-10-29T23:52:16.106318Z",
+      "published_at": "2026-10-27T16:20:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Chat Completions (Operational) Responses (Operational) Batch (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Batch (Operational) Chat Completions (Operational) Responses (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "697e0685d657a63b",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "url": "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Files (Operational) Moderations (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Compliance API (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) Chat Completions (Operational) Fine-tuning (Operational) Decisions (Operational) Conversations (Operational) Ima",
+      "detected_at": "2026-10-29T23:52:16.106318Z",
+      "published_at": "2026-10-21T03:28:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Files (Operational) Moderations (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Compliance API (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) Chat Completions (Operational) Fine-tuning (Operational) Decisions (Operational) Conversations (Operational) Images (Operational) Batch (Operational) Login (Operational) Codex Web (Operational) File uploads (Operational) Responses (Operational) Image Generation (Operational) Space (Operational) dots (Operation…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Moderations (Operational) Codex Web (Operational) CLI (Operational) Space (Operational) Decisions (Operational) Compliance API (Operational) ChatGPT Work (Operational) Agents (Operational) Conversations (Operational) Chat Completions (Operational) Fine-tuning (Operational) Deep Research (Operational) Codex API (Operational) dots (Operational) Login (Operational) Batch (Operational) Embeddings (Operational) Live (Operational) Audio (Operational) Realtime (Operational) Connectors/Apps (Operational) File uploads…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "9a054059a9ea9940",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) GPTs (Operational) Deep Research (Operational) VS Code extension (Operational) Login (Operational) File uploads (Operational) Agent (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Chat Completions (Operational) Fine-tuning (Operational) Image Generation (Ope",
+      "detected_at": "2026-10-29T23:52:16.106318Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) GPTs (Operational) Deep Research (Operational) VS Code extension (Operational) Login (Operational) File uploads (Operational) Agent (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Chat Completions (Operational) Fine-tuning (Operational) Image Generation (Operational) Codex Web (Operational) Batch (Operational) CLI (Operational) Agents (Operational) Codex API (Operational) Files (Operational) Compliance API (Operational) Login (Operational) Connectors/Ap…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Images (Operational) VS Code extension (Operational) Agents (Operational) Chat Completions (Operational) Moderations (Operational) Image Generation (Operational) Connectors/Apps (Operational) Voice mode (Operational) Audio (Operational) Sites (Operational) Search (Operational) Fine-tuning (Operational) Realtime (Operational) Files (Operational) Codex API (Operational) Conversations (Operational) Responses (Operational) Agent (Operational) Login (Operational) Deep Research (Operational) CLI (Operational) Batch…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "a2c5457db8b3eb84",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) File uploads (Operational) Image Generation (Operational) Agent (Operational) Connectors/Apps (Operational) Search (Operational) Compliance API (Operational) Deep Research (Operational) Conversations (Ope",
+      "detected_at": "2026-10-29T23:52:16.106318Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) File uploads (Operational) Image Generation (Operational) Agent (Operational) Connectors/Apps (Operational) Search (Operational) Compliance API (Operational) Deep Research (Operational) Conversations (Operational) GPTs (Operational) Sites (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Deep Research (Operational) Voice mode (Operational) File uploads (Operational) Compliance API (Operational) Image Generation (Operational) Connectors/Apps (Operational) Sites (Operational) Login (Operational) Search (Operational) Conversations (Operational) GPTs (Operational) Agent (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "23d73dca26724fbd",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.166.0 (rust-v0.166.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "summary": "## New Features\n- Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. (#57221, #57222, #57223, #57224)\n- Rendered Markdown consistently in async questions, choices, answers, and transcript replies. (#57259, #57292)\n- Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs. (#57293)\n- Added `codex queue --resume` to resume unloaded threads after queueing a message. (#57232)\n- Added clearer safety-block explanations and selectable safer follow-up prompts in the TUI. (#57363, #57365)\n- Added `codex…",
+      "detected_at": "2026-10-29T23:52:12.994809Z",
+      "published_at": "2026-10-29T19:47:53Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.166.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "95b7b134062237fe",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.166.0-alpha.6 (rust-v0.166.0-alpha.6)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0-alpha.6",
+      "summary": "Release 0.166.0-alpha.6",
+      "detected_at": "2026-10-29T23:52:12.994809Z",
+      "published_at": "2026-10-29T01:41:25Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.166.0-alpha.6",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "211c97b241f81d82",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "added",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "detected_at": "2026-10-29T23:52:04.124994Z",
+      "published_at": "2026-10-29T17:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 76,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "c02fa90a760b86ca",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "added",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "detected_at": "2026-10-29T23:52:04.124994Z",
+      "published_at": "2026-10-29T09:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 76,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "18200a63fd83de1f",
+      "source_id": "openai-news",
+      "source_name": "OpenAI News",
+      "category": "ai",
+      "change_type": "added",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "detected_at": "2026-10-29T23:52:04.124994Z",
+      "published_at": "2026-10-29T07:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "news",
+        "ai_type_rule": "未命中特定类型"
+      }
+    },
+    {
+      "id": "a3748a5ce221fbf6",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Business Recruiter",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467425008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T19:35:34Z",
+      "source_updated_at": "2026-10-29T19:35:34Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Dublin, IE"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Dublin, IE",
+        "city": "Dublin"
+      }
+    },
+    {
+      "id": "92e806842f86d3de",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Enterprise Account Executive, Public Sector",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458064008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T13:41:13Z",
+      "source_updated_at": "2026-10-29T13:41:13Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Madrid, Spain"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Madrid, Spain",
+        "city": "Madrid"
+      }
+    },
+    {
+      "id": "693b872fe27e734e",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Enterprise Account Executive, Public Sector",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458689008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T13:49:57Z",
+      "source_updated_at": "2026-10-29T13:49:57Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Milan, Italy"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Milan, Italy",
+        "city": "Milan"
+      }
+    },
+    {
+      "id": "8713e8ee50985552",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Enterprise Account Executive - Semiconductors",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5461024008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T19:27:18Z",
+      "source_updated_at": "2026-10-29T19:27:18Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "London, UK"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "London, UK",
+        "city": "London"
+      }
+    },
+    {
+      "id": "9f1552857fa98d53",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Performance & Talent Programs Manager",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5465578008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T21:08:30Z",
+      "source_updated_at": "2026-10-29T21:08:30Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA",
+        "city": "New York City"
+      }
+    },
+    {
+      "id": "6cf9fe1f29d95698",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Research Scientist, Life Sciences (Large Molecules, Antibody Design)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467092008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T23:45:44Z",
+      "source_updated_at": "2026-10-29T23:45:44Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "9bfb216550b20df0",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Research Scientist, Life Sciences (Large Molecules, Process Development)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467099008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T23:48:00Z",
+      "source_updated_at": "2026-10-29T23:48:00Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "252e2ebf71aa2004",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Senior Engineer, Bioinformatics",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5467083008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T18:06:17Z",
+      "source_updated_at": "2026-10-29T18:06:17Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "18ae2e716cc412f5",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Senior Field Engineer, Data Center Design and Engineering",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5466517008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T01:20:34Z",
+      "source_updated_at": "2026-10-29T01:20:34Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Remote-Friendly, United States"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly, United States",
+        "city": "Remote-Friendly"
+      }
+    },
+    {
+      "id": "41c4ed1ee3e68ab2",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Senior Manager, Order-to-Cash Assurance",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5451912008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T16:43:33Z",
+      "source_updated_at": "2026-10-29T16:43:33Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | Seattle, WA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "835aaa9b33122212",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Staff / Senior Data Center Security Engineer",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5419154008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T19:41:14Z",
+      "source_updated_at": "2026-10-29T19:41:14Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Remote-Friendly (Travel Required) | San Francisco, CA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly (Travel Required) | San Francisco, CA",
+        "city": "Remote-Friendly (Travel Required)"
+      }
+    },
+    {
+      "id": "d1dbe2ea82898f85",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Staff+ Software Engineer, Enterprise Connectivity",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5173120008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-29T05:36:39Z",
+      "source_updated_at": "2026-10-29T05:36:39Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "30ec61ee7a68caa9",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Anthropic STEM Fellow",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5452403008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-14T18:34:30Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "5166eb27f5a47cc1",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Conceptual Reasoning Fellow",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5447080008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-09T19:56:05Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "308b7b691ca4ec93",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Data Center Facility Operations Lead - Commissioning & Delivery",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462718008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-23T20:00:01Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "2e363bceffd973f8",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Data Center Global Repairs Program Support",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439369008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-09-30T02:58:17Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "90728b3e9e389151",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Data Center Operations Lead - Partner Site Operations",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5398280008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-08-21T20:32:22Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "5a185c0523b371d0",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Director, US International Tax",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5358120008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-08-07T21:19:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "1d3e25e2b6aeb9fc",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enforcement Operations Lead, Cloud Partners",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5417758008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-09-13T00:37:47Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "7ebbe8b4ca8b4f5b",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enterprise Account Executive, Consulting and Agency Groups",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5454188008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-21T08:57:05Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "05108bf841d669f2",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enterprise Account Executive, Retail",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5458062008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-27T16:52:04Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "4c7c75c42d681f88",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Manufacturing Engineer - Data Center Hardware",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5399158008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-08-24T15:16:56Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "76853cc7d0c5fc8f",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Network Deployment and Maintenance Lead - Data Center Operations",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439804008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-09-30T15:38:21Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "486515b529f38dde",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Product Engineer - Manufacturing Operations",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5399162008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-08-24T15:17:33Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "51cb1fdcf3f9b630",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Product Marketing Lead, GTM Strategy - Claude for Knowledge Work",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385602008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-08-12T22:23:26Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "17ec4d71ad050b94",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Real Estate Portfolio Manager",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5106199008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-02-03T01:13:43Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "c8eb623010745eb1",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Safeguards Enforcement Analyst, Child Safety",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5311237008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-07-11T00:17:12Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "1736cf15828e2159",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Technical Program Manager, GTM Systems",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5368023008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-07-22T21:48:26Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "a637b4096bd755b0",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Workplace Coordinator",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459422008",
+      "summary": "",
+      "detected_at": "2026-10-29T23:51:37.254413Z",
+      "published_at": "2026-10-21T16:04:48Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "a1a50889b0259a4b",
+      "source_id": "fed-press-releases",
+      "source_name": "Federal Reserve Press Releases",
+      "category": "macro",
+      "change_type": "added",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
+      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "detected_at": "2026-10-29T23:51:30.622907Z",
+      "published_at": "2026-10-29T20:30:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "058caf2781613335",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Manager, Ocean Freight",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8335626",
+      "summary": "",
+      "detected_at": "2026-10-29T23:50:54.207678Z",
+      "published_at": "2026-10-29T23:06:57Z",
+      "source_updated_at": "2026-10-29T23:06:57Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Los Angeles, California, United States"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Los Angeles, California, United States",
+        "city": "Los Angeles",
+        "function": "物流与供应链"
+      }
+    },
+    {
+      "id": "117aa4f8c5bb210f",
+      "source_id": "flexport-jobs",
+      "source_name": "Flexport 全球职位",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Manager, Ocean Freight",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8280926",
+      "summary": "新增/修改内容：Manager, Ocean Freight",
+      "detected_at": "2026-10-29T23:50:54.207678Z",
+      "published_at": "2026-10-14T09:52:28Z",
+      "source_updated_at": "2026-10-29T06:46:18Z",
+      "matched_keywords": [
+        "物流与供应链"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：物流与供应链"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Manager, Ocean Freight"
+        ],
+        "removed": [
+          "Senior Manager, Ocean Freight"
+        ]
+      },
+      "extra": {
+        "location": "Singapore, Singapore"
+      },
+      "facets": {
+        "company": "Flexport",
+        "industry": "国际物流 / 供应链科技",
+        "location": "Singapore, Singapore",
+        "city": "Singapore",
+        "function": "物流与供应链"
+      }
+    },
     {
       "id": "5f0d4aa139dc893f",
       "source_id": "openai-status",
@@ -53594,2301 +55817,6 @@
           "factor": "keywords",
           "points": 16,
           "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "a4a30088beb0d920",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Persistent Memory and Iterative Improvement in an LLM Agent for Chinese-Character Drawing",
-      "url": "https://arxiv.org/abs/2610.24090",
-      "summary": "arXiv:2610.24090v1 Announce Type: new\nAbstract: Does persistent memory accumulated from previous attempts help an LLM agent solve new problems, and does memory design affect that benefit? We study programmatic Chinese-character drawing across five agent conditions attempting the same 668 items. Accumulated memory produces modest aggregate gains despite substantial growth in the memory stores: free-form notes improve first-attempt success by 4.6 percentage points, while a design combining free-form memory with reusable code improves it by 2.8 points. The two designs do not differ significantly…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "9907f34f27dba12f",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Joint, Decoupled, or Agent: When Each Multimodal Alignment Paradigm Wins",
-      "url": "https://arxiv.org/abs/2610.24108",
-      "summary": "arXiv:2610.24108v1 Announce Type: new\nAbstract: Jointly pretrained multimodal encoders are a common way to combine modalities, while alternatives integrate their information during downstream training or inference. When does each approach win? We compare three paradigms, instantiated with public checkpoints, across 16 paired datasets in five domains and multiple training-label budgets. JOINT trains a fusion head on frozen, jointly pretrained encoders. DECOUPLED trains a fusion head on frozen, independently pretrained encoders. AGENT gives a frozen LLM task instructions, labelled examples, ava…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "b9eba40c974670bc",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Self-Improving Video-to-Action Models",
-      "url": "https://arxiv.org/abs/2610.24177",
-      "summary": "arXiv:2610.24177v1 Announce Type: new\nAbstract: Video generative models are an emerging tool for embodied agents: they can serve as scalable visual planners, generating videos that depict how to complete previously unseen tasks. However, executing these plans typically requires a video-to-action or \"inverse dynamics\" model trained on large, human-collected video-action datasets, severely limiting scalability. We introduce Mirror, a self-supervised approach that learns video-to-action mappings through environment interactions, without prior action data or hand-crafted rewards. Mirror learns by…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "4c2ca75fafd9c2ba",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Agents' Last Doubt: Knowing When to Act and When to Step Back in Tool-Using Agents",
-      "url": "https://arxiv.org/abs/2610.24194",
-      "summary": "arXiv:2610.24194v1 Announce Type: new\nAbstract: Tool-using LLM agents repeatedly face decision points under uncertainty, choosing between autonomous action, additional information gathering, and human escalation. These decisions require balancing task success against interaction cost and the risk of irreversible errors. Learning to make these trade-offs is challenging because existing interaction trajectories record only the outcomes of actions taken, leaving the consequences of alternative actions unobserved. To address this gap, we construct a counterfactual dataset containing 3,115 action…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "744823a1f575ca13",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Probing Ambiguity: Adversarial Intent Resolution for Robust Text-to-SQL",
-      "url": "https://arxiv.org/abs/2610.24248",
-      "summary": "arXiv:2610.24248v1 Announce Type: new\nAbstract: Text-to-SQL systems typically assume a one-to-one mapping between natural-language queries and correct SQL translations. In practice, however, many queries are inherently ambiguous, admitting multiple valid interpretations that yield distinct outputs. We introduce Adversarial Intent Resolution (AIR), a multi-agent framework that actively probes and resolves such ambiguity without any task-specific training. AIR first constructs competing interpretations, verifies through SQL execution that they produce genuinely different results, and generates…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agent"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "f6b0e0923857affe",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Cortex: A Fixed-Point Theory of Governed Coding Agents - Technical Report",
-      "url": "https://arxiv.org/abs/2610.24255",
-      "summary": "arXiv:2610.24255v1 Announce Type: new\nAbstract: A coding agent combines a large language model (LLM) with a harness that plans, edits, and executes code. We study Cortex, a supervisory layer for pre-execution governance, requirement tracking, and iterative validation and repair. We formalize requirement closure on a finite lattice. For a fixed requirement set and a sound, monotone validation rule with persistent evidence, exhaustive iteration reaches the least fixed point with no more strict increases than there are requirements. Fair consequence scheduling reaches the same closure. A separat…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM",
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM、large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "d7f6078ed6bcb27a",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "AM-Bench: A Unified Taxonomy and Evaluation Suite for Agentic Misalignment",
-      "url": "https://arxiv.org/abs/2610.24264",
-      "summary": "arXiv:2610.24264v1 Announce Type: new\nAbstract: As LLM-based agents are deployed with increasing autonomy in real-world environments, a critical failure mode emerges: agentic misalignment, where agents choose harmful actions over failure. However, existing safety benchmarks primarily evaluate whether agents comply with explicitly harmful instructions, leaving the conditions that cause agents to choose harmful actions poorly understood. To address this limitation, we propose AM-Bench, a unified taxonomy and 35 scenario evaluation benchmark spanning seven industries for agentic misalignment gro…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "26e34ad4ebd4ed4f",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "SteerSearch: Interactive Search Reasoning with Mid-Response Steering",
-      "url": "https://arxiv.org/abs/2610.24287",
-      "summary": "arXiv:2610.24287v1 Announce Type: new\nAbstract: Search-augmented language models increasingly serve as long-horizon research agents, yet most open training methods assume a fixed user goal throughout search. We study mid-response steering, where users redirect a model during ongoing reasoning or retrieval. We identify answer-target anchoring, a failure mode in which fixed-query search agents retrieve evidence for the updated request but still answer an earlier question. We introduce SteerSearch, an RL framework that trains on interactive search trajectories with injected interventions to enab…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "04094d7ddcf455a2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Not Every User Says It All: Training Tool-Using Agents Beyond Ideal Simulated Users",
-      "url": "https://arxiv.org/abs/2610.24294",
-      "summary": "arXiv:2610.24294v1 Announce Type: new\nAbstract: Tool-using agents are trained and evaluated almost exclusively with strong simulated users who state every detail clearly, yet real users are often weaker. We construct weak users by masking sentences of a simulated user's replies, holding the task and the user's knowledge fixed, and cross-evaluate agents trained with strong and weak users on tau2-bench and ToolWOZ. Weak users lower the success of every policy, and training with them does not help: no policy trained with weak users, through fixed masks, mixtures or a curriculum, serves weak user…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "e4a6ccf0fe51d101",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Who Speaks, Who Authorizes, Who Acts? Understanding Trust Boundaries in Multi-Agent LLMs",
-      "url": "https://arxiv.org/abs/2610.24298",
-      "summary": "arXiv:2610.24298v1 Announce Type: new\nAbstract: Multi-agent LLM systems exchange messages before acting through tools, but message delivery, signing authority, and tool-side enforcement are separate trust boundaries. We represent them as communication, authorization, and execution structures, and use the authority cut to characterize the smallest independently compromised signer coalition that can construct a policy-valid false-claim proof under stated assumptions. Controlled paired hidden-state studies reveal four distinctions. First, no fixed-message routing contrast across four models meet…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "385c10f32ff8c63d",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "CME-SpectrumBench: Can LLMs Analyze Condensed Matter Spectral Data?",
-      "url": "https://arxiv.org/abs/2610.24304",
-      "summary": "arXiv:2610.24304v1 Announce Type: new\nAbstract: Large Language Models (LLMs) are presently well assessed by expert-level mathematics and physics benchmarks which focus on theoretical, symbolic reasoning. However, we lack experimental benchmarks that evaluate data analysis in frontier research problems, a capability that future domain-specific foundation models must have. To this end, we present CME-SpectrumBench, an expert-designed benchmark consisting of 190 questions that measures how reliably frontier LLMs analyze research-level spectral scientific data in condensed matter experiments (CME…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "9b6b43775c1d132d",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "The Judge Can Debias Itself: Awareness and Self-Debiasing for Reliable LLM-as-a-Judge",
-      "url": "https://arxiv.org/abs/2610.24320",
-      "summary": "arXiv:2610.24320v1 Announce Type: new\nAbstract: LLM-as-a-Judge systems are increasingly employed for automated evaluation, yet remain susceptible to systematic biases that undermine their reliability. We demonstrate that the judge can effectively debias itself without additional training. We propose two lightweight strategies: bias-aware prompting, which explicitly alerts the judge to potential target biases prior to evaluation, and self-debiasing, in which the judge critiques the initial judgment for bias influence. To broaden the evaluation scope, we introduce three novel benchmarks--author…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "bce54c51ca632b9f",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Continuous Ontology Assurance through External Resources -- An Ontology Engineering Method with a Case Study in Software Language Engineering",
-      "url": "https://arxiv.org/abs/2610.24322",
-      "summary": "arXiv:2610.24322v1 Announce Type: new\nAbstract: Domain ontologies require review against knowledge recorded in evolving external resources. We propose COATER, a method that manages executable review components called arrows. Each arrow compares a scoped part of an ontology with a relevant resource and reports support or challenges to its axioms. Challenges may prompt proposals for completion, correction, or restructuring and become tasks for human or agent-assisted triage. Per-axiom coverage summarizes the assessments. We illustrate COATER with the FSL ontology in software language engineerin…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agent"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "3ba722c622787365",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Screening LLM Judges Without Ground Truth: A Preliminary Evaluation of an AI Dental Hygiene Coach",
-      "url": "https://arxiv.org/abs/2610.24335",
-      "summary": "arXiv:2610.24335v1 Announce Type: new\nAbstract: Evaluating a fine-tuned coaching model with expert graders is slow and expensive, and an LLM judge cannot be trusted without ground truth. We present a staged pipeline that screens candidate LLM judges and student models before expert review, using explicit decision rules at each stage: judge output audit, similarity with hosted judges, bias checks, and decision robustness. We demonstrate it on an AI dental hygiene coach. The case study uses synthetic, clinically unvalidated training and reference data to demonstrate the operation of the pipelin…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "1adc7efe5a346d24",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "WAQS: Weight Absorption for Quadratic Probing and Affine Steering",
-      "url": "https://arxiv.org/abs/2610.24367",
-      "summary": "arXiv:2610.24367v1 Announce Type: new\nAbstract: Activation steering provides a lightweight alternative to fine-tuning for controlling large language model behavior. Existing methods, however, often face a trade-off between efficiency and expressiveness: fixed steering vectors incur negligible inference overhead but cannot adapt to the current model input, whereas input-dependent nonlinear interventions provide greater flexibility at additional runtime cost. We introduce \\textbf{WAQS} (\\textbf{W}eight \\textbf{A}bsorption for \\textbf{Q}uadratic probing and affine \\textbf{S}teering), a framework…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "850b4681195cc419",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Train Locally, Learn Together: Distributed Multi-Agent Training via ADMM",
-      "url": "https://arxiv.org/abs/2610.24380",
-      "summary": "arXiv:2610.24380v1 Announce Type: new\nAbstract: Multi-agent systems (MAS) can outperform individual language-model agents by combining specialized roles, diverse reasoning processes, and collaborative decision-making. However, collaborative MAS training is typically centralized, requiring a common trainer to aggregate role-local trajectories and learning signals and maintain model and optimization states. This motivates a distributed multi-agent learning paradigm in which agents improve system-level capabilities through role-local learning and decentralized communication, paving the way towar…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "d9adc4d88332b63f",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Is This Your Agent? Identity Watermarking for Agent Systems in Dynamic Environments",
-      "url": "https://arxiv.org/abs/2610.24382",
-      "summary": "arXiv:2610.24382v1 Announce Type: new\nAbstract: Agent systems deployed in dynamic environments continuously update their memories, skills, and runtime configurations, leading to evolving trajectories and challenges for persistent identity authentication. Existing text and agent watermarking methods struggle to achieve stable watermark embedding under dynamic environments, while embedded watermarks may become difficult to recover due to environmental changes. This paper proposes DASMark, an identity watermarking framework for dynamic agent systems. DASMark introduces Action-Preserving Embeddin…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agent"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "a16bb4ad3bf7a907",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "IF-MAP: Influence-Function-Inspired Agent Prioritization in Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.24383",
-      "summary": "arXiv:2610.24383v1 Announce Type: new\nAbstract: Improving every agent in an LLM-based multi-agent system can be prohibitively costly, making it important to identify which agent should be prioritized to achieve the greatest system-level gain with limited resources. Failure attribution can inform this decision, but an agent's responsibility for failures does not directly reveal the system-level gains achievable by improving it. We therefore introduce IF-MAP, an influence-function-inspired method for identifying agents with high potential for system-level improvement. For each agent, IF-MAP mea…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "a93dadd26655e4dc",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Bridging Exploration and Persona: Information-Directed Dueling for Test-Time Agent Personalization",
-      "url": "https://arxiv.org/abs/2610.24385",
-      "summary": "arXiv:2610.24385v1 Announce Type: new\nAbstract: Effective test-time personalization requires LLM agents to adapt to query-dependent user preferences from lightweight interaction. We study persona selection with binary comparisons between candidate responses as the online signal. We present ID-TAP, a scalable, IDS-inspired neural dueling-bandit framework for large discrete persona spaces. ID-TAP combines a query-conditioned neural utility model with a lightweight Bradley-Terry explorer, and transfers comparison evidence across related queries through similarity-weighted warm starts. The neural…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "9abd3be48fb59045",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Trust the Edge, Doubt the Arrow: Auditing Validation Signals for Text-Mined Clinical Causal Knowledge Graphs",
-      "url": "https://arxiv.org/abs/2610.24390",
-      "summary": "arXiv:2610.24390v1 Announce Type: new\nAbstract: Clinical causal retrieval-augmented generation systems increasingly use knowledge graphs (KGs) mined from notes, yet extracted assertions remain candidates that require audit for patient-level EHR support and direction. We construct a directed candidate graph from 328,839 MIMIC-IV discharge summaries using LLM extraction and UMLS normalization, and evaluate three signals against SemMedDB: within-admission co-occurrence lift, cross-admission diagnosis-coding temporal precedence, and literature corroboration. Lift filters unsupported co-mentions a…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "f335697f747f197b",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Hippo: Training-Free Agent Self-Evolution via Hippocampal Replay",
-      "url": "https://arxiv.org/abs/2610.24453",
-      "summary": "arXiv:2610.24453v1 Announce Type: new\nAbstract: Motivated by recursive self-improvement (RSI), we study how LLM agents can learn through external memory without updating model parameters. Extracting useful experience from a single attempt is difficult: flawed reasoning can produce success, while poor execution can obscure a sound strategy. Preserving its value over time is also difficult: our accumulation baseline without consolidation initially improves but eventually performs below a no-memory baseline. Our key idea is to compare attempts at the same task to identify reusable decisions and…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "315fdf9684ea7be1",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "MELD: Recursive Self-Improvement via Hierarchical Coordination for Multi-Agent Scientific Discovery",
-      "url": "https://arxiv.org/abs/2610.24454",
-      "summary": "arXiv:2610.24454v1 Announce Type: new\nAbstract: Multi-agent scientific discovery with large language models raises a coupled learning problem: research assignments determine both which experiments are pursued and the experiences from which agents adapt. We introduce MELD, a unified hierarchical test-time training framework that jointly adapts a team-level Coordinator policy and agent-level individual Scientist policies within a single discovery process. The Coordinator generates a joint portfolio of search branches and research directives over a shared derivation tree, while Scientists develo…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "7c55273a41cf4aa2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "ConCI: A Controlled Counterfactual Benchmark for Contextual Integrity in LLMs",
-      "url": "https://arxiv.org/abs/2610.24494",
-      "summary": "arXiv:2610.24494v1 Announce Type: new\nAbstract: Contextual integrity (CI) holds that the appropriateness of sharing personal information depends on the context of the information flow, not on the information alone. However, existing CI benchmarks often use independent scenarios that vary multiple CI parameters simultaneously and are dominated by inappropriate flows, making it unclear whether correct predictions reflect sensitivity to context or a general refusal tendency. We present ConCI, a controlled-counterfactual benchmark in which an anchor flow is paired with two counterfactuals that ea…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "1b05dc8041bced5a",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "HABIT-Bench: Evaluating Habit Induction from Longitudinal Weak Evidence in Agent Memory",
-      "url": "https://arxiv.org/abs/2610.24520",
-      "summary": "arXiv:2610.24520v1 Announce Type: new\nAbstract: In long-term interactions with large language model (LLM) agents, users reveal habits through their choices and actions. These habits capture implicit user information that agents must infer across conversations. However, individual observations may provide only partial evidence about a habit or when it applies. Retaining past interactions alone does not ensure that agents can infer habits and apply them appropriately. We introduce HABIT-Bench to evaluate how well agent memory systems infer habits from weak evidence and apply them to later reque…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM",
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM、large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "7ec8e5d0e200473d",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "CADS: Measuring the Incremental Contribution of LLM Proposers in Sequential Biological Screens",
-      "url": "https://arxiv.org/abs/2610.24597",
-      "summary": "arXiv:2610.24597v1 Announce Type: new\nAbstract: Large language models are increasingly used to guide sequential biological screens, yet standard evaluations rely on raw hit counts that conflate a proposer's value with the discovery capacity of the underlying algorithmic harness. Adaptive sampling and corrupted experimental readouts also leave standard feedback comparisons without a false-discovery guarantee. We present Certified Agentic Discovery Screens (CADS), an error-controlled measurement framework that quantifies a proposer's incremental value against an identical LLM-free loop. By inte…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "cd5ca906cdf8777b",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "HSPR: Recovering Software-Agent Benchmark Scores via Hierarchical Posterior Inference",
-      "url": "https://arxiv.org/abs/2610.24611",
-      "summary": "arXiv:2610.24611v1 Announce Type: new\nAbstract: Evaluating software agents on a full benchmark is expensive. A small task subset can preserve agent rankings while yielding inaccurate scores. Historical responses provide useful structure, but tasks with identical source responses can have different outcomes for a new target agent. We introduce Hierarchical Score Posterior Recovery (HSPR), which combines source-fitted response factors with uncertain group success rates. Observed target outcomes update the posteriors over the target latent state and group rates; posterior-guided acquisition sele…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "1d66f80896d8a7c6",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Selm: Self-Evolving Library Management for Multi-Skill Agent Optimization",
-      "url": "https://arxiv.org/abs/2610.24630",
-      "summary": "arXiv:2610.24630v1 Announce Type: new\nAbstract: Large language model (LLM) agents increasingly use skills as a lightweight way to acquire task-specific knowledge. Recent work enables skills to evolve from task trajectories. However, these methods often lack systematic management of evolved skills, making it difficult for agents to reuse and accumulate skills across domains, thus limiting performance on subsequent tasks.To reliably accumulate, reuse, and maintain useful skills across tasks, we present SELM (Self-Evolving Library Management), a framework that formulates skill evolution as libra…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM",
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM、large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "72a5b4108ee02801",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success",
-      "url": "https://arxiv.org/abs/2610.24649",
-      "summary": "arXiv:2610.24649v1 Announce Type: new\nAbstract: Agent scaffolds increasingly delegate small decisions (whether to stop, verify, or change approach) to cheaper models. We ask whether a typed decision model, Jev 1.13, consulted only at deterministic decision points, makes a Claude Sonnet 5.5 terminal agent cheaper without making it worse. In a pre-specified study on Terminal-Bench 2.1, we hold one agent loop fixed and vary only the controller: none, deterministic rules, a small LLM (Claude Haiku 5.5) answering the same questions, Jev, and a placebo that samples Jev's development-phase choice fr…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "3499c5e3ba25f6ee",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Can AI agents make law? Evaluating AI legal relevance and creativity",
-      "url": "https://arxiv.org/abs/2610.24661",
-      "summary": "arXiv:2610.24661v1 Announce Type: new\nAbstract: Large language models, the artificial intelligence (AI) systems behind modern chatbots, are trained on vast amounts of legal text, but can they build on it to write law for situations that text never anticipated? In this study, we analyse AI agents' ability to draft a hypothetical \"Constitution\" for a \"community of AI agents\". We design \"constitutional assemblies\" in which a single language model plays several characters that debate to produce a draft constitution. We find that the assemblies converge on a robust floor of legal provisions, and g…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "3f66001c5f99a386",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Neuro-Inspired Inhibitory Message Passing for Accurate and Token-Efficient Multi-Agent Reasoning",
-      "url": "https://arxiv.org/abs/2610.24718",
-      "summary": "arXiv:2610.24718v1 Announce Type: new\nAbstract: Multi-agent systems promise to solve problems by bringing together information beyond the reach of any individual agent. Retrieval and tool use can distribute this information across agents, making communication essential to collaboration. A central challenge is keeping crucial evidence visible in each agent's context as messages accumulate. Repeated information can crowd out rare, decisive evidence. Models of cortical circuits suggest a principle for addressing this imbalance: inhibition can selectively suppress shared inputs while preserving s…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "89486b8be913cd87",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Where Natural Language Ends in Agents: Executable Skill Composition with MetaSkill",
-      "url": "https://arxiv.org/abs/2610.24723",
-      "summary": "arXiv:2610.24723v1 Announce Type: new\nAbstract: Agent Skills express open-ended task knowledge in natural language, but composing them requires persistent execution order and upstream-output handoffs. We propose selective formalization at Skill boundaries: coordination relations with stable references and machine-checkable constraints become executable, while substantive task judgments remain within Skills. We introduce MetaSkill, a hybrid representation that preserves complete Skill packages and local instructions while making invocation dependencies and predecessor-text bindings executable…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "5e1ff5f537751c9d",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Can LLM Agents Resolve Service Failures? Simulating Multi-Turn Complaint Handling under Information Asymmetry",
-      "url": "https://arxiv.org/abs/2610.24733",
-      "summary": "arXiv:2610.24733v1 Announce Type: new\nAbstract: LLM agents are widely adopted in service chatbots for rule-guided support and information access, yet emotionally demanding complaint handling still relies heavily on human agents. We introduce ServiceBench, to our knowledge the first benchmark dedicated to complaint handling, with 2,500 scenarios spanning 184 complaint categories and five service industries. We propose Asymmetric Progressive Complaint Simulation (APCS) to simulate realistic complaint handling, together with a justice-based evaluation framework. Our experiments reveal that even…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "718f2ae9461d7ab7",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "ReTRACE: Feedback-Guided LLM Agent in a Chemistry Harness for Retrosynthesis Planning",
-      "url": "https://arxiv.org/abs/2610.24744",
-      "summary": "arXiv:2610.24744v1 Announce Type: new\nAbstract: Computer-aided retrosynthesis has advanced through single-step prediction, tree search and route scoring, but complex targets still require judgement over the whole route, where stereochemistry, functional-group compatibility, cost and greenness interact. Here we present \\textbf{\\mbox{ReTRACE}} (\\textbf{RE}trosynthesis with \\textbf{T}ool-orchestrated \\textbf{R}easoning \\textbf{A}nd \\textbf{C}ontext-aware \\textbf{E}vidence), an agent that places a large language model (LLM) in a chemistry harness that integrates molecular tools, complementary sin…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "LLM",
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、LLM、large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "2b71235331a1d4ae",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "DialogMem: Evaluating Dialogue-Grounded Embodied Memory in 3D Environments",
-      "url": "https://arxiv.org/abs/2610.24767",
-      "summary": "arXiv:2610.24767v1 Announce Type: new\nAbstract: Embodied agents in human-centered environments require memory that integrates what they observe with what humans tell them over time. However, existing embodied memories are built primarily from visual experience, leaving open how dialogue with humans can be grounded in the objects encountered throughout that experience. We introduce DialogMem, a two-phase benchmark in which agents build memory from time-aligned streams of posed RGB-D observations and dialogue, and later use it for instance-level object navigation and question answering (QA). Di…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "843fdf8562a8a9e0",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "IndustrialCAD-1400: Benchmarking Detailed Industrial Assemblies from Text",
-      "url": "https://arxiv.org/abs/2610.24789",
-      "summary": "arXiv:2610.24789v1 Announce Type: new\nAbstract: Industrial assemblies require more than a recognizable shape: functional parts, interfaces, dimensions and service features must satisfy a detailed request together. We introduce IndustrialCAD-1400, a text-to-CAD benchmark for this industrial setting. Its 1,400 requests combine 400 equipment categories across 40 domains with 250 four-case design families. Family requests specify a median of 17 named component or configuration roles and six explicit numeric targets; controlled variants test whether dimensions change while shared structure is reta…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "4cbe45428b9948d7",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Medical Fine-Tuning Reshapes, Not Reduces, Patient-Facing AI Risk: A Rubric-Based, LLM-Judge Evaluation Framework",
-      "url": "https://arxiv.org/abs/2610.24807",
-      "summary": "arXiv:2610.24807v1 Announce Type: new\nAbstract: Patient-facing medical question answering with large language models (LLMs) is moving from research demonstrations to production deployments, yet evaluation remains anchored on factual correctness. Factuality is necessary but not sufficient: a response can be factually grounded and still issue a directive that, if acted on, would harm the patient. We introduce a risk-sensitive evaluation framework that scores responses by the presence and severity of six categories of risk-bearing language (treatment directives, contraindications, dosage express…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "3e2ce7632316de4f",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Teaching Code Agents to Ask Without Leaking Private Code",
-      "url": "https://arxiv.org/abs/2610.24824",
-      "summary": "arXiv:2610.24824v1 Announce Type: new\nAbstract: Local coding agents can extend their reach by consulting a stronger cloud model. Such consultations, however, often expose the repository's private identifiers, file paths, and source code. Host-side masking hides recognized identifiers but leaves the surrounding code and the agent's phrasing unchanged, while training for less disclosure risks suppressing consultation or producing questions too vague to answer. We propose utility-verified abstraction (UVA), which teaches the agent to describe private entities by their role and type while retaini…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "f14a4361d7ae24c2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning",
-      "url": "https://arxiv.org/abs/2610.24835",
-      "summary": "arXiv:2610.24835v1 Announce Type: new\nAbstract: Existing evaluations of LLM-based code optimization primarily measure end-to-end speedup, obscuring whether a model actually performs the intended optimization. For compiled languages, this is especially problematic: observed gains may reflect transformations already recoverable by modern optimizing compilers rather than optimization behavior attributable to the model itself. We present PatternBench, a benchmark for studying compiler-transcendent optimization, i.e., performance improvements that remain after aggressive compiler optimization. Pat…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：LLM、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "370802f1661eec4b",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Bellman Language Models: Solving the Recurring Decisions of LLM Agents",
-      "url": "https://arxiv.org/abs/2610.24871",
-      "summary": "arXiv:2610.24871v1 Announce Type: new\nAbstract: A general observation in agentic workflows, especially bounded ones, is that the decision space of the LLM, when we separate a decision from generation, starts approaching saturation: the agent meets the same states again and again, and after enough conversations it stops meeting new ones. LLMs generally don't treat these decisions as an optimization problem and instead re-derive them from their context/prompt on every turn. We show that treating decision making within reasonable bounds as an optimization problem, solving it once, and reusing th…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "f68190687eb9a2b3",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "The One-Pixel of Reasoning: One Truthful Relation Is Enough to Mislead LLM Agents",
-      "url": "https://arxiv.org/abs/2610.24873",
-      "summary": "arXiv:2610.24873v1 Announce Type: new\nAbstract: Can one sentence manipulate an agent's belief by targeting a single implicit warrant linking evidence to a conclusion? In this paper, we introduce the one-relation attack (ORA), a novel cognitive attack on this inferential relation. ORA localizes a critical implicit warrant and performs a one-relation intervention using a single source-grounded sentence that qualifies this warrant and steers the agent toward an incorrect belief. Across eighteen models on biomedical inference and vulnerability detection, best-of-$10 attacks overturn initially cor…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "ded6574deabfc3c8",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "HybridResearcher: Bridging the Structured-Unstructured Boundary for Deep Research Agents",
-      "url": "https://arxiv.org/abs/2610.24899",
-      "summary": "arXiv:2610.24899v1 Announce Type: new\nAbstract: While LLM agents are increasingly capable of gathering and synthesizing evidence from a single homogeneous source, such as structured tables or unstructured data, real-world analytical questions frequently span heterogeneous sources. For example, answering one enterprise question may require both a result computed over an internal database and evidence found on the web. Recent evaluations on benchmarks like HybridDeepResearch show that even frontier agents struggle when evidence must cross this boundary. While these benchmarks have exposed the l…",
-      "detected_at": "2026-10-20T23:43:05.149199Z",
-      "published_at": "2026-10-20T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM"
         },
         {
           "factor": "freshness",

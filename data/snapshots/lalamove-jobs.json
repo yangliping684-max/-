@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-10-28T23:49:22.182642Z",
-  "etag": "W/\"130d91-VeDd4lbEm4yuvafBUXDwvyMSxdc\"",
+  "taken_at": "2026-10-29T23:50:54.399777Z",
+  "etag": "W/\"12b61e-wHvEdhATR6gTMqbDNJmcFEwpN3M\"",
   "last_modified": null,
   "items": {
     "7bda3069-d97c-4a69-bd06-091e1ec081a7": {
@@ -156,14 +156,6 @@
       "published_at": "2026-10-20T07:03:13.223000Z",
       "text": ""
     },
-    "f892f388-05c9-4c65-aa51-cde9bcf7ff55": {
-      "title": "Assistente de Gestão de Fornecedores e Presença Offline - Rio de Janeiro",
-      "url": "https://jobs.lever.co/lalamove/f892f388-05c9-4c65-aa51-cde9bcf7ff55",
-      "hash": "6244c1a55ba011d2",
-      "summary": "",
-      "published_at": "2026-09-18T19:04:57.151000Z",
-      "text": ""
-    },
     "7117cc61-c494-4ad0-9f81-d9251c5503b1": {
       "title": "Assistente de Relacionamento",
       "url": "https://jobs.lever.co/lalamove/7117cc61-c494-4ad0-9f81-d9251c5503b1",
@@ -197,9 +189,9 @@
       "text": ""
     },
     "700d4ee7-d385-40a0-8b0c-f128424d8612": {
-      "title": "Brand Ambassador (Part Time)",
+      "title": "Brand Ambassador (Weekend Part Time)",
       "url": "https://jobs.lever.co/lalamove/700d4ee7-d385-40a0-8b0c-f128424d8612",
-      "hash": "87a565f68abadcec",
+      "hash": "50b7c23cbf2ca6a1",
       "summary": "",
       "published_at": "2026-10-14T08:04:01.070000Z",
       "text": ""
@@ -340,14 +332,6 @@
       "published_at": "2026-07-24T09:47:04.534000Z",
       "text": ""
     },
-    "ea2d2c41-4ec1-4374-9ace-6813fdf19b14": {
-      "title": "Delivery Operations Associate (Part-time)",
-      "url": "https://jobs.lever.co/lalamove/ea2d2c41-4ec1-4374-9ace-6813fdf19b14",
-      "hash": "025f6b05cb7a4e98",
-      "summary": "",
-      "published_at": "2025-04-22T06:20:37.634000Z",
-      "text": ""
-    },
     "9d35e845-ddce-4a59-82cc-9eea039fe3f3": {
       "title": "Digital Marketing & Acquisition Executive (Regional Scope)",
       "url": "https://jobs.lever.co/lalamove/9d35e845-ddce-4a59-82cc-9eea039fe3f3",
@@ -373,9 +357,9 @@
       "text": ""
     },
     "a5fa6414-24f1-433a-9f0f-b531efc7433c": {
-      "title": "Driver Management Associate (Nhân Viên Quản Lý Chất Lượng Đối Tác Tài Xế) - Làm việc tại điểm Thanh Trì",
+      "title": "Driver Management Associate (Nhân Viên Quản Lý Chất Lượng Đối Tác Tài Xế) - Làm Việc Tại Điểm Hỗ Trợ Thanh Trì",
       "url": "https://jobs.lever.co/lalamove/a5fa6414-24f1-433a-9f0f-b531efc7433c",
-      "hash": "5af8dd87a3cc1bd7",
+      "hash": "b3051bd5f4917aa9",
       "summary": "",
       "published_at": "2026-10-01T04:56:26.618000Z",
       "text": ""
@@ -514,14 +498,6 @@
       "hash": "2d311e0de9cf2ae0",
       "summary": "",
       "published_at": "2026-07-23T06:44:29.010000Z",
-      "text": ""
-    },
-    "9e8ba321-a2d0-43ae-858d-eee402cf20bd": {
-      "title": "Driver Operations Coordinator/Associate (6 Months Contract)",
-      "url": "https://jobs.lever.co/lalamove/9e8ba321-a2d0-43ae-858d-eee402cf20bd",
-      "hash": "2d311e0de9cf2ae0",
-      "summary": "",
-      "published_at": "2024-05-03T07:54:43.664000Z",
       "text": ""
     },
     "5c385d7b-f2ae-4bf3-b64d-839c902cde57": {
@@ -684,6 +660,14 @@
       "published_at": "2026-07-15T02:48:12.877000Z",
       "text": ""
     },
+    "5725e2c1-0b42-4cf9-b3f9-b96ff6ce7f3c": {
+      "title": "Lead, Information Security Operations(Insider Risk)",
+      "url": "https://jobs.lever.co/lalamove/5725e2c1-0b42-4cf9-b3f9-b96ff6ce7f3c",
+      "hash": "b03e13df0d9c8a3f",
+      "summary": "",
+      "published_at": "2026-09-28T09:08:14.508000Z",
+      "text": ""
+    },
     "fbf38a92-460b-420b-82e5-9f770d75a895": {
       "title": "Lead, Market Operations (Service Quality)",
       "url": "https://jobs.lever.co/lalamove/fbf38a92-460b-420b-82e5-9f770d75a895",
@@ -706,14 +690,6 @@
       "hash": "5126138224ed3996",
       "summary": "",
       "published_at": "2026-04-03T01:09:23.705000Z",
-      "text": ""
-    },
-    "5725e2c1-0b42-4cf9-b3f9-b96ff6ce7f3c": {
-      "title": "Lead, Risk Operations (Infomation Security)",
-      "url": "https://jobs.lever.co/lalamove/5725e2c1-0b42-4cf9-b3f9-b96ff6ce7f3c",
-      "hash": "532aa8d0ef05f29c",
-      "summary": "",
-      "published_at": "2026-09-28T09:08:14.508000Z",
       "text": ""
     },
     "4a07fd21-bceb-4ee4-b013-dedf5cad4761": {
@@ -754,6 +730,22 @@
       "hash": "93bc55fb0388857c",
       "summary": "",
       "published_at": "2026-04-01T14:42:35.450000Z",
+      "text": ""
+    },
+    "e3df6bce-693b-4017-bdd0-593fe6bf0784": {
+      "title": "Nhân Viên Vận Hành - Điểm Hỗ Trợ Đối Tác Tài Xế Gia Lâm Hà Nội",
+      "url": "https://jobs.lever.co/lalamove/e3df6bce-693b-4017-bdd0-593fe6bf0784",
+      "hash": "5ad01fe51eb27c3f",
+      "summary": "",
+      "published_at": "2026-10-29T03:16:28.890000Z",
+      "text": ""
+    },
+    "1c1dd45a-9db3-4e6e-b7b2-5e28b4d7eba0": {
+      "title": "Nhân Viên Vận Hành - Điểm Hỗ Trợ Đối Tác Tài Xế Gia Lâm Hà Nội (Không Yêu Cầu Kinh Nghiệm)",
+      "url": "https://jobs.lever.co/lalamove/1c1dd45a-9db3-4e6e-b7b2-5e28b4d7eba0",
+      "hash": "8841450d8e4ecff3",
+      "summary": "",
+      "published_at": "2026-10-29T03:22:52.835000Z",
       "text": ""
     },
     "f8d617ce-dce0-4b94-8f6e-c4e1cdc0ff4f": {
@@ -834,14 +826,6 @@
       "hash": "1cd56d53f4a618ab",
       "summary": "",
       "published_at": "2026-02-17T12:26:47.549000Z",
-      "text": ""
-    },
-    "c3970957-94b8-462c-83fe-8dcabfca41af": {
-      "title": "Sales Associate",
-      "url": "https://jobs.lever.co/lalamove/c3970957-94b8-462c-83fe-8dcabfca41af",
-      "hash": "29b60b94728a1cc5",
-      "summary": "",
-      "published_at": "2026-03-09T02:21:35.983000Z",
       "text": ""
     },
     "e5037c55-9f04-4867-a684-4c7d904d5726": {
@@ -1379,7 +1363,9 @@
     "04aca009-ffe1-4a66-939d-d7d07deaa760",
     "86a35174-ca12-46ac-8b2c-d8866f4df308",
     "a1754318-6b3f-4266-b458-a21ff634bdf2",
-    "130faadf-6e10-4568-ad05-fdce1cdf1f61"
+    "130faadf-6e10-4568-ad05-fdce1cdf1f61",
+    "e3df6bce-693b-4017-bdd0-593fe6bf0784",
+    "1c1dd45a-9db3-4e6e-b7b2-5e28b4d7eba0"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

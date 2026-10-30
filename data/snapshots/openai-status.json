@@ -1,14 +1,30 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-10-29T23:52:16.106318Z",
+  "taken_at": "2026-10-30T23:50:33.247471Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7": {
+      "title": "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
+      "url": "https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7",
+      "hash": "6814c5d446188ed2",
+      "summary": "Status: Resolved All affected services are operating normally again.\nWe’re sorry for the disruption, and we appreciate your patience. Affected components ChatGPT Work (Operational) dots (Operational)",
+      "published_at": "2026-10-30T21:14:12Z",
+      "text": ""
+    },
+    "https://status.openai.com//incidents/01M66KSDH67V5BQ73PE8AD2W8S": {
+      "title": "Elevated errors for GPT Image 2 API image edits",
+      "url": "https://status.openai.com//incidents/01M66KSDH67V5BQ73PE8AD2W8S",
+      "hash": "7d3bb87040ab0ab6",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Images (Operational)",
+      "published_at": "2026-10-30T18:36:55Z",
+      "text": ""
+    },
     "https://status.openai.com//incidents/01M5YY4A3TQETEQ53DVSK8SW10": {
       "title": "6.1 Sol Degraded Model Performance",
       "url": "https://status.openai.com//incidents/01M5YY4A3TQETEQ53DVSK8SW10",
-      "hash": "6f7714d1248ea633",
-      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Chat Completions (Operational) Responses (Operational) Batch (Operational)",
+      "hash": "6db0423cd49c5031",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Batch (Operational) Chat Completions (Operational) Responses (Operational)",
       "published_at": "2026-10-27T16:20:06Z",
       "text": ""
     },
@@ -55,8 +71,8 @@
     "https://status.openai.com//incidents/01M5JHVJVC8WAXB4WRYFMKG6HP": {
       "title": "New Ad Accounts failing to provision admins",
       "url": "https://status.openai.com//incidents/01M5JHVJVC8WAXB4WRYFMKG6HP",
-      "hash": "360f583a5850c9cb",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads Manager (Operational) Ads API (Operational)",
+      "hash": "6cae32f922873c61",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Ads API (Operational) Ads Manager (Operational)",
       "published_at": "2026-10-23T00:07:55Z",
       "text": ""
     },
@@ -95,8 +111,8 @@
     "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H": {
       "title": "Degraded performance in ChatGPT, Codex, and APIs",
       "url": "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
-      "hash": "e413a278ae6d61af",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Files (Operational) Moderations (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Compliance API (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) Chat Completions (Operational) Fine-tuning (Operational) Decisions (Operational) Conversations (Operational) Images (Operational) Batch (Operational) Login (Operational) Codex Web (Operational) File uploads (Operational) Responses (Operational) Image Generation (Operational) Space (Operational) dots (Operation…",
+      "hash": "b7aadb6c633efc8a",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Files (Operational) Login (Operational) Codex Web (Operational) ChatGPT Work (Operational) Voice mode (Operational) Realtime (Operational) Embeddings (Operational) Deep Research (Operational) Codex API (Operational) Audio (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational) Live (Operational) Conversations (Operational) Moderations (Operational) Connectors/Apps (Operational) Sites (Operational) Batch (Operational) Chat Completions (Operational) Image Generation (Operational) CLI (…",
       "published_at": "2026-10-21T03:28:00Z",
       "text": ""
     },
@@ -111,8 +127,8 @@
     "https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81": {
       "title": "File Download errors",
       "url": "https://status.openai.com//incidents/01M5A5S1ATN3QB2WCHQ3VDZC81",
-      "hash": "4e1cb1df6c3fb35f",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational) Image Generation (Operational)",
+      "hash": "880d876b2afe72ce",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Image Generation (Operational) File uploads (Operational) Images (Operational) Files (Operational) Responses (Operational)",
       "published_at": "2026-10-19T14:14:03Z",
       "text": ""
     },
@@ -151,8 +167,8 @@
     "https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS": {
       "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
       "url": "https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
-      "hash": "7f28735928eee045",
-      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational)",
+      "hash": "09b41ba1b25239be",
+      "summary": "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational)",
       "published_at": "2026-10-13T16:36:42Z",
       "text": ""
     },
@@ -255,8 +271,8 @@
     "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N": {
       "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
       "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
-      "hash": "98c8315dcd53bd50",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) GPTs (Operational) Deep Research (Operational) VS Code extension (Operational) Login (Operational) File uploads (Operational) Agent (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Chat Completions (Operational) Fine-tuning (Operational) Image Generation (Operational) Codex Web (Operational) Batch (Operational) CLI (Operational) Agents (Operational) Codex API (Operational) Files (Operational) Compliance API (Operational) Login (Operational) Connectors/Ap…",
+      "hash": "ab87fe57737acc7b",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Chat Completions (Operational) Moderations (Operational) Deep Research (Operational) Fine-tuning (Operational) Audio (Operational) Agent (Operational) CLI (Operational) File uploads (Operational) Images (Operational) Files (Operational) Embeddings (Operational) Compliance API (Operational) Image Generation (Operational) Codex Web (Operational) Codex in ChatGPT Desktop (Operational) Batch (Operational) Realtime (Operational) Connectors/Apps (Operational) Codex API (Operational) Agen…",
       "published_at": "2026-10-06T08:26:10Z",
       "text": ""
     },
@@ -367,8 +383,8 @@
     "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39": {
       "title": "Issues with Codex",
       "url": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
-      "hash": "43b9670960aeb39c",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components VS Code extension (Operational) Codex API (Operational) Codex Web (Operational) CLI (Operational)",
+      "hash": "1faed1d73c299ad7",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) Codex Web (Operational)",
       "published_at": "2026-09-25T23:54:41Z",
       "text": ""
     },
@@ -383,25 +399,9 @@
     "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S": {
       "title": "Mobile users unable to see Work Mode and the Model Picker",
       "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
-      "hash": "f04e134b33763404",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) Voice mode (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) File uploads (Operational) Image Generation (Operational) Agent (Operational) Connectors/Apps (Operational) Search (Operational) Compliance API (Operational) Deep Research (Operational) Conversations (Operational) GPTs (Operational) Sites (Operational)",
+      "hash": "b39d6001d2e851f0",
+      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Sites (Operational) Voice mode (Operational) Conversations (Operational) Agent (Operational) Connectors/Apps (Operational) File uploads (Operational) GPTs (Operational) Deep Research (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational) Login (Operational) Search (Operational) Image Generation (Operational) ChatGPT Work (Operational)",
       "published_at": "2026-09-23T23:49:06Z",
-      "text": ""
-    },
-    "https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1": {
-      "title": "Elevated Error Rates for ChatGPT across Plus and Pro plans.",
-      "url": "https://status.openai.com//incidents/01M36RMC01ZFWQ861WYJKC4XE1",
-      "hash": "0a8da875113a32bd",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational)",
-      "published_at": "2026-09-23T09:54:16Z",
-      "text": ""
-    },
-    "https://status.openai.com//incidents/01M34TAFM9WBGEBE3G1GBH4SE8": {
-      "title": "Elevated Error Rates for ChatGPT Work, across Plus, Pro, Business, Enterprise and Education plans.",
-      "url": "https://status.openai.com//incidents/01M34TAFM9WBGEBE3G1GBH4SE8",
-      "hash": "8bdb94786f12acb6",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational)",
-      "published_at": "2026-09-22T15:58:32Z",
       "text": ""
     }
   },
@@ -474,7 +474,9 @@
     "https://status.openai.com//incidents/01M5KDJ4079XQTZDSRX40NMN6H",
     "https://status.openai.com//incidents/01M5WPZTT0385GMEV1353ZC4AM",
     "https://status.openai.com//incidents/01M5YY4A3TQETEQ53DVSK8SW10",
-    "https://status.openai.com//incidents/01M5Y60NQGGN514EB3943V94EN"
+    "https://status.openai.com//incidents/01M5Y60NQGGN514EB3943V94EN",
+    "https://status.openai.com//incidents/01M6754SR14HCQ3E9FX426E2N7",
+    "https://status.openai.com//incidents/01M66KSDH67V5BQ73PE8AD2W8S"
   ],
   "scope": "https://status.openai.com/feed.rss|50|None"
 }

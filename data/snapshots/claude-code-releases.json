@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-29T23:51:28.300108Z",
-  "etag": "W/\"9434bf371082117add33221f042b1de1583fd4407a277792f298df904ebf5ad6\"",
+  "taken_at": "2026-10-30T23:49:44.218063Z",
+  "etag": "W/\"8b769f20d658c288772b5f3c717830f2590492222bc3d29d4ec777d283bdca90\"",
   "last_modified": null,
   "items": {
+    "428518421": {
+      "title": "v2.1.314",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "hash": "89676c19d1d6f0cd",
+      "summary": "## What's changed\n- Added `permissions.blockWritesOutsideWorkingDirectories`: Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode\n- Added an optional `groups` list to Claude apps gateway upstreams: only developers in the listed IdP groups are sent to that upstream, on failover too\n- Added `guardrail_trace` to Claude apps gateway Bedrock upstreams, to log which Amazon Bedrock guardrail filter fired on a request, without the matched text\n- Added idle compaction to VS Code and Claude Desktop's Code tab: a 200K+ token conversation left idle is summar…",
+      "published_at": "2026-10-30T01:06:26Z",
+      "text": ""
+    },
     "425846009": {
       "title": "v2.1.312",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude --chrome` run alongside an exclusive `managed-mcp.json`; the error shown when Chrome is blocked now names it\n- Added `store.readiness_grace_seconds` to the Claude apps gateway so `/readyz`…",
       "published_at": "2026-09-24T18:38:05Z",
       "text": ""
-    },
-    "394877414": {
-      "title": "v2.1.281",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
-      "hash": "e617d907642cd46c",
-      "summary": "## What's changed\n- Added Claude apps gateway support for newer Claude Desktop keys in `desktop` policy blocks, including `blockReadsOutsideWorkingDirectories` and `disableBypassPermissionsMode`\n- Added `assume_role` on Claude apps gateway Bedrock upstreams: the gateway calls Bedrock as an IAM role it assumes through STS, in another AWS account if needed, optionally one session per developer\n- Added `guardrail: {id, version}` on Claude apps gateway Bedrock upstreams to apply an Amazon Bedrock guardrail to every request sent through them (set it on all Bedrock upstreams or none)\n- Added `telem…",
-      "published_at": "2026-09-23T19:19:15Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -289,7 +289,8 @@
     "420299398",
     "422315867",
     "424682562",
-    "425846009"
+    "425846009",
+    "428518421"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

@@ -7,11 +7,11 @@
       "industry": "人工智能",
       "careers_url": "https://www.anthropic.com/careers",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 676,
+      "count": 675,
       "complete": true,
-      "total_reported": 676,
+      "total_reported": 675,
       "has_catalog": true,
-      "updated_at": "2026-10-30T23:49:53.468117+00:00"
+      "updated_at": "2026-10-31T23:46:36.961208+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -89,7 +89,7 @@
       "complete": true,
       "total_reported": 193,
       "has_catalog": true,
-      "updated_at": "2026-10-30T23:49:38.713699+00:00"
+      "updated_at": "2026-10-31T23:46:22.285883+00:00"
     },
     {
       "source_id": "lalamove-jobs",
@@ -124,11 +124,11 @@
       "industry": "在线旅游 / 互联网",
       "careers_url": "https://careersatagoda.com/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 310,
+      "count": 311,
       "complete": true,
-      "total_reported": 310,
+      "total_reported": 311,
       "has_catalog": true,
-      "updated_at": "2026-10-30T23:49:40.941186+00:00"
+      "updated_at": "2026-10-31T23:46:24.657877+00:00"
     },
     {
       "source_id": "china-logistics-group-recruit",
@@ -145,5 +145,5 @@
     }
   ],
   "total": 2709,
-  "generated_at": "2026-10-30T23:50:41.108372+00:00"
+  "generated_at": "2026-10-31T23:47:24.448026+00:00"
 }

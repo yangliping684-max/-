@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-10-30T23:49:44.218063Z",
-  "etag": "W/\"8b769f20d658c288772b5f3c717830f2590492222bc3d29d4ec777d283bdca90\"",
+  "taken_at": "2026-10-31T23:46:27.857952Z",
+  "etag": "W/\"13764bbb2f1207ec78b6d06123a3e75917af222c035f1cbafbd37eed11443b4c\"",
   "last_modified": null,
   "items": {
+    "429617179": {
+      "title": "v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "hash": "fe94e88254b0b019",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off\n- Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API\n- Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to keep system cross-certificates that certify each other in a loop, for servers whose private CA needs one\n- Added `CLAUDE_CODE_SUBAGENT_EFFORT` to set the effort level subagents run at when nothing else names one, instead of inheriting the session…",
+      "published_at": "2026-10-31T01:01:35Z",
+      "text": ""
+    },
     "428518421": {
       "title": "v2.1.314",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added `x-claude-code-prompt-id` to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with `CLAUDE_CODE_GATEWAY_HINT_HEADERS=1`\n- Added `availableModelsMatch` managed setting: with `\"exact\"`, an `availableModels` entry allows only the model version it names, so new releases stay blocked until listed\n- Added `deniedModels` managed setting to block specific models, even when `availableModels` allows them\n- Added MCP tool, WebFetch and WebSearch outputs to the `tool.output` OpenTelemetry span event when `OTEL_LOG_TOOL_CONTENT=1`…",
       "published_at": "2026-09-25T21:50:12Z",
       "text": ""
-    },
-    "395840120": {
-      "title": "v2.1.282",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
-      "hash": "dfd71cec8fb776bb",
-      "summary": "## What's changed\n- Added a `maxProseWidth` setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width\n- Added a startup notice, and `/status` and `claude doctor` entries, listing telemetry variables in a project's settings files that were ignored or that turned telemetry off\n- Added the `allowClaudeInChromeWithManagedMcp` managed setting to let `claude --chrome` run alongside an exclusive `managed-mcp.json`; the error shown when Chrome is blocked now names it\n- Added `store.readiness_grace_seconds` to the Claude apps gateway so `/readyz`…",
-      "published_at": "2026-09-24T18:38:05Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -290,7 +290,8 @@
     "422315867",
     "424682562",
     "425846009",
-    "428518421"
+    "428518421",
+    "429617179"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

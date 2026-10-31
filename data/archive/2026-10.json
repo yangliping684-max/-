@@ -2,6 +2,56 @@
   "month": "2026-10",
   "events": [
     {
+      "id": "5cc2f4ae4238528a",
+      "source_id": "python-releases",
+      "source_name": "Python.org 版本发布",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Python 3.13.17",
+      "url": "https://www.python.org/downloads/release/python-31317/",
+      "summary": "Oct. 21, 2026 Download Release notes",
+      "detected_at": "2026-10-21T23:45:45.693127Z",
+      "published_at": "2026-10-21T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {}
+    },
+    {
       "id": "1903198e3f8718d1",
       "source_id": "arxiv-cs-ai",
       "source_name": "arXiv cs.AI 新论文（关键词过滤）",
@@ -6782,6 +6832,454 @@
           "factor": "keywords",
           "points": 16,
           "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "1414dc6304b09cbb",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "summary": "arXiv:2610.26887v1 Announce Type: new\nAbstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for Cowork Agents that combines verifiable task synthesis with long-horizon post-training. Using corpor…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "7fdaff76a190ecd5",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "url": "https://arxiv.org/abs/2610.26899",
+      "summary": "arXiv:2610.26899v1 Announce Type: new\nAbstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their applications in the construction industry, leading to more intelligent and efficient building processes. In particular, the rise of large language models in recent years has provided more possibilities for the transformation from traditional construction to smart construction. In this study, a large language model and…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "943f10973b070f64",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "url": "https://arxiv.org/abs/2610.26924",
+      "summary": "arXiv:2610.26924v1 Announce Type: new\nAbstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks directly from raw data often overlooks deeper questions that emerge through analysis and provides limited evidence for verification. To address these limitations, we introduce DataPraxis, an analytics task synthesis framework based on verified workspace evolution. The framework progr…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "45406f08179589c2",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "summary": "arXiv:2610.26941v1 Announce Type: new\nAbstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze five key challenges and discuss the concept and core characteristics of industrial agents. We then…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "a0268d7daa8dcf99",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2610.26943",
+      "summary": "arXiv:2610.26943v1 Announce Type: new\nAbstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the re…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "7b70d446dfeaac7f",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
+      "url": "https://arxiv.org/abs/2610.26995",
+      "summary": "arXiv:2610.26995v1 Announce Type: new\nAbstract: LLM-based agents increasingly rely on reusable skills. However, scaling skill libraries makes efficient and accurate skill use difficult. Full skill loading incurs high token and runtime overhead. In contrast, flat semantic retrieval treats skills as independent text entries, ignoring dependencies, execution order, state transitions, and data flow constraints. We propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM-based agents. SPEM maintains Atomic Skill Memory for individual skills and Skill-D…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "5a519508b9196ad2",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+      "url": "https://arxiv.org/abs/2610.27027",
+      "summary": "arXiv:2610.27027v1 Announce Type: new\nAbstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not only on the conclusion, so whether collaboration reduces hallucination, and what decides when it does, has to be measured in the reasoning too. Yet most evaluations score only the final answer. We evaluate four systems (a single-LLM baseline and three multi-agent topologies) across four models and three clinical tasks,…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "254b87eb2799e390",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Teaching AI Agent to Play Poker Strategically Through Preference Optimization",
+      "url": "https://arxiv.org/abs/2610.27028",
+      "summary": "arXiv:2610.27028v1 Announce Type: new\nAbstract: A poker agent can make a legal move and still make a strategically poor one. We ask whether compact AI agents can exhibit strategic behavior under hidden information and whether preference optimization can improve beyond static and zero-shot policies. We first evaluate a static baseline and three frozen language models: SmallThinker, Qwen3, and Gemma-3 whose performance varies substantially between exact-game and six-player evaluation. We therefore propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE), combining teacher-…",
+      "detected_at": "2026-10-21T23:45:43.355054Z",
+      "published_at": "2026-10-21T04:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
         },
         {
           "factor": "freshness",

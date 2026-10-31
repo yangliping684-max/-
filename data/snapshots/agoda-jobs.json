@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-30T23:49:40.941186Z",
-  "etag": "W/\"bac48e737dc91967dbc3537012202149\"",
+  "taken_at": "2026-10-31T23:46:24.657877Z",
+  "etag": "W/\"cd487018f73479fa0c1d6b12b2127254\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -2292,6 +2292,14 @@
       "published_at": "2026-10-12T04:44:22Z",
       "text": ""
     },
+    "8340762": {
+      "title": "Strategic Account Manager, Programs",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8340762",
+      "hash": "2d59aaf9a8534c14",
+      "summary": "",
+      "published_at": "2026-10-31T16:59:40Z",
+      "text": ""
+    },
     "8163672": {
       "title": "Strategic Account Manager - Tokyo",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8163672",
@@ -2880,7 +2888,8 @@
     "8336241",
     "8335946",
     "8284247",
-    "8336056"
+    "8336056",
+    "8340762"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

@@ -1,6 +1,517 @@
 {
-  "updated_at": "2026-10-30T23:50:41.108372+00:00",
+  "updated_at": "2026-10-31T23:47:24.448026+00:00",
   "events": [
+    {
+      "id": "fc75af4c4f74fe13",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "url": "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Space (Operational) GPTs (Operational) Live (Operational) Batch (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Deep Research (Operational) ChatGPT Work (Operational) File uploads (Operational) Conversations (Operational) Agent (Operational) CLI (Op",
+      "detected_at": "2026-10-31T23:47:16.589884Z",
+      "published_at": "2026-10-21T03:28:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Space (Operational) GPTs (Operational) Live (Operational) Batch (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Deep Research (Operational) ChatGPT Work (Operational) File uploads (Operational) Conversations (Operational) Agent (Operational) CLI (Operational) Codex in ChatGPT Desktop (Operational) Decisions (Operational) Login (Operational) Search (Operational) Compliance API (Operational) Codex API (Operational) Agents (Operational) Images (Op…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Files (Operational) Login (Operational) Codex Web (Operational) ChatGPT Work (Operational) Voice mode (Operational) Realtime (Operational) Embeddings (Operational) Deep Research (Operational) Codex API (Operational) Audio (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational) Live (Operational) Conversations (Operational) Moderations (Operational) Connectors/Apps (Operational) Sites (Operational) Batch (Operational) Chat Completions (Operational) Image Generation (Operational) CLI (…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "9b25889e0bf538c7",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Responses (Operational) Sites (Operational) Voice mode (Operational) Search (Operational) Realtime (Operational) GPTs (Operational) Images (Operational) Embeddings (Operational) Image Generation (Operational) Connectors/Apps (Operational) Compliance API (Operational) Login (Operational) CLI (Op",
+      "detected_at": "2026-10-31T23:47:16.589884Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Responses (Operational) Sites (Operational) Voice mode (Operational) Search (Operational) Realtime (Operational) GPTs (Operational) Images (Operational) Embeddings (Operational) Image Generation (Operational) Connectors/Apps (Operational) Compliance API (Operational) Login (Operational) CLI (Operational) Codex in ChatGPT Desktop (Operational) VS Code extension (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Conversations (Operational) Files (Operatio…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Chat Completions (Operational) Moderations (Operational) Deep Research (Operational) Fine-tuning (Operational) Audio (Operational) Agent (Operational) CLI (Operational) File uploads (Operational) Images (Operational) Files (Operational) Embeddings (Operational) Compliance API (Operational) Image Generation (Operational) Codex Web (Operational) Codex in ChatGPT Desktop (Operational) Batch (Operational) Realtime (Operational) Connectors/Apps (Operational) Codex API (Operational) Agen…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "62b18cbe5e01e670",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Voice mode (Operational) Conversations (Operational) GPTs (Operational) Agent (Operational) Search (Operational) Compliance API (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Login (Operational) Image Generation (Operational)",
+      "detected_at": "2026-10-31T23:47:16.589884Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Voice mode (Operational) Conversations (Operational) GPTs (Operational) Agent (Operational) Search (Operational) Compliance API (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Login (Operational) Image Generation (Operational) Deep Research (Operational) Sites (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Sites (Operational) Voice mode (Operational) Conversations (Operational) Agent (Operational) Connectors/Apps (Operational) File uploads (Operational) GPTs (Operational) Deep Research (Operational) Compliance API (Operational) Codex in ChatGPT Desktop (Operational) Login (Operational) Search (Operational) Image Generation (Operational) ChatGPT Work (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "de73d4ae489fd1e8",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Field Engineer, Data Center Design and Engineering",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5466517008",
+      "summary": "新增/修改内容：Field Engineer, Data Center Design and Engineering",
+      "detected_at": "2026-10-31T23:46:36.961208Z",
+      "published_at": "2026-10-29T01:20:34Z",
+      "source_updated_at": "2026-10-30T23:50:06Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 56,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 10,
+          "reason": "3 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Field Engineer, Data Center Design and Engineering"
+        ],
+        "removed": [
+          "Senior Field Engineer, Data Center Design and Engineering"
+        ]
+      },
+      "extra": {
+        "location": "Remote-Friendly, United States"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Remote-Friendly, United States",
+        "city": "Remote-Friendly"
+      }
+    },
+    {
+      "id": "ec1a85cea6a9e526",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Staff+ Software Engineer, Backend",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174755008",
+      "summary": "",
+      "detected_at": "2026-10-31T23:46:36.961208Z",
+      "published_at": "2026-04-08T18:57:22Z",
+      "source_updated_at": "2026-10-30T23:57:42Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "3aecec5c7796ebfa",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Full Stack Engineer, Education Labs",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097186008",
+      "summary": "",
+      "detected_at": "2026-10-31T23:46:36.961208Z",
+      "published_at": "2026-01-27T20:23:29Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "c3ffa875b6a63f2f",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Research Engineer/Research Scientist, Pre-training",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4616971008",
+      "summary": "",
+      "detected_at": "2026-10-31T23:46:36.961208Z",
+      "published_at": "2025-07-18T21:26:41Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "8dd4e0950467a39a",
+      "source_id": "openai-python-releases",
+      "source_name": "OpenAI Python SDK Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v3.42.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.42.0",
+      "summary": "## [3.42.0](https://github.com/openai/openai-python/compare/v3.41.0...v3.42.0) (2026-10-31)\n### Features\n* **api:** add agent context compaction settings ([#4209](https://github.com/openai/openai-python/issues/4209)) ([f552fcf](https://github.com/openai/openai-python/commit/f552fcffcf774520e946121704b5fbbf7ba986e8))\n* **api:** add agent session review and tool settings ([#4217](https://github.com/openai/openai-python/issues/4217)) ([a63c4cd](https://github.com/openai/openai-python/commit/a63c4cdb1c758af3a2ca8edace3b5291f8b0318a))\n* **api:** add experimental agent time awareness ([#4211](https…",
+      "detected_at": "2026-10-31T23:46:28.344341Z",
+      "published_at": "2026-10-31T00:26:41Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 60,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v3.42.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "2f4b4681e38c5873",
+      "source_id": "claude-code-releases",
+      "source_name": "Claude Code Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v2.1.316",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "summary": "## What's changed\n- Added `CLAUDE_CODE_DISABLE_ULTRATHINK`, which turns the `ultrathink` keyword off\n- Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit, set with `pooled_budget` on the spend limits admin API\n- Added `CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP` to keep system cross-certificates that certify each other in a loop, for servers whose private CA needs one\n- Added `CLAUDE_CODE_SUBAGENT_EFFORT` to set the effort level subagents run at when nothing else names one, instead of inheriting the session…",
+      "detected_at": "2026-10-31T23:46:27.857952Z",
+      "published_at": "2026-10-31T01:01:35Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "subagent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 76,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：subagent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v2.1.316"
+      },
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
     {
       "id": "6d4c70f5c828791a",
       "source_id": "claude-plans-pricing",
@@ -55258,504 +55769,6 @@
       "extra": {
         "date_only": "true"
       },
-      "facets": {}
-    },
-    {
-      "id": "5cc2f4ae4238528a",
-      "source_id": "python-releases",
-      "source_name": "Python.org 版本发布",
-      "category": "ai",
-      "change_type": "added",
-      "title": "Python 3.13.17",
-      "url": "https://www.python.org/downloads/release/python-31317/",
-      "summary": "Oct. 21, 2026 Download Release notes",
-      "detected_at": "2026-10-21T23:45:45.693127Z",
-      "published_at": "2026-10-21T00:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 55,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 10,
-          "reason": "来源可信度：official"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {
-        "date_only": "true"
-      },
-      "facets": {}
-    },
-    {
-      "id": "1414dc6304b09cbb",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
-      "url": "https://arxiv.org/abs/2610.26887",
-      "summary": "arXiv:2610.26887v1 Announce Type: new\nAbstract: Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggles to produce challenging tasks with reliable answers. We introduce Navalia, a framework for Cowork Agents that combines verifiable task synthesis with long-horizon post-training. Using corpor…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM",
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM、large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "7fdaff76a190ecd5",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
-      "url": "https://arxiv.org/abs/2610.26899",
-      "summary": "arXiv:2610.26899v1 Announce Type: new\nAbstract: Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their applications in the construction industry, leading to more intelligent and efficient building processes. In particular, the rise of large language models in recent years has provided more possibilities for the transformation from traditional construction to smart construction. In this study, a large language model and…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "943f10973b070f64",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
-      "url": "https://arxiv.org/abs/2610.26924",
-      "summary": "arXiv:2610.26924v1 Announce Type: new\nAbstract: General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks directly from raw data often overlooks deeper questions that emerge through analysis and provides limited evidence for verification. To address these limitations, we introduce DataPraxis, an analytics task synthesis framework based on verified workspace evolution. The framework progr…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "45406f08179589c2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
-      "url": "https://arxiv.org/abs/2610.26941",
-      "summary": "arXiv:2610.26941v1 Announce Type: new\nAbstract: Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. This article presents a systematic overview of LLM-driven industrial agents. First, we analyze five key challenges and discuss the concept and core characteristics of industrial agents. We then…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "a0268d7daa8dcf99",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
-      "url": "https://arxiv.org/abs/2610.26943",
-      "summary": "arXiv:2610.26943v1 Announce Type: new\nAbstract: Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multiple LLM agents. However, existing evaluations primarily focus on the correctness of final answers in text-only settings, offering limited insight into multimodal reasoning capabilities, the re…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "7b70d446dfeaac7f",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "SPEM: Structure-Aware Procedural Memory for Efficient Skill Use in LLM Agents",
-      "url": "https://arxiv.org/abs/2610.26995",
-      "summary": "arXiv:2610.26995v1 Announce Type: new\nAbstract: LLM-based agents increasingly rely on reusable skills. However, scaling skill libraries makes efficient and accurate skill use difficult. Full skill loading incurs high token and runtime overhead. In contrast, flat semantic retrieval treats skills as independent text entries, ignoring dependencies, execution order, state transitions, and data flow constraints. We propose SPEM, a lightweight structure-aware procedural memory framework for efficient skill use in LLM-based agents. SPEM maintains Atomic Skill Memory for individual skills and Skill-D…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "5a519508b9196ad2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
-      "url": "https://arxiv.org/abs/2610.27027",
-      "summary": "arXiv:2610.27027v1 Announce Type: new\nAbstract: Multi-agent LLM systems improve performance on clinical tasks, and that improvement is often read as evidence of a more trustworthy system. However, the two are not the same claim. A clinician acts on the stated reasoning and not only on the conclusion, so whether collaboration reduces hallucination, and what decides when it does, has to be measured in the reasoning too. Yet most evaluations score only the final answer. We evaluate four systems (a single-LLM baseline and three multi-agent topologies) across four models and three clinical tasks,…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "254b87eb2799e390",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Teaching AI Agent to Play Poker Strategically Through Preference Optimization",
-      "url": "https://arxiv.org/abs/2610.27028",
-      "summary": "arXiv:2610.27028v1 Announce Type: new\nAbstract: A poker agent can make a legal move and still make a strategically poor one. We ask whether compact AI agents can exhibit strategic behavior under hidden information and whether preference optimization can improve beyond static and zero-shot policies. We first evaluate a static baseline and three frozen language models: SmallThinker, Qwen3, and Gemma-3 whose performance varies substantially between exact-game and six-player evaluation. We therefore propose Strategic Preference Optimization with KL-anchored Equilibrium (SPOKE), combining teacher-…",
-      "detected_at": "2026-10-21T23:45:43.355054Z",
-      "published_at": "2026-10-21T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
       "facets": {}
     }
   ]

@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-10-30T23:49:44.821933Z",
-  "etag": "W/\"031ae576400acf12807990630345513e529d41684fc063ab4e5859d8acadfba7\"",
+  "taken_at": "2026-10-31T23:46:28.344341Z",
+  "etag": "W/\"54fd59933236c678b656a39fbaa9e0de31cef29b90855cd629e3b97983263df5\"",
   "last_modified": null,
   "items": {
+    "429614273": {
+      "title": "v3.42.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.42.0",
+      "hash": "84f76320f877a3d1",
+      "summary": "## [3.42.0](https://github.com/openai/openai-python/compare/v3.41.0...v3.42.0) (2026-10-31)\n### Features\n* **api:** add agent context compaction settings ([#4209](https://github.com/openai/openai-python/issues/4209)) ([f552fcf](https://github.com/openai/openai-python/commit/f552fcffcf774520e946121704b5fbbf7ba986e8))\n* **api:** add agent session review and tool settings ([#4217](https://github.com/openai/openai-python/issues/4217)) ([a63c4cd](https://github.com/openai/openai-python/commit/a63c4cdb1c758af3a2ca8edace3b5291f8b0318a))\n* **api:** add experimental agent time awareness ([#4211](https…",
+      "published_at": "2026-10-31T00:26:41Z",
+      "text": ""
+    },
     "427257427": {
       "title": "v3.41.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.41.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.19.0](https://github.com/openai/openai-python/compare/v3.18.0...v3.19.0) (2026-09-22)\n### Features\n* **api:** add GCP external storage support ([#3943](https://github.com/openai/openai-python/issues/3943)) ([d12d60f](https://github.com/openai/openai-python/commit/d12d60fff9f5624f2dc50ade3d832028f4fecaa7))\n* **api:** add GPT-Rosalind research model ([#3940](https://github.com/openai/openai-python/issues/3940)) ([d041d73](https://github.com/openai/openai-python/commit/d041d736f75f03f6c87aa77f932823011691bac5))\n### Bug Fixes\n* **_utils/_transform:** propagate __api_exclude__ in _async_tran…",
       "published_at": "2026-09-23T00:08:02Z",
       "text": ""
-    },
-    "394011990": {
-      "title": "v3.18.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.18.0",
-      "hash": "077e0d3b809fc270",
-      "summary": "## [3.18.0](https://github.com/openai/openai-python/compare/v3.17.0...v3.18.0) (2026-09-22)\n### Features\n* **api:** add GPT-6 Sol and Luna model identifiers ([#3935](https://github.com/openai/openai-python/issues/3935)) ([455ce1b](https://github.com/openai/openai-python/commit/455ce1b5da067e5d7631c86a571ca3b0d03b65cd))",
-      "published_at": "2026-09-22T18:25:48Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -290,7 +290,8 @@
     "424657500",
     "424501236",
     "425651473",
-    "427257427"
+    "427257427",
+    "429614273"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

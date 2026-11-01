@@ -1,6 +1,37 @@
 {
   "notifications": [
     {
+      "id": "alert-dcdd70497352ced9",
+      "kind": "alert",
+      "created_at": "2026-11-01T23:47:13.522130Z",
+      "title": "新情报：v3.42.1",
+      "body": "- [重要·76] v3.42.1（OpenAI Python SDK Releases）",
+      "event_ids": [
+        "1c12a8a1c0beb6d6"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-11-02",
+      "kind": "digest",
+      "created_at": "2026-11-01T23:47:13.522130Z",
+      "title": "每日摘要 2026-11-02：10 条变化",
+      "body": "# 知更日报 2026-11-02\n\n共发现 **10** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 76]** [v3.42.1](https://github.com/openai/openai-python/releases/tag/v3.42.1) — OpenAI Python SDK Releases · 新增 · 关键词：responses、realtime\n- **[关注 55]** [0.167.0-alpha.3 (rust-v0.167.0-alpha.3)](https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [0.167.0-alpha.2 (rust-v0.167.0-alpha.2)](https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.2) — OpenAI Codex CLI Releases · 新增\n- **[一般 38]** [Finance & Strategy, Deal Strategy - APAC](https://job-boards.greenhouse.io/anthropic/jobs/5448886008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 33]** [Degraded performance in ChatGPT, Codex, and APIs](https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Degraded performance in GPT-6.1 Sol Codex and Work mode](https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 28]** [Data Center Energy Lead, EMEA](https://job-boards.greenhouse.io/anthropic/jobs/5405710008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Enterprise Account Executive, Insurance](https://job-boards.greenhouse.io/anthropic/jobs/5391289008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 23]** [Mobile users unable to see Work Mode and the Model Picker](https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "1c12a8a1c0beb6d6",
+        "59bd227510676e31",
+        "b46ddaac5ac64bc8",
+        "44c6ca8c7ed88402",
+        "cda960d2175dc0b3",
+        "08fbcb262b274797",
+        "0db42b9dc14a2342",
+        "c98586db89dffb45",
+        "47a2616f0794fe60",
+        "23efc6f0881a427e"
+      ],
+      "level": "high"
+    },
+    {
       "id": "alert-40c83bdd3c303286",
       "kind": "alert",
       "created_at": "2026-10-31T23:47:24.448026Z",

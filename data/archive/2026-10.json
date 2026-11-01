@@ -2,6 +2,415 @@
   "month": "2026-10",
   "events": [
     {
+      "id": "fd21f5a59ff0041e",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enterprise Account Executive - Retail/CPG",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391336008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-08-25T07:57:11Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "8fa676e595bf3e1f",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "GSOC Response & Policy Program Specialist",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5382033008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-08-08T00:49:01Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "6bc9522b5d32f33d",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Manager, Customer Success – Strategic Consumer Tech",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5421539008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-09-15T01:51:34Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "3de0b2c9c786f456",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Partner Manager, Global Health",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5310996008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-07-09T17:50:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "a8278c73ea96803f",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "People Specialist, Performance Management",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5453809008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-10-16T16:22:46Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 43,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 5,
+          "reason": "7 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "e7653f50a9e833c7",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Product Marketing Manager, Special Projects",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5424080008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-09-14T23:29:56Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "b0d6129e27b51687",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Research Engineer, Chip Design RL (Reinforcement Learning)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5231612008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-07-13T22:19:12Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "bade2ce306b4cebb",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Warehouse and Logistics Manager - International",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5416979008",
+      "summary": "",
+      "detected_at": "2026-10-21T23:45:47.837557Z",
+      "published_at": "2026-09-08T20:10:26Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "function": "物流与供应链、仓储与运营"
+      }
+    },
+    {
       "id": "5cc2f4ae4238528a",
       "source_id": "python-releases",
       "source_name": "Python.org 版本发布",
@@ -9,6 +418,106 @@
       "change_type": "added",
       "title": "Python 3.13.17",
       "url": "https://www.python.org/downloads/release/python-31317/",
+      "summary": "Oct. 21, 2026 Download Release notes",
+      "detected_at": "2026-10-21T23:45:45.693127Z",
+      "published_at": "2026-10-21T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {}
+    },
+    {
+      "id": "f989f1fd7d88a6f3",
+      "source_id": "python-releases",
+      "source_name": "Python.org 版本发布",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Python 3.15.1",
+      "url": "https://www.python.org/downloads/release/python-3151/",
+      "summary": "Oct. 21, 2026 Download Release notes",
+      "detected_at": "2026-10-21T23:45:45.693127Z",
+      "published_at": "2026-10-21T00:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "date_only": "true"
+      },
+      "facets": {}
+    },
+    {
+      "id": "d9ea1715bb6177af",
+      "source_id": "python-releases",
+      "source_name": "Python.org 版本发布",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Python 3.14.9",
+      "url": "https://www.python.org/downloads/release/python-3149/",
       "summary": "Oct. 21, 2026 Download Release notes",
       "detected_at": "2026-10-21T23:45:45.693127Z",
       "published_at": "2026-10-21T00:00:00Z",

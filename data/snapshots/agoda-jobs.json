@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-10-31T23:46:24.657877Z",
-  "etag": "W/\"cd487018f73479fa0c1d6b12b2127254\"",
+  "taken_at": "2026-11-01T23:46:17.486163Z",
+  "etag": "W/\"40532896d868424d60030cd3300aeb5a\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -2364,6 +2364,14 @@
       "published_at": "2026-10-02T10:35:54Z",
       "text": ""
     },
+    "7995116": {
+      "title": "Support Associate (Gurgaon)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
+      "hash": "0e687f4852d59c6c",
+      "summary": "",
+      "published_at": "2026-08-27T10:48:23Z",
+      "text": ""
+    },
     "8090218": {
       "title": "Support Associate- Japanese Speaker 24/7 (Yokohama, requires relocation to Yokohama)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8090218",
@@ -2426,14 +2434,6 @@
       "hash": "d6d4655cefb457c0",
       "summary": "",
       "published_at": "2026-10-27T05:58:35Z",
-      "text": ""
-    },
-    "8152509": {
-      "title": "Team Manager (Gurugram)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8152509",
-      "hash": "65fabcb366cf2e99",
-      "summary": "",
-      "published_at": "2026-08-24T08:12:01Z",
       "text": ""
     },
     "8121248": {

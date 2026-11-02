@@ -1,6 +1,36 @@
 {
   "runs": [
     {
+      "id": "20261102T235009Z",
+      "started_at": "2026-11-02T23:50:09.051102Z",
+      "finished_at": "2026-11-02T23:51:16.361295Z",
+      "trigger": "schedule",
+      "sources_total": 27,
+      "sources_ok": 24,
+      "sources_failed": 3,
+      "sources_paused": 0,
+      "new_events": 150,
+      "filtered": 219,
+      "duplicates": 14,
+      "errors": [
+        {
+          "source_id": "canva-china-jobs",
+          "status": "parse_error",
+          "message": "解析失败：本次没有解析到任何条目，已保留上次快照（需人工确认）"
+        },
+        {
+          "source_id": "china-logistics-group-recruit",
+          "status": "fetch_error",
+          "message": "无法获取 robots.txt（ConnectError: [Errno 101] Network is unreachable），按 RFC 9309 暂停访问该站点"
+        },
+        {
+          "source_id": "anthropic-news",
+          "status": "parse_error",
+          "message": "解析失败：条目选择器 'a[href]:has(time)' 没有匹配到任何条目（页面结构可能已改变）"
+        }
+      ]
+    },
+    {
       "id": "20261101T234607Z",
       "started_at": "2026-11-01T23:46:07.996777Z",
       "finished_at": "2026-11-01T23:47:13.522130Z",

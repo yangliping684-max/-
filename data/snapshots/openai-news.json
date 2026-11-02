@@ -1,9 +1,33 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-10-30T23:50:20.676046Z",
+  "taken_at": "2026-11-02T23:50:55.617775Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/grid-protectors-program": {
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "hash": "4bb0168ea4627a3e",
+      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+      "published_at": "2026-11-02T15:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/lifeval": {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "hash": "bc85cb0bd0cc3f81",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "published_at": "2026-11-02T09:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "hash": "231a28400bc61652",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/helping-websites-express-ai-training-preferences": {
       "title": "Making it easier for websites to express AI training preferences",
       "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
@@ -636,19 +660,19 @@
       "published_at": "2026-09-29T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/how-we-will-do-better-for-australia": {
-      "title": "How we will do better for Australia",
-      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "hash": "002e55e7dbe6424f",
-      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "published_at": "2026-09-28T19:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
       "title": "Towards safety cases for frontier AI training",
       "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "hash": "cc30f6c098a94d82",
       "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "published_at": "2026-09-28T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/how-we-will-do-better-for-australia": {
+      "title": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "hash": "002e55e7dbe6424f",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
       "published_at": "2026-09-28T19:00:00Z",
       "text": ""
     },
@@ -660,19 +684,19 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/basis-tax-workbook-with-astra": {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "hash": "a7c7b55ccea50710",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/form/codex-originals": {
       "title": "Are you a Codex Original?",
       "url": "https://openai.com/form/codex-originals",
       "hash": "ed740364360408d9",
       "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "published_at": "2026-09-28T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/basis-tax-workbook-with-astra": {
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "hash": "a7c7b55ccea50710",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
@@ -724,19 +748,19 @@
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "hash": "90e353bc716287ab",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sam-altman-un-security-council-remarks": {
       "title": "Sam Altman’s remarks at the United Nations Security Council",
       "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
       "hash": "83081a9de90b1a9e",
       "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "published_at": "2026-09-23T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "hash": "90e353bc716287ab",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
       "published_at": "2026-09-23T12:00:00Z",
       "text": ""
     },
@@ -778,30 +802,6 @@
       "hash": "49eafcea9c4e66d4",
       "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
       "published_at": "2026-09-23T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/better-prompt-caching-for-gpt-6": {
-      "title": "Better prompt caching for GPT-6",
-      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "hash": "d6d7ee2b1e44725c",
-      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "published_at": "2026-09-22T21:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-gpt-6-sol-and-luna": {
-      "title": "Introducing GPT-6 Sol and Luna",
-      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "hash": "6dc91d09ca644bd4",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "published_at": "2026-09-22T18:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/parallel-cuts-time-and-cost-with-astra": {
-      "title": "Parallel cut research time and cost in half with GPT‐6 Astra",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "hash": "643fa62df30f82a0",
-      "summary": "GPT‐6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "published_at": "2026-09-22T12:00:00Z",
       "text": ""
     }
   },
@@ -959,7 +959,10 @@
     "https://openai.com/index/helping-websites-express-ai-training-preferences",
     "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
     "https://openai.com/index/fair-use-benefits-everyone",
-    "https://openai.com/index/credit-saison"
+    "https://openai.com/index/credit-saison",
+    "https://openai.com/index/grid-protectors-program",
+    "https://openai.com/index/lifeval",
+    "https://openai.com/index/qodo-codex-plugin"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

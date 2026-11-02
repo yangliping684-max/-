@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-01T23:46:17.486163Z",
-  "etag": "W/\"40532896d868424d60030cd3300aeb5a\"",
+  "taken_at": "2026-11-02T23:50:18.066747Z",
+  "etag": "W/\"58ff7bba8787f60e4c2320b4d2741917\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -100,6 +100,14 @@
       "published_at": "2026-08-07T07:45:20Z",
       "text": ""
     },
+    "7179814": {
+      "title": "Account Manager, Supply & Growth (Cairo-Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7179814",
+      "hash": "28335cd76e0fd50e",
+      "summary": "",
+      "published_at": "2025-08-25T13:16:43Z",
+      "text": ""
+    },
     "8323920": {
       "title": "Account Manager (Tokyo)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8323920",
@@ -146,6 +154,14 @@
       "hash": "5c6e29cb1b58dc02",
       "summary": "",
       "published_at": "2026-08-07T07:33:59Z",
+      "text": ""
+    },
+    "8242288": {
+      "title": "Account Specialist, Homes, Bangkok Based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8242288",
+      "hash": "12005c1ad1b3f54a",
+      "summary": "",
+      "published_at": "2026-10-06T04:28:02Z",
       "text": ""
     },
     "8104953": {
@@ -700,14 +716,6 @@
       "published_at": "2026-10-22T02:55:45Z",
       "text": ""
     },
-    "8326690": {
-      "title": "Customer Service, Escalation - Team Manager (Hindi)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326690",
-      "hash": "9cb60fc75c726957",
-      "summary": "",
-      "published_at": "2026-10-27T06:15:35Z",
-      "text": ""
-    },
     "8284004": {
       "title": "[Data Engineer] Senior / Staff MLOps Engineer (Bangkok Based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8284004",
@@ -908,14 +916,6 @@
       "published_at": "2026-10-21T04:15:43Z",
       "text": ""
     },
-    "8064006": {
-      "title": "(GSD) People Tech Functional Support Specialist (Bangkok-based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8064006",
-      "hash": "c0b8867bffee00d8",
-      "summary": "",
-      "published_at": "2026-07-16T07:58:39Z",
-      "text": ""
-    },
     "7962493": {
       "title": "Head of Strategic Growth (Seoul-based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7962493",
@@ -932,20 +932,20 @@
       "published_at": "2026-10-15T03:49:36Z",
       "text": ""
     },
-    "8305589": {
-      "title": "[Infra] Senior Software Engineer – Kubernetes Platform (Bangkok Based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8305589",
-      "hash": "777f84acb281d54f",
-      "summary": "",
-      "published_at": "2026-10-22T07:12:10Z",
-      "text": ""
-    },
     "8248586": {
       "title": "[Infra] Staff/Lead Software Engineer – Compute Platform (Bangkok Based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8248586",
       "hash": "361337e24b94488b",
       "summary": "",
       "published_at": "2026-10-02T07:38:31Z",
+      "text": ""
+    },
+    "8239087": {
+      "title": "Integration Manager – People Tech (Bangkok Based, relocation provided) [SHP]",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8239087",
+      "hash": "b4f43623e8f78412",
+      "summary": "",
+      "published_at": "2026-11-02T02:42:55Z",
       "text": ""
     },
     "8255740": {
@@ -1076,14 +1076,6 @@
       "published_at": "2025-04-02T08:56:44Z",
       "text": ""
     },
-    "8036127": {
-      "title": "Lead Software Engineer (Level 5) | BackEnd (Gurugram based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8036127",
-      "hash": "a40a4a0dee4e0b9b",
-      "summary": "",
-      "published_at": "2026-06-29T17:35:34Z",
-      "text": ""
-    },
     "8210422": {
       "title": "Lead/Sr Lead – Strategy and Operations",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8210422",
@@ -1098,6 +1090,14 @@
       "hash": "cbd28bc4604be4ab",
       "summary": "",
       "published_at": "2026-09-25T02:05:08Z",
+      "text": ""
+    },
+    "8286712": {
+      "title": "Manager, B2B Communications",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8286712",
+      "hash": "7397fb1c1e7e2bc2",
+      "summary": "",
+      "published_at": "2026-11-02T21:07:53Z",
       "text": ""
     },
     "7451883": {
@@ -1138,14 +1138,6 @@
       "hash": "ecd2bba5002f2fb6",
       "summary": "",
       "published_at": "2026-09-15T07:04:58Z",
-      "text": ""
-    },
-    "8213012": {
-      "title": "Manager Data & Analytics (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8213012",
-      "hash": "4ec5ab20cfa0723b",
-      "summary": "",
-      "published_at": "2026-09-21T06:03:00Z",
       "text": ""
     },
     "8232696": {
@@ -1348,6 +1340,22 @@
       "published_at": "2026-10-06T01:47:32Z",
       "text": ""
     },
+    "8336162": {
+      "title": "Oracle Functional Specialist (Bangkok based, relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8336162",
+      "hash": "a70d386b8da2eaa5",
+      "summary": "",
+      "published_at": "2026-11-02T06:26:53Z",
+      "text": ""
+    },
+    "8336183": {
+      "title": "Oracle Functional Specialist (Bangkok based, relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8336183",
+      "hash": "a70d386b8da2eaa5",
+      "summary": "",
+      "published_at": "2026-11-02T06:27:01Z",
+      "text": ""
+    },
     "8333893": {
       "title": "Partner Manager",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8333893",
@@ -1538,14 +1546,6 @@
       "hash": "ec8ed0bb7a443319",
       "summary": "",
       "published_at": "2026-09-25T03:40:32Z",
-      "text": ""
-    },
-    "8037934": {
-      "title": "Regional Manager, Regional Management Office (Tokyo Based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8037934",
-      "hash": "1200cc287a978afb",
-      "summary": "",
-      "published_at": "2026-07-02T04:33:52Z",
       "text": ""
     },
     "8311578": {
@@ -2068,14 +2068,6 @@
       "published_at": "2026-09-21T08:22:02Z",
       "text": ""
     },
-    "8035213": {
-      "title": "Software Development Engineer - BackEnd (Staff - Level 4) | Gurugram, IND",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8035213",
-      "hash": "bd7d000db05ea749",
-      "summary": "",
-      "published_at": "2026-06-29T13:46:32Z",
-      "text": ""
-    },
     "8229976": {
       "title": "Sourcing Specialist (Bangkok-based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8229976",
@@ -2148,28 +2140,12 @@
       "published_at": "2026-06-10T06:03:47Z",
       "text": ""
     },
-    "7282375": {
-      "title": "Staff / Lead Data Engineer - Bidding (Bangkok based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7282375",
-      "hash": "9d4b415a89317ddb",
-      "summary": "",
-      "published_at": "2025-09-30T07:00:10Z",
-      "text": ""
-    },
     "6775382": {
       "title": "Staff Software Engineer - Backend (Bangkok based, Relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/6775382",
       "hash": "4de793bf058e7588",
       "summary": "",
       "published_at": "2025-04-22T11:22:25Z",
-      "text": ""
-    },
-    "6822823": {
-      "title": "Staff Software Engineer - BackEnd (Level 4) | Gurugram, IND",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/6822823",
-      "hash": "72c87aa0dd8bb006",
-      "summary": "",
-      "published_at": "2025-04-23T05:58:39Z",
       "text": ""
     },
     "7543795": {
@@ -2260,6 +2236,14 @@
       "published_at": "2026-07-15T03:13:08Z",
       "text": ""
     },
+    "8324060": {
+      "title": "Strategic Account Manager (Ho Chi Minh)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8324060",
+      "hash": "f7735c10f8f8aedd",
+      "summary": "",
+      "published_at": "2026-11-02T02:36:18Z",
+      "text": ""
+    },
     "8255781": {
       "title": "Strategic Account Manager, Homes",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8255781",
@@ -2298,6 +2282,14 @@
       "hash": "2d59aaf9a8534c14",
       "summary": "",
       "published_at": "2026-10-31T16:59:40Z",
+      "text": ""
+    },
+    "8326785": {
+      "title": "Strategic Account Manager (Taipei)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326785",
+      "hash": "6fc2b9bedc1e6af3",
+      "summary": "",
+      "published_at": "2026-11-02T03:14:23Z",
       "text": ""
     },
     "8163672": {
@@ -2362,14 +2354,6 @@
       "hash": "0d35d90bd9db9620",
       "summary": "",
       "published_at": "2026-10-02T10:35:54Z",
-      "text": ""
-    },
-    "7995116": {
-      "title": "Support Associate (Gurgaon)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
-      "hash": "0e687f4852d59c6c",
-      "summary": "",
-      "published_at": "2026-08-27T10:48:23Z",
       "text": ""
     },
     "8090218": {
@@ -2889,7 +2873,14 @@
     "8335946",
     "8284247",
     "8336056",
-    "8340762"
+    "8340762",
+    "7179814",
+    "8239087",
+    "8286712",
+    "8336162",
+    "8336183",
+    "8324060",
+    "8326785"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

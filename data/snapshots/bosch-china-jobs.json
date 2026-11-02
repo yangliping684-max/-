@@ -1,9 +1,49 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-10-30T23:49:53.812428Z",
+  "taken_at": "2026-11-02T23:50:28.756905Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000159116379": {
+      "title": "PMI Project Lead_ EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159116379",
+      "hash": "5ce181fa42554537",
+      "summary": "",
+      "published_at": "2026-11-02T11:51:05.135000Z",
+      "text": ""
+    },
+    "744000159086998": {
+      "title": "ADAS C++软件工程师(FCT功能控制方向)_XC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159086998",
+      "hash": "e13cfe224e8c3121",
+      "summary": "",
+      "published_at": "2026-11-02T09:35:36.273000Z",
+      "text": ""
+    },
+    "744000159066799": {
+      "title": "液压阀研发工程师_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159066799",
+      "hash": "1b532ebb362dfe32",
+      "summary": "",
+      "published_at": "2026-11-02T07:57:33.725000Z",
+      "text": ""
+    },
+    "744000159065939": {
+      "title": "液压泵马达研发工程师_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159065939",
+      "hash": "ec8805fb82808dbd",
+      "summary": "",
+      "published_at": "2026-11-02T07:51:54.961000Z",
+      "text": ""
+    },
+    "744000159018219": {
+      "title": "泊车建图定位算法工程师_XC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159018219",
+      "hash": "9814362f21cd31f6",
+      "summary": "",
+      "published_at": "2026-11-02T01:33:11.277000Z",
+      "text": ""
+    },
     "744000158753059": {
       "title": "Senior Product Engineer_DCCS",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158753059",
@@ -1596,14 +1636,6 @@
       "published_at": "2026-09-20T09:59:36.212000Z",
       "text": ""
     },
-    "744000150535289": {
-      "title": "PMI Project Lead_ EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150535289",
-      "hash": "5ce181fa42554537",
-      "summary": "",
-      "published_at": "2026-09-20T07:58:27.396000Z",
-      "text": ""
-    },
     "744000150372168": {
       "title": "Sales Engineer_DCCS",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150372168",
@@ -2492,14 +2524,6 @@
       "published_at": "2026-08-28T09:22:50.795000Z",
       "text": ""
     },
-    "744000146115606": {
-      "title": "E-Drive System Calibration Engineer_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146115606",
-      "hash": "3eeefb1b24da87e4",
-      "summary": "",
-      "published_at": "2026-08-28T05:51:19.456000Z",
-      "text": ""
-    },
     "744000145928659": {
       "title": "计算机视觉工程师 (AI 算法)_BMG",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000145928659",
@@ -3306,14 +3330,6 @@
       "hash": "7309dbf17f5e635b",
       "summary": "",
       "published_at": "2026-08-07T10:02:35.058000Z",
-      "text": ""
-    },
-    "744000142086918": {
-      "title": "Hardware Design Engineer (INV)_EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142086918",
-      "hash": "a976c12e812d74c4",
-      "summary": "",
-      "published_at": "2026-08-07T09:15:09.432000Z",
       "text": ""
     },
     "744000142080679": {
@@ -5794,14 +5810,6 @@
       "hash": "7eee7ba0368c9563",
       "summary": "",
       "published_at": "2026-05-19T05:34:22.434000Z",
-      "text": ""
-    },
-    "744000127103129": {
-      "title": "ADAS仿真与AOS软件架构专家_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000127103129",
-      "hash": "63b6fc1d3df2999b",
-      "summary": "",
-      "published_at": "2026-05-19T01:25:00.505000Z",
       "text": ""
     },
     "744000126963834": {
@@ -9140,14 +9148,6 @@
       "published_at": "2025-11-13T02:07:06.399000Z",
       "text": ""
     },
-    "744000093121024": {
-      "title": "电驱桥测试验证工程师_南昌",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000093121024",
-      "hash": "53c1579e1cf365a1",
-      "summary": "",
-      "published_at": "2025-11-12T02:16:15.689000Z",
-      "text": ""
-    },
     "744000092951226": {
       "title": "Key Account Manager_Japan OEM/日系客户销售经理_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000092951226",
@@ -9362,14 +9362,6 @@
       "hash": "23ce8607c9fce027",
       "summary": "",
       "published_at": "2025-10-20T07:29:52.234000Z",
-      "text": ""
-    },
-    "744000087820244": {
-      "title": "LCV eAxle system engineer_南昌",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000087820244",
-      "hash": "511a1fbe911309b3",
-      "summary": "",
-      "published_at": "2025-10-14T06:58:04.867000Z",
       "text": ""
     },
     "744000084614105": {
@@ -12069,7 +12061,12 @@
     "744000158660819",
     "744000158657889",
     "744000158655099",
-    "744000158636485"
+    "744000158636485",
+    "744000159116379",
+    "744000159086998",
+    "744000159066799",
+    "744000159065939",
+    "744000159018219"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

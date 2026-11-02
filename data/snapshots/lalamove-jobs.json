@@ -1,17 +1,9 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-01T23:46:14.890786Z",
-  "etag": "W/\"127cac-x7WEZjYP9Jvg8JPYTUbVW3nkQmc\"",
+  "taken_at": "2026-11-02T23:50:16.039054Z",
+  "etag": "W/\"128286-GrOuWWG4LYjRxwEc192nWBtOZuQ\"",
   "last_modified": null,
   "items": {
-    "7bda3069-d97c-4a69-bd06-091e1ec081a7": {
-      "title": "(Sr.) Legal & Compliance Associate",
-      "url": "https://jobs.lever.co/lalamove/7bda3069-d97c-4a69-bd06-091e1ec081a7",
-      "hash": "1ae854fc1bdedeec",
-      "summary": "",
-      "published_at": "2026-06-01T10:42:08.981000Z",
-      "text": ""
-    },
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
       "title": "Account Executive",
       "url": "https://jobs.lever.co/lalamove/8b1e674f-4b04-4bbc-9564-dcf235b37f60",
@@ -84,12 +76,12 @@
       "published_at": "2026-09-21T21:28:21.298000Z",
       "text": ""
     },
-    "2e454c31-f409-4d9c-9509-398632b6ae8e": {
+    "d19288b5-119c-477e-8409-81455f5a2211": {
       "title": "Application & IT Support Engineer",
-      "url": "https://jobs.lever.co/lalamove/2e454c31-f409-4d9c-9509-398632b6ae8e",
+      "url": "https://jobs.lever.co/lalamove/d19288b5-119c-477e-8409-81455f5a2211",
       "hash": "40ab839f1780d097",
       "summary": "",
-      "published_at": "2026-10-05T03:52:20.207000Z",
+      "published_at": "2026-11-02T15:29:47.202000Z",
       "text": ""
     },
     "49454be8-1cf6-4b09-b732-4b902df6388e": {
@@ -186,6 +178,14 @@
       "hash": "c7e542bc979a720f",
       "summary": "",
       "published_at": "2026-04-01T15:08:29.223000Z",
+      "text": ""
+    },
+    "e1d2c683-5988-4acd-9306-d1cd15a0738a": {
+      "title": "Associate, People Operations",
+      "url": "https://jobs.lever.co/lalamove/e1d2c683-5988-4acd-9306-d1cd15a0738a",
+      "hash": "d59df12707c4cf47",
+      "summary": "",
+      "published_at": "2026-11-02T09:15:41.484000Z",
       "text": ""
     },
     "700d4ee7-d385-40a0-8b0c-f128424d8612": {
@@ -316,6 +316,14 @@
       "published_at": "2026-07-27T08:12:58.774000Z",
       "text": ""
     },
+    "a3d25575-3974-44cc-8e91-0a9508e02fc2": {
+      "title": "Data Analyst, Marketing",
+      "url": "https://jobs.lever.co/lalamove/a3d25575-3974-44cc-8e91-0a9508e02fc2",
+      "hash": "40f1d8a11f86e1db",
+      "summary": "",
+      "published_at": "2026-11-02T03:27:29.146000Z",
+      "text": ""
+    },
     "0f4f12a0-f80e-4afa-b934-f8a8b139e53e": {
       "title": "Data Enablement Lead",
       "url": "https://jobs.lever.co/lalamove/0f4f12a0-f80e-4afa-b934-f8a8b139e53e",
@@ -444,14 +452,6 @@
       "published_at": "2026-09-15T08:48:38.398000Z",
       "text": ""
     },
-    "d65b1dd3-49f5-44a0-9d6f-053addfdaa40": {
-      "title": "Driver Operations Associate (Offline Presence)",
-      "url": "https://jobs.lever.co/lalamove/d65b1dd3-49f5-44a0-9d6f-053addfdaa40",
-      "hash": "3822eefbbae4a535",
-      "summary": "",
-      "published_at": "2026-09-15T04:53:47.067000Z",
-      "text": ""
-    },
     "6d2586ae-7047-4868-b899-4bed5f0629b1": {
       "title": "Driver Operations Associate Team Lead (Long Haul)",
       "url": "https://jobs.lever.co/lalamove/6d2586ae-7047-4868-b899-4bed5f0629b1",
@@ -522,14 +522,6 @@
       "hash": "85b276f690da54b8",
       "summary": "",
       "published_at": "2026-09-30T14:30:42.560000Z",
-      "text": ""
-    },
-    "9e73cabc-a03c-4038-9fe8-3a1ce838f3e1": {
-      "title": "Finance Assistant Manager",
-      "url": "https://jobs.lever.co/lalamove/9e73cabc-a03c-4038-9fe8-3a1ce838f3e1",
-      "hash": "7dda804e9e9fbf48",
-      "summary": "",
-      "published_at": "2026-09-22T08:32:24.360000Z",
       "text": ""
     },
     "e3f2abf9-b744-4b7d-b40e-fce91e7c6db5": {
@@ -764,6 +756,14 @@
       "published_at": "2025-09-11T10:07:37.281000Z",
       "text": ""
     },
+    "3660ba06-1b6d-46c1-bcca-f45ea08ff045": {
+      "title": "Product Manager, User",
+      "url": "https://jobs.lever.co/lalamove/3660ba06-1b6d-46c1-bcca-f45ea08ff045",
+      "hash": "c7019f4700ac2334",
+      "summary": "",
+      "published_at": "2026-11-02T11:27:05.469000Z",
+      "text": ""
+    },
     "c3d6cc65-d053-4e02-8742-9d760ecf1349": {
       "title": "Project Coordinator (Hourly Rated)",
       "url": "https://jobs.lever.co/lalamove/c3d6cc65-d053-4e02-8742-9d760ecf1349",
@@ -932,6 +932,14 @@
       "published_at": "2026-09-02T09:17:18.531000Z",
       "text": ""
     },
+    "db73d2dd-c485-4e54-83f3-8bc0424ece50": {
+      "title": "Senior Associate, Platform Growth & Operations (PMO)",
+      "url": "https://jobs.lever.co/lalamove/db73d2dd-c485-4e54-83f3-8bc0424ece50",
+      "hash": "5463dfece5656e15",
+      "summary": "",
+      "published_at": "2026-09-01T11:05:50.558000Z",
+      "text": ""
+    },
     "ace66d4b-546f-4853-814a-544e4fc71f68": {
       "title": "Senior Associate, Platform Growth and Operations",
       "url": "https://jobs.lever.co/lalamove/ace66d4b-546f-4853-814a-544e4fc71f68",
@@ -970,6 +978,14 @@
       "hash": "9569785954fe5300",
       "summary": "",
       "published_at": "2026-07-15T02:52:38.314000Z",
+      "text": ""
+    },
+    "e4add36f-8c76-4b8d-9e30-375085b68299": {
+      "title": "Senior Data Engineer",
+      "url": "https://jobs.lever.co/lalamove/e4add36f-8c76-4b8d-9e30-375085b68299",
+      "hash": "0dd7e17cb1296484",
+      "summary": "",
+      "published_at": "2026-11-02T10:43:02.653000Z",
       "text": ""
     },
     "8ff6d89d-8fb3-4e1e-a124-4d0c0699c844": {
@@ -1042,14 +1058,6 @@
       "hash": "b43cc60226495cc5",
       "summary": "",
       "published_at": "2026-09-04T04:06:24.253000Z",
-      "text": ""
-    },
-    "82788447-9c35-4458-9691-2f5def51537c": {
-      "title": "Senior Tax & Accounting Associate",
-      "url": "https://jobs.lever.co/lalamove/82788447-9c35-4458-9691-2f5def51537c",
-      "hash": "03356c37c0361d6d",
-      "summary": "",
-      "published_at": "2026-08-21T06:32:07.656000Z",
       "text": ""
     },
     "00fd77c2-017d-43ee-b3b3-8e4bfdd87344": {
@@ -1349,7 +1357,12 @@
     "a1754318-6b3f-4266-b458-a21ff634bdf2",
     "130faadf-6e10-4568-ad05-fdce1cdf1f61",
     "e3df6bce-693b-4017-bdd0-593fe6bf0784",
-    "1c1dd45a-9db3-4e6e-b7b2-5e28b4d7eba0"
+    "1c1dd45a-9db3-4e6e-b7b2-5e28b4d7eba0",
+    "d19288b5-119c-477e-8409-81455f5a2211",
+    "e1d2c683-5988-4acd-9306-d1cd15a0738a",
+    "a3d25575-3974-44cc-8e91-0a9508e02fc2",
+    "3660ba06-1b6d-46c1-bcca-f45ea08ff045",
+    "e4add36f-8c76-4b8d-9e30-375085b68299"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

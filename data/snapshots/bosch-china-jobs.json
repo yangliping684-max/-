@@ -1,9 +1,57 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-02T23:50:28.756905Z",
+  "taken_at": "2026-11-03T23:52:29.658324Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000159324718": {
+      "title": "AI与数据开发工程师_BCI",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159324718",
+      "hash": "ce4169204e077b45",
+      "summary": "",
+      "published_at": "2026-11-03T08:43:21.861000Z",
+      "text": ""
+    },
+    "744000159307300": {
+      "title": "供应商质量工程师PUQ Purchasing Quality",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159307300",
+      "hash": "ffb5f8afdb270204",
+      "summary": "",
+      "published_at": "2026-11-03T07:17:41.789000Z",
+      "text": ""
+    },
+    "744000159305359": {
+      "title": "Technical Project Manager_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159305359",
+      "hash": "5cd4ff9ceca9036d",
+      "summary": "",
+      "published_at": "2026-11-03T06:52:20.187000Z",
+      "text": ""
+    },
+    "744000159290939": {
+      "title": "高级ADAS泊车HIL测试工程师_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159290939",
+      "hash": "242fcbfa09201e59",
+      "summary": "",
+      "published_at": "2026-11-03T03:39:46.044000Z",
+      "text": ""
+    },
+    "744000159288659": {
+      "title": "Tribe Lead_BD",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159288659",
+      "hash": "99dc072b2cc21892",
+      "summary": "",
+      "published_at": "2026-11-03T02:43:31.254000Z",
+      "text": ""
+    },
+    "744000159286168": {
+      "title": "Industrialization Project Manager_EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159286168",
+      "hash": "6ff7c8775fdcb14e",
+      "summary": "",
+      "published_at": "2026-11-03T01:40:40.650000Z",
+      "text": ""
+    },
     "744000159116379": {
       "title": "PMI Project Lead_ EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159116379",
@@ -3354,14 +3402,6 @@
       "hash": "b1c76256a0c66fdd",
       "summary": "",
       "published_at": "2026-08-07T03:43:22.336000Z",
-      "text": ""
-    },
-    "744000142043471": {
-      "title": "数字化物流项目工程师_PS",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000142043471",
-      "hash": "d4b186256f7078b0",
-      "summary": "",
-      "published_at": "2026-08-07T03:32:09.155000Z",
       "text": ""
     },
     "744000142043429": {
@@ -12066,7 +12106,13 @@
     "744000159086998",
     "744000159066799",
     "744000159065939",
-    "744000159018219"
+    "744000159018219",
+    "744000159324718",
+    "744000159307300",
+    "744000159305359",
+    "744000159290939",
+    "744000159288659",
+    "744000159286168"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-02T23:50:19.772812Z",
-  "etag": "W/\"111e267acb4b14ea78e265267b3653dc1ffec9fc61e14e16e55e888ee0377ad7\"",
+  "taken_at": "2026-11-03T23:52:20.742217Z",
+  "etag": "W/\"77e5079b147bfb3805fcd2411c2fa696948d4f5c9b439cbd277af28b785b0cf5\"",
   "last_modified": null,
   "items": {
+    "433175574": {
+      "title": "v3.44.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.44.0",
+      "hash": "52f04d5229a8ed19",
+      "summary": "## [3.44.0](https://github.com/openai/openai-python/compare/v3.43.0...v3.44.0) (2026-11-03)\n### Features\n* **api:** add workload identity providers and federation rules ([#4237](https://github.com/openai/openai-python/issues/4237)) ([12709d7](https://github.com/openai/openai-python/commit/12709d708ad03291d8a81371a55a4dadfbcce31d))",
+      "published_at": "2026-11-03T20:20:42Z",
+      "text": ""
+    },
+    "433049090": {
+      "title": "v3.43.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.43.0",
+      "hash": "82854cfcd2b1bc77",
+      "summary": "## [3.43.0](https://github.com/openai/openai-python/compare/v3.42.1...v3.43.0) (2026-11-03)\n### Features\n* **api:** expand Live Responses delegation tools ([#4233](https://github.com/openai/openai-python/issues/4233)) ([f6e8480](https://github.com/openai/openai-python/commit/f6e8480f9a5b2a4d02b17a1da54a1e57964bc312))\n* **responses:** accumulate rich WebSocket progress ([#4224](https://github.com/openai/openai-python/issues/4224)) ([48cdad3](https://github.com/openai/openai-python/commit/48cdad3a61321cf9a27834b818c6d1fcfe651138))\n* **responses:** add WebSocket lane overflow isolation ([#4225](…",
+      "published_at": "2026-11-03T18:05:44Z",
+      "text": ""
+    },
     "430852203": {
       "title": "v3.42.1",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
@@ -227,22 +243,6 @@
       "summary": "## [3.20.0](https://github.com/openai/openai-python/compare/v3.19.2...v3.20.0) (2026-09-28)\n### Features\n* **api:** add Agents credential and session options ([#3967](https://github.com/openai/openai-python/issues/3967)) ([bb68198](https://github.com/openai/openai-python/commit/bb68198a4bb4a161cbb32a28c3888a51540eaf0f))\n* **api:** add Cyber access programs to Responses ([#3956](https://github.com/openai/openai-python/issues/3956)) ([09c5b6f](https://github.com/openai/openai-python/commit/09c5b6f13f716ad4e417fd7ba9209a8a057e0383))\n* **responses:** opt in to incremental WebSocket text and tool…",
       "published_at": "2026-09-28T16:04:13Z",
       "text": ""
-    },
-    "395162305": {
-      "title": "v3.19.2",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.19.2",
-      "hash": "bf8c1105d3d4f65e",
-      "summary": "## [3.19.2](https://github.com/openai/openai-python/compare/v3.19.1...v3.19.2) (2026-09-23)\n### Bug Fixes\n* preserve single files for fallback extraction paths ([#3875](https://github.com/openai/openai-python/issues/3875)) ([bfd3680](https://github.com/openai/openai-python/commit/bfd3680c8d3b715bb3175b82cd0fa1c1fb53162f))\n### Chores\n* **api:** clarify approximate web search location defaults ([#3953](https://github.com/openai/openai-python/issues/3953)) ([a95c95e](https://github.com/openai/openai-python/commit/a95c95ed372476168e9893723ff694ead5db8586))\n* **api:** clarify Realtime modality arr…",
-      "published_at": "2026-09-24T00:05:23Z",
-      "text": ""
-    },
-    "394980404": {
-      "title": "v3.19.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.19.1",
-      "hash": "c11e5542f6ab537a",
-      "summary": "## [3.19.1](https://github.com/openai/openai-python/compare/v3.19.0...v3.19.1) (2026-09-23)\n### Bug Fixes\n* **chat:** preserve single-pass tool iterables ([#3770](https://github.com/openai/openai-python/issues/3770)) ([33ffa1f](https://github.com/openai/openai-python/commit/33ffa1f9fa4f49553ab0287b9359283be818fe40))\n* **client:** merge HTTP headers case-insensitively ([#3486](https://github.com/openai/openai-python/issues/3486)) ([5e39766](https://github.com/openai/openai-python/commit/5e39766dd7ba2802c97f5305721a621098cf0e38))\n### Chores\n* **api:** clarify Chat Completions seed limits ([#394…",
-      "published_at": "2026-09-23T19:15:40Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -292,7 +292,9 @@
     "425651473",
     "427257427",
     "429614273",
-    "430852203"
+    "430852203",
+    "433175574",
+    "433049090"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

@@ -1,17 +1,9 @@
 {
   "source_id": "weride-jobs",
-  "taken_at": "2026-10-29T23:50:55.004989Z",
-  "etag": "W/\"18834-+cj3Saca09ZqrsLVC3tb2Dw0gJU\"",
+  "taken_at": "2026-11-03T23:52:14.247010Z",
+  "etag": "W/\"16abc-1hUrXDYBPVkkJzsNDidNYqxyp6o\"",
   "last_modified": null,
   "items": {
-    "82955de9-485d-4db0-8fd9-1c018489fc8d": {
-      "title": "Application Engineer",
-      "url": "https://jobs.lever.co/weride/82955de9-485d-4db0-8fd9-1c018489fc8d",
-      "hash": "3595bfc622d787d7",
-      "summary": "",
-      "published_at": "2019-01-17T03:46:57.397000Z",
-      "text": ""
-    },
     "012c818d-4ad8-4096-80b0-386cdf79f8d5": {
       "title": "Forward Deployed Engineer",
       "url": "https://jobs.lever.co/weride/012c818d-4ad8-4096-80b0-386cdf79f8d5",
@@ -84,6 +76,14 @@
       "published_at": "2020-05-02T02:22:28.865000Z",
       "text": ""
     },
+    "6c6e64b7-d741-4fe3-a9f4-c98df8f7d23e": {
+      "title": "PR & Marketing Intern",
+      "url": "https://jobs.lever.co/weride/6c6e64b7-d741-4fe3-a9f4-c98df8f7d23e",
+      "hash": "d1f0b7d9233598c9",
+      "summary": "",
+      "published_at": "2026-11-03T19:45:14.232000Z",
+      "text": ""
+    },
     "752dee2b-50d8-4276-97cc-ec1e1f0e1fb7": {
       "title": "Senior Software Engineer - Cloud Infrastructure",
       "url": "https://jobs.lever.co/weride/752dee2b-50d8-4276-97cc-ec1e1f0e1fb7",
@@ -98,14 +98,6 @@
       "hash": "fcbe694f78bfaf58",
       "summary": "",
       "published_at": "2020-05-02T02:20:16.594000Z",
-      "text": ""
-    },
-    "af4a2599-d08e-434f-aedc-f409d2071769": {
-      "title": "Talent Acquisition Specialist (Contractor)",
-      "url": "https://jobs.lever.co/weride/af4a2599-d08e-434f-aedc-f409d2071769",
-      "hash": "0a0dbef79b773a52",
-      "summary": "",
-      "published_at": "2022-04-26T00:43:29.292000Z",
       "text": ""
     }
   },
@@ -127,7 +119,8 @@
     "92454854-2938-4a18-a920-2c1295986ddb",
     "af4a2599-d08e-434f-aedc-f409d2071769",
     "2973bf16-d0cb-47d9-9572-df3be8430368",
-    "200a27d8-05b0-4fb1-b8cd-563d62d204cf"
+    "200a27d8-05b0-4fb1-b8cd-563d62d204cf",
+    "6c6e64b7-d741-4fe3-a9f4-c98df8f7d23e"
   ],
   "scope": "https://api.lever.co/v0/postings/weride?mode=json|2000|None"
 }

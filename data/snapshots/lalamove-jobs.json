@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-02T23:50:16.039054Z",
-  "etag": "W/\"128286-GrOuWWG4LYjRxwEc192nWBtOZuQ\"",
+  "taken_at": "2026-11-03T23:51:29.638470Z",
+  "etag": "W/\"12d250-DNaHWv2viSQQbOPOvlTbudW0oU0\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -34,6 +34,14 @@
       "hash": "5481b5772cfaee66",
       "summary": "",
       "published_at": "2026-04-16T03:12:06.746000Z",
+      "text": ""
+    },
+    "99ee2223-34f3-472c-839b-f5c86d184104": {
+      "title": "Account Receivable officer",
+      "url": "https://jobs.lever.co/lalamove/99ee2223-34f3-472c-839b-f5c86d184104",
+      "hash": "94d00db995184ef3",
+      "summary": "",
+      "published_at": "2026-11-03T08:44:14.456000Z",
       "text": ""
     },
     "880b709c-196a-472e-ac7f-cc970a4e5084": {
@@ -258,6 +266,14 @@
       "hash": "9c666017e7d02d51",
       "summary": "",
       "published_at": "2024-10-07T08:30:15.396000Z",
+      "text": ""
+    },
+    "342d8cd6-1e7a-474a-ab3d-4510279405d2": {
+      "title": "Business Development Executive",
+      "url": "https://jobs.lever.co/lalamove/342d8cd6-1e7a-474a-ab3d-4510279405d2",
+      "hash": "3dceb8b93f08e464",
+      "summary": "",
+      "published_at": "2026-11-03T21:50:20.897000Z",
       "text": ""
     },
     "89d5e345-fefb-47a3-bfbe-7bc442c0e392": {
@@ -677,9 +693,9 @@
       "text": ""
     },
     "df376513-c131-4aaa-9b06-426e2ebde124": {
-      "title": "Manager, Infomation Security",
+      "title": "Manager, Information Security",
       "url": "https://jobs.lever.co/lalamove/df376513-c131-4aaa-9b06-426e2ebde124",
-      "hash": "701011f2f37ed4eb",
+      "hash": "bc31c4dec126b2db",
       "summary": "",
       "published_at": "2026-09-28T07:33:52.699000Z",
       "text": ""
@@ -826,6 +842,14 @@
       "hash": "ade3f2e57da49ac6",
       "summary": "",
       "published_at": "2026-10-28T02:18:47.277000Z",
+      "text": ""
+    },
+    "2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5": {
+      "title": "Sales Associate - Long Island",
+      "url": "https://jobs.lever.co/lalamove/2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5",
+      "hash": "8b24da59416bfeac",
+      "summary": "",
+      "published_at": "2026-11-03T21:36:43.993000Z",
       "text": ""
     },
     "1c860b16-d2b5-49ec-bcdb-bc977a1497cc": {
@@ -1362,7 +1386,10 @@
     "e1d2c683-5988-4acd-9306-d1cd15a0738a",
     "a3d25575-3974-44cc-8e91-0a9508e02fc2",
     "3660ba06-1b6d-46c1-bcca-f45ea08ff045",
-    "e4add36f-8c76-4b8d-9e30-375085b68299"
+    "e4add36f-8c76-4b8d-9e30-375085b68299",
+    "99ee2223-34f3-472c-839b-f5c86d184104",
+    "342d8cd6-1e7a-474a-ab3d-4510279405d2",
+    "2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

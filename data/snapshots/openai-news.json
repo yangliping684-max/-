@@ -1,9 +1,49 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-02T23:50:55.617775Z",
+  "taken_at": "2026-11-03T23:52:56.481893Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "hash": "6fdd44fd8ade5608",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "published_at": "2026-11-03T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/cisco-cyber": {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "hash": "94ec1b10ba1573bf",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "published_at": "2026-11-03T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/heimstaden": {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "hash": "213e31388f690019",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "published_at": "2026-11-03T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer": {
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "hash": "ab1a0010298d65db",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "published_at": "2026-11-03T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/scaling-git-at-openai": {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "hash": "5fb908dcbae29ceb",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "published_at": "2026-11-02T15:30:00Z",
+      "text": ""
+    },
     "https://openai.com/index/grid-protectors-program": {
       "title": "Introducing the Grid Protectors Program",
       "url": "https://openai.com/index/grid-protectors-program",
@@ -12,12 +52,36 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "hash": "b0a37841e4c3336c",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "hash": "3cb3f12648a991ce",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/lifeval": {
       "title": "LifeVal",
       "url": "https://openai.com/index/lifeval",
       "hash": "bc85cb0bd0cc3f81",
       "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
       "published_at": "2026-11-02T09:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "hash": "65c019a6cb8c4c7f",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/qodo-codex-plugin": {
@@ -84,6 +148,14 @@
       "published_at": "2026-10-29T00:00:00Z",
       "text": ""
     },
+    "https://openai.com/ads/customers/evernote": {
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "hash": "68dd8fbfab7ba599",
+      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+      "published_at": "2026-10-28T19:40:49Z",
+      "text": ""
+    },
     "https://openai.com/index/openai-servicenow-partnership-expansion": {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
@@ -140,6 +212,14 @@
       "published_at": "2026-10-26T22:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/introducing-gpt-6-1-terra": {
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "hash": "a7f5d99c78af62cc",
+      "summary": "Delivering fast and capable computer use at scale",
+      "published_at": "2026-10-26T18:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
       "title": "Working with academic communities to build scientific understanding",
       "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
@@ -178,14 +258,6 @@
       "hash": "3900a4f5adb083fe",
       "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "published_at": "2026-10-26T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-gpt-6-1-terra": {
-      "title": "Introducing GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "hash": "df64bff9f31a1fb7",
-      "summary": "Bringing fast and capable computer use to everyone",
-      "published_at": "2026-10-26T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
@@ -351,17 +423,9 @@
     "https://openai.com/index/itau-generative-ai": {
       "title": "How Itaú is building generative AI for its entire customer base",
       "url": "https://openai.com/index/itau-generative-ai",
-      "hash": "1ec731569f7039e5",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "hash": "a638a2619328701a",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees—in one of Brazil’s most regulated sectors.",
       "published_at": "2026-10-16T19:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/grupo-boticario": {
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "hash": "31803649f052fe74",
-      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/localiza-generative-ai": {
@@ -372,11 +436,11 @@
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/benefit-street-partners": {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "hash": "6bacae7e0cb9e78d",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "https://openai.com/index/grupo-boticario": {
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "hash": "31803649f052fe74",
+      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -385,6 +449,14 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "hash": "e1cf64513aeccdf6",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/benefit-street-partners": {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "hash": "6bacae7e0cb9e78d",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -460,19 +532,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/sophos": {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "hash": "28a28748cb9e3f1a",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/asana-browser-agent": {
       "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
       "url": "https://openai.com/index/asana-browser-agent",
       "hash": "e7453d7fdd82c956",
       "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/sophos": {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "hash": "28a28748cb9e3f1a",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -731,78 +803,6 @@
       "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
       "published_at": "2026-09-23T16:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense": {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "hash": "0c8aa46f70a3ceb4",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "published_at": "2026-09-23T13:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/invideo-builds-with-gpt-6-astra": {
-      "title": "How invideo improves color grading 3x with GPT‐6 Astra",
-      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "hash": "090b4193dae2b85f",
-      "summary": "With GPT‐6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/sam-altman-un-security-council-remarks": {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "hash": "83081a9de90b1a9e",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/harvey-from-context-to-confidence-with-astra": {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "hash": "90e353bc716287ab",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/ringg": {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "url": "https://openai.com/index/ringg",
-      "hash": "6410611bf04e572d",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "published_at": "2026-09-23T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-mentalhealthbench": {
-      "title": "Introducing MentalHealthBench",
-      "url": "https://openai.com/index/introducing-mentalhealthbench",
-      "hash": "02a7cd7a14cfdd63",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "published_at": "2026-09-23T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan": {
-      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-      "hash": "1157077b5db9fe60",
-      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
-      "published_at": "2026-09-23T02:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/airbnb-gpt-6-astra": {
-      "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "url": "https://openai.com/index/airbnb-gpt-6-astra",
-      "hash": "ff67b52276b79e00",
-      "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
-      "published_at": "2026-09-23T01:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/grab-openai-ai-skills-southeast-asia": {
-      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-      "hash": "49eafcea9c4e66d4",
-      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
-      "published_at": "2026-09-23T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -962,7 +962,16 @@
     "https://openai.com/index/credit-saison",
     "https://openai.com/index/grid-protectors-program",
     "https://openai.com/index/lifeval",
-    "https://openai.com/index/qodo-codex-plugin"
+    "https://openai.com/index/qodo-codex-plugin",
+    "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+    "https://openai.com/index/cisco-cyber",
+    "https://openai.com/index/heimstaden",
+    "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+    "https://openai.com/index/scaling-git-at-openai",
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+    "https://openai.com/index/dan-driscoll-joins-openai",
+    "https://openai.com/ads/customers/evernote"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

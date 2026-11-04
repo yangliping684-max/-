@@ -1,9 +1,17 @@
 {
   "source_id": "xai-release-notes",
-  "taken_at": "2026-10-28T23:50:10.163095Z",
+  "taken_at": "2026-11-04T23:55:05.600713Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired": {
+      "title": "grok-imagine-image-quality retired",
+      "url": "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired",
+      "hash": "8c54654d0330a3cb",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
     "https://docs.x.ai/developers/release-notes#custom-moderation-controls": {
       "title": "Custom moderation controls",
       "url": "https://docs.x.ai/developers/release-notes#custom-moderation-controls",
@@ -395,14 +403,6 @@
       "summary": "",
       "published_at": null,
       "text": ""
-    },
-    "https://docs.x.ai/developers/release-notes#audit-logs": {
-      "title": "Audit Logs",
-      "url": "https://docs.x.ai/developers/release-notes#audit-logs",
-      "hash": "71b519a3cd0049c4",
-      "summary": "",
-      "published_at": null,
-      "text": ""
     }
   },
   "seen_keys": [
@@ -461,7 +461,8 @@
     "https://docs.x.ai/developers/release-notes#grok-voice-20-deprecation",
     "https://docs.x.ai/developers/release-notes#grok-voice-20-is-available",
     "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available",
-    "https://docs.x.ai/developers/release-notes#custom-moderation-controls"
+    "https://docs.x.ai/developers/release-notes#custom-moderation-controls",
+    "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired"
   ],
   "scope": "https://docs.x.ai/developers/release-notes|50|None"
 }

@@ -1,9 +1,41 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-03T23:52:56.481893Z",
+  "taken_at": "2026-11-04T23:54:58.838571Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/openai-to-acquire-pierre": {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "hash": "52bd5647d1c6e5d4",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "published_at": "2026-11-04T14:30:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/daybreak-red-aws-govcloud": {
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "hash": "2071360b50c77b4f",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "published_at": "2026-11-04T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/a-thousand-fewer-paths-to-root": {
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "hash": "d2df5724a193a56b",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "published_at": "2026-11-04T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/devrev-enterprise-self-service": {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "hash": "af1ba314eb5068e4",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "published_at": "2026-11-04T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/accelerating-engineering-for-the-physical-world": {
       "title": "Accelerating engineering for the physical world",
       "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
@@ -76,19 +108,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/dan-driscoll-joins-openai": {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "hash": "65c019a6cb8c4c7f",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/qodo-codex-plugin": {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "hash": "231a28400bc61652",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "hash": "65c019a6cb8c4c7f",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -428,14 +460,6 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/localiza-generative-ai": {
-      "title": "How Localiza reorganized work around generative AI",
-      "url": "https://openai.com/index/localiza-generative-ai",
-      "hash": "81f75cdab2fede92",
-      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/grupo-boticario": {
       "title": "How Grupo Boticário uses AI to strengthen human connections",
       "url": "https://openai.com/index/grupo-boticario",
@@ -444,11 +468,11 @@
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "hash": "e1cf64513aeccdf6",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+    "https://openai.com/index/localiza-generative-ai": {
+      "title": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "hash": "81f75cdab2fede92",
+      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -457,6 +481,14 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "hash": "6bacae7e0cb9e78d",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "e1cf64513aeccdf6",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -532,19 +564,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/asana-browser-agent": {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "hash": "e7453d7fdd82c956",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sophos": {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "hash": "28a28748cb9e3f1a",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/asana-browser-agent": {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "hash": "e7453d7fdd82c956",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -732,19 +764,19 @@
       "published_at": "2026-09-29T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
-      "title": "Towards safety cases for frontier AI training",
-      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "hash": "cc30f6c098a94d82",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "published_at": "2026-09-28T19:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/how-we-will-do-better-for-australia": {
       "title": "How we will do better for Australia",
       "url": "https://openai.com/index/how-we-will-do-better-for-australia",
       "hash": "002e55e7dbe6424f",
       "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "published_at": "2026-09-28T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/towards-safety-cases-for-frontier-ai-training": {
+      "title": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "hash": "cc30f6c098a94d82",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
       "published_at": "2026-09-28T19:00:00Z",
       "text": ""
     },
@@ -756,14 +788,6 @@
       "published_at": "2026-09-28T07:00:00Z",
       "text": ""
     },
-    "https://openai.com/form/codex-originals": {
-      "title": "Are you a Codex Original?",
-      "url": "https://openai.com/form/codex-originals",
-      "hash": "ed740364360408d9",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
-      "published_at": "2026-09-28T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/basis-tax-workbook-with-astra": {
       "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
       "url": "https://openai.com/index/basis-tax-workbook-with-astra",
@@ -772,36 +796,12 @@
       "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/proaction": {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "url": "https://openai.com/index/proaction",
-      "hash": "8efe8919cf97067f",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "published_at": "2026-09-25T19:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/lowes": {
-      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
-      "url": "https://openai.com/index/lowes",
-      "hash": "a751728d0da84cfd",
-      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
-      "published_at": "2026-09-25T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/wayfair": {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "url": "https://openai.com/index/wayfair",
-      "hash": "b2991b6ea57c724a",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "published_at": "2026-09-25T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/two-years-of-openai-academy": {
-      "title": "Two years of OpenAI Academy",
-      "url": "https://openai.com/index/two-years-of-openai-academy",
-      "hash": "9bd70f7ae46321aa",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "published_at": "2026-09-23T16:00:00Z",
+    "https://openai.com/form/codex-originals": {
+      "title": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "hash": "ed740364360408d9",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "published_at": "2026-09-28T00:00:00Z",
       "text": ""
     }
   },
@@ -971,7 +971,11 @@
     "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
     "https://openai.com/index/dan-driscoll-joins-openai",
-    "https://openai.com/ads/customers/evernote"
+    "https://openai.com/ads/customers/evernote",
+    "https://openai.com/index/openai-to-acquire-pierre",
+    "https://openai.com/index/daybreak-red-aws-govcloud",
+    "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "https://openai.com/index/devrev-enterprise-self-service"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

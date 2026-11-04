@@ -1,9 +1,25 @@
 {
   "source_id": "expeditors-china-jobs",
-  "taken_at": "2026-10-27T23:44:54.696168Z",
+  "taken_at": "2026-11-04T23:54:07.937006Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000159560329": {
+      "title": "Senior Logistics Coordinator",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000159560329",
+      "hash": "b7dbab3ae0d36abf",
+      "summary": "",
+      "published_at": "2026-11-04T07:50:11.068000Z",
+      "text": ""
+    },
+    "744000159557211": {
+      "title": "Logistics Coordinator",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000159557211",
+      "hash": "81b2497cb22dd922",
+      "summary": "",
+      "published_at": "2026-11-04T07:25:08.467000Z",
+      "text": ""
+    },
     "744000157038082": {
       "title": "District Sales Executive/ Senior Sales Executive",
       "url": "https://jobs.smartrecruiters.com/Expeditors/744000157038082",
@@ -83,7 +99,9 @@
     "744000138570569",
     "744000138445769",
     "744000154922319",
-    "744000157038082"
+    "744000157038082",
+    "744000159560329",
+    "744000159557211"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Expeditors/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-03T23:52:16.147970Z",
-  "etag": "W/\"d9d17cacd306fdcda5596b5bda66525e\"",
+  "taken_at": "2026-11-04T23:54:16.329245Z",
+  "etag": "W/\"7d14590680ebc3451bce6d3c2ff56601\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -82,14 +82,6 @@
       "hash": "82aef85a78a9d07f",
       "summary": "",
       "published_at": "2026-08-07T07:45:20Z",
-      "text": ""
-    },
-    "7179814": {
-      "title": "Account Manager, Supply & Growth (Cairo-Based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7179814",
-      "hash": "28335cd76e0fd50e",
-      "summary": "",
-      "published_at": "2025-08-25T13:16:43Z",
       "text": ""
     },
     "8323920": {
@@ -548,6 +540,14 @@
       "published_at": "2026-07-17T04:00:22Z",
       "text": ""
     },
+    "8349335": {
+      "title": "Cash Management & Banking Operations Specialist – Korea Based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8349335",
+      "hash": "3d1d5bfcd45192a7",
+      "summary": "",
+      "published_at": "2026-11-04T08:08:50Z",
+      "text": ""
+    },
     "8245405": {
       "title": "Collections Senior Analyst (Bangkok based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8245405",
@@ -794,6 +794,14 @@
       "hash": "0051ced44896008f",
       "summary": "",
       "published_at": "2026-09-24T14:13:01Z",
+      "text": ""
+    },
+    "8194798": {
+      "title": "Fast track 1-Day Program (20th November): Staff Software Engineer - Back End (Bangkok Based, Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8194798",
+      "hash": "f9ef02baf208a1dd",
+      "summary": "",
+      "published_at": "2026-09-11T11:18:29Z",
       "text": ""
     },
     "8015188": {
@@ -1452,14 +1460,6 @@
       "published_at": "2026-10-16T08:35:23Z",
       "text": ""
     },
-    "8280811": {
-      "title": "Product Operations Analyst",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8280811",
-      "hash": "08f4a632cae4de4e",
-      "summary": "",
-      "published_at": "2026-10-14T08:30:26Z",
-      "text": ""
-    },
     "8179158": {
       "title": "Project manager-Marketing Operations (Chinese Speaking)-Agoda Media Solutions (10-month contract) (Bangkok-Based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8179158",
@@ -1876,14 +1876,6 @@
       "published_at": "2026-10-12T03:19:50Z",
       "text": ""
     },
-    "8248585": {
-      "title": "Senior Manager, Technical Accounting (Bangkok based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8248585",
-      "hash": "b88cf9f49a67c550",
-      "summary": "",
-      "published_at": "2026-10-02T05:06:50Z",
-      "text": ""
-    },
     "7807745": {
       "title": "Senior Marketing Analyst (Rocket Travel by Agoda)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7807745",
@@ -1914,14 +1906,6 @@
       "hash": "6fe00554bc40ab5a",
       "summary": "",
       "published_at": "2026-09-02T12:50:16Z",
-      "text": ""
-    },
-    "7478051": {
-      "title": "Senior Product Designer - Trip Marketing (Bangkok - Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7478051",
-      "hash": "8f0e38f959ea0a09",
-      "summary": "",
-      "published_at": "2025-12-17T03:27:48Z",
       "text": ""
     },
     "3855570": {
@@ -2114,6 +2098,14 @@
       "hash": "4de793bf058e7588",
       "summary": "",
       "published_at": "2025-04-22T11:22:25Z",
+      "text": ""
+    },
+    "8007045": {
+      "title": "Staff Software Engineer - Back End: Fast track 1-Day Program (20th November) (Bangkok Based, Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8007045",
+      "hash": "3a1a88b7f30dcf27",
+      "summary": "",
+      "published_at": "2026-09-11T11:18:27Z",
       "text": ""
     },
     "7543795": {
@@ -2428,14 +2420,6 @@
       "published_at": "2026-09-02T07:33:08Z",
       "text": ""
     },
-    "8088028": {
-      "title": "Workday Security Specialist, People Tech (Bangkok-based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8088028",
-      "hash": "307aaa4390e1e555",
-      "summary": "",
-      "published_at": "2026-07-29T10:29:35Z",
-      "text": ""
-    },
     "8027691": {
       "title": "Workforce Management - Senior Associate Manager - Capacity (Bangkok, Kuala Lumpur, Gurgaon, Pune Based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8027691",
@@ -2450,14 +2434,6 @@
       "hash": "0d0a0e4db60fa8f3",
       "summary": "",
       "published_at": "2026-08-17T07:42:02Z",
-      "text": ""
-    },
-    "8206831": {
-      "title": "Workforce Management (WFM) - Capacity Planner",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8206831",
-      "hash": "208e3e4e05726d5f",
-      "summary": "",
-      "published_at": "2026-09-16T07:19:24Z",
       "text": ""
     }
   },
@@ -2866,7 +2842,8 @@
     "8324060",
     "8326785",
     "8345104",
-    "8349269"
+    "8349269",
+    "8349335"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

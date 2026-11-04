@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-03T23:51:29.638470Z",
-  "etag": "W/\"12d250-DNaHWv2viSQQbOPOvlTbudW0oU0\"",
+  "taken_at": "2026-11-04T23:54:14.281313Z",
+  "etag": "W/\"1263e1-Ff3if03cB99ZrMAEZlz74DRd4WE\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -36,20 +36,20 @@
       "published_at": "2026-04-16T03:12:06.746000Z",
       "text": ""
     },
-    "99ee2223-34f3-472c-839b-f5c86d184104": {
-      "title": "Account Receivable officer",
-      "url": "https://jobs.lever.co/lalamove/99ee2223-34f3-472c-839b-f5c86d184104",
-      "hash": "94d00db995184ef3",
-      "summary": "",
-      "published_at": "2026-11-03T08:44:14.456000Z",
-      "text": ""
-    },
     "880b709c-196a-472e-ac7f-cc970a4e5084": {
       "title": "Accountant",
       "url": "https://jobs.lever.co/lalamove/880b709c-196a-472e-ac7f-cc970a4e5084",
       "hash": "29d8c99ec25b2710",
       "summary": "",
       "published_at": "2026-09-11T04:11:46.513000Z",
+      "text": ""
+    },
+    "99ee2223-34f3-472c-839b-f5c86d184104": {
+      "title": "Accounting Associate (AR)",
+      "url": "https://jobs.lever.co/lalamove/99ee2223-34f3-472c-839b-f5c86d184104",
+      "hash": "c022fb2e81143e8b",
+      "summary": "",
+      "published_at": "2026-11-03T08:44:14.456000Z",
       "text": ""
     },
     "5b3bce82-cb0d-41aa-92f3-59eced4887fa": {
@@ -74,14 +74,6 @@
       "hash": "3ce95eef77f9bf14",
       "summary": "",
       "published_at": "2026-08-19T13:29:32.212000Z",
-      "text": ""
-    },
-    "ed1f9d84-8ba3-497b-befb-6ef5f14230e7": {
-      "title": "Analista Sênior de Estratégia",
-      "url": "https://jobs.lever.co/lalamove/ed1f9d84-8ba3-497b-befb-6ef5f14230e7",
-      "hash": "2123f316fe2aa5b9",
-      "summary": "",
-      "published_at": "2026-09-21T21:28:21.298000Z",
       "text": ""
     },
     "d19288b5-119c-477e-8409-81455f5a2211": {
@@ -154,22 +146,6 @@
       "hash": "285aa462dbaf70e6",
       "summary": "",
       "published_at": "2026-10-20T07:03:13.223000Z",
-      "text": ""
-    },
-    "7117cc61-c494-4ad0-9f81-d9251c5503b1": {
-      "title": "Assistente de Relacionamento",
-      "url": "https://jobs.lever.co/lalamove/7117cc61-c494-4ad0-9f81-d9251c5503b1",
-      "hash": "6c7d376d6bfc9e19",
-      "summary": "",
-      "published_at": "2026-08-22T17:52:04.425000Z",
-      "text": ""
-    },
-    "019f15f2-be64-4b53-899e-227b55fc960a": {
-      "title": "Assistente de Retenção",
-      "url": "https://jobs.lever.co/lalamove/019f15f2-be64-4b53-899e-227b55fc960a",
-      "hash": "ee59bc8f51ef0fe1",
-      "summary": "",
-      "published_at": "2026-10-20T13:30:06.758000Z",
       "text": ""
     },
     "3aedc336-82a1-4988-8637-c7d0a0c248ba": {
@@ -530,14 +506,6 @@
       "hash": "4a575084b8800b92",
       "summary": "",
       "published_at": "2026-08-25T10:09:43.143000Z",
-      "text": ""
-    },
-    "b5d63e49-9f7c-4477-83bf-deaecd3093c8": {
-      "title": "Executivo de Vendas Inbound RJ (alocado em SP)",
-      "url": "https://jobs.lever.co/lalamove/b5d63e49-9f7c-4477-83bf-deaecd3093c8",
-      "hash": "85b276f690da54b8",
-      "summary": "",
-      "published_at": "2026-09-30T14:30:42.560000Z",
       "text": ""
     },
     "e3f2abf9-b744-4b7d-b40e-fce91e7c6db5": {
@@ -1090,14 +1058,6 @@
       "hash": "72953e05d63a9895",
       "summary": "",
       "published_at": "2026-09-25T07:33:57.700000Z",
-      "text": ""
-    },
-    "2f5dd60e-a0b3-4e0b-9ce4-f8bcdb2feb5c": {
-      "title": "Senior Vendor Operations Analyst, Technology",
-      "url": "https://jobs.lever.co/lalamove/2f5dd60e-a0b3-4e0b-9ce4-f8bcdb2feb5c",
-      "hash": "be1b3b2c30ba4ba5",
-      "summary": "",
-      "published_at": "2026-09-28T10:26:53.607000Z",
       "text": ""
     },
     "9a2de1d3-5994-4507-a988-1ec34e629e14": {

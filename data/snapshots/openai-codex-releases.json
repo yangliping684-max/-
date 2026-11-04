@@ -1,47 +1,47 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-03T23:53:05.628213Z",
-  "etag": "W/\"591ffb0e21d82efc37a2ebef2c6edcbc6311eabd495d4e4109f2f78d72d13346\"",
+  "taken_at": "2026-11-04T23:55:07.917127Z",
+  "etag": "W/\"8d27b2a21f8e95a39ce900442717e481f911b44789aa29b3db20d32fca55f451\"",
   "last_modified": null,
   "items": {
+    "434436632": {
+      "title": "0.168.0-alpha.2 (rust-v0.168.0-alpha.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.2",
+      "hash": "753a1b544fe06068",
+      "summary": "Release 0.168.0-alpha.2",
+      "published_at": "2026-11-04T20:47:50Z",
+      "text": ""
+    },
+    "433458496": {
+      "title": "0.168.0-alpha.1 (rust-v0.168.0-alpha.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.1",
+      "hash": "dfcc5e7f1015d920",
+      "summary": "Release 0.168.0-alpha.1",
+      "published_at": "2026-11-04T02:54:53Z",
+      "text": ""
+    },
+    "434273075": {
+      "title": "0.167.0-alpha.5 (rust-v0.167.0-alpha.5)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.5",
+      "hash": "4577a3cd7e917827",
+      "summary": "Release 0.167.0-alpha.5",
+      "published_at": "2026-11-04T18:09:02Z",
+      "text": ""
+    },
+    "434330497": {
+      "title": "0.167.0-alpha.3.1 (rust-v0.167.0-alpha.3.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.1",
+      "hash": "21759409cc32ff69",
+      "summary": "Release 0.167.0-alpha.3.1",
+      "published_at": "2026-11-04T19:05:21Z",
+      "text": ""
+    },
     "432208496": {
       "title": "0.167.0-alpha.4 (rust-v0.167.0-alpha.4)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
       "hash": "f9a08f46c3b1b1e3",
       "summary": "Release 0.167.0-alpha.4",
       "published_at": "2026-11-03T02:24:00Z",
-      "text": ""
-    },
-    "433314289": {
-      "title": "libcap 2.75 source archive (libcap-v2.75)",
-      "url": "https://github.com/openai/codex/releases/tag/libcap-v2.75",
-      "hash": "228a71b8cd50d2e6",
-      "summary": "Mirror of the unmodified libcap 2.75 source archive used to build Bubblewrap for Codex's Linux musl packages.\n- [Upstream archive](https://mirrors.edge.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.75.tar.xz)\n- SHA-256 for `libcap-2.75.tar.xz` is `de4e7e064c9ba451d5234dd46e897d7c71c96a9ebf9a0c445bc04f4742d83632`.",
-      "published_at": "2026-11-03T23:04:31Z",
-      "text": ""
-    },
-    "430899312": {
-      "title": "0.167.0-alpha.3 (rust-v0.167.0-alpha.3)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3",
-      "hash": "782b765d1d316928",
-      "summary": "Release 0.167.0-alpha.3",
-      "published_at": "2026-11-01T22:26:17Z",
-      "text": ""
-    },
-    "430790696": {
-      "title": "0.167.0-alpha.2 (rust-v0.167.0-alpha.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.2",
-      "hash": "132d81d75e05e26f",
-      "summary": "Release 0.167.0-alpha.2",
-      "published_at": "2026-11-01T19:00:13Z",
-      "text": ""
-    },
-    "428320524": {
-      "title": "0.166.0 (rust-v0.166.0)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
-      "hash": "a8687cc49a4fb4d1",
-      "summary": "## New Features\n- Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts. (#57221, #57222, #57223, #57224)\n- Rendered Markdown consistently in async questions, choices, answers, and transcript replies. (#57259, #57292)\n- Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs. (#57293)\n- Added `codex queue --resume` to resume unloaded threads after queueing a message. (#57232)\n- Added clearer safety-block explanations and selectable safer follow-up prompts in the TUI. (#57363, #57365)\n- Added `codex…",
-      "published_at": "2026-10-29T19:47:53Z",
       "text": ""
     }
   },
@@ -89,7 +89,11 @@
     "430899312",
     "430790696",
     "432208496",
-    "433314289"
+    "433314289",
+    "434436632",
+    "433458496",
+    "434273075",
+    "434330497"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

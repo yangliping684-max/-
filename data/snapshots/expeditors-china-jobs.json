@@ -1,9 +1,17 @@
 {
   "source_id": "expeditors-china-jobs",
-  "taken_at": "2026-11-04T23:54:07.937006Z",
+  "taken_at": "2026-11-05T23:55:00.044509Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000159992399": {
+      "title": "Compliance Program Manager – GT Compliance",
+      "url": "https://jobs.smartrecruiters.com/Expeditors/744000159992399",
+      "hash": "28c52c8b3394b48c",
+      "summary": "",
+      "published_at": "2026-11-05T23:54:25.873000Z",
+      "text": ""
+    },
     "744000159560329": {
       "title": "Senior Logistics Coordinator",
       "url": "https://jobs.smartrecruiters.com/Expeditors/744000159560329",
@@ -101,7 +109,8 @@
     "744000154922319",
     "744000157038082",
     "744000159560329",
-    "744000159557211"
+    "744000159557211",
+    "744000159992399"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Expeditors/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

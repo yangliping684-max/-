@@ -1,9 +1,17 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-11-02T23:50:11.620213Z",
+  "taken_at": "2026-11-05T23:55:02.028946Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000159819934": {
+      "title": "Community Development & Advocacy Manager [Assassin's Creed]",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000159819934",
+      "hash": "572820583858d476",
+      "summary": "",
+      "published_at": "2026-11-05T09:37:15.496000Z",
+      "text": ""
+    },
     "744000158807749": {
       "title": "Associate Quality Control Lead",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158807749",
@@ -76,14 +84,6 @@
       "published_at": "2026-10-29T15:26:03.026000Z",
       "text": ""
     },
-    "744000158434969": {
-      "title": "Community Advocacy Manager [Assasin's Creed]",
-      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158434969",
-      "hash": "41133a7c581faf61",
-      "summary": "",
-      "published_at": "2026-10-29T03:29:45.285000Z",
-      "text": ""
-    },
     "744000158052749": {
       "title": "Senior Animator (Rainbow Six)",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000158052749",
@@ -133,7 +133,8 @@
     "744000158745355",
     "744000158702519",
     "744000158699281",
-    "744000158697920"
+    "744000158697920",
+    "744000159819934"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

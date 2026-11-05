@@ -1,9 +1,17 @@
 {
   "source_id": "cursor-changelog",
-  "taken_at": "2026-10-26T23:45:57.911841Z",
+  "taken_at": "2026-11-05T23:55:58.011540Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://cursor.com/changelog/build-live-apps": {
+      "title": "Build Live Apps in Cursor",
+      "url": "https://cursor.com/changelog/build-live-apps",
+      "hash": "c8b127852a5477fe",
+      "summary": "Agents have lowered the cost of writing code, but most apps and tools that users build never make it off of localhost.",
+      "published_at": "2026-11-05T00:00:00Z",
+      "text": ""
+    },
     "https://cursor.com/changelog/agent-sdk": {
       "title": "Agent SDK",
       "url": "https://cursor.com/changelog/agent-sdk",
@@ -35,14 +43,6 @@
       "summary": "You can now see and reply to the local agents running on your computer from the Cursor iOS app.",
       "published_at": "2026-10-06T00:00:00Z",
       "text": ""
-    },
-    "https://cursor.com/changelog/rollouts-and-security-reviewer": {
-      "title": "Rollouts and Security Review",
-      "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
-      "hash": "13f9579c42fcae44",
-      "summary": "Today we're launching two Cursor bots for the last mile of shipping code. Rollouts watches every change as it deploys and reports its health per environment. Security Review reports exploitable bugs on every pull request.",
-      "published_at": "2026-09-23T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -53,7 +53,8 @@
     "https://cursor.com/changelog/start-from-scratch",
     "https://cursor.com/changelog/origin-app-marketplace",
     "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
-    "https://cursor.com/changelog/agent-sdk"
+    "https://cursor.com/changelog/agent-sdk",
+    "https://cursor.com/changelog/build-live-apps"
   ],
   "scope": "https://cursor.com/changelog|50|None"
 }

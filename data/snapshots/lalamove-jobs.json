@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-04T23:54:14.281313Z",
-  "etag": "W/\"1263e1-Ff3if03cB99ZrMAEZlz74DRd4WE\"",
+  "taken_at": "2026-11-05T23:55:06.360156Z",
+  "etag": "W/\"129c4f-oaVK1V4+jBZDWzqPlyKCZ1SX3po\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -74,6 +74,14 @@
       "hash": "3ce95eef77f9bf14",
       "summary": "",
       "published_at": "2026-08-19T13:29:32.212000Z",
+      "text": ""
+    },
+    "fae6a6e3-14a8-4dd2-9978-6f04b1b591ab": {
+      "title": "Analista Sênior de Estratégia",
+      "url": "https://jobs.lever.co/lalamove/fae6a6e3-14a8-4dd2-9978-6f04b1b591ab",
+      "hash": "2123f316fe2aa5b9",
+      "summary": "",
+      "published_at": "2026-11-05T20:29:13.256000Z",
       "text": ""
     },
     "d19288b5-119c-477e-8409-81455f5a2211": {
@@ -236,6 +244,14 @@
       "published_at": "2026-09-17T01:37:09.761000Z",
       "text": ""
     },
+    "59bc55e5-347c-4864-a7c9-45ae4448866f": {
+      "title": "Business Development Associate (Outbound)",
+      "url": "https://jobs.lever.co/lalamove/59bc55e5-347c-4864-a7c9-45ae4448866f",
+      "hash": "d2f98251c5851a28",
+      "summary": "",
+      "published_at": "2026-11-05T07:44:58.449000Z",
+      "text": ""
+    },
     "d41bc669-cd91-493a-a100-bf0ca02ffb3c": {
       "title": "Business Development Associate 商務開發專員 (台北)",
       "url": "https://jobs.lever.co/lalamove/d41bc669-cd91-493a-a100-bf0ca02ffb3c",
@@ -356,14 +372,6 @@
       "published_at": "2026-10-27T08:40:34.823000Z",
       "text": ""
     },
-    "b95b0ab1-4278-4b51-9e9f-a63bf2fac470": {
-      "title": "Driver Operations Associate",
-      "url": "https://jobs.lever.co/lalamove/b95b0ab1-4278-4b51-9e9f-a63bf2fac470",
-      "hash": "78f73153d43a6689",
-      "summary": "",
-      "published_at": "2026-07-28T03:53:04.520000Z",
-      "text": ""
-    },
     "04aca009-ffe1-4a66-939d-d7d07deaa760": {
       "title": "Driver Operations Associate - Driver Assistance",
       "url": "https://jobs.lever.co/lalamove/04aca009-ffe1-4a66-939d-d7d07deaa760",
@@ -394,14 +402,6 @@
       "hash": "1c265b0cf76a9df0",
       "summary": "",
       "published_at": "2026-09-01T08:46:07.145000Z",
-      "text": ""
-    },
-    "196310a7-b004-42a2-a1b8-c6b3c752ff0e": {
-      "title": "Driver Operations Associate - UAE (2W/4W)",
-      "url": "https://jobs.lever.co/lalamove/196310a7-b004-42a2-a1b8-c6b3c752ff0e",
-      "hash": "c3b5c16dc1814f97",
-      "summary": "",
-      "published_at": "2026-10-15T10:03:13.761000Z",
       "text": ""
     },
     "385581c0-5ec6-4b3a-abb4-197e57e7312c": {
@@ -442,6 +442,14 @@
       "hash": "87944ac7c75ec4e5",
       "summary": "",
       "published_at": "2026-09-15T08:48:38.398000Z",
+      "text": ""
+    },
+    "c92476da-6e88-4fb5-804c-229f3909e603": {
+      "title": "Driver Operations Associate (Longhaul Delivery)",
+      "url": "https://jobs.lever.co/lalamove/c92476da-6e88-4fb5-804c-229f3909e603",
+      "hash": "9fc8371522325ab1",
+      "summary": "",
+      "published_at": "2026-11-05T10:23:53.254000Z",
       "text": ""
     },
     "6d2586ae-7047-4868-b899-4bed5f0629b1": {
@@ -1349,7 +1357,10 @@
     "e4add36f-8c76-4b8d-9e30-375085b68299",
     "99ee2223-34f3-472c-839b-f5c86d184104",
     "342d8cd6-1e7a-474a-ab3d-4510279405d2",
-    "2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5"
+    "2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5",
+    "fae6a6e3-14a8-4dd2-9978-6f04b1b591ab",
+    "59bc55e5-347c-4864-a7c9-45ae4448866f",
+    "c92476da-6e88-4fb5-804c-229f3909e603"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

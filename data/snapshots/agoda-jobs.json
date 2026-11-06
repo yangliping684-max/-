@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-05T23:55:08.397376Z",
-  "etag": "W/\"504e63c7c4663125942e7f0646b1fee3\"",
+  "taken_at": "2026-11-06T23:50:34.876822Z",
+  "etag": "W/\"cea9d7bf2ce366f64f381d9d2ac1a468\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -508,6 +508,14 @@
       "published_at": "2026-01-05T07:58:09Z",
       "text": ""
     },
+    "8345402": {
+      "title": "(Associate) Project Manager - B2B Partnership, White Label, Customer Experience Group (Based in Bangkok, Thailand | Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8345402",
+      "hash": "31ec30f898d28bf5",
+      "summary": "",
+      "published_at": "2026-11-05T06:52:06Z",
+      "text": ""
+    },
     "8242604": {
       "title": "Backend Engineer Manager (Bangkok based, Relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8242604",
@@ -628,6 +636,62 @@
       "published_at": "2025-10-08T06:09:57Z",
       "text": ""
     },
+    "8335928": {
+      "title": "[Cooperative Internship 2027] Back-end Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335928",
+      "hash": "6879452f675a5810",
+      "summary": "",
+      "published_at": "2026-11-06T07:44:15Z",
+      "text": ""
+    },
+    "8335925": {
+      "title": "[Cooperative Internship 2027] Data Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335925",
+      "hash": "ef98106b4e58a477",
+      "summary": "",
+      "published_at": "2026-11-06T07:52:27Z",
+      "text": ""
+    },
+    "8358205": {
+      "title": "[Cooperative Internship 2027] Data Pipeline Intern BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358205",
+      "hash": "c351145e106cb586",
+      "summary": "",
+      "published_at": "2026-11-06T07:50:24Z",
+      "text": ""
+    },
+    "8358246": {
+      "title": "[Cooperative Internship 2027] Data Platform Intern, Devops",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358246",
+      "hash": "8f29d616c5a226d2",
+      "summary": "",
+      "published_at": "2026-11-06T07:49:47Z",
+      "text": ""
+    },
+    "8358252": {
+      "title": "[Cooperative Internship 2027] Full-stack Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358252",
+      "hash": "38b72081911dfa6e",
+      "summary": "",
+      "published_at": "2026-11-06T08:00:38Z",
+      "text": ""
+    },
+    "8335941": {
+      "title": "[Cooperative Internship 2027] Infrastructure Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335941",
+      "hash": "df0d56e532c8c4b2",
+      "summary": "",
+      "published_at": "2026-11-06T08:04:33Z",
+      "text": ""
+    },
+    "8305482": {
+      "title": "[Cooperative Internship 2027] Security Analyst Intern, Security team",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8305482",
+      "hash": "22067d947867be8a",
+      "summary": "",
+      "published_at": "2026-11-06T07:24:59Z",
+      "text": ""
+    },
     "8190098": {
       "title": "Country Director, China",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8190098",
@@ -650,14 +714,6 @@
       "hash": "4a483054a23dadaa",
       "summary": "",
       "published_at": "2026-06-04T10:32:18Z",
-      "text": ""
-    },
-    "8129589": {
-      "title": "Customer Experience Specialist - English & Mandarin (Foshan, China)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8129589",
-      "hash": "3e35121c8472e163",
-      "summary": "",
-      "published_at": "2026-08-17T09:24:57Z",
       "text": ""
     },
     "8300224": {
@@ -716,14 +772,6 @@
       "published_at": "2026-10-22T02:55:45Z",
       "text": ""
     },
-    "8326690": {
-      "title": "Customer Service, Escalation - Team Manager (Hindi)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326690",
-      "hash": "9cb60fc75c726957",
-      "summary": "",
-      "published_at": "2026-10-27T06:15:35Z",
-      "text": ""
-    },
     "8284004": {
       "title": "[Data Engineer] Senior / Staff MLOps Engineer (Bangkok Based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8284004",
@@ -764,20 +812,20 @@
       "published_at": "2026-04-23T07:33:11Z",
       "text": ""
     },
+    "8046187": {
+      "title": "Director of Product, Tax Platform (Bangkok-based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8046187",
+      "hash": "90872ec8a78b36c7",
+      "summary": "",
+      "published_at": "2026-07-07T04:00:53Z",
+      "text": ""
+    },
     "8299905": {
       "title": "Director - Operations, North Asia (Japan and Korea)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8299905",
       "hash": "cf2320b97a9c40f2",
       "summary": "",
       "published_at": "2026-10-19T07:00:42Z",
-      "text": ""
-    },
-    "8129562": {
-      "title": "Director/ Senior Director - Talent Development, Quality and Change (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8129562",
-      "hash": "8c5fb60b4fe2829e",
-      "summary": "",
-      "published_at": "2026-08-14T05:16:03Z",
       "text": ""
     },
     "8273752": {
@@ -908,14 +956,6 @@
       "published_at": "2026-10-14T10:08:39Z",
       "text": ""
     },
-    "8302957": {
-      "title": "[GSD] Lead, People Tech Operation Excellence (Bangkok Based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8302957",
-      "hash": "2bf787bf6fac7be6",
-      "summary": "",
-      "published_at": "2026-10-21T04:15:43Z",
-      "text": ""
-    },
     "7962493": {
       "title": "Head of Strategic Growth (Seoul-based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7962493",
@@ -930,14 +970,6 @@
       "hash": "931cc13c622a4858",
       "summary": "",
       "published_at": "2026-10-15T03:49:36Z",
-      "text": ""
-    },
-    "8305589": {
-      "title": "[Infra] Senior Software Engineer – Kubernetes Platform (Bangkok Based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8305589",
-      "hash": "777f84acb281d54f",
-      "summary": "",
-      "published_at": "2026-10-22T07:12:10Z",
       "text": ""
     },
     "8248586": {
@@ -1026,30 +1058,6 @@
       "hash": "0be8743159f1c3de",
       "summary": "",
       "published_at": "2026-08-06T04:25:30Z",
-      "text": ""
-    },
-    "8330853": {
-      "title": "Lead Manager, Korea Financial Institution Partnerships (Seoul-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8330853",
-      "hash": "079ca72169c85f41",
-      "summary": "",
-      "published_at": "2026-10-28T13:54:21Z",
-      "text": ""
-    },
-    "8330855": {
-      "title": "Lead Manager, Strategic Alliances – Korea Partnerships (Seoul-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8330855",
-      "hash": "9fb6b4d764d7c6a7",
-      "summary": "",
-      "published_at": "2026-10-28T13:54:52Z",
-      "text": ""
-    },
-    "8326783": {
-      "title": "Lead Manager, Strategic Partnerships (Seoul-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326783",
-      "hash": "2d0ca651abbc22c4",
-      "summary": "",
-      "published_at": "2026-10-27T09:57:41Z",
       "text": ""
     },
     "8238989": {
@@ -1308,6 +1316,14 @@
       "published_at": "2026-05-25T04:55:13Z",
       "text": ""
     },
+    "8335900": {
+      "title": "[MBA Summer Internship 2027] CEG Project Management Intern (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335900",
+      "hash": "0b26bcc692115ca6",
+      "summary": "",
+      "published_at": "2026-11-06T07:32:13Z",
+      "text": ""
+    },
     "8239223": {
       "title": "Motion Designer (Bangkok-based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8239223",
@@ -1338,6 +1354,14 @@
       "hash": "d1057c7e6a42f250",
       "summary": "",
       "published_at": "2026-09-15T07:17:05Z",
+      "text": ""
+    },
+    "8222862": {
+      "title": "Operations Analyst (Toronto-based) – Remote",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8222862",
+      "hash": "ff78600dd525945e",
+      "summary": "",
+      "published_at": "2026-09-30T10:26:01Z",
       "text": ""
     },
     "8255835": {
@@ -1525,17 +1549,17 @@
       "text": ""
     },
     "8352275": {
-      "title": "Regional Manager, Flights (Based in Bangkok or Kuala Lumpur)",
+      "title": "Regional Manager, Flights (Based in Kuala Lumpur)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8352275",
-      "hash": "22a49e94e509f842",
+      "hash": "cad9040e1420379c",
       "summary": "",
       "published_at": "2026-11-05T09:15:58Z",
       "text": ""
     },
     "8352258": {
-      "title": "Regional Manager, Operations - Accommodation (Based in Bangkok or Kuala Lumpur)",
+      "title": "Regional Manager, Operations - Accommodation (Based in Kuala Lumpur)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8352258",
-      "hash": "c3a8426c60ee290a",
+      "hash": "f0834b1bd467b787",
       "summary": "",
       "published_at": "2026-11-05T09:17:27Z",
       "text": ""
@@ -1546,6 +1570,14 @@
       "hash": "06e90b5ea654fd91",
       "summary": "",
       "published_at": "2026-11-05T08:23:20Z",
+      "text": ""
+    },
+    "8352261": {
+      "title": "Regional Manager - Operations (Based in Yokohama)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8352261",
+      "hash": "06e90b5ea654fd91",
+      "summary": "",
+      "published_at": "2026-11-05T08:24:48Z",
       "text": ""
     },
     "8232454": {
@@ -1820,6 +1852,30 @@
       "published_at": "2026-09-25T08:05:54Z",
       "text": ""
     },
+    "8330853": {
+      "title": "Senior Manager / Lead Manager, Korea Financial Institution Partnerships (Seoul-based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8330853",
+      "hash": "45031ef2a18c5b56",
+      "summary": "",
+      "published_at": "2026-10-28T13:54:21Z",
+      "text": ""
+    },
+    "8330855": {
+      "title": "Senior Manager / Lead Manager, Strategic Alliances – Korea Partnerships (Seoul-based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8330855",
+      "hash": "3c4fb91bfe1de03e",
+      "summary": "",
+      "published_at": "2026-10-28T13:54:52Z",
+      "text": ""
+    },
+    "8326783": {
+      "title": "Senior Manager / Lead Manager, Strategic Partnerships (Seoul-based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326783",
+      "hash": "41369c4ddfb8b9d2",
+      "summary": "",
+      "published_at": "2026-10-27T09:57:41Z",
+      "text": ""
+    },
     "7988672": {
       "title": "Senior Manager/Manager, Flights Supply - Malaysia Based",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7988672",
@@ -1972,6 +2028,14 @@
       "published_at": "2021-08-16T11:10:35Z",
       "text": ""
     },
+    "8358225": {
+      "title": "Senior Product Manager, Product Systems",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358225",
+      "hash": "941daffeb3280829",
+      "summary": "",
+      "published_at": "2026-11-06T07:10:54Z",
+      "text": ""
+    },
     "8006946": {
       "title": "Senior Regional Manager, Customer/ Partner Operations (Based in Seoul)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8006946",
@@ -2060,12 +2124,12 @@
       "published_at": "2025-05-14T09:13:08Z",
       "text": ""
     },
-    "8219959": {
+    "6883260": {
       "title": "Software Developer, DevOps (Bangkok-based, 10-month Contract)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8219959",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/6883260",
       "hash": "6a6352779776cdd7",
       "summary": "",
-      "published_at": "2026-09-21T08:22:02Z",
+      "published_at": "2025-05-14T04:37:34Z",
       "text": ""
     },
     "8229976": {
@@ -2138,6 +2202,22 @@
       "hash": "8282a980902cb9a9",
       "summary": "",
       "published_at": "2026-06-10T06:03:47Z",
+      "text": ""
+    },
+    "8326318": {
+      "title": "Staff AI Security Analyst",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326318",
+      "hash": "68f728e135f926f3",
+      "summary": "",
+      "published_at": "2026-11-06T02:48:17Z",
+      "text": ""
+    },
+    "8326312": {
+      "title": "Staff AI Security Engineer",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326312",
+      "hash": "f86d1a04695cb07d",
+      "summary": "",
+      "published_at": "2026-11-06T02:54:03Z",
       "text": ""
     },
     "6775382": {
@@ -2332,12 +2412,140 @@
       "published_at": "2025-10-02T10:31:42Z",
       "text": ""
     },
-    "8345402": {
-      "title": "Strategic Projects - APM/ PM, White Label, Customer Experience Group (Based in Bangkok, Thailand | Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8345402",
-      "hash": "fee93c336a7fe23d",
+    "8358244": {
+      "title": "[Summer Internship 2027] Back-end Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358244",
+      "hash": "47893ae76a27169b",
       "summary": "",
-      "published_at": "2026-11-05T06:52:06Z",
+      "published_at": "2026-11-06T07:44:44Z",
+      "text": ""
+    },
+    "8355555": {
+      "title": "[Summer Internship 2027] Back-end Internship BKK, GPT Tools",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8355555",
+      "hash": "482e2bef6435d7fd",
+      "summary": "",
+      "published_at": "2026-11-06T07:43:45Z",
+      "text": ""
+    },
+    "8335899": {
+      "title": "[Summer Internship 2027] CEG Data Analytics Intern (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335899",
+      "hash": "47ded030dc0e6c3f",
+      "summary": "",
+      "published_at": "2026-11-06T07:30:50Z",
+      "text": ""
+    },
+    "8335897": {
+      "title": "[Summer Internship 2027] CEG Project Management Intern - Commercial (Non-technical) (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335897",
+      "hash": "90eb62cf88f069bc",
+      "summary": "",
+      "published_at": "2026-11-06T07:27:52Z",
+      "text": ""
+    },
+    "8335898": {
+      "title": "[Summer Internship 2027] CEG Project Management Intern, Technical (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335898",
+      "hash": "00f20448c8d30292",
+      "summary": "",
+      "published_at": "2026-11-06T07:28:17Z",
+      "text": ""
+    },
+    "8329779": {
+      "title": "[Summer Internship 2027] Corporate Strategy Intern",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8329779",
+      "hash": "f4d6eaf3693eefa1",
+      "summary": "",
+      "published_at": "2026-11-06T07:29:50Z",
+      "text": ""
+    },
+    "8358247": {
+      "title": "[Summer Internship 2027] Data Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358247",
+      "hash": "e6e8c53608a5faa9",
+      "summary": "",
+      "published_at": "2026-11-06T07:51:30Z",
+      "text": ""
+    },
+    "8335927": {
+      "title": "[Summer Internship 2027] Data Platform Intern, Devops",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335927",
+      "hash": "a82234a9206ef853",
+      "summary": "",
+      "published_at": "2026-11-06T07:49:44Z",
+      "text": ""
+    },
+    "8335901": {
+      "title": "[Summer Internship 2027] Finance Intern, Marketing Procurement (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335901",
+      "hash": "1ffd26195a8675e7",
+      "summary": "",
+      "published_at": "2026-11-06T07:33:17Z",
+      "text": ""
+    },
+    "8335922": {
+      "title": "[Summer Internship 2027] Full-stack Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335922",
+      "hash": "ea4ec6b42194503c",
+      "summary": "",
+      "published_at": "2026-11-06T07:58:05Z",
+      "text": ""
+    },
+    "8358261": {
+      "title": "[Summer Internship 2027] Infrastructure Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8358261",
+      "hash": "5c4456481abf6f59",
+      "summary": "",
+      "published_at": "2026-11-06T08:03:22Z",
+      "text": ""
+    },
+    "8355617": {
+      "title": "[Summer Internship 2027] Legal Intern, Employment & Corporate Governance (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8355617",
+      "hash": "069b1f7f3f5483e4",
+      "summary": "",
+      "published_at": "2026-11-06T07:35:04Z",
+      "text": ""
+    },
+    "8335915": {
+      "title": "[Summer Internship 2027] Legal Operations Intern (Bangkok Based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335915",
+      "hash": "2ee990b8f2d07717",
+      "summary": "",
+      "published_at": "2026-11-06T07:35:24Z",
+      "text": ""
+    },
+    "8305510": {
+      "title": "[Summer Internship 2027] People Intern, Learning and Development",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8305510",
+      "hash": "6242751149abfb3c",
+      "summary": "",
+      "published_at": "2026-11-06T07:25:10Z",
+      "text": ""
+    },
+    "8305517": {
+      "title": "[Summer Internship 2027] People Intern, Sustainability",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8305517",
+      "hash": "a9854674bb8b3974",
+      "summary": "",
+      "published_at": "2026-11-06T07:25:18Z",
+      "text": ""
+    },
+    "8335924": {
+      "title": "[Summer Internship 2027] Supply Full-stack Internship BKK",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8335924",
+      "hash": "994f52c7cec397bb",
+      "summary": "",
+      "published_at": "2026-11-06T07:57:22Z",
+      "text": ""
+    },
+    "8357802": {
+      "title": "[Summer Internship 2027] Thailand Government Affairs Intern",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8357802",
+      "hash": "3426dbfbb7a9ee6a",
+      "summary": "",
+      "published_at": "2026-11-06T07:30:34Z",
       "text": ""
     },
     "8203458": {
@@ -2394,6 +2602,14 @@
       "hash": "752ff7931fa24fe0",
       "summary": "",
       "published_at": "2026-10-06T08:05:13Z",
+      "text": ""
+    },
+    "8354883": {
+      "title": "Support Associate - Mandarin & English (Kuala Lumpur, Malaysia)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8354883",
+      "hash": "791b6c1b5aa1a486",
+      "summary": "",
+      "published_at": "2026-11-06T04:39:07Z",
       "text": ""
     },
     "7995117": {
@@ -2498,6 +2714,14 @@
       "hash": "0d0a0e4db60fa8f3",
       "summary": "",
       "published_at": "2026-08-17T07:42:02Z",
+      "text": ""
+    },
+    "8206831": {
+      "title": "Workforce Management (WFM) - Capacity Planner",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8206831",
+      "hash": "208e3e4e05726d5f",
+      "summary": "",
+      "published_at": "2026-09-16T07:19:24Z",
       "text": ""
     }
   },
@@ -2917,7 +3141,39 @@
     "8352260",
     "8354738",
     "8345402",
-    "8355273"
+    "8355273",
+    "8335928",
+    "8335925",
+    "8358205",
+    "8358246",
+    "8358252",
+    "8335941",
+    "8305482",
+    "8335900",
+    "8222862",
+    "8352261",
+    "8358225",
+    "6883260",
+    "8326318",
+    "8326312",
+    "8358244",
+    "8355555",
+    "8335899",
+    "8335897",
+    "8335898",
+    "8329779",
+    "8358247",
+    "8335927",
+    "8335901",
+    "8335922",
+    "8358261",
+    "8355617",
+    "8335915",
+    "8305510",
+    "8305517",
+    "8335924",
+    "8357802",
+    "8354883"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

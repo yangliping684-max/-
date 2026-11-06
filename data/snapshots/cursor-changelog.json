@@ -1,9 +1,17 @@
 {
   "source_id": "cursor-changelog",
-  "taken_at": "2026-11-05T23:55:58.011540Z",
+  "taken_at": "2026-11-06T23:51:19.786571Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://cursor.com/changelog/voice-chat": {
+      "title": "Voice Chat with Agents",
+      "url": "https://cursor.com/changelog/voice-chat",
+      "hash": "90943ea2c6bffd6d",
+      "summary": "You can now talk with your agents in a realtime voice call. Describe a change out loud, ask what an agent is working on, and hear updates as the work moves forward.",
+      "published_at": "2026-11-06T00:00:00Z",
+      "text": ""
+    },
     "https://cursor.com/changelog/build-live-apps": {
       "title": "Build Live Apps in Cursor",
       "url": "https://cursor.com/changelog/build-live-apps",
@@ -35,14 +43,6 @@
       "summary": "Origin now integrates with over 20 apps for deployments, CI, code review, security, monitoring, and project management, from partners including Cloudflare, Linear, Sentry, and Socket Security.",
       "published_at": "2026-10-13T00:00:00Z",
       "text": ""
-    },
-    "https://cursor.com/changelog/remote-control-local-agents": {
-      "title": "Remote control for local agents",
-      "url": "https://cursor.com/changelog/remote-control-local-agents",
-      "hash": "d193fb9b8bb45f3c",
-      "summary": "You can now see and reply to the local agents running on your computer from the Cursor iOS app.",
-      "published_at": "2026-10-06T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -54,7 +54,8 @@
     "https://cursor.com/changelog/origin-app-marketplace",
     "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
     "https://cursor.com/changelog/agent-sdk",
-    "https://cursor.com/changelog/build-live-apps"
+    "https://cursor.com/changelog/build-live-apps",
+    "https://cursor.com/changelog/voice-chat"
   ],
   "scope": "https://cursor.com/changelog|50|None"
 }

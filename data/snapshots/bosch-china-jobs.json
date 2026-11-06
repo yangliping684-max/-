@@ -1,9 +1,41 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-05T23:55:26.713932Z",
+  "taken_at": "2026-11-06T23:50:47.949663Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000160147570": {
+      "title": "AP Accountant & Cashier_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160147570",
+      "hash": "170c9fc455359c9a",
+      "summary": "",
+      "published_at": "2026-11-06T09:15:18.365000Z",
+      "text": ""
+    },
+    "744000160074769": {
+      "title": "Senior Product Engineer - LT / 高级产品工程师-线性传动技术_DCCS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160074769",
+      "hash": "c8271b63d57aef8b",
+      "summary": "",
+      "published_at": "2026-11-06T02:52:01.650000Z",
+      "text": ""
+    },
+    "744000160057208": {
+      "title": "网络安全软件工程师_XC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160057208",
+      "hash": "fc4c2eade292edba",
+      "summary": "",
+      "published_at": "2026-11-06T02:27:54.543000Z",
+      "text": ""
+    },
+    "744000160017955": {
+      "title": "财务控制Senior Cost Controller",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160017955",
+      "hash": "8dc80aa6629d0665",
+      "summary": "",
+      "published_at": "2026-11-06T01:36:56.070000Z",
+      "text": ""
+    },
     "744000159764630": {
       "title": "项目采购工程师(减速机)_DCCB",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159764630",
@@ -506,14 +538,6 @@
       "hash": "a6ed3c111ccd60cc",
       "summary": "",
       "published_at": "2026-10-26T08:24:16.465000Z",
-      "text": ""
-    },
-    "744000157739811": {
-      "title": "Senior Product Engineer - LT / 高级产品工程师-线性传动技术_DCCS",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157739811",
-      "hash": "c8271b63d57aef8b",
-      "summary": "",
-      "published_at": "2026-10-26T08:20:08.742000Z",
       "text": ""
     },
     "744000157728919": {
@@ -4650,14 +4674,6 @@
       "hash": "e46fe442a6005a30",
       "summary": "",
       "published_at": "2026-07-01T07:40:54.559000Z",
-      "text": ""
-    },
-    "744000135190449": {
-      "title": "资深财务控制Senior Cost Controller",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000135190449",
-      "hash": "a6585dbb0cf752c7",
-      "summary": "",
-      "published_at": "2026-07-01T07:21:29.882000Z",
       "text": ""
     },
     "744000135187669": {
@@ -12029,7 +12045,11 @@
     "744000159539159",
     "744000159538198",
     "744000159764630",
-    "744000159758260"
+    "744000159758260",
+    "744000160147570",
+    "744000160074769",
+    "744000160057208",
+    "744000160017955"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

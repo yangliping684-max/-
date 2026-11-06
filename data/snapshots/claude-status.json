@@ -1,7 +1,7 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-05T23:56:03.258631Z",
-  "etag": "W/\"0cadbe33e69527b507abc15c78bc1272\"",
+  "taken_at": "2026-11-06T23:51:24.881579Z",
+  "etag": "W/\"ae5a2c6a86bac9e2e371d1992ac19e1d\"",
   "last_modified": null,
   "items": {
     "https://status.claude.com/incidents/phg1y2yh07n2": {

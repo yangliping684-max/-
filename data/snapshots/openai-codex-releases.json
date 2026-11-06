@@ -1,9 +1,25 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-05T23:56:02.430485Z",
-  "etag": "W/\"7ea53f9690877259a134f94034fcd2ba2107ec5f556e1b8922f4126492c25d08\"",
+  "taken_at": "2026-11-06T23:51:24.100390Z",
+  "etag": "W/\"fd112df22ac80904683169043779dfe058f5491b1f7a2e12cf452fbbb6a130b5\"",
   "last_modified": null,
   "items": {
+    "437115053": {
+      "title": "0.169.0-alpha.2 (rust-v0.169.0-alpha.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.2",
+      "hash": "d814592e4a29b5d8",
+      "summary": "Release 0.169.0-alpha.2",
+      "published_at": "2026-11-06T22:13:30Z",
+      "text": ""
+    },
+    "435979892": {
+      "title": "0.167.0 (rust-v0.167.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "hash": "b758c8f10a70e1ba",
+      "summary": "## New Features\n- Open the agent command center with `codex agents --no-daemon`. The command center and session picker now mark unread results (#58238, #58239, #58263, #58264).\n- Switch between connected backends from the terminal session picker and keep your drafts when switching (#58280, #58457).\n- Preview local image attachments while composing on supported terminals, and open viewed local images from clickable transcript paths (#58261, #58446).\n- Find API key and cloud provider options under “Sign in another way.” Enable `gcp_setup_wizard` to set up Google Cloud Vertex AI with Application…",
+      "published_at": "2026-11-06T01:40:00Z",
+      "text": ""
+    },
     "435855258": {
       "title": "0.168.0-alpha.7 (rust-v0.168.0-alpha.7)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.7",
@@ -26,22 +42,6 @@
       "hash": "19b4de521cecc842",
       "summary": "Release 0.168.0-alpha.3",
       "published_at": "2026-11-05T02:34:18Z",
-      "text": ""
-    },
-    "435225522": {
-      "title": "0.167.0-alpha.3.2 (rust-v0.167.0-alpha.3.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3.2",
-      "hash": "71dddaec47391cce",
-      "summary": "Release 0.167.0-alpha.3.2",
-      "published_at": "2026-11-05T13:16:05Z",
-      "text": ""
-    },
-    "434436632": {
-      "title": "0.168.0-alpha.2 (rust-v0.168.0-alpha.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.2",
-      "hash": "753a1b544fe06068",
-      "summary": "Release 0.168.0-alpha.2",
-      "published_at": "2026-11-04T20:47:50Z",
       "text": ""
     }
   },
@@ -97,7 +97,9 @@
     "435855258",
     "435658970",
     "434711932",
-    "435225522"
+    "435225522",
+    "437115053",
+    "435979892"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

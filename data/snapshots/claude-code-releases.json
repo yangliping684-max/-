@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-05T23:55:17.497732Z",
-  "etag": "W/\"3c5e745fe040c67be05e203737d441f47bcdad8af6cb2cdc3c8eac39032c95ad\"",
+  "taken_at": "2026-11-06T23:50:38.610368Z",
+  "etag": "W/\"f9798c44f0166488262b179f8a9d317228c6eaf46f6cec715cc5450367e5013a\"",
   "last_modified": null,
   "items": {
+    "435952318": {
+      "title": "v2.1.319",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "hash": "5cadc4457650aa43",
+      "summary": "## What's changed\n- Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in classifier; set `CLAUDE_CODE_AUTO_MODE_SERVER=0` to keep using it (Bedrock, Vertex and Foundry are unchanged)\n- Changed auto mode behind an LLM gateway: `CLAUDE_CODE_AUTO_MODE_SERVER=1` turns on the server-side check even with `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS` set; if managed settings set the latter, they must set the `1` too\n- Added support for MCP tasks in the terminal: when an MCP server run…",
+      "published_at": "2026-11-06T17:04:01Z",
+      "text": ""
+    },
     "433257014": {
       "title": "v2.1.318",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed `claude --resume` and `--continue` sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed\n- Fixed API 400 errors after a tool o…",
       "published_at": "2026-09-30T19:10:13Z",
       "text": ""
-    },
-    "399375132": {
-      "title": "v2.1.285",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
-      "hash": "5ef1ecc21d947f56",
-      "summary": "## What's changed\n- Added `CLAUDE_CODE_DISABLE_WEB_FETCH` environment variable to turn off the WebFetch tool\n- Added `claude --desktop` to open the Claude desktop app on the current directory, or on a session with `--continue` / `--resume `\n- Added `claude plugin configure ` to show a plugin's options and which are unset, or save new values read from stdin with `--values-stdin`\n- Added ` . = ` to `claude plugin install --config`, so a bundled `.mcpb` MCP server's own settings can be set at install time and it starts without visiting `/plugin` → Configure\n- Added `allowedProviders` managed set…",
-      "published_at": "2026-09-29T19:27:30Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -293,7 +293,8 @@
     "428518421",
     "429617179",
     "432094076",
-    "433257014"
+    "433257014",
+    "435952318"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

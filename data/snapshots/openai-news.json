@@ -1,9 +1,41 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-05T23:55:53.444539Z",
+  "taken_at": "2026-11-06T23:51:14.770972Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/partnering-with-hacktron": {
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "hash": "a1c78576d914e3ca",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "published_at": "2026-11-06T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "hash": "978ba653c0d43a50",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "published_at": "2026-11-06T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/australian-universities-ai-native-graduates": {
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "hash": "649871a4f57324f1",
+      "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "published_at": "2026-11-05T17:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/cultfit-builds-with-codex": {
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "hash": "214a8c4ee8f07a10",
+      "summary": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "published_at": "2026-11-05T20:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/introducing-gpt-6-cyber": {
       "title": "GPT‐6 Cyber: Advancing the frontier of aligned cybersecurity agents",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
@@ -34,6 +66,14 @@
       "hash": "f69098a511883706",
       "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
       "published_at": "2026-11-05T00:45:15Z",
+      "text": ""
+    },
+    "https://openai.com/index/franklin-templeton": {
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "url": "https://openai.com/index/franklin-templeton",
+      "hash": "80ca9db6c57a4604",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "published_at": "2026-11-05T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/openai-to-acquire-pierre": {
@@ -500,19 +540,19 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/grupo-boticario": {
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "hash": "31803649f052fe74",
-      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/localiza-generative-ai": {
       "title": "How Localiza reorganized work around generative AI",
       "url": "https://openai.com/index/localiza-generative-ai",
       "hash": "81f75cdab2fede92",
       "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/grupo-boticario": {
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "hash": "31803649f052fe74",
+      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -763,46 +803,6 @@
       "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
       "published_at": "2026-10-01T00:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign": {
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "hash": "dceb9fa297631371",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "published_at": "2026-09-30T10:30:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/helping-small-businesses-put-ai-to-work": {
-      "title": "Helping small businesses put AI to work",
-      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "hash": "7bd8312e16d1d04a",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "published_at": "2026-09-30T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-gpt-6-1-sol": {
-      "title": "Introducing GPT-6.1 Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "hash": "9543cb3701d28d29",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "published_at": "2026-09-29T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/devday-2026-recap": {
-      "title": "DevDay 2026 Recap",
-      "url": "https://openai.com/index/devday-2026-recap",
-      "hash": "e36275a2fc9302be",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "published_at": "2026-09-29T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-dots": {
-      "title": "Introducing dots",
-      "url": "https://openai.com/index/introducing-dots",
-      "hash": "252c6e5caf2d9e5f",
-      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "published_at": "2026-09-29T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -980,7 +980,12 @@
     "https://openai.com/index/merge-builds-with-openai",
     "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
     "https://openai.com/ads/customers/flipsnack",
-    "https://openai.com/index/introducing-images-2-6"
+    "https://openai.com/index/introducing-images-2-6",
+    "https://openai.com/index/partnering-with-hacktron",
+    "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+    "https://openai.com/index/australian-universities-ai-native-graduates",
+    "https://openai.com/index/cultfit-builds-with-codex",
+    "https://openai.com/index/franklin-templeton"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

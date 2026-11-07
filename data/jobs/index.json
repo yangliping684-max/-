@@ -11,7 +11,7 @@
       "complete": true,
       "total_reported": 675,
       "has_catalog": true,
-      "updated_at": "2026-11-06T23:50:47.598055+00:00"
+      "updated_at": "2026-11-07T23:48:24.883334+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -46,11 +46,11 @@
       "industry": "国际物流 / 货代",
       "careers_url": "https://www.expeditors.com/careers",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 11,
+      "count": 10,
       "complete": true,
-      "total_reported": 11,
+      "total_reported": 10,
       "has_catalog": true,
-      "updated_at": "2026-11-05T23:55:00.044509+00:00"
+      "updated_at": "2026-11-07T23:48:04.351880+00:00"
     },
     {
       "source_id": "ubisoft-china-jobs",
@@ -85,11 +85,11 @@
       "industry": "国际物流 / 供应链科技",
       "careers_url": "https://www.flexport.com/careers/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 192,
+      "count": 190,
       "complete": true,
-      "total_reported": 192,
+      "total_reported": 190,
       "has_catalog": true,
-      "updated_at": "2026-11-06T23:50:32.499828+00:00"
+      "updated_at": "2026-11-07T23:48:10.492058+00:00"
     },
     {
       "source_id": "lalamove-jobs",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2730,
-  "generated_at": "2026-11-06T23:51:34.966052+00:00"
+  "total": 2727,
+  "generated_at": "2026-11-07T23:49:11.166872+00:00"
 }

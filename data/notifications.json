@@ -1,6 +1,28 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-11-08",
+      "kind": "digest",
+      "created_at": "2026-11-07T23:49:11.166872Z",
+      "title": "每日摘要 2026-11-08：12 条变化",
+      "body": "# 知更日报 2026-11-08\n\n共发现 **12** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [Brand Strategy Lead, Brand Architecture & Naming](https://job-boards.greenhouse.io/anthropic/jobs/5475321008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Legal Specialist, Law Enforcement](https://job-boards.greenhouse.io/anthropic/jobs/5474559008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Staff+ Software Engineer, STEM](https://job-boards.greenhouse.io/anthropic/jobs/5468901008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 55]** [0.169.0-alpha.3 (rust-v0.169.0-alpha.3)](https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3) — OpenAI Codex CLI Releases · 新增\n- **[关注 48]** [Elevated error rates with some U.S. business Mastercards](https://status.openai.com//incidents/01M6S2FV5TZWQ753NHRB7BF5K7) — OpenAI 服务状态 · 修改\n- **[一般 43]** [ChatGPT Work and Dots Errors](https://status.openai.com//incidents/01M6P50GPP1V98EF8MJ9SH393R) — OpenAI 服务状态 · 修改\n- **[一般 33]** [Degraded performance in ChatGPT, Codex, and APIs](https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H) — OpenAI 服务状态 · 修改\n- **[一般 28]** [Customer Success](https://job-boards.greenhouse.io/anthropic/jobs/5433878008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Safeguards Enforcement Analyst, Chem & Explosives Harms](https://job-boards.greenhouse.io/anthropic/jobs/5319700008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Safeguards Enforcement Lead, Cyber Harms](https://job-boards.greenhouse.io/anthropic/jobs/5403775008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 23]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n- **[一般 23]** [Elevated latency for some API requests](https://status.openai.com//incidents/01M3SMF1Q0TDCQVNYSXYG37QMR) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "b696084cdd4ca68f",
+        "5eba6304c7daec99",
+        "783ea4c08701a652",
+        "f27164f70f30968f",
+        "9f295008a6f7b5fc",
+        "b0b9d4506b46938f",
+        "f77a21f97edc9ea2",
+        "88c7c1ba21ae7ae1",
+        "a2108b9e836c1fcb",
+        "f9df0bc05be2c6be",
+        "a8a9e40a777c3fad",
+        "21723120d29c6147"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "alert-8fb3a97b80dcad51",
       "kind": "alert",
       "created_at": "2026-11-06T23:51:34.966052Z",

@@ -11,7 +11,7 @@
       "complete": true,
       "total_reported": 675,
       "has_catalog": true,
-      "updated_at": "2026-11-07T23:48:24.883334+00:00"
+      "updated_at": "2026-11-08T23:49:31.265510+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -20,11 +20,11 @@
       "industry": "汽车零部件 / 制造业",
       "careers_url": "https://www.bosch.com.cn/careers/",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 1317,
+      "count": 1318,
       "complete": true,
-      "total_reported": 1317,
+      "total_reported": 1318,
       "has_catalog": true,
-      "updated_at": "2026-11-06T23:50:47.949663+00:00"
+      "updated_at": "2026-11-08T23:49:31.517637+00:00"
     },
     {
       "source_id": "continental-china-jobs",
@@ -124,11 +124,11 @@
       "industry": "在线旅游 / 互联网",
       "careers_url": "https://careersatagoda.com/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 340,
+      "count": 341,
       "complete": true,
-      "total_reported": 340,
+      "total_reported": 341,
       "has_catalog": true,
-      "updated_at": "2026-11-06T23:50:34.876822+00:00"
+      "updated_at": "2026-11-08T23:49:19.369434+00:00"
     },
     {
       "source_id": "china-logistics-group-recruit",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2727,
-  "generated_at": "2026-11-07T23:49:11.166872+00:00"
+  "total": 2729,
+  "generated_at": "2026-11-08T23:50:18.152976+00:00"
 }

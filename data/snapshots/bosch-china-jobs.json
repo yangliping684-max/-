@@ -1,9 +1,17 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-06T23:50:47.949663Z",
+  "taken_at": "2026-11-08T23:49:31.517637Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000160483119": {
+      "title": "Senior Process Engineer_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160483119",
+      "hash": "fb7d6cb26eb9150b",
+      "summary": "",
+      "published_at": "2026-11-08T07:52:49.692000Z",
+      "text": ""
+    },
     "744000160147570": {
       "title": "AP Accountant & Cashier_MA",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160147570",
@@ -12049,7 +12057,8 @@
     "744000160147570",
     "744000160074769",
     "744000160057208",
-    "744000160017955"
+    "744000160017955",
+    "744000160483119"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

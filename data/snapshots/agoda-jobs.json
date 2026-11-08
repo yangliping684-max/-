@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-07T23:48:12.787910Z",
-  "etag": "W/\"f019e1f830524366d70e3ae125571064\"",
+  "taken_at": "2026-11-08T23:49:19.369434Z",
+  "etag": "W/\"24a595c21be5a402d06cee3e24fd5847\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -770,6 +770,14 @@
       "hash": "a2a57be699d37b29",
       "summary": "",
       "published_at": "2026-10-22T02:55:45Z",
+      "text": ""
+    },
+    "8326690": {
+      "title": "Customer Service, Escalation - Team Manager (Hindi)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326690",
+      "hash": "9cb60fc75c726957",
+      "summary": "",
+      "published_at": "2026-10-27T06:15:35Z",
       "text": ""
     },
     "8284004": {

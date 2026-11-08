@@ -1,9 +1,17 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-07T23:49:01.588224Z",
-  "etag": "W/\"90f438096fb937dd333fbf9d0467d28e\"",
+  "taken_at": "2026-11-08T23:50:08.279241Z",
+  "etag": "W/\"aa1d0288e71a8a7e45dfdee02054ff62\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/kw2lxj1th04c": {
+      "title": "Degraded performance for Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/kw2lxj1th04c",
+      "hash": "c018a59c6ea58d41",
+      "summary": "Nov 8 , 08:54 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 00:18 PT / 08:18 UTC on Nov 8 to 00:32 PT / 08:32 UTC on Nov 8. Nov 8 , 08:39 UTC Monitoring - A fix has been deployed for Claude Fable 5.1 and we are monitoring for recovery. Nov 8 , 08:28 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update as soon as possible.",
+      "published_at": "2026-11-08T08:54:43Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/phg1y2yh07n2": {
       "title": "Elevated errors affecting the Google Calendar connector",
       "url": "https://status.claude.com/incidents/phg1y2yh07n2",
@@ -195,14 +203,6 @@
       "summary": "Sep 10 , 23:24 UTC Resolved - The issue affecting Claude services has been mitigated. Sep 10 , 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.",
       "published_at": "2026-09-10T23:24:22Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/461yvfrzpwtt": {
-      "title": "Elevated errors for multiple models",
-      "url": "https://status.claude.com/incidents/461yvfrzpwtt",
-      "hash": "3d989bff903d13c7",
-      "summary": "Sep 3 , 16:23 UTC Resolved - The issue affecting Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 has been resolved. Impact has ended as of 9:16 PT / 16:16 UTC. Sep 3 , 16:06 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1, Claude Fable 5.1, and Claude Opus 5 and we are monitoring for recovery. Sep 3 , 15:25 UTC Update - The only affected models right now are Opus 4.8 and Opus 5. The rest of the models have recovered to baseline error rate. Sep 3 , 14:49 UTC Update - We are continuing to work on a fix for this issue. Sep 3 , 13:50 UTC Update - An exhaustive list of affect…",
-      "published_at": "2026-09-03T16:23:12Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -241,7 +241,8 @@
     "https://status.claude.com/incidents/lqhknfdjrcst",
     "https://status.claude.com/incidents/0q89dylg9vjk",
     "https://status.claude.com/incidents/phg1y2yh07n2",
-    "https://status.claude.com/incidents/9ftx658xtd5z"
+    "https://status.claude.com/incidents/9ftx658xtd5z",
+    "https://status.claude.com/incidents/kw2lxj1th04c"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

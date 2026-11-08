@@ -1,6 +1,334 @@
 {
-  "updated_at": "2026-11-07T23:49:11.166872+00:00",
+  "updated_at": "2026-11-08T23:50:18.152976+00:00",
   "events": [
+    {
+      "id": "4d9d773fb72a4e37",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Elevated errors with image generation",
+      "url": "https://status.openai.com//incidents/01M6XVDCKRT3PSB0YP8J30GTD5",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Image Generation (Operational)",
+      "detected_at": "2026-11-08T23:50:10.418563Z",
+      "published_at": "2026-11-08T17:00:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "6f342673f959e1c5",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "url": "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Live (Operational) Login (Operational) File uploads (Operational) Search (Operational) Realtime (Operational) Embeddings (Operational) ChatGPT Work (Operational) Images (Operational) Agent (Operational) Login (Operational) CLI (Operational) Deep Research (Operational) Connectors/Apps (Operational) Codex in ChatGPT",
+      "detected_at": "2026-11-08T23:50:10.418563Z",
+      "published_at": "2026-10-21T03:28:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Live (Operational) Login (Operational) File uploads (Operational) Search (Operational) Realtime (Operational) Embeddings (Operational) ChatGPT Work (Operational) Images (Operational) Agent (Operational) Login (Operational) CLI (Operational) Deep Research (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Sites (Operational) Space (Operational) Voice mode (Operational) Conversations (Operational) Batch (Operational) Chat Completions (Operational) Codex API (Operational) Agents (…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components ChatGPT Work (Operational) Batch (Operational) Moderations (Operational) GPTs (Operational) Codex in ChatGPT Desktop (Operational) Codex API (Operational) Sites (Operational) Decisions (Operational) Voice mode (Operational) Embeddings (Operational) Agent (Operational) Conversations (Operational) Connectors/Apps (Operational) dots (Operational) Audio (Operational) Realtime (Operational) Space (Operational) Live (Operational) Compliance API (Operational) Login (Operational) Chat Completions (Operational) Respon…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "397d1207941d64aa",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Connectors/Apps (Operational) CLI (Operational) VS Code extension (Operational) Agents (Operational) Search (Operational) Embeddings (Operational) Agent (Operational) Login (Operational) Fine-tuning (Operational) Audio (Operational) Files (Operational) Image Generation (Operational) Compliance API (Operational) Co",
+      "detected_at": "2026-11-08T23:50:10.418563Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Connectors/Apps (Operational) CLI (Operational) VS Code extension (Operational) Agents (Operational) Search (Operational) Embeddings (Operational) Agent (Operational) Login (Operational) Fine-tuning (Operational) Audio (Operational) Files (Operational) Image Generation (Operational) Compliance API (Operational) Codex Web (Operational) Sites (Operational) Conversations (Operational) Batch (Operational) Realtime (Operational) Login (Operational) Chat Completions (Operational) Moderations (Operational) Deep Rese…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Audio (Operational) Moderations (Operational) Login (Operational) Connectors/Apps (Operational) Search (Operational) Conversations (Operational) Fine-tuning (Operational) Files (Operational) Compliance API (Operational) Deep Research (Operational) CLI (Operational) Realtime (Operational) Embeddings (Operational) Chat Completions (Operational) Image Generation (Operational) Agent (Operational) Sites (Operational) Codex Web (Operational) Codex in ChatGPT Desktop (Operational) File uploads (O…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "4ddbc4b8edc33255",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Degraded performance for Claude Fable 5.1",
+      "url": "https://status.claude.com/incidents/kw2lxj1th04c",
+      "summary": "Nov 8 , 08:54 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 00:18 PT / 08:18 UTC on Nov 8 to 00:32 PT / 08:32 UTC on Nov 8. Nov 8 , 08:39 UTC Monitoring - A fix has been deployed for Claude Fable 5.1 and we are monitoring for recovery. Nov 8 , 08:28 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5.1. We will provide an update as soon as possible.",
+      "detected_at": "2026-11-08T23:50:08.279241Z",
+      "published_at": "2026-11-08T08:54:43Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "73490db8716f28df",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Research Engineer, Cybersecurity RL",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5459191008",
+      "summary": "",
+      "detected_at": "2026-11-08T23:49:31.265510Z",
+      "published_at": "2026-11-08T19:12:32Z",
+      "source_updated_at": "2026-11-08T19:15:37Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "7a4c646695da5beb",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Research Engineer, Cybersecurity RL (Reinforcement Learning)",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5025624008",
+      "summary": "",
+      "detected_at": "2026-11-08T23:49:31.265510Z",
+      "published_at": "2025-12-09T22:20:34Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
     {
       "id": "88c7c1ba21ae7ae1",
       "source_id": "openai-status",
@@ -55715,342 +56043,6 @@
           "factor": "keywords",
           "points": 16,
           "reason": "命中关注关键词：agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "7c2f450e4cbbd430",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Auditable Belief Updates as a Missing Safety Layer for LLM-Powered Multi-Agent Systems",
-      "url": "https://arxiv.org/abs/2610.38869",
-      "summary": "arXiv:2610.38869v1 Announce Type: new\nAbstract: Large Language Models (LLMs) are increasingly being used as cognitive interfaces that shape how users interpret evidence, communicate, and make decisions. As deployed systems become more multimodal, tool-using, and multi-agent, safety failures no longer arise only from isolated harmful outputs, but also from how agents update, store, and propagate epistemic commitments across retrieval, memory, tools, and peer communication. In this paper, we define belief as an engineering abstraction for evidence-based commitments that guide downstream action.…",
-      "detected_at": "2026-10-30T23:49:48.595291Z",
-      "published_at": "2026-10-30T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "2a00118ee1fff0a1",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Aligning Autoresearch: Co-Improvement between Agents and Humans",
-      "url": "https://arxiv.org/abs/2610.38882",
-      "summary": "arXiv:2610.38882v1 Announce Type: new\nAbstract: Autoresearch agents can now attempt long-horizon AI research end-to-end, i.e., self-improvement. However, best results are still obtained by research agents interacting with human researchers, and improving AI's ability to perform this co-research will only reinforce this effect---a process termed co-improvement (Weston and Foerster, 2025). Further, aligning with human expectations is likely a safer path for research agents, especially given recent agent reward hacking phenomena (OpenAI, 2026b). In this work we address these issues in four ways:…",
-      "detected_at": "2026-10-30T23:49:48.595291Z",
-      "published_at": "2026-10-30T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "89973a6cf6c8b64a",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "TreasuryQA Bench: Can AI Agents Work an Archive of Scanned Financial Records?",
-      "url": "https://arxiv.org/abs/2610.38924",
-      "summary": "arXiv:2610.38924v1 Announce Type: new\nAbstract: Organisations keep decades of financial records as scanned PDFs on shared drives, and AI agents can now reach those drives through Model Context Protocol (MCP) servers. Existing benchmarks do not mirror this production setting because they simplify the task. In some, the relevant documents are handed to the agent, so it never has to search. In others, the agent searches through documents with pre-extracted text, so it never has to read scanned images. We introduce TreasuryQA Bench, which requires both: 70 questions over 1,435 scanned U.S. Treasu…",
-      "detected_at": "2026-10-30T23:49:48.595291Z",
-      "published_at": "2026-10-30T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "16bb0b6e705d30d2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Efficient Agentic Audio-Visual Question Answering through Toolset Pruning and Modality Consolidation",
-      "url": "https://arxiv.org/abs/2610.38960",
-      "summary": "arXiv:2610.38960v1 Announce Type: new\nAbstract: Fine-grained audio-visual question answering (AVQA) requires models to resolve complex cross-modal correspondences and temporally grounding from sparsely distributed evidence. Omni-modal agents, which autonomously orchestrate perception tools to actively collect evidence, achieve strong performance, but it remains unclear whether active perception from both audio and visual modalities depends on broad specialized toolsets, especially audio or visual modality-specific tools. Such systems may also introduce long execution trajectories and substant…",
-      "detected_at": "2026-10-30T23:49:48.595291Z",
-      "published_at": "2026-10-30T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "4d63b6d63e89b871",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Context Compaction for World Models",
-      "url": "https://arxiv.org/abs/2610.38980",
-      "summary": "arXiv:2610.38980v1 Announce Type: new\nAbstract: World models let observers explore and interact with generated worlds. Recent work shows that when observers revisit a region, current models often fail to regenerate it consistently. We view this as a context retrieval problem. LLM agents manage context retrieval at two layers of their stack. At the model layer, the KV cache design determines how much context fits in memory. At the agent harness layer, harnesses such as Claude Code pick the context sent to the LLM. Prior work on world models has mostly focused only on the model layer. In this p…",
-      "detected_at": "2026-10-30T23:49:48.595291Z",
-      "published_at": "2026-10-30T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "3e6955725eafc5fd",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "When the Same Prompt Gives Different Answers (and the Same Answer Isn't Always Right): A Taxonomy of Failure Mechanisms, Testing, and Mitigation Strategies for LLM-Assisted Evidence Synthesis Read-and-Evaluate Tasks",
-      "url": "https://arxiv.org/abs/2610.39070",
-      "summary": "arXiv:2610.39070v1 Announce Type: new\nAbstract: LLM read-and-evaluate tasks include study screening, data extraction, risk-of-bias assessment, and critical appraisal in the evidence synthesis field. These task differ in the amount of LLM interpretation they require. Some tasks involve retrieving relatively simple information, such as an author name, sample size, or publication year. Others require the LLM to read source material, interpret it against predefined criteria, and make a judgement. Researchers should assess whether LLM judgements are accurate, supported by appropriate source eviden…",
-      "detected_at": "2026-10-30T23:49:48.595291Z",
-      "published_at": "2026-10-30T04:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
         },
         {
           "factor": "freshness",

@@ -1,6 +1,22 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-11-09",
+      "kind": "digest",
+      "created_at": "2026-11-08T23:50:18.152976Z",
+      "title": "每日摘要 2026-11-09：6 条变化",
+      "body": "# 知更日报 2026-11-09\n\n共发现 **6** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [Research Engineer, Cybersecurity RL](https://job-boards.greenhouse.io/anthropic/jobs/5459191008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 55]** [Degraded performance for Claude Fable 5.1](https://status.claude.com/incidents/kw2lxj1th04c) — Claude 服务状态 · 新增\n- **[关注 55]** [Elevated errors with image generation](https://status.openai.com//incidents/01M6XVDCKRT3PSB0YP8J30GTD5) — OpenAI 服务状态 · 新增\n- **[一般 33]** [Degraded performance in ChatGPT, Codex, and APIs](https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H) — OpenAI 服务状态 · 修改\n- **[一般 28]** [Research Engineer, Cybersecurity RL (Reinforcement Learning)](https://job-boards.greenhouse.io/anthropic/jobs/5025624008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 23]** [Elevated errors across ChatGPT, Codex, and the API including the Agents API](https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N) — OpenAI 服务状态 · 修改\n",
+      "event_ids": [
+        "73490db8716f28df",
+        "7a4c646695da5beb",
+        "4ddbc4b8edc33255",
+        "4d9d773fb72a4e37",
+        "6f342673f959e1c5",
+        "397d1207941d64aa"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "digest-2026-11-08",
       "kind": "digest",
       "created_at": "2026-11-07T23:49:11.166872Z",

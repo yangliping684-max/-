@@ -1,9 +1,33 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-08T23:50:07.234363Z",
-  "etag": "W/\"d6ec771da02a376dc9704c4c277ae02ac4f24ff2bcb712b848863d580a79948b\"",
+  "taken_at": "2026-11-09T23:52:34.843604Z",
+  "etag": "W/\"128a42a595966ee1dd286bbc99b76cd02d517170916d78ef2fbc480b348ba860\"",
   "last_modified": null,
   "items": {
+    "439692721": {
+      "title": "0.169.0-alpha.7 (rust-v0.169.0-alpha.7)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.7",
+      "hash": "45a43cec1ca5fe44",
+      "summary": "Release 0.169.0-alpha.7",
+      "published_at": "2026-11-09T21:55:10Z",
+      "text": ""
+    },
+    "439541828": {
+      "title": "0.169.0-alpha.6 (rust-v0.169.0-alpha.6)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.6",
+      "hash": "c50f52332cdcc8e4",
+      "summary": "Release 0.169.0-alpha.6",
+      "published_at": "2026-11-09T19:25:26Z",
+      "text": ""
+    },
+    "439776282": {
+      "title": "0.167.0-alpha.4.1 (rust-v0.167.0-alpha.4.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.1",
+      "hash": "e0372d736bf4684b",
+      "summary": "Release 0.167.0-alpha.4.1",
+      "published_at": "2026-11-09T23:45:38Z",
+      "text": ""
+    },
     "437794379": {
       "title": "0.169.0-alpha.3 (rust-v0.169.0-alpha.3)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.3",
@@ -18,30 +42,6 @@
       "hash": "d814592e4a29b5d8",
       "summary": "Release 0.169.0-alpha.2",
       "published_at": "2026-11-06T22:13:30Z",
-      "text": ""
-    },
-    "435979892": {
-      "title": "0.167.0 (rust-v0.167.0)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
-      "hash": "b758c8f10a70e1ba",
-      "summary": "## New Features\n- Open the agent command center with `codex agents --no-daemon`. The command center and session picker now mark unread results (#58238, #58239, #58263, #58264).\n- Switch between connected backends from the terminal session picker and keep your drafts when switching (#58280, #58457).\n- Preview local image attachments while composing on supported terminals, and open viewed local images from clickable transcript paths (#58261, #58446).\n- Find API key and cloud provider options under “Sign in another way.” Enable `gcp_setup_wizard` to set up Google Cloud Vertex AI with Application…",
-      "published_at": "2026-11-06T01:40:00Z",
-      "text": ""
-    },
-    "435855258": {
-      "title": "0.168.0-alpha.7 (rust-v0.168.0-alpha.7)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.7",
-      "hash": "1fbec617ebb71326",
-      "summary": "Release 0.168.0-alpha.7",
-      "published_at": "2026-11-05T22:55:03Z",
-      "text": ""
-    },
-    "435658970": {
-      "title": "0.168.0-alpha.6 (rust-v0.168.0-alpha.6)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0-alpha.6",
-      "hash": "a4f1a99c8378e71d",
-      "summary": "Release 0.168.0-alpha.6",
-      "published_at": "2026-11-05T19:52:28Z",
       "text": ""
     }
   },
@@ -100,7 +100,10 @@
     "435225522",
     "437115053",
     "435979892",
-    "437794379"
+    "437794379",
+    "439692721",
+    "439541828",
+    "439776282"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

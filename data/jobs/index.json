@@ -7,11 +7,11 @@
       "industry": "人工智能",
       "careers_url": "https://www.anthropic.com/careers",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 675,
+      "count": 671,
       "complete": true,
-      "total_reported": 675,
+      "total_reported": 671,
       "has_catalog": true,
-      "updated_at": "2026-11-08T23:49:31.265510+00:00"
+      "updated_at": "2026-11-09T23:51:58.462386+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -20,11 +20,11 @@
       "industry": "汽车零部件 / 制造业",
       "careers_url": "https://www.bosch.com.cn/careers/",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 1318,
+      "count": 1321,
       "complete": true,
-      "total_reported": 1318,
+      "total_reported": 1321,
       "has_catalog": true,
-      "updated_at": "2026-11-08T23:49:31.517637+00:00"
+      "updated_at": "2026-11-09T23:51:58.789421+00:00"
     },
     {
       "source_id": "continental-china-jobs",
@@ -85,11 +85,11 @@
       "industry": "国际物流 / 供应链科技",
       "careers_url": "https://www.flexport.com/careers/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 190,
+      "count": 186,
       "complete": true,
-      "total_reported": 190,
+      "total_reported": 186,
       "has_catalog": true,
-      "updated_at": "2026-11-07T23:48:10.492058+00:00"
+      "updated_at": "2026-11-09T23:51:36.445113+00:00"
     },
     {
       "source_id": "lalamove-jobs",
@@ -98,11 +98,11 @@
       "industry": "同城物流",
       "careers_url": "https://www.lalamove.com/careers",
       "channel": "Lever 官方公开 Postings API",
-      "count": 143,
+      "count": 142,
       "complete": true,
       "total_reported": null,
       "has_catalog": true,
-      "updated_at": "2026-11-06T23:50:32.719479+00:00"
+      "updated_at": "2026-11-09T23:51:36.664754+00:00"
     },
     {
       "source_id": "weride-jobs",
@@ -124,11 +124,11 @@
       "industry": "在线旅游 / 互联网",
       "careers_url": "https://careersatagoda.com/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 341,
+      "count": 356,
       "complete": true,
-      "total_reported": 341,
+      "total_reported": 356,
       "has_catalog": true,
-      "updated_at": "2026-11-08T23:49:19.369434+00:00"
+      "updated_at": "2026-11-09T23:51:45.692465+00:00"
     },
     {
       "source_id": "china-logistics-group-recruit",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2729,
-  "generated_at": "2026-11-08T23:50:18.152976+00:00"
+  "total": 2738,
+  "generated_at": "2026-11-09T23:52:46.425483+00:00"
 }

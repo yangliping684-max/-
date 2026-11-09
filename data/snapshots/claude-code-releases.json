@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-08T23:49:22.669495Z",
-  "etag": "W/\"b023c785fd063558a63423eba9bd05404e5f278afd69df673810d70bb7fea476\"",
+  "taken_at": "2026-11-09T23:51:49.285723Z",
+  "etag": "W/\"ba2a1d41b0764beeb05a5970770cc878ede7cc4755d5b6d06f503d25821c16f3\"",
   "last_modified": null,
   "items": {
+    "439536010": {
+      "title": "v2.1.321",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "hash": "eee8fd7bf8fedd50",
+      "summary": "## What's changed\n- Added Claude Fable 5.2 (`claude-fable-5-2`), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads\n- Added `--settings ` to `claude remote-control`, which applies a settings file to every session it starts; if the file changes, no new session starts until you restart `claude remote-control`\n- Fixed MCP OAuth requests sending secrets such as refresh tokens to another host when a server redirected them\n- Fixed a case where a read-only Bash command ran outside the sandbox without a permission prompt\n- Fixed a case where Bash permission checks j…",
+      "published_at": "2026-11-09T19:22:30Z",
+      "text": ""
+    },
     "435952318": {
       "title": "v2.1.319",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added Claude Mods: plugins may now modify deeper behavior\n- Added You should know, a built-in mod where a side agent watches your back and flags things you or Claude might miss. Turn it on with `/plugin enable cc-plugin-you-should-know@builtin` (for first-party sessions with telemetry on)\n- Added an `n: ` filter to the agents view that matches session names and tasks; a filter now shows matches in collapsed sections and Enter opens the first match\n- Added `prompt_text` to the OpenTelemetry `user_prompt` event, a copy of `prompt` for backends that nest dotted keys; drop or…",
       "published_at": "2026-10-01T18:00:22Z",
       "text": ""
-    },
-    "400266224": {
-      "title": "v2.1.286",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
-      "hash": "ad29d2c90d19c898",
-      "summary": "## What's changed\n- Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up\n- Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to jump to that end of the list, with hover and pressed states\n- Fixed several Claude Code processes and IDE extensions each opening a login browser when gcpAuthRefresh or awsAuthRefresh credentials expire\n- Fixed `claude --resume` and `--continue` sometimes losing every turn after a batch of parallel tool calls when the earlier session crashed or was killed\n- Fixed API 400 errors after a tool o…",
-      "published_at": "2026-09-30T19:10:13Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -294,7 +294,8 @@
     "429617179",
     "432094076",
     "433257014",
-    "435952318"
+    "435952318",
+    "439536010"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

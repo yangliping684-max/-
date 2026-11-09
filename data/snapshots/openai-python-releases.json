@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-08T23:49:23.496330Z",
-  "etag": "W/\"ea1512243975a3dd4c9a7c60043be4c931839b7cc8e61926809a01403dbd2ee2\"",
+  "taken_at": "2026-11-09T23:51:50.008673Z",
+  "etag": "W/\"90dd39c42c87fb579b513af2a1644c543d28913bf4f9c066c857099f93469b38\"",
   "last_modified": null,
   "items": {
+    "439355151": {
+      "title": "v3.48.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.48.0",
+      "hash": "d32d0e21facbd81a",
+      "summary": "## [3.48.0](https://github.com/openai/openai-python/compare/v3.47.0...v3.48.0) (2026-11-09)\n### Features\n* **api:** add stream options for agent sessions ([#4251](https://github.com/openai/openai-python/issues/4251)) ([c6fc264](https://github.com/openai/openai-python/commit/c6fc264689d384d5caec150fafa1a9567c4a3f56))\n* **api:** recognize gpt-6-rosalind in beta Responses ([#4257](https://github.com/openai/openai-python/issues/4257)) ([3774b7e](https://github.com/openai/openai-python/commit/3774b7ed775b4bff99b45ef961c5d1f6c82b8e99))\n### Chores\n* **api:** retain agent scheduling support ([#4255](…",
+      "published_at": "2026-11-09T16:12:58Z",
+      "text": ""
+    },
     "435545053": {
       "title": "v3.47.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.47.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.23.0](https://github.com/openai/openai-python/compare/v3.22.1...v3.23.0) (2026-10-01)\n### Features\n* **agents:** [1/n] return typed answers from session streams ([#4007](https://github.com/openai/openai-python/issues/4007)) ([10f8816](https://github.com/openai/openai-python/commit/10f88169b0f3929b4e2528aad7a825df31163156))\n* **agents:** stage files and download turn artifacts ([#4009](https://github.com/openai/openai-python/issues/4009)) ([4fc2438](https://github.com/openai/openai-python/commit/4fc2438ea73f8c1a4802b0cd5ab7607fc3cc1d16))\n* **api:** Add session traces and Realtime transla…",
       "published_at": "2026-10-01T23:02:59Z",
       "text": ""
-    },
-    "399620973": {
-      "title": "v3.22.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.22.1",
-      "hash": "cfcd22487bc6c408",
-      "summary": "## [3.22.1](https://github.com/openai/openai-python/compare/v3.22.0...v3.22.1) (2026-09-30)\n### Bug Fixes\n* **api:** correct the missing authentication error message ([#3993](https://github.com/openai/openai-python/issues/3993)) ([51692ed](https://github.com/openai/openai-python/commit/51692ed3f9d2b87084801295f824c2202dac3785)), closes [#3962](https://github.com/openai/openai-python/issues/3962)\n* transform NotRequired typed dictionary fields ([#3995](https://github.com/openai/openai-python/issues/3995)) ([5544c18](https://github.com/openai/openai-python/commit/5544c18c19f125718ed9c4f7c42866c…",
-      "published_at": "2026-09-30T00:25:09Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -297,7 +297,8 @@
     "433049090",
     "433440661",
     "435545053",
-    "434638564"
+    "434638564",
+    "439355151"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

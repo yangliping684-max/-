@@ -1,0 +1,4753 @@
+{
+  "month": "2026-11",
+  "events": [
+    {
+      "id": "e40053eba7925795",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents",
+      "url": "https://arxiv.org/abs/2610.42004",
+      "summary": "arXiv:2610.42004v1 Announce Type: new\nAbstract: Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and network constraints during settlement, and evaluates outcomes via an Economic…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM",
+        "large language model",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM、large language model、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "06846843c2219a11",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Same Question, Different Answers: Auditing Persona-Dependent Variation in Six LLMs on Smoking-Cessation Advice",
+      "url": "https://arxiv.org/abs/2610.42039",
+      "summary": "arXiv:2610.42039v1 Announce Type: new\nAbstract: Hundreds of millions of people now ask large language model (LLM) chatbots for health advice, which raises a question that is simple to pose and hard to answer: does everyone get the same advice? We audit six widely deployed LLMs from four providers on smoking cessation, a domain with codified clini- cal guidance and substantial public-health stakes, by putting the same four cessation questions to twelve user personas that differ in life stage, self-described expertise, and smoking history, for a total of 2,880 responses. What the models say dep…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "2fedd2b2bb15f38e",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+      "url": "https://arxiv.org/abs/2610.42116",
+      "summary": "arXiv:2610.42116v1 Announce Type: new\nAbstract: In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between models of different scales within the same model f…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "e214b272f77ea075",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Leaner Training, Lower Leakage: Revisiting Memorization in LLM Fine-Tuning with LoRA",
+      "url": "https://arxiv.org/abs/2506.20856",
+      "summary": "arXiv:2506.20856v1 Announce Type: cross\nAbstract: Memorization in large language models (LLMs) makes them vulnerable to data extraction attacks. While pre-training memorization has been extensively studied, fewer works have explored its impact in fine-tuning, particularly for LoRA fine-tuning, a widely adopted parameter-efficient method.\nIn this work, we re-examine memorization in fine-tuning and uncover a surprising divergence from prior findings across different fine-tuning strategies. Factors such as model scale and data duplication, which strongly influence memorization in pre-training an…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "76b63df15d9c1a3a",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+      "url": "https://arxiv.org/abs/2610.40714",
+      "summary": "arXiv:2610.40714v1 Announce Type: cross\nAbstract: Autonomous LLM agents executing multi-step workflows over personal data often misalign with user privacy expectations and leak sensitive, out-of-context information. Although Contextual Integrity (CI) formalizes this problem, existing benchmarks and defenses rarely operationalize CI for realistic multi-step task sequences in evolving environments. In this work, we first introduce agentic PrivacyBench, a benchmark of 5873 tasks in 986 task sequences with dynamic environment updates and CI-grounded allow-sets for sensitive information. We also i…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "0c38edfafe8ab7df",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+      "url": "https://arxiv.org/abs/2610.40716",
+      "summary": "arXiv:2610.40716v1 Announce Type: cross\nAbstract: LLM agents operating in untrusted workspaces face the risk of untrusted code execution during routine tasks, yet final reports and workspace states alone cannot reliably establish whether execution occurred. We introduce an evaluation framework that codes observation, reasoning, execution, and response behaviors from agent trajectories and aligns them with independent environmental records to reconstruct execution histories and verify final reports. We apply this framework to module shadowing, in which a local file is loaded in place of a trus…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "a3a44f53e4415aa7",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "MetaVul: Agentic Harness Discovery for Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2610.40721",
+      "summary": "arXiv:2610.40721v1 Announce Type: cross\nAbstract: LLM agents are increasingly used to automate vulnerability detection, but reliable detection is challenging because agents must distinguish subtle, security-relevant fixes from benign code variation. While underlying LLM capability has improved significantly, the accuracy of the agent still depends heavily on the harness: the code that defines the scaffolding around the LLM. Harnesses are typically fixed, and largely hand-written, limiting adaptation to evaluator feedback. Additionally, when harnesses are static, improvements on one dataset or…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "e26ae5545eebf528",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "RiskyPy: Toward Model-Calibrated Prompt Generation for Joint Security and Functionality Evaluation of LLM-Generated Code",
+      "url": "https://arxiv.org/abs/2610.40735",
+      "summary": "arXiv:2610.40735v1 Announce Type: cross\nAbstract: Evaluating approaches that improve the security of LLM code generation requires datasets that jointly assess security and functionality and remain adapted to the capabilities of the models being studied. However, existing benchmarks are costly to produce and are generally not calibrated to a chosen range of model capabilities. We introduce RiskyPy, an automated pipeline that generates security-oriented code-generation datasets calibrated to model proficiency using functionality and vulnerability canaries. We instantiate RiskyPy for Python usin…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "401b5e821658549c",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "CLIC: Closed-Loop Intent Consistency for Securing LLM-Driven Control in Open RAN",
+      "url": "https://arxiv.org/abs/2610.40744",
+      "summary": "arXiv:2610.40744v1 Announce Type: cross\nAbstract: With the progressive capabilities of large language models (LLMs), researchers are finding ways to integrate them into the control loops of Open Radio Access Network (O-RAN) to enable slicing and resource management through user intents. However, integration of LLMs in the O-RAN control loop via the RAN Intelligent Controller (RIC) makes the system vulnerable to \\textit{runtime prompt injection threats}, which manipulate control decisions without violating interface authentication, and \\textit{residual virtual prompt injection (VPI)} attacks t…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "fe2c1b6c0425bf1a",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "\"Shall We Approve?\" Consequence-Aware Approval for Autonomous Coding Agents",
+      "url": "https://arxiv.org/abs/2610.40753",
+      "summary": "arXiv:2610.40753v1 Announce Type: cross\nAbstract: Coding agents increasingly rely on automated approvers to decide whether a proposed shell command may run. Existing approvers, from rule-based checkers to guardrail models and deployed permission classifiers, base their decisions on the text of the request and command. Yet a command's behavior depends on the code it invokes and the state of the workspace, and systems that observe file changes leave the assessment to the agent or a human after execution. We present Caper, a consequence-aware approval mechanism that pre-executes each command in…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "5a4cd8eab1166016",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+      "url": "https://arxiv.org/abs/2610.40901",
+      "summary": "arXiv:2610.40901v1 Announce Type: cross\nAbstract: As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, released code also requires manual maintenance. Thus, TSF researchers must constantly adapt or implement existing works. However, independent implementations can differ in experimental settings and are difficult to maintain. We therefore propose to use AI agents for bench…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "30e8c80bc93087fa",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "On the Origin and Evolution of Training-Inference Mismatch in LLM Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.40945",
+      "summary": "arXiv:2610.40945v1 Announce Type: cross\nAbstract: On-policy reinforcement learning for large language models assumes that training responses are sampled from the current policy. In practice, an inference engine samples the responses and a separate trainer computes the gradients, and the \\textbf{training-inference mismatch} between the two makes the training data off-policy. The mismatch has two sources, the numerics of the engine and the stale weights of asynchronous sampling, and a correction that stabilizes training under one source can fail under the other. \\textit{We ask which property of…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "cd5ea95314ad5f56",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Steering Vectors as a Training Signal in LLM Post-Training",
+      "url": "https://arxiv.org/abs/2610.40998",
+      "summary": "arXiv:2610.40998v1 Announce Type: cross\nAbstract: Steering vectors (SVs) are residual-stream directions that shift the behavior of LLMs when added to hidden states at inference time. While prior work has mainly used SVs as post-hoc controls, we ask whether the same directions can also guide parameter updates during post-training. We study this question across supervised learning, including SFT and distillation, and reinforcement learning with verifiable rewards (RLVR). Our framework considers two intervention regimes: a hidden-state hook during teacher-forced supervised training, and an advan…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "c2a7eeb9fd250c16",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Do Language Models Know What Compelling Scientific Evidence Looks Like?",
+      "url": "https://arxiv.org/abs/2610.41015",
+      "summary": "arXiv:2610.41015v1 Announce Type: cross\nAbstract: Expert scientists excel at weighing empirical findings from multiple sources that vary in both statistical reliability and epistemic relevance. To what extent are language models, which are increasingly driving autonomous discovery systems, capable of such evidence deliberation? We introduce EDB-Bio, a scientific reasoning benchmark curated from real-world data in three biological domains: drug-perturbation transcriptomics, CRISPR screens, and human genome-wide association studies (GWAS). Each of EDB-Bio's 96k episodes presents a sequence of e…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "2fe516a3291c33c6",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Accept Changes, Reject Attacks: Robust Memory Management for LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41056",
+      "summary": "arXiv:2610.41056v1 Announce Type: cross\nAbstract: Since large language model (LLM) agents rely on long-term memory, what they store now shapes what they do later. A memory manager decides how each input changes this memory and which records the agent acts on. It can fail in two ways: keeping a fact that has since changed (outdated memory), or storing a planted passage or injected instruction (memory poisoning). Most prior work studies them separately, yet they call for opposite write decisions, so no fixed write rule handles both. We therefore formalize memory robustness as handling both with…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "a069148b82b52da4",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "MUON-RT Reusing the Teacher's Trajectory for Momentum-Free Muon for LLM Self-Distillation",
+      "url": "https://arxiv.org/abs/2610.41104",
+      "summary": "arXiv:2610.41104v1 Announce Type: cross\nAbstract: Self-distillation methods for large language models with an exponential moving average (EMA) teacher already retain a history of student updates. Muon nevertheless stores a separate momentum buffer, increasing persistent training memory. We propose Muon with Reused Teacher (Muon-RT), which reuses the teacher-student displacement to eliminate momentum buffers for hidden weight matrices. We show that this displacement encodes an exponentially weighted history of applied updates and smooths temporally uncorrelated noise under a local model. Muon-…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "79bcde2f30b8d7b6",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "When Disclosure Is Compulsory: Evaluating Ride-Hailing Rebalancing Policies with Self-Interested LLM Driver Agents",
+      "url": "https://arxiv.org/abs/2610.41132",
+      "summary": "arXiv:2610.41132v1 Announce Type: cross\nAbstract: The EU Platform Work Directive, to be transposed by December 2026, requires ride-hailing platforms to state in plain language the main parameters of their automated decisions and how a worker's behaviour affects them. Such rules are exactly what a large language model (LLM) can read, so drivers will be able to let one decide for them. We compare two main families of rebalancing policy once their rules are public: a reactive policy (R) that sends idle drivers to cover requests just lost, and an anticipatory policy (A) that plans moves on a dema…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "8faa908596269562",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Lineage Is Memory: Parent Inheritance and Feedback Disclosure in Short-Budget LLM-Guided Optimization",
+      "url": "https://arxiv.org/abs/2610.41157",
+      "summary": "arXiv:2610.41157v1 Announce Type: cross\nAbstract: Iterative language-model optimizers refine prompts and programs by evaluating a candidate, showing a proposer model a sample of failing cases, and keeping revisions that improve performance. Recent work attributes the limits of this loop to narrow single-round reflection, introducing full-set error clustering, targeted minibatches, or larger proposer models so the optimizer sees more failure modes per step. Yet every existing evaluation tests these mechanisms exclusively inside lineage-preserving search, where each revision edits a surviving p…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "5f44ceba0e1acf2a",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
+      "url": "https://arxiv.org/abs/2610.41160",
+      "summary": "arXiv:2610.41160v1 Announce Type: cross\nAbstract: Disaggregated LLM inference separates the prefill and decode phases across GPU pools, generating massive KV-cache transfers. Because these transfers last hundreds of milliseconds to seconds, they behave as mega elephant flows that dominate link bandwidth utilization. In this regime, stateless ECMP can perform poorly: hash collisions may overload one spine link while leaving others idle, stretching transfer times by seconds. Yet this same persistence makes coordination practical. Since these flows are long-lived, even lightweight one-to-all coo…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "d31498e91e101dab",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "ANGLER: Verifier-Grounded Benchmarking with an Adaptive Attacker for Web Agents",
+      "url": "https://arxiv.org/abs/2610.41272",
+      "summary": "arXiv:2610.41272v1 Announce Type: cross\nAbstract: Web agents are increasingly deployed to complete tasks autonomously on real websites, where adversarially injected content can induce them to perform unauthorized actions. Existing evaluations primarily use fixed attacks or focus on a single attack type, and evaluate attacks at the text level rather than through real state changes, thus underestimating how vulnerable agents are to diverse attacks. To address the gap, we introduce REEF, a benchmark of red-teaming executable environments with faithful verification for measuring the security vuln…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "bf1a9b4fd7aface1",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "In-Model Context Compression with Agentic Soft Tokens for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41291",
+      "summary": "arXiv:2610.41291v1 Announce Type: cross\nAbstract: Long-horizon LLM agents play an important role in solving complex and sustained tasks, with ever-growing interaction contexts. However, these accumulated contexts will raise substantial computational cost and obscure key decision-relevant evidence. Existing methods typically train external compressors or context-management agents to rewrite context as shorter hard-token sequences, but such external selection may not align with the LLM's evolving representation and is necessarily lossy. In this paper, we introduce Agentic Soft-Token Compression…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "784d4fad89500e58",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "ProSearch: Benchmarking Multi-Constraint Protocol Retrieval in Experimental Science",
+      "url": "https://arxiv.org/abs/2610.41396",
+      "summary": "arXiv:2610.41396v1 Announce Type: cross\nAbstract: In AI for Science scenarios, experimental design and method reproduction require retrieving protocols that satisfy multiple interdependent constraints, yet existing benchmarks lack systematic evaluation of this capability. To address this gap, we introduce ProSearch, a benchmark for multi-constraint protocol retrieval in experimental science. ProSearch has three key features: (1) realism, with queries grounded in real experimental records and expert-defined templates; (2) complexity, with 60 experimental fields and their dependencies; and (3)…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "263fde37d4149581",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "When Safety Checks Become Privacy Risks: A Privacy-Preserving Paradigm for LLM Agent Safety Auditing",
+      "url": "https://arxiv.org/abs/2610.41401",
+      "summary": "arXiv:2610.41401v1 Announce Type: cross\nAbstract: Large language model agents interact with online services through tool calls that may access private data or perform sensitive actions. Specialized providers can supply and maintain pre-execution safety auditing capabilities for agent operators. However, sending task descriptions, call arguments, and interaction histories to an external auditor may expose sensitive user information. In this work, we propose a paradigm for privacy-preserving safety auditing that separates delegated audit computation from plaintext access and execution authority…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "673f7699d3926391",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "BlindToChange: AI Agents Can Find Changes When Asked But Do They Look When Needed?",
+      "url": "https://arxiv.org/abs/2610.41435",
+      "summary": "arXiv:2610.41435v1 Announce Type: cross\nAbstract: Given that AI agents can search the web broadly and deeply in real time, it is tempting to conclude that their outputs account for recent world events. We show that this conclusion does not hold in practice. While agents can search and easily find recent changes, the correctness of their responses depends on whether they search and what they search for. Popular agentic search benchmarks like BrowseComp cannot expose failures wherein agents do not recognize their own assumptions that should be verified, since these benchmarks explicitly state w…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "68e42708cf9f1fad",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents",
+      "url": "https://arxiv.org/abs/2610.41482",
+      "summary": "arXiv:2610.41482v1 Announce Type: cross\nAbstract: Recursive textual memory can carry earlier errors into later updates, yet task performance alone does not establish memory reliability. We define self-consistency bias as the persistence of incorrect claims already present in the incoming memory. We present KEEPER, a comparative analysis of four auxiliary objectives along information-content and update-sensitivity axes within a shared recursive interface, examining how supervision targets relate to agent performance. Among evaluated conditions, reward-related prediction achieve the highest tas…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "9878a7a06ed8f8ae",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "ORION: An Outcome-Driven LLM Advisor for RL-Based Multi-Domain 6G Slice Placement",
+      "url": "https://arxiv.org/abs/2610.41563",
+      "summary": "arXiv:2610.41563v1 Announce Type: cross\nAbstract: Deploying 6G network slices across administrative domains requires an online decision for each arriving request: which domain hosts each virtual network function, how traffic crosses domain boundaries, and whether the slice is admitted. This joint decision problem is NP-hard under continuous arrivals. Experiments on a parametrized family of multi-domain topologies show that no fixed planning strategy dominates across all regimes: the performance ranking reverses between topology classes, and feasible placements exist for most rejected requests…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "55bccf6b14ef8631",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "When Steering Shifts Discourse: Identifying and Intervening on Discourse-Level Changes due to Activation Steering in LLMs",
+      "url": "https://arxiv.org/abs/2610.41661",
+      "summary": "arXiv:2610.41661v1 Announce Type: cross\nAbstract: Activation steering is an inference-time technique used to control or modify the behavior, tone, or safety properties of a large language model (LLM) without retraining the model's weights or editing its input prompt, but simply by adding a vector to its residual-stream activations. However, activation steering also changes the generated text in unintended ways, unrelated to intended behavior change, that are not well understood. Prior work has measured these changes only through coarse signals such as perplexity. In this work, we show that st…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "37193679c95aed9f",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "When the Past Shapes Action: Understanding Embodied Memory",
+      "url": "https://arxiv.org/abs/2610.41688",
+      "summary": "arXiv:2610.41688v1 Announce Type: cross\nAbstract: Recent advances in generative foundation models have expanded the capabilities of embodied AI, enabling increasingly general navigation, manipulation, and long-horizon task execution. However, effective interaction with dynamic environments requires more than only strong perception and reasoning: agents must act with partial knowledge and retain, retrieve, and update information from past observations, actions, and experiences. This survey examines embodied memory as a mechanism for preserving decision-relevant information beyond the current o…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "f2b99331a6e371ed",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Latent-Lens: Visual Perception in Small Language Models Through Latent Communication",
+      "url": "https://arxiv.org/abs/2610.41751",
+      "summary": "arXiv:2610.41751v1 Announce Type: cross\nAbstract: Bridging independent vision-language models (VLMs) and small language models (SLMs) in a modular multi-agent system typically forces them to exchange information as discrete text, which creates a lossy bottleneck for spatial and fine-grained details. This constraint is especially acute for SLMs, whose limited capacity makes them more reliant on the quality of the input signal. Recent latent-communication methods exchange states between language models. How a VLM can pass visual information to a separately pretrained text-only SLM though remain…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "eac2b6b817f74216",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "SimXAI: A Simple Drop-in Layer Increases Interaction Quality and Understanding in Conversational XAI",
+      "url": "https://arxiv.org/abs/2610.41856",
+      "summary": "arXiv:2610.41856v1 Announce Type: cross\nAbstract: Conversational explainable AI (ConvXAI) agents often use GUS-style architectures with separate modules for intent recognition, dialogue management, and template-based response generation. While faithful to the underlying XAI methods, these pipelines are hard to adapt and often struggle with context-dependent follow-up questions. We present SimXAI, a lightweight LLM-centric conversational layer that replaces these modules with a single tool-calling LLM that bridges access to existing XAI resources. Rather than a standalone agent, SimXAI serves…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "f1c7a6be4709fc58",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "AI evaluators favor job applications written by certain AI models, independent of candidate quality",
+      "url": "https://arxiv.org/abs/2610.41866",
+      "summary": "arXiv:2610.41866v1 Announce Type: cross\nAbstract: Job applicants increasingly use large language models (LLMs) to write cover letters, while employers deploy LLMs to screen them. In this all-AI setting, we ask whether the \\emph{choice of model} affects hiring outcomes independently of candidate qualifications. We introduce a multi-model auditing framework pairing eleven LLM writer agents with nine API-hosted evaluator agents across ten job descriptions and fifty candidates per job. Four findings emerge. First, we identify a generative preference hierarchy: a consistent global ranking of write…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "7dfb2af807862909",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "SecPO: Principled Adversarial Training for Prompt Injection Security",
+      "url": "https://arxiv.org/abs/2610.41998",
+      "summary": "arXiv:2610.41998v1 Announce Type: cross\nAbstract: Recognized as a top threat to AI agents, prompt injection allows instructions from untrusted data (email, documents, websites) to manipulate the agent's operation. The existing best-defended LLM, Meta-SecAlign, is trained with the DPO loss but still suffers from attack success rates (ASRs) approaching 100% under adaptive prompt injections. One reason is that DPO anchors the model around the undefended reference model, which is insecure. We show an idealized reference model---an injection-invariant, utility-preserving oracle---can nevertheless…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "dda1ba6a17f041ba",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Know When the Equation Is Wrong: Structural Uncertainty for LLM-Guided Symbolic Regression under Extrapolation",
+      "url": "https://arxiv.org/abs/2610.42024",
+      "summary": "arXiv:2610.42024v1 Announce Type: cross\nAbstract: Large language models (LLMs) can help discover mathematical equations from data, but most LLM-guided symbolic regression methods focus on a single best equation without quantifying uncertainty over alternative functional forms. This is challenging because distinct equations can fit the observed data similarly while producing substantially different extrapolations. Our experiments on the LLM-SRBench dataset show that standard conformal intervals achieve nominal in-distribution coverage but frequently fail under extrapolation. To tackle this cha…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "486e30091d7ec88a",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+      "url": "https://arxiv.org/abs/2610.42141",
+      "summary": "arXiv:2610.42141v1 Announce Type: cross\nAbstract: Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises the harness around the frozen policy. The harness…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "a22c1a01c38d5051",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Hierarchical World Models with Implicit Dynamics",
+      "url": "https://arxiv.org/abs/2610.42146",
+      "summary": "arXiv:2610.42146v1 Announce Type: cross\nAbstract: Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "ca8c25b29dfe773b",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Shared Modular Recurrence in Contextual MDPs for Universal Morphology Control",
+      "url": "https://arxiv.org/abs/2506.08630",
+      "summary": "arXiv:2506.08630v4 Announce Type: replace\nAbstract: A universal controller for any robot morphology would greatly improve computational and data efficiency. Steps have been made towards such multi-robot control by utilizing contextual information about the properties of individual robots and exploiting their modular structure in the architecture of deep reinforcement learning agents. When the robots have highly dissimilar morphologies, however, this becomes a challenging problem, especially when the agent must generalize to new, unseen robots. In this paper, we consider the fact that contextu…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "77f633570f3043cb",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Ax-Prover: A Deep Reasoning Agentic Framework for Theorem Proving in Mathematics and Quantum Physics",
+      "url": "https://arxiv.org/abs/2510.12787",
+      "summary": "arXiv:2510.12787v5 Announce Type: replace\nAbstract: We present Ax-Prover, a multi-agent system for automated theorem proving in Lean that can solve problems across diverse scientific domains and operate either autonomously or collaboratively with human experts. To achieve this, Ax-Prover approaches scientific problem solving through formal proof generation, a process that demands both creative reasoning and strict syntactic rigor. Ax-Prover meets this challenge by equipping Large Language Models (LLMs), which provide knowledge and reasoning, with Lean tools via the Model Context Protocol (MCP…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "17bda7dd01ac7890",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Controllable User Simulation",
+      "url": "https://arxiv.org/abs/2605.11519",
+      "summary": "arXiv:2605.11519v2 Announce Type: replace\nAbstract: Using offline datasets to evaluate conversational agents often fails to cover rare scenarios or to support testing new policies. This has motivated the use of controllable user simulators for targeted, counterfactual evaluation, typically implemented by prompting or fine-tuning large language models. In this work, we formalize controllable simulation as a causal inference problem. By bridging natural language evaluation with off-policy evaluation methodology, we show that the standard practice of training simulators via supervised fine-tunin…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "4459dd9faca26350",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Physics-Audited Agentic Discovery in Scientific Machine Learning",
+      "url": "https://arxiv.org/abs/2607.07379",
+      "summary": "arXiv:2607.07379v2 Announce Type: replace\nAbstract: Agentic discovery can yield mechanics surrogates with low validation error that nonetheless violate physical requirements. We present Physics-Audited Agentic SciML (PA-SciML), a framework combining large language model agents with physics auditing. Physical requirements, encoded as contracts such as superposition, boundary conditions, and causality, are fixed before candidate search and tested on predicted fields without reference solutions, including through an adversarial search. Audit results guide later proposals and model selection but…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "8286c547d897e203",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "From Association to Causation: Improving Retrieval Precision of Retrieval-Augmented Generation via Causal Relations and an Attention Mechanism",
+      "url": "https://arxiv.org/abs/2608.21702",
+      "summary": "arXiv:2608.21702v2 Announce Type: replace\nAbstract: Retrieval-Augmented Generation (RAG) grounds LLM generation on retrieved documents, but the standard terminal retrieval stage--dense-vector similarity, optionally followed by reranking--often returns documents that share keywords with the query without containing the needed information, a failure mode that grows with the knowledge base. We trace it to a conceptual gap: similarity captures only associational relations, whereas the documents that matter are linked to the query causally. We model the terminal retrieval stage with a causal graph…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "da32feea4bae6c7f",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "LazyAgent: Demand-Driven Materialization and Physical Optimization of Agentic Programs",
+      "url": "https://arxiv.org/abs/2609.23058",
+      "summary": "arXiv:2609.23058v2 Announce Type: replace\nAbstract: Agent runtimes that plan before acting run every step as soon as it is ready. Neither these runtimes nor their benchmarks distinguish a step that is ready from a step the request needs, and the difference is large: across 303 requests on 154 production workflows, an eager runtime that stops once the goal is met spends 62.2% of its CPU on work the request never needed. LazyAgent is, to our knowledge, the first complete formulation of demand-driven execution for agent runtimes. Its rule: run a ready step only if the current request needs it, a…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "93df7af766f01dfd",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "url": "https://arxiv.org/abs/2610.10611",
+      "summary": "arXiv:2610.10611v2 Announce Type: replace\nAbstract: A self-improving agent can find accepted solutions more often without expanding the tasks its verification interface can accept. We extend task-relative verification with explicit support and transcript interfaces to distinguish search gains from changes in accepted-task coverage. A stage's native reach contains tasks accepted with default support; its closure frontier contains tasks accepted with any support the declared interface permits. A semantic containment criterion identifies the authority or exposure condition that every verified es…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "a93c71179b75aa1b",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "WeFair: Fidelity-Aware Alignment from Human Feedback for Personalized Query Rewriting in Short-Video Search",
+      "url": "https://arxiv.org/abs/2610.16927",
+      "summary": "arXiv:2610.16927v2 Announce Type: replace\nAbstract: Short-video search needs compact query rewriters that recover users' personalized intent from ambiguous queries under strict latency constraints. Existing LLM-based methods have improved rewriting by using synthetic reasoning and subsequent consumption-behavioral feedback. However, overemphasizing subsequent consumption can favor engaging content over the user's immediate need, causing intent drift even when rewritten queries are grounded in behavioral history. We propose WeFair, Fidelity-Aware Alignment from Human Feedback for Personalized…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "3853a0c269a9fe02",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine",
+      "url": "https://arxiv.org/abs/2610.22192",
+      "summary": "arXiv:2610.22192v3 Announce Type: replace\nAbstract: Converting verifier outcomes into useful policy updates and partial progress into complete task resolution is crucial for terminal agents. We present Terminal-RSI, which alternates Recursive Self-Rewrite (RSR) of verified trajectories with critic-inheriting Recursive Policy-Refine (RPR). We formulate Turn-Boundary Skip-Observation GAE (TB-GAE) to retain token-specific baselines while applying decay across interaction turns. Family Dense Reward (FDR) calibrates semantic progress across task families; Success-Prioritized Reward (SPR) separates…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "3ee8cad55512be60",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Self-Building Labs",
+      "url": "https://arxiv.org/abs/2610.23826",
+      "summary": "arXiv:2610.23826v2 Announce Type: replace\nAbstract: Self-driving laboratories (SDLs) accelerate scientific discovery by automating experimental execution and optimization. AI agents can increasingly propose new experiments, but existing SDLs can only run the procedures they were built for. Adapting them to a new experiment still requires extensive manual engineering, which makes laboratory flexibility the bottleneck for scaling discovery. We introduce the self-building laboratory (SBL), which designs, configures, and operates its own laboratory setup given a high-level scientific goal. SBL st…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "40bda49aa801fa5d",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "AgentOrch: How Close Can Global Orchestration Come to Step-by-Step Interaction?",
+      "url": "https://arxiv.org/abs/2610.33375",
+      "summary": "arXiv:2610.33375v2 Announce Type: replace\nAbstract: Enterprise workflow agents typically rely on step-by-step interaction (Step-by-Step): the agent executes an action, observes its result, and invokes a large language model (LLM) again to decide the next step. Global orchestration (Global) instead generates a complete executable workflow in advance and executes it without further LLM calls, substantially reducing inference overhead, but it remains less accurate than Step-by-Step. We study how close Global can come to Step-by-Step and what narrows the remaining gap. We introduce AgentOrch, a b…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "0227e4964a39342b",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "LegoSR: A Unified Framework for Self-improving Agent-Guided Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.33465",
+      "summary": "arXiv:2610.33465v2 Announce Type: replace\nAbstract: Equation discovery solvers often use different data interfaces, equation representations and evaluation criteria, making their results hard to compare. We present LegoSR, a unified framework for algebraic symbolic regression and differential equation discovery. LegoSR integrates seven solvers through a common equation representation and evaluation process, and supports searches constrained by partially known equations. Researchers can run solvers directly or use LegoSR Agent, which selects solvers and adapts searches using solver knowledge,…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "bb795ae9bd39e0e7",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Beyond Public Access in LLM Pre-Training Data",
+      "url": "https://arxiv.org/abs/2505.00020",
+      "summary": "arXiv:2505.00020v3 Announce Type: replace-cross\nAbstract: Using a legally obtained dataset of 34 copyrighted O'Reilly Media books (13,962 paragraphs), we apply the DE-COP membership inference attack to test whether OpenAI models show recognition of non-public (pay-walled) content they were not licensed to train on. Our main contribution is examining non-public books, which allows us to consider potential access violations and not just training inclusion. Our results suggest that GPT-4o, OpenAI's more recent and capable model in our sample, exhibits patterns consistent with recognition of non-…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "34d02126bba7a400",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "LLINBO: Trustworthy LLM-in-the-Loop Bayesian Optimization",
+      "url": "https://arxiv.org/abs/2505.14756",
+      "summary": "arXiv:2505.14756v3 Announce Type: replace-cross\nAbstract: Bayesian optimization (BO) is a sequential decision-making tool widely used for optimizing expensive black-box functions. Recently, Large Language Models (LLMs) have shown remarkable adaptability in low-data regimes, making them promising tools for black-box optimization by leveraging contextual knowledge to propose high-quality query points. However, LLMs lack explicit surrogate modeling and calibrated uncertainty, and their internal mechanisms remain opaque. This structural opacity can result in unnecessary experiments, which are cos…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "24e9cc87fcbc1ddc",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Speech-DRAME: A Framework for Human-Aligned Benchmarks in Speech Role-Play",
+      "url": "https://arxiv.org/abs/2511.01261",
+      "summary": "arXiv:2511.01261v2 Announce Type: replace-cross\nAbstract: Evaluating spoken role-play requires judging not only linguistic content but also prosody, emotional expression, character embodiment, and contextual fit. Existing automatic evaluation methods often collapse these aspects into coarse scores and are evaluated primarily on synthesized speech. We introduce Speech-DRAME, a framework comprising Speech-DRAME-EvalBench, a bilingual, human-annotated benchmark with contrastive role-, context-, and delivery-mismatch conditions, and DRAME-Eval, a fine-tuned audio-language evaluator. The benchmark…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "33f3e7d70d5ed38e",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Safe Reinforcement Learning via Recovery-based Shielding with Gaussian Process Dynamics Models",
+      "url": "https://arxiv.org/abs/2602.12444",
+      "summary": "arXiv:2602.12444v3 Announce Type: replace-cross\nAbstract: Reinforcement learning (RL) is a powerful framework for optimal decision-making and control but often lacks provable guarantees for safety-critical applications. In this paper, we introduce a novel recovery-based shielding framework that enables safe RL with a provable safety lower bound for unknown and non-linear continuous dynamical systems. The proposed approach integrates a backup policy (shield) with the RL agent, leveraging Gaussian process (GP) based uncertainty quantification to predict potential violations of safety constraint…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "7c3bd514b029aae8",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "SUREON: A Benchmark and Vision-Language Model for Surgical Reasoning",
+      "url": "https://arxiv.org/abs/2603.06570",
+      "summary": "arXiv:2603.06570v2 Announce Type: replace-cross\nAbstract: A capable surgical AI model should reason from visual evidence; yet, many existing surgical benchmarks can be partially solved without visual input, as models may exploit procedural priors or common anatomy-instrument interactions to infer answers from language alone. To address this, we introduce SUREON, a video question-answering (QA) dataset and benchmark designed to evaluate visually grounded surgical reasoning. Our pipeline generates QA pairs from narrated surgical academic videos, refines incorrect options using multiple models t…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "b335ae4cfabb7a08",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Proof-Carrying Materials: Falsifiable Safety Certificates for Machine-Learned Interatomic Potentials",
+      "url": "https://arxiv.org/abs/2603.12183",
+      "summary": "arXiv:2603.12183v3 Announce Type: replace-cross\nAbstract: Machine-learned interatomic potentials (MLIPs) are deployed for high-throughput materials screening without formal reliability guarantees. We show that a single MLIP used as a stability filter misses 93% of density functional theory (DFT)-stable materials (recall 0.07) on a 25,000-material benchmark. Proof-Carrying Materials (PCM) closes this gap through three stages: adversarial falsification across compositional space, bootstrap envelope refinement with 95% confidence intervals, and Lean 4 formal certification. Auditing CHGNet, Tenso…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "221f19c2112621eb",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database",
+      "url": "https://arxiv.org/abs/2603.15080",
+      "summary": "arXiv:2603.15080v4 Announce Type: replace-cross\nAbstract: Biomedical knowledge is fragmented across siloed databases---Reactome, STRING, Gene Ontology, ClinicalTrials.gov, DrugBank, DGIdb, SIDER, PubMed, ClinVar, ChEMBL, OpenTargets, and more. We present an open, reproducible biomedical knowledge graph ecosystem built on Samyama, a Rust-native graph database: three foundational graphs detailed end-to-end---Pathways KG (118,686 nodes, 834,785 edges), Clinical Trials KG (7,774,446 nodes, 26,973,997 edges), and Drug Interactions KG (32,726 nodes, 191,970 edges)---and their expansion into a 22-gr…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "37cdb2415e8efcd4",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "STRIATUM-CTF: A Protocol-Driven Agentic Framework for Autonomous CTF Solving",
+      "url": "https://arxiv.org/abs/2603.22577",
+      "summary": "arXiv:2603.22577v2 Announce Type: replace-cross\nAbstract: Autonomous cyber operations increasingly depend on agents that can chain reconnaissance, exploitation, and analysis across many tools while maintaining state over long task horizons. Large Language Models (LLMs) are promising orchestrators for this workflow, but naive agents that pipe model output directly into a shell are brittle: they emit malformed commands, hallucinate non-existent command-line options or packages, and lose track of earlier findings as the context window fills. We present STRIATUM-CTF, a modular agentic framework f…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "6e2a09622125b638",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Can Humans Tell? A Dual-Axis Study of Human Perception of LLM-Generated News",
+      "url": "https://arxiv.org/abs/2604.03755",
+      "summary": "arXiv:2604.03755v2 Announce Type: replace-cross\nAbstract: Can humans tell whether a news article was written by a person or a large language model (LLM)? We investigate this question using JudgeGPT, a study platform that independently measures source attribution (human vs. machine) and authenticity judgment (legitimate vs. fake) on continuous scales. From 2,318 judgments collected from 1,054 participants across content generated by six LLMs, we report five findings: (1) participants cannot reliably distinguish machine-generated from human-written text (p > .05, Welch's t-test); (2) this inabi…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "f23689988ef1f7fd",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "M$^\\star$: Every Task Deserves Its Own Memory Harness",
+      "url": "https://arxiv.org/abs/2604.11811",
+      "summary": "arXiv:2604.11811v3 Announce Type: replace-cross\nAbstract: Large language model agents rely on a memory harness to write, organize, retrieve, and use past experience. A harness that works for one task often fails on another, because conversations, embodied planning, and expert reasoning require different storage and retrieval behavior. To address this limitation, we introduce Mstar, a method that automatically discovers task-optimized memory programs through reflective code evolution. Specifically, Mstar operationalizes a memory harness as an executable Python memory program that defines the S…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "486084034be58544",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle",
+      "url": "https://arxiv.org/abs/2604.16548",
+      "summary": "arXiv:2604.16548v5 Announce Type: replace-cross\nAbstract: The emergence of writable, cross-session persistent memory in LLM agents introduces a qualitatively different threat landscape from conventional input-centric security concerns, characterized by three properties: persistence, statefulness, and propagation. To systematically characterize this landscape, we propose a Memory Lifecycle Framework that organizes attacks, defenses, and their cross-phase dependencies along two axes: six lifecycle phases (Write, Store, Retrieve, Execute, Share & Propagate, Forget & Rollback) and four security o…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "6da43db015207a16",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Autoregressive Diffusion for Compositional Text-to-Scene Generation",
+      "url": "https://arxiv.org/abs/2604.16552",
+      "summary": "arXiv:2604.16552v3 Announce Type: replace-cross\nAbstract: Recent text-to-scene generation approaches largely reduced the manual efforts required to create 3D scenes. However, their focus is either to generate a scene layout or to generate objects, and few generate both. The generated scene layout is often simple even with LLM's help. Moreover, the generated scene is often inconsistent with the text input that contains non-trivial descriptions of the shape, appearance, and spatial arrangement of the objects. We present a new paradigm of sequential text-to-scene generation and propose a novel g…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "6f4b64dc27f283c4",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving",
+      "url": "https://arxiv.org/abs/2604.26103",
+      "summary": "arXiv:2604.26103v3 Announce Type: replace-cross\nAbstract: All current LLM serving systems place the GPU at the center, from production-level attention-FFN disaggregation to NVIDIA's Rubin GPU-LPU heterogeneous platform. Even academic PIM/PNM proposals still treat the GPU as the central hub for cross-device communication. Yet the GPU's compute-rich architecture is fundamentally mismatched with the memory-bound nature of decode-phase attention, inflating serving latency while wasting power and die area on idle compute units. The problem is compounded as reasoning and agentic workloads push cont…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "86b52838d95ebf85",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "EvoMemBench: Benchmarking Agent Memory from a Self-Evolving Perspective",
+      "url": "https://arxiv.org/abs/2605.18421",
+      "summary": "arXiv:2605.18421v3 Announce Type: replace-cross\nAbstract: Recent benchmarks for Large Language Model (LLM) agents mainly evaluate reasoning, planning, and execution. However, memory is also essential for agents, as it enables them to store, update, and retrieve information over time. This ability remains under-evaluated, largely because existing benchmarks do not provide a systematic way to assess memory mechanisms. In this paper, we study agent memory from a self-evolving perspective and introduce EvoMemBench, a unified benchmark organized along two axes: memory scope (in-episode vs. cross-e…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM",
+        "large language model",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM、large language model、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "35c4672b1cdff194",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "A Relative-Computability Theory of Self-Improving Agents",
+      "url": "https://arxiv.org/abs/2605.27381",
+      "summary": "arXiv:2605.27381v4 Announce Type: replace-cross\nAbstract: Self-improving agents can acquire a procedure without knowing when its supporting teacher can safely be removed. We extend an oracle-relative model of evolving agents with explicit acquisition and completion contracts, separating learning a solver from certifying its independence. For a known finite-dimensional Boolean feature language, a query history determines exactly the answers in its feature span. A guarded protocol permits query-proposer revision while guaranteeing completion with the optimal number of teacher calls, and a suppl…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "d1cabb127c052f22",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Beyond IID: How General Are Tabular Foundation Models, Really?",
+      "url": "https://arxiv.org/abs/2606.30410",
+      "summary": "arXiv:2606.30410v2 Announce Type: replace-cross\nAbstract: Foundation models for predictive machine learning on tabular data have recently gained significant traction in academia and industry. Research communities across disciplines are increasingly evaluating tabular foundation models on diverse datasets and tasks. However, these task- and discipline-specific evaluations remain largely inaccessible to model researchers because benchmark software and evaluation protocols are fragmented. As a result, model researchers rely on standard benchmarks, which are mostly defined for tasks where tabular…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "39ae988e9821a7b0",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "GUI-Lens: Enabling Precise GUI Grounding for Off-the-Shelf VLMs via Coarse-to-Fine Cropping",
+      "url": "https://arxiv.org/abs/2608.03270",
+      "summary": "arXiv:2608.03270v2 Announce Type: replace-cross\nAbstract: GUI grounding maps natural-language instructions to click locations and is essential for reliable GUI agents. The task remains difficult on high-resolution, densely populated interfaces because a vision-language model (VLM) may recognize a requested control without locating it precisely enough for interaction. Most existing methods provide various forms of localization assistance, but still rely on a direct click prediction, allowing visual ambiguity or an inaccurate initial estimate to propagate to the final result. In this paper, we…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "84851988c0dcb5a1",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "TamilEOT: A Dataset and Model for Semantic End-of-Turn Detection in Tamil Telephone Speech",
+      "url": "https://arxiv.org/abs/2609.05631",
+      "summary": "arXiv:2609.05631v2 Announce Type: replace-cross\nAbstract: A voice agent must decide, at each pause, whether the speaker has finished or is still thinking. Without a model of the language, systems fall back to a fixed silence timeout: too short, and the agent interrupts; too long, and every turn pays the full wait. We release TamilEOT, to our knowledge the first open dataset and detector for semantic end-of-turn detection in a South Indian language: 18,485 labelled turn boundaries from 116 real Tamil telephone conversations, two audio-only detectors built on Smart Turn v3's architecture, and a…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "a9924c6b9234d384",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Learning and Transferring Closed-Loop Robot Software",
+      "url": "https://arxiv.org/abs/2609.19906",
+      "summary": "arXiv:2609.19906v3 Announce Type: replace-cross\nAbstract: Closed-loop robot policies require observation processing, state management, and situation-dependent branching, making them costly to design and tune manually. Although coding agents increasingly support control-code generation and optimization, it remains unclear whether implementations improved on source tasks also support policy acquisition for new tasks. We study this question by treating complete closed-loop implementations as reusable execution experience. To learn each source policy, a coding agent generates policy code from a f…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "eda16f53884a28b8",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Learning to Orchestrate Evolutionary Search: Progression-Aware Deep Reinforcement Learning for Dynamic DE-CMA-ES Coordination in Optimization and Structural Model Updating",
+      "url": "https://arxiv.org/abs/2610.11546",
+      "summary": "arXiv:2610.11546v2 Announce Type: replace-cross\nAbstract: Solving high-dimensional structural model updating problems requires an algorithm capable of navigating complex, non-convex landscapes with correlated parameters. Existing hybrid evolutionary algorithms typically rely on static architectures or fixed switching rules, resulting in disjointed search phases. To address this, this study proposes a Deep Reinforcement Learning-governed dynamic DE-CMAES Orchestration (DRL-DCO) algorithm, in which a Deep Deterministic Policy Gradient (DDPG)-based actor-critic agent continuously governs the evo…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "f1dc1d27aaf3fdab",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Self-improving data synthesis can scale embedding-model adaptation across domains and tasks",
+      "url": "https://arxiv.org/abs/2610.14730",
+      "summary": "arXiv:2610.14730v3 Announce Type: replace-cross\nAbstract: AI agents require specialised retrieval across domains and tasks, but adapting embedding models is constrained by costly manual training-data design. Here we introduce SYNTRA, a self-improving agentic data synthesis framework that turns a few retrieval examples into reusable synthesis instructions. Given an unlabelled corpus and a few relevant query-document pairs, SYNTRA infers implicit information needs and relevance criteria, then uses feedback on trial outputs to refine instructions for query generation and relevance assessment. Ex…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "b5757670e6495324",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2610.21390",
+      "summary": "arXiv:2610.21390v2 Announce Type: replace-cross\nAbstract: Multi-agent large language model (LLM) systems are increasingly deployed at the edge to support complex tasks that require collaboration and information exchange among multiple agents. However, when task contexts are passed across agents, shared context that has already been processed by upstream agents often needs to be prefilled again, resulting in substantial redundant computation. Reusing an already prefilled key--value (KV) cache can avoid this recomputation, but requires the reusable KV state to be transferred across the network…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [
+        "deadline"
+      ],
+      "deadline": null,
+      "score": 86,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、LLM、large language model"
+        },
+        {
+          "factor": "alert",
+          "points": 20,
+          "reason": "命中提醒关键词：deadline"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "73823f1565df4a6c",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+      "url": "https://arxiv.org/abs/2610.21561",
+      "summary": "arXiv:2610.21561v5 Announce Type: replace-cross\nAbstract: Large language models (LLMs) deployed as conversational agents are increasingly expected to follow procedural logic. While factual hallucination has received extensive attention, a different failure mode has been overlooked: procedural hallucination, in which an agent produces individually fluent and factually plausible utterances while deviating from the intended conversational process. We introduce DialFork, the first benchmark to measure this failure mode on raw dialogue text. DialFork is built by forking conformant dialogues at con…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "696341a7e53bd9bd",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "A Unified Attack Framework against Statistical Generative Watermarks for Large Language Models",
+      "url": "https://arxiv.org/abs/2610.27653",
+      "summary": "arXiv:2610.27653v2 Announce Type: replace-cross\nAbstract: Watermarking has emerged as a key tool for identifying text generated by large language models (LLMs), with current schemes embedding statistical signals into the generation process to enable later detection. In this work, we identify a shared weakness across a broad class of popular LLM watermarking methods, including KGW (and its variants), GumbelSoft, DipMark, ITS, and SynthID. We show that these schemes exhibit a fundamental link between their detection scores and the token probability shifts they introduce during generation. This…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "56e09cc243e41a3b",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Can Agentic Code Review Catch Vulnerabilities Before They Are Merged?",
+      "url": "https://arxiv.org/abs/2610.33509",
+      "summary": "arXiv:2610.33509v2 Announce Type: replace-cross\nAbstract: LLM agents have been increasingly adopted for security-focused code review, but existing benchmarks mostly derive the reviewed changes from their later fixes instead of the real-world bug-introducing commits. In this paper, we present SecPRBench, the first comprehensive benchmark for evaluating agentic security review on validated real-world code changes. More specifically, we have built an automated agentic pipeline to autonomously harvest, build, and validate massive real-world bug-introducing commits for popular software systems. To…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "LLM",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、LLM、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "e277770238e22085",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Adapting LLM-SC to Living Sacred Heritage: Domain-Specific Extraction, Semantic Networks and Human Evaluation on Pashupatinath Temple Reviews",
+      "url": "https://arxiv.org/abs/2610.35685",
+      "summary": "arXiv:2610.35685v2 Announce Type: replace-cross\nAbstract: Large language model (LLM) pipelines can turn visitor reviews into structured data, but generic schemes may miss rituals, sacred spaces, cultural restrictions and emotionally mixed experiences at living sacred heritage sites. We adapted the LLM-Social Computing (LLM-SC) framework to Pashupatinath Temple, Nepal, by specifying a 12-type entity taxonomy (four original LLM-SC types plus eight sacred-heritage types), four relation types and nine aspect-sentiment dimensions in a GPT-4o extraction prompt, which was applied to a fixed random s…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM",
+        "large language model"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：LLM、large language model"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "af8886534290ae74",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "I-HITL: Inalienable Human-in-the-Loop",
+      "url": "https://arxiv.org/abs/2610.35835",
+      "summary": "arXiv:2610.35835v3 Announce Type: replace-cross\nAbstract: Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly.\nWe introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness) compromised by the agent. A strong I-HI…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "46b35f53bb75e44f",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Turing LLM Post-Training: Calibrated Distillation and Efficient Dynamic-MoE Execution",
+      "url": "https://arxiv.org/abs/2610.39876",
+      "summary": "arXiv:2610.39876v2 Announce Type: replace-cross\nAbstract: We study post-training for dynamically routed mixture-of-experts (MoE) models, focusing on integrating independently optimized specialists while keeping consolidation efficient. Our approach combines calibrated multi-teacher on-policy distillation (C-MOPD), which matches each selected teacher on a local Top-$K$ support with teacher-wise loss normalization and clipping, with an execution path that uses post-capacity bounded-width dispatch, final-route replay, and asynchronous rollout--training overlap. On Turing-20B-A2B, the selected mo…",
+      "detected_at": "2026-11-02T23:50:23.602192Z",
+      "published_at": "2026-11-02T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "0db42b9dc14a2342",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in ChatGPT, Codex, and APIs",
+      "url": "https://status.openai.com//incidents/01M5E4G39TD1BW1QWHZG6RFA5H",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Space (Operational) Search (Operational) Files (Operational) Realtime (Operational) Live (Operational) Login (Operational) Connectors/Apps (Operational) Chat Completions (Operational) Compliance API (Operational) CLI (Operational) Codex API (Operational) Agents (Operational) File uploads (Operational) Conversation",
+      "detected_at": "2026-11-01T23:47:05.853594Z",
+      "published_at": "2026-10-21T03:28:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Space (Operational) Search (Operational) Files (Operational) Realtime (Operational) Live (Operational) Login (Operational) Connectors/Apps (Operational) Chat Completions (Operational) Compliance API (Operational) CLI (Operational) Codex API (Operational) Agents (Operational) File uploads (Operational) Conversations (Operational) Responses (Operational) ChatGPT Work (Operational) Images (Operational) Audio (Operational) Fine-tuning (Operational) Deep Research (Operational) Sites (Operational) dots (Operational…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Space (Operational) GPTs (Operational) Live (Operational) Batch (Operational) Fine-tuning (Operational) Realtime (Operational) Embeddings (Operational) Moderations (Operational) Deep Research (Operational) ChatGPT Work (Operational) File uploads (Operational) Conversations (Operational) Agent (Operational) CLI (Operational) Codex in ChatGPT Desktop (Operational) Decisions (Operational) Login (Operational) Search (Operational) Compliance API (Operational) Codex API (Operational) Agents (Operational) Images (Op…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "c98586db89dffb45",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Degraded performance in GPT-6.1 Sol Codex and Work mode",
+      "url": "https://status.openai.com//incidents/01M4T4ZCM54D3ZPTQXRSWFG0XS",
+      "summary": "新增/修改内容：Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)",
+      "detected_at": "2026-11-01T23:47:05.853594Z",
+      "published_at": "2026-10-13T16:36:42Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components ChatGPT Work (Operational) Codex Web (Operational) CLI (Operational) VS Code extension (Operational) Codex API (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved We have resolved the issue causing degraded performance with GPT-6.1 Sol in Codex and ChatGPT Work. Affected components CLI (Operational) VS Code extension (Operational) Codex API (Operational) ChatGPT Work (Operational) Codex Web (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "47a2616f0794fe60",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors across ChatGPT, Codex, and the API including the Agents API",
+      "url": "https://status.openai.com//incidents/01M3Q4RK1SM4EMK445GGPG7C0N",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) Agents (Operational) Files (Operational) Codex API (Operational) Fine-tuning (Operational) Responses (Operational) Codex Web (Operational) VS Code extension (Operational) ChatGPT Work (Operational) Sites (Operational) File uploa",
+      "detected_at": "2026-11-01T23:47:05.853594Z",
+      "published_at": "2026-10-06T08:26:10Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 33,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components CLI (Operational) GPTs (Operational) Agent (Operational) Connectors/Apps (Operational) Agents (Operational) Files (Operational) Codex API (Operational) Fine-tuning (Operational) Responses (Operational) Codex Web (Operational) VS Code extension (Operational) ChatGPT Work (Operational) Sites (Operational) File uploads (Operational) Conversations (Operational) Images (Operational) Batch (Operational) Moderations (Operational) Login (Operational) Chat Completions (Operational) Image Generation (Operational) Searc…"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Batch (Operational) Responses (Operational) Sites (Operational) Voice mode (Operational) Search (Operational) Realtime (Operational) GPTs (Operational) Images (Operational) Embeddings (Operational) Image Generation (Operational) Connectors/Apps (Operational) Compliance API (Operational) Login (Operational) CLI (Operational) Codex in ChatGPT Desktop (Operational) VS Code extension (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Conversations (Operational) Files (Operatio…"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "23efc6f0881a427e",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Mobile users unable to see Work Mode and the Model Picker",
+      "url": "https://status.openai.com//incidents/01M389CDQ97B11QPMSRAAYSE5S",
+      "summary": "新增/修改内容：Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Agent (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Search (Operational) Compliance API (Operational) Image Generation (Operational)",
+      "detected_at": "2026-11-01T23:47:05.853594Z",
+      "published_at": "2026-09-23T23:49:06Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 23,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components Voice mode (Operational) Conversations (Operational) GPTs (Operational) ChatGPT Work (Operational) Login (Operational) File uploads (Operational) Agent (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) Search (Operational) Compliance API (Operational) Image Generation (Operational) Deep Research (Operational) Sites (Operational)"
+        ],
+        "removed": [
+          "Status: Resolved All impacted services have now fully recovered. Affected components File uploads (Operational) Voice mode (Operational) Conversations (Operational) GPTs (Operational) Agent (Operational) Search (Operational) Compliance API (Operational) Connectors/Apps (Operational) Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational) Login (Operational) Image Generation (Operational) Deep Research (Operational) Sites (Operational)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "cda960d2175dc0b3",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.167.0-alpha.3 (rust-v0.167.0-alpha.3)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.3",
+      "summary": "Release 0.167.0-alpha.3",
+      "detected_at": "2026-11-01T23:47:02.591150Z",
+      "published_at": "2026-11-01T22:26:17Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.167.0-alpha.3",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "08fbcb262b274797",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.167.0-alpha.2 (rust-v0.167.0-alpha.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.2",
+      "summary": "Release 0.167.0-alpha.2",
+      "detected_at": "2026-11-01T23:47:02.591150Z",
+      "published_at": "2026-11-01T19:00:13Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.167.0-alpha.2",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "59bd227510676e31",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Data Center Energy Lead, EMEA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5405710008",
+      "summary": "",
+      "detected_at": "2026-11-01T23:46:26.908469Z",
+      "published_at": "2026-08-25T18:23:39Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "b46ddaac5ac64bc8",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Enterprise Account Executive, Insurance",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5391289008",
+      "summary": "",
+      "detected_at": "2026-11-01T23:46:26.908469Z",
+      "published_at": "2026-08-20T16:47:32Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "44c6ca8c7ed88402",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Finance & Strategy, Deal Strategy - APAC",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5448886008",
+      "summary": "",
+      "detected_at": "2026-11-01T23:46:26.908469Z",
+      "published_at": "2026-10-09T16:15:08Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "1c12a8a1c0beb6d6",
+      "source_id": "openai-python-releases",
+      "source_name": "OpenAI Python SDK Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v3.42.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.42.1",
+      "summary": "## [3.42.1](https://github.com/openai/openai-python/compare/v3.42.0...v3.42.1) (2026-11-01)\n### Bug Fixes\n* **api:** preserve Responses WebSocket connection behavior ([#4221](https://github.com/openai/openai-python/issues/4221)) ([38075d8](https://github.com/openai/openai-python/commit/38075d8c6d90ba03557e991eb75991e65cfee88b))\n* **realtime:** validate beta WebSocket authentication profiles ([#4218](https://github.com/openai/openai-python/issues/4218)) ([3622a97](https://github.com/openai/openai-python/commit/3622a973d5db2adb26e6ef5c7dd8626b6af075ed))\n### Refactors\n* **websocket:** add SDK-ow…",
+      "detected_at": "2026-11-01T23:46:18.887681Z",
+      "published_at": "2026-11-01T20:56:19Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "responses",
+        "realtime"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 76,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：responses、realtime"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v3.42.1"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    }
+  ]
+}

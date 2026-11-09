@@ -1,9 +1,17 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-11-05T23:55:19.841372Z",
-  "etag": "W/\"367e89be3e6ddd1:0\"",
-  "last_modified": "Thu, 05 Nov 2026 16:00:14 GMT",
+  "taken_at": "2026-11-09T23:51:51.629362Z",
+  "etag": "W/\"1026694f8d70dd1:0\"",
+  "last_modified": "Mon, 09 Nov 2026 21:00:11 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm": {
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+      "hash": "6b2679cd97ba200a",
+      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "published_at": "2026-11-09T21:00:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm": {
       "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
@@ -155,14 +163,6 @@
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
       "published_at": "2026-09-18T15:00:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm": {
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
-      "hash": "aa7b1a1d87c7f138",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "published_at": "2026-09-18T15:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -190,7 +190,8 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm"
   ],
   "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

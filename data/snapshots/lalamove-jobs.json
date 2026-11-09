@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-06T23:50:32.719479Z",
-  "etag": "W/\"12d309-79lTKhrlsEq4RctJCi8JNcmeUdM\"",
+  "taken_at": "2026-11-09T23:51:36.664754Z",
+  "etag": "W/\"12d192-xugN6bTIJIQbrhfNp7gGuVQgXmw\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -84,6 +84,14 @@
       "published_at": "2026-11-05T20:29:13.256000Z",
       "text": ""
     },
+    "5a54a0d5-f768-4887-be24-ccdeab94c531": {
+      "title": "Analista Sr de FP&A",
+      "url": "https://jobs.lever.co/lalamove/5a54a0d5-f768-4887-be24-ccdeab94c531",
+      "hash": "c6622e31de4d7fd4",
+      "summary": "",
+      "published_at": "2026-11-09T15:45:07.189000Z",
+      "text": ""
+    },
     "d19288b5-119c-477e-8409-81455f5a2211": {
       "title": "Application & IT Support Engineer",
       "url": "https://jobs.lever.co/lalamove/d19288b5-119c-477e-8409-81455f5a2211",
@@ -164,12 +172,12 @@
       "published_at": "2026-10-02T05:43:28.059000Z",
       "text": ""
     },
-    "d0325344-7819-40a0-906f-b8c933400ebf": {
-      "title": "Associate, Driver Operations",
-      "url": "https://jobs.lever.co/lalamove/d0325344-7819-40a0-906f-b8c933400ebf",
-      "hash": "c7e542bc979a720f",
+    "5f0532c8-3eab-4c99-8401-25efb33dee10": {
+      "title": "Associate, Driver Operations (Temporary - 6 months contract)",
+      "url": "https://jobs.lever.co/lalamove/5f0532c8-3eab-4c99-8401-25efb33dee10",
+      "hash": "e3009fcf6ce75aa7",
       "summary": "",
-      "published_at": "2026-04-01T15:08:29.223000Z",
+      "published_at": "2026-11-09T17:42:41.837000Z",
       "text": ""
     },
     "e1d2c683-5988-4acd-9306-d1cd15a0738a": {
@@ -516,14 +524,6 @@
       "published_at": "2026-08-25T10:09:43.143000Z",
       "text": ""
     },
-    "e3f2abf9-b744-4b7d-b40e-fce91e7c6db5": {
-      "title": "Gerente de Contas I",
-      "url": "https://jobs.lever.co/lalamove/e3f2abf9-b744-4b7d-b40e-fce91e7c6db5",
-      "hash": "e33733b2903687d9",
-      "summary": "",
-      "published_at": "2026-09-18T17:53:29.116000Z",
-      "text": ""
-    },
     "01ea2a58-4e9d-441b-ae65-3e25de4244ad": {
       "title": "Global Trainee Program 2027",
       "url": "https://jobs.lever.co/lalamove/01ea2a58-4e9d-441b-ae65-3e25de4244ad",
@@ -588,12 +588,12 @@
       "published_at": "2026-09-15T13:48:58.519000Z",
       "text": ""
     },
-    "c0e3018b-7695-4f1d-833b-868f7b26d109": {
-      "title": "Jovem Aprendiz",
-      "url": "https://jobs.lever.co/lalamove/c0e3018b-7695-4f1d-833b-868f7b26d109",
-      "hash": "2dffc0f4dbf644b8",
+    "a1754318-6b3f-4266-b458-a21ff634bdf2": {
+      "title": "Head of Sales",
+      "url": "https://jobs.lever.co/lalamove/a1754318-6b3f-4266-b458-a21ff634bdf2",
+      "hash": "53369581ce054a64",
       "summary": "",
-      "published_at": "2026-10-19T20:39:12.998000Z",
+      "published_at": "2026-04-01T14:55:01.139000Z",
       "text": ""
     },
     "8ce6ab82-60af-462b-81ef-6cfcda33bbb3": {
@@ -882,14 +882,6 @@
       "hash": "4bcb9163b4e690d0",
       "summary": "",
       "published_at": "2026-09-23T16:04:05.344000Z",
-      "text": ""
-    },
-    "a1754318-6b3f-4266-b458-a21ff634bdf2": {
-      "title": "Sales Manager",
-      "url": "https://jobs.lever.co/lalamove/a1754318-6b3f-4266-b458-a21ff634bdf2",
-      "hash": "4bcb9163b4e690d0",
-      "summary": "",
-      "published_at": "2026-04-01T14:55:01.139000Z",
       "text": ""
     },
     "0653cc29-b21a-40c4-928d-b30a8e6ca3a9": {
@@ -1369,7 +1361,9 @@
     "fae6a6e3-14a8-4dd2-9978-6f04b1b591ab",
     "59bc55e5-347c-4864-a7c9-45ae4448866f",
     "c92476da-6e88-4fb5-804c-229f3909e603",
-    "6ca3229c-2d1e-4c01-953f-ce048f71306e"
+    "6ca3229c-2d1e-4c01-953f-ce048f71306e",
+    "5a54a0d5-f768-4887-be24-ccdeab94c531",
+    "5f0532c8-3eab-4c99-8401-25efb33dee10"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

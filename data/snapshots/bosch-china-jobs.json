@@ -1,15 +1,63 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-08T23:49:31.517637Z",
+  "taken_at": "2026-11-09T23:51:58.789421Z",
   "etag": null,
   "last_modified": null,
   "items": {
-    "744000160483119": {
+    "744000160605399": {
+      "title": "智驾产品经理_XC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160605399",
+      "hash": "f6181f51cd81fc8d",
+      "summary": "",
+      "published_at": "2026-11-09T12:45:17.517000Z",
+      "text": ""
+    },
+    "744000160562364": {
+      "title": "eAxle Thermal Engineer _ EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160562364",
+      "hash": "05948180ffa7b368",
+      "summary": "",
+      "published_at": "2026-11-09T09:26:51.372000Z",
+      "text": ""
+    },
+    "744000160553029": {
+      "title": "Process Expert – Laser Welding Technology (TJT) _ EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160553029",
+      "hash": "cf502ef89d31fcab",
+      "summary": "",
+      "published_at": "2026-11-09T08:27:19.454000Z",
+      "text": ""
+    },
+    "744000160535199": {
+      "title": "Automation Mechanical Designer_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160535199",
+      "hash": "78a83ca17ad18d52",
+      "summary": "",
+      "published_at": "2026-11-09T05:27:02.287000Z",
+      "text": ""
+    },
+    "744000160530459": {
+      "title": "技术项目管理(底盘制动)_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160530459",
+      "hash": "80c8c00f65c3eaa8",
+      "summary": "",
+      "published_at": "2026-11-09T03:33:26.952000Z",
+      "text": ""
+    },
+    "744000160529059": {
       "title": "Senior Process Engineer_MA",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160483119",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160529059",
       "hash": "fb7d6cb26eb9150b",
       "summary": "",
-      "published_at": "2026-11-08T07:52:49.692000Z",
+      "published_at": "2026-11-09T03:02:41.141000Z",
+      "text": ""
+    },
+    "744000160526289": {
+      "title": "财务控制Cost Controller",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160526289",
+      "hash": "0c5476929de2f9cf",
+      "summary": "",
+      "published_at": "2026-11-09T01:49:24.196000Z",
       "text": ""
     },
     "744000160147570": {
@@ -34,14 +82,6 @@
       "hash": "fc4c2eade292edba",
       "summary": "",
       "published_at": "2026-11-06T02:27:54.543000Z",
-      "text": ""
-    },
-    "744000160017955": {
-      "title": "财务控制Senior Cost Controller",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160017955",
-      "hash": "8dc80aa6629d0665",
-      "summary": "",
-      "published_at": "2026-11-06T01:36:56.070000Z",
       "text": ""
     },
     "744000159764630": {
@@ -2874,14 +2914,6 @@
       "hash": "e6b423543b3c3728",
       "summary": "",
       "published_at": "2026-08-23T04:44:00.358000Z",
-      "text": ""
-    },
-    "744000144881999": {
-      "title": "Software Engineer – High Voltage Drive Electronics",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000144881999",
-      "hash": "7f0e31a9a2a9dd0d",
-      "summary": "",
-      "published_at": "2026-08-22T11:24:05.402000Z",
       "text": ""
     },
     "744000144881775": {
@@ -5938,14 +5970,6 @@
       "hash": "55e676e5339d5696",
       "summary": "",
       "published_at": "2026-05-15T09:47:15.349000Z",
-      "text": ""
-    },
-    "744000126660749": {
-      "title": "产品经理_VM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000126660749",
-      "hash": "196b095d5d8a498a",
-      "summary": "",
-      "published_at": "2026-05-15T09:47:14.600000Z",
       "text": ""
     },
     "744000126658221": {
@@ -12058,7 +12082,14 @@
     "744000160074769",
     "744000160057208",
     "744000160017955",
-    "744000160483119"
+    "744000160483119",
+    "744000160605399",
+    "744000160562364",
+    "744000160553029",
+    "744000160535199",
+    "744000160530459",
+    "744000160529059",
+    "744000160526289"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

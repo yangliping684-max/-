@@ -1,9 +1,41 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-06T23:51:14.770972Z",
+  "taken_at": "2026-11-09T23:52:25.589569Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "hash": "e56fa395fc740d35",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "published_at": "2026-11-09T19:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/control-room": {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "hash": "6028c1e8e04c782e",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "published_at": "2026-11-09T13:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/coderabbit-codex-daybreak": {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "hash": "6fd246b33af7d226",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "published_at": "2026-11-09T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/kuken": {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "hash": "1ca168bcc2338123",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "published_at": "2026-11-09T08:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/partnering-with-hacktron": {
       "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
       "url": "https://openai.com/index/partnering-with-hacktron",
@@ -164,19 +196,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "hash": "b0a37841e4c3336c",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "hash": "3cb3f12648a991ce",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "hash": "b0a37841e4c3336c",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -540,14 +572,6 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/localiza-generative-ai": {
-      "title": "How Localiza reorganized work around generative AI",
-      "url": "https://openai.com/index/localiza-generative-ai",
-      "hash": "81f75cdab2fede92",
-      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/grupo-boticario": {
       "title": "How Grupo Boticário uses AI to strengthen human connections",
       "url": "https://openai.com/index/grupo-boticario",
@@ -556,11 +580,11 @@
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "hash": "e1cf64513aeccdf6",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+    "https://openai.com/index/localiza-generative-ai": {
+      "title": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "hash": "81f75cdab2fede92",
+      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -569,6 +593,14 @@
       "url": "https://openai.com/index/benefit-street-partners",
       "hash": "6bacae7e0cb9e78d",
       "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "hash": "e1cf64513aeccdf6",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -771,38 +803,6 @@
       "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
       "published_at": "2026-10-02T16:15:00Z",
       "text": ""
-    },
-    "https://openai.com/index/chatham-financial": {
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "url": "https://openai.com/index/chatham-financial",
-      "hash": "a16a8b430d188ae6",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "published_at": "2026-10-02T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/the-eternal-complement": {
-      "title": "The eternal complement",
-      "url": "https://openai.com/index/the-eternal-complement",
-      "hash": "6dc8204935547828",
-      "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
-      "published_at": "2026-10-01T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/albertsons-reimagining-retail": {
-      "title": "How Albertsons Companies is reimagining retail from the inside out",
-      "url": "https://openai.com/index/albertsons-reimagining-retail",
-      "hash": "4eb36efad73400d7",
-      "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
-      "published_at": "2026-10-01T16:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/the-den-family-social": {
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "url": "https://openai.com/index/the-den-family-social",
-      "hash": "09ed3fa8b1e1eca8",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "published_at": "2026-10-01T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -985,7 +985,11 @@
     "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
     "https://openai.com/index/australian-universities-ai-native-graduates",
     "https://openai.com/index/cultfit-builds-with-codex",
-    "https://openai.com/index/franklin-templeton"
+    "https://openai.com/index/franklin-templeton",
+    "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+    "https://openai.com/index/control-room",
+    "https://openai.com/index/coderabbit-codex-daybreak",
+    "https://openai.com/index/kuken"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

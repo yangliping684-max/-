@@ -1,9 +1,49 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-09T23:52:25.589569Z",
+  "taken_at": "2026-11-11T02:51:02.464490Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/gilbert-tobin-sam-nickless": {
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "hash": "27c1e53b54f6584c",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "published_at": "2026-11-12T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": {
+      "title": "Helping caregivers use AI in everyday life",
+      "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "hash": "b8994d9422116858",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "published_at": "2026-11-10T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-businesses-chatgpt": {
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "hash": "d20b517c9f9ab5bb",
+      "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "published_at": "2026-11-10T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/closing-ai-guidance-gap-education": {
+      "title": "Closing the AI guidance gap in education",
+      "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+      "hash": "ddea87927910743d",
+      "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+      "published_at": "2026-11-10T09:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/ai-effect-on-freelance-work": {
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "hash": "f01fd386837d4c6d",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "published_at": "2026-11-10T07:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
       "title": "ChatGPT Enterprise now available in AWS Marketplace",
       "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
@@ -196,19 +236,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "hash": "3cb3f12648a991ce",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "hash": "b0a37841e4c3336c",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "hash": "3cb3f12648a991ce",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -220,19 +260,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/dan-driscoll-joins-openai": {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "hash": "65c019a6cb8c4c7f",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/qodo-codex-plugin": {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "hash": "231a28400bc61652",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "hash": "65c019a6cb8c4c7f",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -572,19 +612,19 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/grupo-boticario": {
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "hash": "31803649f052fe74",
-      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/localiza-generative-ai": {
       "title": "How Localiza reorganized work around generative AI",
       "url": "https://openai.com/index/localiza-generative-ai",
       "hash": "81f75cdab2fede92",
       "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/grupo-boticario": {
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "hash": "31803649f052fe74",
+      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -762,46 +802,6 @@
       "hash": "8e206ecb7a337bd4",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
       "published_at": "2026-10-06T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/advancing-computer-use-with-ironclad": {
-      "title": "Advancing computer use with Ironclad",
-      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "hash": "0be9e3676a941256",
-      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
-      "published_at": "2026-10-06T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/atlassian-partnership": {
-      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "url": "https://openai.com/index/atlassian-partnership",
-      "hash": "2fd24c3bb1a6f297",
-      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
-      "published_at": "2026-10-06T16:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/eu-text-provenance": {
-      "title": "Our approach to EU text provenance rules",
-      "url": "https://openai.com/index/eu-text-provenance",
-      "hash": "80664de4ea8353f2",
-      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
-      "published_at": "2026-10-05T15:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/new-chatgpt-ads-format-and-measurement": {
-      "title": "Building advertising for the way people use AI",
-      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "hash": "58df27635e615670",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "published_at": "2026-10-05T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/practical-guide-building-gpt-6": {
-      "title": "A model guide for the GPT-6 family",
-      "url": "https://openai.com/index/practical-guide-building-gpt-6",
-      "hash": "9a8a1432f4d9ce4b",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "published_at": "2026-10-02T16:15:00Z",
       "text": ""
     }
   },
@@ -989,7 +989,12 @@
     "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
     "https://openai.com/index/control-room",
     "https://openai.com/index/coderabbit-codex-daybreak",
-    "https://openai.com/index/kuken"
+    "https://openai.com/index/kuken",
+    "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+    "https://openai.com/index/introducing-businesses-chatgpt",
+    "https://openai.com/index/closing-ai-guidance-gap-education",
+    "https://openai.com/index/ai-effect-on-freelance-work"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-09T23:51:50.008673Z",
-  "etag": "W/\"90dd39c42c87fb579b513af2a1644c543d28913bf4f9c066c857099f93469b38\"",
+  "taken_at": "2026-11-11T02:50:26.874103Z",
+  "etag": "W/\"542bcd0e9c30510d2d69896c7eb0ea958921ca43670f8a1002451690cee9144d\"",
   "last_modified": null,
   "items": {
+    "440028679": {
+      "title": "v3.49.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.49.0",
+      "hash": "0096ee3dcf6da609",
+      "summary": "## [3.49.0](https://github.com/openai/openai-python/compare/v3.48.0...v3.49.0) (2026-11-10)\n### Features\n* **api:** add typed async function tools ([#4264](https://github.com/openai/openai-python/issues/4264)) ([ea07983](https://github.com/openai/openai-python/commit/ea07983f796144835ab3f2cad38fdca04c997a0e))\n### Bug Fixes\n* encode microphone recordings as valid PCM WAV ([#3900](https://github.com/openai/openai-python/issues/3900)) ([13c000d](https://github.com/openai/openai-python/commit/13c000d1f32c1e3e3c4b3e16bc6b956dfd4f5216))",
+      "published_at": "2026-11-10T06:47:04Z",
+      "text": ""
+    },
     "439355151": {
       "title": "v3.48.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.48.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.24.0](https://github.com/openai/openai-python/compare/v3.23.0...v3.24.0) (2026-10-02)\n### Features\n* **api:** add custom voice creation and agent session events ([#4013](https://github.com/openai/openai-python/issues/4013)) ([e5de2e5](https://github.com/openai/openai-python/commit/e5de2e5656fb3d4fa70f050195382e6a4d59f806))\n### Bug Fixes\n* **api:** prioritize Python request routing fields ([#4014](https://github.com/openai/openai-python/issues/4014)) ([ffcc4c4](https://github.com/openai/openai-python/commit/ffcc4c47279debd9daff6103da57dcde2efd38bd))\n* **api:** prioritize routing fields i…",
       "published_at": "2026-10-02T15:54:21Z",
       "text": ""
-    },
-    "401419028": {
-      "title": "v3.23.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.23.0",
-      "hash": "3f9458d2ea4c4b5b",
-      "summary": "## [3.23.0](https://github.com/openai/openai-python/compare/v3.22.1...v3.23.0) (2026-10-01)\n### Features\n* **agents:** [1/n] return typed answers from session streams ([#4007](https://github.com/openai/openai-python/issues/4007)) ([10f8816](https://github.com/openai/openai-python/commit/10f88169b0f3929b4e2528aad7a825df31163156))\n* **agents:** stage files and download turn artifacts ([#4009](https://github.com/openai/openai-python/issues/4009)) ([4fc2438](https://github.com/openai/openai-python/commit/4fc2438ea73f8c1a4802b0cd5ab7607fc3cc1d16))\n* **api:** Add session traces and Realtime transla…",
-      "published_at": "2026-10-01T23:02:59Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -298,7 +298,8 @@
     "433440661",
     "435545053",
     "434638564",
-    "439355151"
+    "439355151",
+    "440028679"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

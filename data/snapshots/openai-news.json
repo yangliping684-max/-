@@ -1,6 +1,6 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-11T02:51:02.464490Z",
+  "taken_at": "2026-11-12T03:51:37.479148Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -10,6 +10,22 @@
       "hash": "27c1e53b54f6584c",
       "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
       "published_at": "2026-11-12T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/chatgpt-plus-for-veterans": {
+      "title": "ChatGPT Plus for veterans and servicemembers",
+      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "hash": "2439130732000ea3",
+      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+      "published_at": "2026-11-11T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/jiostar-vijay-seshadri": {
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "hash": "ca6053f9c26090d8",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "published_at": "2026-11-11T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life": {
@@ -36,12 +52,28 @@
       "published_at": "2026-11-10T09:00:00Z",
       "text": ""
     },
+    "https://openai.com/index/singapore-airlines-travel-work": {
+      "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "url": "https://openai.com/index/singapore-airlines-travel-work",
+      "hash": "250eeb7f81690407",
+      "summary": "Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot.",
+      "published_at": "2026-11-10T08:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/ai-effect-on-freelance-work": {
       "title": "Work at the Frontier: AI’s effect on freelance work",
       "url": "https://openai.com/index/ai-effect-on-freelance-work",
       "hash": "f01fd386837d4c6d",
       "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
       "published_at": "2026-11-10T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/cogent-security": {
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "hash": "ee30dbed10b81533",
+      "summary": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "published_at": "2026-11-10T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/chatgpt-enterprise-aws-marketplace": {
@@ -236,19 +268,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "hash": "b0a37841e4c3336c",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "hash": "3cb3f12648a991ce",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "hash": "b0a37841e4c3336c",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -260,19 +292,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/qodo-codex-plugin": {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "hash": "231a28400bc61652",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/dan-driscoll-joins-openai": {
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "hash": "65c019a6cb8c4c7f",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "hash": "231a28400bc61652",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -716,19 +748,19 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/asana-browser-agent": {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "hash": "e7453d7fdd82c956",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sophos": {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "hash": "28a28748cb9e3f1a",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "published_at": "2026-10-09T07:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/asana-browser-agent": {
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "hash": "e7453d7fdd82c956",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
       "published_at": "2026-10-09T07:00:00Z",
       "text": ""
     },
@@ -770,38 +802,6 @@
       "hash": "3d9a21a55f249b14",
       "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
       "published_at": "2026-10-07T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/radisson": {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "url": "https://openai.com/index/radisson",
-      "hash": "30327a3501d912f4",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "published_at": "2026-10-07T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/gpt-6-for-everyone": {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "hash": "d89970b2f48ca4c5",
-      "summary": "GPT‐6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "published_at": "2026-10-07T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/jump-trading": {
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "url": "https://openai.com/index/jump-trading",
-      "hash": "5aa948cbb2798ec5",
-      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
-      "published_at": "2026-10-06T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/sharing-ai-progress-in-mathematics": {
-      "title": "Sharing AI progress in mathematics",
-      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "hash": "8e206ecb7a337bd4",
-      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
-      "published_at": "2026-10-06T12:00:00Z",
       "text": ""
     }
   },
@@ -994,7 +994,11 @@
     "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
     "https://openai.com/index/introducing-businesses-chatgpt",
     "https://openai.com/index/closing-ai-guidance-gap-education",
-    "https://openai.com/index/ai-effect-on-freelance-work"
+    "https://openai.com/index/ai-effect-on-freelance-work",
+    "https://openai.com/index/chatgpt-plus-for-veterans",
+    "https://openai.com/index/jiostar-vijay-seshadri",
+    "https://openai.com/index/singapore-airlines-travel-work",
+    "https://openai.com/index/cogent-security"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

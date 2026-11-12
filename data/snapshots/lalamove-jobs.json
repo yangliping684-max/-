@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-11T02:50:18.616357Z",
-  "etag": "W/\"123b80-9cPyf6AdWaD1ewPoCmbeyFPqWn0\"",
+  "taken_at": "2026-11-12T03:50:55.603966Z",
+  "etag": "W/\"124f40-8X/SGOeVh5a+fKcO1xhVlvtm/sY\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -380,6 +380,14 @@
       "published_at": "2026-10-27T08:40:34.823000Z",
       "text": ""
     },
+    "f83bb900-c4af-4439-b5d8-ecc559a4b0fc": {
+      "title": "Driver Operations Associate",
+      "url": "https://jobs.lever.co/lalamove/f83bb900-c4af-4439-b5d8-ecc559a4b0fc",
+      "hash": "78f73153d43a6689",
+      "summary": "",
+      "published_at": "2026-11-11T10:06:04.833000Z",
+      "text": ""
+    },
     "04aca009-ffe1-4a66-939d-d7d07deaa760": {
       "title": "Driver Operations Associate - Driver Assistance",
       "url": "https://jobs.lever.co/lalamove/04aca009-ffe1-4a66-939d-d7d07deaa760",
@@ -428,22 +436,6 @@
       "published_at": "2026-10-12T04:29:02.784000Z",
       "text": ""
     },
-    "95a0b972-186f-4bfe-838d-cb456b357997": {
-      "title": "Driver Operations Associate (Fleet Onboarding | 6-month contract)",
-      "url": "https://jobs.lever.co/lalamove/95a0b972-186f-4bfe-838d-cb456b357997",
-      "hash": "4ffa72fb9fb876ef",
-      "summary": "",
-      "published_at": "2026-09-25T06:38:39.642000Z",
-      "text": ""
-    },
-    "9b310ea4-eb43-43a3-aa29-728212b384bc": {
-      "title": "Driver Operations Associate (Fleet Onboarding | 6-month contract)",
-      "url": "https://jobs.lever.co/lalamove/9b310ea4-eb43-43a3-aa29-728212b384bc",
-      "hash": "4ffa72fb9fb876ef",
-      "summary": "",
-      "published_at": "2026-09-23T08:45:32.033000Z",
-      "text": ""
-    },
     "2ab5004f-ae52-4c72-bb4e-d0d4c6661f27": {
       "title": "Driver Operations Associate (Fleet Operations)",
       "url": "https://jobs.lever.co/lalamove/2ab5004f-ae52-4c72-bb4e-d0d4c6661f27",
@@ -460,6 +452,30 @@
       "published_at": "2026-11-05T10:23:53.254000Z",
       "text": ""
     },
+    "5d24098b-55e5-43c2-a86e-ab9bf141ccfc": {
+      "title": "Driver Operations Associate (Partnership Management | 6-month contract)",
+      "url": "https://jobs.lever.co/lalamove/5d24098b-55e5-43c2-a86e-ab9bf141ccfc",
+      "hash": "4bc4c43e28c58d62",
+      "summary": "",
+      "published_at": "2026-08-05T07:49:06.019000Z",
+      "text": ""
+    },
+    "95a0b972-186f-4bfe-838d-cb456b357997": {
+      "title": "Driver Operations Associate (Partnership Management | 6-month contract)",
+      "url": "https://jobs.lever.co/lalamove/95a0b972-186f-4bfe-838d-cb456b357997",
+      "hash": "4bc4c43e28c58d62",
+      "summary": "",
+      "published_at": "2026-09-25T06:38:39.642000Z",
+      "text": ""
+    },
+    "9b310ea4-eb43-43a3-aa29-728212b384bc": {
+      "title": "Driver Operations Associate (Partnership Management | 6-month contract)",
+      "url": "https://jobs.lever.co/lalamove/9b310ea4-eb43-43a3-aa29-728212b384bc",
+      "hash": "4bc4c43e28c58d62",
+      "summary": "",
+      "published_at": "2026-09-23T08:45:32.033000Z",
+      "text": ""
+    },
     "6d2586ae-7047-4868-b899-4bed5f0629b1": {
       "title": "Driver Operations Associate Team Lead (Long Haul)",
       "url": "https://jobs.lever.co/lalamove/6d2586ae-7047-4868-b899-4bed5f0629b1",
@@ -474,14 +490,6 @@
       "hash": "ea112679e589633f",
       "summary": "",
       "published_at": "2026-07-28T10:53:41.918000Z",
-      "text": ""
-    },
-    "5d24098b-55e5-43c2-a86e-ab9bf141ccfc": {
-      "title": "Driver Operations Associate, Fleet Onboarding (6-month contract)",
-      "url": "https://jobs.lever.co/lalamove/5d24098b-55e5-43c2-a86e-ab9bf141ccfc",
-      "hash": "9849c35c4bd665c7",
-      "summary": "",
-      "published_at": "2026-08-05T07:49:06.019000Z",
       "text": ""
     },
     "06c50a2e-f6dc-4da3-8158-112240c09485": {
@@ -522,6 +530,14 @@
       "hash": "4a575084b8800b92",
       "summary": "",
       "published_at": "2026-08-25T10:09:43.143000Z",
+      "text": ""
+    },
+    "3730a1f3-de8a-40f7-b3a7-0677db59a36f": {
+      "title": "Ejecutivo de atención a clientes.",
+      "url": "https://jobs.lever.co/lalamove/3730a1f3-de8a-40f7-b3a7-0677db59a36f",
+      "hash": "d04529e9c0b78059",
+      "summary": "",
+      "published_at": "2026-11-11T23:09:52.611000Z",
       "text": ""
     },
     "01ea2a58-4e9d-441b-ae65-3e25de4244ad": {
@@ -980,14 +996,6 @@
       "published_at": "2026-09-22T03:52:15.627000Z",
       "text": ""
     },
-    "1e8569d0-c6fb-4cc7-aa07-e9fc7b5f346f": {
-      "title": "Senior Marketing Executive",
-      "url": "https://jobs.lever.co/lalamove/1e8569d0-c6fb-4cc7-aa07-e9fc7b5f346f",
-      "hash": "3e3715cce3939438",
-      "summary": "",
-      "published_at": "2026-06-30T04:36:40.070000Z",
-      "text": ""
-    },
     "ee0c98a1-889b-455a-8190-b65866d18328": {
       "title": "Senior Network and Security Analyst / Lead",
       "url": "https://jobs.lever.co/lalamove/ee0c98a1-889b-455a-8190-b65866d18328",
@@ -1331,7 +1339,9 @@
     "c92476da-6e88-4fb5-804c-229f3909e603",
     "6ca3229c-2d1e-4c01-953f-ce048f71306e",
     "5a54a0d5-f768-4887-be24-ccdeab94c531",
-    "5f0532c8-3eab-4c99-8401-25efb33dee10"
+    "5f0532c8-3eab-4c99-8401-25efb33dee10",
+    "f83bb900-c4af-4439-b5d8-ecc559a4b0fc",
+    "3730a1f3-de8a-40f7-b3a7-0677db59a36f"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

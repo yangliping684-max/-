@@ -1,9 +1,65 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-11T02:50:35.524560Z",
+  "taken_at": "2026-11-12T03:51:10.758981Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000161213440": {
+      "title": "电子设计工程师_DCCC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161213440",
+      "hash": "65f66691617ed6e6",
+      "summary": "",
+      "published_at": "2026-11-12T03:36:21.094000Z",
+      "text": ""
+    },
+    "744000161210479": {
+      "title": "智驾台架测试管理_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161210479",
+      "hash": "f0c3361a254d9af9",
+      "summary": "",
+      "published_at": "2026-11-12T02:13:11.200000Z",
+      "text": ""
+    },
+    "744000161053259": {
+      "title": "投诉主管(供应商质量)_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161053259",
+      "hash": "03f5b2de1df6bcc2",
+      "summary": "",
+      "published_at": "2026-11-11T09:48:27.421000Z",
+      "text": ""
+    },
+    "744000161031739": {
+      "title": "Purchasing Mgt. Q Engineer_PS_RBCW",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161031739",
+      "hash": "55fdcb2ca674016e",
+      "summary": "",
+      "published_at": "2026-11-11T06:47:52.359000Z",
+      "text": ""
+    },
+    "744000161027899": {
+      "title": "嵌入式测试开发工程师(智能座舱/ADAS域控/家电域控)_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161027899",
+      "hash": "29c3b14b69ed534f",
+      "summary": "",
+      "published_at": "2026-11-11T05:59:54.051000Z",
+      "text": ""
+    },
+    "744000161027549": {
+      "title": "座舱中间件开发工程师(AVM方向)_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161027549",
+      "hash": "302f3ee50f594fb5",
+      "summary": "",
+      "published_at": "2026-11-11T05:49:35.466000Z",
+      "text": ""
+    },
+    "744000161027389": {
+      "title": "工艺开发工程师_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161027389",
+      "hash": "768e21753f5967b2",
+      "summary": "",
+      "published_at": "2026-11-11T05:45:54.246000Z",
+      "text": ""
+    },
     "744000161019279": {
       "title": "雷达天线工程师_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161019279",
@@ -2708,14 +2764,6 @@
       "published_at": "2026-09-02T01:57:23.820000Z",
       "text": ""
     },
-    "744000146681289": {
-      "title": "ADAS仿真工具开发_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146681289",
-      "hash": "7d08c160d70cf06e",
-      "summary": "",
-      "published_at": "2026-09-01T10:50:16.979000Z",
-      "text": ""
-    },
     "744000146680659": {
       "title": "ADAS数采工具开发_BCSC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146680659",
@@ -5212,14 +5260,6 @@
       "published_at": "2026-06-17T05:03:57.613000Z",
       "text": ""
     },
-    "744000132556969": {
-      "title": "Process Chain Expert(Stator)_ EM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000132556969",
-      "hash": "294c0d2a43e71070",
-      "summary": "",
-      "published_at": "2026-06-17T05:00:59.602000Z",
-      "text": ""
-    },
     "744000132556829": {
       "title": "Process Engineer – Discrete Wire Technology (DWT)_ EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000132556829",
@@ -7540,14 +7580,6 @@
       "published_at": "2026-03-14T11:03:57.166000Z",
       "text": ""
     },
-    "744000114324375": {
-      "title": "供应商质量工程师_VM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000114324375",
-      "hash": "0e7fc99dcd882bda",
-      "summary": "",
-      "published_at": "2026-03-12T09:36:56.033000Z",
-      "text": ""
-    },
     "744000114301002": {
       "title": "工艺工程师(拧紧)_ME",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000114301002",
@@ -9618,14 +9650,6 @@
       "hash": "59064c28f1c762a9",
       "summary": "",
       "published_at": "2025-08-04T06:49:21.936000Z",
-      "text": ""
-    },
-    "744000073602084": {
-      "title": "VMM Software Architect_VM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000073602084",
-      "hash": "c6549fee4ab2d7ae",
-      "summary": "",
-      "published_at": "2025-07-30T15:48:09.686000Z",
       "text": ""
     },
     "744000073489045": {
@@ -12142,7 +12166,14 @@
     "744000160785539",
     "744000160785089",
     "744000160749639",
-    "744000160749188"
+    "744000160749188",
+    "744000161213440",
+    "744000161210479",
+    "744000161053259",
+    "744000161031739",
+    "744000161027899",
+    "744000161027549",
+    "744000161027389"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

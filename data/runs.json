@@ -1,6 +1,36 @@
 {
   "runs": [
     {
+      "id": "20261113T032619Z",
+      "started_at": "2026-11-13T03:26:19.895919Z",
+      "finished_at": "2026-11-13T03:27:36.779119Z",
+      "trigger": "schedule",
+      "sources_total": 27,
+      "sources_ok": 24,
+      "sources_failed": 3,
+      "sources_paused": 0,
+      "new_events": 35,
+      "filtered": 32,
+      "duplicates": 0,
+      "errors": [
+        {
+          "source_id": "canva-china-jobs",
+          "status": "parse_error",
+          "message": "解析失败：本次没有解析到任何条目，已保留上次快照（需人工确认）"
+        },
+        {
+          "source_id": "china-logistics-group-recruit",
+          "status": "parse_error",
+          "message": "解析失败：条目选择器 'a[href*='/articles/']:-soup-contains('招聘')' 没有匹配到任何条目（页面结构可能已改变）"
+        },
+        {
+          "source_id": "anthropic-news",
+          "status": "parse_error",
+          "message": "解析失败：条目选择器 'a[href]:has(time)' 没有匹配到任何条目（页面结构可能已改变）"
+        }
+      ]
+    },
+    {
       "id": "20261112T035048Z",
       "started_at": "2026-11-12T03:50:48.551541Z",
       "finished_at": "2026-11-12T03:51:56.951164Z",

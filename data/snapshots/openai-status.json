@@ -1,15 +1,31 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-11-12T03:51:49.383948Z",
+  "taken_at": "2026-11-13T03:27:28.937821Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8": {
+      "title": "Elevated errors affecting the Microsoft 365 connector",
+      "url": "https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8",
+      "hash": "6bfdb3d5aea0f3b3",
+      "summary": "Status: Investigating We’re investigating an issue with Microsoft connectors where new connections may be broken and tools are not working as expected. We’ll share an update when we know more. Affected components Connectors/Apps (Degraded performance)",
+      "published_at": "2026-11-12T18:29:14Z",
+      "text": ""
+    },
+    "https://status.openai.com//incidents/01M77FAXVFV338GY7G9VRENRS5": {
+      "title": "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
+      "url": "https://status.openai.com//incidents/01M77FAXVFV338GY7G9VRENRS5",
+      "hash": "3161ac632536d5b5",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Images (Operational)",
+      "published_at": "2026-11-12T09:25:12Z",
+      "text": ""
+    },
     "https://status.openai.com//incidents/01M76CW2D7FM7K7F8NJ4W0G08N": {
       "title": "Unable to start new Workspace Agent runs",
       "url": "https://status.openai.com//incidents/01M76CW2D7FM7K7F8NJ4W0G08N",
-      "hash": "b54f619de98cccf9",
-      "summary": "Status: Investigating We are investigating an issue preventing users from starting new Workspace Agent runs. We will share another update as more information becomes available. Affected components Agent (Full outage)",
-      "published_at": "2026-11-11T22:50:17Z",
+      "hash": "f7af05b56d467dec",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Agent (Operational)",
+      "published_at": "2026-11-12T08:32:37Z",
       "text": ""
     },
     "https://status.openai.com//incidents/01M765MJQK7F85SC82RMTYN0V3": {
@@ -387,22 +403,6 @@
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) FedRAMP (Operational)",
       "published_at": "2026-10-06T00:01:04Z",
       "text": ""
-    },
-    "https://status.openai.com//incidents/01M46KED6KQ6PR195KZYYVNY8W": {
-      "title": "Elevated error rates in Codex Cloud",
-      "url": "https://status.openai.com//incidents/01M46KED6KQ6PR195KZYYVNY8W",
-      "hash": "2cbbe23832a365ba",
-      "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "published_at": "2026-10-06T00:01:00Z",
-      "text": ""
-    },
-    "https://status.openai.com//incidents/01M46C47WYYD9NMZVGH83X3ZR1": {
-      "title": "Admin Console Intermittently Inaccessible",
-      "url": "https://status.openai.com//incidents/01M46C47WYYD9NMZVGH83X3ZR1",
-      "hash": "37b9812bd0c6ee07",
-      "summary": "Status: Resolved All impacted services have now fully recovered.",
-      "published_at": "2026-10-05T21:07:22Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -486,7 +486,9 @@
     "https://status.openai.com//incidents/01M70RDA2GWD2WXE58ANY0WV5R",
     "https://status.openai.com//incidents/01M71W79MAGEXEX93QTVTBYJ4K",
     "https://status.openai.com//incidents/01M76CW2D7FM7K7F8NJ4W0G08N",
-    "https://status.openai.com//incidents/01M765MJQK7F85SC82RMTYN0V3"
+    "https://status.openai.com//incidents/01M765MJQK7F85SC82RMTYN0V3",
+    "https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8",
+    "https://status.openai.com//incidents/01M77FAXVFV338GY7G9VRENRS5"
   ],
   "scope": "https://status.openai.com/feed.rss|50|None"
 }

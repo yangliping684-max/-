@@ -1,9 +1,33 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-11-09T23:51:51.629362Z",
-  "etag": "W/\"1026694f8d70dd1:0\"",
-  "last_modified": "Mon, 09 Nov 2026 21:00:11 GMT",
+  "taken_at": "2026-11-13T03:26:43.127472Z",
+  "etag": "W/\"1d917fdad372dd1:0\"",
+  "last_modified": "Thu, 12 Nov 2026 18:30:12 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm": {
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+      "hash": "9d928d438479d577",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "published_at": "2026-11-12T18:30:00Z",
+      "text": ""
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm": {
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "hash": "000dff782b8b52b0",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "published_at": "2026-11-12T17:45:00Z",
+      "text": ""
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm": {
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+      "hash": "90b90d2db4190c23",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "published_at": "2026-11-12T16:00:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm": {
       "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
@@ -139,30 +163,6 @@
       "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "published_at": "2026-09-24T18:30:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm": {
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
-      "hash": "84dd5728e9cafbaf",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "published_at": "2026-09-24T15:00:00Z",
-      "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm": {
-      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
-      "hash": "8e5f6aa637fbcd30",
-      "summary": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "published_at": "2026-09-22T20:30:00Z",
-      "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm": {
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-      "hash": "183badc787d83cb5",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "published_at": "2026-09-18T15:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -191,7 +191,10 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm"
   ],
   "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

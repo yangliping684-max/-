@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-12T03:51:01.630595Z",
-  "etag": "W/\"04ceca13d6dc0369d2f7790fc7e712783dc2e1545ff9cc90a428436d232936b8\"",
+  "taken_at": "2026-11-13T03:26:40.796360Z",
+  "etag": "W/\"d3a485b2a911a7d65643e7b838e35334f0450498773f06ecad626455a2669d7d\"",
   "last_modified": null,
   "items": {
+    "443483677": {
+      "title": "v2.1.323",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "hash": "e0330e5786912a02",
+      "summary": "## What's changed\n- Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an organization\n- Added `engines[\"claude-code\"]` to `plugin.json`: plugins outside their stated Claude Code version range are not installed, updated or loaded, and install and update pick the newest version that fits\n- Added type checking of a plugin's TypeScript hooks module to `claude plugin validate`; each finding is a warning, and `--strict` fails on it\n- Added to `claude plugin validate` the `$`…",
+      "published_at": "2026-11-12T22:12:13Z",
+      "text": ""
+    },
     "439863658": {
       "title": "v2.1.322",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Fixed a deny or ask rule on a nested part of a compound shell command not holding over a user-installed mod's approval on managed machines\n- Fixed the terminal freezing on short code blocks with many unclosed `",
       "published_at": "2026-10-03T23:07:17Z",
       "text": ""
-    },
-    "402056988": {
-      "title": "v2.1.288",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288",
-      "hash": "c07deba2a458a46d",
-      "summary": "## What's changed\n- Added `$.ui.selection()` for mods: returns the text you last selected in fullscreen mode and, when the selection lies within one transcript row, that row\n- Added a built-in `gh api` to cloud sessions whose image has no GitHub CLI, and fixed the built-in sending control characters from file names, jq filters or GitHub errors to the terminal\n- Added recovery for a prompt cleared with Ctrl+C: pressing Up on the empty prompt brings the draft back, including pasted text and images\n- Added a re-authenticate prompt when an MCP server asks for more OAuth scope during a tool call\n-…",
-      "published_at": "2026-10-02T20:19:57Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -296,7 +296,8 @@
     "433257014",
     "435952318",
     "439536010",
-    "439863658"
+    "439863658",
+    "443483677"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

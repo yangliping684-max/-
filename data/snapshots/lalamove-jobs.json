@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-12T03:50:55.603966Z",
-  "etag": "W/\"124f40-8X/SGOeVh5a+fKcO1xhVlvtm/sY\"",
+  "taken_at": "2026-11-13T03:26:26.957404Z",
+  "etag": "W/\"126198-ULMo/MDve7Gy4vSVgS+qvtMYV+U\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -394,6 +394,14 @@
       "hash": "f860d302ab046bed",
       "summary": "",
       "published_at": "2026-10-27T07:55:11.048000Z",
+      "text": ""
+    },
+    "c7b2dbb0-9965-48db-b83c-12498918393c": {
+      "title": "Driver Operations Associate - Offline Presence",
+      "url": "https://jobs.lever.co/lalamove/c7b2dbb0-9965-48db-b83c-12498918393c",
+      "hash": "00d15d5b33979a29",
+      "summary": "",
+      "published_at": "2026-11-03T06:35:24.672000Z",
       "text": ""
     },
     "53d799ef-8cf9-4b3f-9ab5-d76908457c30": {
@@ -1341,7 +1349,8 @@
     "5a54a0d5-f768-4887-be24-ccdeab94c531",
     "5f0532c8-3eab-4c99-8401-25efb33dee10",
     "f83bb900-c4af-4439-b5d8-ecc559a4b0fc",
-    "3730a1f3-de8a-40f7-b3a7-0677db59a36f"
+    "3730a1f3-de8a-40f7-b3a7-0677db59a36f",
+    "c7b2dbb0-9965-48db-b83c-12498918393c"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

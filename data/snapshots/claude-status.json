@@ -1,9 +1,17 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-12T03:51:47.241359Z",
-  "etag": "W/\"c45c59ca4da013acb1d7c08e37216e75\"",
+  "taken_at": "2026-11-13T03:27:26.832868Z",
+  "etag": "W/\"599c4b48c5b7690b413125df31ba9e7a\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/sqn3fg1l96dl": {
+      "title": "Elevated errors affecting the Microsoft 365 connector",
+      "url": "https://status.claude.com/incidents/sqn3fg1l96dl",
+      "hash": "03e50fad56dae625",
+      "summary": "Nov 12 , 22:23 UTC Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude for Outlook remains affected. You can follow Microsoft's progress at https://status.cloud.microsoft. We will update this post when service is restored. Nov 12 , 21:18 UTC Update - We are continuing to work with our upstream provider, who is restarting affected servers. Mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests, and Claude for Outlook remains a…",
+      "published_at": "2026-11-12T23:54:26Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/pgz8r13pk4sm": {
       "title": "Elevated errors on Fable 52 and Mythos 52",
       "url": "https://status.claude.com/incidents/pgz8r13pk4sm",
@@ -195,14 +203,6 @@
       "summary": "Sep 14 , 19:14 UTC Resolved - This issue has been resolved. Microsoft has released a September 14 Windows update that fixes it: https://support.microsoft.com/en-us/servicing/os/windows-11/2026/09/kb5129195-windows-11-24h2-25h2-security-update Sep 10 , 15:54 UTC Identified - A Windows update released September 8 has left Claude Cowork on Windows unable to run local commands, because its workspace can no longer reach your computer's drive. For most users, chat and file reading and editing still work. There's no in-app workaround yet, and restarting or reinstalling won't help. Microsoft has deve…",
       "published_at": "2026-09-14T19:14:45Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/t33dncr5ydvl": {
-      "title": "Elevated errors for Claude Mythos 5.1 and Claude Fable 5.1",
-      "url": "https://status.claude.com/incidents/t33dncr5ydvl",
-      "hash": "fd1f13cf441683d8",
-      "summary": "Sep 11 , 14:37 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 13:57 to 14:20 UTC Sep 11 , 14:28 UTC Update - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Sep 11 , 14:28 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1 and Claude Fable 5.1 and we are monitoring for recovery. Sep 11 , 14:21 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1 and are working on a fix. We will provide an update as soon as possible. Sep…",
-      "published_at": "2026-09-11T14:37:11Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -243,7 +243,8 @@
     "https://status.claude.com/incidents/phg1y2yh07n2",
     "https://status.claude.com/incidents/9ftx658xtd5z",
     "https://status.claude.com/incidents/kw2lxj1th04c",
-    "https://status.claude.com/incidents/pgz8r13pk4sm"
+    "https://status.claude.com/incidents/pgz8r13pk4sm",
+    "https://status.claude.com/incidents/sqn3fg1l96dl"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

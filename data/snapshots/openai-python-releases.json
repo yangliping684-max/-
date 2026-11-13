@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-12T03:51:02.171411Z",
-  "etag": "W/\"39fcb9deede03d2558f9164c40467793caf0c1645a231647a14359571309b0e6\"",
+  "taken_at": "2026-11-13T03:26:41.635679Z",
+  "etag": "W/\"03834f6ede7512fc7bc6b374eea2a7201514165f8c1c4debc31e847c9636cf7f\"",
   "last_modified": null,
   "items": {
+    "443409883": {
+      "title": "v3.50.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.50.0",
+      "hash": "4fe1a29a7353c26e",
+      "summary": "## [3.50.0](https://github.com/openai/openai-python/compare/v3.49.0...v3.50.0) (2026-11-12)\n### Features\n* **api:** expose reasoning input transformations on responses ([#4268](https://github.com/openai/openai-python/issues/4268)) ([734f75b](https://github.com/openai/openai-python/commit/734f75b5219da0fd74b24afefae81c71af81fcf6))\n### Chores\n* **deps:** bump astral-sh/setup-uv from 10.3.0 to 10.3.3 ([#4261](https://github.com/openai/openai-python/issues/4261)) ([0ebd006](https://github.com/openai/openai-python/commit/0ebd00647f6088fb100b03440c6c4554bbab549d))\n### Documentation\n* simplify revie…",
+      "published_at": "2026-11-12T19:26:07Z",
+      "text": ""
+    },
     "440028679": {
       "title": "v3.49.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.49.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.25.0](https://github.com/openai/openai-python/compare/v3.24.0...v3.25.0) (2026-10-06)\n### Features\n* **agents:** observe local tool failures ([#4028](https://github.com/openai/openai-python/issues/4028)) ([95d9645](https://github.com/openai/openai-python/commit/95d9645128cb370b9b04413492b864179602c008))\n* **agents:** run local tools during streamed session creation ([#4027](https://github.com/openai/openai-python/issues/4027)) ([919b623](https://github.com/openai/openai-python/commit/919b6236382f3f9f76d8453efb9f9ad03cff1126))\n* **api:** add agent turn items and usage source grouping ([#…",
       "published_at": "2026-10-06T17:56:54Z",
       "text": ""
-    },
-    "401955127": {
-      "title": "v3.24.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.24.0",
-      "hash": "65633a7ad574e2c6",
-      "summary": "## [3.24.0](https://github.com/openai/openai-python/compare/v3.23.0...v3.24.0) (2026-10-02)\n### Features\n* **api:** add custom voice creation and agent session events ([#4013](https://github.com/openai/openai-python/issues/4013)) ([e5de2e5](https://github.com/openai/openai-python/commit/e5de2e5656fb3d4fa70f050195382e6a4d59f806))\n### Bug Fixes\n* **api:** prioritize Python request routing fields ([#4014](https://github.com/openai/openai-python/issues/4014)) ([ffcc4c4](https://github.com/openai/openai-python/commit/ffcc4c47279debd9daff6103da57dcde2efd38bd))\n* **api:** prioritize routing fields i…",
-      "published_at": "2026-10-02T15:54:21Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -299,7 +299,8 @@
     "435545053",
     "434638564",
     "439355151",
-    "440028679"
+    "440028679",
+    "443409883"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

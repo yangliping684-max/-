@@ -1,9 +1,25 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-13T03:27:16.734094Z",
+  "taken_at": "2026-11-14T03:21:54.956678Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/introducing-chatgpt-wallet": {
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "hash": "39a53c18fa969e49",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "published_at": "2026-11-13T15:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/shield": {
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "hash": "f3052e9d8d984784",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "published_at": "2026-11-13T08:00:00Z",
+      "text": ""
+    },
     "https://openai.com/business/customer-stories/amplitude": {
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "url": "https://openai.com/business/customer-stories/amplitude",
@@ -300,19 +316,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "hash": "b0a37841e4c3336c",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "hash": "3cb3f12648a991ce",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "hash": "b0a37841e4c3336c",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -676,14 +692,6 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/grupo-boticario": {
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "hash": "31803649f052fe74",
-      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/localiza-generative-ai": {
       "title": "How Localiza reorganized work around generative AI",
       "url": "https://openai.com/index/localiza-generative-ai",
@@ -692,11 +700,11 @@
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/benefit-street-partners": {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "hash": "6bacae7e0cb9e78d",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+    "https://openai.com/index/grupo-boticario": {
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "hash": "31803649f052fe74",
+      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -705,6 +713,14 @@
       "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
       "hash": "e1cf64513aeccdf6",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/benefit-street-partners": {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "hash": "6bacae7e0cb9e78d",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -780,28 +796,12 @@
       "published_at": "2026-10-13T12:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/asana-browser-agent": {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "url": "https://openai.com/index/asana-browser-agent",
-      "hash": "e7453d7fdd82c956",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/sophos": {
       "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "url": "https://openai.com/index/sophos",
       "hash": "28a28748cb9e3f1a",
       "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
       "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/oracle": {
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "url": "https://openai.com/index/oracle",
-      "hash": "2aa46f43aa87494d",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "published_at": "2026-10-08T16:00:00Z",
       "text": ""
     }
   },
@@ -1002,7 +1002,9 @@
     "https://openai.com/business/customer-stories/amplitude",
     "https://openai.com/business/customer-stories/gondola",
     "https://openai.com/business/customer-stories/holidays-extras-codex",
-    "https://openai.com/index/children-first-declaration"
+    "https://openai.com/index/children-first-declaration",
+    "https://openai.com/index/introducing-chatgpt-wallet",
+    "https://openai.com/business/customer-stories/shield"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

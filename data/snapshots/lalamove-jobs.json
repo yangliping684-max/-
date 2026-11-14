@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-13T03:26:26.957404Z",
-  "etag": "W/\"126198-ULMo/MDve7Gy4vSVgS+qvtMYV+U\"",
+  "taken_at": "2026-11-14T03:21:13.482292Z",
+  "etag": "W/\"126a85-2++IvxeUuOZFC3rDQ1rt8OU8edI\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -122,14 +122,6 @@
       "hash": "dd59f5913842ffdc",
       "summary": "",
       "published_at": "2026-05-29T08:49:26.752000Z",
-      "text": ""
-    },
-    "8f6e105a-6b60-470b-8cbe-fd4afc7f3dbc": {
-      "title": "Assistant People Operations Manager",
-      "url": "https://jobs.lever.co/lalamove/8f6e105a-6b60-470b-8cbe-fd4afc7f3dbc",
-      "hash": "0bca29a7fabea5b9",
-      "summary": "",
-      "published_at": "2026-07-07T09:13:37.536000Z",
       "text": ""
     },
     "3ad4e3f0-63aa-4238-81ef-efae9c752d1f": {
@@ -748,6 +740,14 @@
       "published_at": "2026-07-02T03:37:10.576000Z",
       "text": ""
     },
+    "717f69c0-9cc7-461d-9a62-1a90aa8eafcb": {
+      "title": "People Operations Manager",
+      "url": "https://jobs.lever.co/lalamove/717f69c0-9cc7-461d-9a62-1a90aa8eafcb",
+      "hash": "069d32085719ae09",
+      "summary": "",
+      "published_at": "2026-11-13T07:26:36.398000Z",
+      "text": ""
+    },
     "5f4a269d-2552-48f4-9537-08e3cc87b173": {
       "title": "Personal Assistant",
       "url": "https://jobs.lever.co/lalamove/5f4a269d-2552-48f4-9537-08e3cc87b173",
@@ -829,9 +829,9 @@
       "text": ""
     },
     "2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5": {
-      "title": "Sales Associate - Long Island",
+      "title": "Sales Associate - Long Island, New York",
       "url": "https://jobs.lever.co/lalamove/2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5",
-      "hash": "8b24da59416bfeac",
+      "hash": "d1a155be00fbcb8b",
       "summary": "",
       "published_at": "2026-11-03T21:36:43.993000Z",
       "text": ""
@@ -1350,7 +1350,8 @@
     "5f0532c8-3eab-4c99-8401-25efb33dee10",
     "f83bb900-c4af-4439-b5d8-ecc559a4b0fc",
     "3730a1f3-de8a-40f7-b3a7-0677db59a36f",
-    "c7b2dbb0-9965-48db-b83c-12498918393c"
+    "c7b2dbb0-9965-48db-b83c-12498918393c",
+    "717f69c0-9cc7-461d-9a62-1a90aa8eafcb"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

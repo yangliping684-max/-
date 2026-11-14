@@ -1,9 +1,17 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-11-13T03:26:43.127472Z",
-  "etag": "W/\"1d917fdad372dd1:0\"",
-  "last_modified": "Thu, 12 Nov 2026 18:30:12 GMT",
+  "taken_at": "2026-11-14T03:21:21.285635Z",
+  "etag": "W/\"eb4a6e15b473dd1:0\"",
+  "last_modified": "Fri, 13 Nov 2026 21:15:18 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm": {
+      "title": "Agencies extend comment period for proposed third-party risk management guidance",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+      "hash": "717d0820dc7e6535",
+      "summary": "Agencies extend comment period for proposed third-party risk management guidance",
+      "published_at": "2026-11-13T21:15:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm": {
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
@@ -155,14 +163,6 @@
       "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
       "published_at": "2026-09-25T20:30:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm": {
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
-      "hash": "259202cc2d13e5c8",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "published_at": "2026-09-24T18:30:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -194,7 +194,8 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm"
   ],
   "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

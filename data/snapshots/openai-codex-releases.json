@@ -1,47 +1,47 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-13T03:27:25.846240Z",
-  "etag": "W/\"a1489848ee36709b7f393cc64b8b8a7bdcdc6b2c76fd59566f6245a8a01f18f6\"",
+  "taken_at": "2026-11-14T03:22:04.269623Z",
+  "etag": "W/\"5662d8a479193b0fa8881f478e3fcf6ada76fe43497f945ef18492663fc58e9c\"",
   "last_modified": null,
   "items": {
-    "443607923": {
-      "title": "0.170.0-alpha.4 (rust-v0.170.0-alpha.4)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.4",
-      "hash": "76b912bc3ce053c0",
-      "summary": "Release 0.170.0-alpha.4",
-      "published_at": "2026-11-12T22:59:08Z",
+    "443990865": {
+      "title": "0.169.0 (rust-v0.169.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
+      "hash": "395b845bcb427d3d",
+      "summary": "## New Features\n- The opt-in terminal workspace supports multiple side-chat tabs. Switch between them with the keyboard or mouse, and reopen saved local side chats after restarting Codex. (#59784, #60152, #60181)\n- Search older tasks from the agent command center by name, prompt preview, or working directory. (#60286)\n- Turn on **Collapse turn details** in the full-screen transcript to fold completed activity beneath each prompt while keeping answers visible and tool output searchable. (#60554, #60555, #60556, #60557)\n- Add or edit custom model providers from the terminal. With custom gateway…",
+      "published_at": "2026-11-13T08:37:05Z",
       "text": ""
     },
-    "443415768": {
-      "title": "0.170.0-alpha.3 (rust-v0.170.0-alpha.3)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.3",
-      "hash": "f1a62a6139290123",
-      "summary": "Release 0.170.0-alpha.3",
-      "published_at": "2026-11-12T19:32:20Z",
+    "444911435": {
+      "title": "0.171.0-alpha.5 (rust-v0.171.0-alpha.5)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.5",
+      "hash": "c549ac82c7d907b2",
+      "summary": "Release 0.171.0-alpha.5",
+      "published_at": "2026-11-14T01:20:37Z",
       "text": ""
     },
-    "442382978": {
-      "title": "0.170.0-alpha.2 (rust-v0.170.0-alpha.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.2",
-      "hash": "0dd000b866e65ae1",
-      "summary": "Release 0.170.0-alpha.2",
-      "published_at": "2026-11-12T01:30:28Z",
+    "444614249": {
+      "title": "0.171.0-alpha.4 (rust-v0.171.0-alpha.4)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.4",
+      "hash": "331f59589d083371",
+      "summary": "Release 0.171.0-alpha.4",
+      "published_at": "2026-11-13T18:52:02Z",
       "text": ""
     },
-    "442267349": {
-      "title": "0.167.2 (rust-v0.167.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
-      "hash": "990379588836cdad",
-      "summary": "## New Features\n- Codex now sends tool updates incrementally by default on Google Cloud Vertex AI. To opt out, set `incremental_tools_legacy_gcp = false` under `[features]` in `config.toml`. ([#60617](https://github.com/openai/codex/pull/60617), [#60848](https://github.com/openai/codex/pull/60848))\n## Changelog\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.167.1...rust-v0.167.2",
-      "published_at": "2026-11-11T22:44:46Z",
+    "443958671": {
+      "title": "0.171.0-alpha.2 (rust-v0.171.0-alpha.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.2",
+      "hash": "50898399522bd3a0",
+      "summary": "Release 0.171.0-alpha.2",
+      "published_at": "2026-11-13T07:59:06Z",
       "text": ""
     },
-    "442158479": {
-      "title": "0.170.0-alpha.1 (rust-v0.170.0-alpha.1)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1",
-      "hash": "413ac243120115d1",
-      "summary": "Release 0.170.0-alpha.1",
-      "published_at": "2026-11-11T20:06:13Z",
+    "443793906": {
+      "title": "0.168.0 (rust-v0.168.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
+      "hash": "270fcdf5a788de4b",
+      "summary": "## New Features\n- Browse model providers under Sessions → Model providers and choose the default for new chats. (#59541, #59722)\n- Enable `features.tui_workspace` to view a side conversation beside the main chat. Drag the divider to resize the panes or press `leader z` to zoom the focused pane. (#58992, #59527, #59595)\n- Attach recordings when using an audio-capable model. Codex skips confirmed rejected recordings on later turns and uses clip duration to keep more short recordings in context. (#59234, #59268)\n- Enable `features.image_generation_animation` to generate or edit animated GIFs wit…",
+      "published_at": "2026-11-13T03:54:29Z",
       "text": ""
     }
   },
@@ -113,7 +113,12 @@
     "442253181",
     "441524093",
     "443607923",
-    "443415768"
+    "443415768",
+    "443990865",
+    "444911435",
+    "444614249",
+    "443958671",
+    "443793906"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

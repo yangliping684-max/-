@@ -1,9 +1,33 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-13T03:26:49.879435Z",
+  "taken_at": "2026-11-14T03:21:28.161658Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000161433390": {
+      "title": "嵌入式软件开发工程师_PS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161433390",
+      "hash": "f87722c040f414b9",
+      "summary": "",
+      "published_at": "2026-11-13T07:30:14.673000Z",
+      "text": ""
+    },
+    "744000161422819": {
+      "title": "成品库存计划与管理_亚太非区域_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161422819",
+      "hash": "675768f34e9ca56c",
+      "summary": "",
+      "published_at": "2026-11-13T03:30:21.668000Z",
+      "text": ""
+    },
+    "744000161422759": {
+      "title": "供应链履约计划控制_亚太非区域_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161422759",
+      "hash": "b49d34b00ae763e6",
+      "summary": "",
+      "published_at": "2026-11-13T03:28:40.969000Z",
+      "text": ""
+    },
     "744000161280439": {
       "title": "Mechanical Design Engineer_DCCC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161280439",
@@ -12185,7 +12209,10 @@
     "744000161280439",
     "744000161273799",
     "744000161273619",
-    "744000161222469"
+    "744000161222469",
+    "744000161433390",
+    "744000161422819",
+    "744000161422759"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

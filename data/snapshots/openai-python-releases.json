@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-13T03:26:41.635679Z",
-  "etag": "W/\"03834f6ede7512fc7bc6b374eea2a7201514165f8c1c4debc31e847c9636cf7f\"",
+  "taken_at": "2026-11-14T03:21:19.817243Z",
+  "etag": "W/\"7f103c0d44af38244d2dd13a1b8ff8f7a880b1fe5121384b330bea52f275ecdc\"",
   "last_modified": null,
   "items": {
+    "444743749": {
+      "title": "v3.51.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.51.0",
+      "hash": "e01862b32801a605",
+      "summary": "## [3.51.0](https://github.com/openai/openai-python/compare/v3.50.0...v3.51.0) (2026-11-12)\n### Features\n* **api:** expand agent, image, Live, and external key support ([#4269](https://github.com/openai/openai-python/issues/4269)) ([59738a2](https://github.com/openai/openai-python/commit/59738a289ee82c7b86bf1e10230cceb6daa9716d))",
+      "published_at": "2026-11-13T21:12:49Z",
+      "text": ""
+    },
     "443409883": {
       "title": "v3.50.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.50.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.26.0](https://github.com/openai/openai-python/compare/v3.25.0...v3.26.0) (2026-10-06)\n### Features\n* **api:** add standalone Decisions support ([#4033](https://github.com/openai/openai-python/issues/4033)) ([b99e3e4](https://github.com/openai/openai-python/commit/b99e3e4eee03e99eebc2c762eee9d73fdd4b0eff))",
       "published_at": "2026-10-06T21:29:50Z",
       "text": ""
-    },
-    "405001092": {
-      "title": "v3.25.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.25.0",
-      "hash": "f0469b429e951195",
-      "summary": "## [3.25.0](https://github.com/openai/openai-python/compare/v3.24.0...v3.25.0) (2026-10-06)\n### Features\n* **agents:** observe local tool failures ([#4028](https://github.com/openai/openai-python/issues/4028)) ([95d9645](https://github.com/openai/openai-python/commit/95d9645128cb370b9b04413492b864179602c008))\n* **agents:** run local tools during streamed session creation ([#4027](https://github.com/openai/openai-python/issues/4027)) ([919b623](https://github.com/openai/openai-python/commit/919b6236382f3f9f76d8453efb9f9ad03cff1126))\n* **api:** add agent turn items and usage source grouping ([#…",
-      "published_at": "2026-10-06T17:56:54Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -300,7 +300,8 @@
     "434638564",
     "439355151",
     "440028679",
-    "443409883"
+    "443409883",
+    "444743749"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

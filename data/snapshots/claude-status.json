@@ -1,15 +1,39 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-13T03:27:26.832868Z",
-  "etag": "W/\"599c4b48c5b7690b413125df31ba9e7a\"",
+  "taken_at": "2026-11-14T03:22:05.535441Z",
+  "etag": "W/\"41c3745b5966badcbf6deb00a6edbe08\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/qrpz8k79qm7x": {
+      "title": "Elevated purchasing errors on claude.ai",
+      "url": "https://status.claude.com/incidents/qrpz8k79qm7x",
+      "hash": "5dc39fc84c14cc4b",
+      "summary": "Nov 14 , 03:09 UTC Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. Some customers who recently paid may need to wait up to an hour for their plan to update. There is no need to pay again. We are monitoring for recovery. Nov 14 , 02:54 UTC Investigating - We are investigating elevated errors affecting purchases, plan upgrades and cancellations on claude.ai. Core functionality is not affected. We will provide an update as soon as possible.",
+      "published_at": "2026-11-14T03:09:15Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/sqn3fg1l96dl": {
       "title": "Elevated errors affecting the Microsoft 365 connector",
       "url": "https://status.claude.com/incidents/sqn3fg1l96dl",
-      "hash": "03e50fad56dae625",
-      "summary": "Nov 12 , 22:23 UTC Update - This issue is caused by a Microsoft 365 service incident, and mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests. Claude for Outlook remains affected. You can follow Microsoft's progress at https://status.cloud.microsoft. We will update this post when service is restored. Nov 12 , 21:18 UTC Update - We are continuing to work with our upstream provider, who is restarting affected servers. Mail, calendar and search tools in the Microsoft 365 connector are still failing for most requests, and Claude for Outlook remains a…",
-      "published_at": "2026-11-12T23:54:26Z",
+      "hash": "c3e6f5ea323ff603",
+      "summary": "Nov 13 , 21:49 UTC Resolved - This incident has been resolved. From 08:03 PT / 16:03 UTC on November 12 to 08:40 PT / 16:40 UTC on November 13, mail, calendar and search tools in the Microsoft 365 connector and Claude for Outlook returned errors for many requests because of a Microsoft 365 service incident. Microsoft is still completing its recovery, so you may see occasional errors or delays. Nov 13 , 15:40 UTC Monitoring - We're seeing signs of recovery for the Microsoft 365 connector. Claude for Outlook is also recovering. Some SharePoint search requests are still returning errors. Microso…",
+      "published_at": "2026-11-13T21:49:44Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/34wq7gxnxvvm": {
+      "title": "Elevated errors on claude.ai, the Claude API, and Claude Code",
+      "url": "https://status.claude.com/incidents/34wq7gxnxvvm",
+      "hash": "54589b6dd412c20d",
+      "summary": "Nov 13 , 15:38 UTC Resolved - The issue affecting multiple surfaces has been resolved. Nov 13 , 15:33 UTC Monitoring - Errors on claude.ai, including the mobile apps, the Claude API and Claude Code have returned to normal levels, and we are continuing to monitor. Existing connectors, including Docs and Sheets, are working again, and Claude Managed Agents and Claude Meetings are recovering. Adding a new connector on claude.ai is temporarily unavailable. Scheduled tasks and routines can run more than two hours late and some runs have been skipped, and Claude Security scans, reviews and project…",
+      "published_at": "2026-11-13T15:38:49Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/nn11wk485zfn": {
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "hash": "39708e79e2d13c3d",
+      "summary": "Nov 13 , 11:58 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Nov 13 , 11:05 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Nov 13 , 09:58 UTC Investigating - We are investigating an issue with users authenticating to Claude.ai and Claude Code. We will provide an update as soon as possible.",
+      "published_at": "2026-11-13T11:58:45Z",
       "text": ""
     },
     "https://status.claude.com/incidents/pgz8r13pk4sm": {
@@ -179,30 +203,6 @@
       "summary": "Sep 22 , 02:35 UTC Resolved - This issue has been resolved. Impact occurred from 5:50pm PT / 00:50 UTC to 7:10pm PT / 02:10 UTC. Sep 22 , 02:11 UTC Monitoring - We have seen success rates return to normal across affected models, and are monitoring closely to ensure no further issues. Sep 22 , 01:35 UTC Update - We are continuing to work to resolve errors affecting some models. At this time, requests to Claude Fable 5 and 5.1 and Mythos 5 and 5.1 have returned to normal success rates. We are working to resolve remaining errors affecting Claude Opus 5, and will provide an additional update shor…",
       "published_at": "2026-09-22T02:35:23Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/t8fpw9vcshl9": {
-      "title": "Issues with Google Play subscriptions",
-      "url": "https://status.claude.com/incidents/t8fpw9vcshl9",
-      "hash": "198521f7b7a56206",
-      "summary": "Sep 16 , 16:51 UTC Resolved - This issue has been resolved. Sep 16 , 16:18 UTC Identified - We are aware of an issue affecting users interacting with subscriptions via Google Play, such as when creating a new subscription on Android devices. Google has confirmed an issue with Google Play, and we are awaiting their further updates.",
-      "published_at": "2026-09-16T16:51:09Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/6304r9jjhj34": {
-      "title": "Intermittent error spikes for Claude Mythos 5.1 and Claude Fable 5.1",
-      "url": "https://status.claude.com/incidents/6304r9jjhj34",
-      "hash": "83c1a6e7ee68bfc5",
-      "summary": "Sep 15 , 11:14 UTC Resolved - A fix has been deployed for Claude Mythos 5.1 and Claude Fable 5.1 and we are monitoring to ensure it has resolved the issue. Sep 15 , 10:50 UTC Monitoring - A fix has been deployed for Claude Mythos 5.1 and Claude Fable 5.1 and we are monitoring to ensure it has resolved the issue. Sep 15 , 09:52 UTC Update - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible. Sep 15 , 09:48 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fa…",
-      "published_at": "2026-09-15T11:14:44Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/r1pqn1kb4hvk": {
-      "title": "Degraded functionality for Claude Cowork on Windows",
-      "url": "https://status.claude.com/incidents/r1pqn1kb4hvk",
-      "hash": "90acfea11ec8df4e",
-      "summary": "Sep 14 , 19:14 UTC Resolved - This issue has been resolved. Microsoft has released a September 14 Windows update that fixes it: https://support.microsoft.com/en-us/servicing/os/windows-11/2026/09/kb5129195-windows-11-24h2-25h2-security-update Sep 10 , 15:54 UTC Identified - A Windows update released September 8 has left Claude Cowork on Windows unable to run local commands, because its workspace can no longer reach your computer's drive. For most users, chat and file reading and editing still work. There's no in-app workaround yet, and restarting or reinstalling won't help. Microsoft has deve…",
-      "published_at": "2026-09-14T19:14:45Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -244,7 +244,10 @@
     "https://status.claude.com/incidents/9ftx658xtd5z",
     "https://status.claude.com/incidents/kw2lxj1th04c",
     "https://status.claude.com/incidents/pgz8r13pk4sm",
-    "https://status.claude.com/incidents/sqn3fg1l96dl"
+    "https://status.claude.com/incidents/sqn3fg1l96dl",
+    "https://status.claude.com/incidents/qrpz8k79qm7x",
+    "https://status.claude.com/incidents/34wq7gxnxvvm",
+    "https://status.claude.com/incidents/nn11wk485zfn"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

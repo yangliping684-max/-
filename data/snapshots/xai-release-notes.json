@@ -1,6 +1,6 @@
 {
   "source_id": "xai-release-notes",
-  "taken_at": "2026-11-04T23:55:05.600713Z",
+  "taken_at": "2026-11-14T03:22:01.654041Z",
   "etag": null,
   "last_modified": null,
   "items": {
@@ -76,10 +76,10 @@
       "published_at": null,
       "text": ""
     },
-    "https://docs.x.ai/developers/release-notes#imagine-image-api-updates": {
-      "title": "Imagine image API updates",
-      "url": "https://docs.x.ai/developers/release-notes#imagine-image-api-updates",
-      "hash": "15bd54146613b82a",
+    "https://docs.x.ai/developers/release-notes#image-api-updates": {
+      "title": "Image API updates",
+      "url": "https://docs.x.ai/developers/release-notes#image-api-updates",
+      "hash": "c2b75c3d4203ef73",
       "summary": "",
       "published_at": null,
       "text": ""
@@ -148,10 +148,10 @@
       "published_at": null,
       "text": ""
     },
-    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--imagine-integration": {
-      "title": "Public URLs and Files API ↔ Imagine integration",
-      "url": "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--imagine-integration",
-      "hash": "c0f2019a46fdf985",
+    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--image--video-integration": {
+      "title": "Public URLs and Files API ↔ image & video integration",
+      "url": "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--image--video-integration",
+      "hash": "90297b921c0e3c1e",
       "summary": "",
       "published_at": null,
       "text": ""
@@ -462,7 +462,9 @@
     "https://docs.x.ai/developers/release-notes#grok-voice-20-is-available",
     "https://docs.x.ai/developers/release-notes#grok-voice-10-is-available",
     "https://docs.x.ai/developers/release-notes#custom-moderation-controls",
-    "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired"
+    "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired",
+    "https://docs.x.ai/developers/release-notes#image-api-updates",
+    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--image--video-integration"
   ],
   "scope": "https://docs.x.ai/developers/release-notes|50|None"
 }

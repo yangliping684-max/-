@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-14T03:21:15.530169Z",
-  "etag": "W/\"8576e7351b489bbd055ef8ea0cfee26c\"",
+  "taken_at": "2026-11-15T02:43:42.044238Z",
+  "etag": "W/\"7699f9727ed0795f33cd3aaf357a7648\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -674,14 +674,6 @@
       "hash": "f254a0b8828a6388",
       "summary": "",
       "published_at": "2026-06-02T09:12:49Z",
-      "text": ""
-    },
-    "7981902": {
-      "title": "Customer Experience Specialist – Bilingual (Fluent in Russian & English) | Cairo, Egypt",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7981902",
-      "hash": "4a483054a23dadaa",
-      "summary": "",
-      "published_at": "2026-06-04T10:32:18Z",
       "text": ""
     },
     "8300224": {
@@ -2348,20 +2340,20 @@
       "published_at": "2025-11-18T09:54:11Z",
       "text": ""
     },
-    "7981356": {
-      "title": "Strategic Account Manager",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7981356",
-      "hash": "2de252f0a4d83ca3",
-      "summary": "",
-      "published_at": "2026-06-05T05:33:48Z",
-      "text": ""
-    },
     "8345388": {
       "title": "Strategic Account Manager",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8345388",
       "hash": "2de252f0a4d83ca3",
       "summary": "",
       "published_at": "2026-11-09T10:14:00Z",
+      "text": ""
+    },
+    "7981356": {
+      "title": "Strategic Account Manager",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/7981356",
+      "hash": "2de252f0a4d83ca3",
+      "summary": "",
+      "published_at": "2026-06-05T05:33:48Z",
       "text": ""
     },
     "8210432": {

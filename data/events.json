@@ -1,6 +1,506 @@
 {
-  "updated_at": "2026-11-14T03:22:15.104490+00:00",
+  "updated_at": "2026-11-15T02:44:44.421146+00:00",
   "events": [
+    {
+      "id": "5cf5f0dbd77e4f7b",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Delayed Costs Data in the Compliance API",
+      "url": "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "summary": "新增/修改内容：Status: Monitoring We are monitoring the affected services to confirm recovery. Delays in cost data are still expected. Affected components Compliance API (Degraded performance)",
+      "detected_at": "2026-11-15T02:44:36.637974Z",
+      "published_at": "2026-11-14T05:31:20Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Monitoring We are monitoring the affected services to confirm recovery. Delays in cost data are still expected. Affected components Compliance API (Degraded performance)"
+        ],
+        "removed": [
+          "Status: Monitoring We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected. Affected components Compliance API (Degraded performance)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "d1362e267655aa7a",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Elevated errors with ChatGPT billing and Ads billing",
+      "url": "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "detected_at": "2026-11-15T02:44:36.637974Z",
+      "published_at": "2026-11-14T05:27:53Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "517fc397a22cd2e2",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "added",
+      "title": "Some users unable to sign up with Apple on the Claude iOS app",
+      "url": "https://status.claude.com/incidents/ct4c2pwf2xpj",
+      "summary": "Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide another update as soon as possible. Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide an update as soon as possible.",
+      "detected_at": "2026-11-15T02:44:34.491192Z",
+      "published_at": "2026-11-15T02:10:54Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "4d090954629f0864",
+      "source_id": "claude-status",
+      "source_name": "Claude 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated purchasing errors on claude.ai",
+      "url": "https://status.claude.com/incidents/qrpz8k79qm7x",
+      "summary": "新增/修改内容：Nov 14 , UTC Resolved - The issue affecting purchases and plan changes on claude.ai has been resolved, and delayed plan changes and payments have now been applied. Impact occurred from PT on November 13 / UTC on November 14 to PT on November 13 / UTC on November 14. Nov 14 , UTC Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. S",
+      "detected_at": "2026-11-15T02:44:34.491192Z",
+      "published_at": "2026-11-14T04:23:05Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Nov 14 , UTC Resolved - The issue affecting purchases and plan changes on claude.ai has been resolved, and delayed plan changes and payments have now been applied. Impact occurred from PT on November 13 / UTC on November 14 to PT on November 13 / UTC on November 14. Nov 14 , UTC Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. Some customers who recently paid may need to wait up to an hour for their plan to update. There is no need to pay again. We are monitoring for recovery. Nov 14 , 02…"
+        ],
+        "removed": [
+          "Nov 14 , UTC Monitoring - Purchases on claude.ai are working normally, and delayed plan changes and payments are now being applied. Some customers who recently paid may need to wait up to an hour for their plan to update. There is no need to pay again. We are monitoring for recovery. Nov 14 , UTC Investigating - We are investigating elevated errors affecting purchases, plan upgrades and cancellations on claude.ai. Core functionality is not affected. We will provide an update as soon as possible."
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "Anthropic",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "c43fbe28d9aa239f",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Corporate Counsel, Public Reporting",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462511008",
+      "summary": "",
+      "detected_at": "2026-11-15T02:43:57.072401Z",
+      "published_at": "2026-11-14T05:41:15Z",
+      "source_updated_at": "2026-11-14T06:29:25Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "4ab79b7529e52620",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "modified",
+      "title": "Data Foundations, GTM Systems",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5464234008",
+      "summary": "新增/修改内容：Data Foundations, GTM Systems",
+      "detected_at": "2026-11-15T02:43:57.072401Z",
+      "published_at": "2026-10-30T23:34:18Z",
+      "source_updated_at": "2026-11-14T15:17:41Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 46,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "30 天内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Data Foundations, GTM Systems"
+        ],
+        "removed": [
+          "Data Engineer, GTM Systems"
+        ]
+      },
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY; Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY; Seattle, WA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "85e9ee5114a8f012",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Engineering Manager, Billing Platform",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5469291008",
+      "summary": "",
+      "detected_at": "2026-11-15T02:43:57.072401Z",
+      "published_at": "2026-11-14T20:19:44Z",
+      "source_updated_at": "2026-11-14T20:19:44Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+        "city": "San Francisco"
+      }
+    },
+    {
+      "id": "49d10a3a34ba6e9c",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "Manager, Enterprise Sales - Industries, ANZ",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5473344008",
+      "summary": "",
+      "detected_at": "2026-11-15T02:43:57.072401Z",
+      "published_at": "2026-11-14T05:18:57Z",
+      "source_updated_at": "2026-11-14T05:18:57Z",
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 68,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Sydney, Australia"
+      },
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能",
+        "location": "Sydney, Australia",
+        "city": "Sydney"
+      }
+    },
+    {
+      "id": "977c85b748fe8776",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Data Center Architect, CSA",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5339199008",
+      "summary": "",
+      "detected_at": "2026-11-15T02:43:57.072401Z",
+      "published_at": "2026-07-15T03:00:54Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
     {
       "id": "5b4d231e3e9e340b",
       "source_id": "openai-status",
@@ -55544,504 +56044,6 @@
           "factor": "keywords",
           "points": 8,
           "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "edc30411655b2f7d",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "LLM-based NPCs in Video Games: A Systematic Mapping Study",
-      "url": "https://arxiv.org/abs/2611.05427",
-      "summary": "arXiv:2611.05427v1 Announce Type: cross\nAbstract: For decades, non-player characters (NPCs) have been driven by rule-based systems whose personalities and interactions are scripted before release. Large language models (LLMs) promise NPCs that converse openly, adapt to new situations, and behave in ways developers did not fully author, prompting a wave of research and commercial experimentation. Yet the field lacks a unified picture of what has been built, how well it works, and at what cost. We address this gap with a systematic mapping study of 377 papers from the academic literature, yield…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "3b8142d6cd461ef9",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "LIBRA: Programmatic Induction of Executable Tool Libraries",
-      "url": "https://arxiv.org/abs/2611.05445",
-      "summary": "arXiv:2611.05445v1 Announce Type: cross\nAbstract: Large language model agents increasingly retrieve tools from large catalogs, yet most retrievers rank each tool independently by request similarity. For multi tool tasks, this recovers the goal matching tool while omitting prerequisite tools required by the workflow.We introduce LIBRA, a framework for Library Induction by Runtime Assembly that turns a flat tool catalog into an executable tool library. An LLM proposes per tool contracts of candidate invocations, reusable outputs and state changes, and success conditions; LIBRA then tests these…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "LLM",
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、LLM、large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "04c6e2ad1f9fd6b2",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model",
-      "url": "https://arxiv.org/abs/2611.05448",
-      "summary": "arXiv:2611.05448v1 Announce Type: cross\nAbstract: Large language models understand passengers' driving commands, but as driving agents they reason in generated text for seconds and must infer each action's consequences implicitly from the scene. We present Jev-AD, which pairs Jev, a typed decision model that answers predefined questions with probabilities, not generated text, with a language world model that predicts for every candidate action how nearby vehicles move over the next two seconds. Code turns these predictions into foreseen consequences, which Jev compares instead of inferring th…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "140fd923f58d530c",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Hybrid LLM-Deterministic Pipelines for Enterprise-Scale Code Migration at Bloomberg",
-      "url": "https://arxiv.org/abs/2611.05457",
-      "summary": "arXiv:2611.05457v1 Announce Type: cross\nAbstract: Large organizations carry a long tail of infrastructure migrations that are worth doing but rarely urgent enough to compete with feature work, because each one costs significant engineering time per repository. This paper reports on our industrial experience from Automated Uplift, a multi-month initiative applying LLM-assisted migration pipelines across thousands of Bloomberg repositories. We examine two distinct production campaigns: a heterogeneous Python packaging migration (approx. 1,900 candidate repositories) and a uniform C++ build syst…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "7a505b16e604fd99",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "TSFM Meets LLM: Context as Covariates",
-      "url": "https://arxiv.org/abs/2611.05515",
-      "summary": "arXiv:2611.05515v1 Announce Type: cross\nAbstract: Textual information is ubiquitous in real-world time series datasets, appearing as news, reports, and annotations that hold key predictive signals not deducible from numerical history alone. Large Language Models (LLMs) interpret text but lack numerical precision, while Time Series Foundation Models (TSFMs) are quantitatively accurate but cannot reason about the effects of text. Moreover, the lack of large-scale paired multimodal datasets limits progress in bridging this gap. In this work, we address this challenge by providing a scalable appr…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "807c985962bcedbf",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "How Finely Can Vision-Language Models See Biology? Bio-VQA: A Benchmark for Taxonomic, Morphological, Spatial and Individual Reasoning",
-      "url": "https://arxiv.org/abs/2611.05559",
-      "summary": "arXiv:2611.05559v1 Announce Type: cross\nAbstract: In biodiversity monitoring, a single image raises several questions: which taxon, how many, which trait, and whether the individual has been seen before. Vision-language models (VLMs) could answer all of these from the image, but their ability is largely untested in biology, as existing benchmarks focus mostly on species identification within a few taxonomic groups. We present Bio-VQA, the largest biological visual question answering (VQA) benchmark and the only one to span four aspects of biological visual understanding: hierarchical taxonomi…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "15237a699cc6352e",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "VIPBench: A Human-Aligned Benchmark for Voice Identity Perception in the Age of Voice Cloning",
-      "url": "https://arxiv.org/abs/2611.05638",
-      "summary": "arXiv:2611.05638v1 Announce Type: cross\nAbstract: Speaker-recognition benchmarks test how accurately a model recovers the speaker label of a recording, treating voice identity as a property of the person who produced it. However, these benchmarks do not evaluate how humans perceive voice identity. Whether a listener hears two voices as the same person has consequences for intellectual property rights, cybersecurity, and everyday life. We introduce the Voice Identity Perception benchmark (VIPBench), which contains 124,876 same-or-different judgments from 1,290 listeners on 9,800 recording pair…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "ac8e5efd008a65c5",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "TACT: A Pragmatic Approach to Qualitative Analysis with an AI Council",
-      "url": "https://arxiv.org/abs/2611.05702",
-      "summary": "arXiv:2611.05702v1 Announce Type: cross\nAbstract: Qualitative data can tell software teams what their stakeholders need, yet rigorously analyzing thousands of qualitative responses takes expert time that few teams can afford or justify. Teams therefore often face a false choice: leave the responses unanalyzed, or hand them to a large language model and accept its interpretation and judgment. In this paper, we take a pragmatic approach to AI-assisted qualitative analysis and present TACT (Traceable AI Council for Thematic analysis), a procedure that enables such analysis at scale while keeping…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "large language model"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：large language model"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "b1a45857eb608301",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "OdorSpaces: Visual-Olfactory Embodied Navigation in 3D Environments",
-      "url": "https://arxiv.org/abs/2611.05738",
-      "summary": "arXiv:2611.05738v1 Announce Type: cross\nAbstract: Olfaction provides critical information about airborne chemical cues, yet it remains largely underexplored in embodied AI, with limited prior machine olfaction work focusing primarily on semantic odor perception. We introduce OdorSpaces, a physics-based simulation platform and benchmark for visual-olfactory embodied navigation. OdorSpaces augments Habitat-Sim with 3D odor transport and dispersion simulated by Fire Dynamics Simulator (FDS), enabling agents to navigate photorealistic indoor environments using both visual and olfactory observatio…",
-      "detected_at": "2026-11-05T23:55:21.887399Z",
-      "published_at": "2026-11-05T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、benchmark"
         },
         {
           "factor": "freshness",

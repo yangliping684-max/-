@@ -1,23 +1,31 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-11-14T03:22:07.663495Z",
+  "taken_at": "2026-11-15T02:44:36.637974Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0": {
+      "title": "Delayed Costs Data in the Compliance API",
+      "url": "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
+      "hash": "1cf2975f06d9b3df",
+      "summary": "Status: Monitoring We are monitoring the affected services to confirm recovery. Delays in cost data are still expected. Affected components Compliance API (Degraded performance)",
+      "published_at": "2026-11-14T05:31:20Z",
+      "text": ""
+    },
+    "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962": {
+      "title": "Elevated errors with ChatGPT billing and Ads billing",
+      "url": "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962",
+      "hash": "07f96d6d721f8918",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience.",
+      "published_at": "2026-11-14T05:27:53Z",
+      "text": ""
+    },
     "https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8": {
       "title": "Elevated errors affecting the Microsoft 365 connector",
       "url": "https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8",
       "hash": "de59149f3f071ea5",
       "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Connectors/Apps (Operational)",
       "published_at": "2026-11-14T00:18:13Z",
-      "text": ""
-    },
-    "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0": {
-      "title": "Delayed Costs Data in the Compliance API",
-      "url": "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "hash": "17aa3d00609a4bdb",
-      "summary": "Status: Monitoring We’ve applied a mitigation and are monitoring the affected services to confirm recovery. Delays in cost data are still expected. Affected components Compliance API (Degraded performance)",
-      "published_at": "2026-11-13T18:56:44Z",
       "text": ""
     },
     "https://status.openai.com//incidents/01M79GYA0GA772Y6D089AH5478": {
@@ -395,14 +403,6 @@
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Image Generation (Operational) ChatGPT Work (Operational) Space (Operational) dots (Operational)",
       "published_at": "2026-10-06T03:17:11Z",
       "text": ""
-    },
-    "https://status.openai.com//incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z": {
-      "title": "Elevated Work Mode errors",
-      "url": "https://status.openai.com//incidents/01M45E0JFFJZ6EQ3BWYPW74R2Z",
-      "hash": "fff634ae7e986d16",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Codex in ChatGPT Desktop (Operational) ChatGPT Work (Operational)",
-      "published_at": "2026-10-06T02:10:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -490,7 +490,8 @@
     "https://status.openai.com//incidents/01M78GAT3AK9P9W8Z230KHFVE8",
     "https://status.openai.com//incidents/01M77FAXVFV338GY7G9VRENRS5",
     "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
-    "https://status.openai.com//incidents/01M79GYA0GA772Y6D089AH5478"
+    "https://status.openai.com//incidents/01M79GYA0GA772Y6D089AH5478",
+    "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962"
   ],
   "scope": "https://status.openai.com/feed.rss|50|None"
 }

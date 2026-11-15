@@ -7,11 +7,11 @@
       "industry": "人工智能",
       "careers_url": "https://www.anthropic.com/careers",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 668,
+      "count": 670,
       "complete": true,
-      "total_reported": 668,
+      "total_reported": 670,
       "has_catalog": true,
-      "updated_at": "2026-11-14T03:21:27.919594+00:00"
+      "updated_at": "2026-11-15T02:43:57.072401+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -20,11 +20,11 @@
       "industry": "汽车零部件 / 制造业",
       "careers_url": "https://www.bosch.com.cn/careers/",
       "channel": "SmartRecruiters 官方公开 Posting API",
-      "count": 1333,
+      "count": 1335,
       "complete": true,
-      "total_reported": 1333,
+      "total_reported": 1335,
       "has_catalog": true,
-      "updated_at": "2026-11-14T03:21:28.161658+00:00"
+      "updated_at": "2026-11-15T02:43:57.375231+00:00"
     },
     {
       "source_id": "continental-china-jobs",
@@ -124,11 +124,11 @@
       "industry": "在线旅游 / 互联网",
       "careers_url": "https://careersatagoda.com/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 356,
+      "count": 355,
       "complete": true,
-      "total_reported": 356,
+      "total_reported": 355,
       "has_catalog": true,
-      "updated_at": "2026-11-14T03:21:15.530169+00:00"
+      "updated_at": "2026-11-15T02:43:42.044238+00:00"
     },
     {
       "source_id": "china-logistics-group-recruit",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2764,
-  "generated_at": "2026-11-14T03:22:15.104490+00:00"
+  "total": 2767,
+  "generated_at": "2026-11-15T02:44:44.421146+00:00"
 }

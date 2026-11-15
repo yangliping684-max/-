@@ -1,9 +1,25 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-14T03:21:28.161658Z",
+  "taken_at": "2026-11-15T02:43:57.375231Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000161667199": {
+      "title": "装配工艺开发工程师_DCCB",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161667199",
+      "hash": "cfc2254614996133",
+      "summary": "",
+      "published_at": "2026-11-15T02:35:29.624000Z",
+      "text": ""
+    },
+    "744000161634499": {
+      "title": "Operation Head of Bosch China Training Center",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161634499",
+      "hash": "b964e43565d9e096",
+      "summary": "",
+      "published_at": "2026-11-14T11:04:49.073000Z",
+      "text": ""
+    },
     "744000161433390": {
       "title": "嵌入式软件开发工程师_PS",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161433390",
@@ -12212,7 +12228,9 @@
     "744000161222469",
     "744000161433390",
     "744000161422819",
-    "744000161422759"
+    "744000161422759",
+    "744000161667199",
+    "744000161634499"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

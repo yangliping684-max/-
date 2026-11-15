@@ -1,6 +1,25 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-11-15",
+      "kind": "digest",
+      "created_at": "2026-11-15T02:44:44.421146Z",
+      "title": "每日摘要 2026-11-15：9 条变化",
+      "body": "# 知更日报 2026-11-15\n\n共发现 **9** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [Corporate Counsel, Public Reporting](https://job-boards.greenhouse.io/anthropic/jobs/5462511008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Engineering Manager, Billing Platform](https://job-boards.greenhouse.io/anthropic/jobs/5469291008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Manager, Enterprise Sales - Industries, ANZ](https://job-boards.greenhouse.io/anthropic/jobs/5473344008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 55]** [Some users unable to sign up with Apple on the Claude iOS app](https://status.claude.com/incidents/ct4c2pwf2xpj) — Claude 服务状态 · 新增\n- **[关注 55]** [Elevated errors with ChatGPT billing and Ads billing](https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962) — OpenAI 服务状态 · 新增\n- **[关注 48]** [Elevated purchasing errors on claude.ai](https://status.claude.com/incidents/qrpz8k79qm7x) — Claude 服务状态 · 修改\n- **[关注 48]** [Delayed Costs Data in the Compliance API](https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0) — OpenAI 服务状态 · 修改\n- **[关注 46]** [Data Foundations, GTM Systems](https://job-boards.greenhouse.io/anthropic/jobs/5464234008) — Anthropic 公开职位（Greenhouse） · 修改\n- **[一般 28]** [Data Center Architect, CSA](https://job-boards.greenhouse.io/anthropic/jobs/5339199008) — Anthropic 公开职位（Greenhouse） · 移除\n",
+      "event_ids": [
+        "c43fbe28d9aa239f",
+        "4ab79b7529e52620",
+        "85e9ee5114a8f012",
+        "49d10a3a34ba6e9c",
+        "977c85b748fe8776",
+        "517fc397a22cd2e2",
+        "4d090954629f0864",
+        "5cf5f0dbd77e4f7b",
+        "d1362e267655aa7a"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "alert-6353135050b61d90",
       "kind": "alert",
       "created_at": "2026-11-14T03:22:15.104490Z",

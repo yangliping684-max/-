@@ -1,6 +1,43 @@
 {
   "notifications": [
     {
+      "id": "alert-f4c915151a18c099",
+      "kind": "alert",
+      "created_at": "2026-11-16T02:47:55.794533Z",
+      "title": "2 条情报达到提醒条件",
+      "body": "- [重要·88] Intern Game Tester（育碧 中国区职位）\n- [重要·84] A step toward defining the Standard Model on a lattice（OpenAI News）",
+      "event_ids": [
+        "0d0afa53de0622c9",
+        "8d2274ab1d6f497e"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-11-16",
+      "kind": "digest",
+      "created_at": "2026-11-16T02:47:55.794533Z",
+      "title": "每日摘要 2026-11-16：15 条变化",
+      "body": "# 知更日报 2026-11-16\n\n共发现 **15** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 88]** [Intern Game Tester](https://jobs.smartrecruiters.com/Ubisoft2/744000161721659) — 育碧 中国区职位 · 新增 · 关键词：实习、实习、intern\n- **[重要 84]** [A step toward defining the Standard Model on a lattice](https://openai.com/index/step-toward-defining-the-standard-model) — OpenAI News · 新增 · 关键词：GPT、model\n- **[关注 68]** [Our new blog for science](https://openai.com/index/our-new-blog-for-science) — OpenAI News · 新增\n- **[关注 55]** [0.171.0-alpha.7 (rust-v0.171.0-alpha.7)](https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.7) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [0.171.0-alpha.6 (rust-v0.171.0-alpha.6)](https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6) — OpenAI Codex CLI Releases · 新增\n- **[关注 48]** [Delayed Costs Data in the Compliance API](https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0) — OpenAI 服务状态 · 修改\n- **[一般 38]** [Financial Data and Controls Lead, Billing Platform](https://job-boards.greenhouse.io/anthropic/jobs/5459274008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 36]** [Sr. Buyer (Indirect Purchasing )_ MA](https://jobs.smartrecruiters.com/BoschGroup/744000154986429) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：采购与物料管理\n- **[一般 28]** [Management Trainee](https://jobs.smartrecruiters.com/Expeditors/744000144660279) — Expeditors 中国区职位 · 移除 · 关键词：管培生\n- **[一般 28]** [Corporate Counsel, M&A](https://job-boards.greenhouse.io/anthropic/jobs/5407184008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Head of Digital Natives & Startups, ANZ](https://job-boards.greenhouse.io/anthropic/jobs/5448360008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Regulatory Counsel, AI Regulation, US](https://job-boards.greenhouse.io/anthropic/jobs/5409299008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Sales Enablement Trainer, Claude Products](https://job-boards.greenhouse.io/anthropic/jobs/5428790008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Senior Business Systems Analyst, Finance Systems](https://job-boards.greenhouse.io/anthropic/jobs/4991194008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Transformative AI Research Economist, Economic Research](https://job-boards.greenhouse.io/anthropic/jobs/5149802008) — Anthropic 公开职位（Greenhouse） · 移除\n",
+      "event_ids": [
+        "559b105f422062d3",
+        "0d0afa53de0622c9",
+        "5ed66e7f3b770538",
+        "51ebde5e4db259a4",
+        "f8118af09f8290aa",
+        "9273024ef9776255",
+        "d14e4b84f8497d35",
+        "4b9f1ca430f88da3",
+        "24c1f49db750c469",
+        "20c68e10e94abc30",
+        "8d2274ab1d6f497e",
+        "90823332ef8fa63a",
+        "0976c5400fafe10f",
+        "91486794afe49862",
+        "ca453d4f9f5b9ad1"
+      ],
+      "level": "high"
+    },
+    {
       "id": "digest-2026-11-15",
       "kind": "digest",
       "created_at": "2026-11-15T02:44:44.421146Z",

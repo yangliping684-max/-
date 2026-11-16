@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-15T02:43:42.044238Z",
-  "etag": "W/\"7699f9727ed0795f33cd3aaf357a7648\"",
+  "taken_at": "2026-11-16T02:46:54.741311Z",
+  "etag": "W/\"e506f3fd98877fde2613c983bb112052\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -146,6 +146,14 @@
       "hash": "5c6e29cb1b58dc02",
       "summary": "",
       "published_at": "2026-08-07T07:33:59Z",
+      "text": ""
+    },
+    "8242288": {
+      "title": "Account Specialist, Homes, Bangkok Based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8242288",
+      "hash": "12005c1ad1b3f54a",
+      "summary": "",
+      "published_at": "2026-10-06T04:28:02Z",
       "text": ""
     },
     "8104953": {
@@ -516,6 +524,14 @@
       "published_at": "2026-10-22T06:59:02Z",
       "text": ""
     },
+    "8255575": {
+      "title": "Backend Engineer Manager (Gurugram based)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255575",
+      "hash": "c74715fa2d0b4132",
+      "summary": "",
+      "published_at": "2026-10-22T07:04:34Z",
+      "text": ""
+    },
     "6603735": {
       "title": "Backend Lead Software Engineer (L5) — Bangkok Relocation Provided",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/6603735",
@@ -740,22 +756,6 @@
       "published_at": "2026-10-22T02:55:45Z",
       "text": ""
     },
-    "8188118": {
-      "title": "Customer Experience Team Manager (Pune)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8188118",
-      "hash": "021e028384584d9f",
-      "summary": "",
-      "published_at": "2026-09-10T02:59:53Z",
-      "text": ""
-    },
-    "8326690": {
-      "title": "Customer Service, Escalation - Team Manager (Hindi)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8326690",
-      "hash": "9cb60fc75c726957",
-      "summary": "",
-      "published_at": "2026-10-27T06:15:35Z",
-      "text": ""
-    },
     "8377810": {
       "title": "Customer Service Vendor Manager (Based in Bangkok or Kuala Lumpur)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8377810",
@@ -874,14 +874,6 @@
       "hash": "723cf404b9c97569",
       "summary": "",
       "published_at": "2026-11-13T06:52:25Z",
-      "text": ""
-    },
-    "8241893": {
-      "title": "Frontend/Full Stack Engineer Manager (Bangkok based, Relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8241893",
-      "hash": "0899b88d06c37413",
-      "summary": "",
-      "published_at": "2026-10-09T07:43:02Z",
       "text": ""
     },
     "8280840": {
@@ -2124,6 +2116,14 @@
       "published_at": "2026-11-13T08:21:48Z",
       "text": ""
     },
+    "8385103": {
+      "title": "Senior Support Specialist - Korean Speaker (Bangkok/Seoul)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8385103",
+      "hash": "1810d31f065aea6d",
+      "summary": "",
+      "published_at": "2026-11-16T01:44:23Z",
+      "text": ""
+    },
     "8210458": {
       "title": "Senior Talent Acquisition Partner, Tech (Bangkok-based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8210458",
@@ -2274,6 +2274,14 @@
       "hash": "3a1a88b7f30dcf27",
       "summary": "",
       "published_at": "2026-09-11T11:18:27Z",
+      "text": ""
+    },
+    "8176390": {
+      "title": "Staff Software Engineer - BackEnd (Level 4): Fast track 1-Day Program (26th November) (Gurugram, IND)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8176390",
+      "hash": "754eafeb66519f7c",
+      "summary": "",
+      "published_at": "2026-11-15T05:50:26Z",
       "text": ""
     },
     "7543795": {
@@ -2786,14 +2794,6 @@
       "hash": "d6d4655cefb457c0",
       "summary": "",
       "published_at": "2026-10-27T05:58:35Z",
-      "text": ""
-    },
-    "8152509": {
-      "title": "Team Manager (Gurugram)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8152509",
-      "hash": "65fabcb366cf2e99",
-      "summary": "",
-      "published_at": "2026-08-24T08:12:01Z",
       "text": ""
     },
     "8147182": {
@@ -3331,7 +3331,9 @@
     "8364896",
     "8385059",
     "8385090",
-    "7388078"
+    "7388078",
+    "8385103",
+    "8176390"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

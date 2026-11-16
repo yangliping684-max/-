@@ -1,9 +1,25 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-15T02:43:57.375231Z",
+  "taken_at": "2026-11-16T02:47:09.602677Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000161677349": {
+      "title": "Regional Sales_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161677349",
+      "hash": "9c5195d0fd3609e5",
+      "summary": "",
+      "published_at": "2026-11-15T12:18:34.522000Z",
+      "text": ""
+    },
+    "744000161675399": {
+      "title": "AI学习与组织能力顾问_RBCN",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161675399",
+      "hash": "95a3df25b8ab55f9",
+      "summary": "",
+      "published_at": "2026-11-15T10:08:02.088000Z",
+      "text": ""
+    },
     "744000161667199": {
       "title": "装配工艺开发工程师_DCCB",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161667199",
@@ -18,14 +34,6 @@
       "hash": "b964e43565d9e096",
       "summary": "",
       "published_at": "2026-11-14T11:04:49.073000Z",
-      "text": ""
-    },
-    "744000161433390": {
-      "title": "嵌入式软件开发工程师_PS",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161433390",
-      "hash": "f87722c040f414b9",
-      "summary": "",
-      "published_at": "2026-11-13T07:30:14.673000Z",
       "text": ""
     },
     "744000161422819": {
@@ -58,14 +66,6 @@
       "hash": "d961a75889818712",
       "summary": "",
       "published_at": "2026-11-12T11:09:52.105000Z",
-      "text": ""
-    },
-    "744000161273619": {
-      "title": "AI学习与组织能力顾问/专家_RBCN",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161273619",
-      "hash": "58e67bfdaa804500",
-      "summary": "",
-      "published_at": "2026-11-12T11:08:59.462000Z",
       "text": ""
     },
     "744000161222469": {
@@ -1556,14 +1556,6 @@
       "published_at": "2026-10-12T11:15:47.613000Z",
       "text": ""
     },
-    "744000154986429": {
-      "title": "Sr. Buyer (Indirect Purchasing )_ MA",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154986429",
-      "hash": "8b93b96a8a4a274a",
-      "summary": "",
-      "published_at": "2026-10-12T10:52:04.498000Z",
-      "text": ""
-    },
     "744000154976628": {
       "title": "横向规划算法工程师_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154976628",
@@ -1698,14 +1690,6 @@
       "hash": "022ff55412926b33",
       "summary": "",
       "published_at": "2026-10-06T02:44:47.077000Z",
-      "text": ""
-    },
-    "744000153329829": {
-      "title": "Regional Sales_MA",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000153329829",
-      "hash": "9c5195d0fd3609e5",
-      "summary": "",
-      "published_at": "2026-10-03T12:53:50.429000Z",
       "text": ""
     },
     "744000153329729": {
@@ -2706,14 +2690,6 @@
       "hash": "dd69c2b221c6366a",
       "summary": "",
       "published_at": "2026-09-02T09:31:13.885000Z",
-      "text": ""
-    },
-    "744000146938269": {
-      "title": "智驾数据可视化前端工程师_BCSC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000146938269",
-      "hash": "f3d3d4aafa99486a",
-      "summary": "",
-      "published_at": "2026-09-02T09:30:31.970000Z",
       "text": ""
     },
     "744000146920988": {
@@ -7500,14 +7476,6 @@
       "published_at": "2026-03-23T09:37:10.684000Z",
       "text": ""
     },
-    "744000115622927": {
-      "title": "Senior Manager of Performance Management_C",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000115622927",
-      "hash": "d1fb445c8a386377",
-      "summary": "",
-      "published_at": "2026-03-19T10:13:40.078000Z",
-      "text": ""
-    },
     "744000115597038": {
       "title": "工艺技术员(偏设备维修)_VM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000115597038",
@@ -12230,7 +12198,9 @@
     "744000161422819",
     "744000161422759",
     "744000161667199",
-    "744000161634499"
+    "744000161634499",
+    "744000161677349",
+    "744000161675399"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

@@ -1,15 +1,15 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-11-15T02:44:36.637974Z",
+  "taken_at": "2026-11-16T02:47:48.472801Z",
   "etag": null,
   "last_modified": null,
   "items": {
     "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0": {
       "title": "Delayed Costs Data in the Compliance API",
       "url": "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
-      "hash": "1cf2975f06d9b3df",
-      "summary": "Status: Monitoring We are monitoring the affected services to confirm recovery. Delays in cost data are still expected. Affected components Compliance API (Degraded performance)",
-      "published_at": "2026-11-14T05:31:20Z",
+      "hash": "5de313f429039435",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Compliance API (Operational)",
+      "published_at": "2026-11-16T00:17:25Z",
       "text": ""
     },
     "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962": {

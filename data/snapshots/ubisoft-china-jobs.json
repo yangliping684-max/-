@@ -1,9 +1,17 @@
 {
   "source_id": "ubisoft-china-jobs",
-  "taken_at": "2026-11-05T23:55:02.028946Z",
+  "taken_at": "2026-11-16T02:46:48.146502Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000161721659": {
+      "title": "Intern Game Tester",
+      "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000161721659",
+      "hash": "cd4ec99e6e2970a2",
+      "summary": "",
+      "published_at": "2026-11-16T02:46:07.565000Z",
+      "text": ""
+    },
     "744000159819934": {
       "title": "Community Development & Advocacy Manager [Assassin's Creed]",
       "url": "https://jobs.smartrecruiters.com/Ubisoft2/744000159819934",
@@ -134,7 +142,8 @@
     "744000158702519",
     "744000158699281",
     "744000158697920",
-    "744000159819934"
+    "744000159819934",
+    "744000161721659"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Ubisoft2/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

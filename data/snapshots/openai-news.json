@@ -1,9 +1,25 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-14T03:21:54.956678Z",
+  "taken_at": "2026-11-16T02:47:36.401026Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/step-toward-defining-the-standard-model": {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "hash": "5cc4da0f27a42e3b",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "published_at": "2026-11-15T22:00:01Z",
+      "text": ""
+    },
+    "https://openai.com/index/our-new-blog-for-science": {
+      "title": "Our new blog for science",
+      "url": "https://openai.com/index/our-new-blog-for-science",
+      "hash": "a5b2caa4196770b1",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "published_at": "2026-11-15T22:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/introducing-chatgpt-wallet": {
       "title": "Introducing ChatGPT Wallet",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
@@ -340,19 +356,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/qodo-codex-plugin": {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "hash": "231a28400bc61652",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/dan-driscoll-joins-openai": {
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "hash": "65c019a6cb8c4c7f",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "hash": "231a28400bc61652",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -787,22 +803,6 @@
       "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
       "published_at": "2026-10-14T00:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/higgsfield-longer-videos-voice": {
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "hash": "77fc8365be804d3f",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "published_at": "2026-10-13T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/sophos": {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "url": "https://openai.com/index/sophos",
-      "hash": "28a28748cb9e3f1a",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "published_at": "2026-10-09T07:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -1004,7 +1004,9 @@
     "https://openai.com/business/customer-stories/holidays-extras-codex",
     "https://openai.com/index/children-first-declaration",
     "https://openai.com/index/introducing-chatgpt-wallet",
-    "https://openai.com/business/customer-stories/shield"
+    "https://openai.com/business/customer-stories/shield",
+    "https://openai.com/index/step-toward-defining-the-standard-model",
+    "https://openai.com/index/our-new-blog-for-science"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

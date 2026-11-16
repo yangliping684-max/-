@@ -1,9 +1,25 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-15T02:44:33.504495Z",
-  "etag": "W/\"12b1fadcb4f99c4d1ade20ae699532e5ddcdda574ef07455d0ee451fe6045e3c\"",
+  "taken_at": "2026-11-16T02:47:45.527630Z",
+  "etag": "W/\"3a0f267b7fed3cb13b3ed8a2693a3fbc26f8324e5bfee6a8d3113f011c344245\"",
   "last_modified": null,
   "items": {
+    "446438496": {
+      "title": "0.171.0-alpha.7 (rust-v0.171.0-alpha.7)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.7",
+      "hash": "1122ab773093c505",
+      "summary": "Release 0.171.0-alpha.7",
+      "published_at": "2026-11-15T23:13:50Z",
+      "text": ""
+    },
+    "446288908": {
+      "title": "0.171.0-alpha.6 (rust-v0.171.0-alpha.6)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6",
+      "hash": "abf1a9088d609477",
+      "summary": "Release 0.171.0-alpha.6",
+      "published_at": "2026-11-15T18:58:35Z",
+      "text": ""
+    },
     "443990865": {
       "title": "0.169.0 (rust-v0.169.0)",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0",
@@ -26,22 +42,6 @@
       "hash": "331f59589d083371",
       "summary": "Release 0.171.0-alpha.4",
       "published_at": "2026-11-13T18:52:02Z",
-      "text": ""
-    },
-    "443958671": {
-      "title": "0.171.0-alpha.2 (rust-v0.171.0-alpha.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.2",
-      "hash": "50898399522bd3a0",
-      "summary": "Release 0.171.0-alpha.2",
-      "published_at": "2026-11-13T07:59:06Z",
-      "text": ""
-    },
-    "443793906": {
-      "title": "0.168.0 (rust-v0.168.0)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.168.0",
-      "hash": "270fcdf5a788de4b",
-      "summary": "## New Features\n- Browse model providers under Sessions → Model providers and choose the default for new chats. (#59541, #59722)\n- Enable `features.tui_workspace` to view a side conversation beside the main chat. Drag the divider to resize the panes or press `leader z` to zoom the focused pane. (#58992, #59527, #59595)\n- Attach recordings when using an audio-capable model. Codex skips confirmed rejected recordings on later turns and uses clip duration to keep more short recordings in context. (#59234, #59268)\n- Enable `features.image_generation_animation` to generate or edit animated GIFs wit…",
-      "published_at": "2026-11-13T03:54:29Z",
       "text": ""
     }
   },
@@ -118,7 +118,9 @@
     "444911435",
     "444614249",
     "443958671",
-    "443793906"
+    "443793906",
+    "446438496",
+    "446288908"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

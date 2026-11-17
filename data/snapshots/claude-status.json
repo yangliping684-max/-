@@ -1,15 +1,31 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-16T02:47:46.344116Z",
-  "etag": "W/\"b46e7d0776a2e7ecaa509f79a7d854d8\"",
+  "taken_at": "2026-11-17T05:07:12.863059Z",
+  "etag": "W/\"4793065d58b18d1ebff1e2839225579c\"",
   "last_modified": null,
   "items": {
     "https://status.claude.com/incidents/ct4c2pwf2xpj": {
       "title": "Some users unable to sign up with Apple on the Claude iOS app",
       "url": "https://status.claude.com/incidents/ct4c2pwf2xpj",
-      "hash": "d53ab2ba969e0a4d",
-      "summary": "Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide another update as soon as possible. Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide an update as soon as possible.",
-      "published_at": "2026-11-15T02:10:54Z",
+      "hash": "7c73cc0684e77503",
+      "summary": "Nov 16 , 19:52 UTC Resolved - The issue affecting Sign in with Apple on the Claude iOS app has been resolved. Impact occurred from 16:29 PT on November 13 / 00:29 UTC on November 14 to 10:31 PT / 18:31 UTC on November 16. Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide another update as soon as possible. Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, whic…",
+      "published_at": "2026-11-16T19:52:36Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/b5cq662qf2wm": {
+      "title": "Claude unable to join meetings",
+      "url": "https://status.claude.com/incidents/b5cq662qf2wm",
+      "hash": "4fdf3d8a7eeb0b63",
+      "summary": "Nov 17 , 02:02 UTC Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor and improve join reliability. Claude Meetings is now re-enabled for all Enterprise customers, though Claude may take a little longer than usual to join. Adding Claude to new calls and Auto-join remain paused for Team customers. We will share more updates as we expand capacity and begin restoring the feature for Team customers. Nov 16 , 18:10 UTC Update - Claude may still be unable to join some cal…",
+      "published_at": "2026-11-17T02:02:57Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/r1b4f9bbnsx1": {
+      "title": "Elevated errors for Claude Sonnet 5.5 and Claude Fable 5.2",
+      "url": "https://status.claude.com/incidents/r1b4f9bbnsx1",
+      "hash": "507a4d48c60365cc",
+      "summary": "Nov 16 , 09:04 UTC Resolved - The issue affecting claude.ai, the Claude API, Claude Code, and Claude Cowork has been resolved. Impact occurred from 23:32 PT on November 15 / 07:32 UTC on November 16 to 00:45 PT / 08:45 UTC on November 16. Nov 16 , 08:02 UTC Monitoring - A fix has been deployed for Claude Sonnet 5.5 and other Claude models and we are monitoring for recovery. Nov 16 , 07:49 UTC Investigating - We are currently investigating this issue.",
+      "published_at": "2026-11-16T09:04:39Z",
       "text": ""
     },
     "https://status.claude.com/incidents/qrpz8k79qm7x": {
@@ -187,22 +203,6 @@
       "summary": "Oct 5 , 13:21 UTC Resolved - The issue affecting Claude Mythos 5.1 and Claude Fable 5.1 has been resolved. Impact occurred from 05:40 PT / 12:40 UTC to 06:10 PT / 13:10 UTC. Oct 5 , 13:05 UTC Investigating - We are investigating elevated errors on requests to Claude Mythos 5.1 and Claude Fable 5.1. We will provide an update as soon as possible.",
       "published_at": "2026-10-05T13:21:37Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/k0h22tsvnydg": {
-      "title": "Delayed credits on the Claude Platform",
-      "url": "https://status.claude.com/incidents/k0h22tsvnydg",
-      "hash": "2357d2b8d6a06953",
-      "summary": "Oct 1 , 22:36 UTC Resolved - This issue has been resolved. Oct 1 , 18:23 UTC Monitoring - We have resolved the issue causing delays in credits being applied after purchase. We are monitoring closely to ensure no further issues. Oct 1 , 16:20 UTC Investigating - We are investigating delays in credit purchases being reflected in account balances, resulting in some requests failing for insufficient credit balance. We will provide an additional update as soon as possible.",
-      "published_at": "2026-10-01T22:36:22Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/4xvtc2gnq73l": {
-      "title": "Elevated errors on claude.ai, Claude Code, Claude Cowork and the Claude API",
-      "url": "https://status.claude.com/incidents/4xvtc2gnq73l",
-      "hash": "43d1662c8d2a55fe",
-      "summary": "Sep 29 , 16:27 UTC Resolved - The issue affecting Claude.ai, the Claude desktop and mobile apps, Claude Code, Claude Cowork, and the Claude API has been resolved, and services have been operating normally since recovery. Impact occurred from 07:00 PT / 14:00 UTC to 07:59 PT / 14:59 UTC. Sep 29 , 15:30 UTC Update - All services have been operating normally since 14:59 UTC. We are continuing to monitor. Sep 29 , 15:11 UTC Monitoring - Most services have recovered as of 14:59 UTC. Signing in, starting new chats, voice conversations, Claude Code and Cowork sessions, purchases and file uploads are…",
-      "published_at": "2026-09-29T16:27:21Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -248,7 +248,9 @@
     "https://status.claude.com/incidents/qrpz8k79qm7x",
     "https://status.claude.com/incidents/34wq7gxnxvvm",
     "https://status.claude.com/incidents/nn11wk485zfn",
-    "https://status.claude.com/incidents/ct4c2pwf2xpj"
+    "https://status.claude.com/incidents/ct4c2pwf2xpj",
+    "https://status.claude.com/incidents/b5cq662qf2wm",
+    "https://status.claude.com/incidents/r1b4f9bbnsx1"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

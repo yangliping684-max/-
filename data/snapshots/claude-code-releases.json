@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-16T02:47:00.725517Z",
-  "etag": "W/\"456945ff9ff2b46b5a123538e1654654585996a0e11dedde167e33a64a7e04f9\"",
+  "taken_at": "2026-11-17T05:06:26.117301Z",
+  "etag": "W/\"36daa86101b095154314fe1d4edcf5d7537fdc34004af1a27b8aac2f961451bb\"",
   "last_modified": null,
   "items": {
+    "447444139": {
+      "title": "v2.1.326",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "hash": "08d45ab2400b07fb",
+      "summary": "## What's changed\n- Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode\n- Added a startup warning when an `--allowedTools`, `--disallowedTools` or `--tools` value has an entry that doesn't look like a complete rule\n- Added a message explaining why MCP servers stop loading when an administrator adds `managed-mcp.json` during a session\n- Added a row to `/status` that says when your provider or an environment variable such as `DISABLE_TELEMETRY` turns features off\n- Added a note in `/plugin` and `claude…",
+      "published_at": "2026-11-16T22:11:05Z",
+      "text": ""
+    },
     "444686509": {
       "title": "v2.1.325",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\n- Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
       "published_at": "2026-10-06T03:55:19Z",
       "text": ""
-    },
-    "403993621": {
-      "title": "v2.1.290",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
-      "hash": "099d13eaa84171d7",
-      "summary": "## What's changed\n- Added `serverToolUses` to the result of a mod's `turn.step` hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end\n- Added `agentId` to the `tool.check` event of plugin hooks, so a hook can tell a subagent's permission check from the main session's\n- Added `ceiling` to the question and verdict a mod's `tool.check` hook reads, naming the approval an organization requires for a tool\n- Added `ThemeKey` and `Color` types to the plugin hooks typings, so an editor lists the theme colors a mod's drawing can name\n- Added to `claude plug…",
-      "published_at": "2026-10-05T23:33:17Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -298,7 +298,8 @@
     "439536010",
     "439863658",
     "443483677",
-    "444686509"
+    "444686509",
+    "447444139"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

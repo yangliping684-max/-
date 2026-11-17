@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-16T02:46:52.604856Z",
-  "etag": "W/\"122ee9-GmxT9u2XoMBeg6d3JDTKG4JvIm0\"",
+  "taken_at": "2026-11-17T05:06:15.633091Z",
+  "etag": "W/\"12222b-Tp3q2GYtLbZcLhvZGrtHF/qwUUg\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -36,6 +36,14 @@
       "published_at": "2026-04-16T03:12:06.746000Z",
       "text": ""
     },
+    "9e87c6f6-0021-4e18-9149-11f7284bdc7f": {
+      "title": "Account Manager",
+      "url": "https://jobs.lever.co/lalamove/9e87c6f6-0021-4e18-9149-11f7284bdc7f",
+      "hash": "a759e609e35a7bc9",
+      "summary": "",
+      "published_at": "2026-11-16T20:58:13.164000Z",
+      "text": ""
+    },
     "880b709c-196a-472e-ac7f-cc970a4e5084": {
       "title": "Accountant",
       "url": "https://jobs.lever.co/lalamove/880b709c-196a-472e-ac7f-cc970a4e5084",
@@ -68,28 +76,12 @@
       "published_at": "2026-10-08T18:37:02.999000Z",
       "text": ""
     },
-    "fd6512eb-ba7d-427d-9c83-d6a81c9f47b1": {
-      "title": "Analista Financeiro",
-      "url": "https://jobs.lever.co/lalamove/fd6512eb-ba7d-427d-9c83-d6a81c9f47b1",
-      "hash": "3ce95eef77f9bf14",
-      "summary": "",
-      "published_at": "2026-08-19T13:29:32.212000Z",
-      "text": ""
-    },
     "fae6a6e3-14a8-4dd2-9978-6f04b1b591ab": {
       "title": "Analista Sênior de Estratégia",
       "url": "https://jobs.lever.co/lalamove/fae6a6e3-14a8-4dd2-9978-6f04b1b591ab",
       "hash": "2123f316fe2aa5b9",
       "summary": "",
       "published_at": "2026-11-05T20:29:13.256000Z",
-      "text": ""
-    },
-    "5a54a0d5-f768-4887-be24-ccdeab94c531": {
-      "title": "Analista Sr de FP&A",
-      "url": "https://jobs.lever.co/lalamove/5a54a0d5-f768-4887-be24-ccdeab94c531",
-      "hash": "c6622e31de4d7fd4",
-      "summary": "",
-      "published_at": "2026-11-09T15:45:07.189000Z",
       "text": ""
     },
     "d19288b5-119c-477e-8409-81455f5a2211": {
@@ -444,6 +436,14 @@
       "published_at": "2026-11-05T10:23:53.254000Z",
       "text": ""
     },
+    "edabcc2a-190c-4ce8-8ae9-44ca7dd3fc01": {
+      "title": "Driver Operations Associate (Onboarding Team)",
+      "url": "https://jobs.lever.co/lalamove/edabcc2a-190c-4ce8-8ae9-44ca7dd3fc01",
+      "hash": "466f982ffae74534",
+      "summary": "",
+      "published_at": "2026-07-13T06:50:37.309000Z",
+      "text": ""
+    },
     "5d24098b-55e5-43c2-a86e-ab9bf141ccfc": {
       "title": "Driver Operations Associate (Partnership Management | 6-month contract)",
       "url": "https://jobs.lever.co/lalamove/5d24098b-55e5-43c2-a86e-ab9bf141ccfc",
@@ -676,6 +676,14 @@
       "published_at": "2026-11-06T18:19:01.936000Z",
       "text": ""
     },
+    "b8358edb-1066-4b55-ba65-b11fd4e12aa5": {
+      "title": "Manager, Cybersecurity",
+      "url": "https://jobs.lever.co/lalamove/b8358edb-1066-4b55-ba65-b11fd4e12aa5",
+      "hash": "f4fffa888318e7a2",
+      "summary": "",
+      "published_at": "2023-04-27T08:03:56.417000Z",
+      "text": ""
+    },
     "df376513-c131-4aaa-9b06-426e2ebde124": {
       "title": "Manager, Information Security",
       "url": "https://jobs.lever.co/lalamove/df376513-c131-4aaa-9b06-426e2ebde124",
@@ -788,14 +796,6 @@
       "published_at": "2026-10-15T06:24:52.052000Z",
       "text": ""
     },
-    "8804e600-76ad-4de4-8aa2-d4cf054ee987": {
-      "title": "Public Relations",
-      "url": "https://jobs.lever.co/lalamove/8804e600-76ad-4de4-8aa2-d4cf054ee987",
-      "hash": "3459d7a9c7faf295",
-      "summary": "",
-      "published_at": "2026-05-04T19:26:52.262000Z",
-      "text": ""
-    },
     "331a6bb3-b1e5-4aae-b540-f71296145033": {
       "title": "Risk Analyst",
       "url": "https://jobs.lever.co/lalamove/331a6bb3-b1e5-4aae-b540-f71296145033",
@@ -820,12 +820,12 @@
       "published_at": "2026-10-28T02:18:47.277000Z",
       "text": ""
     },
-    "2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5": {
+    "dc3e3080-96b4-44ca-8caf-71ceb3938519": {
       "title": "Sales Associate - Long Island, New York",
-      "url": "https://jobs.lever.co/lalamove/2baf8bc0-07c2-46ae-a1ac-77c0fb4b45c5",
+      "url": "https://jobs.lever.co/lalamove/dc3e3080-96b4-44ca-8caf-71ceb3938519",
       "hash": "d1a155be00fbcb8b",
       "summary": "",
-      "published_at": "2026-11-03T21:36:43.993000Z",
+      "published_at": "2026-11-16T16:29:19.485000Z",
       "text": ""
     },
     "1c860b16-d2b5-49ec-bcdb-bc977a1497cc": {
@@ -1066,14 +1066,6 @@
       "hash": "ece17fb65afb457d",
       "summary": "",
       "published_at": "2026-10-20T06:26:22.839000Z",
-      "text": ""
-    },
-    "716c40b7-18f6-44f5-aaab-e628cced628e": {
-      "title": "Sürücü Operasyonları Saha Elemanı",
-      "url": "https://jobs.lever.co/lalamove/716c40b7-18f6-44f5-aaab-e628cced628e",
-      "hash": "e2db88f98adbcaf9",
-      "summary": "",
-      "published_at": "2025-09-15T11:25:12.422000Z",
       "text": ""
     },
     "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf": {
@@ -1343,7 +1335,11 @@
     "f83bb900-c4af-4439-b5d8-ecc559a4b0fc",
     "3730a1f3-de8a-40f7-b3a7-0677db59a36f",
     "c7b2dbb0-9965-48db-b83c-12498918393c",
-    "717f69c0-9cc7-461d-9a62-1a90aa8eafcb"
+    "717f69c0-9cc7-461d-9a62-1a90aa8eafcb",
+    "9e87c6f6-0021-4e18-9149-11f7284bdc7f",
+    "edabcc2a-190c-4ce8-8ae9-44ca7dd3fc01",
+    "b8358edb-1066-4b55-ba65-b11fd4e12aa5",
+    "dc3e3080-96b4-44ca-8caf-71ceb3938519"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

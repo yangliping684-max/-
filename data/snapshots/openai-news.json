@@ -1,9 +1,81 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-16T02:47:36.401026Z",
+  "taken_at": "2026-11-17T05:07:02.259922Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "hash": "0ab2dea9bc1f3835",
+      "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "published_at": "2026-11-16T17:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/strengthening-online-child-safety": {
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "hash": "fd7e0db9d3e6e4dd",
+      "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "published_at": "2026-11-16T17:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/science-at-the-frontier": {
+      "title": "Science at the Frontier: How scientists use ChatGPT",
+      "url": "https://openai.com/index/science-at-the-frontier",
+      "hash": "90594ca32259aa32",
+      "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+      "published_at": "2026-11-16T12:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/lvmh-media-division-partnership": {
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "hash": "8fa0d293a89113bc",
+      "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+      "published_at": "2026-11-16T09:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/our-first-phase-of-embedded-assessments": {
+      "title": "Our first phase of embedded assessments",
+      "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "hash": "e1525ef61ad35b11",
+      "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+      "published_at": "2026-11-16T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "hash": "9ef84f7bc10afa4e",
+      "summary": "",
+      "published_at": "2026-11-16T06:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "hash": "a04ed517ae530484",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "published_at": "2026-11-16T06:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/the-kings-trust-and-openai": {
+      "title": "The King’s Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "hash": "21af3646cf04e0d2",
+      "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+      "published_at": "2026-11-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/holiday-extras-dots": {
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "hash": "f2fff95d2b5eb43c",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "published_at": "2026-11-16T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/step-toward-defining-the-standard-model": {
       "title": "A step toward defining the Standard Model on a lattice",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -356,19 +428,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/dan-driscoll-joins-openai": {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "hash": "65c019a6cb8c4c7f",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/qodo-codex-plugin": {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "hash": "231a28400bc61652",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "hash": "65c019a6cb8c4c7f",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -708,19 +780,19 @@
       "published_at": "2026-10-16T19:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/localiza-generative-ai": {
-      "title": "How Localiza reorganized work around generative AI",
-      "url": "https://openai.com/index/localiza-generative-ai",
-      "hash": "81f75cdab2fede92",
-      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/grupo-boticario": {
       "title": "How Grupo Boticário uses AI to strengthen human connections",
       "url": "https://openai.com/index/grupo-boticario",
       "hash": "31803649f052fe74",
       "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
+      "published_at": "2026-10-16T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/localiza-generative-ai": {
+      "title": "How Localiza reorganized work around generative AI",
+      "url": "https://openai.com/index/localiza-generative-ai",
+      "hash": "81f75cdab2fede92",
+      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
       "published_at": "2026-10-16T00:00:00Z",
       "text": ""
     },
@@ -730,78 +802,6 @@
       "hash": "e1cf64513aeccdf6",
       "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
       "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/benefit-street-partners": {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "url": "https://openai.com/index/benefit-street-partners",
-      "hash": "6bacae7e0cb9e78d",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-the-rosalind-academic-plan": {
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "hash": "c41b3865da250466",
-      "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-      "published_at": "2026-10-15T19:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/teaching-students-to-think-and-learn-through-questions": {
-      "title": "Teaching students to think and learn through questions",
-      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "hash": "16497836ac40c921",
-      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "published_at": "2026-10-15T13:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/sullivan-cromwell": {
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "hash": "8fec902a4ac55721",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "published_at": "2026-10-15T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/amp-beyond-coding": {
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "url": "https://openai.com/index/amp-beyond-coding",
-      "hash": "55cba43ac7982158",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "published_at": "2026-10-14T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/sentinelone": {
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "url": "https://openai.com/index/sentinelone",
-      "hash": "73c256666213144a",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "published_at": "2026-10-14T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/third-moment-research": {
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "url": "https://openai.com/index/third-moment-research",
-      "hash": "158ec7b947c44a68",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "published_at": "2026-10-14T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/block-ai-powered-security": {
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "url": "https://openai.com/index/block-ai-powered-security",
-      "hash": "511a1f6b451bad13",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "published_at": "2026-10-14T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic": {
-      "title": "The EU’s next chapter in AI is agentic",
-      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "hash": "278c76950734f94b",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "published_at": "2026-10-14T00:00:00Z",
       "text": ""
     }
   },
@@ -1006,7 +1006,16 @@
     "https://openai.com/index/introducing-chatgpt-wallet",
     "https://openai.com/business/customer-stories/shield",
     "https://openai.com/index/step-toward-defining-the-standard-model",
-    "https://openai.com/index/our-new-blog-for-science"
+    "https://openai.com/index/our-new-blog-for-science",
+    "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "https://openai.com/index/strengthening-online-child-safety",
+    "https://openai.com/index/science-at-the-frontier",
+    "https://openai.com/index/lvmh-media-division-partnership",
+    "https://openai.com/index/our-first-phase-of-embedded-assessments",
+    "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+    "https://openai.com/index/the-kings-trust-and-openai",
+    "https://openai.com/business/customer-stories/holiday-extras-dots"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

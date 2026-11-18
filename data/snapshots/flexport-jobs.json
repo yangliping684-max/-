@@ -1,7 +1,7 @@
 {
   "source_id": "flexport-jobs",
-  "taken_at": "2026-11-17T05:06:15.490473Z",
-  "etag": "W/\"8727295bc0ea610cf943d7d769b58980\"",
+  "taken_at": "2026-11-18T04:27:26.419026Z",
+  "etag": "W/\"9fdc5f4d8e5ca223a285dedf5a7aeaa3\"",
   "last_modified": null,
   "items": {
     "8009198": {
@@ -20,22 +20,6 @@
       "published_at": "2026-09-21T18:58:59Z",
       "text": ""
     },
-    "6893746": {
-      "title": "Account Executive, Enterprise",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/6893746",
-      "hash": "7aebfcd631acc850",
-      "summary": "",
-      "published_at": "2025-05-19T08:33:28Z",
-      "text": ""
-    },
-    "7564336": {
-      "title": "Account Executive, Enterprise",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7564336",
-      "hash": "7aebfcd631acc850",
-      "summary": "",
-      "published_at": "2026-03-05T15:43:35Z",
-      "text": ""
-    },
     "8164060": {
       "title": "Account Executive, Enterprise",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8164060",
@@ -50,6 +34,22 @@
       "hash": "7aebfcd631acc850",
       "summary": "",
       "published_at": "2025-11-11T10:38:27Z",
+      "text": ""
+    },
+    "6893746": {
+      "title": "Account Executive, Enterprise",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/6893746",
+      "hash": "7aebfcd631acc850",
+      "summary": "",
+      "published_at": "2025-05-19T08:33:28Z",
+      "text": ""
+    },
+    "7564336": {
+      "title": "Account Executive, Enterprise",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7564336",
+      "hash": "7aebfcd631acc850",
+      "summary": "",
+      "published_at": "2026-03-05T15:43:35Z",
       "text": ""
     },
     "7564342": {
@@ -76,20 +76,20 @@
       "published_at": "2026-11-02T22:24:31Z",
       "text": ""
     },
-    "8384430": {
-      "title": "Account Executive I (Farmer)",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8384430",
-      "hash": "6a75cd4085094d56",
-      "summary": "",
-      "published_at": "2026-11-12T22:25:59Z",
-      "text": ""
-    },
     "8263322": {
       "title": "Account Executive I (Farmer)",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8263322",
       "hash": "6a75cd4085094d56",
       "summary": "",
       "published_at": "2026-10-20T15:10:00Z",
+      "text": ""
+    },
+    "8384430": {
+      "title": "Account Executive I (Farmer)",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8384430",
+      "hash": "6a75cd4085094d56",
+      "summary": "",
+      "published_at": "2026-11-12T22:25:59Z",
       "text": ""
     },
     "8263332": {
@@ -116,14 +116,6 @@
       "published_at": "2026-05-27T21:23:24Z",
       "text": ""
     },
-    "8224875": {
-      "title": "Account Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8224875",
-      "hash": "a759e609e35a7bc9",
-      "summary": "",
-      "published_at": "2026-09-25T22:58:14Z",
-      "text": ""
-    },
     "7559949": {
       "title": "Account Manager",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/7559949",
@@ -140,6 +132,14 @@
       "published_at": "2026-09-28T06:00:45Z",
       "text": ""
     },
+    "8224875": {
+      "title": "Account Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8224875",
+      "hash": "a759e609e35a7bc9",
+      "summary": "",
+      "published_at": "2026-09-25T22:58:14Z",
+      "text": ""
+    },
     "8229689": {
       "title": "Account Manager (English & Chinese Speaking)",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8229689",
@@ -154,6 +154,14 @@
       "hash": "0449572b105311c4",
       "summary": "",
       "published_at": "2026-10-01T04:33:43Z",
+      "text": ""
+    },
+    "8394473": {
+      "title": "Accounts Receivable Collections Analyst",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8394473",
+      "hash": "0449572b105311c4",
+      "summary": "",
+      "published_at": "2026-11-17T15:43:28Z",
       "text": ""
     },
     "7981646": {
@@ -218,6 +226,22 @@
       "hash": "3e63a63c532603fc",
       "summary": "",
       "published_at": "2026-09-29T17:31:34Z",
+      "text": ""
+    },
+    "8029374": {
+      "title": "Area Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8029374",
+      "hash": "3e63a63c532603fc",
+      "summary": "",
+      "published_at": "2026-06-26T21:23:11Z",
+      "text": ""
+    },
+    "8396799": {
+      "title": "Area Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8396799",
+      "hash": "3e63a63c532603fc",
+      "summary": "",
+      "published_at": "2026-11-18T03:17:18Z",
       "text": ""
     },
     "8070269": {
@@ -292,12 +316,12 @@
       "published_at": "2026-03-04T19:09:32Z",
       "text": ""
     },
-    "8329610": {
+    "8336787": {
       "title": "Customs Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8329610",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8336787",
       "hash": "d0984910d092b614",
       "summary": "",
-      "published_at": "2026-10-27T23:47:53Z",
+      "published_at": "2026-10-30T14:14:59Z",
       "text": ""
     },
     "8263427": {
@@ -308,20 +332,12 @@
       "published_at": "2026-10-08T17:22:14Z",
       "text": ""
     },
-    "8336787": {
+    "8329610": {
       "title": "Customs Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8336787",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8329610",
       "hash": "d0984910d092b614",
       "summary": "",
-      "published_at": "2026-10-30T14:14:59Z",
-      "text": ""
-    },
-    "7384202": {
-      "title": "Customs Specialist",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7384202",
-      "hash": "ad634165ad1d7da1",
-      "summary": "",
-      "published_at": "2025-11-07T23:22:19Z",
+      "published_at": "2026-10-27T23:47:53Z",
       "text": ""
     },
     "7713237": {
@@ -338,6 +354,14 @@
       "hash": "ad634165ad1d7da1",
       "summary": "",
       "published_at": "2026-10-15T18:11:29Z",
+      "text": ""
+    },
+    "7384202": {
+      "title": "Customs Specialist",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7384202",
+      "hash": "ad634165ad1d7da1",
+      "summary": "",
+      "published_at": "2025-11-07T23:22:19Z",
       "text": ""
     },
     "7867207": {
@@ -380,28 +404,12 @@
       "published_at": "2026-09-16T11:21:22Z",
       "text": ""
     },
-    "7954920": {
-      "title": "Enterprise Account Executive",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7954920",
-      "hash": "c50015b267a9bb60",
+    "8393338": {
+      "title": "Engineering Manager, Customs",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8393338",
+      "hash": "b5e9cc9a554536f3",
       "summary": "",
-      "published_at": "2026-06-08T17:41:22Z",
-      "text": ""
-    },
-    "7472386": {
-      "title": "Enterprise Account Executive",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7472386",
-      "hash": "c50015b267a9bb60",
-      "summary": "",
-      "published_at": "2026-01-06T17:10:07Z",
-      "text": ""
-    },
-    "8031531": {
-      "title": "Enterprise Account Executive",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8031531",
-      "hash": "c50015b267a9bb60",
-      "summary": "",
-      "published_at": "2026-06-26T20:20:17Z",
+      "published_at": "2026-11-17T12:02:04Z",
       "text": ""
     },
     "8044066": {
@@ -420,6 +428,14 @@
       "published_at": "2026-07-15T18:43:51Z",
       "text": ""
     },
+    "7954920": {
+      "title": "Enterprise Account Executive",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7954920",
+      "hash": "c50015b267a9bb60",
+      "summary": "",
+      "published_at": "2026-06-08T17:41:22Z",
+      "text": ""
+    },
     "8136587": {
       "title": "Enterprise Account Executive",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8136587",
@@ -428,12 +444,20 @@
       "published_at": "2026-09-24T20:29:31Z",
       "text": ""
     },
-    "8029024": {
+    "8031531": {
       "title": "Enterprise Account Executive",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8029024",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8031531",
       "hash": "c50015b267a9bb60",
       "summary": "",
-      "published_at": "2026-06-30T16:26:45Z",
+      "published_at": "2026-06-26T20:20:17Z",
+      "text": ""
+    },
+    "7472386": {
+      "title": "Enterprise Account Executive",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7472386",
+      "hash": "c50015b267a9bb60",
+      "summary": "",
+      "published_at": "2026-01-06T17:10:07Z",
       "text": ""
     },
     "7905168": {
@@ -460,6 +484,14 @@
       "published_at": "2026-06-23T19:47:46Z",
       "text": ""
     },
+    "8029024": {
+      "title": "Enterprise Account Executive",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8029024",
+      "hash": "c50015b267a9bb60",
+      "summary": "",
+      "published_at": "2026-06-30T16:26:45Z",
+      "text": ""
+    },
     "8024004": {
       "title": "Enterprise Account Executive",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8024004",
@@ -476,14 +508,6 @@
       "published_at": "2026-08-21T15:09:02Z",
       "text": ""
     },
-    "7311915": {
-      "title": "Global Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7311915",
-      "hash": "80482dde3ec94d5e",
-      "summary": "",
-      "published_at": "2026-02-02T16:23:19Z",
-      "text": ""
-    },
     "8204147": {
       "title": "Global Operations Associate",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8204147",
@@ -492,28 +516,12 @@
       "published_at": "2026-09-15T14:28:22Z",
       "text": ""
     },
-    "7450540": {
+    "7311915": {
       "title": "Global Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7450540",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7311915",
       "hash": "80482dde3ec94d5e",
       "summary": "",
-      "published_at": "2025-12-10T23:34:16Z",
-      "text": ""
-    },
-    "8207775": {
-      "title": "Global Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8207775",
-      "hash": "80482dde3ec94d5e",
-      "summary": "",
-      "published_at": "2026-09-16T14:06:22Z",
-      "text": ""
-    },
-    "8378837": {
-      "title": "Global Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8378837",
-      "hash": "80482dde3ec94d5e",
-      "summary": "",
-      "published_at": "2026-11-11T14:39:10Z",
+      "published_at": "2026-02-02T16:23:19Z",
       "text": ""
     },
     "8213181": {
@@ -524,12 +532,36 @@
       "published_at": "2026-09-18T10:29:49Z",
       "text": ""
     },
+    "8378837": {
+      "title": "Global Operations Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8378837",
+      "hash": "80482dde3ec94d5e",
+      "summary": "",
+      "published_at": "2026-11-11T14:39:10Z",
+      "text": ""
+    },
     "7450530": {
       "title": "Global Operations Associate",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/7450530",
       "hash": "80482dde3ec94d5e",
       "summary": "",
       "published_at": "2025-12-10T23:34:11Z",
+      "text": ""
+    },
+    "8207775": {
+      "title": "Global Operations Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8207775",
+      "hash": "80482dde3ec94d5e",
+      "summary": "",
+      "published_at": "2026-09-16T14:06:22Z",
+      "text": ""
+    },
+    "7450540": {
+      "title": "Global Operations Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7450540",
+      "hash": "80482dde3ec94d5e",
+      "summary": "",
+      "published_at": "2025-12-10T23:34:16Z",
       "text": ""
     },
     "8207646": {
@@ -562,6 +594,14 @@
       "hash": "93937d82e8671082",
       "summary": "",
       "published_at": "2026-09-24T11:14:45Z",
+      "text": ""
+    },
+    "8106441": {
+      "title": "Global Operations Specialist",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8106441",
+      "hash": "93937d82e8671082",
+      "summary": "",
+      "published_at": "2026-11-17T21:55:57Z",
       "text": ""
     },
     "8046640": {
@@ -652,20 +692,20 @@
       "published_at": "2026-09-22T23:07:22Z",
       "text": ""
     },
-    "8222058": {
-      "title": "Manager, Ocean Freight",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8222058",
-      "hash": "7be70793868bcbac",
-      "summary": "",
-      "published_at": "2026-09-22T23:07:24Z",
-      "text": ""
-    },
     "8335626": {
       "title": "Manager, Ocean Freight",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8335626",
       "hash": "7be70793868bcbac",
       "summary": "",
       "published_at": "2026-10-29T23:06:57Z",
+      "text": ""
+    },
+    "8222058": {
+      "title": "Manager, Ocean Freight",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8222058",
+      "hash": "7be70793868bcbac",
+      "summary": "",
+      "published_at": "2026-09-22T23:07:24Z",
       "text": ""
     },
     "8280926": {
@@ -676,20 +716,20 @@
       "published_at": "2026-10-14T09:52:28Z",
       "text": ""
     },
-    "8265884": {
-      "title": "Manager, Ocean Procurement",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8265884",
-      "hash": "1aa86e03c602edc7",
-      "summary": "",
-      "published_at": "2026-10-08T22:39:19Z",
-      "text": ""
-    },
     "8247659": {
       "title": "Manager, Ocean Procurement",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8247659",
       "hash": "1aa86e03c602edc7",
       "summary": "",
       "published_at": "2026-10-08T22:39:17Z",
+      "text": ""
+    },
+    "8265884": {
+      "title": "Manager, Ocean Procurement",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8265884",
+      "hash": "1aa86e03c602edc7",
+      "summary": "",
+      "published_at": "2026-10-08T22:39:19Z",
       "text": ""
     },
     "7981879": {
@@ -716,12 +756,28 @@
       "published_at": "2026-07-01T06:56:02Z",
       "text": ""
     },
+    "8304749": {
+      "title": "Ocean Operations Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8304749",
+      "hash": "6b6c247011d2f3d9",
+      "summary": "",
+      "published_at": "2026-10-28T05:25:18Z",
+      "text": ""
+    },
     "7774352": {
       "title": "Ocean Operations Associate",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/7774352",
       "hash": "6b6c247011d2f3d9",
       "summary": "",
       "published_at": "2026-04-02T03:05:48Z",
+      "text": ""
+    },
+    "7702522": {
+      "title": "Ocean Operations Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7702522",
+      "hash": "6b6c247011d2f3d9",
+      "summary": "",
+      "published_at": "2026-03-11T05:16:25Z",
       "text": ""
     },
     "7312100": {
@@ -740,22 +796,6 @@
       "published_at": "2025-09-25T01:16:59Z",
       "text": ""
     },
-    "7702522": {
-      "title": "Ocean Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7702522",
-      "hash": "6b6c247011d2f3d9",
-      "summary": "",
-      "published_at": "2026-03-11T05:16:25Z",
-      "text": ""
-    },
-    "8304749": {
-      "title": "Ocean Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8304749",
-      "hash": "6b6c247011d2f3d9",
-      "summary": "",
-      "published_at": "2026-10-28T05:25:18Z",
-      "text": ""
-    },
     "8349277": {
       "title": "Ocean Operations Associate",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8349277",
@@ -764,20 +804,20 @@
       "published_at": "2026-11-03T10:42:44Z",
       "text": ""
     },
-    "8131984": {
-      "title": "Ocean Planning Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8131984",
-      "hash": "10210ad33d5f13f5",
-      "summary": "",
-      "published_at": "2026-08-18T03:22:56Z",
-      "text": ""
-    },
     "8330095": {
       "title": "Ocean Planning Associate",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8330095",
       "hash": "10210ad33d5f13f5",
       "summary": "",
       "published_at": "2026-10-28T04:16:32Z",
+      "text": ""
+    },
+    "8131984": {
+      "title": "Ocean Planning Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8131984",
+      "hash": "10210ad33d5f13f5",
+      "summary": "",
+      "published_at": "2026-08-18T03:22:56Z",
       "text": ""
     },
     "8364510": {
@@ -828,12 +868,28 @@
       "published_at": "2026-05-08T20:49:38Z",
       "text": ""
     },
+    "8396840": {
+      "title": "Operations Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8396840",
+      "hash": "90797e42cbdea1e7",
+      "summary": "",
+      "published_at": "2026-11-18T03:32:17Z",
+      "text": ""
+    },
     "8073106": {
       "title": "Operations Manager",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8073106",
       "hash": "90797e42cbdea1e7",
       "summary": "",
       "published_at": "2026-07-21T22:16:42Z",
+      "text": ""
+    },
+    "8386921": {
+      "title": "Operations Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8386921",
+      "hash": "90797e42cbdea1e7",
+      "summary": "",
+      "published_at": "2026-11-17T15:44:51Z",
       "text": ""
     },
     "8237417": {
@@ -892,12 +948,12 @@
       "published_at": "2026-10-30T09:38:58Z",
       "text": ""
     },
-    "8353044": {
+    "8224715": {
       "title": "Rotational Development Program",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8353044",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8224715",
       "hash": "7d7e2c1c1cc37bc8",
       "summary": "",
-      "published_at": "2026-11-04T16:47:45Z",
+      "published_at": "2026-09-22T22:29:50Z",
       "text": ""
     },
     "8172300": {
@@ -908,12 +964,12 @@
       "published_at": "2026-09-04T22:49:30Z",
       "text": ""
     },
-    "8224715": {
+    "8353044": {
       "title": "Rotational Development Program",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8224715",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8353044",
       "hash": "7d7e2c1c1cc37bc8",
       "summary": "",
-      "published_at": "2026-09-22T22:29:50Z",
+      "published_at": "2026-11-04T16:47:45Z",
       "text": ""
     },
     "7958603": {
@@ -924,12 +980,12 @@
       "published_at": "2026-06-18T16:19:47Z",
       "text": ""
     },
-    "7122960": {
+    "8084123": {
       "title": "Sales Development Representative",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7122960",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8084123",
       "hash": "971956e3a4d62833",
       "summary": "",
-      "published_at": "2025-07-31T08:31:53Z",
+      "published_at": "2026-07-24T19:24:30Z",
       "text": ""
     },
     "8211206": {
@@ -940,20 +996,20 @@
       "published_at": "2026-09-17T15:59:54Z",
       "text": ""
     },
+    "7122960": {
+      "title": "Sales Development Representative",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7122960",
+      "hash": "971956e3a4d62833",
+      "summary": "",
+      "published_at": "2025-07-31T08:31:53Z",
+      "text": ""
+    },
     "7242880": {
       "title": "Sales Development Representative",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/7242880",
       "hash": "971956e3a4d62833",
       "summary": "",
       "published_at": "2025-09-10T15:49:29Z",
-      "text": ""
-    },
-    "8084123": {
-      "title": "Sales Development Representative",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8084123",
-      "hash": "971956e3a4d62833",
-      "summary": "",
-      "published_at": "2026-07-24T19:24:30Z",
       "text": ""
     },
     "8050576": {
@@ -972,14 +1028,6 @@
       "published_at": "2026-04-07T08:24:42Z",
       "text": ""
     },
-    "8080155": {
-      "title": "Sales Development Representative (Flemish speaking)",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8080155",
-      "hash": "bfebf4957fc005e9",
-      "summary": "",
-      "published_at": "2026-07-27T08:20:15Z",
-      "text": ""
-    },
     "7735332": {
       "title": "Sales Development Representative (Flemish speaking)",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/7735332",
@@ -988,12 +1036,12 @@
       "published_at": "2026-05-18T09:16:05Z",
       "text": ""
     },
-    "7735325": {
-      "title": "Sales Development Representative (Italian speaking)",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7735325",
-      "hash": "1f8971329f5934cd",
+    "8080155": {
+      "title": "Sales Development Representative (Flemish speaking)",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8080155",
+      "hash": "bfebf4957fc005e9",
       "summary": "",
-      "published_at": "2026-05-18T08:01:27Z",
+      "published_at": "2026-07-27T08:20:15Z",
       "text": ""
     },
     "8084127": {
@@ -1004,28 +1052,12 @@
       "published_at": "2026-07-24T19:24:31Z",
       "text": ""
     },
-    "7416435": {
-      "title": "Sales Leader",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7416435",
-      "hash": "bd0be3353f3eb89f",
-      "summary": "",
-      "published_at": "2025-12-05T20:28:09Z",
-      "text": ""
-    },
-    "8184563": {
+    "8172867": {
       "title": "Sales Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8184563",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8172867",
       "hash": "4bcb9163b4e690d0",
       "summary": "",
-      "published_at": "2026-09-07T04:20:49Z",
-      "text": ""
-    },
-    "8222491": {
-      "title": "Sales Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8222491",
-      "hash": "4bcb9163b4e690d0",
-      "summary": "",
-      "published_at": "2026-09-22T05:48:35Z",
+      "published_at": "2026-09-02T08:26:46Z",
       "text": ""
     },
     "8169010": {
@@ -1034,6 +1066,14 @@
       "hash": "4bcb9163b4e690d0",
       "summary": "",
       "published_at": "2026-09-10T10:35:42Z",
+      "text": ""
+    },
+    "8184563": {
+      "title": "Sales Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8184563",
+      "hash": "4bcb9163b4e690d0",
+      "summary": "",
+      "published_at": "2026-09-07T04:20:49Z",
       "text": ""
     },
     "8229684": {
@@ -1060,12 +1100,12 @@
       "published_at": "2026-11-14T00:20:32Z",
       "text": ""
     },
-    "8172867": {
+    "8222491": {
       "title": "Sales Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8172867",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8222491",
       "hash": "4bcb9163b4e690d0",
       "summary": "",
-      "published_at": "2026-09-02T08:26:46Z",
+      "published_at": "2026-09-22T05:48:35Z",
       "text": ""
     },
     "8175845": {
@@ -1116,20 +1156,20 @@
       "published_at": "2026-08-31T19:38:40Z",
       "text": ""
     },
-    "8375179": {
-      "title": "Security Engineer, Product Security",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8375179",
-      "hash": "8308b2a64998d2f1",
-      "summary": "",
-      "published_at": "2026-11-11T00:06:53Z",
-      "text": ""
-    },
     "8375181": {
       "title": "Security Engineer, Product Security",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8375181",
       "hash": "8308b2a64998d2f1",
       "summary": "",
       "published_at": "2026-11-11T00:06:55Z",
+      "text": ""
+    },
+    "8375179": {
+      "title": "Security Engineer, Product Security",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8375179",
+      "hash": "8308b2a64998d2f1",
+      "summary": "",
+      "published_at": "2026-11-11T00:06:53Z",
       "text": ""
     },
     "7734785": {
@@ -1260,14 +1300,6 @@
       "published_at": "2026-08-24T07:04:07Z",
       "text": ""
     },
-    "8001973": {
-      "title": "Senior Manager, Supply Chain Protection & Loss Intelligence",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8001973",
-      "hash": "cccc758d7acd485d",
-      "summary": "",
-      "published_at": "2026-07-14T05:13:51Z",
-      "text": ""
-    },
     "8331539": {
       "title": "Senior Manager, Supply Chain Protection & Loss Intelligence",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8331539",
@@ -1276,12 +1308,12 @@
       "published_at": "2026-10-28T18:01:06Z",
       "text": ""
     },
-    "7981653": {
-      "title": "Senior Ocean Operations Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7981653",
-      "hash": "3d8feec773113d1b",
+    "8001973": {
+      "title": "Senior Manager, Supply Chain Protection & Loss Intelligence",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8001973",
+      "hash": "cccc758d7acd485d",
       "summary": "",
-      "published_at": "2026-06-23T03:00:31Z",
+      "published_at": "2026-07-14T05:13:51Z",
       "text": ""
     },
     "8063944": {
@@ -1290,6 +1322,14 @@
       "hash": "3d8feec773113d1b",
       "summary": "",
       "published_at": "2026-10-29T02:48:57Z",
+      "text": ""
+    },
+    "7981653": {
+      "title": "Senior Ocean Operations Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7981653",
+      "hash": "3d8feec773113d1b",
+      "summary": "",
+      "published_at": "2026-06-23T03:00:31Z",
       "text": ""
     },
     "8070801": {
@@ -1324,20 +1364,20 @@
       "published_at": "2026-11-03T23:35:32Z",
       "text": ""
     },
-    "8332366": {
-      "title": "Senior Regional Manager, Air Freight",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8332366",
-      "hash": "c8c76b52e2171053",
-      "summary": "",
-      "published_at": "2026-10-28T21:01:56Z",
-      "text": ""
-    },
     "8394631": {
       "title": "Senior Regional Manager, Air Freight",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8394631",
       "hash": "c8c76b52e2171053",
       "summary": "",
       "published_at": "2026-11-17T00:55:20Z",
+      "text": ""
+    },
+    "8332366": {
+      "title": "Senior Regional Manager, Air Freight",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8332366",
+      "hash": "c8c76b52e2171053",
+      "summary": "",
+      "published_at": "2026-10-28T21:01:56Z",
       "text": ""
     },
     "8258535": {
@@ -1404,20 +1444,20 @@
       "published_at": "2026-07-24T01:49:30Z",
       "text": ""
     },
-    "8054644": {
-      "title": "Social Media & Content Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-      "hash": "bcee457d4b4dd801",
-      "summary": "",
-      "published_at": "2026-07-09T23:07:14Z",
-      "text": ""
-    },
     "8044163": {
       "title": "Social Media & Content Manager",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8044163",
       "hash": "bcee457d4b4dd801",
       "summary": "",
       "published_at": "2026-07-09T23:07:13Z",
+      "text": ""
+    },
+    "8054644": {
+      "title": "Social Media & Content Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+      "hash": "bcee457d4b4dd801",
+      "summary": "",
+      "published_at": "2026-07-09T23:07:14Z",
       "text": ""
     },
     "8054645": {
@@ -1444,20 +1484,20 @@
       "published_at": "2026-06-03T07:43:50Z",
       "text": ""
     },
-    "7906161": {
-      "title": "Software Engineer II",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/7906161",
-      "hash": "b10713b635fce4f2",
-      "summary": "",
-      "published_at": "2026-05-08T02:54:35Z",
-      "text": ""
-    },
     "5745289": {
       "title": "Software Engineer II",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/5745289",
       "hash": "b10713b635fce4f2",
       "summary": "",
       "published_at": "2024-02-23T08:02:13Z",
+      "text": ""
+    },
+    "7906161": {
+      "title": "Software Engineer II",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/7906161",
+      "hash": "b10713b635fce4f2",
+      "summary": "",
+      "published_at": "2026-05-08T02:54:35Z",
       "text": ""
     },
     "8326088": {
@@ -1524,20 +1564,20 @@
       "published_at": "2026-08-25T23:45:34Z",
       "text": ""
     },
-    "8374703": {
-      "title": "Staff Security Engineer, Product Security",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8374703",
-      "hash": "d0709a3f949c111b",
-      "summary": "",
-      "published_at": "2026-11-11T00:16:29Z",
-      "text": ""
-    },
     "8374701": {
       "title": "Staff Security Engineer, Product Security",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8374701",
       "hash": "d0709a3f949c111b",
       "summary": "",
       "published_at": "2026-11-11T00:16:27Z",
+      "text": ""
+    },
+    "8374703": {
+      "title": "Staff Security Engineer, Product Security",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8374703",
+      "hash": "d0709a3f949c111b",
+      "summary": "",
+      "published_at": "2026-11-11T00:16:29Z",
       "text": ""
     },
     "7819181": {
@@ -1572,12 +1612,12 @@
       "published_at": "2026-08-26T07:15:47Z",
       "text": ""
     },
-    "8384698": {
+    "8385664": {
       "title": "Trade Advisory Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8384698",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8385664",
       "hash": "4a489dab6168f47f",
       "summary": "",
-      "published_at": "2026-11-13T15:13:09Z",
+      "published_at": "2026-11-13T15:14:25Z",
       "text": ""
     },
     "8385662": {
@@ -1588,12 +1628,12 @@
       "published_at": "2026-11-13T15:13:12Z",
       "text": ""
     },
-    "8385664": {
+    "8384698": {
       "title": "Trade Advisory Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8385664",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8384698",
       "hash": "4a489dab6168f47f",
       "summary": "",
-      "published_at": "2026-11-13T15:14:25Z",
+      "published_at": "2026-11-13T15:13:09Z",
       "text": ""
     },
     "8334579": {
@@ -1618,14 +1658,6 @@
       "hash": "f6b8dc7352873d85",
       "summary": "",
       "published_at": "2026-10-15T18:26:27Z",
-      "text": ""
-    },
-    "8171209": {
-      "title": "Trucking Vendor Performance Associate – Ocean Gateway",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8171209",
-      "hash": "ef1f86482cd2cd56",
-      "summary": "",
-      "published_at": "2026-09-03T19:00:06Z",
       "text": ""
     }
   },
@@ -1914,7 +1946,13 @@
     "8384698",
     "8385664",
     "8265074",
-    "8394631"
+    "8394631",
+    "8394473",
+    "8396799",
+    "8393338",
+    "8106441",
+    "8396840",
+    "8386921"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/flexport/jobs|2000|None"
 }

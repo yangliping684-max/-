@@ -1,9 +1,49 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-17T05:07:02.259922Z",
+  "taken_at": "2026-11-18T04:28:10.608321Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "hash": "8e8f350500f1c766",
+      "summary": "Introducing GPT‐6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "published_at": "2026-11-17T17:45:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai": {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "hash": "e3b0927251c17ed8",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-chatgpt-for-sales": {
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "hash": "dcac37bf5e5614b2",
+      "summary": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "published_at": "2026-11-17T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/astra-law-6-2": {
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "hash": "53e7b3c6cdc05627",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-openai-for-chile": {
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "hash": "c88f9ef5a878730b",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/expanding-chatgpt-for-academic-researchers": {
       "title": "Broadening access to AI for scientists",
       "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
@@ -28,6 +68,14 @@
       "published_at": "2026-11-16T12:00:00Z",
       "text": ""
     },
+    "https://openai.com/business/customer-stories/revolut": {
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "hash": "5b9deac6cbb9c0c4",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "published_at": "2026-11-16T09:30:00Z",
+      "text": ""
+    },
     "https://openai.com/index/lvmh-media-division-partnership": {
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "url": "https://openai.com/index/lvmh-media-division-partnership",
@@ -44,19 +92,19 @@
       "published_at": "2026-11-16T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
-      "title": "Advancing computer-use agents for healthcare teams",
-      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "hash": "9ef84f7bc10afa4e",
-      "summary": "",
-      "published_at": "2026-11-16T06:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": {
       "title": "More ways to move care forward with ChatGPT for Healthcare",
       "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "hash": "a04ed517ae530484",
       "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+      "published_at": "2026-11-16T06:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
+      "title": "Advancing computer-use agents for healthcare teams",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "hash": "9ef84f7bc10afa4e",
+      "summary": "",
       "published_at": "2026-11-16T06:00:00Z",
       "text": ""
     },
@@ -137,6 +185,14 @@
       "url": "https://openai.com/index/children-first-declaration",
       "hash": "e7be2047d6285b85",
       "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "published_at": "2026-11-12T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence": {
+      "title": "ChatGPT Ads increases its market presence in 44 countries",
+      "url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+      "hash": "c6a51b3a9d9b9398",
+      "summary": "Aleph selected as ChatGPT Ads’ exclusive reseller in 44 countries to offer local invoicing, in-person support and local market expertise to brands and agencies",
       "published_at": "2026-11-12T00:00:00Z",
       "text": ""
     },
@@ -242,6 +298,14 @@
       "hash": "1ca168bcc2338123",
       "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
       "published_at": "2026-11-09T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/ads/customers/vistaprint": {
+      "title": "How VistaPrint helps small businesses get the word out",
+      "url": "https://openai.com/ads/customers/vistaprint",
+      "hash": "f73eb91d6d85202a",
+      "summary": "Small business owners preparing for a launch or an event often know what they want to accomplish before they know what to print. VistaPrint uses ChatGPT Ads to show how products like signs and branded merchandise can help them get the word out.",
+      "published_at": "2026-11-09T00:00:00Z",
       "text": ""
     },
     "https://openai.com/index/partnering-with-hacktron": {
@@ -739,70 +803,6 @@
       "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
       "published_at": "2026-10-21T00:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/ted-taylor-restaurant": {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "url": "https://openai.com/index/ted-taylor-restaurant",
-      "hash": "3a35e832a2aeecbd",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "published_at": "2026-10-20T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/terminal-x": {
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "url": "https://openai.com/index/terminal-x",
-      "hash": "66a4a65caec4b8c4",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "published_at": "2026-10-20T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/openai-to-acquire-orchestra-bio": {
-      "title": "OpenAI acquires Orchestra Bio",
-      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "hash": "f3da8ec167e76abe",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&amp;D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "published_at": "2026-10-20T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/low-resource-programming-languages": {
-      "title": "Advancing coding in low‐resource programming languages",
-      "url": "https://openai.com/index/low-resource-programming-languages",
-      "hash": "004fb6f04afd9f8e",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "published_at": "2026-10-19T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/itau-generative-ai": {
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "url": "https://openai.com/index/itau-generative-ai",
-      "hash": "a638a2619328701a",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees—in one of Brazil’s most regulated sectors.",
-      "published_at": "2026-10-16T19:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/grupo-boticario": {
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "hash": "31803649f052fe74",
-      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to take on an advisory role.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/localiza-generative-ai": {
-      "title": "How Localiza reorganized work around generative AI",
-      "url": "https://openai.com/index/localiza-generative-ai",
-      "hash": "81f75cdab2fede92",
-      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/stack-overflow-chatgpt-plugin": {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "hash": "e1cf64513aeccdf6",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "published_at": "2026-10-16T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -1015,7 +1015,15 @@
     "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
     "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
     "https://openai.com/index/the-kings-trust-and-openai",
-    "https://openai.com/business/customer-stories/holiday-extras-dots"
+    "https://openai.com/business/customer-stories/holiday-extras-dots",
+    "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+    "https://openai.com/index/introducing-chatgpt-for-sales",
+    "https://openai.com/index/astra-law-6-2",
+    "https://openai.com/index/introducing-openai-for-chile",
+    "https://openai.com/business/customer-stories/revolut",
+    "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
+    "https://openai.com/ads/customers/vistaprint"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

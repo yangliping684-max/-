@@ -1,9 +1,33 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-17T05:06:35.455220Z",
+  "taken_at": "2026-11-18T04:27:43.929009Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000162191019": {
+      "title": "UX/User Researcher_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162191019",
+      "hash": "01ec30d73fa3df56",
+      "summary": "",
+      "published_at": "2026-11-18T00:50:22.267000Z",
+      "text": ""
+    },
+    "744000162042514": {
+      "title": "Software Expert_ M",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162042514",
+      "hash": "6700c9b8cea7e0f7",
+      "summary": "",
+      "published_at": "2026-11-17T10:20:33.180000Z",
+      "text": ""
+    },
+    "744000162003979": {
+      "title": "产品开发项目经理_亚太区_附件事业部_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162003979",
+      "hash": "808115d62787e4eb",
+      "summary": "",
+      "published_at": "2026-11-17T06:57:41.369000Z",
+      "text": ""
+    },
     "744000161991599": {
       "title": "Business Development Manager",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000161991599",
@@ -3346,14 +3370,6 @@
       "hash": "300d2bf2801fbd60",
       "summary": "",
       "published_at": "2026-08-18T01:50:25.491000Z",
-      "text": ""
-    },
-    "744000143787959": {
-      "title": "UX/User Researcher_PT",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000143787959",
-      "hash": "01ec30d73fa3df56",
-      "summary": "",
-      "published_at": "2026-08-17T09:46:42.399000Z",
       "text": ""
     },
     "744000143777709": {
@@ -7860,14 +7876,6 @@
       "published_at": "2026-03-02T11:29:07.573000Z",
       "text": ""
     },
-    "744000112111030": {
-      "title": "Software Expert_ M",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000112111030",
-      "hash": "6700c9b8cea7e0f7",
-      "summary": "",
-      "published_at": "2026-03-02T09:02:21.390000Z",
-      "text": ""
-    },
     "744000112107549": {
       "title": "车型件大客户销售_ MA",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000112107549",
@@ -12234,7 +12242,10 @@
     "744000161779899",
     "744000161731189",
     "744000161724609",
-    "744000161722599"
+    "744000161722599",
+    "744000162191019",
+    "744000162042514",
+    "744000162003979"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

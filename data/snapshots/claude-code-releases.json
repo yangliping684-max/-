@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-17T05:06:26.117301Z",
-  "etag": "W/\"36daa86101b095154314fe1d4edcf5d7537fdc34004af1a27b8aac2f961451bb\"",
+  "taken_at": "2026-11-18T04:27:34.807200Z",
+  "etag": "W/\"ee1d122b41749d31317c72cabe6751b27ae40cfebe93490043c85612da1e773e\"",
   "last_modified": null,
   "items": {
+    "449173658": {
+      "title": "v2.1.327",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
+      "hash": "a250054566ab892d",
+      "summary": "## What's changed\n- Added a confirmation before `/install-github-app` changes a repository\n- Added `claude mcp add-json -` to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a Claude Code session\n- Added a line when a resumed session's earlier messages can't be loaded\n- Added a list in `/status` of broken agent, skill, command and output style files, keybinding errors, an unavailable sandbox, ignored permission settings and hook matchers that never match\n- Added a note in `/config` when other settings override a row\n- Added `x-claude-code-manag…",
+      "published_at": "2026-11-17T23:17:45Z",
+      "text": ""
+    },
     "447444139": {
       "title": "v2.1.326",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added `--marketplace ` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it\n- Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request\n- Added `prompt.autocomplete`, an event a mod hooks to add its own rows to the prompt box's autocomplete list\n- Added prompt cachin…",
       "published_at": "2026-10-06T18:59:30Z",
       "text": ""
-    },
-    "404281867": {
-      "title": "v2.1.291",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
-      "hash": "bb9661b9f86cb662",
-      "summary": "## What's changed\n- Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts\n- Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
-      "published_at": "2026-10-06T03:55:19Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -299,7 +299,8 @@
     "439863658",
     "443483677",
     "444686509",
-    "447444139"
+    "447444139",
+    "449173658"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

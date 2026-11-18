@@ -1,9 +1,17 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-11-16T02:47:48.472801Z",
+  "taken_at": "2026-11-18T04:28:22.909068Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://status.openai.com//incidents/01M7N9VNR6X5SEC90M1YCDB36D": {
+      "title": "Costs API data is delayed",
+      "url": "https://status.openai.com//incidents/01M7N9VNR6X5SEC90M1YCDB36D",
+      "hash": "dc5e00f7d1b7cc12",
+      "summary": "Status: Monitoring We've pushed a fix and are monitoring the recovery. Affected components Compliance API (Degraded performance)",
+      "published_at": "2026-11-17T19:53:49Z",
+      "text": ""
+    },
     "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0": {
       "title": "Delayed Costs Data in the Compliance API",
       "url": "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
@@ -395,14 +403,6 @@
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Login (Operational) File uploads (Operational) Voice mode (Operational) Search (Operational) Conversations (Operational) Images (Operational) Batch (Operational) Chat Completions (Operational) Audio (Operational) Fine-tuning (Operational) Realtime (Operational) Files (Operational) Embeddings (Operational) Moderations (Operational) Compliance API (Operational) Responses (Operational) Image Generation (Operational) GPTs (Operational) Agent (Operational) Login (Operational) Deep Research (Operational) Codex Web…",
       "published_at": "2026-10-06T08:26:10Z",
       "text": ""
-    },
-    "https://status.openai.com//incidents/01M47HC9SGHGFPBN44KGC6SKAQ": {
-      "title": "Elevated errors affecting multiple products including ChatGPT (conversations), Image generations, Spaces and Pages, API rehydration, and Dots.",
-      "url": "https://status.openai.com//incidents/01M47HC9SGHGFPBN44KGC6SKAQ",
-      "hash": "4469a09808032a17",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Conversations (Operational) Image Generation (Operational) ChatGPT Work (Operational) Space (Operational) dots (Operational)",
-      "published_at": "2026-10-06T03:17:11Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -491,7 +491,8 @@
     "https://status.openai.com//incidents/01M77FAXVFV338GY7G9VRENRS5",
     "https://status.openai.com//incidents/01M7ATRS6BMZ61E4JDHJGM79Y0",
     "https://status.openai.com//incidents/01M79GYA0GA772Y6D089AH5478",
-    "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962"
+    "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962",
+    "https://status.openai.com//incidents/01M7N9VNR6X5SEC90M1YCDB36D"
   ],
   "scope": "https://status.openai.com/feed.rss|50|None"
 }

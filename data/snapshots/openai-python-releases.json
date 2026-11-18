@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-17T05:06:26.737778Z",
-  "etag": "W/\"8a32de71332a561bfe6401fde979467bc5ef2b70772b541546c136facdb9c62d\"",
+  "taken_at": "2026-11-18T04:27:35.374890Z",
+  "etag": "W/\"3783ba6221b5ecac30696df8c4dc363806e4129b2e9f72688ffb233601cdd880\"",
   "last_modified": null,
   "items": {
+    "449289001": {
+      "title": "v3.54.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.54.0",
+      "hash": "7fd14cf2062fe5c8",
+      "summary": "## [3.54.0](https://github.com/openai/openai-python/compare/v3.53.0...v3.54.0) (2026-11-17)\n### Features\n* **api:** type Managed Agents budget events ([#4284](https://github.com/openai/openai-python/issues/4284)) ([c5da68a](https://github.com/openai/openai-python/commit/c5da68ac74ad2a4bf89c1248f6403b3123e568db))",
+      "published_at": "2026-11-17T22:42:56Z",
+      "text": ""
+    },
+    "449046774": {
+      "title": "v3.53.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.53.0",
+      "hash": "0bfdb413587e60f6",
+      "summary": "## [3.53.0](https://github.com/openai/openai-python/compare/v3.52.0...v3.53.0) (2026-11-17)\n### Features\n* **api:** add 2-hour and 8-hour Responses background windows ([720bcb5](https://github.com/openai/openai-python/commit/720bcb501dff693e1a57af7ffddd1820e6f2075c))\n* **api:** add the GPT-6.2 Astra Law Responses model identifier ([720bcb5](https://github.com/openai/openai-python/commit/720bcb501dff693e1a57af7ffddd1820e6f2075c))\n* **api:** add the GPT-6.2 Astra model identifier ([720bcb5](https://github.com/openai/openai-python/commit/720bcb501dff693e1a57af7ffddd1820e6f2075c))\n* **api:** add…",
+      "published_at": "2026-11-17T18:40:24Z",
+      "text": ""
+    },
     "447705388": {
       "title": "v3.52.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.52.0",
@@ -227,22 +243,6 @@
       "summary": "## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...v3.28.0) (2026-10-09)\n### Features\n* **api:** add agent environment suspension and expiration ([#4046](https://github.com/openai/openai-python/issues/4046)) ([6aa25a9](https://github.com/openai/openai-python/commit/6aa25a9959f451ef67de948b792779e3d130a9c2))\n### Chores\n* **deps:** bump astral-sh/setup-uv from 10.1.0 to 10.2.0 ([#4026](https://github.com/openai/openai-python/issues/4026)) ([8bfffd4](https://github.com/openai/openai-python/commit/8bfffd40158460d0f5e651590b95cfef5292d93e))\n* **deps:** bump CodeQL init and analy…",
       "published_at": "2026-10-09T20:49:22Z",
       "text": ""
-    },
-    "407958991": {
-      "title": "v3.27.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.27.0",
-      "hash": "9bb230cd25abbccc",
-      "summary": "## [3.27.0](https://github.com/openai/openai-python/compare/v3.26.1...v3.27.0) (2026-10-09)\n### Features\n* **api:** add prewarmed hosted environments ([#4043](https://github.com/openai/openai-python/issues/4043)) ([c511a77](https://github.com/openai/openai-python/commit/c511a77159bc870f31c34388311b7cc62ef15f08))",
-      "published_at": "2026-10-09T13:46:41Z",
-      "text": ""
-    },
-    "406621674": {
-      "title": "v3.26.1",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.26.1",
-      "hash": "62de6ca2c9b32e34",
-      "summary": "## [3.26.1](https://github.com/openai/openai-python/compare/v3.26.0...v3.26.1) (2026-10-08)\n### Bug Fixes\n* **api:** correct custom voice creation parameters ([#4038](https://github.com/openai/openai-python/issues/4038)) ([b9bc5c1](https://github.com/openai/openai-python/commit/b9bc5c141d395165939eccfcfe42d1ed8219ec6a))",
-      "published_at": "2026-10-08T08:53:32Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -302,7 +302,9 @@
     "440028679",
     "443409883",
     "444743749",
-    "447705388"
+    "447705388",
+    "449289001",
+    "449046774"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

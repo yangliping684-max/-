@@ -1,9 +1,17 @@
 {
   "source_id": "continental-china-jobs",
-  "taken_at": "2026-10-26T23:45:04.943147Z",
+  "taken_at": "2026-11-18T04:27:19.814612Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000162213599": {
+      "title": "CN - Tires - (Senior) Consumer Marketing Specialist",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000162213599",
+      "hash": "3f96e5dcda2b7e63",
+      "summary": "",
+      "published_at": "2026-11-18T02:23:03.462000Z",
+      "text": ""
+    },
     "744000157718959": {
       "title": "CN - Tires - Conti Care Specialist (Leasing HC)",
       "url": "https://jobs.smartrecruiters.com/Continental/744000157718959",
@@ -26,14 +34,6 @@
       "hash": "66dbf77c94491a4d",
       "summary": "",
       "published_at": "2026-10-13T01:15:26.079000Z",
-      "text": ""
-    },
-    "744000154399169": {
-      "title": "Non-Tire Service Specialist",
-      "url": "https://jobs.smartrecruiters.com/Continental/744000154399169",
-      "hash": "1f379cea4d51679a",
-      "summary": "",
-      "published_at": "2026-10-08T10:18:09.974000Z",
       "text": ""
     },
     "744000151189150": {
@@ -232,7 +232,8 @@
     "743999913946083",
     "744000155159729",
     "744000155145559",
-    "744000157718959"
+    "744000157718959",
+    "744000162213599"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Continental/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

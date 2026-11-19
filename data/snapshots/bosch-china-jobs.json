@@ -1,9 +1,65 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-18T04:27:43.929009Z",
+  "taken_at": "2026-11-19T04:14:22.073714Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000162426081": {
+      "title": "Supplier Quality Engineer_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162426081",
+      "hash": "d271469f3fb79e98",
+      "summary": "",
+      "published_at": "2026-11-19T01:42:10.602000Z",
+      "text": ""
+    },
+    "744000162279199": {
+      "title": "渠道销售代表(武汉)_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162279199",
+      "hash": "22105f61b7762196",
+      "summary": "",
+      "published_at": "2026-11-18T11:51:14.884000Z",
+      "text": ""
+    },
+    "744000162258610": {
+      "title": "Senior System Engineer(eAxle) _ EM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162258610",
+      "hash": "97095c88a18ac83a",
+      "summary": "",
+      "published_at": "2026-11-18T10:05:17.273000Z",
+      "text": ""
+    },
+    "744000162254789": {
+      "title": "Internal Auditor - Supply Chain_C",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162254789",
+      "hash": "7ab28142c40c520b",
+      "summary": "",
+      "published_at": "2026-11-18T09:47:08.957000Z",
+      "text": ""
+    },
+    "744000162238691": {
+      "title": "鼓风机应用工程师 HVAC Blower Validation Engineer_PS-TS",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162238691",
+      "hash": "a98a3f666933a884",
+      "summary": "",
+      "published_at": "2026-11-18T08:13:59.173000Z",
+      "text": ""
+    },
+    "744000162235839": {
+      "title": "硬件项目经理PCM(苏州)_BCSC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162235839",
+      "hash": "a9b584ee39109840",
+      "summary": "",
+      "published_at": "2026-11-18T07:52:46.210000Z",
+      "text": ""
+    },
+    "744000162226949": {
+      "title": "Regional Sales_MA",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162226949",
+      "hash": "9c5195d0fd3609e5",
+      "summary": "",
+      "published_at": "2026-11-18T06:41:17.322000Z",
+      "text": ""
+    },
     "744000162191019": {
       "title": "UX/User Researcher_PT",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162191019",
@@ -12245,7 +12301,14 @@
     "744000161722599",
     "744000162191019",
     "744000162042514",
-    "744000162003979"
+    "744000162003979",
+    "744000162426081",
+    "744000162279199",
+    "744000162258610",
+    "744000162254789",
+    "744000162238691",
+    "744000162235839",
+    "744000162226949"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

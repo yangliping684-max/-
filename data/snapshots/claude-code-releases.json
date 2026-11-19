@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-18T04:27:34.807200Z",
-  "etag": "W/\"ee1d122b41749d31317c72cabe6751b27ae40cfebe93490043c85612da1e773e\"",
+  "taken_at": "2026-11-19T04:14:12.502202Z",
+  "etag": "W/\"efc4b31670ac3ac693165225dc059a18bb8e2c01246c685c42d5f3cdc8b4d8a9\"",
   "last_modified": null,
   "items": {
+    "450696184": {
+      "title": "v2.1.328",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
+      "hash": "52ac2cad154673ef",
+      "summary": "## What's changed\n- Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps gateway; interactive sessions with no permission mode start in it\n- Added `\"onFailure\": \"block\"` for `mcp_tool` hooks, as for command and HTTP hooks: a hook whose call fails blocks the action\n- Added a warning when a message from a session that skips permission prompts may be held and dropped by a cloud session\n- Added a notice in `/status` and `claude doctor` when an OpenTelemetry exporter has no endpoint and its data would likely be lost…",
+      "published_at": "2026-11-19T01:14:04Z",
+      "text": ""
+    },
     "449173658": {
       "title": "v2.1.327",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.327",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of behind tool search\n- Fixed Claude sometimes treating its own last actions before a context compaction as done after it, and retracting or redoing finished work\n- Fixed a memory leak whe…",
       "published_at": "2026-10-07T18:10:20Z",
       "text": ""
-    },
-    "404958910": {
-      "title": "v2.1.292",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "hash": "adbf996ddd6912ad",
-      "summary": "## What's changed\n- Added `--marketplace ` to `claude plugin install`: adds the marketplace if needed, under the same policy checks as `claude plugin marketplace add`, then installs the plugin from it\n- Added an `effort` parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS` environment variable to set a longer base delay for the backoff when retrying an overloaded (529) request\n- Added `prompt.autocomplete`, an event a mod hooks to add its own rows to the prompt box's autocomplete list\n- Added prompt cachin…",
-      "published_at": "2026-10-06T18:59:30Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -300,7 +300,8 @@
     "443483677",
     "444686509",
     "447444139",
-    "449173658"
+    "449173658",
+    "450696184"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

@@ -1,7 +1,7 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-18T04:28:20.079226Z",
-  "etag": "W/\"92c09bce1d0067b8984b0943c515ed9c0c05186118c7043ba4a96a327dc3c0df\"",
+  "taken_at": "2026-11-19T04:14:58.089764Z",
+  "etag": "W/\"ea6c910642cb52d01d29415f44fa6ad68f32b1f7bd2781e6e0aeb393da34e618\"",
   "last_modified": null,
   "items": {
     "449494076": {
@@ -10,6 +10,22 @@
       "hash": "1f6848cdfccd6dfa",
       "summary": "## New Features\n- Added WebRTC negotiation for realtime voice calls in the TUI. (#61172)\n- Added automatically refreshed authentication headers for OpenTelemetry HTTP exporters. (#61028)\n- Added experimental support for using identically named MCP servers across environments. (#60905)\n## Bug Fixes\n- Oversized WebSocket requests now fall back to HTTP without unnecessary retries. (#60840, #60841)\n- Fixed MCP OAuth credential races during cancellation, login, and logout. (#60849, #60981)\n- Improved automatic reconnection for Cloud conversations and preserved active recovery turns when clients re…",
       "published_at": "2026-11-18T03:40:48Z",
+      "text": ""
+    },
+    "450354810": {
+      "title": "0.172.0-alpha.1 (rust-v0.172.0-alpha.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.1",
+      "hash": "be77be1a58a6764f",
+      "summary": "Release 0.172.0-alpha.1",
+      "published_at": "2026-11-18T17:54:54Z",
+      "text": ""
+    },
+    "449575190": {
+      "title": "0.171.0-alpha.13 (rust-v0.171.0-alpha.13)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13",
+      "hash": "b35d1e29d0d49629",
+      "summary": "Release 0.171.0-alpha.13",
+      "published_at": "2026-11-18T05:47:55Z",
       "text": ""
     },
     "449424831": {
@@ -26,22 +42,6 @@
       "hash": "68e17d6fa22685ff",
       "summary": "## Chores\nNo verified release highlights available.\n## Changelog\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.169.0...rust-v0.169.1",
       "published_at": "2026-11-17T22:21:10Z",
-      "text": ""
-    },
-    "448743129": {
-      "title": "0.171.0-alpha.12 (rust-v0.171.0-alpha.12)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.12",
-      "hash": "ec4c8b130ba81f31",
-      "summary": "Release 0.171.0-alpha.12",
-      "published_at": "2026-11-17T14:26:49Z",
-      "text": ""
-    },
-    "448129039": {
-      "title": "0.171.0-alpha.11 (rust-v0.171.0-alpha.11)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.11",
-      "hash": "fb9144da8ee4f05f",
-      "summary": "Release 0.171.0-alpha.11",
-      "published_at": "2026-11-17T04:24:57Z",
       "text": ""
     }
   },
@@ -129,7 +129,9 @@
     "449494076",
     "449424831",
     "449266447",
-    "448743129"
+    "448743129",
+    "450354810",
+    "449575190"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

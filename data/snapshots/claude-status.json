@@ -1,9 +1,17 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-18T04:28:20.865263Z",
-  "etag": "W/\"209ad45a6434732b53ad5eb871e5aafc\"",
+  "taken_at": "2026-11-19T04:14:59.087270Z",
+  "etag": "W/\"e2b8dba19a8069ef494c47591a3a2137\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/b5cq662qf2wm": {
+      "title": "Claude Meetings auto-join limited on the Team plan",
+      "url": "https://status.claude.com/incidents/b5cq662qf2wm",
+      "hash": "ca196fd6745055e1",
+      "summary": "Nov 19 , 02:15 UTC Resolved - Claude Meetings (beta) is joining calls normally. Enterprise and Team customers can add Claude to calls. Auto-join is available for all Enterprise customers and some Team customers. We'll continue rolling out auto-join to additional Team customers in the coming days. Nov 17 , 23:39 UTC Update - Claude Meetings (beta) is joining calls more reliably, and we are monitoring it. It remains enabled for all Enterprise customers. Team customers can again add Claude to new calls manually, and Auto-join is being restored gradually for Team customers. Nov 17 , 02:02 UTC Ide…",
+      "published_at": "2026-11-19T02:15:05Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/6prv10gjdpz1": {
       "title": "Elevated errors affecting the Google Docs connector",
       "url": "https://status.claude.com/incidents/6prv10gjdpz1",
@@ -26,14 +34,6 @@
       "hash": "7c73cc0684e77503",
       "summary": "Nov 16 , 19:52 UTC Resolved - The issue affecting Sign in with Apple on the Claude iOS app has been resolved. Impact occurred from 16:29 PT on November 13 / 00:29 UTC on November 14 to 10:31 PT / 18:31 UTC on November 16. Nov 14 , 20:12 UTC Update - We are continuing to investigate an issue with Sign in with Apple on the Claude iOS app, which is mainly affecting new accounts. New users can sign up with Google or email instead. We will provide another update as soon as possible. Nov 14 , 07:11 UTC Investigating - We are investigating an issue with Sign in with Apple on the Claude iOS app, whic…",
       "published_at": "2026-11-16T19:52:36Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/b5cq662qf2wm": {
-      "title": "Claude unable to join meetings",
-      "url": "https://status.claude.com/incidents/b5cq662qf2wm",
-      "hash": "c3f99d5cd5f45d39",
-      "summary": "Nov 17 , 23:39 UTC Update - Claude Meetings (beta) is joining calls more reliably, and we are monitoring it. It remains enabled for all Enterprise customers. Team customers can again add Claude to new calls manually, and Auto-join is being restored gradually for Team customers. Nov 17 , 02:02 UTC Identified - Claude Meetings (beta) saw higher than expected demand today, and Claude was unable to join many calls. We have put mitigations in place and are continuing to monitor and improve join reliability. Claude Meetings is now re-enabled for all Enterprise customers, though Claude may take a li…",
-      "published_at": "2026-11-18T01:29:51Z",
       "text": ""
     },
     "https://status.claude.com/incidents/r1b4f9bbnsx1": {

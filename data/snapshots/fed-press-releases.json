@@ -1,9 +1,17 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-11-14T03:21:21.285635Z",
-  "etag": "W/\"eb4a6e15b473dd1:0\"",
-  "last_modified": "Fri, 13 Nov 2026 21:15:18 GMT",
+  "taken_at": "2026-11-19T04:14:14.818299Z",
+  "etag": "W/\"4cb96b8f77dd1:0\"",
+  "last_modified": "Wed, 18 Nov 2026 19:00:14 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm": {
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+      "hash": "5dd111c8f3ace6af",
+      "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "published_at": "2026-11-18T19:00:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm": {
       "title": "Agencies extend comment period for proposed third-party risk management guidance",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
@@ -155,14 +163,6 @@
       "summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
       "published_at": "2026-09-29T20:00:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm": {
-      "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
-      "hash": "d2db651994e28bf5",
-      "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-      "published_at": "2026-09-25T20:30:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -195,7 +195,8 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
   ],
   "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

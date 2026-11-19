@@ -1,9 +1,65 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-18T04:28:10.608321Z",
+  "taken_at": "2026-11-19T04:14:48.930163Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/the-silent-consensus": {
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "hash": "f44b37df57fb0705",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "published_at": "2026-11-18T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/research-acceleration-jagged-frontier": {
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "hash": "9b44d35114fd82ff",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "published_at": "2026-11-18T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/sumitomo-life": {
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "hash": "65671232c2ca4690",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "published_at": "2026-11-18T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/inside-the-codex-sandbox": {
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "hash": "bb36882eabd4e2f6",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "published_at": "2026-11-18T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/managing-frontier-ai-risk": {
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "hash": "2786e8ab351e82f9",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "published_at": "2026-11-18T06:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "hash": "8a0d26770b095be6",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "published_at": "2026-11-18T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advancing-chip-design-with-our-models": {
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "hash": "1420ffbe27960fa4",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‐V core designs, showing progress in AI-assisted chip design with GPT‐6 Astra.",
+      "published_at": "2026-11-18T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
       "title": "Introducing GPT-6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -468,19 +524,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "hash": "3cb3f12648a991ce",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "hash": "b0a37841e4c3336c",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "hash": "3cb3f12648a991ce",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -747,62 +803,6 @@
       "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "published_at": "2026-10-21T21:00:00Z",
       "text": ""
-    },
-    "https://openai.com/index/openai-models-google-cloud": {
-      "title": "OpenAI models are coming to Google Cloud",
-      "url": "https://openai.com/index/openai-models-google-cloud",
-      "hash": "73195e1de1dff9a1",
-      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
-      "published_at": "2026-10-21T12:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities": {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "hash": "3d7ce40e63a80634",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "published_at": "2026-10-21T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/chatgpt-ads-expands-26-new-countries": {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "hash": "118a0ec468c7585a",
-      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "published_at": "2026-10-21T13:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/scaling-ai-research-for-complex-biological-data": {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "hash": "8b3470c18d895327",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "published_at": "2026-10-21T04:50:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/cloudflare-cyber": {
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "url": "https://openai.com/index/cloudflare-cyber",
-      "hash": "cc3fe916c30e48a7",
-      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "published_at": "2026-10-21T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/building-chatgpt-ad-stack": {
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "url": "https://openai.com/index/building-chatgpt-ad-stack",
-      "hash": "96aa3d76d9c1648d",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "published_at": "2026-10-21T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/empowering-cyber-defenders": {
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "url": "https://openai.com/index/empowering-cyber-defenders",
-      "hash": "f12d87eb7915accc",
-      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "published_at": "2026-10-21T00:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -1023,7 +1023,14 @@
     "https://openai.com/index/introducing-openai-for-chile",
     "https://openai.com/business/customer-stories/revolut",
     "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence",
-    "https://openai.com/ads/customers/vistaprint"
+    "https://openai.com/ads/customers/vistaprint",
+    "https://openai.com/index/the-silent-consensus",
+    "https://openai.com/index/research-acceleration-jagged-frontier",
+    "https://openai.com/business/customer-stories/sumitomo-life",
+    "https://openai.com/index/inside-the-codex-sandbox",
+    "https://openai.com/index/managing-frontier-ai-risk",
+    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+    "https://openai.com/index/advancing-chip-design-with-our-models"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

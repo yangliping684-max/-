@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-18T04:27:26.497960Z",
-  "etag": "W/\"12b663-nSbsOBcEsdHfUktRg2m/3PFU4r8\"",
+  "taken_at": "2026-11-19T04:14:05.583198Z",
+  "etag": "W/\"1373c6-qLG1UhJtNoaPjK1+gcKZ4jesPD0\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -18,6 +18,14 @@
       "hash": "67447e449ddf9074",
       "summary": "",
       "published_at": "2026-10-14T10:54:49.867000Z",
+      "text": ""
+    },
+    "de39b7b3-636c-48a9-a0a7-93f07f0355f0": {
+      "title": "Account Executive – Outbound | Vitória (ES)",
+      "url": "https://jobs.lever.co/lalamove/de39b7b3-636c-48a9-a0a7-93f07f0355f0",
+      "hash": "8ce3674a858c529a",
+      "summary": "",
+      "published_at": "2026-11-18T19:02:12.527000Z",
       "text": ""
     },
     "a509109c-17b2-451d-a04e-3bba46562794": {
@@ -42,22 +50,6 @@
       "hash": "a759e609e35a7bc9",
       "summary": "",
       "published_at": "2026-11-16T20:58:13.164000Z",
-      "text": ""
-    },
-    "880b709c-196a-472e-ac7f-cc970a4e5084": {
-      "title": "Accountant",
-      "url": "https://jobs.lever.co/lalamove/880b709c-196a-472e-ac7f-cc970a4e5084",
-      "hash": "29d8c99ec25b2710",
-      "summary": "",
-      "published_at": "2026-09-11T04:11:46.513000Z",
-      "text": ""
-    },
-    "99ee2223-34f3-472c-839b-f5c86d184104": {
-      "title": "Accounting Associate (AR)",
-      "url": "https://jobs.lever.co/lalamove/99ee2223-34f3-472c-839b-f5c86d184104",
-      "hash": "c022fb2e81143e8b",
-      "summary": "",
-      "published_at": "2026-11-03T08:44:14.456000Z",
       "text": ""
     },
     "5b3bce82-cb0d-41aa-92f3-59eced4887fa": {
@@ -85,9 +77,9 @@
       "text": ""
     },
     "d19288b5-119c-477e-8409-81455f5a2211": {
-      "title": "Application & IT Support Engineer",
+      "title": "Application Support Engineer",
       "url": "https://jobs.lever.co/lalamove/d19288b5-119c-477e-8409-81455f5a2211",
-      "hash": "40ab839f1780d097",
+      "hash": "e2152c5883106eba",
       "summary": "",
       "published_at": "2026-11-02T15:29:47.202000Z",
       "text": ""
@@ -202,6 +194,14 @@
       "hash": "7a46f37ff9eff4ef",
       "summary": "",
       "published_at": "2025-09-11T08:07:35.348000Z",
+      "text": ""
+    },
+    "9e8a9873-35b1-48de-9400-2caa02265eb3": {
+      "title": "Business Development Associate",
+      "url": "https://jobs.lever.co/lalamove/9e8a9873-35b1-48de-9400-2caa02265eb3",
+      "hash": "8180560138a0b324",
+      "summary": "",
+      "published_at": "2026-11-18T11:56:59.190000Z",
       "text": ""
     },
     "bc7a424f-ed12-42ec-bb1f-b2f0b1682eed": {
@@ -468,14 +468,6 @@
       "published_at": "2026-09-23T08:45:32.033000Z",
       "text": ""
     },
-    "6d2586ae-7047-4868-b899-4bed5f0629b1": {
-      "title": "Driver Operations Associate Team Lead (Long Haul)",
-      "url": "https://jobs.lever.co/lalamove/6d2586ae-7047-4868-b899-4bed5f0629b1",
-      "hash": "c9e5110f5de7f341",
-      "summary": "",
-      "published_at": "2026-04-30T09:00:38.449000Z",
-      "text": ""
-    },
     "5dd840ae-c07c-4144-a896-abfa6a06a031": {
       "title": "Driver Operations Associate 會員營運專員 (Management)",
       "url": "https://jobs.lever.co/lalamove/5dd840ae-c07c-4144-a896-abfa6a06a031",
@@ -548,6 +540,14 @@
       "published_at": "2026-11-11T23:09:52.611000Z",
       "text": ""
     },
+    "64adc014-532d-4271-add4-7dbeaa7d6e3a": {
+      "title": "FP&A Team Lead",
+      "url": "https://jobs.lever.co/lalamove/64adc014-532d-4271-add4-7dbeaa7d6e3a",
+      "hash": "bda8fc8fd4e181ee",
+      "summary": "",
+      "published_at": "2026-11-18T20:14:40.607000Z",
+      "text": ""
+    },
     "01ea2a58-4e9d-441b-ae65-3e25de4244ad": {
       "title": "Global Trainee Program 2027",
       "url": "https://jobs.lever.co/lalamove/01ea2a58-4e9d-441b-ae65-3e25de4244ad",
@@ -610,6 +610,14 @@
       "hash": "53369581ce054a64",
       "summary": "",
       "published_at": "2026-04-01T14:55:01.139000Z",
+      "text": ""
+    },
+    "bb10cc0e-4d2d-493e-962f-83eed83b183b": {
+      "title": "Junior FP&A Analyst",
+      "url": "https://jobs.lever.co/lalamove/bb10cc0e-4d2d-493e-962f-83eed83b183b",
+      "hash": "8260cc0ab3af33d4",
+      "summary": "",
+      "published_at": "2026-11-18T20:23:08.863000Z",
       "text": ""
     },
     "8ce6ab82-60af-462b-81ef-6cfcda33bbb3": {
@@ -722,6 +730,14 @@
       "hash": "dc759e20531bd7d0",
       "summary": "",
       "published_at": "2026-10-14T23:46:29.430000Z",
+      "text": ""
+    },
+    "9053e477-835b-40ac-9fd9-52411b63edd4": {
+      "title": "Marketing Intern",
+      "url": "https://jobs.lever.co/lalamove/9053e477-835b-40ac-9fd9-52411b63edd4",
+      "hash": "af5d1e8c7f7afae0",
+      "summary": "",
+      "published_at": "2025-08-06T07:23:24.606000Z",
       "text": ""
     },
     "149db584-c6e7-4da5-a96d-669152a04eee": {
@@ -1020,12 +1036,36 @@
       "published_at": "2026-11-02T10:43:02.653000Z",
       "text": ""
     },
+    "88f3f93c-65b4-4e62-a9e8-f9c29a5c2cc4": {
+      "title": "Senior Driver Operations Assistant – Vendor & Fleet (Belo Horizonte)",
+      "url": "https://jobs.lever.co/lalamove/88f3f93c-65b4-4e62-a9e8-f9c29a5c2cc4",
+      "hash": "e7407d27001a7a3e",
+      "summary": "",
+      "published_at": "2026-11-18T19:28:20.105000Z",
+      "text": ""
+    },
+    "d92f8747-5edc-4dc9-82eb-bcee3689deae": {
+      "title": "Senior Driver Operations Assistant – Vendor & Fleet (Vitória - ES)",
+      "url": "https://jobs.lever.co/lalamove/d92f8747-5edc-4dc9-82eb-bcee3689deae",
+      "hash": "f05c41d3fc99eb23",
+      "summary": "",
+      "published_at": "2026-11-18T19:51:36.062000Z",
+      "text": ""
+    },
     "8ff6d89d-8fb3-4e1e-a124-4d0c0699c844": {
       "title": "Senior Driver Operations Associate 夥伴營運資深專員 (Management)",
       "url": "https://jobs.lever.co/lalamove/8ff6d89d-8fb3-4e1e-a124-4d0c0699c844",
       "hash": "b14994f67272caf7",
       "summary": "",
       "published_at": "2026-07-15T03:47:10.154000Z",
+      "text": ""
+    },
+    "5e34dae4-b79e-48c6-b068-0a8a2ec2bd54": {
+      "title": "Senior Key Account Manager (Belo Horizonte)",
+      "url": "https://jobs.lever.co/lalamove/5e34dae4-b79e-48c6-b068-0a8a2ec2bd54",
+      "hash": "6c650691d791d70e",
+      "summary": "",
+      "published_at": "2026-11-18T17:42:58.330000Z",
       "text": ""
     },
     "b5c293b6-968e-4a70-a996-4dd568f72545": {
@@ -1106,6 +1146,14 @@
       "hash": "ece17fb65afb457d",
       "summary": "",
       "published_at": "2026-10-20T06:26:22.839000Z",
+      "text": ""
+    },
+    "e6146471-2feb-4e04-9366-44eff89af3df": {
+      "title": "Tax Specialist",
+      "url": "https://jobs.lever.co/lalamove/e6146471-2feb-4e04-9366-44eff89af3df",
+      "hash": "039fa357f3adb8b4",
+      "summary": "",
+      "published_at": "2026-11-18T20:05:15.554000Z",
       "text": ""
     },
     "0a768f98-031b-4fd3-bb2d-54fdcf41dbcf": {
@@ -1386,7 +1434,16 @@
     "845e298b-884d-43a4-a399-3b9142fc534c",
     "7c7f5956-4ffa-47d5-b7eb-a471581c8ba0",
     "5652ee4a-c751-4e0c-b7d6-4c6e9038949f",
-    "baad6d81-1269-4f17-96e9-43a66770eacc"
+    "baad6d81-1269-4f17-96e9-43a66770eacc",
+    "de39b7b3-636c-48a9-a0a7-93f07f0355f0",
+    "9e8a9873-35b1-48de-9400-2caa02265eb3",
+    "64adc014-532d-4271-add4-7dbeaa7d6e3a",
+    "bb10cc0e-4d2d-493e-962f-83eed83b183b",
+    "9053e477-835b-40ac-9fd9-52411b63edd4",
+    "88f3f93c-65b4-4e62-a9e8-f9c29a5c2cc4",
+    "d92f8747-5edc-4dc9-82eb-bcee3689deae",
+    "5e34dae4-b79e-48c6-b068-0a8a2ec2bd54",
+    "e6146471-2feb-4e04-9366-44eff89af3df"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

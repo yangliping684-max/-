@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-18T04:27:35.374890Z",
-  "etag": "W/\"3783ba6221b5ecac30696df8c4dc363806e4129b2e9f72688ffb233601cdd880\"",
+  "taken_at": "2026-11-19T04:14:13.297817Z",
+  "etag": "W/\"2810a05d4a69dfb4f72778a4b75502a94a215cbdb278b4178140cf1371116d7c\"",
   "last_modified": null,
   "items": {
+    "450225202": {
+      "title": "v3.55.1",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.55.1",
+      "hash": "c45e76ff53570b3f",
+      "summary": "## [3.55.1](https://github.com/openai/openai-python/compare/v3.55.0...v3.55.1) (2026-11-18)\n### Chores\n* **api:** document CSAM moderation response fields ([#4290](https://github.com/openai/openai-python/issues/4290)) ([d6b93f3](https://github.com/openai/openai-python/commit/d6b93f36b6ad5a71ef81ebbe08cab72c3d12d7a8))\n* **deps-dev:** bump pytest-asyncio from 1.4.1 to 1.4.1.post1 ([#4274](https://github.com/openai/openai-python/issues/4274)) ([231a92a](https://github.com/openai/openai-python/commit/231a92aa2193cd7525abcca0e46631dad2bbad75))\n* **deps:** bump github/codeql-action/init from 4.39.1…",
+      "published_at": "2026-11-18T16:04:26Z",
+      "text": ""
+    },
+    "449557773": {
+      "title": "v3.55.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.55.0",
+      "hash": "d1156dbddb0919ff",
+      "summary": "## [3.55.0](https://github.com/openai/openai-python/compare/v3.54.0...v3.55.0) (2026-11-18)\n### Features\n* **api:** add Live MCP server configuration ([#4280](https://github.com/openai/openai-python/issues/4280)) ([f56a67f](https://github.com/openai/openai-python/commit/f56a67f1f0c844135261ece304a90d2ec2571d4b))\n* **api:** hide Managed Agents session budget controls and events ([#4289](https://github.com/openai/openai-python/issues/4289)) ([b78d3eb](https://github.com/openai/openai-python/commit/b78d3ebb54287aebf50b04544a07c4c21f02dd1e))",
+      "published_at": "2026-11-18T05:21:54Z",
+      "text": ""
+    },
     "449289001": {
       "title": "v3.54.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.54.0",
@@ -227,22 +243,6 @@
       "summary": "## [3.30.0](https://github.com/openai/openai-python/compare/v3.29.0...v3.30.0) (2026-10-14)\n### Features\n* **api:** add beta session spending limits ([#4058](https://github.com/openai/openai-python/issues/4058)) ([b570279](https://github.com/openai/openai-python/commit/b5702792a0adb1e86a8b51709e935c1e0acde727))\n* **api:** add OCI external-storage provider support ([#4060](https://github.com/openai/openai-python/issues/4060)) ([9eb83fe](https://github.com/openai/openai-python/commit/9eb83fe4649af0104d22da460007773a6c07119e))\n* **api:** add organization Decisions usage reporting ([#4062](https:…",
       "published_at": "2026-10-14T04:00:19Z",
       "text": ""
-    },
-    "409819677": {
-      "title": "v3.29.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.29.0",
-      "hash": "860279bc04fd7003",
-      "summary": "## [3.29.0](https://github.com/openai/openai-python/compare/v3.28.0...v3.29.0) (2026-10-11)\n### Features\n* **api:** add billing_not_active session error code ([#4052](https://github.com/openai/openai-python/issues/4052)) ([c88b320](https://github.com/openai/openai-python/commit/c88b32012ef0c3ebac39c79512994985a553a24c))\n* **api:** add shida to named Live voices ([#4053](https://github.com/openai/openai-python/issues/4053)) ([7352cf5](https://github.com/openai/openai-python/commit/7352cf5c80cf46b0b7c23634fb7df47c28b0604b))\n* **api:** add vault updates and metadata filters ([#4047](https://gith…",
-      "published_at": "2026-10-11T17:38:54Z",
-      "text": ""
-    },
-    "408335115": {
-      "title": "v3.28.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.28.0",
-      "hash": "d4ba4ae7d1e2eb67",
-      "summary": "## [3.28.0](https://github.com/openai/openai-python/compare/v3.27.0...v3.28.0) (2026-10-09)\n### Features\n* **api:** add agent environment suspension and expiration ([#4046](https://github.com/openai/openai-python/issues/4046)) ([6aa25a9](https://github.com/openai/openai-python/commit/6aa25a9959f451ef67de948b792779e3d130a9c2))\n### Chores\n* **deps:** bump astral-sh/setup-uv from 10.1.0 to 10.2.0 ([#4026](https://github.com/openai/openai-python/issues/4026)) ([8bfffd4](https://github.com/openai/openai-python/commit/8bfffd40158460d0f5e651590b95cfef5292d93e))\n* **deps:** bump CodeQL init and analy…",
-      "published_at": "2026-10-09T20:49:22Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -304,7 +304,9 @@
     "444743749",
     "447705388",
     "449289001",
-    "449046774"
+    "449046774",
+    "450225202",
+    "449557773"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

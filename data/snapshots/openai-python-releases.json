@@ -1,9 +1,25 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-19T04:14:13.297817Z",
-  "etag": "W/\"2810a05d4a69dfb4f72778a4b75502a94a215cbdb278b4178140cf1371116d7c\"",
+  "taken_at": "2026-11-20T04:00:41.814850Z",
+  "etag": "W/\"674dc4b878107d01bfcd63632bd2aac77796c8e4160c083bf68bc303800a2e2b\"",
   "last_modified": null,
   "items": {
+    "452156013": {
+      "title": "v3.57.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.57.0",
+      "hash": "44800cefb3d651ab",
+      "summary": "## [3.57.0](https://github.com/openai/openai-python/compare/v3.56.0...v3.57.0) (2026-11-19)\n### Features\n* **api:** support Live WebRTC standby ([#4296](https://github.com/openai/openai-python/issues/4296)) ([18d10c3](https://github.com/openai/openai-python/commit/18d10c381cac674c56620acc3c1b547fb691f5ea))",
+      "published_at": "2026-11-20T01:27:57Z",
+      "text": ""
+    },
+    "451919602": {
+      "title": "v3.56.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.56.0",
+      "hash": "607c44ad57ca011c",
+      "summary": "## [3.56.0](https://github.com/openai/openai-python/compare/v3.55.1...v3.56.0) (2026-11-19)\n### Features\n* **api:** add gpt-live-1.1 to Live model choices ([#4294](https://github.com/openai/openai-python/issues/4294)) ([a51f139](https://github.com/openai/openai-python/commit/a51f13999c3546b1dd9a29d57ddde7f95ae389d6))",
+      "published_at": "2026-11-19T20:56:27Z",
+      "text": ""
+    },
     "450225202": {
       "title": "v3.55.1",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.55.1",
@@ -227,22 +243,6 @@
       "summary": "## [3.32.0](https://github.com/openai/openai-python/compare/v3.31.0...v3.32.0) (2026-10-16)\n### Features\n* **api:** add cache settings and key options [2/2] ([#4087](https://github.com/openai/openai-python/issues/4087)) ([325da45](https://github.com/openai/openai-python/commit/325da45934ddb1c1b6a0bed1681a8cf46c9a8712))\n* **api:** add prompt-based voice creation ([#4091](https://github.com/openai/openai-python/issues/4091)) ([2e39db7](https://github.com/openai/openai-python/commit/2e39db79e2f0ec41ce5d87b379be1e88c8298ea4))\n* **api:** add regional processing residency options ([#4081](https://g…",
       "published_at": "2026-10-16T20:17:26Z",
       "text": ""
-    },
-    "412371896": {
-      "title": "v3.31.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.31.0",
-      "hash": "43d6d8ab5b470573",
-      "summary": "## [3.31.0](https://github.com/openai/openai-python/compare/v3.30.0...v3.31.0) (2026-10-14)\n### Features\n* add browser and computer toolsets (1/4) ([#4073](https://github.com/openai/openai-python/issues/4073)) ([47b9e4e](https://github.com/openai/openai-python/commit/47b9e4e95e44b1e825dc4e0753967c65d0733445))",
-      "published_at": "2026-10-14T05:38:46Z",
-      "text": ""
-    },
-    "412325009": {
-      "title": "v3.30.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.30.0",
-      "hash": "5d388a1257cf639e",
-      "summary": "## [3.30.0](https://github.com/openai/openai-python/compare/v3.29.0...v3.30.0) (2026-10-14)\n### Features\n* **api:** add beta session spending limits ([#4058](https://github.com/openai/openai-python/issues/4058)) ([b570279](https://github.com/openai/openai-python/commit/b5702792a0adb1e86a8b51709e935c1e0acde727))\n* **api:** add OCI external-storage provider support ([#4060](https://github.com/openai/openai-python/issues/4060)) ([9eb83fe](https://github.com/openai/openai-python/commit/9eb83fe4649af0104d22da460007773a6c07119e))\n* **api:** add organization Decisions usage reporting ([#4062](https:…",
-      "published_at": "2026-10-14T04:00:19Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -306,7 +306,9 @@
     "449289001",
     "449046774",
     "450225202",
-    "449557773"
+    "449557773",
+    "452156013",
+    "451919602"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

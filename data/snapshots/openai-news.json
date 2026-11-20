@@ -1,9 +1,49 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-19T04:14:48.930163Z",
+  "taken_at": "2026-11-20T04:01:17.277711Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "hash": "ab9e873a6c77c3e9",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "published_at": "2026-11-19T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/deploying-daybreak-red": {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "hash": "5fc578cd552354e2",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "published_at": "2026-11-19T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/pr-scans-demo": {
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "hash": "477982d60b16fe6f",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "published_at": "2026-11-19T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/codex-security-plugin-demo": {
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "hash": "1b6781c4d6b1c963",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "published_at": "2026-11-19T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "hash": "dba8a93b486b93d1",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "published_at": "2026-11-19T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/the-silent-consensus": {
       "title": "The Silent Consensus",
       "url": "https://openai.com/index/the-silent-consensus",
@@ -44,19 +84,19 @@
       "published_at": "2026-11-18T06:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "hash": "8a0d26770b095be6",
-      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
-      "published_at": "2026-11-18T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/advancing-chip-design-with-our-models": {
       "title": "Advancing chip design with OpenAI models",
       "url": "https://openai.com/index/advancing-chip-design-with-our-models",
       "hash": "1420ffbe27960fa4",
       "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‐V core designs, showing progress in AI-assisted chip design with GPT‐6 Astra.",
+      "published_at": "2026-11-18T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "hash": "8a0d26770b095be6",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
       "published_at": "2026-11-18T00:00:00Z",
       "text": ""
     },
@@ -84,19 +124,19 @@
       "published_at": "2026-11-17T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/astra-law-6-2": {
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "hash": "53e7b3c6cdc05627",
-      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "published_at": "2026-11-17T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-openai-for-chile": {
       "title": "Introducing OpenAI for Chile",
       "url": "https://openai.com/index/introducing-openai-for-chile",
       "hash": "c88f9ef5a878730b",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/astra-law-6-2": {
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "hash": "53e7b3c6cdc05627",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "published_at": "2026-11-17T00:00:00Z",
       "text": ""
     },
@@ -524,19 +564,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "hash": "b0a37841e4c3336c",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "hash": "3cb3f12648a991ce",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "hash": "b0a37841e4c3336c",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -548,19 +588,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/qodo-codex-plugin": {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "hash": "231a28400bc61652",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/dan-driscoll-joins-openai": {
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "hash": "65c019a6cb8c4c7f",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "hash": "231a28400bc61652",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -762,46 +802,6 @@
       "hash": "a6f23986ceee0b38",
       "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
       "published_at": "2026-10-23T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/decisions-api": {
-      "title": "Build more responsive apps with the Decisions API",
-      "url": "https://openai.com/index/decisions-api",
-      "hash": "9441d647a5dd3c52",
-      "summary": "Fast, focused, low-cost decisions for any application.",
-      "published_at": "2026-10-22T19:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/forward-deployed-engineering-means": {
-      "title": "What FDE means at OpenAI",
-      "url": "https://openai.com/index/forward-deployed-engineering-means",
-      "hash": "27ed6e82f300e467",
-      "summary": "What forward deployed engineering means at OpenAI",
-      "published_at": "2026-10-22T06:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/uber-chatgpt-work-rollout": {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "hash": "25a49db483064094",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "published_at": "2026-10-22T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/att-legal": {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "url": "https://openai.com/index/att-legal",
-      "hash": "7cce1c2f34913082",
-      "summary": "AT&amp;T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "published_at": "2026-10-21T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/broad-access-through-consistent-standards": {
-      "title": "Broad access through consistent standards",
-      "url": "https://openai.com/index/broad-access-through-consistent-standards",
-      "hash": "35a4e8a0129f57d3",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "published_at": "2026-10-21T21:00:00Z",
       "text": ""
     }
   },
@@ -1030,7 +1030,12 @@
     "https://openai.com/index/inside-the-codex-sandbox",
     "https://openai.com/index/managing-frontier-ai-risk",
     "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-    "https://openai.com/index/advancing-chip-design-with-our-models"
+    "https://openai.com/index/advancing-chip-design-with-our-models",
+    "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+    "https://openai.com/business/learn/deploying-daybreak-red",
+    "https://openai.com/business/learn/pr-scans-demo",
+    "https://openai.com/business/learn/codex-security-plugin-demo",
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

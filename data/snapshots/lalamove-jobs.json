@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-19T04:14:05.583198Z",
-  "etag": "W/\"1373c6-qLG1UhJtNoaPjK1+gcKZ4jesPD0\"",
+  "taken_at": "2026-11-20T04:00:27.044622Z",
+  "etag": "W/\"140054-W15rOeR8ts+aNBlbtXQmw1ZvgJM\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -18,14 +18,6 @@
       "hash": "67447e449ddf9074",
       "summary": "",
       "published_at": "2026-10-14T10:54:49.867000Z",
-      "text": ""
-    },
-    "de39b7b3-636c-48a9-a0a7-93f07f0355f0": {
-      "title": "Account Executive – Outbound | Vitória (ES)",
-      "url": "https://jobs.lever.co/lalamove/de39b7b3-636c-48a9-a0a7-93f07f0355f0",
-      "hash": "8ce3674a858c529a",
-      "summary": "",
-      "published_at": "2026-11-18T19:02:12.527000Z",
       "text": ""
     },
     "a509109c-17b2-451d-a04e-3bba46562794": {
@@ -50,6 +42,14 @@
       "hash": "a759e609e35a7bc9",
       "summary": "",
       "published_at": "2026-11-16T20:58:13.164000Z",
+      "text": ""
+    },
+    "de39b7b3-636c-48a9-a0a7-93f07f0355f0": {
+      "title": "Account Manager Executive Outbound | Vitória (ES)",
+      "url": "https://jobs.lever.co/lalamove/de39b7b3-636c-48a9-a0a7-93f07f0355f0",
+      "hash": "31f99bc6bed07e81",
+      "summary": "",
+      "published_at": "2026-11-18T19:02:12.527000Z",
       "text": ""
     },
     "5b3bce82-cb0d-41aa-92f3-59eced4887fa": {
@@ -138,6 +138,14 @@
       "hash": "285aa462dbaf70e6",
       "summary": "",
       "published_at": "2026-10-20T07:03:13.223000Z",
+      "text": ""
+    },
+    "d31e1acd-ce2c-4ee9-ae8c-ed4e5f2aadec": {
+      "title": "Assistente de Operações de Vendas",
+      "url": "https://jobs.lever.co/lalamove/d31e1acd-ce2c-4ee9-ae8c-ed4e5f2aadec",
+      "hash": "987b720be7f49d60",
+      "summary": "",
+      "published_at": "2026-11-19T17:03:17.727000Z",
       "text": ""
     },
     "3aedc336-82a1-4988-8637-c7d0a0c248ba": {
@@ -692,6 +700,14 @@
       "published_at": "2026-07-16T05:59:19.130000Z",
       "text": ""
     },
+    "e0ec6bdc-134b-42bb-adb2-3eee8a96827e": {
+      "title": "Líder de Driver Operations - Rio de Janeiro",
+      "url": "https://jobs.lever.co/lalamove/e0ec6bdc-134b-42bb-adb2-3eee8a96827e",
+      "hash": "28f31ff9ba9765a5",
+      "summary": "",
+      "published_at": "2026-11-19T17:11:36.175000Z",
+      "text": ""
+    },
     "6ca3229c-2d1e-4c01-953f-ce048f71306e": {
       "title": "Líder de Operações de Atendimento TL",
       "url": "https://jobs.lever.co/lalamove/6ca3229c-2d1e-4c01-953f-ce048f71306e",
@@ -868,6 +884,14 @@
       "published_at": "2025-08-26T02:34:59.394000Z",
       "text": ""
     },
+    "b3f66b6a-1f7a-4517-ac48-a493ebf40a64": {
+      "title": "Saha Satış Elemanı",
+      "url": "https://jobs.lever.co/lalamove/b3f66b6a-1f7a-4517-ac48-a493ebf40a64",
+      "hash": "1cd56d53f4a618ab",
+      "summary": "",
+      "published_at": "2026-02-17T12:26:47.549000Z",
+      "text": ""
+    },
     "e5037c55-9f04-4867-a684-4c7d904d5726": {
       "title": "Sales Associate",
       "url": "https://jobs.lever.co/lalamove/e5037c55-9f04-4867-a684-4c7d904d5726",
@@ -1036,6 +1060,14 @@
       "published_at": "2026-11-02T10:43:02.653000Z",
       "text": ""
     },
+    "d688c300-a608-4043-ac96-9ce1622216d4": {
+      "title": "Senior Driver Management Associate (Team Lead)",
+      "url": "https://jobs.lever.co/lalamove/d688c300-a608-4043-ac96-9ce1622216d4",
+      "hash": "417dc9743a07d229",
+      "summary": "",
+      "published_at": "2026-11-19T09:49:49.326000Z",
+      "text": ""
+    },
     "88f3f93c-65b4-4e62-a9e8-f9c29a5c2cc4": {
       "title": "Senior Driver Operations Assistant – Vendor & Fleet (Belo Horizonte)",
       "url": "https://jobs.lever.co/lalamove/88f3f93c-65b4-4e62-a9e8-f9c29a5c2cc4",
@@ -1060,12 +1092,12 @@
       "published_at": "2026-07-15T03:47:10.154000Z",
       "text": ""
     },
-    "5e34dae4-b79e-48c6-b068-0a8a2ec2bd54": {
+    "bc483b22-3121-4100-8d22-ccb3e873cdad": {
       "title": "Senior Key Account Manager (Belo Horizonte)",
-      "url": "https://jobs.lever.co/lalamove/5e34dae4-b79e-48c6-b068-0a8a2ec2bd54",
+      "url": "https://jobs.lever.co/lalamove/bc483b22-3121-4100-8d22-ccb3e873cdad",
       "hash": "6c650691d791d70e",
       "summary": "",
-      "published_at": "2026-11-18T17:42:58.330000Z",
+      "published_at": "2026-11-19T18:11:19.492000Z",
       "text": ""
     },
     "b5c293b6-968e-4a70-a996-4dd568f72545": {
@@ -1443,7 +1475,11 @@
     "88f3f93c-65b4-4e62-a9e8-f9c29a5c2cc4",
     "d92f8747-5edc-4dc9-82eb-bcee3689deae",
     "5e34dae4-b79e-48c6-b068-0a8a2ec2bd54",
-    "e6146471-2feb-4e04-9366-44eff89af3df"
+    "e6146471-2feb-4e04-9366-44eff89af3df",
+    "d31e1acd-ce2c-4ee9-ae8c-ed4e5f2aadec",
+    "e0ec6bdc-134b-42bb-adb2-3eee8a96827e",
+    "d688c300-a608-4043-ac96-9ce1622216d4",
+    "bc483b22-3121-4100-8d22-ccb3e873cdad"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

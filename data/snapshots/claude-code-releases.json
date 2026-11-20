@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-19T04:14:12.502202Z",
-  "etag": "W/\"efc4b31670ac3ac693165225dc059a18bb8e2c01246c685c42d5f3cdc8b4d8a9\"",
+  "taken_at": "2026-11-20T04:00:41.174845Z",
+  "etag": "W/\"947b22aedc6ab348c188dcf458fdbe272b5a73b1022821d7914de3a867f40c5e\"",
   "last_modified": null,
   "items": {
+    "451777787": {
+      "title": "v2.1.329",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "hash": "7aed7a7181edeb50",
+      "summary": "## What's changed\n- Added a trust dialog warning that says where a folder's hooks are declared\n- Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load\n- Added this session's scheduled tasks, `/loop` wakeups, the goal and this conversation's forks to `/tasks`; x stops one after asking\n- Added a \"Server message\" row to a server's page in `/mcp` that shows the JSON-RPC error message of a remote HTTP MCP server that refuses the connection\n- Added a \"Marketplace auto-update\" row to `/status` that names managed marketplac…",
+      "published_at": "2026-11-19T22:14:41Z",
+      "text": ""
+    },
     "450696184": {
       "title": "v2.1.328",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.328",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
       "published_at": "2026-10-08T05:03:54Z",
       "text": ""
-    },
-    "405988533": {
-      "title": "v2.1.293",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "hash": "4d7921c748857096",
-      "summary": "## What's changed\n- Added Claude Haiku 5.5 (`claude-haiku-5-5`), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K)\n- Added `agentType` to the `subagentStatusLine` payload, so scripts can tell custom subagent types apart\n- Added `isDeferred` to `$.tool.register` for mods: `false` lists the tool's schema in the prompt from the start instead of behind tool search\n- Fixed Claude sometimes treating its own last actions before a context compaction as done after it, and retracting or redoing finished work\n- Fixed a memory leak whe…",
-      "published_at": "2026-10-07T18:10:20Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -301,7 +301,8 @@
     "444686509",
     "447444139",
     "449173658",
-    "450696184"
+    "450696184",
+    "451777787"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

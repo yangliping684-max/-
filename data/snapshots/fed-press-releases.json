@@ -1,9 +1,17 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-11-19T04:14:14.818299Z",
-  "etag": "W/\"4cb96b8f77dd1:0\"",
-  "last_modified": "Wed, 18 Nov 2026 19:00:14 GMT",
+  "taken_at": "2026-11-20T04:00:43.582026Z",
+  "etag": "W/\"9824ef113f78dd1:0\"",
+  "last_modified": "Thu, 19 Nov 2026 16:00:17 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm": {
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+      "hash": "cb2fa8be52407805",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "published_at": "2026-11-19T16:00:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm": {
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
@@ -155,14 +163,6 @@
       "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
       "published_at": "2026-09-30T13:00:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm": {
-      "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
-      "hash": "5e0535e4bbd71ee7",
-      "summary": "Agencies publish resolution plan feedback letters for 15 banking organizations",
-      "published_at": "2026-09-29T20:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -196,7 +196,8 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
   ],
   "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

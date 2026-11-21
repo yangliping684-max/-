@@ -1,9 +1,73 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-20T04:00:50.472133Z",
+  "taken_at": "2026-11-21T04:00:19.621673Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000162728659": {
+      "title": "Battery Validation Engineer_PS_RBCW",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162728659",
+      "hash": "6dd547e95fc3586a",
+      "summary": "",
+      "published_at": "2026-11-20T13:00:28.771000Z",
+      "text": ""
+    },
+    "744000162727219": {
+      "title": "Battery Mechanical Engineer_PS_RBCW",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162727219",
+      "hash": "3cfd472e53acac9a",
+      "summary": "",
+      "published_at": "2026-11-20T12:54:11.952000Z",
+      "text": ""
+    },
+    "744000162725979": {
+      "title": "Battery Cell Engineer_PS_RBCW",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162725979",
+      "hash": "d1529acc641a0293",
+      "summary": "",
+      "published_at": "2026-11-20T12:47:38.140000Z",
+      "text": ""
+    },
+    "744000162689834": {
+      "title": "Battery System Engineer_PS_RBCW",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162689834",
+      "hash": "7f9d477b6517679a",
+      "summary": "",
+      "published_at": "2026-11-20T09:31:26.315000Z",
+      "text": ""
+    },
+    "744000162668749": {
+      "title": "失效分析技术员_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162668749",
+      "hash": "50b9720a42d1b459",
+      "summary": "",
+      "published_at": "2026-11-20T07:43:03.350000Z",
+      "text": ""
+    },
+    "744000162660060": {
+      "title": "物料计划(苏州)_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162660060",
+      "hash": "2fa5166ca89c42f8",
+      "summary": "",
+      "published_at": "2026-11-20T06:06:36.435000Z",
+      "text": ""
+    },
+    "744000162659760": {
+      "title": "设备维修技术员_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162659760",
+      "hash": "2c56b25884a87609",
+      "summary": "",
+      "published_at": "2026-11-20T05:59:24.996000Z",
+      "text": ""
+    },
+    "744000162659289": {
+      "title": "IE Technician_ME",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162659289",
+      "hash": "e261933df6181891",
+      "summary": "",
+      "published_at": "2026-11-20T05:42:45.928000Z",
+      "text": ""
+    },
     "744000162653009": {
       "title": "Process Expert Thermal Joining Technology_ EM",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000162653009",
@@ -2252,14 +2316,6 @@
       "published_at": "2026-09-21T05:26:34.888000Z",
       "text": ""
     },
-    "744000150590739": {
-      "title": "Commercial Buyer(Display)_ M",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150590739",
-      "hash": "912f5d9f2dea0d5e",
-      "summary": "",
-      "published_at": "2026-09-21T03:31:10.516000Z",
-      "text": ""
-    },
     "744000150569870": {
       "title": "智驾EE系统架构师_XC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000150569870",
@@ -2898,14 +2954,6 @@
       "hash": "8b58916ab9950759",
       "summary": "",
       "published_at": "2026-09-04T06:21:08.341000Z",
-      "text": ""
-    },
-    "744000147415839": {
-      "title": "Sr. Warehouse Manager_ME",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000147415839",
-      "hash": "0dfc7b0002595f8d",
-      "summary": "",
-      "published_at": "2026-09-04T05:33:34.554000Z",
       "text": ""
     },
     "744000147296199": {
@@ -12430,7 +12478,15 @@
     "744000162441095",
     "744000162439819",
     "744000162439569",
-    "744000162439319"
+    "744000162439319",
+    "744000162728659",
+    "744000162727219",
+    "744000162725979",
+    "744000162689834",
+    "744000162668749",
+    "744000162660060",
+    "744000162659760",
+    "744000162659289"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

@@ -1,9 +1,33 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-20T04:01:17.277711Z",
+  "taken_at": "2026-11-21T04:00:46.332480Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/combatting-adversarial-distillation": {
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "hash": "611d515f4fa35998",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "published_at": "2026-11-20T10:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/hebbia": {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "hash": "8096a846930d0d3a",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "published_at": "2026-11-20T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-medchembench": {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "hash": "6974f9534aaecb4c",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "published_at": "2026-11-20T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast": {
       "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
       "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
@@ -12,11 +36,11 @@
       "published_at": "2026-11-19T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/deploying-daybreak-red": {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "hash": "5fc578cd552354e2",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+    "https://openai.com/business/learn/codex-security-plugin-demo": {
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "hash": "1b6781c4d6b1c963",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -28,19 +52,19 @@
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/codex-security-plugin-demo": {
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "hash": "1b6781c4d6b1c963",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
-      "published_at": "2026-11-19T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
       "title": "Get started with Daybreak Blue",
       "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
       "hash": "dba8a93b486b93d1",
       "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "published_at": "2026-11-19T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/deploying-daybreak-red": {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "hash": "5fc578cd552354e2",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -52,19 +76,19 @@
       "published_at": "2026-11-18T10:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/research-acceleration-jagged-frontier": {
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "hash": "9b44d35114fd82ff",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "published_at": "2026-11-18T08:00:00Z",
-      "text": ""
-    },
     "https://openai.com/business/customer-stories/sumitomo-life": {
       "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "hash": "65671232c2ca4690",
       "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "published_at": "2026-11-18T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/research-acceleration-jagged-frontier": {
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "hash": "9b44d35114fd82ff",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "published_at": "2026-11-18T08:00:00Z",
       "text": ""
     },
@@ -124,19 +148,19 @@
       "published_at": "2026-11-17T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/introducing-openai-for-chile": {
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "hash": "c88f9ef5a878730b",
-      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "published_at": "2026-11-17T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/astra-law-6-2": {
       "title": "Astra for Law leads in legal intelligence",
       "url": "https://openai.com/index/astra-law-6-2",
       "hash": "53e7b3c6cdc05627",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-openai-for-chile": {
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "hash": "c88f9ef5a878730b",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "published_at": "2026-11-17T00:00:00Z",
       "text": ""
     },
@@ -588,19 +612,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/dan-driscoll-joins-openai": {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "hash": "65c019a6cb8c4c7f",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/qodo-codex-plugin": {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "hash": "231a28400bc61652",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "hash": "65c019a6cb8c4c7f",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -778,30 +802,6 @@
       "hash": "9b12cef715586326",
       "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "published_at": "2026-10-23T17:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/securing-our-frontier-model-training-environment": {
-      "title": "Securing our frontier model training environment",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "hash": "889c2e4906ae0c4f",
-      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "published_at": "2026-10-23T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/anima": {
-      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-      "url": "https://openai.com/index/anima",
-      "hash": "aa055d75f2b70fea",
-      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-      "published_at": "2026-10-23T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/openai-nask-ai-safety-security-partnership": {
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "hash": "a6f23986ceee0b38",
-      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "published_at": "2026-10-23T00:00:00Z",
       "text": ""
     }
   },
@@ -1035,7 +1035,10 @@
     "https://openai.com/business/learn/deploying-daybreak-red",
     "https://openai.com/business/learn/pr-scans-demo",
     "https://openai.com/business/learn/codex-security-plugin-demo",
-    "https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+    "https://openai.com/index/combatting-adversarial-distillation",
+    "https://openai.com/business/customer-stories/hebbia",
+    "https://openai.com/index/introducing-medchembench"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

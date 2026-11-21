@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-20T04:00:27.044622Z",
-  "etag": "W/\"140054-W15rOeR8ts+aNBlbtXQmw1ZvgJM\"",
+  "taken_at": "2026-11-21T04:00:05.121958Z",
+  "etag": "W/\"1415c2-cgD3PvowbL5Qje7HnbIt9x0eU7U\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -148,6 +148,14 @@
       "published_at": "2026-11-19T17:03:17.727000Z",
       "text": ""
     },
+    "6647d128-bf96-43c6-b970-931ebf8477f4": {
+      "title": "Associate / Senior Associate, People Operations",
+      "url": "https://jobs.lever.co/lalamove/6647d128-bf96-43c6-b970-931ebf8477f4",
+      "hash": "8b5761ce20a0dbc9",
+      "summary": "",
+      "published_at": "2026-07-28T08:50:34.044000Z",
+      "text": ""
+    },
     "3aedc336-82a1-4988-8637-c7d0a0c248ba": {
       "title": "Associate, Corporate Affairs",
       "url": "https://jobs.lever.co/lalamove/3aedc336-82a1-4988-8637-c7d0a0c248ba",
@@ -162,14 +170,6 @@
       "hash": "e3009fcf6ce75aa7",
       "summary": "",
       "published_at": "2026-11-09T17:42:41.837000Z",
-      "text": ""
-    },
-    "6647d128-bf96-43c6-b970-931ebf8477f4": {
-      "title": "Associate, People Operations",
-      "url": "https://jobs.lever.co/lalamove/6647d128-bf96-43c6-b970-931ebf8477f4",
-      "hash": "d59df12707c4cf47",
-      "summary": "",
-      "published_at": "2026-07-28T08:50:34.044000Z",
       "text": ""
     },
     "e1d2c683-5988-4acd-9306-d1cd15a0738a": {
@@ -1084,6 +1084,14 @@
       "published_at": "2026-11-18T19:51:36.062000Z",
       "text": ""
     },
+    "34ae6ccb-4e77-40d9-9c2a-c729e9e92af0": {
+      "title": "Senior Driver Operations Associate",
+      "url": "https://jobs.lever.co/lalamove/34ae6ccb-4e77-40d9-9c2a-c729e9e92af0",
+      "hash": "08c748cc420259a7",
+      "summary": "",
+      "published_at": "2026-11-20T11:38:50.621000Z",
+      "text": ""
+    },
     "8ff6d89d-8fb3-4e1e-a124-4d0c0699c844": {
       "title": "Senior Driver Operations Associate 夥伴營運資深專員 (Management)",
       "url": "https://jobs.lever.co/lalamove/8ff6d89d-8fb3-4e1e-a124-4d0c0699c844",
@@ -1479,7 +1487,8 @@
     "d31e1acd-ce2c-4ee9-ae8c-ed4e5f2aadec",
     "e0ec6bdc-134b-42bb-adb2-3eee8a96827e",
     "d688c300-a608-4043-ac96-9ce1622216d4",
-    "bc483b22-3121-4100-8d22-ccb3e873cdad"
+    "bc483b22-3121-4100-8d22-ccb3e873cdad",
+    "34ae6ccb-4e77-40d9-9c2a-c729e9e92af0"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-20T04:00:41.174845Z",
-  "etag": "W/\"947b22aedc6ab348c188dcf458fdbe272b5a73b1022821d7914de3a867f40c5e\"",
+  "taken_at": "2026-11-21T04:00:10.554207Z",
+  "etag": "W/\"6fae833b9a3e2fd9b9bf9256f08c76eca317076b53c72b7f9773b2c0d612ba6d\"",
   "last_modified": null,
   "items": {
+    "453086311": {
+      "title": "v2.1.330",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "hash": "c87179945cec7aea",
+      "summary": "## What's changed\n- Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after `claude auth login`, Claude Code applies the organization's settings and uses its cloud provider or gateway\n- Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in `/config`\n- Added `CLAUDE_CODE_FULL_SIGN_IN_LINK=1` to print the full sign-in link, if the short one shows an error or a script reads values from it\n- Self-hosted runner: Added `--start-dir` /…",
+      "published_at": "2026-11-20T22:32:56Z",
+      "text": ""
+    },
     "451777787": {
       "title": "v2.1.329",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without its `>` markers\n- Added a warning to `claude plugin install`, `enable`, `disable` and `marketplace add` when the settings file they write to does not load\n- Added a line on stderr, wh…",
       "published_at": "2026-10-08T19:48:38Z",
       "text": ""
-    },
-    "406385982": {
-      "title": "v2.1.294",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
-      "hash": "c9a6b50339a5d3f2",
-      "summary": "## What's changed\n- Fixed `prompt` and `agent` hooks written as instructions (such as \"Block commands that...\") allowing what they should block\n- Improved how `prompt` hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
-      "published_at": "2026-10-08T05:03:54Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -302,7 +302,8 @@
     "447444139",
     "449173658",
     "450696184",
-    "451777787"
+    "451777787",
+    "453086311"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

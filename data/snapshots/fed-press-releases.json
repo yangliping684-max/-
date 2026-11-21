@@ -1,9 +1,25 @@
 {
   "source_id": "fed-press-releases",
-  "taken_at": "2026-11-20T04:00:43.582026Z",
-  "etag": "W/\"9824ef113f78dd1:0\"",
-  "last_modified": "Thu, 19 Nov 2026 16:00:17 GMT",
+  "taken_at": "2026-11-21T04:00:12.877698Z",
+  "etag": "W/\"f37fd93c3479dd1:0\"",
+  "last_modified": "Fri, 20 Nov 2026 21:15:15 GMT",
   "items": {
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm": {
+      "title": "Federal Reserve announces College Fed Challenge winners",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+      "hash": "372a98339f3990b6",
+      "summary": "Federal Reserve announces College Fed Challenge winners",
+      "published_at": "2026-11-20T21:15:00Z",
+      "text": ""
+    },
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm": {
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
+      "hash": "50f013ab055e8581",
+      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "published_at": "2026-11-20T15:00:00Z",
+      "text": ""
+    },
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm": {
       "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
@@ -147,22 +163,6 @@
       "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "published_at": "2026-10-02T20:00:00Z",
       "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm": {
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-      "hash": "5574856081ed2d48",
-      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "published_at": "2026-10-02T15:00:00Z",
-      "text": ""
-    },
-    "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm": {
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
-      "hash": "18417887abafc69d",
-      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "published_at": "2026-09-30T13:00:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -197,7 +197,9 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
-    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm"
+    "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261120b.htm",
+    "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
   ],
   "scope": "https://www.federalreserve.gov/feeds/press_all.xml|50|None"
 }

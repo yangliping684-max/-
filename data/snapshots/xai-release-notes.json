@@ -1,9 +1,17 @@
 {
   "source_id": "xai-release-notes",
-  "taken_at": "2026-11-14T03:22:01.654041Z",
+  "taken_at": "2026-11-21T04:00:53.093897Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://docs.x.ai/developers/release-notes#grok-build-01-end-of-life": {
+      "title": "grok-build-0.1 end of life",
+      "url": "https://docs.x.ai/developers/release-notes#grok-build-01-end-of-life",
+      "hash": "d0aa17660748b1b9",
+      "summary": "",
+      "published_at": null,
+      "text": ""
+    },
     "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired": {
       "title": "grok-imagine-image-quality retired",
       "url": "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired",
@@ -395,14 +403,6 @@
       "summary": "",
       "published_at": null,
       "text": ""
-    },
-    "https://docs.x.ai/developers/release-notes#image-generation-model-available-on-api": {
-      "title": "Image Generation Model available on API",
-      "url": "https://docs.x.ai/developers/release-notes#image-generation-model-available-on-api",
-      "hash": "330da376badc0816",
-      "summary": "",
-      "published_at": null,
-      "text": ""
     }
   },
   "seen_keys": [
@@ -464,7 +464,8 @@
     "https://docs.x.ai/developers/release-notes#custom-moderation-controls",
     "https://docs.x.ai/developers/release-notes#grok-imagine-image-quality-retired",
     "https://docs.x.ai/developers/release-notes#image-api-updates",
-    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--image--video-integration"
+    "https://docs.x.ai/developers/release-notes#public-urls-and-files-api--image--video-integration",
+    "https://docs.x.ai/developers/release-notes#grok-build-01-end-of-life"
   ],
   "scope": "https://docs.x.ai/developers/release-notes|50|None"
 }

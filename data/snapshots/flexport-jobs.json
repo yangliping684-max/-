@@ -1,7 +1,7 @@
 {
   "source_id": "flexport-jobs",
-  "taken_at": "2026-11-21T04:00:04.943054Z",
-  "etag": "W/\"c3ed099e47f8aaa1c7782d36952261ab\"",
+  "taken_at": "2026-11-22T03:13:56.016496Z",
+  "etag": "W/\"136e14342876e78d6b004447fa3bbb3c\"",
   "last_modified": null,
   "items": {
     "8009198": {
@@ -1180,20 +1180,20 @@
       "published_at": "2026-09-18T08:18:48Z",
       "text": ""
     },
-    "8166040": {
-      "title": "Security Engineer, Corporate Security",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8166040",
-      "hash": "ff1b6408a1f0c2d5",
-      "summary": "",
-      "published_at": "2026-08-31T19:38:43Z",
-      "text": ""
-    },
     "8166038": {
       "title": "Security Engineer, Corporate Security",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8166038",
       "hash": "ff1b6408a1f0c2d5",
       "summary": "",
       "published_at": "2026-08-31T19:38:40Z",
+      "text": ""
+    },
+    "8166040": {
+      "title": "Security Engineer, Corporate Security",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8166040",
+      "hash": "ff1b6408a1f0c2d5",
+      "summary": "",
+      "published_at": "2026-08-31T19:38:43Z",
       "text": ""
     },
     "8375179": {
@@ -1508,20 +1508,20 @@
       "published_at": "2026-07-09T23:07:13Z",
       "text": ""
     },
-    "8054644": {
-      "title": "Social Media & Content Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
-      "hash": "bcee457d4b4dd801",
-      "summary": "",
-      "published_at": "2026-07-09T23:07:14Z",
-      "text": ""
-    },
     "8054645": {
       "title": "Social Media & Content Manager",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8054645",
       "hash": "bcee457d4b4dd801",
       "summary": "",
       "published_at": "2026-07-09T23:07:15Z",
+      "text": ""
+    },
+    "8054644": {
+      "title": "Social Media & Content Manager",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8054644",
+      "hash": "bcee457d4b4dd801",
+      "summary": "",
+      "published_at": "2026-07-09T23:07:14Z",
       "text": ""
     },
     "7978696": {
@@ -1612,20 +1612,20 @@
       "published_at": "2026-04-20T07:30:10Z",
       "text": ""
     },
-    "8374703": {
-      "title": "Staff Security Engineer, Product Security",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8374703",
-      "hash": "d0709a3f949c111b",
-      "summary": "",
-      "published_at": "2026-11-11T00:16:29Z",
-      "text": ""
-    },
     "8374701": {
       "title": "Staff Security Engineer, Product Security",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8374701",
       "hash": "d0709a3f949c111b",
       "summary": "",
       "published_at": "2026-11-11T00:16:27Z",
+      "text": ""
+    },
+    "8374703": {
+      "title": "Staff Security Engineer, Product Security",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8374703",
+      "hash": "d0709a3f949c111b",
+      "summary": "",
+      "published_at": "2026-11-11T00:16:29Z",
       "text": ""
     },
     "7819181": {
@@ -1660,6 +1660,14 @@
       "published_at": "2026-08-26T07:15:47Z",
       "text": ""
     },
+    "8385664": {
+      "title": "Trade Advisory Associate",
+      "url": "https://job-boards.greenhouse.io/flexport/jobs/8385664",
+      "hash": "4a489dab6168f47f",
+      "summary": "",
+      "published_at": "2026-11-13T15:14:25Z",
+      "text": ""
+    },
     "8384698": {
       "title": "Trade Advisory Associate",
       "url": "https://job-boards.greenhouse.io/flexport/jobs/8384698",
@@ -1674,22 +1682,6 @@
       "hash": "4a489dab6168f47f",
       "summary": "",
       "published_at": "2026-11-13T15:13:12Z",
-      "text": ""
-    },
-    "8385664": {
-      "title": "Trade Advisory Associate",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8385664",
-      "hash": "4a489dab6168f47f",
-      "summary": "",
-      "published_at": "2026-11-13T15:14:25Z",
-      "text": ""
-    },
-    "8334579": {
-      "title": "Trade Advisory Manager",
-      "url": "https://job-boards.greenhouse.io/flexport/jobs/8334579",
-      "hash": "c4f513e780b0b47a",
-      "summary": "",
-      "published_at": "2026-10-29T21:29:47Z",
       "text": ""
     },
     "8282867": {

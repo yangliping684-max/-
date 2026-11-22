@@ -3218,6 +3218,116 @@
       "facets": {}
     },
     {
+      "id": "c72b0929ca01fff6",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "MITRA-Swarm: Injecting Explicit Linguistic Structure into Foundation Models for Classical Machine Translation",
+      "url": "https://arxiv.org/abs/2611.14675",
+      "summary": "arXiv:2611.14675v1 Announce Type: cross\nAbstract: Classical Sanskrit poses three challenges unresolved by single-call monolithic models: morphophonemic fusion Sandhi, dense nominal compounding Sam\\=asa, and discourse-level zero-anaphora forced by poetic meter. We present MITRA-Swarm, a multi-agent architecture injecting explicit linguistic structure into an otherwise monolithic pipeline: a Sandhi-splitting agent, a parallel array of generalist gemma-4-26B-A4B-it and domain-specialized gemma-2-mitra-it translators, and a discourse-aware Ellipsis Restorer that consults corpus-derived register t…",
+      "detected_at": "2026-11-14T03:21:23.343646Z",
+      "published_at": "2026-11-13T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "d3626af672ab1c99",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Code as Explanations: Executable and Verifiable LLM Explanations",
+      "url": "https://arxiv.org/abs/2611.14704",
+      "summary": "arXiv:2611.14704v1 Announce Type: cross\nAbstract: As large language models (LLMs) increasingly make consequential decisions and solve problems alongside humans, we must understand how models arrive at their conclusions. Understanding how an LLM behaves requires observing it across multiple inputs, yet free-text explanations such as chain-of-thought (CoT) are generated per instance and cannot be easily verified on new inputs. We propose {code explanations to address the mismatch in how LLM explanations are generated versus how they are evaluated: a program explains LLM behavior across a datase…",
+      "detected_at": "2026-11-14T03:21:23.343646Z",
+      "published_at": "2026-11-13T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
       "id": "05395c7eae492914",
       "source_id": "fed-press-releases",
       "source_name": "Federal Reserve Press Releases",

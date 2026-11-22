@@ -1,6 +1,18 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-11-22",
+      "kind": "digest",
+      "created_at": "2026-11-22T03:14:58.428095Z",
+      "title": "每日摘要 2026-11-22：2 条变化",
+      "body": "# 知更日报 2026-11-22\n\n共发现 **2** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [Manager, Applied AI Architect](https://job-boards.greenhouse.io/anthropic/jobs/5480986008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Research Engineer, Finetuning](https://job-boards.greenhouse.io/anthropic/jobs/5489567008) — Anthropic 公开职位（Greenhouse） · 新增\n",
+      "event_ids": [
+        "eda93d6cb68372f4",
+        "a90b19c22e472823"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "alert-85a6c2e598991db5",
       "kind": "alert",
       "created_at": "2026-11-21T04:01:05.816674Z",

@@ -7,11 +7,11 @@
       "industry": "人工智能",
       "careers_url": "https://www.anthropic.com/careers",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 633,
+      "count": 635,
       "complete": true,
-      "total_reported": 633,
+      "total_reported": 635,
       "has_catalog": true,
-      "updated_at": "2026-11-21T04:00:19.412992+00:00"
+      "updated_at": "2026-11-22T03:14:12.116028+00:00"
     },
     {
       "source_id": "bosch-china-jobs",
@@ -85,11 +85,11 @@
       "industry": "国际物流 / 供应链科技",
       "careers_url": "https://www.flexport.com/careers/",
       "channel": "Greenhouse 官方公开 Job Board API",
-      "count": 213,
+      "count": 212,
       "complete": true,
-      "total_reported": 213,
+      "total_reported": 212,
       "has_catalog": true,
-      "updated_at": "2026-11-21T04:00:04.943054+00:00"
+      "updated_at": "2026-11-22T03:13:56.016496+00:00"
     },
     {
       "source_id": "lalamove-jobs",
@@ -144,6 +144,6 @@
       "updated_at": "2026-10-11T06:26:34.269419+00:00"
     }
   ],
-  "total": 2759,
-  "generated_at": "2026-11-21T04:01:05.816674+00:00"
+  "total": 2760,
+  "generated_at": "2026-11-22T03:14:58.428095+00:00"
 }

@@ -1,6 +1,36 @@
 {
   "notifications": [
     {
+      "id": "alert-3b2f353b1b8f6e45",
+      "kind": "alert",
+      "created_at": "2026-11-23T03:45:54.812701Z",
+      "title": "2 条情报达到提醒条件",
+      "body": "- [重要·76] Commercial Buyer(Shunts)_ M（博世中国 公开职位（SmartRecruiters））\n- [关注·48] Software Engineer Internship 2027 (6 months) - India-based, Gurgaon office（Agoda 全球职位）",
+      "event_ids": [
+        "0bf6677c98155387",
+        "95a33deddd2b3510"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-11-23",
+      "kind": "digest",
+      "created_at": "2026-11-23T03:45:54.812701Z",
+      "title": "每日摘要 2026-11-23：8 条变化",
+      "body": "# 知更日报 2026-11-23\n\n共发现 **8** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 76]** [Commercial Buyer(Shunts)_ M](https://jobs.smartrecruiters.com/BoschGroup/744000163133109) — 博世中国 公开职位（SmartRecruiters） · 新增 · 关键词：采购与物料管理\n- **[关注 68]** [Campaign Manager](https://job-boards.greenhouse.io/anthropic/jobs/5491575008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Head of Campaign Operations](https://job-boards.greenhouse.io/anthropic/jobs/5491578008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Program Manager, Cloud Partners](https://job-boards.greenhouse.io/anthropic/jobs/5491573008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 63]** [Perplexity and Intelligence](https://openai.com/index/perplexity-and-intelligence) — OpenAI News · 新增\n- **[关注 48]** [Software Engineer Internship 2027 (6 months) - India-based, Gurgaon office](https://job-boards.greenhouse.io/agoda/jobs/6323041) — Agoda 全球职位 · 移除 · 关键词：实习、实习\n- **[一般 28]** [Community Engagement Manager, Data Centers (New York)](https://job-boards.greenhouse.io/anthropic/jobs/5452922008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Policy Development, Technical AI Governance](https://job-boards.greenhouse.io/anthropic/jobs/5451081008) — Anthropic 公开职位（Greenhouse） · 移除\n",
+      "event_ids": [
+        "95a33deddd2b3510",
+        "3e42223a27a36353",
+        "322a6da7ab9ec363",
+        "25a2330f0e9f44c7",
+        "40bde3d9e3d5dd96",
+        "ef2d0e046f2968ba",
+        "0bf6677c98155387",
+        "7cf6439157d23105"
+      ],
+      "level": "high"
+    },
+    {
       "id": "digest-2026-11-22",
       "kind": "digest",
       "created_at": "2026-11-22T03:14:58.428095Z",

@@ -1,9 +1,17 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-21T04:00:46.332480Z",
+  "taken_at": "2026-11-23T03:45:36.242097Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/perplexity-and-intelligence": {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "hash": "7d04a18394a781e2",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "published_at": "2026-11-22T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/combatting-adversarial-distillation": {
       "title": "Combatting adversarial distillation",
       "url": "https://openai.com/index/combatting-adversarial-distillation",
@@ -36,11 +44,11 @@
       "published_at": "2026-11-19T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/codex-security-plugin-demo": {
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "hash": "1b6781c4d6b1c963",
-      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+    "https://openai.com/business/learn/deploying-daybreak-red": {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "hash": "5fc578cd552354e2",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -60,11 +68,11 @@
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/deploying-daybreak-red": {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "hash": "5fc578cd552354e2",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+    "https://openai.com/business/learn/codex-security-plugin-demo": {
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "hash": "1b6781c4d6b1c963",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -76,19 +84,19 @@
       "published_at": "2026-11-18T10:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/customer-stories/sumitomo-life": {
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "hash": "65671232c2ca4690",
-      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
-      "published_at": "2026-11-18T08:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/research-acceleration-jagged-frontier": {
       "title": "Research acceleration: The jagged frontier",
       "url": "https://openai.com/index/research-acceleration-jagged-frontier",
       "hash": "9b44d35114fd82ff",
       "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "published_at": "2026-11-18T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/sumitomo-life": {
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "hash": "65671232c2ca4690",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
       "published_at": "2026-11-18T08:00:00Z",
       "text": ""
     },
@@ -148,19 +156,19 @@
       "published_at": "2026-11-17T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/astra-law-6-2": {
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "hash": "53e7b3c6cdc05627",
-      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "published_at": "2026-11-17T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-openai-for-chile": {
       "title": "Introducing OpenAI for Chile",
       "url": "https://openai.com/index/introducing-openai-for-chile",
       "hash": "c88f9ef5a878730b",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/astra-law-6-2": {
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "hash": "53e7b3c6cdc05627",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "published_at": "2026-11-17T00:00:00Z",
       "text": ""
     },
@@ -588,19 +596,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
-      "title": "Rewarding defenders with bigger bug bounties",
-      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
-      "hash": "3cb3f12648a991ce",
-      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
       "title": "Preparing our next security sprint to harden OpenAI",
       "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
       "hash": "b0a37841e4c3336c",
       "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
+      "title": "Rewarding defenders with bigger bug bounties",
+      "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
+      "hash": "3cb3f12648a991ce",
+      "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -612,19 +620,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/qodo-codex-plugin": {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "hash": "231a28400bc61652",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/dan-driscoll-joins-openai": {
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "hash": "65c019a6cb8c4c7f",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "hash": "231a28400bc61652",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -794,14 +802,6 @@
       "hash": "3900a4f5adb083fe",
       "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
       "published_at": "2026-10-26T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/scaling-storage-one-billion-users-part-two": {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "hash": "9b12cef715586326",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "published_at": "2026-10-23T17:00:00Z",
       "text": ""
     }
   },
@@ -1038,7 +1038,8 @@
     "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
     "https://openai.com/index/combatting-adversarial-distillation",
     "https://openai.com/business/customer-stories/hebbia",
-    "https://openai.com/index/introducing-medchembench"
+    "https://openai.com/index/introducing-medchembench",
+    "https://openai.com/index/perplexity-and-intelligence"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

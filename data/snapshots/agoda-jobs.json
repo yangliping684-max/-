@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-21T04:00:07.243235Z",
-  "etag": "W/\"2178c1824b2b55419a1a694e3ec009f6\"",
+  "taken_at": "2026-11-23T03:44:57.037918Z",
+  "etag": "W/\"a9ef36ea99f1aa1c7c41c65f0fb796e4\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -122,14 +122,6 @@
       "hash": "e8bf3c141b312b25",
       "summary": "",
       "published_at": "2026-10-08T08:15:20Z",
-      "text": ""
-    },
-    "8377186": {
-      "title": "Account Specialist/Executive, Growth",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8377186",
-      "hash": "1dc51c06c9d5985c",
-      "summary": "",
-      "published_at": "2026-11-18T03:25:02Z",
       "text": ""
     },
     "8207147": {
@@ -604,20 +596,20 @@
       "published_at": "2026-07-21T09:08:40Z",
       "text": ""
     },
-    "8364887": {
-      "title": "Connectivity Manager",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8364887",
-      "hash": "ac7236d4aa79ecb4",
-      "summary": "",
-      "published_at": "2026-11-18T13:21:51Z",
-      "text": ""
-    },
     "8402948": {
       "title": "Connectivity Manager",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8402948",
       "hash": "ac7236d4aa79ecb4",
       "summary": "",
       "published_at": "2026-11-19T17:52:05Z",
+      "text": ""
+    },
+    "8364887": {
+      "title": "Connectivity Manager",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8364887",
+      "hash": "ac7236d4aa79ecb4",
+      "summary": "",
+      "published_at": "2026-11-18T13:21:51Z",
       "text": ""
     },
     "8405291": {
@@ -844,20 +836,20 @@
       "published_at": "2026-10-16T08:06:45Z",
       "text": ""
     },
-    "8392325": {
-      "title": "Fast track 1-Day Program (27th November): Staff Software Engineer - Back End (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8392325",
-      "hash": "d56a71cf8822464a",
-      "summary": "",
-      "published_at": "2026-11-16T08:50:19Z",
-      "text": ""
-    },
     "8194798": {
       "title": "Fast track 1-Day Program (27th November): Staff Software Engineer - Back End (Bangkok Based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8194798",
       "hash": "d56a71cf8822464a",
       "summary": "",
       "published_at": "2026-09-11T11:18:29Z",
+      "text": ""
+    },
+    "8392325": {
+      "title": "Fast track 1-Day Program (27th November): Staff Software Engineer - Back End (Bangkok Based, Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8392325",
+      "hash": "d56a71cf8822464a",
+      "summary": "",
+      "published_at": "2026-11-16T08:50:19Z",
       "text": ""
     },
     "8015188": {
@@ -1444,6 +1436,14 @@
       "published_at": "2026-11-13T05:46:00Z",
       "text": ""
     },
+    "8410454": {
+      "title": "Project Associate, Partner Excellence, Customer Experience Group (Based in Bangkok, Thailand | Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8410454",
+      "hash": "e512c4b2ee4dbfe4",
+      "summary": "",
+      "published_at": "2026-11-23T02:44:44Z",
+      "text": ""
+    },
     "8179158": {
       "title": "Project manager-Marketing Operations (Chinese Speaking)-Agoda Media Solutions (10-month contract) (Bangkok-Based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8179158",
@@ -1476,26 +1476,34 @@
       "published_at": "2026-10-14T07:30:25Z",
       "text": ""
     },
-    "8352260": {
-      "title": "Regional Manager - Incident Management (Based in Yokohama)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8352260",
-      "hash": "e6ba9c938d4bf63e",
-      "summary": "",
-      "published_at": "2026-11-05T08:23:20Z",
-      "text": ""
-    },
     "8352258": {
-      "title": "Regional Manager, Operations - Accommodation (Based in Kuala Lumpur)",
+      "title": "Regional Manager, Escalation and Incident Operations - Accom (Based in Kuala Lumpur)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8352258",
-      "hash": "f0834b1bd467b787",
+      "hash": "74904d8513744597",
       "summary": "",
       "published_at": "2026-11-05T09:17:27Z",
       "text": ""
     },
+    "8352275": {
+      "title": "Regional Manager, Escalation and Incident Operations - Flights (Based in Kuala Lumpur)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8352275",
+      "hash": "250ac5793ed6c068",
+      "summary": "",
+      "published_at": "2026-11-05T09:15:58Z",
+      "text": ""
+    },
+    "8352260": {
+      "title": "Regional Manager, Incident Management (Based in Yokohama)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8352260",
+      "hash": "b1bad47a5005a9fa",
+      "summary": "",
+      "published_at": "2026-11-05T08:23:20Z",
+      "text": ""
+    },
     "8352261": {
-      "title": "Regional Manager - Operations (Based in Yokohama)",
+      "title": "Regional Manager, Operations (Based in Yokohama)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8352261",
-      "hash": "06e90b5ea654fd91",
+      "hash": "ec8ed0bb7a443319",
       "summary": "",
       "published_at": "2026-11-05T08:24:48Z",
       "text": ""
@@ -1506,14 +1514,6 @@
       "hash": "ec8ed0bb7a443319",
       "summary": "",
       "published_at": "2026-09-25T03:40:32Z",
-      "text": ""
-    },
-    "8352275": {
-      "title": "Regional Manager, Operations - Flights (Based in Kuala Lumpur)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8352275",
-      "hash": "1f76e23889e5b417",
-      "summary": "",
-      "published_at": "2026-11-05T09:15:58Z",
       "text": ""
     },
     "8311578": {
@@ -1933,9 +1933,9 @@
       "text": ""
     },
     "8352278": {
-      "title": "Senior Regional Manager - Escalation and Incident Operations (Kuala Lumpur based)",
+      "title": "Senior Regional Manager, Escalation and Incident Operations (Based in Kuala Lumpur)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8352278",
-      "hash": "0f962875653372d7",
+      "hash": "c327e16ae7dbc41f",
       "summary": "",
       "published_at": "2026-11-05T09:01:20Z",
       "text": ""
@@ -2092,14 +2092,6 @@
       "published_at": "2026-10-07T06:25:38Z",
       "text": ""
     },
-    "6323041": {
-      "title": "Software Engineer Internship 2027 (6 months) - India-based, Gurgaon office",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/6323041",
-      "hash": "e0dcf6e05ed5f7b1",
-      "summary": "",
-      "published_at": "2024-10-11T04:27:49Z",
-      "text": ""
-    },
     "8229976": {
       "title": "Sourcing Specialist (Bangkok-based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8229976",
@@ -2196,20 +2188,20 @@
       "published_at": "2025-04-22T11:22:25Z",
       "text": ""
     },
-    "8392328": {
-      "title": "Staff Software Engineer - Back End: Fast track 1-Day Program (27th November) (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8392328",
-      "hash": "915fa66d5cd18271",
-      "summary": "",
-      "published_at": "2026-11-16T08:52:15Z",
-      "text": ""
-    },
     "8007045": {
       "title": "Staff Software Engineer - Back End: Fast track 1-Day Program (27th November) (Bangkok Based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8007045",
       "hash": "915fa66d5cd18271",
       "summary": "",
       "published_at": "2026-09-11T11:18:27Z",
+      "text": ""
+    },
+    "8392328": {
+      "title": "Staff Software Engineer - Back End: Fast track 1-Day Program (27th November) (Bangkok Based, Relocation Provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8392328",
+      "hash": "915fa66d5cd18271",
+      "summary": "",
+      "published_at": "2026-11-16T08:52:15Z",
       "text": ""
     },
     "7543795": {
@@ -2636,14 +2628,6 @@
       "published_at": "2026-10-02T10:35:54Z",
       "text": ""
     },
-    "7995116": {
-      "title": "Support Associate (Gurgaon)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7995116",
-      "hash": "0e687f4852d59c6c",
-      "summary": "",
-      "published_at": "2026-08-27T10:48:23Z",
-      "text": ""
-    },
     "8090218": {
       "title": "Support Associate- Japanese Speaker 24/7 (Yokohama, requires relocation to Yokohama)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8090218",
@@ -2666,14 +2650,6 @@
       "hash": "5d128f157e88f3ad",
       "summary": "",
       "published_at": "2026-10-27T06:37:21Z",
-      "text": ""
-    },
-    "8168798": {
-      "title": "Support Associate - Vietnamese Speaking (Based in Bangkok with relocation support)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8168798",
-      "hash": "230669cc6c661d22",
-      "summary": "",
-      "published_at": "2026-09-08T07:26:07Z",
       "text": ""
     },
     "8355273": {
@@ -3277,7 +3253,8 @@
     "8405291",
     "8405378",
     "8404854",
-    "6323041"
+    "6323041",
+    "8410454"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

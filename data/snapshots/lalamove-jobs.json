@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-23T03:44:53.880053Z",
-  "etag": "W/\"13b869-phhH9S7MEC8fsbYt9Sr35eBEyJM\"",
+  "taken_at": "2026-11-24T06:58:07.229015Z",
+  "etag": "W/\"138227-DU5nQUy7lb9X81QXQLt40W/SNgw\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -53,9 +53,9 @@
       "text": ""
     },
     "5b3bce82-cb0d-41aa-92f3-59eced4887fa": {
-      "title": "Analista de Operações de Vendas",
+      "title": "Analista de Operações de Vendas (foco em dados)",
       "url": "https://jobs.lever.co/lalamove/5b3bce82-cb0d-41aa-92f3-59eced4887fa",
-      "hash": "f97cc4accb1508af",
+      "hash": "c5474803d93a8943",
       "summary": "",
       "published_at": "2026-09-16T21:23:11.529000Z",
       "text": ""
@@ -380,6 +380,14 @@
       "published_at": "2026-10-27T07:55:11.048000Z",
       "text": ""
     },
+    "bf44f80e-f99f-4eef-a3e7-a33d8b759984": {
+      "title": "Driver Operations Associate - Driver Assistance",
+      "url": "https://jobs.lever.co/lalamove/bf44f80e-f99f-4eef-a3e7-a33d8b759984",
+      "hash": "f860d302ab046bed",
+      "summary": "",
+      "published_at": "2026-11-23T06:35:31.319000Z",
+      "text": ""
+    },
     "c7b2dbb0-9965-48db-b83c-12498918393c": {
       "title": "Driver Operations Associate - Offline Presence",
       "url": "https://jobs.lever.co/lalamove/c7b2dbb0-9965-48db-b83c-12498918393c",
@@ -442,6 +450,14 @@
       "hash": "9fc8371522325ab1",
       "summary": "",
       "published_at": "2026-11-05T10:23:53.254000Z",
+      "text": ""
+    },
+    "ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a": {
+      "title": "Driver Operations Associate (Offline Presence)",
+      "url": "https://jobs.lever.co/lalamove/ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a",
+      "hash": "3822eefbbae4a535",
+      "summary": "",
+      "published_at": "2026-11-23T05:32:10.416000Z",
       "text": ""
     },
     "edabcc2a-190c-4ce8-8ae9-44ca7dd3fc01": {
@@ -626,14 +642,6 @@
       "hash": "8260cc0ab3af33d4",
       "summary": "",
       "published_at": "2026-11-18T20:23:08.863000Z",
-      "text": ""
-    },
-    "8ce6ab82-60af-462b-81ef-6cfcda33bbb3": {
-      "title": "Junior Product Designer (UI/UX)",
-      "url": "https://jobs.lever.co/lalamove/8ce6ab82-60af-462b-81ef-6cfcda33bbb3",
-      "hash": "13c4149bba720c6a",
-      "summary": "",
-      "published_at": "2025-09-11T10:06:57.084000Z",
       "text": ""
     },
     "06f4e6c4-cab5-464f-bea1-014a5f88631c": {
@@ -900,12 +908,12 @@
       "published_at": "2026-10-28T02:18:47.277000Z",
       "text": ""
     },
-    "dc3e3080-96b4-44ca-8caf-71ceb3938519": {
+    "99d611b4-b09a-44a8-bc5a-3f8c254770ea": {
       "title": "Sales Associate - Long Island, New York",
-      "url": "https://jobs.lever.co/lalamove/dc3e3080-96b4-44ca-8caf-71ceb3938519",
+      "url": "https://jobs.lever.co/lalamove/99d611b4-b09a-44a8-bc5a-3f8c254770ea",
       "hash": "d1a155be00fbcb8b",
       "summary": "",
-      "published_at": "2026-11-16T16:29:19.485000Z",
+      "published_at": "2026-11-23T20:29:04.618000Z",
       "text": ""
     },
     "1c860b16-d2b5-49ec-bcdb-bc977a1497cc": {
@@ -1130,22 +1138,6 @@
       "hash": "62c09dc3290efe52",
       "summary": "",
       "published_at": "2026-10-06T12:30:40.339000Z",
-      "text": ""
-    },
-    "b9e21a04-4258-41d9-a366-5dacc1ef5684": {
-      "title": "Senior Product Manager, Driver",
-      "url": "https://jobs.lever.co/lalamove/b9e21a04-4258-41d9-a366-5dacc1ef5684",
-      "hash": "45b58d49f6d09883",
-      "summary": "",
-      "published_at": "2026-09-17T06:16:36.813000Z",
-      "text": ""
-    },
-    "2080652c-42ca-4bbe-b231-ea4aa02cb8c6": {
-      "title": "Senior Product Manager, Pricing",
-      "url": "https://jobs.lever.co/lalamove/2080652c-42ca-4bbe-b231-ea4aa02cb8c6",
-      "hash": "a14ea841ffbe8b79",
-      "summary": "",
-      "published_at": "2026-04-13T07:36:00.073000Z",
       "text": ""
     },
     "27156d57-f3b5-420d-9688-f39e96eaa2eb": {
@@ -1472,7 +1464,10 @@
     "e0ec6bdc-134b-42bb-adb2-3eee8a96827e",
     "d688c300-a608-4043-ac96-9ce1622216d4",
     "bc483b22-3121-4100-8d22-ccb3e873cdad",
-    "34ae6ccb-4e77-40d9-9c2a-c729e9e92af0"
+    "34ae6ccb-4e77-40d9-9c2a-c729e9e92af0",
+    "bf44f80e-f99f-4eef-a3e7-a33d8b759984",
+    "ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a",
+    "99d611b4-b09a-44a8-bc5a-3f8c254770ea"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

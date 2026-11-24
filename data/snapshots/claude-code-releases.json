@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-23T03:45:00.827013Z",
-  "etag": "W/\"9dbcc0f726e9799122cab670f91637d7199159b3b7708a48573c1438e767ca04\"",
+  "taken_at": "2026-11-24T06:58:20.985342Z",
+  "etag": "W/\"b618df8833775f0fe0d51d9cbe005277a5f31daacac1f6be92203cf5ff55bc6e\"",
   "last_modified": null,
   "items": {
+    "455828330": {
+      "title": "v2.1.331",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
+      "hash": "2050c7d1892270d5",
+      "summary": "## What's changed\n- Added Code Mode support in terminal sessions on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude Platform on AWS\n- Added `oidc.groups_jsonpath` to the Claude apps gateway, to read groups from the matching entries of a list of objects with a small subset of JSONPath (RFC 9535)\n- Added an API connectivity section to `claude doctor` that reports whether the API can be reached, with the HTTP status or the error, or says why it wasn't tested\n- Added a notice when tap-mode voice dictation stops by itself, after 15 seconds without recognized speech or a…",
+      "published_at": "2026-11-23T21:34:41Z",
+      "text": ""
+    },
     "453086311": {
       "title": "v2.1.330",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode\n- Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window\n- Added `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` to run every workflow agent on one model while other subagents keep theirs\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS` environment variable to set a longer maximum delay…",
       "published_at": "2026-10-09T19:28:59Z",
       "text": ""
-    },
-    "407134589": {
-      "title": "v2.1.295",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-      "hash": "21f7d0983bb2c614",
-      "summary": "## What's changed\n- Added `onFailure: \"block\"` for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through\n- Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done\n- Added quoted text to the `/copy` picker, so a drafted message copies without its `>` markers\n- Added a warning to `claude plugin install`, `enable`, `disable` and `marketplace add` when the settings file they write to does not load\n- Added a line on stderr, wh…",
-      "published_at": "2026-10-08T19:48:38Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -303,7 +303,8 @@
     "449173658",
     "450696184",
     "451777787",
-    "453086311"
+    "453086311",
+    "455828330"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

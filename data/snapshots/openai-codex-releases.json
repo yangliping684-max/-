@@ -1,47 +1,47 @@
 {
   "source_id": "openai-codex-releases",
-  "taken_at": "2026-11-23T03:45:44.976638Z",
-  "etag": "W/\"6c24ad0fb9bdc1fc7b415b793f46d11aa9f01d718c2d4befd57dacff44c233af\"",
+  "taken_at": "2026-11-24T06:59:05.922886Z",
+  "etag": "W/\"3da91a186a38b297fc05bf90e07afa586db3c4edcaeed4e0e4c5421adb9950ff\"",
   "last_modified": null,
   "items": {
-    "453327817": {
-      "title": "0.173.0-alpha.4 (rust-v0.173.0-alpha.4)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.4",
-      "hash": "110afa41a0894508",
-      "summary": "Release 0.173.0-alpha.4",
-      "published_at": "2026-11-21T00:35:19Z",
+    "456208912": {
+      "title": "0.174.0-alpha.1 (rust-v0.174.0-alpha.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.1",
+      "hash": "ae8e1662557adf42",
+      "summary": "Release 0.174.0-alpha.1",
+      "published_at": "2026-11-24T01:46:17Z",
       "text": ""
     },
-    "453237794": {
-      "title": "0.173.0-alpha.3 (rust-v0.173.0-alpha.3)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.3",
-      "hash": "f80241c6b8123a68",
-      "summary": "Release 0.173.0-alpha.3",
-      "published_at": "2026-11-20T22:23:53Z",
+    "456141969": {
+      "title": "0.172.0 (rust-v0.172.0)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0",
+      "hash": "ed4489531dcd2c92",
+      "summary": "## New Features\n- Follow thread links from search results and transcripts to open saved conversations and nested agents in the terminal. (#62332)\n- Press `Tab` to complete arguments for supported slash commands. For example, `/mcp lo` completes to `/mcp login`. (#62343)\n- Jump between task groups in the agent command center with `Shift+Up` and `Shift+Down`. (#62200)\n- Optional stdio MCP servers with cached tool lists now start on their first tool call by default. (#62366)\n- Set an approval reviewer for individual connected app tools in `config.toml`. (#62360)\n- App-server clients can select A…",
+      "published_at": "2026-11-24T00:03:55Z",
       "text": ""
     },
-    "453161536": {
-      "title": "0.173.0-alpha.2 (rust-v0.173.0-alpha.2)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.2",
-      "hash": "05bd0c28ac05bb12",
-      "summary": "Release 0.173.0-alpha.2",
-      "published_at": "2026-11-20T20:44:46Z",
+    "456394826": {
+      "title": "0.173.0-alpha.5 (rust-v0.173.0-alpha.5)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5",
+      "hash": "ce80d04b50d0cc3e",
+      "summary": "Release 0.173.0-alpha.5",
+      "published_at": "2026-11-24T06:44:18Z",
       "text": ""
     },
-    "452208402": {
-      "title": "0.173.0-alpha.1 (rust-v0.173.0-alpha.1)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.1",
-      "hash": "1a701ba5df475667",
-      "summary": "Release 0.173.0-alpha.1",
-      "published_at": "2026-11-20T02:50:37Z",
+    "455796859": {
+      "title": "0.172.0-alpha.2.1 (rust-v0.172.0-alpha.2.1)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1",
+      "hash": "bb0797a723e82a30",
+      "summary": "Release 0.172.0-alpha.2.1",
+      "published_at": "2026-11-23T18:02:51Z",
       "text": ""
     },
-    "452122665": {
-      "title": "0.171.0 (rust-v0.171.0)",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
-      "hash": "d2900facb2eaa625",
-      "summary": "## New Features\n- Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection. (#62106)\n- Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation. (#61352, #61888, #61889, #61919, #62157)\n- Added configurable undo and redo shortcuts to the non-Vim prompt composer, including restoration of attachments and large pastes. (#61954)\n- Added `codex exec --remote ` to start or resume noninteractive sessions on an existing app server. (#61707)\n- Added `/rc` and `/remote` to manage loc…",
-      "published_at": "2026-11-20T00:44:47Z",
+    "455903357": {
+      "title": "0.171.0-alpha.13.2 (rust-v0.171.0-alpha.13.2)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.2",
+      "hash": "42da44fddc8027bf",
+      "summary": "Release 0.171.0-alpha.13.2",
+      "published_at": "2026-11-23T19:38:30Z",
       "text": ""
     }
   },
@@ -138,7 +138,12 @@
     "451982294",
     "453327817",
     "453237794",
-    "453161536"
+    "453161536",
+    "456208912",
+    "456141969",
+    "456394826",
+    "455796859",
+    "455903357"
   ],
   "scope": "https://github.com/openai/codex|5|None"
 }

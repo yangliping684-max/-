@@ -1,9 +1,33 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-23T03:45:36.242097Z",
+  "taken_at": "2026-11-24T06:58:56.912901Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/introducing-shirudo": {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "hash": "28fc7d7567dd167d",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "published_at": "2026-11-23T21:20:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/connected-intelligence-for-in-house-legal": {
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "hash": "2cf14caea558802e",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "published_at": "2026-11-23T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/richpanel-ai-customer-support": {
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "hash": "ca7e225da2adfb8b",
+      "summary": "Richpanel uses GPT-6 Astra and GPT-6.1 Sol to equip its AI support agents with tools and procedures, and GPT-6 Luna for their conversations.",
+      "published_at": "2026-11-23T08:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/perplexity-and-intelligence": {
       "title": "Perplexity and Intelligence",
       "url": "https://openai.com/index/perplexity-and-intelligence",
@@ -44,14 +68,6 @@
       "published_at": "2026-11-19T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/deploying-daybreak-red": {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "hash": "5fc578cd552354e2",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
-      "published_at": "2026-11-19T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/business/learn/pr-scans-demo": {
       "title": "See PR scans in action",
       "url": "https://openai.com/business/learn/pr-scans-demo",
@@ -73,6 +89,14 @@
       "url": "https://openai.com/business/learn/codex-security-plugin-demo",
       "hash": "1b6781c4d6b1c963",
       "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "published_at": "2026-11-19T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/learn/deploying-daybreak-red": {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "hash": "5fc578cd552354e2",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -116,19 +140,19 @@
       "published_at": "2026-11-18T06:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/advancing-chip-design-with-our-models": {
-      "title": "Advancing chip design with OpenAI models",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "hash": "1420ffbe27960fa4",
-      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‐V core designs, showing progress in AI-assisted chip design with GPT‐6 Astra.",
-      "published_at": "2026-11-18T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership": {
       "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
       "hash": "8a0d26770b095be6",
       "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "published_at": "2026-11-18T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/advancing-chip-design-with-our-models": {
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "hash": "1420ffbe27960fa4",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‐V core designs, showing progress in AI-assisted chip design with GPT‐6 Astra.",
       "published_at": "2026-11-18T00:00:00Z",
       "text": ""
     },
@@ -156,19 +180,19 @@
       "published_at": "2026-11-17T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/introducing-openai-for-chile": {
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "hash": "c88f9ef5a878730b",
-      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
-      "published_at": "2026-11-17T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/astra-law-6-2": {
       "title": "Astra for Law leads in legal intelligence",
       "url": "https://openai.com/index/astra-law-6-2",
       "hash": "53e7b3c6cdc05627",
       "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/introducing-openai-for-chile": {
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "hash": "c88f9ef5a878730b",
+      "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
       "published_at": "2026-11-17T00:00:00Z",
       "text": ""
     },
@@ -620,19 +644,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/dan-driscoll-joins-openai": {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "hash": "65c019a6cb8c4c7f",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/qodo-codex-plugin": {
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
       "hash": "231a28400bc61652",
       "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/dan-driscoll-joins-openai": {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "hash": "65c019a6cb8c4c7f",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -778,30 +802,6 @@
       "hash": "c39c96f2aa74c443",
       "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
       "published_at": "2026-10-26T13:45:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/chatgpt-expanding-world-of-work": {
-      "title": "ChatGPT’s expanding world of work",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "hash": "37382f62066ce418",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "published_at": "2026-10-26T10:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/fanatics-streamline-fan-experience": {
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "hash": "d1e57ab8f748338a",
-      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "published_at": "2026-10-26T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/openai-cut-incident-investigation": {
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "url": "https://openai.com/index/openai-cut-incident-investigation",
-      "hash": "3900a4f5adb083fe",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "published_at": "2026-10-26T07:00:00Z",
       "text": ""
     }
   },
@@ -1039,7 +1039,10 @@
     "https://openai.com/index/combatting-adversarial-distillation",
     "https://openai.com/business/customer-stories/hebbia",
     "https://openai.com/index/introducing-medchembench",
-    "https://openai.com/index/perplexity-and-intelligence"
+    "https://openai.com/index/perplexity-and-intelligence",
+    "https://openai.com/index/introducing-shirudo",
+    "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+    "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

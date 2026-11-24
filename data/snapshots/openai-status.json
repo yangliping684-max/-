@@ -1,9 +1,17 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-11-20T04:01:29.134517Z",
+  "taken_at": "2026-11-24T06:59:08.736698Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://status.openai.com//incidents/01M84HKHX73RF7HTVZQ2A9GFXP": {
+      "title": "Elevated errors with GPT-6 conversations on paid ChatGPT plans",
+      "url": "https://status.openai.com//incidents/01M84HKHX73RF7HTVZQ2A9GFXP",
+      "hash": "0e06524e680051c9",
+      "summary": "Status: Resolved All affected services are operating normally again. We’re sorry for the disruption, and we appreciate your patience. Affected components Conversations (Operational)",
+      "published_at": "2026-11-23T16:38:46Z",
+      "text": ""
+    },
     "https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ": {
       "title": "Elevated error rates for gpt-6 Luna API requests",
       "url": "https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ",
@@ -395,14 +403,6 @@
       "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Agents (Operational)",
       "published_at": "2026-10-06T20:00:46Z",
       "text": ""
-    },
-    "https://status.openai.com//incidents/01M48Y8E81QAFF9XKVGE118E6X": {
-      "title": "Errors processing large PDFs in the Responses API",
-      "url": "https://status.openai.com//incidents/01M48Y8E81QAFF9XKVGE118E6X",
-      "hash": "541faaf7b286fb28",
-      "summary": "Status: Resolved All impacted services have now fully recovered. Affected components Responses (Operational)",
-      "published_at": "2026-10-06T17:50:00Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -494,7 +494,8 @@
     "https://status.openai.com//incidents/01M7C40W0N5MZHNW0YM09QV962",
     "https://status.openai.com//incidents/01M7N9VNR6X5SEC90M1YCDB36D",
     "https://status.openai.com//incidents/01M7Q99XRGP8T4DWJN8DSZXA1X",
-    "https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ"
+    "https://status.openai.com//incidents/01M7T8MRF9SDBDNQ62Z6V156ZZ",
+    "https://status.openai.com//incidents/01M84HKHX73RF7HTVZQ2A9GFXP"
   ],
   "scope": "https://status.openai.com/feed.rss|50|None"
 }

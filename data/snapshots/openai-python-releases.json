@@ -1,9 +1,17 @@
 {
   "source_id": "openai-python-releases",
-  "taken_at": "2026-11-23T03:45:01.443848Z",
-  "etag": "W/\"08211bedebfdc4e78d3237f8a8cd569d178aafd347a0ff6e958c9f01fb703094\"",
+  "taken_at": "2026-11-24T06:58:21.609771Z",
+  "etag": "W/\"2f38b5b5d07dbfff0a025981d749e6f88232c9de5e359050554b14e9ff4e6db1\"",
   "last_modified": null,
   "items": {
+    "455857182": {
+      "title": "v3.58.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.58.0",
+      "hash": "c025c50589d7dcee",
+      "summary": "## [3.58.0](https://github.com/openai/openai-python/compare/v3.57.0...v3.58.0) (2026-11-23)\n### Features\n* **api:** set and read agent session spending limits ([#4315](https://github.com/openai/openai-python/issues/4315)) ([fc36aef](https://github.com/openai/openai-python/commit/fc36aefb8f7809d0b91c65a9c3e424a6e7b8bc77))\n### Bug Fixes\n* **api:** clarify when to omit completion choice count ([#4298](https://github.com/openai/openai-python/issues/4298)) ([f63f14b](https://github.com/openai/openai-python/commit/f63f14b34754fa77fc839ac2cf95da3ef42e1f6a))",
+      "published_at": "2026-11-23T19:00:21Z",
+      "text": ""
+    },
     "452156013": {
       "title": "v3.57.0",
       "url": "https://github.com/openai/openai-python/releases/tag/v3.57.0",
@@ -235,14 +243,6 @@
       "summary": "## [3.33.0](https://github.com/openai/openai-python/compare/v3.32.0...v3.33.0) (2026-10-16)\n### Features\n* **api:** add safety identifiers to image requests and responses ([#4093](https://github.com/openai/openai-python/issues/4093)) ([c969e32](https://github.com/openai/openai-python/commit/c969e32ebb325b5910aff4543187fedc5527e172))\n* **api:** share Decisions cache breakpoint parameter type ([#4092](https://github.com/openai/openai-python/issues/4092)) ([f7cefda](https://github.com/openai/openai-python/commit/f7cefdaf059a3e6856d49b4bc2e2e5fbdef8193b))",
       "published_at": "2026-10-17T00:29:04Z",
       "text": ""
-    },
-    "415345570": {
-      "title": "v3.32.0",
-      "url": "https://github.com/openai/openai-python/releases/tag/v3.32.0",
-      "hash": "ae9d5f6c0b4f4172",
-      "summary": "## [3.32.0](https://github.com/openai/openai-python/compare/v3.31.0...v3.32.0) (2026-10-16)\n### Features\n* **api:** add cache settings and key options [2/2] ([#4087](https://github.com/openai/openai-python/issues/4087)) ([325da45](https://github.com/openai/openai-python/commit/325da45934ddb1c1b6a0bed1681a8cf46c9a8712))\n* **api:** add prompt-based voice creation ([#4091](https://github.com/openai/openai-python/issues/4091)) ([2e39db7](https://github.com/openai/openai-python/commit/2e39db79e2f0ec41ce5d87b379be1e88c8298ea4))\n* **api:** add regional processing residency options ([#4081](https://g…",
-      "published_at": "2026-10-16T20:17:26Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -308,7 +308,8 @@
     "450225202",
     "449557773",
     "452156013",
-    "451919602"
+    "451919602",
+    "455857182"
   ],
   "scope": "https://github.com/openai/openai-python|50|None"
 }

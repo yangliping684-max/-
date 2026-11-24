@@ -1,9 +1,25 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-23T03:45:45.697538Z",
-  "etag": "W/\"955969d7a93ff3d04cb3489e02db3634\"",
+  "taken_at": "2026-11-24T06:59:06.672881Z",
+  "etag": "W/\"281cc43016efc69d302daeb40dffc07c\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/3vbyqgnswwxq": {
+      "title": "Claude for Microsoft 365 add-in missing for some users",
+      "url": "https://status.claude.com/incidents/3vbyqgnswwxq",
+      "hash": "9a993f1ee03d6945",
+      "summary": "Nov 24 , 01:31 UTC Update - We are continuing to investigate an issue causing the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account. In the meantime, we recommend using the web versions of Excel, Word, and PowerPoint at office.com, where Claude remains available for many users. Work and school accounts do not appear affected. We will provide another update as soon as possible. Nov 24 , 00:10 UTC Investigating - We are investigating an issue causing the Claude add-in to disappear from Excel, Word, and Po…",
+      "published_at": "2026-11-24T05:05:21Z",
+      "text": ""
+    },
+    "https://status.claude.com/incidents/yzs0s90d8fm8": {
+      "title": "Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/yzs0s90d8fm8",
+      "hash": "398b54829b9c1ba7",
+      "summary": "Nov 23 , 11:07 UTC Resolved - The issue affecting Claude services has been resolved. Impact occurred from 01:39 PT / 09:39 UTC to 01:56 PT / 09:56 UTC. Nov 23 , 10:07 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Nov 23 , 09:56 UTC Identified - We have identified the cause of elevated errors on requests to Claude Mythos 5.2, Claude Fable 5.2, Claude Opus 5.5, Claude Sonnet 5.5, Claude Haiku 5.5, and other Claude models and are working on a fix. We will provide an update as soon as possible. Nov 23 , 09:49 UTC Investigating…",
+      "published_at": "2026-11-23T11:07:41Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/c1kmrkmv5f3d": {
       "title": "Elevated errors for Claude Mythos 5.2 and Claude Fable 5.2",
       "url": "https://status.claude.com/incidents/c1kmrkmv5f3d",
@@ -187,22 +203,6 @@
       "summary": "Oct 21 , 20:29 UTC Resolved - The issue affecting other Claude models has been resolved. Oct 21 , 19:49 UTC Investigating - We are investigating elevated errors on requests to Claude Fable 5. We will provide an update as soon as possible.",
       "published_at": "2026-10-21T20:29:17Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/978mjkgw6mh7": {
-      "title": "Elevated errors on platform.claude.com",
-      "url": "https://status.claude.com/incidents/978mjkgw6mh7",
-      "hash": "415df6cda03737bf",
-      "summary": "Oct 13 , 18:00 UTC Resolved - This issue has been resolved. Oct 7 , 21:44 UTC Monitoring - We've mitigated the errors loading usage data on platform.claude.com and in the Admin API usage report. While we work on a full fix, the most recent ~30 minutes of usage may take longer to appear on the platform.claude.com. API requests are not affected, and we will provide additional updates here. Oct 7 , 17:28 UTC Identified - We've identified the cause of errors loading usage data. The Admin API usage report has recovered, and fixes for the platform.claude.com Usage and Rate limits pages are in progr…",
-      "published_at": "2026-10-13T18:00:04Z",
-      "text": ""
-    },
-    "https://status.claude.com/incidents/vmys9qn874h4": {
-      "title": "Issue with spend limits",
-      "url": "https://status.claude.com/incidents/vmys9qn874h4",
-      "hash": "2870b079776ae0a1",
-      "summary": "Oct 7 , 21:23 UTC Resolved - We have identified an issue which resulted in some organizations to be incorrectly paused for having reached their spend limit, resulting in refused requests on the Claude API, Claude.ai, Claude Code, Claude Security, and Claude Cowork. This is now resolved.",
-      "published_at": "2026-10-07T21:23:29Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -253,7 +253,9 @@
     "https://status.claude.com/incidents/r1b4f9bbnsx1",
     "https://status.claude.com/incidents/6prv10gjdpz1",
     "https://status.claude.com/incidents/1lglzf469c0z",
-    "https://status.claude.com/incidents/c1kmrkmv5f3d"
+    "https://status.claude.com/incidents/c1kmrkmv5f3d",
+    "https://status.claude.com/incidents/3vbyqgnswwxq",
+    "https://status.claude.com/incidents/yzs0s90d8fm8"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

@@ -1,6 +1,56 @@
 {
   "notifications": [
     {
+      "id": "alert-fa5c41815604a106",
+      "kind": "alert",
+      "created_at": "2026-11-24T06:59:16.024145Z",
+      "title": "2 条情报达到提醒条件",
+      "body": "- [重要·76] v2.1.331（Claude Code Releases）\n- [重要·76] Richpanel helps companies automate 50% of support in 30 days（OpenAI News）",
+      "event_ids": [
+        "ae889331a7d709d9",
+        "bb61f469561bae58"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-11-24",
+      "kind": "digest",
+      "created_at": "2026-11-24T06:59:16.024145Z",
+      "title": "每日摘要 2026-11-24：28 条变化",
+      "body": "# 知更日报 2026-11-24\n\n共发现 **28** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 76]** [v2.1.331](https://github.com/anthropics/claude-code/releases/tag/v2.1.331) — Claude Code Releases · 新增 · 关键词：agent\n- **[重要 76]** [Richpanel helps companies automate 50% of support in 30 days](https://openai.com/business/customer-stories/richpanel-ai-customer-support) — OpenAI News · 新增 · 关键词：GPT\n- **[关注 68]** [Applied AI Architect, Technology Partnerships](https://job-boards.greenhouse.io/anthropic/jobs/5491480008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Industry Principal, Insurance](https://job-boards.greenhouse.io/anthropic/jobs/5293104008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [Software Engineer, Model-to-Product Behavior Engineering](https://job-boards.greenhouse.io/anthropic/jobs/5487188008) — Anthropic 公开职位（Greenhouse） · 新增\n- **[关注 68]** [OpenAI and Cisco introduce Shirudo](https://openai.com/index/introducing-shirudo) — OpenAI News · 新增\n- **[关注 68]** [Connected intelligence for in-house legal](https://openai.com/business/learn/connected-intelligence-for-in-house-legal) — OpenAI News · 新增\n- **[关注 63]** [Senior Logistics Coordinator](https://jobs.smartrecruiters.com/Expeditors/744000163139859) — Expeditors 中国区职位 · 新增 · 关键词：物流与供应链\n- **[关注 63]** [Logistics Coordinator](https://jobs.smartrecruiters.com/Expeditors/744000163138619) — Expeditors 中国区职位 · 新增 · 关键词：物流与供应链\n- **[关注 60]** [v3.58.0](https://github.com/openai/openai-python/releases/tag/v3.58.0) — OpenAI Python SDK Releases · 新增\n- **[关注 55]** [0.174.0-alpha.1 (rust-v0.174.0-alpha.1)](https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.1) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [0.172.0 (rust-v0.172.0)](https://github.com/openai/codex/releases/tag/rust-v0.172.0) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [0.173.0-alpha.5 (rust-v0.173.0-alpha.5)](https://github.com/openai/codex/releases/tag/rust-v0.173.0-alpha.5) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [0.172.0-alpha.2.1 (rust-v0.172.0-alpha.2.1)](https://github.com/openai/codex/releases/tag/rust-v0.172.0-alpha.2.1) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [0.171.0-alpha.13.2 (rust-v0.171.0-alpha.13.2)](https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.13.2) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [Claude for Microsoft 365 add-in missing for some users](https://status.claude.com/incidents/3vbyqgnswwxq) — Claude 服务状态 · 新增\n- **[关注 55]** [Elevated errors for multiple models](https://status.claude.com/incidents/yzs0s90d8fm8) — Claude 服务状态 · 新增\n- **[关注 55]** [Elevated errors with GPT-6 conversations on paid ChatGPT plans](https://status.openai.com//incidents/01M84HKHX73RF7HTVZQ2A9GFXP) — OpenAI 服务状态 · 新增\n- **[一般 38]** [Anthropic Research Resident](https://job-boards.greenhouse.io/anthropic/jobs/5439169008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 38]** [Anthropic Research Resident](https://job-boards.greenhouse.io/anthropic/jobs/5438311008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 38]** [Engineering Manager, Agent Security Partnerships](https://job-boards.greenhouse.io/anthropic/jobs/5394611008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 38]** [Gas Supply and Transport Lead, US and Canada](https://job-boards.greenhouse.io/anthropic/jobs/5469337008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 38]** [Machine Learning Data Scientist, Forecasting Platform](https://job-boards.greenhouse.io/anthropic/jobs/5467893008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Head of Data Center Logistics Practice](https://job-boards.greenhouse.io/flexport/jobs/8046640) — Flexport 全球职位 · 移除 · 关键词：物流与供应链\n- **[一般 28]** [External Affairs, South Korea](https://job-boards.greenhouse.io/anthropic/jobs/5417967008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [International Accounting, APAC](https://job-boards.greenhouse.io/anthropic/jobs/5440812008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Manager, Commercial Counsel, GTM](https://job-boards.greenhouse.io/anthropic/jobs/5209661008) — Anthropic 公开职位（Greenhouse） · 移除\n- **[一般 28]** [Safeguards Enforcement Lead, User Well-Being](https://job-boards.greenhouse.io/anthropic/jobs/5410004008) — Anthropic 公开职位（Greenhouse） · 移除\n",
+      "event_ids": [
+        "cdeba075157056fb",
+        "e7ed06bf7e546da1",
+        "a3478480a3c7ee28",
+        "ae889331a7d709d9",
+        "289355e228bf5e86",
+        "8edfa93bb4b90224",
+        "ec13f157bcb276bd",
+        "0ee7ba2ab696df94",
+        "5afe48fb9a8dfdb9",
+        "3e2b5379a0ab3b4c",
+        "984bbe7c2d396a36",
+        "90178e11023de3ae",
+        "341f416b22211bca",
+        "261bf47a1c1d5827",
+        "02d27b8a65c1ebf4",
+        "c04018f2e453e79d",
+        "bf003b8869f19cb4",
+        "e485761b042756a2",
+        "23ac17c2d10570e6",
+        "bb61f469561bae58",
+        "a2c8ea591d191475",
+        "0066342600028cfd",
+        "f0422014ac332bf5",
+        "0ddd41dc2f22c81f",
+        "30e87a68a836503e",
+        "3f6826913681bf99",
+        "bdeed1cf8d3d20fa",
+        "6d7e9d961a7e43c4"
+      ],
+      "level": "high"
+    },
+    {
       "id": "alert-3b2f353b1b8f6e45",
       "kind": "alert",
       "created_at": "2026-11-23T03:45:54.812701Z",

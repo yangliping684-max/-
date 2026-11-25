@@ -1,9 +1,49 @@
 {
   "source_id": "openai-news",
-  "taken_at": "2026-11-24T06:58:56.912901Z",
+  "taken_at": "2026-11-25T05:28:24.190947Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities": {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "hash": "365041cbd3437f2f",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "published_at": "2026-11-24T13:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/searching-for-distant-planets-with-astra": {
+      "title": "Searching for distant planets with Astra",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "hash": "8c6c4b4c00d5ef7c",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "published_at": "2026-11-24T11:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/intentful-dots": {
+      "title": "How Intentful uses dots to make more time for growth",
+      "url": "https://openai.com/business/customer-stories/intentful-dots",
+      "hash": "6fe55643f9bde274",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "published_at": "2026-11-24T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/ifood": {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood",
+      "hash": "9e9ee9335fc7b859",
+      "summary": "",
+      "published_at": "2026-11-24T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/business/customer-stories/clay-plugins-openai": {
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "hash": "3e5fd57cc25b6413",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "published_at": "2026-11-24T00:00:00Z",
+      "text": ""
+    },
     "https://openai.com/index/introducing-shirudo": {
       "title": "OpenAI and Cisco introduce Shirudo",
       "url": "https://openai.com/index/introducing-shirudo",
@@ -76,11 +116,11 @@
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
-      "title": "Get started with Daybreak Blue",
-      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
-      "hash": "dba8a93b486b93d1",
-      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+    "https://openai.com/business/learn/deploying-daybreak-red": {
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "hash": "5fc578cd552354e2",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -92,11 +132,11 @@
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
-    "https://openai.com/business/learn/deploying-daybreak-red": {
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "hash": "5fc578cd552354e2",
-      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+    "https://openai.com/business/learn/daybreak-blue-onboarding-demo": {
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "hash": "dba8a93b486b93d1",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
       "published_at": "2026-11-19T00:00:00Z",
       "text": ""
     },
@@ -108,19 +148,19 @@
       "published_at": "2026-11-18T10:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/research-acceleration-jagged-frontier": {
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "hash": "9b44d35114fd82ff",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
-      "published_at": "2026-11-18T08:00:00Z",
-      "text": ""
-    },
     "https://openai.com/business/customer-stories/sumitomo-life": {
       "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
       "url": "https://openai.com/business/customer-stories/sumitomo-life",
       "hash": "65671232c2ca4690",
       "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "published_at": "2026-11-18T08:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/research-acceleration-jagged-frontier": {
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "hash": "9b44d35114fd82ff",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
       "published_at": "2026-11-18T08:00:00Z",
       "text": ""
     },
@@ -180,19 +220,19 @@
       "published_at": "2026-11-17T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/astra-law-6-2": {
-      "title": "Astra for Law leads in legal intelligence",
-      "url": "https://openai.com/index/astra-law-6-2",
-      "hash": "53e7b3c6cdc05627",
-      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
-      "published_at": "2026-11-17T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/introducing-openai-for-chile": {
       "title": "Introducing OpenAI for Chile",
       "url": "https://openai.com/index/introducing-openai-for-chile",
       "hash": "c88f9ef5a878730b",
       "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+      "published_at": "2026-11-17T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/astra-law-6-2": {
+      "title": "Astra for Law leads in legal intelligence",
+      "url": "https://openai.com/index/astra-law-6-2",
+      "hash": "53e7b3c6cdc05627",
+      "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
       "published_at": "2026-11-17T00:00:00Z",
       "text": ""
     },
@@ -244,19 +284,19 @@
       "published_at": "2026-11-16T08:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": {
-      "title": "More ways to move care forward with ChatGPT for Healthcare",
-      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "hash": "a04ed517ae530484",
-      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
-      "published_at": "2026-11-16T06:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/advancing-computer-use-for-healthcare-teams": {
       "title": "Advancing computer-use agents for healthcare teams",
       "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "hash": "9ef84f7bc10afa4e",
       "summary": "",
+      "published_at": "2026-11-16T06:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare": {
+      "title": "More ways to move care forward with ChatGPT for Healthcare",
+      "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "hash": "a04ed517ae530484",
+      "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
       "published_at": "2026-11-16T06:00:00Z",
       "text": ""
     },
@@ -620,19 +660,19 @@
       "published_at": "2026-11-02T15:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "hash": "b0a37841e4c3336c",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "published_at": "2026-11-02T18:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties": {
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
       "hash": "3cb3f12648a991ce",
       "summary": "OpenAI is raising Security Bug Bounty rewards and introducing report quality, loyalty, and priority campaign bonuses for independent security researchers.",
+      "published_at": "2026-11-02T18:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai": {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "hash": "b0a37841e4c3336c",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
       "published_at": "2026-11-02T18:00:00Z",
       "text": ""
     },
@@ -644,19 +684,19 @@
       "published_at": "2026-11-02T09:00:00Z",
       "text": ""
     },
-    "https://openai.com/index/qodo-codex-plugin": {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "hash": "231a28400bc61652",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "published_at": "2026-11-02T00:00:00Z",
-      "text": ""
-    },
     "https://openai.com/index/dan-driscoll-joins-openai": {
       "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
       "url": "https://openai.com/index/dan-driscoll-joins-openai",
       "hash": "65c019a6cb8c4c7f",
       "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "published_at": "2026-11-02T00:00:00Z",
+      "text": ""
+    },
+    "https://openai.com/index/qodo-codex-plugin": {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "hash": "231a28400bc61652",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
       "published_at": "2026-11-02T00:00:00Z",
       "text": ""
     },
@@ -762,46 +802,6 @@
       "hash": "ba6c87e97d1e5c5d",
       "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
       "published_at": "2026-10-27T07:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/check-point-daybreak": {
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "hash": "52fdabc3e158a3fd",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "published_at": "2026-10-27T00:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/greptile-code-review-codex-astra": {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "url": "https://openai.com/index/greptile-code-review-codex-astra",
-      "hash": "a533bc85b86a218a",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "published_at": "2026-10-26T22:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/introducing-gpt-6-1-terra": {
-      "title": "Introducing GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "hash": "a7f5d99c78af62cc",
-      "summary": "Delivering fast and capable computer use at scale",
-      "published_at": "2026-10-26T18:00:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/building-scientific-understanding-with-academic-communities": {
-      "title": "Working with academic communities to build scientific understanding",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "hash": "1d9f672a179b6917",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "published_at": "2026-10-26T14:30:00Z",
-      "text": ""
-    },
-    "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security": {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "hash": "c39c96f2aa74c443",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "published_at": "2026-10-26T13:45:00Z",
       "text": ""
     }
   },
@@ -1042,7 +1042,12 @@
     "https://openai.com/index/perplexity-and-intelligence",
     "https://openai.com/index/introducing-shirudo",
     "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-    "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+    "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+    "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+    "https://openai.com/index/searching-for-distant-planets-with-astra",
+    "https://openai.com/business/customer-stories/intentful-dots",
+    "https://openai.com/business/customer-stories/ifood",
+    "https://openai.com/business/customer-stories/clay-plugins-openai"
   ],
   "scope": "https://openai.com/news/rss.xml|100|None"
 }

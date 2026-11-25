@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-24T06:58:09.677478Z",
-  "etag": "W/\"46bcced38dc6a804226ba5cad63c468b\"",
+  "taken_at": "2026-11-25T05:27:47.318511Z",
+  "etag": "W/\"129453cc8c82ca0ed7aad51d1e569df1\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -90,6 +90,14 @@
       "hash": "a4c3201bb88afb51",
       "summary": "",
       "published_at": "2026-10-12T06:13:16Z",
+      "text": ""
+    },
+    "8398446": {
+      "title": "Account Manager (Taipei)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8398446",
+      "hash": "c8d07b64df83b0a7",
+      "summary": "",
+      "published_at": "2026-11-25T03:56:07Z",
       "text": ""
     },
     "8323920": {
@@ -572,12 +580,20 @@
       "published_at": "2026-11-19T17:52:05Z",
       "text": ""
     },
-    "8405291": {
+    "8413400": {
       "title": "Content Marketing Manager, B2B Marketing (Bangkok Based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8405291",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8413400",
       "hash": "d819a93f1fec394a",
       "summary": "",
-      "published_at": "2026-11-20T08:38:58Z",
+      "published_at": "2026-11-24T07:35:42Z",
+      "text": ""
+    },
+    "8413403": {
+      "title": "Content Strategy Manager, B2B Marketing (Bangkok Based, relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8413403",
+      "hash": "aded7ceb61f1edc9",
+      "summary": "",
+      "published_at": "2026-11-24T07:38:41Z",
       "text": ""
     },
     "8335928": {
@@ -724,14 +740,6 @@
       "published_at": "2026-11-13T09:58:27Z",
       "text": ""
     },
-    "8284004": {
-      "title": "[Data Engineer] Senior / Staff MLOps Engineer (Bangkok Based, relocation provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8284004",
-      "hash": "6aa14e01ac54d543",
-      "summary": "",
-      "published_at": "2026-10-16T02:26:58Z",
-      "text": ""
-    },
     "8229408": {
       "title": "[Data Scientist] Principal Data Scientist - SG",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8229408",
@@ -796,22 +804,6 @@
       "published_at": "2026-10-16T08:06:45Z",
       "text": ""
     },
-    "8194798": {
-      "title": "Fast track 1-Day Program (27th November): Staff Software Engineer - Back End (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8194798",
-      "hash": "d56a71cf8822464a",
-      "summary": "",
-      "published_at": "2026-09-11T11:18:29Z",
-      "text": ""
-    },
-    "8392325": {
-      "title": "Fast track 1-Day Program (27th November): Staff Software Engineer - Back End (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8392325",
-      "hash": "d56a71cf8822464a",
-      "summary": "",
-      "published_at": "2026-11-16T08:50:19Z",
-      "text": ""
-    },
     "8015188": {
       "title": "Finance Business Partnering Manager (Bangkok Based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8015188",
@@ -874,6 +866,14 @@
       "hash": "931cc13c622a4858",
       "summary": "",
       "published_at": "2026-10-15T03:49:36Z",
+      "text": ""
+    },
+    "8411012": {
+      "title": "Indirect Tax Manager - Advisory (Bangkok based, relocation provided)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8411012",
+      "hash": "b5a35d2733a9effe",
+      "summary": "",
+      "published_at": "2026-11-24T08:49:07Z",
       "text": ""
     },
     "8305589": {
@@ -1500,6 +1500,14 @@
       "published_at": "2026-10-07T05:30:13Z",
       "text": ""
     },
+    "8239196": {
+      "title": "Senior AI Security Researcher, Singapore based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8239196",
+      "hash": "538d45d914449759",
+      "summary": "",
+      "published_at": "2026-09-30T11:06:10Z",
+      "text": ""
+    },
     "4950467": {
       "title": "Senior Analyst, App Marketing (Bangkok Based, Relocation Provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/4950467",
@@ -1628,6 +1636,14 @@
       "published_at": "2026-05-28T03:14:30Z",
       "text": ""
     },
+    "8415939": {
+      "title": "Senior Counsel, Commercial and Corporate",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8415939",
+      "hash": "4c6d18cc5c529711",
+      "summary": "",
+      "published_at": "2026-11-25T03:09:42Z",
+      "text": ""
+    },
     "8248700": {
       "title": "Senior Counsel, Data Privacy (Bangkok-based, Relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8248700",
@@ -1642,6 +1658,14 @@
       "hash": "52a739b71699c263",
       "summary": "",
       "published_at": "2026-11-10T03:40:46Z",
+      "text": ""
+    },
+    "8370379": {
+      "title": "Senior Counsel, Japan [SHP]",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8370379",
+      "hash": "a523921d13a913b8",
+      "summary": "",
+      "published_at": "2026-11-25T01:07:02Z",
       "text": ""
     },
     "8401289": {
@@ -2116,6 +2140,14 @@
       "published_at": "2026-11-06T02:54:03Z",
       "text": ""
     },
+    "8323409": {
+      "title": "Staff AI Security Researcher, Singapore based",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8323409",
+      "hash": "612ac35132ef0b50",
+      "summary": "",
+      "published_at": "2026-11-24T10:57:21Z",
+      "text": ""
+    },
     "7282375": {
       "title": "Staff / Lead Data Engineer - Bidding (Bangkok based, relocation provided)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7282375",
@@ -2130,22 +2162,6 @@
       "hash": "4de793bf058e7588",
       "summary": "",
       "published_at": "2025-04-22T11:22:25Z",
-      "text": ""
-    },
-    "8007045": {
-      "title": "Staff Software Engineer - Back End: Fast track 1-Day Program (27th November) (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8007045",
-      "hash": "915fa66d5cd18271",
-      "summary": "",
-      "published_at": "2026-09-11T11:18:27Z",
-      "text": ""
-    },
-    "8392328": {
-      "title": "Staff Software Engineer - Back End: Fast track 1-Day Program (27th November) (Bangkok Based, Relocation Provided)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8392328",
-      "hash": "915fa66d5cd18271",
-      "summary": "",
-      "published_at": "2026-11-16T08:52:15Z",
       "text": ""
     },
     "7543795": {
@@ -3204,7 +3220,15 @@
     "8404913",
     "8401692",
     "8405173",
-    "8413128"
+    "8413128",
+    "8398446",
+    "8413400",
+    "8413403",
+    "8411012",
+    "8239196",
+    "8415939",
+    "8370379",
+    "8323409"
   ],
   "scope": "https://boards-api.greenhouse.io/v1/boards/agoda/jobs|2000|None"
 }

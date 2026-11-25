@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-24T06:58:07.229015Z",
-  "etag": "W/\"138227-DU5nQUy7lb9X81QXQLt40W/SNgw\"",
+  "taken_at": "2026-11-25T05:27:40.327346Z",
+  "etag": "W/\"1345b2-WFsBu2Cj5rNUiVLmJEu1W1i2INg\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -50,6 +50,14 @@
       "hash": "31f99bc6bed07e81",
       "summary": "",
       "published_at": "2026-11-18T19:02:12.527000Z",
+      "text": ""
+    },
+    "880b709c-196a-472e-ac7f-cc970a4e5084": {
+      "title": "Accountant",
+      "url": "https://jobs.lever.co/lalamove/880b709c-196a-472e-ac7f-cc970a4e5084",
+      "hash": "29d8c99ec25b2710",
+      "summary": "",
+      "published_at": "2026-09-11T04:11:46.513000Z",
       "text": ""
     },
     "5b3bce82-cb0d-41aa-92f3-59eced4887fa": {
@@ -332,14 +340,6 @@
       "published_at": "2026-07-24T09:47:04.534000Z",
       "text": ""
     },
-    "9d35e845-ddce-4a59-82cc-9eea039fe3f3": {
-      "title": "Digital Marketing & Acquisition Executive (Regional Scope)",
-      "url": "https://jobs.lever.co/lalamove/9d35e845-ddce-4a59-82cc-9eea039fe3f3",
-      "hash": "22cabbcfbe1327f0",
-      "summary": "",
-      "published_at": "2026-08-28T10:31:36.994000Z",
-      "text": ""
-    },
     "8ca8e498-5006-439b-9d57-3676f8c58a67": {
       "title": "Digital Marketing Associate",
       "url": "https://jobs.lever.co/lalamove/8ca8e498-5006-439b-9d57-3676f8c58a67",
@@ -426,14 +426,6 @@
       "hash": "91cf19ce234b774e",
       "summary": "",
       "published_at": "2026-09-30T05:11:16.172000Z",
-      "text": ""
-    },
-    "f26baff2-766b-48e5-a0f4-714c1d456189": {
-      "title": "Driver Operations Associate (Driver Management)",
-      "url": "https://jobs.lever.co/lalamove/f26baff2-766b-48e5-a0f4-714c1d456189",
-      "hash": "109fe5f999cebb5a",
-      "summary": "",
-      "published_at": "2026-10-12T04:29:02.784000Z",
       "text": ""
     },
     "2ab5004f-ae52-4c72-bb4e-d0d4c6661f27": {
@@ -724,14 +716,6 @@
       "published_at": "2026-11-06T18:19:01.936000Z",
       "text": ""
     },
-    "b8358edb-1066-4b55-ba65-b11fd4e12aa5": {
-      "title": "Manager, Cybersecurity",
-      "url": "https://jobs.lever.co/lalamove/b8358edb-1066-4b55-ba65-b11fd4e12aa5",
-      "hash": "f4fffa888318e7a2",
-      "summary": "",
-      "published_at": "2023-04-27T08:03:56.417000Z",
-      "text": ""
-    },
     "df376513-c131-4aaa-9b06-426e2ebde124": {
       "title": "Manager, Information Security",
       "url": "https://jobs.lever.co/lalamove/df376513-c131-4aaa-9b06-426e2ebde124",
@@ -842,6 +826,14 @@
       "hash": "f5a2a26f0c55ffc7",
       "summary": "",
       "published_at": "2026-05-15T03:17:54.300000Z",
+      "text": ""
+    },
+    "95b4a604-89e2-4699-9723-c3c67d27d33d": {
+      "title": "Principal Product Manager, Marketplace Engagement",
+      "url": "https://jobs.lever.co/lalamove/95b4a604-89e2-4699-9723-c3c67d27d33d",
+      "hash": "069f51873241bb2e",
+      "summary": "",
+      "published_at": "2026-11-24T10:13:24.787000Z",
       "text": ""
     },
     "3d7fa528-6f7a-4ade-908a-1a3bf4c3d74b": {
@@ -1140,20 +1132,20 @@
       "published_at": "2026-10-06T12:30:40.339000Z",
       "text": ""
     },
+    "b9e21a04-4258-41d9-a366-5dacc1ef5684": {
+      "title": "Senior Product Manager, Driver",
+      "url": "https://jobs.lever.co/lalamove/b9e21a04-4258-41d9-a366-5dacc1ef5684",
+      "hash": "45b58d49f6d09883",
+      "summary": "",
+      "published_at": "2026-09-17T06:16:36.813000Z",
+      "text": ""
+    },
     "27156d57-f3b5-420d-9688-f39e96eaa2eb": {
       "title": "Senior Public Affairs Associate",
       "url": "https://jobs.lever.co/lalamove/27156d57-f3b5-420d-9688-f39e96eaa2eb",
       "hash": "b43cc60226495cc5",
       "summary": "",
       "published_at": "2026-09-04T04:06:24.253000Z",
-      "text": ""
-    },
-    "00fd77c2-017d-43ee-b3b3-8e4bfdd87344": {
-      "title": "Senior Technology Risk Analyst / Lead",
-      "url": "https://jobs.lever.co/lalamove/00fd77c2-017d-43ee-b3b3-8e4bfdd87344",
-      "hash": "72953e05d63a9895",
-      "summary": "",
-      "published_at": "2026-09-25T07:33:57.700000Z",
       "text": ""
     },
     "9a2de1d3-5994-4507-a988-1ec34e629e14": {
@@ -1467,7 +1459,8 @@
     "34ae6ccb-4e77-40d9-9c2a-c729e9e92af0",
     "bf44f80e-f99f-4eef-a3e7-a33d8b759984",
     "ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a",
-    "99d611b4-b09a-44a8-bc5a-3f8c254770ea"
+    "99d611b4-b09a-44a8-bc5a-3f8c254770ea",
+    "95b4a604-89e2-4699-9723-c3c67d27d33d"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

@@ -1,9 +1,17 @@
 {
   "source_id": "claude-code-releases",
-  "taken_at": "2026-11-24T06:58:20.985342Z",
-  "etag": "W/\"b618df8833775f0fe0d51d9cbe005277a5f31daacac1f6be92203cf5ff55bc6e\"",
+  "taken_at": "2026-11-25T05:27:48.090912Z",
+  "etag": "W/\"be2f97860404adc1a76c9d9e45356d7ba74eeaa5c506791ebf7fc8a5ece6706b\"",
   "last_modified": null,
   "items": {
+    "457391405": {
+      "title": "v2.1.332",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "hash": "ad90aad5621c9cfd",
+      "summary": "## What's changed\n- Added skills from MCP servers (beta). They show as `server:skill` in the `/` menu; other skills keep their names\n- Added a `PreSkillShellCommand` hook event that can refuse a skill or command's inline shell commands as it loads; on 2.1.331 and older, a settings file naming it opens a dialog at start\n- Added \"Always deliver\" to the prompt for held messages from other sessions\n- Added a footer line that stays while a flagged message has your session on a different model, until you pick one with `/model`\n- Added an OpenTelemetry `assistant_response` event for text Claude send…",
+      "published_at": "2026-11-25T01:32:14Z",
+      "text": ""
+    },
     "455828330": {
       "title": "v2.1.331",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331",
@@ -235,14 +243,6 @@
       "summary": "## What's changed\n- Added `CLAUDE_CODE_DISABLE_FILE_MENTIONS` environment variable: Claude gets the paths of `@` file mentions to read with its file tools, not the files' contents\n- Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all\n- Added `CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS` to change idle compaction's 200K-token minimum; `\"idleCompaction\": false` in settings.json turns it off. Both need v2.1.290 or later\n- Added `$.prompt.media` so a `prompt.su…",
       "published_at": "2026-10-14T02:49:42Z",
       "text": ""
-    },
-    "408141042": {
-      "title": "v2.1.296",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
-      "hash": "7ed7665648227566",
-      "summary": "## What's changed\n- Added a `code` key to the Claude apps gateway's `managed.policies[]`: the same settings as `cli`, also applied in Claude Desktop's Code tab; beside `desktop`, it turns on Claude Desktop's gateway mode\n- Added `autoCompactWindow` to subagent frontmatter and `--agents` definitions, so a subagent can auto-compact earlier than the main conversation's window\n- Added `CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL` to run every workflow agent on one model while other subagents keep theirs\n- Added `CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS` environment variable to set a longer maximum delay…",
-      "published_at": "2026-10-09T19:28:59Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -304,7 +304,8 @@
     "450696184",
     "451777787",
     "453086311",
-    "455828330"
+    "455828330",
+    "457391405"
   ],
   "scope": "https://github.com/anthropics/claude-code|50|None"
 }

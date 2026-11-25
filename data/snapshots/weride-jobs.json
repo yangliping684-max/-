@@ -1,7 +1,7 @@
 {
   "source_id": "weride-jobs",
-  "taken_at": "2026-11-13T03:26:27.446762Z",
-  "etag": "W/\"16439-AnRwZhp+GXECOSmkYOWhNInebu4\"",
+  "taken_at": "2026-11-25T05:27:47.296517Z",
+  "etag": "W/\"e860-peAovx/HsQ4KbcsYixgMi9y7eRE\"",
   "last_modified": null,
   "items": {
     "012c818d-4ad8-4096-80b0-386cdf79f8d5": {
@@ -20,14 +20,6 @@
       "published_at": "2020-05-02T02:05:03.894000Z",
       "text": ""
     },
-    "e151540c-f52c-4797-afef-6235f3ec8edc": {
-      "title": "Motion Planning Engineer",
-      "url": "https://jobs.lever.co/weride/e151540c-f52c-4797-afef-6235f3ec8edc",
-      "hash": "a20fdcb41903f7c4",
-      "summary": "",
-      "published_at": "2020-05-02T02:25:32.784000Z",
-      "text": ""
-    },
     "d31d6d11-be09-4469-a361-2f31de92eafa": {
       "title": "New Grads 2026 - Algorithm Software Engineer (Beijing/Guangzhou/Shanghai, China)",
       "url": "https://jobs.lever.co/weride/d31d6d11-be09-4469-a361-2f31de92eafa",
@@ -44,36 +36,12 @@
       "published_at": "2026-06-12T23:01:28.368000Z",
       "text": ""
     },
-    "5cde0d09-ba2d-408d-947e-4a42028cd4f7": {
-      "title": "New Grads 2027 - Software Engineer - Perception/Computer Vision",
-      "url": "https://jobs.lever.co/weride/5cde0d09-ba2d-408d-947e-4a42028cd4f7",
-      "hash": "c582336be73a4d4f",
-      "summary": "",
-      "published_at": "2026-08-10T20:42:21.282000Z",
-      "text": ""
-    },
-    "5a7cbc83-2381-482e-9d6d-e9c9d59ad63b": {
-      "title": "New Grads 2027 - Software Engineer, Algorithm",
-      "url": "https://jobs.lever.co/weride/5a7cbc83-2381-482e-9d6d-e9c9d59ad63b",
-      "hash": "932d2944b5afa01f",
-      "summary": "",
-      "published_at": "2026-08-10T20:44:19.257000Z",
-      "text": ""
-    },
     "628b7118-d946-47a2-a03b-ac034622d908": {
       "title": "Perception Engineer – ML/CV and Algorithms",
       "url": "https://jobs.lever.co/weride/628b7118-d946-47a2-a03b-ac034622d908",
       "hash": "d0c9180f39000bfa",
       "summary": "",
       "published_at": "2020-05-02T02:22:28.865000Z",
-      "text": ""
-    },
-    "7b9054ed-e05b-4c5a-98ce-46d6630c54c3": {
-      "title": "PR & Marketing Intern",
-      "url": "https://jobs.lever.co/weride/7b9054ed-e05b-4c5a-98ce-46d6630c54c3",
-      "hash": "d1f0b7d9233598c9",
-      "summary": "",
-      "published_at": "2026-11-10T21:43:43.446000Z",
       "text": ""
     },
     "0f19452c-ba1b-4d94-ae6d-53ac530bd820": {

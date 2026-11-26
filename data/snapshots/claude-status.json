@@ -1,9 +1,17 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-25T05:28:33.717501Z",
-  "etag": "W/\"21642f224deca811727d1ac1e6f3119c\"",
+  "taken_at": "2026-11-26T05:08:50.305467Z",
+  "etag": "W/\"a122e032f30962630ceb25805fd50032\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/yl30wkjblcm6": {
+      "title": "Elevated errors for multiple models",
+      "url": "https://status.claude.com/incidents/yl30wkjblcm6",
+      "hash": "17629363f8c8dacb",
+      "summary": "Nov 25 , 05:32 UTC Resolved - We have identified an issue which affected Claude Fable 5.2, Claude Mythos 5.2, Claude Opus 5.5, Claude Sonnet 5.5 and Claude Haiku 5.5 from 20:52 PT on November 24 / 04:52 UTC on November 25 to 21:16 PT on November 24 / 05:16 UTC on November 25, resulting in elevated errors. This issue has been resolved.",
+      "published_at": "2026-11-25T05:32:26Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/fbvlx4wx4zx5": {
       "title": "Elevated errors for Claude Haiku 5.5",
       "url": "https://status.claude.com/incidents/fbvlx4wx4zx5",
@@ -15,9 +23,9 @@
     "https://status.claude.com/incidents/3vbyqgnswwxq": {
       "title": "Claude for Microsoft 365 add-in missing for some users",
       "url": "https://status.claude.com/incidents/3vbyqgnswwxq",
-      "hash": "9a993f1ee03d6945",
-      "summary": "Nov 24 , 01:31 UTC Update - We are continuing to investigate an issue causing the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account. In the meantime, we recommend using the web versions of Excel, Word, and PowerPoint at office.com, where Claude remains available for many users. Work and school accounts do not appear affected. We will provide another update as soon as possible. Nov 24 , 00:10 UTC Investigating - We are investigating an issue causing the Claude add-in to disappear from Excel, Word, and Po…",
-      "published_at": "2026-11-24T17:19:32Z",
+      "hash": "864a8ad6e8db8685",
+      "summary": "Nov 25 , 20:21 UTC Identified - We have identified an issue with an upstream provider that is causing the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account. We are in contact with them. In the meantime, we recommend using the web versions of Excel, Word, and PowerPoint at office.com, where Claude remains available for many users. We will provide another update as soon as possible. Nov 24 , 01:31 UTC Update - We are continuing to investigate an issue causing the Claude add-in to disappear from Excel, Wor…",
+      "published_at": "2026-11-25T20:21:12Z",
       "text": ""
     },
     "https://status.claude.com/incidents/yzs0s90d8fm8": {
@@ -195,14 +203,6 @@
       "summary": "Oct 24 , 00:11 UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from 16:28 PT / 23:28 UTC on October 23 to 16:59 PT / 23:59 UTC on October 23. Oct 23 , 23:54 UTC Monitoring - We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues. Oct 23 , 23:39 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 2…",
       "published_at": "2026-10-24T00:11:20Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/wj6r4t6mxq1r": {
-      "title": "Elevated errors affecting Connectors",
-      "url": "https://status.claude.com/incidents/wj6r4t6mxq1r",
-      "hash": "183fbab8b2617cff",
-      "summary": "Oct 22 , 08:07 UTC Resolved - The issue affecting claude.ai and Claude Cowork has been resolved. Oct 22 , 07:28 UTC Monitoring - A fix has been deployed for the issue affecting claude.ai and Claude Cowork and we are monitoring for recovery. Oct 22 , 03:50 UTC Investigating - We are investigating elevated errors affecting connectors. We will provide an update as soon as possible.",
-      "published_at": "2026-10-22T08:07:03Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -256,7 +256,8 @@
     "https://status.claude.com/incidents/c1kmrkmv5f3d",
     "https://status.claude.com/incidents/3vbyqgnswwxq",
     "https://status.claude.com/incidents/yzs0s90d8fm8",
-    "https://status.claude.com/incidents/fbvlx4wx4zx5"
+    "https://status.claude.com/incidents/fbvlx4wx4zx5",
+    "https://status.claude.com/incidents/yl30wkjblcm6"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

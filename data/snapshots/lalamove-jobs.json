@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-25T05:27:40.327346Z",
-  "etag": "W/\"1345b2-WFsBu2Cj5rNUiVLmJEu1W1i2INg\"",
+  "taken_at": "2026-11-26T05:08:02.008022Z",
+  "etag": "W/\"13c81b-2rR+Pt9Ea0WFm4PzqKgsIroCXLI\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -58,6 +58,14 @@
       "hash": "29d8c99ec25b2710",
       "summary": "",
       "published_at": "2026-09-11T04:11:46.513000Z",
+      "text": ""
+    },
+    "835d3d06-0e3d-42b1-aed8-85f18a3778ab": {
+      "title": "Analista de crédito e cobrança",
+      "url": "https://jobs.lever.co/lalamove/835d3d06-0e3d-42b1-aed8-85f18a3778ab",
+      "hash": "c580b97a9ffcbcaa",
+      "summary": "",
+      "published_at": "2026-11-25T19:31:17.151000Z",
       "text": ""
     },
     "5b3bce82-cb0d-41aa-92f3-59eced4887fa": {
@@ -444,6 +452,14 @@
       "published_at": "2026-11-05T10:23:53.254000Z",
       "text": ""
     },
+    "d65b1dd3-49f5-44a0-9d6f-053addfdaa40": {
+      "title": "Driver Operations Associate (Offline Presence)",
+      "url": "https://jobs.lever.co/lalamove/d65b1dd3-49f5-44a0-9d6f-053addfdaa40",
+      "hash": "3822eefbbae4a535",
+      "summary": "",
+      "published_at": "2026-09-15T04:53:47.067000Z",
+      "text": ""
+    },
     "ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a": {
       "title": "Driver Operations Associate (Offline Presence)",
       "url": "https://jobs.lever.co/lalamove/ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a",
@@ -626,6 +642,14 @@
       "hash": "53369581ce054a64",
       "summary": "",
       "published_at": "2026-04-01T14:55:01.139000Z",
+      "text": ""
+    },
+    "de55266a-b824-46bf-ba5a-35f22f783a3d": {
+      "title": "Information Security Specialist (Part time Internship)",
+      "url": "https://jobs.lever.co/lalamove/de55266a-b824-46bf-ba5a-35f22f783a3d",
+      "hash": "4d1602a2075afd51",
+      "summary": "",
+      "published_at": "2026-02-27T08:16:15.388000Z",
       "text": ""
     },
     "bb10cc0e-4d2d-493e-962f-83eed83b183b": {
@@ -1052,6 +1076,14 @@
       "published_at": "2026-11-02T10:43:02.653000Z",
       "text": ""
     },
+    "cb72e200-2e51-4a29-bcae-167ac860e8cc": {
+      "title": "Senior Digital Marketing Associate",
+      "url": "https://jobs.lever.co/lalamove/cb72e200-2e51-4a29-bcae-167ac860e8cc",
+      "hash": "f5678e392cfe633c",
+      "summary": "",
+      "published_at": "2026-11-25T08:22:39.678000Z",
+      "text": ""
+    },
     "d688c300-a608-4043-ac96-9ce1622216d4": {
       "title": "Senior Driver Management Associate (Team Lead)",
       "url": "https://jobs.lever.co/lalamove/d688c300-a608-4043-ac96-9ce1622216d4",
@@ -1130,14 +1162,6 @@
       "hash": "62c09dc3290efe52",
       "summary": "",
       "published_at": "2026-10-06T12:30:40.339000Z",
-      "text": ""
-    },
-    "b9e21a04-4258-41d9-a366-5dacc1ef5684": {
-      "title": "Senior Product Manager, Driver",
-      "url": "https://jobs.lever.co/lalamove/b9e21a04-4258-41d9-a366-5dacc1ef5684",
-      "hash": "45b58d49f6d09883",
-      "summary": "",
-      "published_at": "2026-09-17T06:16:36.813000Z",
       "text": ""
     },
     "27156d57-f3b5-420d-9688-f39e96eaa2eb": {
@@ -1460,7 +1484,10 @@
     "bf44f80e-f99f-4eef-a3e7-a33d8b759984",
     "ff987dbc-f85a-40b8-a1b1-1cb7cd1f809a",
     "99d611b4-b09a-44a8-bc5a-3f8c254770ea",
-    "95b4a604-89e2-4699-9723-c3c67d27d33d"
+    "95b4a604-89e2-4699-9723-c3c67d27d33d",
+    "835d3d06-0e3d-42b1-aed8-85f18a3778ab",
+    "de55266a-b824-46bf-ba5a-35f22f783a3d",
+    "cb72e200-2e51-4a29-bcae-167ac860e8cc"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

@@ -1,15 +1,95 @@
 {
   "source_id": "bosch-china-jobs",
-  "taken_at": "2026-11-26T05:08:13.944262Z",
+  "taken_at": "2026-11-27T05:05:48.470841Z",
   "etag": null,
   "last_modified": null,
   "items": {
-    "744000163804179": {
+    "744000163958639": {
+      "title": "嵌入式软件工程师_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163958639",
+      "hash": "9c7d1ecd277d7328",
+      "summary": "",
+      "published_at": "2026-11-27T03:38:33.198000Z",
+      "text": ""
+    },
+    "744000163958029": {
+      "title": "电机控制算法开发工程师_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163958029",
+      "hash": "60434cf562484cc9",
+      "summary": "",
+      "published_at": "2026-11-27T03:20:50.269000Z",
+      "text": ""
+    },
+    "744000163957469": {
+      "title": "供应链需求计划/Demand&Inventory planner (LOP) for East Asia_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163957469",
+      "hash": "acbae118fa99484a",
+      "summary": "",
+      "published_at": "2026-11-27T03:06:46.142000Z",
+      "text": ""
+    },
+    "744000163873316": {
+      "title": "AI Model Quantize and Deployment Engineer",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163873316",
+      "hash": "9bbfd816b1bbbe92",
+      "summary": "",
+      "published_at": "2026-11-26T13:26:55.754000Z",
+      "text": ""
+    },
+    "744000163851664": {
+      "title": "嵌入式软件开发工程师(中间件方向)",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163851664",
+      "hash": "22c2e265fb47b1dd",
+      "summary": "",
+      "published_at": "2026-11-26T11:08:12.860000Z",
+      "text": ""
+    },
+    "744000163834099": {
+      "title": "质量工程师_BMG",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163834099",
+      "hash": "cc48ec79056b3e86",
+      "summary": "",
+      "published_at": "2026-11-26T09:25:08.679000Z",
+      "text": ""
+    },
+    "744000163828574": {
+      "title": "Global Technical Manager (OSS)_VM",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163828574",
+      "hash": "cb73b0e47cd8f342",
+      "summary": "",
+      "published_at": "2026-11-26T09:09:21.739000Z",
+      "text": ""
+    },
+    "744000163816340": {
+      "title": "高级项目采购工程师_DCCX",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163816340",
+      "hash": "a31e37d54f93c28a",
+      "summary": "",
+      "published_at": "2026-11-26T07:43:08.579000Z",
+      "text": ""
+    },
+    "744000163813430": {
+      "title": "Compressor Engineer_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163813430",
+      "hash": "ac89bcba8ba2a550",
+      "summary": "",
+      "published_at": "2026-11-26T07:08:48.855000Z",
+      "text": ""
+    },
+    "744000163809599": {
+      "title": "Manufacturing Process and Digitalization & Manufacturing Technology_HC",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163809599",
+      "hash": "2cb3b459ba812be9",
+      "summary": "",
+      "published_at": "2026-11-26T06:06:16.709000Z",
+      "text": ""
+    },
+    "744000163807829": {
       "title": "资深工艺开发工程师(滚珠丝杠)_VM",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163804179",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163807829",
       "hash": "344464b3e6979de6",
       "summary": "",
-      "published_at": "2026-11-26T04:11:32.503000Z",
+      "published_at": "2026-11-26T05:32:06.593000Z",
       "text": ""
     },
     "744000163803436": {
@@ -18,14 +98,6 @@
       "hash": "e430cec6c52ee195",
       "summary": "",
       "published_at": "2026-11-26T03:47:50.719000Z",
-      "text": ""
-    },
-    "744000163668319": {
-      "title": "Manufacturing Process and Digitalization & Manufacturing Technology_HC",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163668319",
-      "hash": "2cb3b459ba812be9",
-      "summary": "",
-      "published_at": "2026-11-25T11:50:08.365000Z",
       "text": ""
     },
     "744000163657390": {
@@ -8556,14 +8628,6 @@
       "published_at": "2026-01-30T08:23:06.688000Z",
       "text": ""
     },
-    "744000106235775": {
-      "title": "消防及弱电工程师_MA",
-      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000106235775",
-      "hash": "e6be48d320cb7bb0",
-      "summary": "",
-      "published_at": "2026-01-29T06:59:43.633000Z",
-      "text": ""
-    },
     "744000106001225": {
       "title": "Material Planner _ DC",
       "url": "https://jobs.smartrecruiters.com/BoschGroup/744000106001225",
@@ -12604,7 +12668,18 @@
     "744000163623569",
     "744000163611949",
     "744000163611199",
-    "744000163609609"
+    "744000163609609",
+    "744000163958639",
+    "744000163958029",
+    "744000163957469",
+    "744000163873316",
+    "744000163851664",
+    "744000163834099",
+    "744000163828574",
+    "744000163816340",
+    "744000163813430",
+    "744000163809599",
+    "744000163807829"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/BoschGroup/postings?country=cn&limit=100|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }

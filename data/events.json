@@ -1,6 +1,502 @@
 {
-  "updated_at": "2026-11-26T05:08:59.775651+00:00",
+  "updated_at": "2026-11-27T05:06:34.057808+00:00",
   "events": [
+    {
+      "id": "ff5752bc8417b8ea",
+      "source_id": "xai-api-pricing",
+      "source_name": "xAI API 定价",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "API Pricing | SpaceXSI Docs",
+      "url": "https://docs.x.ai/developers/pricing",
+      "summary": "价格信息变化：< 200k | $4.00 / 1m | $1.00 / 1m | $12.00 / 1m / ≥ 200k | $6.00 / 1m | $1.50 / 1m | $18.00 / 1m / this is $2.20 / $0.55 / $6.60 per 1m tokens (input / cached input / output) below 200k prompt tokens, and $4.40 / $1.10 / $13.20 from 200k. the 1.1x multiplier applies to input, output, and cached input tokens, including long-context rates.",
+      "detected_at": "2026-11-27T05:06:33.586351Z",
+      "published_at": null,
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 38,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 0,
+          "reason": "来源未提供可靠的发布日期，不计新鲜度"
+        }
+      ],
+      "diff": {
+        "added": [
+          "< 200k | $4.00 / 1m | $1.00 / 1m | $12.00 / 1m",
+          "≥ 200k | $6.00 / 1m | $1.50 / 1m | $18.00 / 1m",
+          "this is $2.20 / $0.55 / $6.60 per 1m tokens (input / cached input / output) below 200k prompt tokens, and $4.40 / $1.10 / $13.20 from 200k. the 1.1x multiplier applies to input, output, and cached input tokens, including long-context rates."
+        ],
+        "removed": [
+          "below 200k | $4.00 / 1m | $1.00 / 1m | $12.00 / 1m",
+          "above 200k | $6.00 / 1m | $1.50 / 1m | $18.00 / 1m",
+          "this is $2.20 / $0.55 / $6.60 per 1m tokens (input / cached input / output) below 200k prompt tokens, and $4.40 / $1.10 / $13.20 above. the 1.1x multiplier applies to input, output, and cached input tokens, including long-context rates."
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "xAI",
+        "ai_type": "pricing",
+        "ai_type_rule": "官方定价页中的价格发生变化"
+      }
+    },
+    {
+      "id": "783cb791ccd78603",
+      "source_id": "openai-status",
+      "source_name": "OpenAI 服务状态",
+      "category": "ai",
+      "change_type": "modified",
+      "title": "Elevated errors with Codex GitHub reviews and pull request merges",
+      "url": "https://status.openai.com//incidents/01M89RGC3STKK2MT53TXHFMY4H",
+      "summary": "新增/修改内容：Status: Resolved The GitHub service disruption has been resolved. Codex automated GitHub pull request reviews and merges are operating normally Affected components Codex Web (Operational)",
+      "detected_at": "2026-11-27T05:06:26.887655Z",
+      "published_at": "2026-11-26T14:07:54Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 48,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 8,
+          "reason": "内容修改"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": {
+        "added": [
+          "Status: Resolved The GitHub service disruption has been resolved. Codex automated GitHub pull request reviews and merges are operating normally Affected components Codex Web (Operational)"
+        ],
+        "removed": [
+          "Status: Monitoring GitHub reports that the service disruption affecting pull requests and webhooks has been mitigated. We are monitoring Codex automated pull request reviews and merge operations to confirm recovery and stability. Affected components Codex Web (Degraded performance)"
+        ]
+      },
+      "extra": {},
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "status",
+        "ai_type_rule": "来源为官方状态页"
+      }
+    },
+    {
+      "id": "db58472baff6d6fe",
+      "source_id": "openai-codex-releases",
+      "source_name": "OpenAI Codex CLI Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "0.174.0-alpha.8 (rust-v0.174.0-alpha.8)",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.8",
+      "summary": "Release 0.174.0-alpha.8",
+      "detected_at": "2026-11-27T05:06:24.012184Z",
+      "published_at": "2026-11-26T21:56:07Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 55,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "rust-v0.174.0-alpha.8",
+        "prerelease": "true"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "af51715998088582",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "供应链需求计划/Demand&Inventory planner (LOP) for East Asia_PT",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163957469",
+      "summary": "",
+      "detected_at": "2026-11-27T05:05:48.470841Z",
+      "published_at": "2026-11-27T03:06:46.142000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "物流与供应链",
+        "生产计划",
+        "仓储与运营"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 84,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：物流与供应链、生产计划、仓储与运营"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Hangzhou, Zhejiang, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Supply Chain",
+        "industry": "Automotive",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Power Tools (China) Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Hangzhou, Zhejiang, China",
+        "city": "Hangzhou",
+        "function": "物流与供应链、生产计划、仓储与运营"
+      }
+    },
+    {
+      "id": "3ab6136712c1a349",
+      "source_id": "bosch-china-jobs",
+      "source_name": "博世中国 公开职位（SmartRecruiters）",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "高级项目采购工程师_DCCX",
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000163816340",
+      "summary": "",
+      "detected_at": "2026-11-27T05:05:48.470841Z",
+      "published_at": "2026-11-26T07:43:08.579000Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "采购与物料管理"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 76,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：采购与物料管理"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "company": "Bosch Group",
+        "location": "Xian, Shaanxi, China",
+        "employment_type": "Full-time",
+        "experience_level": "Associate",
+        "function": "Purchasing",
+        "industry": "Industrial Automation",
+        "position_type": "Professional",
+        "legal_entity": "Bosch Rexroth (Xi'an) Electric Drives and Controls Co., Ltd."
+      },
+      "facets": {
+        "company": "Bosch Group",
+        "industry": "汽车零部件 / 制造业",
+        "location": "Xian, Shaanxi, China",
+        "city": "Xian",
+        "function": "采购与物料管理"
+      }
+    },
+    {
+      "id": "49ad8ed0f2730667",
+      "source_id": "anthropic-jobs",
+      "source_name": "Anthropic 公开职位（Greenhouse）",
+      "category": "jobs",
+      "change_type": "removed",
+      "title": "Product Manager (Technical), Product Support Experience",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5415822008",
+      "summary": "",
+      "detected_at": "2026-11-27T05:05:48.300389Z",
+      "published_at": "2026-10-21T23:16:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 28,
+      "level": "low",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 8,
+          "reason": "信息源优先级 4/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 0,
+          "reason": "条目被移除"
+        },
+        {
+          "factor": "freshness",
+          "points": -10,
+          "reason": "发布时间超过 30 天"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {
+        "company": "Anthropic",
+        "industry": "人工智能"
+      }
+    },
+    {
+      "id": "6edbfd9fe8255424",
+      "source_id": "openai-python-releases",
+      "source_name": "OpenAI Python SDK Releases",
+      "category": "ai",
+      "change_type": "added",
+      "title": "v3.60.0",
+      "url": "https://github.com/openai/openai-python/releases/tag/v3.60.0",
+      "summary": "## [3.60.0](https://github.com/openai/openai-python/compare/v3.59.0...v3.60.0) (2026-11-26)\n### Features\n* **api:** add spend alerts and response compaction fields ([#4335](https://github.com/openai/openai-python/issues/4335)) ([4713afd](https://github.com/openai/openai-python/commit/4713afd081c42aa5f335d488393c6b404564d383))\n* **api:** support updating session vaults ([#4334](https://github.com/openai/openai-python/issues/4334)) ([c386f19](https://github.com/openai/openai-python/commit/c386f19a90b3bf5651df34b8901f356c12d4088b))\n### Chores\n* **api:** clarify message retries and Batch endpoint…",
+      "detected_at": "2026-11-27T05:05:40.137605Z",
+      "published_at": "2026-11-26T07:09:55Z",
+      "source_updated_at": null,
+      "matched_keywords": [],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 60,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "tag": "v3.60.0"
+      },
+      "facets": {
+        "vendor": "OpenAI",
+        "ai_type": "version",
+        "ai_type_rule": "来源为版本发布记录"
+      }
+    },
+    {
+      "id": "7a795101e54848d8",
+      "source_id": "agoda-jobs",
+      "source_name": "Agoda 全球职位",
+      "category": "jobs",
+      "change_type": "added",
+      "title": "[Summer Internship 2027] Marketing Intern, Creative Design",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8419880",
+      "summary": "",
+      "detected_at": "2026-11-27T05:05:38.927683Z",
+      "published_at": "2026-11-27T02:59:51Z",
+      "source_updated_at": "2026-11-27T02:59:51Z",
+      "matched_keywords": [
+        "实习"
+      ],
+      "alert_keywords": [
+        "实习",
+        "intern"
+      ],
+      "deadline": null,
+      "score": 88,
+      "level": "high",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": 0,
+          "reason": "信息源优先级 3/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 10,
+          "reason": "来源可信度：official"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：实习"
+        },
+        {
+          "factor": "alert",
+          "points": 20,
+          "reason": "命中提醒关键词：实习、intern"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {
+        "location": "Bangkok, Thailand"
+      },
+      "facets": {
+        "company": "Agoda",
+        "industry": "在线旅游 / 互联网",
+        "location": "Bangkok, Thailand",
+        "city": "Bangkok",
+        "job_type": "暑期实习",
+        "job_type_rule": "标题文字"
+      }
+    },
     {
       "id": "d0bb9bfb9054973a",
       "source_id": "openai-status",
@@ -55153,452 +55649,6 @@
           "factor": "keywords",
           "points": 8,
           "reason": "命中关注关键词：benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "a022bf81a43da9ab",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
-      "url": "https://arxiv.org/abs/2611.21235",
-      "summary": "arXiv:2611.21235v1 Announce Type: new\nAbstract: Language-model agents' beliefs can be manipulated through open channels such as social media, even when the information they receive is truthful. When agents fill gaps between fragments with self-induced relationships, they may accept those relationships as established facts and pass the resulting rumours to others. Drawing on cognitive theory of narrative understanding and film theory of montage, we introduce Generative Montage to operationalize this failure, termed narrative overfitting, by coordinating agents to arrange truthful fragments int…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "fe111fc40b863b85",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics",
-      "url": "https://arxiv.org/abs/2611.21250",
-      "summary": "arXiv:2611.21250v1 Announce Type: new\nAbstract: In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks and model families. More Broadly, our results sugge…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "320cb67e398ea316",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
-      "url": "https://arxiv.org/abs/2611.21273",
-      "summary": "arXiv:2611.21273v1 Announce Type: new\nAbstract: We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. A CAE solver is more than a PDE solver; it must be able to generalize across various inputs, such as different boundary conditions, geometries, and material properties. CAE-Bench evaluates the generalizability of AI-developed CAE solvers by providing the same task, such as a heat transfer problem, multiple cases, with each case specifying an input. The AI agent develops a solver for a fixed task using only a few public cases, and the…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "agents",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、agents、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "04b84e18507e5766",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Turing Agent: Agentic Formal Verification for Mathematical Research",
-      "url": "https://arxiv.org/abs/2611.21299",
-      "summary": "arXiv:2611.21299v1 Announce Type: new\nAbstract: Large language models (LLMs) are rapidly advancing mathematical discovery, moving beyond benchmark-level problem solving to tackle frontier research problems. This progress is ushering mathematics into an era of proof abundance, raising a fundamental challenge: how can we ensure the correctness of the ever-growing volume of AI-generated proofs and transform them into trustworthy, machine-verified mathematical knowledge? We introduce Turing Agent, an agent harness designed to orchestrate end-to-end formal verification of research-level mathematic…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "c4a3674a15522d66",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Benchleaking Is Accelerating: Benchmark contamination has worsened sharply in the past month -- from post-training down to pre-training base models",
-      "url": "https://arxiv.org/abs/2611.21315",
-      "summary": "arXiv:2611.21315v1 Announce Type: new\nAbstract: Benchmark contamination is not new, but recent model releases show it in a sharper form. We use the term benchleaking for the case in which a benchmark's own test examples enter training data, so that a score reflects recall rather than capability. This differs from benchmaxxing, which optimizes toward a benchmark without seeing its test set. We document two escalations over the past month. First, in post-training, the traces have become explicit: recent audits show an agent stating hidden test requirements it was never given in 23% of its attem…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agent、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "eeab7fdf199acca8",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
-      "url": "https://arxiv.org/abs/2611.21382",
-      "summary": "arXiv:2611.21382v1 Announce Type: new\nAbstract: Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring capabilities from strengths confined to a particular medium. We introduce VisualArtifactSpec 1.0 (VAS), a benchmark of 211 creation and modification tasks spanning presentations, static graphics, animations and videos, and web interfaces. Each task specifies authoring objectives, source materials, constraints, and deliverables. E…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agents",
-        "benchmark"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 66,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 16,
-          "reason": "命中关注关键词：agents、benchmark"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "b64a05cabf656667",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Harness Leverage Across Model Size: A Ladder of Five Local Agent Harnesses from 0.75B to 4.7B",
-      "url": "https://arxiv.org/abs/2611.21407",
-      "summary": "arXiv:2611.21407v1 Announce Type: new\nAbstract: A harness turns a model into a system that completes tasks: it builds the prompt, exposes tools and decides when work is done. Harness comparisons hold the model fixed. Model comparisons hold the harness fixed. We vary both: five shipped harnesses, 18 artifact-producing tasks, four locally deployable open-weight models from 0.75B to 4.7B and a 35.5B anchor, with one deterministic checker scoring all 360 ladder cells. The completion-controlling harness, Mingbird, has the highest mean at every size. Of four pre-registered paired contrasts, two sur…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "agent"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：agent"
-        },
-        {
-          "factor": "freshness",
-          "points": 15,
-          "reason": "24 小时内发布"
-        }
-      ],
-      "diff": null,
-      "extra": {},
-      "facets": {}
-    },
-    {
-      "id": "b826e383c1555049",
-      "source_id": "arxiv-cs-ai",
-      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
-      "category": "academic",
-      "change_type": "added",
-      "title": "Generative AI and the Crisis of Higher Education Assessments: Examining 'AI-Proofing' Strategies for College-Level Assessments",
-      "url": "https://arxiv.org/abs/2611.21476",
-      "summary": "arXiv:2611.21476v1 Announce Type: new\nAbstract: Higher education is confronting an academic-integrity challenge unlike any in its history. Students can now outsource homework, take-home assignments, and online examinations to large language models (LLMs) that complete them in seconds. Existing research on evaluating LLM performance on academic assessments has focused largely on standardized examinations, or on questions from college-level courses drawn from a single discipline. Far less is known about how LLMs perform on college-level assessment questions spanning multiple disciplines, that i…",
-      "detected_at": "2026-11-18T04:27:39.185591Z",
-      "published_at": "2026-11-17T05:00:00Z",
-      "source_updated_at": null,
-      "matched_keywords": [
-        "LLM"
-      ],
-      "alert_keywords": [],
-      "deadline": null,
-      "score": 58,
-      "level": "medium",
-      "score_factors": [
-        {
-          "factor": "base",
-          "points": 20,
-          "reason": "基础分"
-        },
-        {
-          "factor": "priority",
-          "points": -5,
-          "reason": "信息源优先级 2/5"
-        },
-        {
-          "factor": "credibility",
-          "points": 5,
-          "reason": "来源可信度：reliable"
-        },
-        {
-          "factor": "change",
-          "points": 15,
-          "reason": "新增条目"
-        },
-        {
-          "factor": "keywords",
-          "points": 8,
-          "reason": "命中关注关键词：LLM"
         },
         {
           "factor": "freshness",

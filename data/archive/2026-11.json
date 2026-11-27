@@ -3560,6 +3560,452 @@
       "facets": {}
     },
     {
+      "id": "a022bf81a43da9ab",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Language-model agents' beliefs can be manipulated via truthful evidence in open channel",
+      "url": "https://arxiv.org/abs/2611.21235",
+      "summary": "arXiv:2611.21235v1 Announce Type: new\nAbstract: Language-model agents' beliefs can be manipulated through open channels such as social media, even when the information they receive is truthful. When agents fill gaps between fragments with self-induced relationships, they may accept those relationships as established facts and pass the resulting rumours to others. Drawing on cognitive theory of narrative understanding and film theory of montage, we introduce Generative Montage to operationalize this failure, termed narrative overfitting, by coordinating agents to arrange truthful fragments int…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "fe111fc40b863b85",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Stream of Belief: Eliciting Collective Intelligence through Latent Belief Dynamics",
+      "url": "https://arxiv.org/abs/2611.21250",
+      "summary": "arXiv:2611.21250v1 Announce Type: new\nAbstract: In this work, we view multi-agent reasoning as a process of seeking a collective equilibrium of implicit belief dynamics and introduce Stream of Belief (SoB), where agents maintain continuous latent beliefs and iteratively refine them through communication and reflection. Our method seeks a collective belief state of a multi-agent system where further communication induces no meaningful information propagation. Through extensive experiments, we demonstrate the generalization of SoB across tasks and model families. More Broadly, our results sugge…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "320cb67e398ea316",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "CAE-Bench: Benchmarking AI Agents for Reusable CAE Solver Development",
+      "url": "https://arxiv.org/abs/2611.21273",
+      "summary": "arXiv:2611.21273v1 Announce Type: new\nAbstract: We developed CAE-Bench, a benchmark to evaluate AI agents on Computer-Aided Engineering (CAE) solver development. A CAE solver is more than a PDE solver; it must be able to generalize across various inputs, such as different boundary conditions, geometries, and material properties. CAE-Bench evaluates the generalizability of AI-developed CAE solvers by providing the same task, such as a heat transfer problem, multiple cases, with each case specifying an input. The AI agent develops a solver for a fixed task using only a few public cases, and the…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "agents",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、agents、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "04b84e18507e5766",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Turing Agent: Agentic Formal Verification for Mathematical Research",
+      "url": "https://arxiv.org/abs/2611.21299",
+      "summary": "arXiv:2611.21299v1 Announce Type: new\nAbstract: Large language models (LLMs) are rapidly advancing mathematical discovery, moving beyond benchmark-level problem solving to tackle frontier research problems. This progress is ushering mathematics into an era of proof abundance, raising a fundamental challenge: how can we ensure the correctness of the ever-growing volume of AI-generated proofs and transform them into trustworthy, machine-verified mathematical knowledge? We introduce Turing Agent, an agent harness designed to orchestrate end-to-end formal verification of research-level mathematic…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "c4a3674a15522d66",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Benchleaking Is Accelerating: Benchmark contamination has worsened sharply in the past month -- from post-training down to pre-training base models",
+      "url": "https://arxiv.org/abs/2611.21315",
+      "summary": "arXiv:2611.21315v1 Announce Type: new\nAbstract: Benchmark contamination is not new, but recent model releases show it in a sharper form. We use the term benchleaking for the case in which a benchmark's own test examples enter training data, so that a score reflects recall rather than capability. This differs from benchmaxxing, which optimizes toward a benchmark without seeing its test set. We document two escalations over the past month. First, in post-training, the traces have become explicit: recent audits show an agent stating hidden test requirements it was never given in 23% of its attem…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agent、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "eeab7fdf199acca8",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "VisualArtifactSpec 1.0: Evaluating Visual Artifacts under Task Specifications",
+      "url": "https://arxiv.org/abs/2611.21382",
+      "summary": "arXiv:2611.21382v1 Announce Type: new\nAbstract: Visual artifact tasks test agents' ability to translate task specifications and source materials into outputs that meet practical needs. Evaluation across artifact families helps distinguish broadly applicable authoring capabilities from strengths confined to a particular medium. We introduce VisualArtifactSpec 1.0 (VAS), a benchmark of 211 creation and modification tasks spanning presentations, static graphics, animations and videos, and web interfaces. Each task specifies authoring objectives, source materials, constraints, and deliverables. E…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agents",
+        "benchmark"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 66,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 16,
+          "reason": "命中关注关键词：agents、benchmark"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "b64a05cabf656667",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Harness Leverage Across Model Size: A Ladder of Five Local Agent Harnesses from 0.75B to 4.7B",
+      "url": "https://arxiv.org/abs/2611.21407",
+      "summary": "arXiv:2611.21407v1 Announce Type: new\nAbstract: A harness turns a model into a system that completes tasks: it builds the prompt, exposes tools and decides when work is done. Harness comparisons hold the model fixed. Model comparisons hold the harness fixed. We vary both: five shipped harnesses, 18 artifact-producing tasks, four locally deployable open-weight models from 0.75B to 4.7B and a 35.5B anchor, with one deterministic checker scoring all 360 ladder cells. The completion-controlling harness, Mingbird, has the highest mean at every size. Of four pre-registered paired contrasts, two sur…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "agent"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：agent"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
+      "id": "b826e383c1555049",
+      "source_id": "arxiv-cs-ai",
+      "source_name": "arXiv cs.AI 新论文（关键词过滤）",
+      "category": "academic",
+      "change_type": "added",
+      "title": "Generative AI and the Crisis of Higher Education Assessments: Examining 'AI-Proofing' Strategies for College-Level Assessments",
+      "url": "https://arxiv.org/abs/2611.21476",
+      "summary": "arXiv:2611.21476v1 Announce Type: new\nAbstract: Higher education is confronting an academic-integrity challenge unlike any in its history. Students can now outsource homework, take-home assignments, and online examinations to large language models (LLMs) that complete them in seconds. Existing research on evaluating LLM performance on academic assessments has focused largely on standardized examinations, or on questions from college-level courses drawn from a single discipline. Far less is known about how LLMs perform on college-level assessment questions spanning multiple disciplines, that i…",
+      "detected_at": "2026-11-18T04:27:39.185591Z",
+      "published_at": "2026-11-17T05:00:00Z",
+      "source_updated_at": null,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "alert_keywords": [],
+      "deadline": null,
+      "score": 58,
+      "level": "medium",
+      "score_factors": [
+        {
+          "factor": "base",
+          "points": 20,
+          "reason": "基础分"
+        },
+        {
+          "factor": "priority",
+          "points": -5,
+          "reason": "信息源优先级 2/5"
+        },
+        {
+          "factor": "credibility",
+          "points": 5,
+          "reason": "来源可信度：reliable"
+        },
+        {
+          "factor": "change",
+          "points": 15,
+          "reason": "新增条目"
+        },
+        {
+          "factor": "keywords",
+          "points": 8,
+          "reason": "命中关注关键词：LLM"
+        },
+        {
+          "factor": "freshness",
+          "points": 15,
+          "reason": "24 小时内发布"
+        }
+      ],
+      "diff": null,
+      "extra": {},
+      "facets": {}
+    },
+    {
       "id": "57199668ca48a468",
       "source_id": "openai-python-releases",
       "source_name": "OpenAI Python SDK Releases",

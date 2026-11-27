@@ -1,15 +1,15 @@
 {
   "source_id": "openai-status",
-  "taken_at": "2026-11-26T05:08:52.490207Z",
+  "taken_at": "2026-11-27T05:06:26.887655Z",
   "etag": null,
   "last_modified": null,
   "items": {
     "https://status.openai.com//incidents/01M89RGC3STKK2MT53TXHFMY4H": {
       "title": "Elevated errors with Codex GitHub reviews and pull request merges",
       "url": "https://status.openai.com//incidents/01M89RGC3STKK2MT53TXHFMY4H",
-      "hash": "9f2f7c2ad3fc6fbc",
-      "summary": "Status: Monitoring GitHub reports that the service disruption affecting pull requests and webhooks has been mitigated. We are monitoring Codex automated pull request reviews and merge operations to confirm recovery and stability. Affected components Codex Web (Degraded performance)",
-      "published_at": "2026-11-25T16:58:51Z",
+      "hash": "ac12095877720259",
+      "summary": "Status: Resolved The GitHub service disruption has been resolved. Codex automated GitHub pull request reviews and merges are operating normally Affected components Codex Web (Operational)",
+      "published_at": "2026-11-26T14:07:54Z",
       "text": ""
     },
     "https://status.openai.com//incidents/01M898HVZGXFV2XC4775CG9GF8": {

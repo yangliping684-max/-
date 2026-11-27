@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-26T05:08:02.008022Z",
-  "etag": "W/\"13c81b-2rR+Pt9Ea0WFm4PzqKgsIroCXLI\"",
+  "taken_at": "2026-11-27T05:05:36.859136Z",
+  "etag": "W/\"139626-eeXpz+uhvq4Ll44z3bgTEPsgm4k\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -300,22 +300,6 @@
       "published_at": "2025-09-18T03:44:44.010000Z",
       "text": ""
     },
-    "b8e7d125-e687-4c8b-86d6-aaf32abd15c5": {
-      "title": "Customer Service Associate",
-      "url": "https://jobs.lever.co/lalamove/b8e7d125-e687-4c8b-86d6-aaf32abd15c5",
-      "hash": "fcac69fc700a50f3",
-      "summary": "",
-      "published_at": "2026-10-08T02:55:15.739000Z",
-      "text": ""
-    },
-    "be94e29b-907b-4078-a752-7e34c4e98bad": {
-      "title": "Customer Service Associate",
-      "url": "https://jobs.lever.co/lalamove/be94e29b-907b-4078-a752-7e34c4e98bad",
-      "hash": "fcac69fc700a50f3",
-      "summary": "",
-      "published_at": "2026-10-08T02:50:54.830000Z",
-      "text": ""
-    },
     "0bc35ed4-129e-47fe-a3da-d1e4b77dd0d4": {
       "title": "Customer Service Associate 客戶服務專員",
       "url": "https://jobs.lever.co/lalamove/0bc35ed4-129e-47fe-a3da-d1e4b77dd0d4",
@@ -402,6 +386,14 @@
       "hash": "00d15d5b33979a29",
       "summary": "",
       "published_at": "2026-11-03T06:35:24.672000Z",
+      "text": ""
+    },
+    "1be73eed-0f0f-444d-a465-d62dbe19a7d5": {
+      "title": "Driver Operations Associate - Onboarding",
+      "url": "https://jobs.lever.co/lalamove/1be73eed-0f0f-444d-a465-d62dbe19a7d5",
+      "hash": "dc1dbc030e31f598",
+      "summary": "",
+      "published_at": "2026-11-27T02:22:26.462000Z",
       "text": ""
     },
     "53d799ef-8cf9-4b3f-9ab5-d76908457c30": {
@@ -1487,7 +1479,8 @@
     "95b4a604-89e2-4699-9723-c3c67d27d33d",
     "835d3d06-0e3d-42b1-aed8-85f18a3778ab",
     "de55266a-b824-46bf-ba5a-35f22f783a3d",
-    "cb72e200-2e51-4a29-bcae-167ac860e8cc"
+    "cb72e200-2e51-4a29-bcae-167ac860e8cc",
+    "1be73eed-0f0f-444d-a465-d62dbe19a7d5"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

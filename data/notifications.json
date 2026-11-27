@@ -1,6 +1,37 @@
 {
   "notifications": [
     {
+      "id": "alert-915d57935ce37d82",
+      "kind": "alert",
+      "created_at": "2026-11-27T05:06:34.057808Z",
+      "title": "3 条情报达到提醒条件",
+      "body": "- [重要·88] [Summer Internship 2027] Marketing Intern, Creative Design（Agoda 全球职位）\n- [重要·84] 供应链需求计划/Demand&Inventory planner (LOP) for East Asia_PT（博世中国 公开职位（SmartRecruiters））\n- [重要·76] 高级项目采购工程师_DCCX（博世中国 公开职位（SmartRecruiters））",
+      "event_ids": [
+        "7a795101e54848d8",
+        "af51715998088582",
+        "3ab6136712c1a349"
+      ],
+      "level": "high"
+    },
+    {
+      "id": "digest-2026-11-27",
+      "kind": "digest",
+      "created_at": "2026-11-27T05:06:34.057808Z",
+      "title": "每日摘要 2026-11-27：8 条变化",
+      "body": "# 知更日报 2026-11-27\n\n共发现 **8** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[重要 88]** [[Summer Internship 2027] Marketing Intern, Creative Design](https://job-boards.greenhouse.io/agoda/jobs/8419880) — Agoda 全球职位 · 新增 · 关键词：实习、实习、intern\n- **[重要 84]** [供应链需求计划/Demand&Inventory planner (LOP) for East Asia_PT](https://jobs.smartrecruiters.com/BoschGroup/744000163957469) — 博世中国 公开职位（SmartRecruiters） · 新增 · 关键词：物流与供应链、生产计划、仓储与运营\n- **[重要 76]** [高级项目采购工程师_DCCX](https://jobs.smartrecruiters.com/BoschGroup/744000163816340) — 博世中国 公开职位（SmartRecruiters） · 新增 · 关键词：采购与物料管理\n- **[关注 60]** [v3.60.0](https://github.com/openai/openai-python/releases/tag/v3.60.0) — OpenAI Python SDK Releases · 新增\n- **[关注 55]** [0.174.0-alpha.8 (rust-v0.174.0-alpha.8)](https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.8) — OpenAI Codex CLI Releases · 新增\n- **[关注 48]** [Elevated errors with Codex GitHub reviews and pull request merges](https://status.openai.com//incidents/01M89RGC3STKK2MT53TXHFMY4H) — OpenAI 服务状态 · 修改\n- **[一般 38]** [API Pricing | SpaceXSI Docs](https://docs.x.ai/developers/pricing) — xAI API 定价 · 修改\n- **[一般 28]** [Product Manager (Technical), Product Support Experience](https://job-boards.greenhouse.io/anthropic/jobs/5415822008) — Anthropic 公开职位（Greenhouse） · 移除\n",
+      "event_ids": [
+        "7a795101e54848d8",
+        "6edbfd9fe8255424",
+        "49ad8ed0f2730667",
+        "af51715998088582",
+        "3ab6136712c1a349",
+        "db58472baff6d6fe",
+        "783cb791ccd78603",
+        "ff5752bc8417b8ea"
+      ],
+      "level": "high"
+    },
+    {
       "id": "alert-47abd9f4bf9a41c0",
       "kind": "alert",
       "created_at": "2026-11-26T05:08:59.775651Z",

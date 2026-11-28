@@ -1,7 +1,7 @@
 {
   "source_id": "agoda-jobs",
-  "taken_at": "2026-11-27T05:05:38.927683Z",
-  "etag": "W/\"4544bad9f812db90deb8000660c5b498\"",
+  "taken_at": "2026-11-28T04:45:17.093831Z",
+  "etag": "W/\"9514cb886dfe6b2a1c35c3a68546f962\"",
   "last_modified": null,
   "items": {
     "8184766": {
@@ -580,20 +580,20 @@
       "published_at": "2026-07-21T09:08:40Z",
       "text": ""
     },
-    "8364887": {
-      "title": "Connectivity Manager",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8364887",
-      "hash": "ac7236d4aa79ecb4",
-      "summary": "",
-      "published_at": "2026-11-18T13:21:51Z",
-      "text": ""
-    },
     "8402948": {
       "title": "Connectivity Manager",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8402948",
       "hash": "ac7236d4aa79ecb4",
       "summary": "",
       "published_at": "2026-11-19T17:52:05Z",
+      "text": ""
+    },
+    "8364887": {
+      "title": "Connectivity Manager",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8364887",
+      "hash": "ac7236d4aa79ecb4",
+      "summary": "",
+      "published_at": "2026-11-18T13:21:51Z",
       "text": ""
     },
     "8413400": {
@@ -738,6 +738,14 @@
       "hash": "a2a57be699d37b29",
       "summary": "",
       "published_at": "2026-10-22T02:55:45Z",
+      "text": ""
+    },
+    "8188118": {
+      "title": "Customer Experience Team Manager (Pune)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8188118",
+      "hash": "021e028384584d9f",
+      "summary": "",
+      "published_at": "2026-09-10T02:59:53Z",
       "text": ""
     },
     "8326690": {
@@ -1068,14 +1076,6 @@
       "published_at": "2025-09-11T18:56:33Z",
       "text": ""
     },
-    "8260729": {
-      "title": "Manager / Senior Manager, Commercial Strategy and Operations (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8260729",
-      "hash": "3fc96e6aa40d983c",
-      "summary": "",
-      "published_at": "2026-10-07T06:01:23Z",
-      "text": ""
-    },
     "7130135": {
       "title": "Manager/Senior Manager, Corporate Strategy (Bangkok Based)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/7130135",
@@ -1090,46 +1090,6 @@
       "hash": "8ee88a566cd357ff",
       "summary": "",
       "published_at": "2026-10-01T02:58:35Z",
-      "text": ""
-    },
-    "8260728": {
-      "title": "Manager / Senior Manager, Partnership Strategy and Operations (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8260728",
-      "hash": "064899fdaabc5d34",
-      "summary": "",
-      "published_at": "2026-10-07T06:01:25Z",
-      "text": ""
-    },
-    "8260727": {
-      "title": "Manager / Senior Manager, Strategic Business Operations (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8260727",
-      "hash": "4ff49041687e5c2e",
-      "summary": "",
-      "published_at": "2026-10-07T06:01:28Z",
-      "text": ""
-    },
-    "8260731": {
-      "title": "Manager / Senior Manager, Strategic Initiatives (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8260731",
-      "hash": "bd3fdfa099c5ea75",
-      "summary": "",
-      "published_at": "2026-10-07T06:01:30Z",
-      "text": ""
-    },
-    "8255568": {
-      "title": "Manager / Senior Manager, Strategic Partnerships, Centre of Excellence (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8255568",
-      "hash": "8d5cc0aec46547b6",
-      "summary": "",
-      "published_at": "2026-10-07T04:34:04Z",
-      "text": ""
-    },
-    "8260730": {
-      "title": "Manager / Senior Manager, Travel Distribution Strategy (Bangkok-based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8260730",
-      "hash": "12245b722b94fead",
-      "summary": "",
-      "published_at": "2026-10-07T06:01:33Z",
       "text": ""
     },
     "8370710": {
@@ -1444,20 +1404,20 @@
       "published_at": "2026-11-05T08:23:20Z",
       "text": ""
     },
-    "8232454": {
-      "title": "Regional Manager, Operations (Based in Yokohama)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/8232454",
-      "hash": "ec8ed0bb7a443319",
-      "summary": "",
-      "published_at": "2026-09-25T03:40:32Z",
-      "text": ""
-    },
     "8352261": {
       "title": "Regional Manager, Operations (Based in Yokohama)",
       "url": "https://job-boards.greenhouse.io/agoda/jobs/8352261",
       "hash": "ec8ed0bb7a443319",
       "summary": "",
       "published_at": "2026-11-05T08:24:48Z",
+      "text": ""
+    },
+    "8232454": {
+      "title": "Regional Manager, Operations (Based in Yokohama)",
+      "url": "https://job-boards.greenhouse.io/agoda/jobs/8232454",
+      "hash": "ec8ed0bb7a443319",
+      "summary": "",
+      "published_at": "2026-09-25T03:40:32Z",
       "text": ""
     },
     "8401692": {
@@ -2186,14 +2146,6 @@
       "hash": "c6627c07a379460f",
       "summary": "",
       "published_at": "2024-08-09T09:06:24Z",
-      "text": ""
-    },
-    "7584956": {
-      "title": "Staff Software Engineer - Frontend-Heavy Full Stack (Gurugram Based)",
-      "url": "https://job-boards.greenhouse.io/agoda/jobs/7584956",
-      "hash": "46e38a3661dc4cdf",
-      "summary": "",
-      "published_at": "2026-02-03T10:00:03Z",
       "text": ""
     },
     "7543802": {

@@ -1,6 +1,25 @@
 {
   "notifications": [
     {
+      "id": "digest-2026-11-28",
+      "kind": "digest",
+      "created_at": "2026-11-28T04:46:13.186704Z",
+      "title": "每日摘要 2026-11-28：9 条变化",
+      "body": "# 知更日报 2026-11-28\n\n共发现 **9** 条变化（按规则评分排序，评分仅用于辅助筛选）：\n\n- **[关注 68]** [District Sales Executive](https://jobs.smartrecruiters.com/Expeditors/744000163966014) — Expeditors 中国区职位 · 新增 · 关键词：物流与供应链\n- **[关注 64]** [供应链需求计划/Demand&Inventory planner (LOP) for East Asia_PT](https://jobs.smartrecruiters.com/BoschGroup/744000163957469) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：物流与供应链、生产计划、仓储与运营\n- **[关注 55]** [0.174.0-alpha.9 (rust-v0.174.0-alpha.9)](https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9) — OpenAI Codex CLI Releases · 新增\n- **[关注 55]** [Degraded performance for Claude Fable 5.2](https://status.claude.com/incidents/0x1yvzkfmmxj) — Claude 服务状态 · 新增\n- **[关注 48]** [Claude for Microsoft 365 add-in missing for some users](https://status.claude.com/incidents/3vbyqgnswwxq) — Claude 服务状态 · 修改\n- **[一般 36]** [生产计划与制造流程专家(全球)-SAP PP模块_PT](https://jobs.smartrecruiters.com/BoschGroup/744000129924169) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：生产计划\n- **[一般 36]** [SAP实施顾问-供应链计划方向_PT](https://jobs.smartrecruiters.com/BoschGroup/744000120858308) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：物流与供应链\n- **[一般 36]** [仓库数字化工程师_PT](https://jobs.smartrecruiters.com/BoschGroup/744000069248125) — 博世中国 公开职位（SmartRecruiters） · 移除 · 关键词：仓储与运营\n- **[一般 28]** [Trucking Procurement Manager](https://job-boards.greenhouse.io/flexport/jobs/8160591) — Flexport 全球职位 · 移除 · 关键词：采购与物料管理\n",
+      "event_ids": [
+        "35d15500a5040a56",
+        "324a908137741d48",
+        "c49ce1f031c58c88",
+        "691880396239db44",
+        "210c5ccbc248977a",
+        "a40e7c0728c761e4",
+        "86e180d9bc860713",
+        "6c4160743a673112",
+        "b5dad48da9ce7f13"
+      ],
+      "level": "medium"
+    },
+    {
       "id": "alert-915d57935ce37d82",
       "kind": "alert",
       "created_at": "2026-11-27T05:06:34.057808Z",

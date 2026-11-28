@@ -1,7 +1,7 @@
 {
   "source_id": "lalamove-jobs",
-  "taken_at": "2026-11-27T05:05:36.859136Z",
-  "etag": "W/\"139626-eeXpz+uhvq4Ll44z3bgTEPsgm4k\"",
+  "taken_at": "2026-11-28T04:45:14.999111Z",
+  "etag": "W/\"13ab5e-scSmk7PjaK4ap/tTqiNxk2ZFes4\"",
   "last_modified": null,
   "items": {
     "8b1e674f-4b04-4bbc-9564-dcf235b37f60": {
@@ -268,14 +268,6 @@
       "published_at": "2024-10-07T08:30:15.396000Z",
       "text": ""
     },
-    "342d8cd6-1e7a-474a-ab3d-4510279405d2": {
-      "title": "Business Development Executive",
-      "url": "https://jobs.lever.co/lalamove/342d8cd6-1e7a-474a-ab3d-4510279405d2",
-      "hash": "3dceb8b93f08e464",
-      "summary": "",
-      "published_at": "2026-11-03T21:50:20.897000Z",
-      "text": ""
-    },
     "89d5e345-fefb-47a3-bfbe-7bc442c0e392": {
       "title": "Business Intelligence (BI) Engineer",
       "url": "https://jobs.lever.co/lalamove/89d5e345-fefb-47a3-bfbe-7bc442c0e392",
@@ -354,6 +346,14 @@
       "hash": "78f73153d43a6689",
       "summary": "",
       "published_at": "2026-10-27T08:40:34.823000Z",
+      "text": ""
+    },
+    "c81e0996-c8fb-40e5-88d0-fd8efc7c1219": {
+      "title": "Driver Operations Associate",
+      "url": "https://jobs.lever.co/lalamove/c81e0996-c8fb-40e5-88d0-fd8efc7c1219",
+      "hash": "78f73153d43a6689",
+      "summary": "",
+      "published_at": "2026-11-23T22:13:55.352000Z",
       "text": ""
     },
     "f83bb900-c4af-4439-b5d8-ecc559a4b0fc": {
@@ -556,12 +556,12 @@
       "published_at": "2026-11-17T10:09:35.626000Z",
       "text": ""
     },
-    "3730a1f3-de8a-40f7-b3a7-0677db59a36f": {
-      "title": "Ejecutivo de atención a clientes.",
-      "url": "https://jobs.lever.co/lalamove/3730a1f3-de8a-40f7-b3a7-0677db59a36f",
-      "hash": "d04529e9c0b78059",
+    "9699df34-6d59-4878-bdd4-3666e21154de": {
+      "title": "Ejecutivo Comercial",
+      "url": "https://jobs.lever.co/lalamove/9699df34-6d59-4878-bdd4-3666e21154de",
+      "hash": "2ab3ba637b550f58",
       "summary": "",
-      "published_at": "2026-11-11T23:09:52.611000Z",
+      "published_at": "2026-11-27T22:28:41.698000Z",
       "text": ""
     },
     "64adc014-532d-4271-add4-7dbeaa7d6e3a": {
@@ -748,14 +748,6 @@
       "published_at": "2026-02-13T06:08:34.759000Z",
       "text": ""
     },
-    "f09cc716-62dc-473b-b27d-52ff7d7ab50d": {
-      "title": "Marketing coordinator (Temporary position)",
-      "url": "https://jobs.lever.co/lalamove/f09cc716-62dc-473b-b27d-52ff7d7ab50d",
-      "hash": "dc759e20531bd7d0",
-      "summary": "",
-      "published_at": "2026-10-14T23:46:29.430000Z",
-      "text": ""
-    },
     "9053e477-835b-40ac-9fd9-52411b63edd4": {
       "title": "Marketing Intern",
       "url": "https://jobs.lever.co/lalamove/9053e477-835b-40ac-9fd9-52411b63edd4",
@@ -898,6 +890,14 @@
       "hash": "1cd56d53f4a618ab",
       "summary": "",
       "published_at": "2026-02-17T12:26:47.549000Z",
+      "text": ""
+    },
+    "6bb44544-3cd5-48e3-8e9d-888fa5413b76": {
+      "title": "Sales Associate",
+      "url": "https://jobs.lever.co/lalamove/6bb44544-3cd5-48e3-8e9d-888fa5413b76",
+      "hash": "29b60b94728a1cc5",
+      "summary": "",
+      "published_at": "2026-11-23T21:55:35.298000Z",
       "text": ""
     },
     "e5037c55-9f04-4867-a684-4c7d904d5726": {
@@ -1480,7 +1480,10 @@
     "835d3d06-0e3d-42b1-aed8-85f18a3778ab",
     "de55266a-b824-46bf-ba5a-35f22f783a3d",
     "cb72e200-2e51-4a29-bcae-167ac860e8cc",
-    "1be73eed-0f0f-444d-a465-d62dbe19a7d5"
+    "1be73eed-0f0f-444d-a465-d62dbe19a7d5",
+    "c81e0996-c8fb-40e5-88d0-fd8efc7c1219",
+    "9699df34-6d59-4878-bdd4-3666e21154de",
+    "6bb44544-3cd5-48e3-8e9d-888fa5413b76"
   ],
   "scope": "https://api.lever.co/v0/postings/lalamove?mode=json|2000|None"
 }

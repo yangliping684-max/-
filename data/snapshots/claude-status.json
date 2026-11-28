@@ -1,9 +1,17 @@
 {
   "source_id": "claude-status",
-  "taken_at": "2026-11-27T05:06:24.846456Z",
-  "etag": "W/\"128d7e1b2d42ce1826dfeeb098b6b545\"",
+  "taken_at": "2026-11-28T04:46:03.679537Z",
+  "etag": "W/\"c29a64a6b4151c2eba57f7c27115830e\"",
   "last_modified": null,
   "items": {
+    "https://status.claude.com/incidents/0x1yvzkfmmxj": {
+      "title": "Degraded performance for Claude Fable 5.2",
+      "url": "https://status.claude.com/incidents/0x1yvzkfmmxj",
+      "hash": "ebb9ab4a94799ef7",
+      "summary": "Nov 27 , 10:49 UTC Resolved - The issue affecting claude.ai has been resolved. Impact occurred from 02:20 PT / 10:20 UTC to 02:40 PT / 10:40 UTC. Nov 27 , 10:40 UTC Monitoring - A fix has been deployed for the issue affecting Claude services and we are monitoring for recovery. Nov 27 , 10:34 UTC Update - We have identified the cause of elevated errors on requests to Claude Fable 5.2 and are working on a fix. We will provide an update as soon as possible. Nov 27 , 10:34 UTC Identified - We are investigating elevated errors on requests to Claude Fable 5.2. We will provide an update as soon as p…",
+      "published_at": "2026-11-27T10:49:33Z",
+      "text": ""
+    },
     "https://status.claude.com/incidents/yl30wkjblcm6": {
       "title": "Elevated errors for multiple models",
       "url": "https://status.claude.com/incidents/yl30wkjblcm6",
@@ -23,9 +31,9 @@
     "https://status.claude.com/incidents/3vbyqgnswwxq": {
       "title": "Claude for Microsoft 365 add-in missing for some users",
       "url": "https://status.claude.com/incidents/3vbyqgnswwxq",
-      "hash": "864a8ad6e8db8685",
-      "summary": "Nov 25 , 20:21 UTC Identified - We have identified an issue with an upstream provider that is causing the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account. We are in contact with them. In the meantime, we recommend using the web versions of Excel, Word, and PowerPoint at office.com, where Claude remains available for many users. We will provide another update as soon as possible. Nov 24 , 01:31 UTC Update - We are continuing to investigate an issue causing the Claude add-in to disappear from Excel, Wor…",
-      "published_at": "2026-11-25T20:21:12Z",
+      "hash": "b8a57e5eee1a9386",
+      "summary": "Nov 27 , 19:48 UTC Monitoring - Our upstream provider has applied a mitigation for the issue that caused the Claude add-in to disappear from Excel, Word, and PowerPoint on Mac for users signed in to Microsoft Office with a personal Microsoft account, and we are monitoring for recovery. If Claude is still missing, try adding it again from Microsoft Marketplace, or use the web versions of Excel, Word, and PowerPoint at office.com, where Claude remains available for many users. We will provide another update as soon as possible. Nov 25 , 20:21 UTC Identified - We have identified an issue with an…",
+      "published_at": "2026-11-27T19:48:22Z",
       "text": ""
     },
     "https://status.claude.com/incidents/yzs0s90d8fm8": {
@@ -195,14 +203,6 @@
       "summary": "Oct 24 , 00:37 UTC Resolved - The issue affecting Claude Opus 5.5 has been resolved. Impact occurred from 17:23 PT on October 23 / 00:23 UTC on October 24 to 17:34 PT on October 23 / 00:34 UTC on October 24. Oct 24 , 00:31 UTC Investigating - We are investigating elevated errors on requests to Claude Opus 5.5. We will provide an update as soon as possible.",
       "published_at": "2026-10-24T00:37:17Z",
       "text": ""
-    },
-    "https://status.claude.com/incidents/h101vcmhnfky": {
-      "title": "Elevated errors for Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5",
-      "url": "https://status.claude.com/incidents/h101vcmhnfky",
-      "hash": "df418d9b8736b68e",
-      "summary": "Oct 24 , 00:11 UTC Resolved - The issue affecting Claude models has been resolved. Impact occurred from 16:28 PT / 23:28 UTC on October 23 to 16:59 PT / 23:59 UTC on October 23. Oct 23 , 23:54 UTC Monitoring - We are seeing success rates return to normal for all affected models, and are continuing to monitor to ensure no further issues. Oct 23 , 23:39 UTC Identified - We have identified the cause of elevated errors on requests to Claude Fable 5.1, Sonnet 5.5, and Haiku 5.5, as well as fast mode requests to Opus 5.5 and are working on a fix. We will provide an update as soon as possible. Oct 2…",
-      "published_at": "2026-10-24T00:11:20Z",
-      "text": ""
     }
   },
   "seen_keys": [
@@ -257,7 +257,8 @@
     "https://status.claude.com/incidents/3vbyqgnswwxq",
     "https://status.claude.com/incidents/yzs0s90d8fm8",
     "https://status.claude.com/incidents/fbvlx4wx4zx5",
-    "https://status.claude.com/incidents/yl30wkjblcm6"
+    "https://status.claude.com/incidents/yl30wkjblcm6",
+    "https://status.claude.com/incidents/0x1yvzkfmmxj"
   ],
   "scope": "https://status.claude.com/history.rss|50|None"
 }

@@ -1,9 +1,17 @@
 {
   "source_id": "continental-china-jobs",
-  "taken_at": "2026-11-26T05:07:55.202771Z",
+  "taken_at": "2026-11-28T04:45:08.648261Z",
   "etag": null,
   "last_modified": null,
   "items": {
+    "744000163977979": {
+      "title": "CN_Sales Representative_Beijing",
+      "url": "https://jobs.smartrecruiters.com/Continental/744000163977979",
+      "hash": "8fc70873493c4b93",
+      "summary": "",
+      "published_at": "2026-11-27T08:11:36.174000Z",
+      "text": ""
+    },
     "744000163135202": {
       "title": "Tire Test Engineer",
       "url": "https://jobs.smartrecruiters.com/Continental/744000163135202",
@@ -210,7 +218,8 @@
     "744000155145559",
     "744000157718959",
     "744000162213599",
-    "744000163135202"
+    "744000163135202",
+    "744000163977979"
   ],
   "scope": "https://api.smartrecruiters.com/v1/companies/Continental/postings?limit=100&country=cn|2000|{'offset_param': 'offset', 'page_size': 100, 'max_pages': 20}"
 }
